@@ -1,0 +1,64 @@
+{
+  "name": "hackapay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "github.com/fodisi",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/fodisi/hackapay/issues"
+  },
+  "homepage": "https://github.com/fodisi/hackapay#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "ganache-cli": "^6.4.5",
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.27",
+    "solhint": "^2.1.0",
+    "solhint-plugin-prettier": "0.0.3",
+    "truffle": "^5.0.27"
+  },
+  "dependencies": {
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0",
+    "openzeppelin-solidity": "^2.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,css,sass,yaml,yml,json,md}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.sol": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
