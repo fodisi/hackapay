@@ -26,4 +26,3 @@ dist/*
 *.iml
 .env
 database/*
-package-lock.json
