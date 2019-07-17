@@ -1,0 +1,332 @@
+{
+  "contractName": "OrganizerRoleMock",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isOrganizer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceOrganizer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "addOrganizer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "OrganizerAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "OrganizerRemoved",
+      "type": "event"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Software Development/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol\":\"OrganizerRoleMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Software Development/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol\":{\"keccak256\":\"0x46f6e62a5c6e77cd1a53667b4065c71031ac93281222e4c7f907c2f6b22cc4f7\",\"urls\":[\"bzzr://73dd2ae3a711835ab183b858476b5e2ca9b2e5efe9e4350096d4443ceb6730ec\"]},\"/C/Software Development/Projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0xba7c427467fe2b44dabae96e5fcc9595a2b6f9bc64ba0b498f0d91b4c930f4b4\",\"urls\":[\"bzzr://39e1ff0f5574810a0297f3c69481f37e49161d5bd280e356a60740150afeefc7\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506100203361002560201b60201c565b610242565b61003d81600061008360201b6103d11790919060201c565b8073ffffffffffffffffffffffffffffffffffffffff167f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf60405160405180910390a250565b610093828261016460201b60201c565b15610106576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614156101eb576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602281526020018061079f6022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b61054e806102516000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806341676f1514610046578063567ad862146100a2578063e4725f02146100ac575b600080fd5b6100886004803603602081101561005c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506100f0565b604051808215151515815260200191505060405180910390f35b6100aa61010d565b005b6100ee600480360360208110156100c257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610118565b005b600061010682600061018290919063ffffffff16565b9050919050565b61011633610260565b565b610121336100f0565b610176576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806104ad6033913960400191505060405180910390fd5b61017f816102ba565b50565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610209576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105016022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b61027481600061031490919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e360405160405180910390a250565b6102ce8160006103d190919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf60405160405180910390a250565b61031e8282610182565b610373576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001806104e06021913960400191505060405180910390fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6103db8282610182565b1561044e576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a7230582004aec6ed0c53eee556d2570503c5dad0dccd3a60a90a7b5494960aa13dab7ee10029526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806341676f1514610046578063567ad862146100a2578063e4725f02146100ac575b600080fd5b6100886004803603602081101561005c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506100f0565b604051808215151515815260200191505060405180910390f35b6100aa61010d565b005b6100ee600480360360208110156100c257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610118565b005b600061010682600061018290919063ffffffff16565b9050919050565b61011633610260565b565b610121336100f0565b610176576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260338152602001806104ad6033913960400191505060405180910390fd5b61017f816102ba565b50565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610209576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105016022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b61027481600061031490919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e360405160405180910390a250565b6102ce8160006103d190919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf60405160405180910390a250565b61031e8282610182565b610373576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001806104e06021913960400191505060405180910390fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6103db8282610182565b1561044e576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a7230582004aec6ed0c53eee556d2570503c5dad0dccd3a60a90a7b5494960aa13dab7ee10029",
+  "sourceMap": "67:93:1:-;;;118:39;8:9:-1;5:2;;;30:1;27;20:12;5:2;118:39:1;321:25:4;335:10;321:13;;;:25;;:::i;:::-;67:93:1;;815:131:4;875:24;891:7;875:11;:15;;;;;;:24;;;;:::i;:::-;930:7;915:23;;;;;;;;;;;;815:131;:::o;260:175:5:-;337:18;341:4;347:7;337:3;;;:18;;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o;779:200::-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;67:93:1:-;;;;;;;",
+  "deployedSourceMap": "67:93:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;67:93:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;498:109:4;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;498:109:4;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;724:83;;;:::i;:::-;;615:101;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;615:101:4;;;;;;;;;;;;;;;;;;;:::i;:::-;;498:109;557:4;577:24;593:7;577:11;:15;;:24;;;;:::i;:::-;570:31;;498:109;;;:::o;724:83::-;771:28;788:10;771:16;:28::i;:::-;724:83::o;615:101::-;399:23;411:10;399:11;:23::i;:::-;390:88;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;686:22;700:7;686:13;:22::i;:::-;615:101;:::o;779:200:5:-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;954:139:4:-;1017:27;1036:7;1017:11;:18;;:27;;;;:::i;:::-;1077:7;1060:25;;;;;;;;;;;;954:139;:::o;815:131::-;875:24;891:7;875:11;:15;;:24;;;;:::i;:::-;930:7;915:23;;;;;;;;;;;;815:131;:::o;510:180:5:-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;678:5;655:4;:11;;:20;667:7;655:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;510:180;;:::o;260:175::-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport \"../roles/OrganizerRole.sol\";\r\n\r\ncontract OrganizerRoleMock is OrganizerRole {\r\n    constructor() public OrganizerRole() {}\r\n}\r\n",
+  "sourcePath": "C:/Software Development/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
+  "ast": {
+    "absolutePath": "/C/Software Development/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
+    "exportedSymbols": {
+      "OrganizerRoleMock": [68]
+    },
+    "id": 69,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": ["solidity", "^", "0.5", ".0"],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/C/Software Development/Projects/hackapay/contracts/roles/OrganizerRole.sol",
+        "file": "../roles/OrganizerRole.sol",
+        "id": 59,
+        "nodeType": "ImportDirective",
+        "scope": 69,
+        "sourceUnit": 381,
+        "src": "27:36:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 60,
+              "name": "OrganizerRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 380,
+              "src": "97:13:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_OrganizerRole_$380",
+                "typeString": "contract OrganizerRole"
+              }
+            },
+            "id": 61,
+            "nodeType": "InheritanceSpecifier",
+            "src": "97:13:1"
+          }
+        ],
+        "contractDependencies": [380],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 68,
+        "linearizedBaseContracts": [68, 380],
+        "name": "OrganizerRoleMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 66,
+              "nodeType": "Block",
+              "src": "155:2:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 67,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [
+              {
+                "arguments": [],
+                "id": 64,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 63,
+                  "name": "OrganizerRole",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 380,
+                  "src": "139:13:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$380_$",
+                    "typeString": "type(contract OrganizerRole)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "139:15:1"
+              }
+            ],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 62,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "129:2:1"
+            },
+            "returnParameters": {
+              "id": 65,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:1"
+            },
+            "scope": 68,
+            "src": "118:39:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 69,
+        "src": "67:93:1"
+      }
+    ],
+    "src": "0:162:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Software Development/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
+    "exportedSymbols": {
+      "OrganizerRoleMock": [68]
+    },
+    "id": 69,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": ["solidity", "^", "0.5", ".0"],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/C/Software Development/Projects/hackapay/contracts/roles/OrganizerRole.sol",
+        "file": "../roles/OrganizerRole.sol",
+        "id": 59,
+        "nodeType": "ImportDirective",
+        "scope": 69,
+        "sourceUnit": 381,
+        "src": "27:36:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 60,
+              "name": "OrganizerRole",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 380,
+              "src": "97:13:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_OrganizerRole_$380",
+                "typeString": "contract OrganizerRole"
+              }
+            },
+            "id": 61,
+            "nodeType": "InheritanceSpecifier",
+            "src": "97:13:1"
+          }
+        ],
+        "contractDependencies": [380],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 68,
+        "linearizedBaseContracts": [68, 380],
+        "name": "OrganizerRoleMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 66,
+              "nodeType": "Block",
+              "src": "155:2:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 67,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [
+              {
+                "arguments": [],
+                "id": 64,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 63,
+                  "name": "OrganizerRole",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 380,
+                  "src": "139:13:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$380_$",
+                    "typeString": "type(contract OrganizerRole)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "139:15:1"
+              }
+            ],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 62,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "129:2:1"
+            },
+            "returnParameters": {
+              "id": 65,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:1"
+            },
+            "scope": 68,
+            "src": "118:39:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 69,
+        "src": "67:93:1"
+      }
+    ],
+    "src": "0:162:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xd480Cf9c40Ccb8B85B4C5f9cBF477377fC7a3594",
+      "transactionHash": "0xef6d0c1e06308251905e7dc6697cd0f528b7f96e2fe7f08a70e2a0768f100fa9"
+    }
+  },
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-07-17T02:21:31.653Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
