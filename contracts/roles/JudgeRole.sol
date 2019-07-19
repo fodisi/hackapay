@@ -11,6 +11,8 @@ contract JudgeRole {
     Roles.Role private _judges;
 
     constructor() internal {
+        // Needs to be inherited.
+        // TODO: remove _addJudge
         _addJudge(msg.sender);
     }
 
@@ -23,6 +25,7 @@ contract JudgeRole {
         return _judges.has(account);
     }
 
+    // TODO: Refactor to allow only organizers to do judges.
     function addJudge(address account) public onlyJudge {
         _addJudge(account);
     }
