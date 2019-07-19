@@ -3,25 +3,25 @@ pragma solidity ^0.5.0;
 import "openzeppelin-solidity/contracts/access/Roles.sol";
 
 contract JudgeRole {
-  using Roles for Roles.Role;
+    using Roles for Roles.Role;
 
-  event JudgeAdded(address indexed account);
-  event JudgeRemoved(address indexed account);
+    event JudgeAdded(address indexed account);
+    event JudgeRemoved(address indexed account);
 
-  Roles.Role private _judges;
+    Roles.Role private _judges;
 
-  constructor() internal {
-    _addJudge(msg.sender);
-  }
+    constructor() internal {
+        _addJudge(msg.sender);
+    }
 
-  modifier onlyJudge() {
-    require (isJudge(msg.sender), "JudgeRole: caller does not have Judge Role.");
-    _;
-  }
+    modifier onlyJudge() {
+        require(isJudge(msg.sender), "JudgeRole: caller does not have Judge Role.");
+        _;
+    }
 
-  function isJudge(address account) public view returns (bool) {
-    return _judges.has(account);
-  }
+    function isJudge(address account) public view returns (bool) {
+        return _judges.has(account);
+    }
 
     function addJudge(address account) public onlyJudge {
         _addJudge(account);

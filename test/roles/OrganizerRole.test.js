@@ -9,5 +9,6 @@ contract("OrganizerRole", function([_, organizer, otherOrganizer, ...otherAccoun
     await this.contract.addOrganizer(otherOrganizer, {from: organizer});
   });
 
+  // Testes scenarios described here.
   shouldBehaveLikeRole(organizer, otherOrganizer, otherAccounts, "Organizer");
 });

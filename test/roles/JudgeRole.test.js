@@ -8,5 +8,6 @@ contract("JudgeRole", function([_, judge, otherJudge, ...otherAccounts]) {
     await this.contract.addJudge(otherJudge, {from: judge});
   });
 
+  // Testes scenarios described here.
   shouldBehaveLikeRole(judge, otherJudge, otherAccounts, "Judge");
 });
