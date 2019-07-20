@@ -12,7 +12,6 @@ contract JudgeRole {
 
     constructor() internal {
         // Needs to be inherited.
-        // TODO: remove _addJudge
     }
 
     modifier onlyJudge() {
