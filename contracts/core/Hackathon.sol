@@ -7,7 +7,7 @@ contract Hackathon is OrganizerRole {
     bytes32 public name;
     bytes32 public description;
 
-    constructor(uint256 _id, bytes32 memory _name, bytes32 memory _description) public {
+    constructor(uint256 _id, bytes32 _name, bytes32 _description) public {
         require(name != "", "Invalid name");
         id = _id;
         name = _name;
