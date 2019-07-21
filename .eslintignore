@@ -3,3 +3,5 @@ node_modules/*
 package.json
 package-lock.json
 test/roles/*
+truffle-config.json
+truffle-security.json

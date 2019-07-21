@@ -1,0 +1,2 @@
+export MYTHX_ETH_ADDRESS=0xc3a26aa46ffd41ed366d439fa8cd4ef1d458cddc
+export MYTHX_PASSWORD='dN?MSNue7LklhCAy'
