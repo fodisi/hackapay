@@ -1,22 +1,35 @@
 pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
-
 import "../roles/AttendeeRole.sol";
+import "./IPayableHackathonTeam.sol";
 
 /**
- * @dev Decided not to keep an array of members and use this array to automatically
- * set the members balance in a mapping, since we allow members to renounce from the team.
- * This contract follows the "withdraw pattern". This means that payments are not automatically forwarded to the
+ * @notice Represents a HackathonTeam, allowing the team to receive prizes, and members to split and withdraw their prizes.
+ * @dev This contract follows the "withdraw pattern". This means that payments are not automatically forwarded to the
  * accounts but kept in this contract, and the actual transfer is triggered as a separate step by calling the {withdraw}
  * function.
  */
-contract HackathonTeam is AttendeeRole {
-    //TODO: implement multisig to close contract for new members.
+
+// Future improvements
+//TODO: implement multisig to close the contract for new members.
+//TODO: implement multisig to destroy the contract.
+//TODO: implement multisig to remove members.
+//TODO: implement multisig to transfer contract's funds to another address. See TODO on {splitPrize}.
+contract HackathonTeam is IPayableHackathonTeam, AttendeeRole {
     using SafeMath for uint256;
 
+    address[] internal teamMembers; // List of members
+    uint256 internal activeTeamMembersCount; // Helper for {splitPrize} and {getActiveMembers}.
+    mapping(address => bool) internal activeTeamMembers; // Controls active members
+    mapping(address => uint256) internal balances; // Controls member's balances.
+    uint256 internal reservedBalance; // Controls reserved balance, that was already split.
+
+    /// @notice Event emitted when the contract recieves a deposit.
     event Deposit(address indexed from, uint256 amount, uint256 indexed datetime);
+    /// @notice Event emitted when a member withdraws from the contract.
     event Withdraw(address indexed to, uint256 amount, uint256 indexed datetime);
+    /// @notice Event emitted when the contract's balance (prize) is split between active members.
     event PrizeSplit(
         address indexed sender,
         uint256 totalPrize,
@@ -25,13 +38,8 @@ contract HackathonTeam is AttendeeRole {
         uint256 indexed datetime
     );
 
-    address[] private teamMembers;
-    uint256 private activeTeamMembersCount; // Helper for {splitPrize} and {getActiveMembers}.
-    mapping(address => bool) private activeTeamMembers;
-    mapping(address => uint256) private balances;
-    uint256 private reservedBalance;
-
-    function deposit() public payable {
+    /// @notice Allows the contract to receive funds.
+    function deposit() external payable {
         require(msg.value > 0, "msg.value must be greather than 0");
         emit Deposit(msg.sender, msg.value, now);
     }
@@ -39,7 +47,7 @@ contract HackathonTeam is AttendeeRole {
     /**
      * @notice Splits the available's contract balance between active team members.
      * @dev Implements the "withdraw pattern" by allocating balances to team 
-     * members, so they can request a withdraw later.
+     * members, so they can request a withdraw once the split is done.
      */
     function splitPrize() public onlyAttendee {
         // Cannot split amounts that were split in the past and are still pending from withdraw.
@@ -54,6 +62,7 @@ contract HackathonTeam is AttendeeRole {
 
         for (uint256 index = 0; index < teamMembers.length; index++) {
             address member = teamMembers[index];
+            // Credits active member's balance.
             if (activeTeamMembers[member] == true) {
                 balances[member] = balances[member].add(prize);
                 distributedPrize = distributedPrize.add(prize);
@@ -63,6 +72,8 @@ contract HackathonTeam is AttendeeRole {
         // Makes sure new split is reserved and accounted in future splits
         reservedBalance = reservedBalance.add(availableBalance);
         // Makes sure no invalid distribution was done.
+        // TODO: this is a potential risk for contract's fund. In case there's a uncaught bug in the above
+        // logic, contract's funds could be stuck in the contract forever. See future improvements.
         require(distributedPrize == expectedDistribution, "Invalid split between active members");
         require(address(this).balance == reservedBalance, "Reserved balanced was not updated properly");
         emit PrizeSplit(msg.sender, availableBalance, activeTeamMembersCount, prize, now);
@@ -71,22 +82,25 @@ contract HackathonTeam is AttendeeRole {
     /**
      * @notice Allows a team member to withdraw its funds from the contract.
      * @dev Implements the "withdraw pattern" allowing members to withdraw funds.
-     * Note The method is public, so inactive members (that renounced membership)
+     * The method is public, so inactive members (that renounced membership)
      * are still able to withdraw funds in case balance > 0. 
      */
     function withdraw(uint256 amount) public {
-        require(balances[msg.sender] >= amount, "No balance available");
+        require(balances[msg.sender] >= amount, "Not enough balance");
         uint256 currentBalance = balances[msg.sender];
         currentBalance = currentBalance.sub(amount);
         balances[msg.sender] = currentBalance;
+        // Updates contract's reserved balance, so future splits will be correctly calculated.
         reservedBalance = reservedBalance.sub(amount);
         msg.sender.transfer(amount);
         emit Withdraw(msg.sender, amount, now);
     }
 
+    /// @notice Gets the active members in the team.
     function getActiveMembers() public view returns (address[] memory) {
         require(activeTeamMembersCount <= teamMembers.length);
         address[] memory activeMembers = new address[](activeTeamMembersCount);
+        // {teamMembers} can have INACTIVE members, so need to loop through to return only active members.
         for (uint256 index = 0; index < teamMembers.length; index++) {
             address member = teamMembers[index];
             if (activeTeamMembers[member] == true) {
@@ -96,27 +110,30 @@ contract HackathonTeam is AttendeeRole {
         return activeMembers;
     }
 
+    /// @notice Gets the number of active team members.
     function getActiveMembersCount() public view returns (uint256) {
         return activeTeamMembersCount;
     }
 
+    /// @notice Get the balance of a team member
     function balanceOf() public view onlyAttendee returns (uint256) {
         return balances[msg.sender];
     }
 
+    /// @dev Overrides {AttendeeRole} internal method, to properly update internal storage related to team members.
     function _addAttendee(address account) internal {
-        // Avoids a member add a new address that s/he owns to withdraw funds from other members.
         super._addAttendee(account);
         teamMembers.push(account);
         activeTeamMembers[account] = true;
         activeTeamMembersCount = activeTeamMembersCount.add(1);
     }
 
+    /// @dev Overrides {AttendeeRole} internal method, to properly update internal storage related to team members.
     function _removeAttendee(address account) internal {
+        // Makes sure the contract have at least of member/owner.
         require(activeTeamMembersCount > 1, "Cannot remove last member from contract");
         super._removeAttendee(account);
         activeTeamMembers[account] = false;
         activeTeamMembersCount = activeTeamMembersCount.sub(1);
     }
-
 }
