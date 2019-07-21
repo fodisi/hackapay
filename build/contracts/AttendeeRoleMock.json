@@ -100,32 +100,32 @@
   "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addAttendee\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isAttendee\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"onlyAttendeeMock\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeAttendee\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceAttendee\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"AttendeeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"AttendeeRemoved\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/AttendeeRoleMock.sol\":\"AttendeeRoleMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/AttendeeRoleMock.sol\":{\"keccak256\":\"0xfec7b2cca5b5cd29102993e616112c3d9912aa2529d425e83351407b03ec25bf\",\"urls\":[\"bzzr://fc1b0805b8fec74f7f7dc5f5599483017f04eb4d7e00b093666743658adb7ab1\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/AttendeeRole.sol\":{\"keccak256\":\"0xc40f9d8837a29933ff264cda56ce6d909642a3668c03ffd53d17370a7f815809\",\"urls\":[\"bzzr://74f26a793547333c1c314d53fc98efc258d882d3df3ed3547dd767963937b2bb\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]}},\"version\":1}",
   "bytecode": "0x608060405234801561001057600080fd5b506100203361002560201b60201c565b610242565b61003d81600061008360201b6103961790919060201c565b8073ffffffffffffffffffffffffffffffffffffffff167ff965229cbef17c17a2ced10d89ec5f669942d8dd77bd8a5debcaed392434504e60405160405180910390a250565b610093828261016460201b60201c565b15610106576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614156101eb576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806108796022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b610628806102516000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c8063102462541461005c5780636cad2590146100a0578063b977672a146100fc578063e55448fc14610106578063fb1da5431461014a575b600080fd5b61009e6004803603602081101561007257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610154565b005b6100e2600480360360208110156100b657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101be565b604051808215151515815260200191505060405180910390f35b6101046101db565b005b6101486004803603602081101561011c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061023b565b005b610152610247565b005b61015d336101be565b6101b2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260318152602001806105cc6031913960400191505060405180910390fd5b6101bb81610252565b50565b60006101d48260006102ac90919063ffffffff16565b9050919050565b6101e4336101be565b610239576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260318152602001806105cc6031913960400191505060405180910390fd5b565b6102448161038a565b50565b6102503361038a565b565b61026681600061039690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167ff965229cbef17c17a2ced10d89ec5f669942d8dd77bd8a5debcaed392434504e60405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610333576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105aa6022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b61039381610471565b50565b6103a082826102ac565b15610413576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6104858160006104cb90919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fac9358f7f807517a7bfea84ce37617a495e55d78f95d2efadcdfbf94817220e060405160405180910390a250565b6104d582826102ac565b61052a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001806105896021913960400191505060405180910390fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fe526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373417474656e646565526f6c653a2063616c6c657220646f6573206e6f74206861766520417474656e64656520526f6c652ea165627a7a72305820bb3f49b1a66f2a1103496e6c6f6c0624bc098f3d2b95f1bedbc26e1e360a9abc0029526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
   "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c8063102462541461005c5780636cad2590146100a0578063b977672a146100fc578063e55448fc14610106578063fb1da5431461014a575b600080fd5b61009e6004803603602081101561007257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610154565b005b6100e2600480360360208110156100b657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101be565b604051808215151515815260200191505060405180910390f35b6101046101db565b005b6101486004803603602081101561011c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061023b565b005b610152610247565b005b61015d336101be565b6101b2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260318152602001806105cc6031913960400191505060405180910390fd5b6101bb81610252565b50565b60006101d48260006102ac90919063ffffffff16565b9050919050565b6101e4336101be565b610239576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260318152602001806105cc6031913960400191505060405180910390fd5b565b6102448161038a565b50565b6102503361038a565b565b61026681600061039690919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167ff965229cbef17c17a2ced10d89ec5f669942d8dd77bd8a5debcaed392434504e60405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610333576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105aa6022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b61039381610471565b50565b6103a082826102ac565b15610413576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6104858160006104cb90919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fac9358f7f807517a7bfea84ce37617a495e55d78f95d2efadcdfbf94817220e060405160405180910390a250565b6104d582826102ac565b61052a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001806105896021913960400191505060405180910390fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fe526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373417474656e646565526f6c653a2063616c6c657220646f6573206e6f74206861766520417474656e64656520526f6c652ea165627a7a72305820bb3f49b1a66f2a1103496e6c6f6c0624bc098f3d2b95f1bedbc26e1e360a9abc0029",
-  "sourceMap": "62:485:2:-;;;110:38;8:9:-1;5:2;;;30:1;27;20:12;5:2;110:38:2;318:24:5;331:10;318:12;;;:24;;:::i;:::-;62:485:2;;801:125:5;859:23;874:7;859:10;:14;;;;;;:23;;;;:::i;:::-;911:7;897:22;;;;;;;;;;;;801:125;:::o;260:175:8:-;337:18;341:4;347:7;337:3;;;:18;;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o;779:200::-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;62:485:2:-;;;;;;;",
-  "deployedSourceMap": "62:485:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;62:485:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;614:96:5;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;614:96:5;;;;;;;;;;;;;;;;;;;:::i;:::-;;497:111;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;497:111:5;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;249:117:2;;;:::i;:::-;;154:89;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;154:89:2;;;;;;;;;;;;;;;;;;;:::i;:::-;;716:79:5;;;:::i;:::-;;614:96;397:22;408:10;397;:22::i;:::-;389:84;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;682:21;695:7;682:12;:21::i;:::-;614:96;:::o;497:111::-;555:4;578:23;593:7;578:10;:14;;:23;;;;:::i;:::-;571:30;;497:111;;;:::o;249:117:2:-;397:22:5;408:10;397;:22::i;:::-;389:84;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;249:117:2:o;154:89::-;212:24;228:7;212:15;:24::i;:::-;154:89;:::o;716:79:5:-;761:27;777:10;761:15;:27::i;:::-;716:79::o;801:125::-;859:23;874:7;859:10;:14;;:23;;;;:::i;:::-;911:7;897:22;;;;;;;;;;;;801:125;:::o;779:200:8:-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;447:98:2:-;508:30;530:7;508:21;:30::i;:::-;447:98;:::o;260:175:8:-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o;932:133:5:-;993:26;1011:7;993:10;:17;;:26;;;;:::i;:::-;1050:7;1034:24;;;;;;;;;;;;932:133;:::o;510:180:8:-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;678:5;655:4;:11;;:20;667:7;655:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;510:180;;:::o",
+  "sourceMap": "62:485:4:-;;;110:38;8:9:-1;5:2;;;30:1;27;20:12;5:2;110:38:4;318:24:7;331:10;318:12;;;:24;;:::i;:::-;62:485:4;;801:125:7;859:23;874:7;859:10;:14;;;;;;:23;;;;:::i;:::-;911:7;897:22;;;;;;;;;;;;801:125;:::o;260:175:10:-;337:18;341:4;347:7;337:3;;;:18;;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o;779:200::-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;62:485:4:-;;;;;;;",
+  "deployedSourceMap": "62:485:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;62:485:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;614:96:7;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;614:96:7;;;;;;;;;;;;;;;;;;;:::i;:::-;;497:111;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;497:111:7;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;249:117:4;;;:::i;:::-;;154:89;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;154:89:4;;;;;;;;;;;;;;;;;;;:::i;:::-;;716:79:7;;;:::i;:::-;;614:96;397:22;408:10;397;:22::i;:::-;389:84;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;682:21;695:7;682:12;:21::i;:::-;614:96;:::o;497:111::-;555:4;578:23;593:7;578:10;:14;;:23;;;;:::i;:::-;571:30;;497:111;;;:::o;249:117:4:-;397:22:7;408:10;397;:22::i;:::-;389:84;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;249:117:4:o;154:89::-;212:24;228:7;212:15;:24::i;:::-;154:89;:::o;716:79:7:-;761:27;777:10;761:15;:27::i;:::-;716:79::o;801:125::-;859:23;874:7;859:10;:14;;:23;;;;:::i;:::-;911:7;897:22;;;;;;;;;;;;801:125;:::o;779:200:10:-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;447:98:4:-;508:30;530:7;508:21;:30::i;:::-;447:98;:::o;260:175:10:-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o;932:133:7:-;993:26;1011:7;993:10;:17;;:26;;;;:::i;:::-;1050:7;1034:24;;;;;;;;;;;;932:133;:::o;510:180:10:-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;678:5;655:4;:11;;:20;667:7;655:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;510:180;;:::o",
   "source": "pragma solidity ^0.5.0;\n\nimport \"../roles/AttendeeRole.sol\";\n\ncontract AttendeeRoleMock is AttendeeRole {\n    constructor() public AttendeeRole() {}\n\n    function removeAttendee(address account) public {\n        _removeAttendee(account);\n    }\n\n    function onlyAttendeeMock() public view onlyAttendee {\n        // solhint-disable-previous-line no-empty-blocks\n    }\n\n    // Causes a compilation error if super._removeAttendee is not internal\n    function _removeAttendee(address account) internal {\n        super._removeAttendee(account);\n    }\n}\n",
   "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/AttendeeRoleMock.sol",
   "ast": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/AttendeeRoleMock.sol",
     "exportedSymbols": {
-      "AttendeeRoleMock": [137]
+      "AttendeeRoleMock": [641]
     },
-    "id": 138,
+    "id": 642,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 99,
+        "id": 603,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:4"
       },
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/AttendeeRole.sol",
         "file": "../roles/AttendeeRole.sol",
-        "id": 100,
+        "id": 604,
         "nodeType": "ImportDirective",
-        "scope": 138,
-        "sourceUnit": 336,
-        "src": "25:35:2",
+        "scope": 642,
+        "sourceUnit": 847,
+        "src": "25:35:4",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -135,87 +135,87 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 101,
+              "id": 605,
               "name": "AttendeeRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 335,
-              "src": "91:12:2",
+              "referencedDeclaration": 846,
+              "src": "91:12:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AttendeeRole_$335",
+                "typeIdentifier": "t_contract$_AttendeeRole_$846",
                 "typeString": "contract AttendeeRole"
               }
             },
-            "id": 102,
+            "id": 606,
             "nodeType": "InheritanceSpecifier",
-            "src": "91:12:2"
+            "src": "91:12:4"
           }
         ],
-        "contractDependencies": [335],
+        "contractDependencies": [846],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 137,
-        "linearizedBaseContracts": [137, 335],
+        "id": 641,
+        "linearizedBaseContracts": [641, 846],
         "name": "AttendeeRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 107,
+              "id": 611,
               "nodeType": "Block",
-              "src": "146:2:2",
+              "src": "146:2:4",
               "statements": []
             },
             "documentation": null,
-            "id": 108,
+            "id": 612,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 105,
+                "id": 609,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 104,
+                  "id": 608,
                   "name": "AttendeeRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 335,
-                  "src": "131:12:2",
+                  "referencedDeclaration": 846,
+                  "src": "131:12:4",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_AttendeeRole_$335_$",
+                    "typeIdentifier": "t_type$_t_contract$_AttendeeRole_$846_$",
                     "typeString": "type(contract AttendeeRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "131:14:2"
+                "src": "131:14:4"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 103,
+              "id": 607,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "121:2:2"
+              "src": "121:2:4"
             },
             "returnParameters": {
-              "id": 106,
+              "id": 610,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "146:0:2"
+              "src": "146:0:4"
             },
-            "scope": 137,
-            "src": "110:38:2",
+            "scope": 641,
+            "src": "110:38:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 117,
+              "id": 621,
               "nodeType": "Block",
-              "src": "202:41:2",
+              "src": "202:41:4",
               "statements": [
                 {
                   "expression": {
@@ -223,12 +223,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 114,
+                        "id": 618,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 110,
-                        "src": "228:7:2",
+                        "referencedDeclaration": 614,
+                        "src": "228:7:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -242,18 +242,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 113,
+                      "id": 617,
                       "name": "_removeAttendee",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [136],
-                      "referencedDeclaration": 136,
-                      "src": "212:15:2",
+                      "overloadedDeclarations": [640],
+                      "referencedDeclaration": 640,
+                      "src": "212:15:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 115,
+                    "id": 619,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -261,36 +261,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "212:24:2",
+                    "src": "212:24:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 116,
+                  "id": 620,
                   "nodeType": "ExpressionStatement",
-                  "src": "212:24:2"
+                  "src": "212:24:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 118,
+            "id": 622,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeAttendee",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 111,
+              "id": 615,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 110,
+                  "id": 614,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 118,
-                  "src": "178:15:2",
+                  "scope": 622,
+                  "src": "178:15:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -298,10 +298,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 109,
+                    "id": 613,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "178:7:2",
+                    "src": "178:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -312,77 +312,77 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "177:17:2"
+              "src": "177:17:4"
             },
             "returnParameters": {
-              "id": 112,
+              "id": 616,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "202:0:2"
+              "src": "202:0:4"
             },
-            "scope": 137,
-            "src": "154:89:2",
+            "scope": 641,
+            "src": "154:89:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 123,
+              "id": 627,
               "nodeType": "Block",
-              "src": "302:64:2",
+              "src": "302:64:4",
               "statements": []
             },
             "documentation": null,
-            "id": 124,
+            "id": 628,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 121,
+                "id": 625,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 120,
+                  "id": 624,
                   "name": "onlyAttendee",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 268,
-                  "src": "289:12:2",
+                  "referencedDeclaration": 779,
+                  "src": "289:12:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "289:12:2"
+                "src": "289:12:4"
               }
             ],
             "name": "onlyAttendeeMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 119,
+              "id": 623,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "274:2:2"
+              "src": "274:2:4"
             },
             "returnParameters": {
-              "id": 122,
+              "id": 626,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "302:0:2"
+              "src": "302:0:4"
             },
-            "scope": 137,
-            "src": "249:117:2",
+            "scope": 641,
+            "src": "249:117:4",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 135,
+              "id": 639,
               "nodeType": "Block",
-              "src": "498:47:2",
+              "src": "498:47:4",
               "statements": [
                 {
                   "expression": {
@@ -390,12 +390,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 132,
+                        "id": 636,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 126,
-                        "src": "530:7:2",
+                        "referencedDeclaration": 630,
+                        "src": "530:7:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -411,32 +411,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 129,
+                        "id": 633,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 652,
-                        "src": "508:5:2",
+                        "referencedDeclaration": 1304,
+                        "src": "508:5:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_AttendeeRoleMock_$137",
+                          "typeIdentifier": "t_super$_AttendeeRoleMock_$641",
                           "typeString": "contract super AttendeeRoleMock"
                         }
                       },
-                      "id": 131,
+                      "id": 635,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeAttendee",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 334,
-                      "src": "508:21:2",
+                      "referencedDeclaration": 845,
+                      "src": "508:21:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 133,
+                    "id": 637,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -444,36 +444,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "508:30:2",
+                    "src": "508:30:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 134,
+                  "id": 638,
                   "nodeType": "ExpressionStatement",
-                  "src": "508:30:2"
+                  "src": "508:30:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 136,
+            "id": 640,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeAttendee",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 127,
+              "id": 631,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 126,
+                  "id": 630,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 136,
-                  "src": "472:15:2",
+                  "scope": 640,
+                  "src": "472:15:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -481,10 +481,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 125,
+                    "id": 629,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "472:7:2",
+                    "src": "472:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -495,49 +495,49 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "471:17:2"
+              "src": "471:17:4"
             },
             "returnParameters": {
-              "id": 128,
+              "id": 632,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "498:0:2"
+              "src": "498:0:4"
             },
-            "scope": 137,
-            "src": "447:98:2",
+            "scope": 641,
+            "src": "447:98:4",
             "stateMutability": "nonpayable",
-            "superFunction": 334,
+            "superFunction": 845,
             "visibility": "internal"
           }
         ],
-        "scope": 138,
-        "src": "62:485:2"
+        "scope": 642,
+        "src": "62:485:4"
       }
     ],
-    "src": "0:548:2"
+    "src": "0:548:4"
   },
   "legacyAST": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/AttendeeRoleMock.sol",
     "exportedSymbols": {
-      "AttendeeRoleMock": [137]
+      "AttendeeRoleMock": [641]
     },
-    "id": 138,
+    "id": 642,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 99,
+        "id": 603,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:2"
+        "src": "0:23:4"
       },
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/AttendeeRole.sol",
         "file": "../roles/AttendeeRole.sol",
-        "id": 100,
+        "id": 604,
         "nodeType": "ImportDirective",
-        "scope": 138,
-        "sourceUnit": 336,
-        "src": "25:35:2",
+        "scope": 642,
+        "sourceUnit": 847,
+        "src": "25:35:4",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -547,87 +547,87 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 101,
+              "id": 605,
               "name": "AttendeeRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 335,
-              "src": "91:12:2",
+              "referencedDeclaration": 846,
+              "src": "91:12:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AttendeeRole_$335",
+                "typeIdentifier": "t_contract$_AttendeeRole_$846",
                 "typeString": "contract AttendeeRole"
               }
             },
-            "id": 102,
+            "id": 606,
             "nodeType": "InheritanceSpecifier",
-            "src": "91:12:2"
+            "src": "91:12:4"
           }
         ],
-        "contractDependencies": [335],
+        "contractDependencies": [846],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 137,
-        "linearizedBaseContracts": [137, 335],
+        "id": 641,
+        "linearizedBaseContracts": [641, 846],
         "name": "AttendeeRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 107,
+              "id": 611,
               "nodeType": "Block",
-              "src": "146:2:2",
+              "src": "146:2:4",
               "statements": []
             },
             "documentation": null,
-            "id": 108,
+            "id": 612,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 105,
+                "id": 609,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 104,
+                  "id": 608,
                   "name": "AttendeeRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 335,
-                  "src": "131:12:2",
+                  "referencedDeclaration": 846,
+                  "src": "131:12:4",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_AttendeeRole_$335_$",
+                    "typeIdentifier": "t_type$_t_contract$_AttendeeRole_$846_$",
                     "typeString": "type(contract AttendeeRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "131:14:2"
+                "src": "131:14:4"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 103,
+              "id": 607,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "121:2:2"
+              "src": "121:2:4"
             },
             "returnParameters": {
-              "id": 106,
+              "id": 610,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "146:0:2"
+              "src": "146:0:4"
             },
-            "scope": 137,
-            "src": "110:38:2",
+            "scope": 641,
+            "src": "110:38:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 117,
+              "id": 621,
               "nodeType": "Block",
-              "src": "202:41:2",
+              "src": "202:41:4",
               "statements": [
                 {
                   "expression": {
@@ -635,12 +635,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 114,
+                        "id": 618,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 110,
-                        "src": "228:7:2",
+                        "referencedDeclaration": 614,
+                        "src": "228:7:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -654,18 +654,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 113,
+                      "id": 617,
                       "name": "_removeAttendee",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [136],
-                      "referencedDeclaration": 136,
-                      "src": "212:15:2",
+                      "overloadedDeclarations": [640],
+                      "referencedDeclaration": 640,
+                      "src": "212:15:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 115,
+                    "id": 619,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -673,36 +673,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "212:24:2",
+                    "src": "212:24:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 116,
+                  "id": 620,
                   "nodeType": "ExpressionStatement",
-                  "src": "212:24:2"
+                  "src": "212:24:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 118,
+            "id": 622,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeAttendee",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 111,
+              "id": 615,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 110,
+                  "id": 614,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 118,
-                  "src": "178:15:2",
+                  "scope": 622,
+                  "src": "178:15:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -710,10 +710,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 109,
+                    "id": 613,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "178:7:2",
+                    "src": "178:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -724,77 +724,77 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "177:17:2"
+              "src": "177:17:4"
             },
             "returnParameters": {
-              "id": 112,
+              "id": 616,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "202:0:2"
+              "src": "202:0:4"
             },
-            "scope": 137,
-            "src": "154:89:2",
+            "scope": 641,
+            "src": "154:89:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 123,
+              "id": 627,
               "nodeType": "Block",
-              "src": "302:64:2",
+              "src": "302:64:4",
               "statements": []
             },
             "documentation": null,
-            "id": 124,
+            "id": 628,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 121,
+                "id": 625,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 120,
+                  "id": 624,
                   "name": "onlyAttendee",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 268,
-                  "src": "289:12:2",
+                  "referencedDeclaration": 779,
+                  "src": "289:12:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "289:12:2"
+                "src": "289:12:4"
               }
             ],
             "name": "onlyAttendeeMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 119,
+              "id": 623,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "274:2:2"
+              "src": "274:2:4"
             },
             "returnParameters": {
-              "id": 122,
+              "id": 626,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "302:0:2"
+              "src": "302:0:4"
             },
-            "scope": 137,
-            "src": "249:117:2",
+            "scope": 641,
+            "src": "249:117:4",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 135,
+              "id": 639,
               "nodeType": "Block",
-              "src": "498:47:2",
+              "src": "498:47:4",
               "statements": [
                 {
                   "expression": {
@@ -802,12 +802,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 132,
+                        "id": 636,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 126,
-                        "src": "530:7:2",
+                        "referencedDeclaration": 630,
+                        "src": "530:7:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -823,32 +823,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 129,
+                        "id": 633,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 652,
-                        "src": "508:5:2",
+                        "referencedDeclaration": 1304,
+                        "src": "508:5:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_AttendeeRoleMock_$137",
+                          "typeIdentifier": "t_super$_AttendeeRoleMock_$641",
                           "typeString": "contract super AttendeeRoleMock"
                         }
                       },
-                      "id": 131,
+                      "id": 635,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeAttendee",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 334,
-                      "src": "508:21:2",
+                      "referencedDeclaration": 845,
+                      "src": "508:21:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 133,
+                    "id": 637,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -856,36 +856,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "508:30:2",
+                    "src": "508:30:4",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 134,
+                  "id": 638,
                   "nodeType": "ExpressionStatement",
-                  "src": "508:30:2"
+                  "src": "508:30:4"
                 }
               ]
             },
             "documentation": null,
-            "id": 136,
+            "id": 640,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeAttendee",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 127,
+              "id": 631,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 126,
+                  "id": 630,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 136,
-                  "src": "472:15:2",
+                  "scope": 640,
+                  "src": "472:15:4",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -893,10 +893,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 125,
+                    "id": 629,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "472:7:2",
+                    "src": "472:7:4",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -907,26 +907,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "471:17:2"
+              "src": "471:17:4"
             },
             "returnParameters": {
-              "id": 128,
+              "id": 632,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "498:0:2"
+              "src": "498:0:4"
             },
-            "scope": 137,
-            "src": "447:98:2",
+            "scope": 641,
+            "src": "447:98:4",
             "stateMutability": "nonpayable",
-            "superFunction": 334,
+            "superFunction": 845,
             "visibility": "internal"
           }
         ],
-        "scope": 138,
-        "src": "62:485:2"
+        "scope": 642,
+        "src": "62:485:4"
       }
     ],
-    "src": "0:548:2"
+    "src": "0:548:4"
   },
   "compiler": {
     "name": "solc",
@@ -934,7 +934,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-20T18:50:08.497Z",
+  "updatedAt": "2019-07-21T06:20:04.368Z",
   "devdoc": {
     "methods": {}
   },

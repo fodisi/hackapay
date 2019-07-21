@@ -74,35 +74,35 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"renounceJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isJudge\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeRemoved\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"addJudge(address)\":{\"notice\":\"@dev Needs to be implemented by a inherited contract.\"}}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":\"JudgeRole\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":{\"keccak256\":\"0x82df8a2a050e42e157fb1f4a8e47dba22faa42bd7178202bf51e80a09f61ec08\",\"urls\":[\"bzzr://ef20b6a5d404e33ba42860a0fcb2dc3edcc69fed5f4abc62f3da06b4a4b9db90\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"renounceJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isJudge\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeRemoved\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"addJudge(address)\":{\"notice\":\"@dev Needs to be implemented by a inherited contract.\"}}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":\"JudgeRole\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":{\"keccak256\":\"0x53c9130955484c6cef7000e39cacd98f8dfa1b0a161898ab363a774b44cc6571\",\"urls\":[\"bzzr://c04c75531bdae1ec34ed822346bf410a6cdd4a917ae40f5235f9583a4704f85f\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.5.0;\n\nimport \"openzeppelin-solidity/contracts/access/Roles.sol\";\n\ncontract JudgeRole {\n    using Roles for Roles.Role;\n\n    event JudgeAdded(address indexed account);\n    event JudgeRemoved(address indexed account);\n\n    Roles.Role private _judges;\n\n    constructor() internal {\n        // Needs to be inherited.\n        // TODO: remove _addJudge\n    }\n\n    modifier onlyJudge() {\n        require(isJudge(msg.sender), \"JudgeRole: caller does not have Judge Role.\");\n        _;\n    }\n\n    function isJudge(address account) public view returns (bool) {\n        return _judges.has(account);\n    }\n\n    /// @notice\n    /// @dev Needs to be implemented by a inherited contract.\n    function addJudge(address account) public;\n\n    function renounceJudge() public {\n        _removeJudge(msg.sender);\n    }\n\n    function _addJudge(address account) internal {\n        _judges.add(account);\n        emit JudgeAdded(account);\n    }\n\n    function _removeJudge(address account) internal {\n        _judges.remove(account);\n        emit JudgeRemoved(account);\n    }\n}\n",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"openzeppelin-solidity/contracts/access/Roles.sol\";\n\ncontract JudgeRole {\n    using Roles for Roles.Role;\n\n    event JudgeAdded(address indexed account);\n    event JudgeRemoved(address indexed account);\n\n    Roles.Role private _judges;\n\n    constructor() internal {\n        // Needs to be inherited.\n    }\n\n    modifier onlyJudge() {\n        require(isJudge(msg.sender), \"JudgeRole: caller does not have Judge Role.\");\n        _;\n    }\n\n    function isJudge(address account) public view returns (bool) {\n        return _judges.has(account);\n    }\n\n    /// @notice\n    /// @dev Needs to be implemented by a inherited contract.\n    function addJudge(address account) public;\n\n    function renounceJudge() public {\n        _removeJudge(msg.sender);\n    }\n\n    function _addJudge(address account) internal {\n        _judges.add(account);\n        emit JudgeAdded(account);\n    }\n\n    function _removeJudge(address account) internal {\n        _judges.remove(account);\n        emit JudgeRemoved(account);\n    }\n}\n",
   "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol",
   "ast": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol",
     "exportedSymbols": {
-      "JudgeRole": [427]
+      "JudgeRole": [539]
     },
-    "id": 428,
+    "id": 540,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 337,
+        "id": 449,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:6"
+        "src": "0:23:7"
       },
       {
         "absolutePath": "openzeppelin-solidity/contracts/access/Roles.sol",
         "file": "openzeppelin-solidity/contracts/access/Roles.sol",
-        "id": 338,
+        "id": 450,
         "nodeType": "ImportDirective",
-        "scope": 428,
-        "sourceUnit": 613,
-        "src": "25:58:6",
+        "scope": 540,
+        "sourceUnit": 725,
+        "src": "25:58:7",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -112,36 +112,36 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 427,
-        "linearizedBaseContracts": [427],
+        "id": 539,
+        "linearizedBaseContracts": [539],
         "name": "JudgeRole",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 341,
+            "id": 453,
             "libraryName": {
               "contractScope": null,
-              "id": 339,
+              "id": 451,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 612,
-              "src": "116:5:6",
+              "referencedDeclaration": 724,
+              "src": "116:5:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$612",
+                "typeIdentifier": "t_contract$_Roles_$724",
                 "typeString": "library Roles"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "110:27:6",
+            "src": "110:27:7",
             "typeName": {
               "contractScope": null,
-              "id": 340,
+              "id": 452,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 538,
-              "src": "126:10:6",
+              "referencedDeclaration": 650,
+              "src": "126:10:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$538_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$650_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -149,21 +149,21 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 345,
+            "id": 457,
             "name": "JudgeAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 344,
+              "id": 456,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 343,
+                  "id": 455,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 345,
-                  "src": "160:23:6",
+                  "scope": 457,
+                  "src": "160:23:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -171,10 +171,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 342,
+                    "id": 454,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "160:7:6",
+                    "src": "160:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -185,28 +185,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "159:25:6"
+              "src": "159:25:7"
             },
-            "src": "143:42:6"
+            "src": "143:42:7"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 349,
+            "id": 461,
             "name": "JudgeRemoved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 348,
+              "id": 460,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 347,
+                  "id": 459,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 349,
-                  "src": "209:23:6",
+                  "scope": 461,
+                  "src": "209:23:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -214,10 +214,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 346,
+                    "id": 458,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "209:7:6",
+                    "src": "209:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -228,32 +228,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "208:25:6"
+              "src": "208:25:7"
             },
-            "src": "190:44:6"
+            "src": "190:44:7"
           },
           {
             "constant": false,
-            "id": 351,
+            "id": 463,
             "name": "_judges",
             "nodeType": "VariableDeclaration",
-            "scope": 427,
-            "src": "240:26:6",
+            "scope": 539,
+            "src": "240:26:7",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$538_storage",
+              "typeIdentifier": "t_struct$_Role_$650_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
               "contractScope": null,
-              "id": 350,
+              "id": 462,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 538,
-              "src": "240:10:6",
+              "referencedDeclaration": 650,
+              "src": "240:10:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$538_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$650_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -262,41 +262,41 @@
           },
           {
             "body": {
-              "id": 354,
+              "id": 466,
               "nodeType": "Block",
-              "src": "296:75:6",
+              "src": "296:41:7",
               "statements": []
             },
             "documentation": null,
-            "id": 355,
+            "id": 467,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 352,
+              "id": 464,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "284:2:6"
+              "src": "284:2:7"
             },
             "returnParameters": {
-              "id": 353,
+              "id": 465,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "296:0:6"
+              "src": "296:0:7"
             },
-            "scope": 427,
-            "src": "273:98:6",
+            "scope": 539,
+            "src": "273:64:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 366,
+              "id": 478,
               "nodeType": "Block",
-              "src": "398:103:6",
+              "src": "364:103:7",
               "statements": [
                 {
                   "expression": {
@@ -309,18 +309,18 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 359,
+                              "id": 471,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 627,
-                              "src": "424:3:6",
+                              "referencedDeclaration": 739,
+                              "src": "390:3:7",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 360,
+                            "id": 472,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -328,7 +328,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "424:10:6",
+                            "src": "390:10:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -342,18 +342,18 @@
                               "typeString": "address payable"
                             }
                           ],
-                          "id": 358,
+                          "id": 470,
                           "name": "isJudge",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 380,
-                          "src": "416:7:6",
+                          "referencedDeclaration": 492,
+                          "src": "382:7:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 361,
+                        "id": 473,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -361,7 +361,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "416:19:6",
+                        "src": "382:19:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -370,14 +370,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "4a75646765526f6c653a2063616c6c657220646f6573206e6f742068617665204a7564676520526f6c652e",
-                        "id": 362,
+                        "id": 474,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "437:45:6",
+                        "src": "403:45:7",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_47170fda04914e7b46bc40b61da495e2fc636a81dc1f95250a3124560d7f563a",
@@ -397,18 +397,18 @@
                           "typeString": "literal_string \"JudgeRole: caller does not have Judge Role.\""
                         }
                       ],
-                      "id": 357,
+                      "id": 469,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [630, 631],
-                      "referencedDeclaration": 631,
-                      "src": "408:7:6",
+                      "overloadedDeclarations": [742, 743],
+                      "referencedDeclaration": 743,
+                      "src": "374:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 363,
+                    "id": 475,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -416,41 +416,41 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "408:75:6",
+                    "src": "374:75:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 364,
+                  "id": 476,
                   "nodeType": "ExpressionStatement",
-                  "src": "408:75:6"
+                  "src": "374:75:7"
                 },
                 {
-                  "id": 365,
+                  "id": 477,
                   "nodeType": "PlaceholderStatement",
-                  "src": "493:1:6"
+                  "src": "459:1:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 367,
+            "id": 479,
             "name": "onlyJudge",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 356,
+              "id": 468,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "395:2:6"
+              "src": "361:2:7"
             },
-            "src": "377:124:6",
+            "src": "343:124:7",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 379,
+              "id": 491,
               "nodeType": "Block",
-              "src": "568:44:6",
+              "src": "534:44:7",
               "statements": [
                 {
                   "expression": {
@@ -458,12 +458,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 376,
+                        "id": 488,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 369,
-                        "src": "597:7:6",
+                        "referencedDeclaration": 481,
+                        "src": "563:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -479,32 +479,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 374,
+                        "id": 486,
                         "name": "_judges",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 351,
-                        "src": "585:7:6",
+                        "referencedDeclaration": 463,
+                        "src": "551:7:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$538_storage",
+                          "typeIdentifier": "t_struct$_Role_$650_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 375,
+                      "id": 487,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 611,
-                      "src": "585:11:6",
+                      "referencedDeclaration": 723,
+                      "src": "551:11:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$538_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$538_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$650_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$650_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
-                    "id": 377,
+                    "id": 489,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -512,37 +512,37 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "585:20:6",
+                    "src": "551:20:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 373,
-                  "id": 378,
+                  "functionReturnParameters": 485,
+                  "id": 490,
                   "nodeType": "Return",
-                  "src": "578:27:6"
+                  "src": "544:27:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 380,
+            "id": 492,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "isJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 370,
+              "id": 482,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 369,
+                  "id": 481,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 380,
-                  "src": "524:15:6",
+                  "scope": 492,
+                  "src": "490:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -550,10 +550,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 368,
+                    "id": 480,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "524:7:6",
+                    "src": "490:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -564,19 +564,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "523:17:6"
+              "src": "489:17:7"
             },
             "returnParameters": {
-              "id": 373,
+              "id": 485,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 372,
+                  "id": 484,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 380,
-                  "src": "562:4:6",
+                  "scope": 492,
+                  "src": "528:4:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -584,10 +584,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 371,
+                    "id": 483,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "562:4:6",
+                    "src": "528:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -597,10 +597,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "561:6:6"
+              "src": "527:6:7"
             },
-            "scope": 427,
-            "src": "507:105:6",
+            "scope": 539,
+            "src": "473:105:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -608,23 +608,23 @@
           {
             "body": null,
             "documentation": "@notice\n @dev Needs to be implemented by a inherited contract.",
-            "id": 385,
+            "id": 497,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "addJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 383,
+              "id": 495,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 382,
+                  "id": 494,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 385,
-                  "src": "714:15:6",
+                  "scope": 497,
+                  "src": "680:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -632,10 +632,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 381,
+                    "id": 493,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "714:7:6",
+                    "src": "680:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -646,25 +646,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "713:17:6"
+              "src": "679:17:7"
             },
             "returnParameters": {
-              "id": 384,
+              "id": 496,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "737:0:6"
+              "src": "703:0:7"
             },
-            "scope": 427,
-            "src": "696:42:6",
+            "scope": 539,
+            "src": "662:42:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 393,
+              "id": 505,
               "nodeType": "Block",
-              "src": "776:41:6",
+              "src": "742:41:7",
               "statements": [
                 {
                   "expression": {
@@ -674,18 +674,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 389,
+                          "id": 501,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 627,
-                          "src": "799:3:6",
+                          "referencedDeclaration": 739,
+                          "src": "765:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 390,
+                        "id": 502,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -693,7 +693,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "799:10:6",
+                        "src": "765:10:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -707,18 +707,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 388,
+                      "id": 500,
                       "name": "_removeJudge",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 426,
-                      "src": "786:12:6",
+                      "referencedDeclaration": 538,
+                      "src": "752:12:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 391,
+                    "id": 503,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -726,48 +726,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "786:24:6",
+                    "src": "752:24:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 392,
+                  "id": 504,
                   "nodeType": "ExpressionStatement",
-                  "src": "786:24:6"
+                  "src": "752:24:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 394,
+            "id": 506,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "renounceJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 386,
+              "id": 498,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "766:2:6"
+              "src": "732:2:7"
             },
             "returnParameters": {
-              "id": 387,
+              "id": 499,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "776:0:6"
+              "src": "742:0:7"
             },
-            "scope": 427,
-            "src": "744:73:6",
+            "scope": 539,
+            "src": "710:73:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 409,
+              "id": 521,
               "nodeType": "Block",
-              "src": "868:71:6",
+              "src": "834:71:7",
               "statements": [
                 {
                   "expression": {
@@ -775,12 +775,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 402,
+                        "id": 514,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 396,
-                        "src": "890:7:6",
+                        "referencedDeclaration": 508,
+                        "src": "856:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -796,32 +796,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 399,
+                        "id": 511,
                         "name": "_judges",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 351,
-                        "src": "878:7:6",
+                        "referencedDeclaration": 463,
+                        "src": "844:7:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$538_storage",
+                          "typeIdentifier": "t_struct$_Role_$650_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 401,
+                      "id": 513,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 563,
-                      "src": "878:11:6",
+                      "referencedDeclaration": 675,
+                      "src": "844:11:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$538_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$538_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$650_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$650_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 403,
+                    "id": 515,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -829,15 +829,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "878:20:6",
+                    "src": "844:20:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 404,
+                  "id": 516,
                   "nodeType": "ExpressionStatement",
-                  "src": "878:20:6"
+                  "src": "844:20:7"
                 },
                 {
                   "eventCall": {
@@ -845,12 +845,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 406,
+                        "id": 518,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 396,
-                        "src": "924:7:6",
+                        "referencedDeclaration": 508,
+                        "src": "890:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -864,18 +864,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 405,
+                      "id": 517,
                       "name": "JudgeAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 345,
-                      "src": "913:10:6",
+                      "referencedDeclaration": 457,
+                      "src": "879:10:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 407,
+                    "id": 519,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -883,36 +883,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "913:19:6",
+                    "src": "879:19:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 408,
+                  "id": 520,
                   "nodeType": "EmitStatement",
-                  "src": "908:24:6"
+                  "src": "874:24:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 410,
+            "id": 522,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_addJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 397,
+              "id": 509,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 396,
+                  "id": 508,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 410,
-                  "src": "842:15:6",
+                  "scope": 522,
+                  "src": "808:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -920,10 +920,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 395,
+                    "id": 507,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "842:7:6",
+                    "src": "808:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -934,25 +934,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "841:17:6"
+              "src": "807:17:7"
             },
             "returnParameters": {
-              "id": 398,
+              "id": 510,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "868:0:6"
+              "src": "834:0:7"
             },
-            "scope": 427,
-            "src": "823:116:6",
+            "scope": 539,
+            "src": "789:116:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 425,
+              "id": 537,
               "nodeType": "Block",
-              "src": "993:76:6",
+              "src": "959:76:7",
               "statements": [
                 {
                   "expression": {
@@ -960,12 +960,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 418,
+                        "id": 530,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 412,
-                        "src": "1018:7:6",
+                        "referencedDeclaration": 524,
+                        "src": "984:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -981,32 +981,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 415,
+                        "id": 527,
                         "name": "_judges",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 351,
-                        "src": "1003:7:6",
+                        "referencedDeclaration": 463,
+                        "src": "969:7:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$538_storage",
+                          "typeIdentifier": "t_struct$_Role_$650_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 417,
+                      "id": 529,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 587,
-                      "src": "1003:14:6",
+                      "referencedDeclaration": 699,
+                      "src": "969:14:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$538_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$538_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$650_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$650_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 419,
+                    "id": 531,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1014,15 +1014,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1003:23:6",
+                    "src": "969:23:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 420,
+                  "id": 532,
                   "nodeType": "ExpressionStatement",
-                  "src": "1003:23:6"
+                  "src": "969:23:7"
                 },
                 {
                   "eventCall": {
@@ -1030,12 +1030,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 422,
+                        "id": 534,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 412,
-                        "src": "1054:7:6",
+                        "referencedDeclaration": 524,
+                        "src": "1020:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1049,18 +1049,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 421,
+                      "id": 533,
                       "name": "JudgeRemoved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 349,
-                      "src": "1041:12:6",
+                      "referencedDeclaration": 461,
+                      "src": "1007:12:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 423,
+                    "id": 535,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1068,36 +1068,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1041:21:6",
+                    "src": "1007:21:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 424,
+                  "id": 536,
                   "nodeType": "EmitStatement",
-                  "src": "1036:26:6"
+                  "src": "1002:26:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 426,
+            "id": 538,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 413,
+              "id": 525,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 412,
+                  "id": 524,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 426,
-                  "src": "967:15:6",
+                  "scope": 538,
+                  "src": "933:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1105,10 +1105,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 411,
+                    "id": 523,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "967:7:6",
+                    "src": "933:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1119,49 +1119,49 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "966:17:6"
+              "src": "932:17:7"
             },
             "returnParameters": {
-              "id": 414,
+              "id": 526,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "993:0:6"
+              "src": "959:0:7"
             },
-            "scope": 427,
-            "src": "945:124:6",
+            "scope": 539,
+            "src": "911:124:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 428,
-        "src": "85:986:6"
+        "scope": 540,
+        "src": "85:952:7"
       }
     ],
-    "src": "0:1072:6"
+    "src": "0:1038:7"
   },
   "legacyAST": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol",
     "exportedSymbols": {
-      "JudgeRole": [427]
+      "JudgeRole": [539]
     },
-    "id": 428,
+    "id": 540,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 337,
+        "id": 449,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:6"
+        "src": "0:23:7"
       },
       {
         "absolutePath": "openzeppelin-solidity/contracts/access/Roles.sol",
         "file": "openzeppelin-solidity/contracts/access/Roles.sol",
-        "id": 338,
+        "id": 450,
         "nodeType": "ImportDirective",
-        "scope": 428,
-        "sourceUnit": 613,
-        "src": "25:58:6",
+        "scope": 540,
+        "sourceUnit": 725,
+        "src": "25:58:7",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1171,36 +1171,36 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 427,
-        "linearizedBaseContracts": [427],
+        "id": 539,
+        "linearizedBaseContracts": [539],
         "name": "JudgeRole",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 341,
+            "id": 453,
             "libraryName": {
               "contractScope": null,
-              "id": 339,
+              "id": 451,
               "name": "Roles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 612,
-              "src": "116:5:6",
+              "referencedDeclaration": 724,
+              "src": "116:5:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Roles_$612",
+                "typeIdentifier": "t_contract$_Roles_$724",
                 "typeString": "library Roles"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "110:27:6",
+            "src": "110:27:7",
             "typeName": {
               "contractScope": null,
-              "id": 340,
+              "id": 452,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 538,
-              "src": "126:10:6",
+              "referencedDeclaration": 650,
+              "src": "126:10:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$538_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$650_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             }
@@ -1208,21 +1208,21 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 345,
+            "id": 457,
             "name": "JudgeAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 344,
+              "id": 456,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 343,
+                  "id": 455,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 345,
-                  "src": "160:23:6",
+                  "scope": 457,
+                  "src": "160:23:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1230,10 +1230,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 342,
+                    "id": 454,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "160:7:6",
+                    "src": "160:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1244,28 +1244,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "159:25:6"
+              "src": "159:25:7"
             },
-            "src": "143:42:6"
+            "src": "143:42:7"
           },
           {
             "anonymous": false,
             "documentation": null,
-            "id": 349,
+            "id": 461,
             "name": "JudgeRemoved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 348,
+              "id": 460,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 347,
+                  "id": 459,
                   "indexed": true,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 349,
-                  "src": "209:23:6",
+                  "scope": 461,
+                  "src": "209:23:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1273,10 +1273,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 346,
+                    "id": 458,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "209:7:6",
+                    "src": "209:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1287,32 +1287,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "208:25:6"
+              "src": "208:25:7"
             },
-            "src": "190:44:6"
+            "src": "190:44:7"
           },
           {
             "constant": false,
-            "id": 351,
+            "id": 463,
             "name": "_judges",
             "nodeType": "VariableDeclaration",
-            "scope": 427,
-            "src": "240:26:6",
+            "scope": 539,
+            "src": "240:26:7",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Role_$538_storage",
+              "typeIdentifier": "t_struct$_Role_$650_storage",
               "typeString": "struct Roles.Role"
             },
             "typeName": {
               "contractScope": null,
-              "id": 350,
+              "id": 462,
               "name": "Roles.Role",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 538,
-              "src": "240:10:6",
+              "referencedDeclaration": 650,
+              "src": "240:10:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Role_$538_storage_ptr",
+                "typeIdentifier": "t_struct$_Role_$650_storage_ptr",
                 "typeString": "struct Roles.Role"
               }
             },
@@ -1321,41 +1321,41 @@
           },
           {
             "body": {
-              "id": 354,
+              "id": 466,
               "nodeType": "Block",
-              "src": "296:75:6",
+              "src": "296:41:7",
               "statements": []
             },
             "documentation": null,
-            "id": 355,
+            "id": 467,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 352,
+              "id": 464,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "284:2:6"
+              "src": "284:2:7"
             },
             "returnParameters": {
-              "id": 353,
+              "id": 465,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "296:0:6"
+              "src": "296:0:7"
             },
-            "scope": 427,
-            "src": "273:98:6",
+            "scope": 539,
+            "src": "273:64:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 366,
+              "id": 478,
               "nodeType": "Block",
-              "src": "398:103:6",
+              "src": "364:103:7",
               "statements": [
                 {
                   "expression": {
@@ -1368,18 +1368,18 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 359,
+                              "id": 471,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 627,
-                              "src": "424:3:6",
+                              "referencedDeclaration": 739,
+                              "src": "390:3:7",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 360,
+                            "id": 472,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1387,7 +1387,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "424:10:6",
+                            "src": "390:10:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -1401,18 +1401,18 @@
                               "typeString": "address payable"
                             }
                           ],
-                          "id": 358,
+                          "id": 470,
                           "name": "isJudge",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 380,
-                          "src": "416:7:6",
+                          "referencedDeclaration": 492,
+                          "src": "382:7:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 361,
+                        "id": 473,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1420,7 +1420,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "416:19:6",
+                        "src": "382:19:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1429,14 +1429,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "4a75646765526f6c653a2063616c6c657220646f6573206e6f742068617665204a7564676520526f6c652e",
-                        "id": 362,
+                        "id": 474,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "437:45:6",
+                        "src": "403:45:7",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_47170fda04914e7b46bc40b61da495e2fc636a81dc1f95250a3124560d7f563a",
@@ -1456,18 +1456,18 @@
                           "typeString": "literal_string \"JudgeRole: caller does not have Judge Role.\""
                         }
                       ],
-                      "id": 357,
+                      "id": 469,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [630, 631],
-                      "referencedDeclaration": 631,
-                      "src": "408:7:6",
+                      "overloadedDeclarations": [742, 743],
+                      "referencedDeclaration": 743,
+                      "src": "374:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 363,
+                    "id": 475,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1475,41 +1475,41 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "408:75:6",
+                    "src": "374:75:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 364,
+                  "id": 476,
                   "nodeType": "ExpressionStatement",
-                  "src": "408:75:6"
+                  "src": "374:75:7"
                 },
                 {
-                  "id": 365,
+                  "id": 477,
                   "nodeType": "PlaceholderStatement",
-                  "src": "493:1:6"
+                  "src": "459:1:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 367,
+            "id": 479,
             "name": "onlyJudge",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 356,
+              "id": 468,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "395:2:6"
+              "src": "361:2:7"
             },
-            "src": "377:124:6",
+            "src": "343:124:7",
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 379,
+              "id": 491,
               "nodeType": "Block",
-              "src": "568:44:6",
+              "src": "534:44:7",
               "statements": [
                 {
                   "expression": {
@@ -1517,12 +1517,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 376,
+                        "id": 488,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 369,
-                        "src": "597:7:6",
+                        "referencedDeclaration": 481,
+                        "src": "563:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1538,32 +1538,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 374,
+                        "id": 486,
                         "name": "_judges",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 351,
-                        "src": "585:7:6",
+                        "referencedDeclaration": 463,
+                        "src": "551:7:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$538_storage",
+                          "typeIdentifier": "t_struct$_Role_$650_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 375,
+                      "id": 487,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "has",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 611,
-                      "src": "585:11:6",
+                      "referencedDeclaration": 723,
+                      "src": "551:11:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$538_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$538_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Role_$650_storage_ptr_$_t_address_$returns$_t_bool_$bound_to$_t_struct$_Role_$650_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address) view returns (bool)"
                       }
                     },
-                    "id": 377,
+                    "id": 489,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1571,37 +1571,37 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "585:20:6",
+                    "src": "551:20:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 373,
-                  "id": 378,
+                  "functionReturnParameters": 485,
+                  "id": 490,
                   "nodeType": "Return",
-                  "src": "578:27:6"
+                  "src": "544:27:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 380,
+            "id": 492,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "isJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 370,
+              "id": 482,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 369,
+                  "id": 481,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 380,
-                  "src": "524:15:6",
+                  "scope": 492,
+                  "src": "490:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1609,10 +1609,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 368,
+                    "id": 480,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "524:7:6",
+                    "src": "490:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1623,19 +1623,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "523:17:6"
+              "src": "489:17:7"
             },
             "returnParameters": {
-              "id": 373,
+              "id": 485,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 372,
+                  "id": 484,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 380,
-                  "src": "562:4:6",
+                  "scope": 492,
+                  "src": "528:4:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1643,10 +1643,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 371,
+                    "id": 483,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "562:4:6",
+                    "src": "528:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1656,10 +1656,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "561:6:6"
+              "src": "527:6:7"
             },
-            "scope": 427,
-            "src": "507:105:6",
+            "scope": 539,
+            "src": "473:105:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -1667,23 +1667,23 @@
           {
             "body": null,
             "documentation": "@notice\n @dev Needs to be implemented by a inherited contract.",
-            "id": 385,
+            "id": 497,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "addJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 383,
+              "id": 495,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 382,
+                  "id": 494,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 385,
-                  "src": "714:15:6",
+                  "scope": 497,
+                  "src": "680:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1691,10 +1691,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 381,
+                    "id": 493,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "714:7:6",
+                    "src": "680:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1705,25 +1705,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "713:17:6"
+              "src": "679:17:7"
             },
             "returnParameters": {
-              "id": 384,
+              "id": 496,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "737:0:6"
+              "src": "703:0:7"
             },
-            "scope": 427,
-            "src": "696:42:6",
+            "scope": 539,
+            "src": "662:42:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 393,
+              "id": 505,
               "nodeType": "Block",
-              "src": "776:41:6",
+              "src": "742:41:7",
               "statements": [
                 {
                   "expression": {
@@ -1733,18 +1733,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 389,
+                          "id": 501,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 627,
-                          "src": "799:3:6",
+                          "referencedDeclaration": 739,
+                          "src": "765:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 390,
+                        "id": 502,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1752,7 +1752,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "799:10:6",
+                        "src": "765:10:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1766,18 +1766,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 388,
+                      "id": 500,
                       "name": "_removeJudge",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 426,
-                      "src": "786:12:6",
+                      "referencedDeclaration": 538,
+                      "src": "752:12:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 391,
+                    "id": 503,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1785,48 +1785,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "786:24:6",
+                    "src": "752:24:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 392,
+                  "id": 504,
                   "nodeType": "ExpressionStatement",
-                  "src": "786:24:6"
+                  "src": "752:24:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 394,
+            "id": 506,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "renounceJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 386,
+              "id": 498,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "766:2:6"
+              "src": "732:2:7"
             },
             "returnParameters": {
-              "id": 387,
+              "id": 499,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "776:0:6"
+              "src": "742:0:7"
             },
-            "scope": 427,
-            "src": "744:73:6",
+            "scope": 539,
+            "src": "710:73:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 409,
+              "id": 521,
               "nodeType": "Block",
-              "src": "868:71:6",
+              "src": "834:71:7",
               "statements": [
                 {
                   "expression": {
@@ -1834,12 +1834,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 402,
+                        "id": 514,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 396,
-                        "src": "890:7:6",
+                        "referencedDeclaration": 508,
+                        "src": "856:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1855,32 +1855,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 399,
+                        "id": 511,
                         "name": "_judges",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 351,
-                        "src": "878:7:6",
+                        "referencedDeclaration": 463,
+                        "src": "844:7:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$538_storage",
+                          "typeIdentifier": "t_struct$_Role_$650_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 401,
+                      "id": 513,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 563,
-                      "src": "878:11:6",
+                      "referencedDeclaration": 675,
+                      "src": "844:11:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$538_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$538_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$650_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$650_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 403,
+                    "id": 515,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1888,15 +1888,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "878:20:6",
+                    "src": "844:20:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 404,
+                  "id": 516,
                   "nodeType": "ExpressionStatement",
-                  "src": "878:20:6"
+                  "src": "844:20:7"
                 },
                 {
                   "eventCall": {
@@ -1904,12 +1904,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 406,
+                        "id": 518,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 396,
-                        "src": "924:7:6",
+                        "referencedDeclaration": 508,
+                        "src": "890:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1923,18 +1923,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 405,
+                      "id": 517,
                       "name": "JudgeAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 345,
-                      "src": "913:10:6",
+                      "referencedDeclaration": 457,
+                      "src": "879:10:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 407,
+                    "id": 519,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1942,36 +1942,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "913:19:6",
+                    "src": "879:19:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 408,
+                  "id": 520,
                   "nodeType": "EmitStatement",
-                  "src": "908:24:6"
+                  "src": "874:24:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 410,
+            "id": 522,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_addJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 397,
+              "id": 509,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 396,
+                  "id": 508,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 410,
-                  "src": "842:15:6",
+                  "scope": 522,
+                  "src": "808:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1979,10 +1979,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 395,
+                    "id": 507,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "842:7:6",
+                    "src": "808:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1993,25 +1993,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "841:17:6"
+              "src": "807:17:7"
             },
             "returnParameters": {
-              "id": 398,
+              "id": 510,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "868:0:6"
+              "src": "834:0:7"
             },
-            "scope": 427,
-            "src": "823:116:6",
+            "scope": 539,
+            "src": "789:116:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 425,
+              "id": 537,
               "nodeType": "Block",
-              "src": "993:76:6",
+              "src": "959:76:7",
               "statements": [
                 {
                   "expression": {
@@ -2019,12 +2019,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 418,
+                        "id": 530,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 412,
-                        "src": "1018:7:6",
+                        "referencedDeclaration": 524,
+                        "src": "984:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2040,32 +2040,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 415,
+                        "id": 527,
                         "name": "_judges",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 351,
-                        "src": "1003:7:6",
+                        "referencedDeclaration": 463,
+                        "src": "969:7:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Role_$538_storage",
+                          "typeIdentifier": "t_struct$_Role_$650_storage",
                           "typeString": "struct Roles.Role storage ref"
                         }
                       },
-                      "id": 417,
+                      "id": 529,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "remove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 587,
-                      "src": "1003:14:6",
+                      "referencedDeclaration": 699,
+                      "src": "969:14:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$538_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$538_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Role_$650_storage_ptr_$_t_address_$returns$__$bound_to$_t_struct$_Role_$650_storage_ptr_$",
                         "typeString": "function (struct Roles.Role storage pointer,address)"
                       }
                     },
-                    "id": 419,
+                    "id": 531,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2073,15 +2073,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1003:23:6",
+                    "src": "969:23:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 420,
+                  "id": 532,
                   "nodeType": "ExpressionStatement",
-                  "src": "1003:23:6"
+                  "src": "969:23:7"
                 },
                 {
                   "eventCall": {
@@ -2089,12 +2089,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 422,
+                        "id": 534,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 412,
-                        "src": "1054:7:6",
+                        "referencedDeclaration": 524,
+                        "src": "1020:7:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2108,18 +2108,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 421,
+                      "id": 533,
                       "name": "JudgeRemoved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 349,
-                      "src": "1041:12:6",
+                      "referencedDeclaration": 461,
+                      "src": "1007:12:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 423,
+                    "id": 535,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2127,36 +2127,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1041:21:6",
+                    "src": "1007:21:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 424,
+                  "id": 536,
                   "nodeType": "EmitStatement",
-                  "src": "1036:26:6"
+                  "src": "1002:26:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 426,
+            "id": 538,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 413,
+              "id": 525,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 412,
+                  "id": 524,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 426,
-                  "src": "967:15:6",
+                  "scope": 538,
+                  "src": "933:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2164,10 +2164,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 411,
+                    "id": 523,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "967:7:6",
+                    "src": "933:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2178,26 +2178,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "966:17:6"
+              "src": "932:17:7"
             },
             "returnParameters": {
-              "id": 414,
+              "id": 526,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "993:0:6"
+              "src": "959:0:7"
             },
-            "scope": 427,
-            "src": "945:124:6",
+            "scope": 539,
+            "src": "911:124:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 428,
-        "src": "85:986:6"
+        "scope": 540,
+        "src": "85:952:7"
       }
     ],
-    "src": "0:1072:6"
+    "src": "0:1038:7"
   },
   "compiler": {
     "name": "solc",
@@ -2205,7 +2205,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-20T18:50:08.519Z",
+  "updatedAt": "2019-07-20T19:49:22.641Z",
   "devdoc": {
     "methods": {}
   },
