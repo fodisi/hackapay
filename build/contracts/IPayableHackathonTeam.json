@@ -1,0 +1,152 @@
+{
+  "contractName": "IPayableHackathonTeam",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "deposit",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol\":\"IPayableHackathonTeam\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol\":{\"keccak256\":\"0x11ed89920956d40e83eb30292ea9b5f2d0854aba783608357681f4c83853cce8\",\"urls\":[\"bzzr://35d1e4fdd05d567433a0251eb77aeed15e4a9702986237957d54fdac3ec2c0b6\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.5.0;\n\ninterface IPayableHackathonTeam {\n    function deposit() external payable;\n}",
+  "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol",
+  "ast": {
+    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol",
+    "exportedSymbols": {
+      "IPayableHackathonTeam": [579]
+    },
+    "id": 580,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 575,
+        "literals": ["solidity", "^", "0.5", ".0"],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 579,
+        "linearizedBaseContracts": [579],
+        "name": "IPayableHackathonTeam",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 578,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deposit",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 576,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "79:2:4"
+            },
+            "returnParameters": {
+              "id": 577,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "98:0:4"
+            },
+            "scope": 579,
+            "src": "63:36:4",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 580,
+        "src": "25:76:4"
+      }
+    ],
+    "src": "0:101:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol",
+    "exportedSymbols": {
+      "IPayableHackathonTeam": [579]
+    },
+    "id": 580,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 575,
+        "literals": ["solidity", "^", "0.5", ".0"],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 579,
+        "linearizedBaseContracts": [579],
+        "name": "IPayableHackathonTeam",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 578,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deposit",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 576,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "79:2:4"
+            },
+            "returnParameters": {
+              "id": 577,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "98:0:4"
+            },
+            "scope": 579,
+            "src": "63:36:4",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 580,
+        "src": "25:76:4"
+      }
+    ],
+    "src": "0:101:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-07-21T20:17:51.182Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
