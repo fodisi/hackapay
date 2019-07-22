@@ -1,5 +1,5 @@
 {
-  "contractName": "IPayableHackathonTeam",
+  "contractName": "IPayableTeam",
   "abi": [
     {
       "constant": false,
@@ -11,26 +11,33 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol\":\"IPayableHackathonTeam\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol\":{\"keccak256\":\"0x11ed89920956d40e83eb30292ea9b5f2d0854aba783608357681f4c83853cce8\",\"urls\":[\"bzzr://35d1e4fdd05d567433a0251eb77aeed15e4a9702986237957d54fdac3ec2c0b6\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/core/IPayableTeam.sol\":\"IPayableTeam\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/core/IPayableTeam.sol\":{\"keccak256\":\"0x548f5c7378c3683802695dbfb8069dc82c6b5cecef9a39f9644f6ba6f7fc8c4f\",\"urls\":[\"bzzr://075b4093a8a368fbcc097fd1fb4a68c8633da950388f82c269bcdd0ab586999e\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.5.0;\n\ninterface IPayableHackathonTeam {\n    function deposit() external payable;\n}",
-  "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol",
+  "source": "pragma solidity ^0.5.0;\n\ninterface IPayableTeam {\n    function deposit() external payable;\n}\n",
+  "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableTeam.sol",
   "ast": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol",
+    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableTeam.sol",
     "exportedSymbols": {
-      "IPayableHackathonTeam": [579]
+      "IPayableTeam": [
+        719
+      ]
     },
-    "id": 580,
+    "id": 720,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 575,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 715,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:4"
+        "src": "0:23:5"
       },
       {
         "baseContracts": [],
@@ -38,58 +45,67 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 579,
-        "linearizedBaseContracts": [579],
-        "name": "IPayableHackathonTeam",
+        "id": 719,
+        "linearizedBaseContracts": [
+          719
+        ],
+        "name": "IPayableTeam",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": null,
             "documentation": null,
-            "id": 578,
+            "id": 718,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 576,
+              "id": 716,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "79:2:4"
+              "src": "70:2:5"
             },
             "returnParameters": {
-              "id": 577,
+              "id": 717,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "98:0:4"
+              "src": "89:0:5"
             },
-            "scope": 579,
-            "src": "63:36:4",
+            "scope": 719,
+            "src": "54:36:5",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 580,
-        "src": "25:76:4"
+        "scope": 720,
+        "src": "25:67:5"
       }
     ],
-    "src": "0:101:4"
+    "src": "0:93:5"
   },
   "legacyAST": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableHackathonTeam.sol",
+    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/IPayableTeam.sol",
     "exportedSymbols": {
-      "IPayableHackathonTeam": [579]
+      "IPayableTeam": [
+        719
+      ]
     },
-    "id": 580,
+    "id": 720,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 575,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 715,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:4"
+        "src": "0:23:5"
       },
       {
         "baseContracts": [],
@@ -97,44 +113,46 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 579,
-        "linearizedBaseContracts": [579],
-        "name": "IPayableHackathonTeam",
+        "id": 719,
+        "linearizedBaseContracts": [
+          719
+        ],
+        "name": "IPayableTeam",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": null,
             "documentation": null,
-            "id": 578,
+            "id": 718,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 576,
+              "id": 716,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "79:2:4"
+              "src": "70:2:5"
             },
             "returnParameters": {
-              "id": 577,
+              "id": 717,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "98:0:4"
+              "src": "89:0:5"
             },
-            "scope": 579,
-            "src": "63:36:4",
+            "scope": 719,
+            "src": "54:36:5",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 580,
-        "src": "25:76:4"
+        "scope": 720,
+        "src": "25:67:5"
       }
     ],
-    "src": "0:101:4"
+    "src": "0:93:5"
   },
   "compiler": {
     "name": "solc",
@@ -142,7 +160,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-21T20:17:51.182Z",
+  "updatedAt": "2019-07-22T01:31:38.437Z",
   "devdoc": {
     "methods": {}
   },
