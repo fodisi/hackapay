@@ -1,5 +1,5 @@
 pragma solidity ^0.5.0;
 
-interface IPayableHackathonTeam {
+interface IPayableTeam {
     function deposit() external payable;
 }

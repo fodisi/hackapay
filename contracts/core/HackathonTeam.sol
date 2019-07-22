@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "../roles/AttendeeRole.sol";
-import "./IPayableHackathonTeam.sol";
+import "./IPayableTeam.sol";
 
 /**
  * @notice Represents a HackathonTeam, allowing the team to receive prizes, and members to split and withdraw their prizes.
@@ -16,7 +16,7 @@ import "./IPayableHackathonTeam.sol";
 //TODO: implement multisig to destroy the contract.
 //TODO: implement multisig to remove members.
 //TODO: implement multisig to transfer contract's funds to another address. See TODO on {splitPrize}.
-contract HackathonTeam is IPayableHackathonTeam, AttendeeRole {
+contract HackathonTeam is IPayableTeam, AttendeeRole {
     using SafeMath for uint256;
 
     address[] internal teamMembers; // List of members
