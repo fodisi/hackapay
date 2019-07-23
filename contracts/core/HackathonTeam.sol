@@ -49,7 +49,7 @@ contract HackathonTeam is IPayableTeam, AttendeeRole {
      * @dev Implements the "withdraw pattern" by allocating balances to team 
      * members, so they can request a withdraw once the split is done.
      */
-    function splitPrize() public onlyAttendee {
+    function splitPrize() external onlyAttendee {
         // Cannot split amounts that were split in the past and are still pending from withdraw.
         uint256 availableBalance = address(this).balance.sub(reservedBalance);
         require(availableBalance > 0, "ContestantTeam balance is 0");
@@ -85,7 +85,7 @@ contract HackathonTeam is IPayableTeam, AttendeeRole {
      * The method is public, so inactive members (that renounced membership)
      * are still able to withdraw funds in case balance > 0. 
      */
-    function withdraw(uint256 amount) public {
+    function withdraw(uint256 amount) external {
         require(balances[msg.sender] >= amount, "Not enough balance");
         uint256 currentBalance = balances[msg.sender];
         currentBalance = currentBalance.sub(amount);
@@ -111,7 +111,7 @@ contract HackathonTeam is IPayableTeam, AttendeeRole {
     }
 
     /// @notice Gets the number of active team members.
-    function getActiveMembersCount() public view returns (uint256) {
+    function getActiveMembersCount() external view returns (uint256) {
         return activeTeamMembersCount;
     }
 
