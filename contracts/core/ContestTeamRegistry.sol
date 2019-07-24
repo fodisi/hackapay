@@ -1,9 +1,8 @@
 pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
-import "../roles/ContestRoleManager.sol";
 
-contract ContestTeamRegistry is ContestRoleManager {
+contract ContestTeamRegistry {
     using SafeMath for uint256;
 
     //TODO: Add struct to identify team members.
@@ -25,8 +24,8 @@ contract ContestTeamRegistry is ContestRoleManager {
     mapping(address => Team) internal teamByAddress;
     Team[] public teams;
     uint256 internal approvedTeamsCount;
-
     bool internal registrationEnabled;
+    bool internal submissionEnabled;
 
     modifier registrationIsOpen() {
         require(registrationEnabled, "Registration is closed.");
@@ -35,6 +34,16 @@ contract ContestTeamRegistry is ContestRoleManager {
 
     modifier registrationIsClosed() {
         require(!registrationEnabled, "Registration is open.");
+        _;
+    }
+
+    modifier submissionIsOpen() {
+        require(submissionEnabled, "Submission is closed.");
+        _;
+    }
+
+    modifier submissionIsClosed() {
+        require(!submissionEnabled, "Submission is open.");
         _;
     }
 
@@ -55,11 +64,22 @@ contract ContestTeamRegistry is ContestRoleManager {
         _;
     }
 
-    constructor() internal ContestRoleManager() {}
+    constructor() internal {}
+
+    function getTeam(uint256 teamId)
+        public
+        view
+        isValidTeamId(teamId)
+        returns (bytes32, address payable, bytes32, bool, uint256)
+    {
+        Team memory team = teams[teamId];
+        return (team.name, team.teamAddress, team.proposalData, team.approved, team.grade);
+    }
 
     function registerTeam(bytes32 teamName, address payable teamAddress, bytes32 proposalData)
         external
         registrationIsOpen
+        returns (uint256)
     {
         require(teamName[0] != 0, "Team name cannot be empty");
         require(teamAddress != address(0), "");
@@ -70,34 +90,59 @@ contract ContestTeamRegistry is ContestRoleManager {
         teams[teamId] = Team(teamId, teamName, teamAddress, proposalData, true, 0);
         teamByAddress[teamAddress] = teams[teamId];
         approvedTeamsCount = approvedTeamsCount.add(1);
+        return teamId;
     }
 
     function updateProposalData(uint256 teamId, bytes32 proposalData)
         external
         isValidTeamId(teamId)
         teamIsApproved(teamId)
+        submissionIsOpen
     {
         Team storage team = teams[teamId];
         team.proposalData = proposalData;
     }
 
-    function closeRegistration() external onlyOrganizer registrationIsOpen {
+    /// @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+    function closeRegistration() external registrationIsOpen {
         _closeRegistration();
     }
 
-    function openRegistration() external onlyOrganizer registrationIsClosed {
+    /// @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+    function openRegistration() external registrationIsClosed {
         _openRegistration();
     }
 
-    function aproveTeam(uint256 teamId) external onlyOrganizer {
+    function getRegistrationStatus() external view returns (bool) {
+        return registrationEnabled;
+    }
+
+    /// @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+    function closeSubmission() external submissionIsOpen {
+        _closeSubmission();
+    }
+
+    /// @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+    function openSubmission() external submissionIsClosed {
+        _openSubmission();
+    }
+
+    function getSubmissionStatus() external view returns (bool) {
+        return submissionEnabled;
+    }
+
+    /// @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+    function aproveTeam(uint256 teamId) external {
         _approveTeam(teamId);
     }
 
-    function reproveTeams(uint256[] calldata teamIds) external onlyOrganizer {
+    /// @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+    function reproveTeams(uint256[] calldata teamIds) external {
         _reproveTeams(teamIds);
     }
 
-    function reproveTeam(uint256 teamId) external onlyOrganizer {
+    /// @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+    function reproveTeam(uint256 teamId) external {
         _reproveTeam(teamId);
     }
 
@@ -113,6 +158,14 @@ contract ContestTeamRegistry is ContestRoleManager {
 
     function _openRegistration() internal {
         registrationEnabled = true;
+    }
+
+    function _closeSubmission() internal {
+        submissionEnabled = false;
+    }
+
+    function _openSubmission() internal {
+        submissionEnabled = true;
     }
 
     function _reproveTeams(uint256[] memory teamIds) internal {
