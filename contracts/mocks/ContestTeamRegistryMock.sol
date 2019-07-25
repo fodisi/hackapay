@@ -9,12 +9,4 @@ contract ContestTeamRegistryMock is ContestTeamRegistry {
         return approvedTeamsCount;
     }
 
-    function getRegistrationStatus() external view returns (bool) {
-        return registrationEnabled;
-    }
-
-    function getSubmissionStatus() external view returns (bool) {
-        return submissionEnabled;
-    }
-
 }
