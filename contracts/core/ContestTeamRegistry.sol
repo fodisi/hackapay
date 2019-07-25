@@ -191,6 +191,7 @@ contract ContestTeamRegistry {
     /**
         @notice (re)approves a team in participating in the contest
         @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @param teamId {uint256} the ids of the teams to be approved
      */
     function approveTeam(uint256 teamId) external {
         _approveTeam(teamId);
@@ -199,7 +200,7 @@ contract ContestTeamRegistry {
     /**
         @notice reprove teams from participating in the contest
         @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-        @param {uint256[]} an array containing the ids of the teams to be reproved
+        @param teamIds {uint256[]} an array containing the ids of the teams to be reproved
      */
     function reproveTeams(uint256[] calldata teamIds) external {
         _reproveTeams(teamIds);
@@ -208,7 +209,7 @@ contract ContestTeamRegistry {
     /**
         @notice reproves a team from participating in the contest
         @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-        @param {uint256} the ids of the teams to be reproved
+        @param teamId {uint256} the ids of the teams to be reproved
      */
     function reproveTeam(uint256 teamId) external {
         _reproveTeam(teamId);
