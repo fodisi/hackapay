@@ -3,252 +3,127 @@ pragma solidity ^0.5.0;
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 import "./ContestTeamRegistry.sol";
+import "../roles/ContestRoleManager.sol";
 
-contract ContestBracketRegistry is ContestTeamRegistry {
+contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     using SafeMath for uint256;
 
-    // /// @notice Represetns a team participating in a contest.
-    // struct Team {
-    //     uint256 id;
-    //     bytes32 name;
-    //     address teamAddress;
-    //     bytes32 proposalData;
-    //     bool approved;
-    //     uint256 grade;
-    // }
+    /// @notice Represetns a team participating in a contest.
+    struct Judge {
+        uint256 id;
+        address judgeAddress;
+        bool active;
+        bool voted;
+    }
 
-    // // Team's helpers
-    // // mapping(uint256 => Team) internal teamById;
-    // mapping(address => Team) internal teamByAddress;
-    // Team[] public teams;
-    // uint256 internal approvedTeamsCount;
-    // bool internal registrationEnabled;
+    // Judge's helpers
+    Judge[] internal judges; // List of members
+    uint256 internal activeJudgesCount; // Helper for {splitPrize} and {getActiveMembers}.
+    mapping(address => Judge) internal judgeByAddress; // Controls active members
+
+    bool internal avaliationEnabled;
     // bool internal submissionEnabled;
 
-    // /// @dev emitted when a new team is registered
-    // event TeamRegistered(uint256 indexed teamId, bytes32 teamName, address indexed teamAddress, bool approved);
-    // /// @dev emitted when a the registration process is updated. See {openRegistration()} and {closeRegistration()}
-    // event RegistrationStatusUpdated(bool enabled);
-    // /// @dev emitted when a the submission process is updated. See {openSubmission()} and {closeSubmission()}
-    // event SubmissionStatusUpdated(bool enabled);
-    // /// @dev emitted when a team's proposal data is updated. See {updateProposalData}
-    // event TeamProposalUpdated(uint256 indexed teamId, address indexed teamAddress, bytes32 proposalData);
-    // /// @dev emitted when a team's status is updated. See {approveTeam} and {reproveTeam}
-    // event TeamStatusUpdated(uint256 indexed teamId, address indexed teamAddress, bool approved);
+    /// @dev emitted when the avaliation process is updated. See {openAvaliation()} and {closeAvaliation()}
+    event AvaliationStatusUpdated(bool enabled);
+    event JudgeVoted(uint256 indexed id, address judgeAddress, bool voted);
 
-    // modifier registrationIsOpen() {
-    //     require(registrationEnabled, "Registration is closed");
-    //     _;
-    // }
+    modifier avaliationIsOpen() {
+        require(avaliationEnabled, "Avaliation is closed");
+        _;
+    }
 
-    // modifier registrationIsClosed() {
-    //     require(!registrationEnabled, "Registration is open");
-    //     _;
-    // }
-
-    // modifier submissionIsOpen() {
-    //     require(submissionEnabled, "Submission is closed");
-    //     _;
-    // }
-
-    // modifier submissionIsClosed() {
-    //     require(!submissionEnabled, "Submission is open");
-    //     _;
-    // }
-
-    // modifier validTeamId(uint256 teamId) {
-    //     require(teamId < teams.length, "Invalid team id");
-    //     _;
-    // }
-
-    // modifier teamIsApproved(uint256 teamId) {
-    //     Team storage team = teams[teamId];
-    //     require(team.approved, "Team is not approved");
-    //     _;
-    // }
-
-    // modifier teamIsReproved(uint256 teamId) {
-    //     Team storage team = teams[teamId];
-    //     require(!team.approved, "Team is not reproved.");
-    //     _;
-    // }
+    modifier avaliationIsClosed() {
+        require(!avaliationEnabled, "Avaliation is open");
+        _;
+    }
 
     // ///@dev This class needs to be inherited.
     // constructor() internal {}
 
-    // /**
-    //     @notice Returns the stored information of a team
-    //     @param teamId {uint256} the team's unique identifier returned on registration
-    //     @return {bytes32} team's name
-    //     @return {address} team's address
-    //     @return {bytes32} team's proposal data
-    //     @return {bool} team's status: {true} for approved; {false} for reproved;
-    //     @return {uint256} team's grade
-    //  */
-    // function getTeam(uint256 teamId)
-    //     public
-    //     view
-    //     validTeamId(teamId)
-    //     returns (bytes32, address, bytes32, bool, uint256)
-    // {
-    //     Team memory team = teams[teamId];
-    //     return (team.name, team.teamAddress, team.proposalData, team.approved, team.grade);
-    // }
+    /**
+        @notice Closes the registration process
+        @dev Overwritten to add modifier for access control.
+     */
+    function closeRegistration() external registrationIsOpen onlyOrganizer {
+        super._closeRegistration();
+    }
 
-    // /**
-    //     @notice Registers a new team in the contest registry.
-    //     @dev Registration process must be open.
-    //     @param teamName {bytes32} team's name; required
-    //     @param teamName {bytes32} team's name; required
-    //     @param teamName {bytes32} team's proposal data; could be a hash for a file
-    //         on IPFS or for a github link; not required
-    //  */
-    // function registerTeam(bytes32 teamName, address teamAddress, bytes32 proposalData)
-    //     external
-    //     registrationIsOpen
-    //     returns (uint256)
-    // {
-    //     require(teamName[0] != 0, "Team name cannot be empty");
-    //     require(teamAddress != address(0), "Team address cannot be zero");
-    //     require(teamByAddress[teamAddress].teamAddress == address(0), "Team already registered");
-    //     // uint256 teamId = teams.length;
-    //     uint256 teamId = approvedTeamsCount;
-    //     // Teams are initialy approved. Based on expectation that most teams would be approved to participate in the contest,
-    //     // avoiding organizers to send multiple or incurring in additional transaction cost to approve the majority of teams.
-    //     // If needed, organizers can send transactions to reprove teams (less transactions == less cost);
-    //     Team memory team = Team(teamId, teamName, teamAddress, proposalData, true, 0);
-    //     teams.push(team);
-    //     teamByAddress[teamAddress] = teams[teamId];
-    //     approvedTeamsCount = approvedTeamsCount.add(1);
-    //     emit TeamRegistered(teamId, teamName, teamAddress, true);
-    //     return teamId;
-    // }
+    /**
+        @notice Opens the registration process
+        @dev Overwritten to add modifier for access control.
+     */
+    function openRegistration() external registrationIsClosed onlyOrganizer {
+        super._openRegistration();
+    }
 
-    // /**
-    //     @notice Updates the proposal data for a specific team.
-    //     @param teamId team's unique identifier; required
-    //     @param proposalData the updated data for the team's proposal
-    //  */
-    // function updateProposalData(uint256 teamId, bytes32 proposalData)
-    //     external
-    //     validTeamId(teamId)
-    //     teamIsApproved(teamId)
-    //     submissionIsOpen
-    // {
-    //     Team storage team = teams[teamId];
-    //     team.proposalData = proposalData;
-    //     emit TeamProposalUpdated(team.id, team.teamAddress, team.proposalData);
-    // }
+    /**
+        @notice Closes the proposal submission process
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
+     */
+    function closeSubmission() external submissionIsOpen onlyOrganizer {
+        super._closeSubmission();
+    }
 
-    // /**
-    //     @notice Closes the registration process
-    //     @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-    //  */
-    // function closeRegistration() external registrationIsOpen {
-    //     _closeRegistration();
-    // }
+    /**
+        @notice Opens the proposal submission process
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
+     */
+    function openSubmission() external submissionIsClosed onlyOrganizer {
+        super._openSubmission();
+    }
 
-    // /**
-    //     @notice Opens the registration process
-    //     @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-    //  */
-    // function openRegistration() external registrationIsClosed {
-    //     _openRegistration();
-    // }
+    /**
+        @notice Closes the avaliation process
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
+     */
+    function closeAvaliation() external avaliationIsOpen onlyOrganizer {
+        _closeAvaliation();
+    }
 
-    // /**
-    //     @notice Gets the registration status
-    //     @return {bool} returns {true} if enabled; otherwise, {false}.
-    //  */
-    // function getRegistrationStatus() external view returns (bool) {
-    //     return registrationEnabled;
-    // }
+    /**
+        @notice Opens the avaliation process
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
+     */
+    function openAvaliation() external avaliationIsClosed onlyOrganizer {
+        _openAvaliation();
+    }
 
-    // /**
-    //     @notice Closes the proposal submission process
-    //     @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-    //  */
-    // function closeSubmission() external submissionIsOpen {
-    //     _closeSubmission();
-    // }
+    /**
+        @notice Gets the avaliation status
+        @return {bool} returns {true} if enabled; otherwise, {false}.
+     */
+    function getAvaliationStatus() external view returns (bool) {
+        return avaliationEnabled;
+    }
 
-    // /**
-    //     @notice Opens the proposal submission process
-    //     @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-    //  */
-    // function openSubmission() external submissionIsClosed {
-    //     _openSubmission();
-    // }
+    function _closeAvaliation() internal {
+        avaliationEnabled = false;
+        emit AvaliationStatusUpdated(avaliationEnabled);
+    }
 
-    // function getSubmissionStatus() external view returns (bool) {
-    //     return submissionEnabled;
-    // }
+    function _openAvaliation() internal {
+        avaliationEnabled = true;
+        emit AvaliationStatusUpdated(avaliationEnabled);
+    }
 
-    // /**
-    //     @notice (re)approves a team in participating in the contest
-    //     @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-    //     @param teamId {uint256} the ids of the teams to be approved
-    //  */
-    // function approveTeam(uint256 teamId) external {
-    //     _approveTeam(teamId);
-    // }
+    /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.
+    function _addJudge(address account) internal {
+        // TODO: check if can re-add previously removed judges to be added.
+        // require(judgeByAddress[account].judgeAddress == address(0));
+        super._addJudge(account);
+        uint256 id = judges.length;
+        Judge memory judge = Judge(id, account, true, false);
+        judges.push(judge);
+        judgeByAddress[account] = judge;
+        activeJudgesCount = activeJudgesCount.add(1);
+    }
 
-    // /**
-    //     @notice reprove teams from participating in the contest
-    //     @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-    //     @param teamIds {uint256[]} an array containing the ids of the teams to be reproved
-    //  */
-    // function reproveTeams(uint256[] calldata teamIds) external {
-    //     _reproveTeams(teamIds);
-    // }
-
-    // /**
-    //     @notice reproves a team from participating in the contest
-    //     @dev Should be overriten on inherited contract to add modifier or require statements for access control.
-    //     @param teamId {uint256} the ids of the teams to be reproved
-    //  */
-    // function reproveTeam(uint256 teamId) external {
-    //     _reproveTeam(teamId);
-    // }
-
-    // function _closeRegistration() internal {
-    //     registrationEnabled = false;
-    //     emit RegistrationStatusUpdated(registrationEnabled);
-    // }
-
-    // function _openRegistration() internal {
-    //     registrationEnabled = true;
-    //     emit RegistrationStatusUpdated(registrationEnabled);
-    // }
-
-    // function _closeSubmission() internal {
-    //     submissionEnabled = false;
-    //     emit SubmissionStatusUpdated(submissionEnabled);
-    // }
-
-    // function _openSubmission() internal {
-    //     submissionEnabled = true;
-    //     emit SubmissionStatusUpdated(submissionEnabled);
-    // }
-
-    // function _approveTeam(uint256 teamId) internal validTeamId(teamId) teamIsReproved(teamId) {
-    //     Team storage team = teams[teamId];
-    //     team.approved = true;
-    //     approvedTeamsCount = approvedTeamsCount.add(1);
-    //     emit TeamStatusUpdated(team.id, team.teamAddress, team.approved);
-    // }
-
-    // function _reproveTeams(uint256[] memory teamIds) internal {
-    //     for (uint256 i = 0; i < teamIds.length; i++) {
-    //         _reproveTeam(teamIds[i]);
-    //     }
-    // }
-
-    // function _reproveTeam(uint256 teamId) internal validTeamId(teamId) teamIsApproved(teamId) {
-    //     Team storage team = teams[teamId];
-    //     team.approved = false;
-    //     approvedTeamsCount = approvedTeamsCount.sub(1);
-    //     emit TeamStatusUpdated(team.id, team.teamAddress, team.approved);
-    // }
-
+    /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.
+    function _removeJudge(address account) internal {
+        super._removeJudge(account);
+        Judge storage judge = judgeByAddress[account];
+        judge.active = false;
+        activeJudgesCount = activeJudgesCount.sub(1);
+    }
 }
