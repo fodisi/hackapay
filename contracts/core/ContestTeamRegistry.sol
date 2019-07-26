@@ -2,6 +2,10 @@ pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
+/**
+    @notice Controls the registration of teams and the subsequent proposal submission process
+    of the teams participating in a contest.
+ */
 contract ContestTeamRegistry {
     using SafeMath for uint256;
 

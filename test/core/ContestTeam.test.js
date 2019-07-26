@@ -1,11 +1,12 @@
+require("openzeppelin-test-helpers/configure")({web3});
 const {expectRevert, expectEvent} = require("openzeppelin-test-helpers");
 const {expect} = require("chai");
 const BigNumber = require("bignumber.js");
-const HackathonTeamMock = artifacts.require("HackathonTeamMock");
+const ContestTeamMock = artifacts.require("ContestTeamMock");
 
-contract("HackathonTeam", function([_, member1, member2, nonMember, ...otherAccounts]) {
+contract("ContestTeam", function([_, member1, member2, nonMember, ...otherAccounts]) {
   beforeEach(async function() {
-    this.contract = await HackathonTeamMock.new({from: member1});
+    this.contract = await ContestTeamMock.new({from: member1});
     await this.contract.addAttendee(member2, {from: member1});
   });
 

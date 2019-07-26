@@ -1,3 +1,4 @@
+require("openzeppelin-test-helpers/configure")({web3});
 const {expectRevert, expectEvent} = require("openzeppelin-test-helpers");
 const {expect} = require("chai");
 const BigNumber = require("bignumber.js");

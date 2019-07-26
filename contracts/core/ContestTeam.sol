@@ -5,7 +5,7 @@ import "../roles/AttendeeRole.sol";
 import "./IPayableTeam.sol";
 
 /**
- * @notice Represents a HackathonTeam, allowing the team to receive prizes, and members to split and withdraw their prizes.
+ * @notice Represents a Contest Team, allowing the team to receive prizes, and members to split and withdraw their prizes.
  * @dev This contract follows the "withdraw pattern". This means that payments are not automatically forwarded to the
  * accounts but kept in this contract, and the actual transfer is triggered as a separate step by calling the {withdraw}
  * function.
@@ -16,7 +16,7 @@ import "./IPayableTeam.sol";
 //TODO: implement multisig to destroy the contract.
 //TODO: implement multisig to remove members.
 //TODO: implement multisig to transfer contract's funds to another address. See TODO on {splitPrize}.
-contract HackathonTeam is IPayableTeam, AttendeeRole {
+contract ContestTeam is IPayableTeam, AttendeeRole {
     using SafeMath for uint256;
 
     address[] internal teamMembers; // List of members
@@ -37,6 +37,9 @@ contract HackathonTeam is IPayableTeam, AttendeeRole {
         uint256 memberPrize,
         uint256 indexed datetime
     );
+
+    /// @dev Needs to be inherited.
+    constructor() internal {}
 
     /// @notice Allows the contract to receive funds.
     function deposit() external payable {

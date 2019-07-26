@@ -23,6 +23,7 @@
 
 // Based on OpenZeppelin source code: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/test/access/roles/MinterRole.test.js
 
+require("openzeppelin-test-helpers/configure")({web3});
 const {shouldBehaveLikeRole} = require("./Role.behavior");
 
 const JudgeRoleMock = artifacts.require("JudgeRoleMock");
