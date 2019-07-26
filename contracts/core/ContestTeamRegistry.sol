@@ -15,7 +15,7 @@ contract ContestTeamRegistry {
 
     //TODO: Add mapping for team members.
 
-    /// @notice Represetns a team participating in a contest.
+    /// @notice Represents a team participating in a contest.
     struct Team {
         uint256 id;
         bytes32 name;
@@ -65,19 +65,17 @@ contract ContestTeamRegistry {
     }
 
     modifier validTeamId(uint256 teamId) {
-        require(teamId < teams.length, "Invalid team id");
+        require(isValidTeamId(teamId), "Invalid team id");
         _;
     }
 
     modifier teamIsApproved(uint256 teamId) {
-        Team storage team = teams[teamId];
-        require(team.approved, "Team is not approved");
+        require(isTeamApproved(teamId), "Team is not approved");
         _;
     }
 
     modifier teamIsReproved(uint256 teamId) {
-        Team storage team = teams[teamId];
-        require(!team.approved, "Team is not reproved.");
+        require(!isTeamApproved(teamId), "Team is not reproved.");
         _;
     }
 
@@ -119,8 +117,7 @@ contract ContestTeamRegistry {
         require(teamName[0] != 0, "Team name cannot be empty");
         require(teamAddress != address(0), "Team address cannot be zero");
         require(teamByAddress[teamAddress].teamAddress == address(0), "Team already registered");
-        // uint256 teamId = teams.length;
-        uint256 teamId = approvedTeamsCount;
+        uint256 teamId = teams.length;
         // Teams are initialy approved. Based on expectation that most teams would be approved to participate in the contest,
         // avoiding organizers to send multiple or incurring in additional transaction cost to approve the majority of teams.
         // If needed, organizers can send transactions to reprove teams (less transactions == less cost);
@@ -150,7 +147,7 @@ contract ContestTeamRegistry {
 
     /**
         @notice Closes the registration process
-        @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
     function closeRegistration() external registrationIsOpen {
         _closeRegistration();
@@ -158,7 +155,7 @@ contract ContestTeamRegistry {
 
     /**
         @notice Opens the registration process
-        @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
     function openRegistration() external registrationIsClosed {
         _openRegistration();
@@ -174,7 +171,7 @@ contract ContestTeamRegistry {
 
     /**
         @notice Closes the proposal submission process
-        @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
     function closeSubmission() external submissionIsOpen {
         _closeSubmission();
@@ -182,7 +179,7 @@ contract ContestTeamRegistry {
 
     /**
         @notice Opens the proposal submission process
-        @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
     function openSubmission() external submissionIsClosed {
         _openSubmission();
@@ -194,7 +191,7 @@ contract ContestTeamRegistry {
 
     /**
         @notice (re)approves a team in participating in the contest
-        @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
         @param teamId {uint256} the ids of the teams to be approved
      */
     function approveTeam(uint256 teamId) external {
@@ -203,7 +200,7 @@ contract ContestTeamRegistry {
 
     /**
         @notice reprove teams from participating in the contest
-        @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
         @param teamIds {uint256[]} an array containing the ids of the teams to be reproved
      */
     function reproveTeams(uint256[] calldata teamIds) external {
@@ -212,7 +209,7 @@ contract ContestTeamRegistry {
 
     /**
         @notice reproves a team from participating in the contest
-        @dev Should be overriten on inherited contract to add modifier or require statements for access control.
+        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
         @param teamId {uint256} the ids of the teams to be reproved
      */
     function reproveTeam(uint256 teamId) external {
@@ -259,4 +256,16 @@ contract ContestTeamRegistry {
         emit TeamStatusUpdated(team.id, team.teamAddress, team.approved);
     }
 
+    function isValidTeamId(uint256 teamId) internal view returns (bool) {
+        return (teamId < teams.length);
+    }
+
+    function isTeamApproved(uint256 teamId) internal view returns (bool) {
+        if (!isValidTeamId(teamId)) {
+            return false;
+        }
+
+        Team memory team = teams[teamId];
+        return team.approved;
+    }
 }
