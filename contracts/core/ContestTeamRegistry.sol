@@ -22,7 +22,7 @@ contract ContestTeamRegistry {
         address teamAddress;
         bytes32 proposalData;
         bool approved;
-        uint256 grade;
+        uint256 grade; //FIXME: scale down to a smaller uint type.
     }
 
     // Team's helpers
