@@ -16,7 +16,7 @@ contract ContestRoleManager is OrganizerRole, JudgeRole {
     uint256 internal activeOrganizersCount; // Helper for {splitPrize} and {getActiveMembers}.
     mapping(address => bool) internal activeOrganizers; // Controls active members
 
-    constructor() internal OrganizerRole() {}
+    constructor() internal OrganizerRole() JudgeRole() {}
 
     function addJudge(address account) public onlyOrganizer {
         _addJudge(account);

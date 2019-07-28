@@ -46,7 +46,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     }
 
     ///@dev This class needs to be inherited.
-    constructor() internal {}
+    constructor() internal ContestTeamRegistry() ContestRoleManager() {}
 
     /**
         @notice Allows a judge to submit its evaluation for the teams competing in the contest. The evaluation for all
