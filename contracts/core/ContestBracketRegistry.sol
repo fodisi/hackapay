@@ -24,7 +24,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     Team internal firstPlace;
     Team internal secondPlace;
     Team internal thirdPlace;
-    bool public rankPublished;
+    bool internal rankPublished;
 
     /// @dev emitted when the evaluation process is updated. See {openEvaluation()} and {closeEvaluation()}
     event EvaluationStatusUpdated(bool enabled);
