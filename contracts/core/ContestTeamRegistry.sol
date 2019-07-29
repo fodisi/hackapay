@@ -6,6 +6,8 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
     @notice Controls the registration of teams and the subsequent proposal submission process
     of the teams participating in a contest.
  */
+
+//TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct.
 contract ContestTeamRegistry {
     using SafeMath for uint256;
 
