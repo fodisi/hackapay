@@ -5,7 +5,7 @@ import "../roles/OrganizerRole.sol";
 
 // mock class using Pausable
 contract PausableMock is Pausable, OrganizerRole {
-    constructor() public Pausable() OrganizerRole() {
+    constructor() public Pausable() OrganizerRole(msg.sender) {
         // Do nothing.
     }
 

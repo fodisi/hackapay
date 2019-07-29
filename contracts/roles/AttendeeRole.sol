@@ -35,8 +35,9 @@ contract AttendeeRole {
 
     Roles.Role private _attendees;
 
-    constructor() internal {
-        _addAttendee(msg.sender);
+    constructor(address initialAttendee) internal {
+        require(initialAttendee != address(0), "Invalid zero address");
+        _addAttendee(initialAttendee);
     }
 
     modifier onlyAttendee() {

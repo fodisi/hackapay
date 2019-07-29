@@ -5,9 +5,8 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 /**
     @notice Controls the registration of teams and the subsequent proposal submission process
     of the teams participating in a contest.
+    @dev TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct.
  */
-
-//TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct.
 contract ContestTeamRegistry {
     using SafeMath for uint256;
 
@@ -100,6 +99,12 @@ contract ContestTeamRegistry {
         returns (bytes32, address, bytes32, bool, uint256)
     {
         Team memory team = teams[teamId];
+        return (team.name, team.teamAddress, team.proposalData, team.approved, team.grade);
+    }
+
+    function getTeamByAddress(address teamAddress) public view returns (bytes32, address, bytes32, bool, uint256) {
+        require(teamAddress != address(0), "Invalid zero address");
+        Team memory team = teamByAddress[teamAddress];
         return (team.name, team.teamAddress, team.proposalData, team.approved, team.grade);
     }
 

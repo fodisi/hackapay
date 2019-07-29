@@ -53,7 +53,10 @@ contract Hackathon is Payable, ContestBracketRegistry {
         _;
     }
 
-    constructor(uint256 _id, bytes32 _name, bytes32 _description) public ContestBracketRegistry() {
+    constructor(uint256 _id, bytes32 _name, bytes32 _description, address initialOrganizer)
+        public
+        ContestBracketRegistry(initialOrganizer)
+    {
         require(_name[0] != 0, "Invalid name");
         id = _id;
         name = _name;

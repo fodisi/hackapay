@@ -7,7 +7,7 @@ import "../core/ContestTeam.sol";
 contract ContestTeamMock is ContestTeam {
     using SafeMath for uint256;
 
-    constructor() public ContestTeam() {}
+    constructor() public ContestTeam(msg.sender) {}
 
     // Helper testing functions.
     function getReservedBalance() public view returns (uint256) {

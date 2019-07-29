@@ -35,8 +35,9 @@ contract OrganizerRole {
 
     Roles.Role private _organizers;
 
-    constructor() internal {
-        _addOrganizer(msg.sender);
+    constructor(address initialOrganizer) internal {
+        require(initialOrganizer != address(0), "Invalid zero address");
+        _addOrganizer(initialOrganizer);
     }
 
     modifier onlyOrganizer() {

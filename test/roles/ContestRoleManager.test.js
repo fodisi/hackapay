@@ -2,17 +2,12 @@ const {expectRevert, expectEvent} = require("openzeppelin-test-helpers");
 const {expect} = require("chai");
 const BigNumber = require("bignumber.js");
 
-const ContestRoleManagerMock = artifacts.require("ContestMock");
+const ContestRoleManagerMock = artifacts.require("ContestRoleManagerMock");
 
 contract("ContestRoleManager", function([_, organizer1, organizer2, judge1, judge2, ...otherAccounts]) {
   describe("access control", function() {
     beforeEach(async function() {
-      this.contract = await ContestRoleManagerMock.new(
-        "1",
-        web3.utils.asciiToHex("name", 32),
-        web3.utils.asciiToHex("description", 32),
-        {from: organizer1}
-      );
+      this.contract = await ContestRoleManagerMock.new({from: organizer1});
     });
 
     it("does not allow non-organizers to add/remove judges", async function() {
@@ -38,12 +33,7 @@ contract("ContestRoleManager", function([_, organizer1, organizer2, judge1, judg
 
   describe("member management", function() {
     beforeEach(async function() {
-      this.contract = await ContestRoleManagerMock.new(
-        "1",
-        web3.utils.asciiToHex("name", 32),
-        web3.utils.asciiToHex("description", 32),
-        {from: organizer1}
-      );
+      this.contract = await ContestRoleManagerMock.new({from: organizer1});
       await this.contract.addOrganizer(organizer2, {from: organizer1});
       await this.contract.addJudge(judge1, {from: organizer1});
       await this.contract.addJudge(judge2, {from: organizer1});

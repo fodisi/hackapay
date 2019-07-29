@@ -122,6 +122,16 @@ contract("ContestTeamRegistry", function([_, organizer1, team1, team2, team3, ..
         expect(web3.utils.hexToAscii(resultProposal).replace(/\0/g, "")).to.equal("proposal");
       });
 
+      it("gets team by address", async function() {
+        await this.contract.openRegistration();
+        await this.contract.registerTeam(name, team1, proposalData, {from: team1});
+        const result = await this.contract.getTeamByAddress(team1, {from: organizer1});
+        const {0: resultName, 1: resultAddress, 2: resultProposal} = result;
+        expect(web3.utils.hexToAscii(resultName).replace(/\0/g, "")).to.equal("name");
+        expect(resultAddress).to.equal(team1);
+        expect(web3.utils.hexToAscii(resultProposal).replace(/\0/g, "")).to.equal("proposal");
+      });
+
       it("updates proposal data", async function() {
         const updatedProposalData = web3.utils.asciiToHex("updatedProposal", 32);
         await this.contract.openRegistration();

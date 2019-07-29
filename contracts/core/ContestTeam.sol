@@ -38,7 +38,7 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
     );
 
     /// @dev Needs to be inherited.
-    constructor() internal Payable() AttendeeRole() Pausable() {}
+    constructor(address initialAttendee) public Payable() AttendeeRole(initialAttendee) Pausable() {}
 
     /**
      * @notice Splits the available's contract balance between active team members.
