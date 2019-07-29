@@ -17,4 +17,8 @@ contract ContestTeamMock is ContestTeam {
     function getAvailableBalance() public view returns (uint256) {
         return address(this).balance.sub(reservedBalance);
     }
+
+    function getBalance() public view returns (uint256) {
+        return address(this).balance;
+    }
 }
