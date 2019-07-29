@@ -5,3 +5,5 @@ package-lock.json
 test/*
 truffle-config.json
 truffle-security.json
+credentials-sample.js
+README.md

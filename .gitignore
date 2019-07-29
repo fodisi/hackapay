@@ -1,3 +1,5 @@
+credential*
+!credentials-sample.js
 .vscode/*
 !.vscode/settings.json
 .DS_Store
