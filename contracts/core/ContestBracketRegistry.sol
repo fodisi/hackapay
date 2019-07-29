@@ -45,10 +45,12 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
 
     modifier whenRankPublished {
         require(rankPublished, "Rank not published yet");
+        _;
     }
 
     modifier whenRankNotPublished {
         require(!rankPublished, "Rank already published");
+        _;
     }
 
     ///@dev This class needs to be inherited.
