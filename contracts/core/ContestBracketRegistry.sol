@@ -21,19 +21,17 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     uint256 internal activeJudgesCount; // Helper for {splitPrize} and {getActiveMembers}.
     mapping(address => Judge) internal judgeByAddress; // Controls active members
     bool internal evaluationEnabled;
+    Team internal firstPlace;
+    Team internal secondPlace;
+    Team internal thirdPlace;
     bool public rankPublished;
-    Team public firstPlace;
-    Team public secondPlace;
-    Team public thirdPlace;
 
     /// @dev emitted when the evaluation process is updated. See {openEvaluation()} and {closeEvaluation()}
     event EvaluationStatusUpdated(bool enabled);
     /// @dev emitted when a judge submits s/he's evaluation.
     event JudgeVoted(uint256 indexed id, address judgeAddress);
-    //TODO: check gradeSent size
-    event InvalidEvaluationSent(address indexed judgeAddress, uint256 teamIdSent, uint8 gradeSent, bool teamStatus);
     /// @dev emitted when winners is announced.
-    event WinnerAnnouced(uint256 teamId, address teamAddress, uint256 finalGrade, string rankPosition);
+    event WinnerAnnouced(uint256 teamId, address teamAddress, uint256 finalGrade, uint8 rankPosition);
 
     modifier evaluationIsOpen() {
         require(evaluationEnabled, "Evaluation is closed");
@@ -43,6 +41,14 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     modifier evaluationIsClosed() {
         require(!evaluationEnabled, "Evaluation is open");
         _;
+    }
+
+    modifier whenRankPublished {
+        require(rankPublished, "Rank not published yet");
+    }
+
+    modifier whenRankNotPublished {
+        require(!rankPublished, "Rank already published");
     }
 
     ///@dev This class needs to be inherited.
@@ -90,9 +96,15 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         emit JudgeVoted(judge.id, judge.judgeAddress);
     }
 
-    function publishRank() external registrationIsClosed submissionIsClosed evaluationIsClosed onlyOrganizer {
+    function publishRank()
+        external
+        registrationIsClosed
+        submissionIsClosed
+        evaluationIsClosed
+        onlyOrganizer
+        whenRankNotPublished
+    {
         require(approvedTeamsCount > 0, "No teams registered");
-        require(!rankPublished, "Rank already published");
         Team memory curTeam;
         Team memory tmpFirst;
         Team memory tmpSecond;
@@ -123,9 +135,9 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         secondPlace = tmpSecond;
         thirdPlace = tmpThird;
         rankPublished = true;
-        emit WinnerAnnouced(firstPlace.id, firstPlace.teamAddress, firstPlace.grade, "first");
-        emit WinnerAnnouced(secondPlace.id, secondPlace.teamAddress, secondPlace.grade, "second");
-        emit WinnerAnnouced(thirdPlace.id, thirdPlace.teamAddress, thirdPlace.grade, "third");
+        emit WinnerAnnouced(firstPlace.id, firstPlace.teamAddress, firstPlace.grade, 1);
+        emit WinnerAnnouced(secondPlace.id, secondPlace.teamAddress, secondPlace.grade, 2);
+        emit WinnerAnnouced(thirdPlace.id, thirdPlace.teamAddress, thirdPlace.grade, 3);
     }
 
     function getWinnersIds() external view returns (uint256, uint256, uint256) {
