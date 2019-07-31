@@ -7,3 +7,5 @@ truffle-config.json
 truffle-security.json
 credentials-sample.js
 README.md
+design_pattern_decisions.md
+avoiding_common_attacks.md
