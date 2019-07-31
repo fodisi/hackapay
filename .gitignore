@@ -28,3 +28,9 @@ dist/*
 .env
 database/*
 dist/
+allFiredEvents
+coverage/*
+coverageEnv/*
+mythx-config.sh
+!mythx-config-sample.sh
+build/mythx/*
