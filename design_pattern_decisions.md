@@ -1,6 +1,7 @@
 # Design Pattern Decisions
 
-The contracts developed for this project, implement a series of design patterns and best practices, such as:
+The contracts developed for this project, implement a series of design patterns and best practices.
+These patterns and best practices were chosen to improve the contracts readability (keep them as simple as possible), implement control access, guarantee state integrity, facilitate development and maintainability, as well as implement tested solutions and approaches to improve security.
 
 ## Design Patterns
 
@@ -11,8 +12,7 @@ All contracts implement this pattern, by implementing modifiers and/or functin t
 ##### Restricting Access ([learn-consensys])
 
 The project implements 04 base smart contracts specifically designed to provide role-based access control to inherited smart contracts.
-These base contracts (AttendeeRole.sol, ContestRoleManager.sol, JudgeRole.sol, OrganizerRole.sol), are available at [contracts/roles] and implement [Open Zeppelin] library [Roles.sol].
-After creating these contracts, inherited contracts were able to use modifiers and base functions to manage role-based access control to its functionalities. For example, the contract [ContestTeam.sol] inherits from [AttendeeRole.sol] and uses the inherited modifier `onlyAttendee` to restrict access to the function `splitPrize()`.
+These base contracts ([AttendeeRole.sol], [ContestRoleManager.sol], [JudgeRole.sol], [OrganizerRole.sol]), implement [Open Zeppelin] library `Roles.sol. After creating these contracts, inherited contracts were able to use modifiers and base functions to manage role-based access control to its functionalities. For example, the contract [ContestTeam.sol] inherits from [AttendeeRole.sol] and uses the inherited modifier`onlyAttendee`to restrict access to the function`splitPrize()`.
 
 ##### State Machine ([learn-consensys])
 
