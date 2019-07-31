@@ -4,6 +4,18 @@ const BigNumber = require("bignumber.js");
 
 const ContestRoleManagerMock = artifacts.require("ContestRoleManagerMock");
 
+/**
+ * @describe These tests validate the functionality of {ContestRoleManager.sol} by using
+ * a Mock inherited contract ({ContestRoleManagerMock})
+ * @dev Tests coverage:
+ * - Access controls and other integrity checks (modifiers): checks if contract reverts
+ * when appropriate, as well as allows usage when sender has the right permission.
+ * - Core functionality: checks the intended contract's core functionality, making sure it
+ * performs what is expected (PS: due to the complexity in some scenarios, where the next test
+ * depends on previous steps, and to keep each test independent, some tests duplicate codes to
+ * execute the required steps needed to validate the expected functionality).
+ * - Events: checks if contracts triggers the expected events
+ */
 contract("ContestRoleManager", function([_, organizer1, organizer2, judge1, judge2, ...otherAccounts]) {
   describe("access control", function() {
     beforeEach(async function() {

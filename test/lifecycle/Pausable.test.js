@@ -4,7 +4,19 @@ const BigNumber = require("bignumber.js");
 
 const PausableMock = artifacts.require("PausableMock");
 
-contract("ContestRoleManager", function([_, organizer1, nonOrganizer, ...otherAccounts]) {
+/**
+ * @describe These tests validate the functionality of {Pausable.sol} by using
+ * a Mock inherited contract ({PausableMock})
+ * @dev Tests coverage:
+ * - Access controls and other integrity checks (modifiers): checks if contract reverts
+ * when appropriate, as well as allows usage when sender has the right permission.
+ * - Core functionality: checks the intended contract's core functionality, making sure it
+ * performs what is expected (PS: due to the complexity in some scenarios, where the next test
+ * depends on previous steps, and to keep each test independent, some tests duplicate codes to
+ * execute the required steps needed to validate the expected functionality).
+ * - Events: checks if contracts triggers the expected events
+ */
+contract("Pausable", function([_, organizer1, nonOrganizer, ...otherAccounts]) {
   describe("access control", function() {
     beforeEach(async function() {
       this.contract = await PausableMock.new({from: organizer1});
