@@ -9,7 +9,9 @@
   "scripts": {
     "test": "truffle test",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development",
+    "deploy:ropsten": "truffle deploy --network ropsten",
+    "deploy:kovan": "truffle deploy --network kovan"
   },
   "keywords": [],
   "author": "github.com/fodisi",
@@ -42,7 +44,6 @@
     "openzeppelin-test-helpers": "^0.4.0",
     "prettier": "^1.18.2",
     "prettier-plugin-solidity": "^1.0.0-alpha.27",
-    "prop-types": "^15.7.2",
     "solhint": "^2.1.2",
     "solhint-plugin-prettier": "0.0.3",
     "truffle-security": "^1.5.2",
@@ -57,6 +58,7 @@
     "openzeppelin-solidity": "^2.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "prop-types": "^15.7.2",
     "rimble-ui": "^0.9.6",
     "styled-components": "^4.3.2",
     "truffle-hdwallet-provider": "^1.0.15",

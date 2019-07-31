@@ -776,7 +776,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T01:58:33.619Z",
+  "updatedAt": "2019-07-31T04:09:20.272Z",
   "devdoc": {
     "methods": {
       "approveTeam(uint256)": {

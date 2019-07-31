@@ -15972,7 +15972,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T01:58:33.582Z",
+  "updatedAt": "2019-07-31T04:09:20.228Z",
   "devdoc": {
     "details": "TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct.",
     "methods": {
