@@ -97,35 +97,35 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"renounceJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"onlyJudgeMock\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isJudge\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeRemoved\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/JudgeRoleMock.sol\":\"JudgeRoleMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/JudgeRoleMock.sol\":{\"keccak256\":\"0xf14da4665908592ea1af163358eed8fdfc483156afa2bfba941e71dd8c19afb4\",\"urls\":[\"bzzr://199dc68599fd5223181052061141d8964c6e439ce3c59aa8784eea97fdaeda33\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":{\"keccak256\":\"0x8ca0c43c75fa548aa501b507ca4763b4ec1a9b8d4e61e0e1b1a7aaf9b0bf7894\",\"urls\":[\"bzzr://4bdf22c3299a6305c6a75a4eec520152b8df0a56dc36a4e055a2c3354c4e08fa\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506100243361002960201b61025e1760201c565b610246565b61004181600061008760201b6103f01790919060201c565b8073ffffffffffffffffffffffffffffffffffffffff167fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903960405160405180910390a250565b610097828261016860201b60201c565b1561010a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614156101ef576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806108776022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b610622806102556000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c80634b30b66f1461005c578063927cab4714610066578063ae2ac4ae146100aa578063c13c90fd146100ee578063ed896d66146100f8575b600080fd5b610064610154565b005b6100a86004803603602081101561007c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061015f565b005b6100ec600480360360208110156100c057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101c9565b005b6100f66101d5565b005b61013a6004803603602081101561010e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610235565b604051808215151515815260200191505060405180910390f35b61015d33610252565b565b61016833610235565b6101bd576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602b815260200180610589602b913960400191505060405180910390fd5b6101c68161025e565b50565b6101d281610252565b50565b6101de33610235565b610233576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602b815260200180610589602b913960400191505060405180910390fd5b565b600061024b8260006102b890919063ffffffff16565b9050919050565b61025b81610396565b50565b6102728160006103f090919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903960405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561033f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105d56022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b6103aa8160006104cb90919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f32a792a099c63670df7161917c5efb2fdc734cf9f943ebddccbecef87664f2b760405160405180910390a250565b6103fa82826102b8565b1561046d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6104d582826102b8565b61052a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001806105b46021913960400191505060405180910390fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fe4a75646765526f6c653a2063616c6c657220646f6573206e6f742068617665204a7564676520526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a7230582078918a03d487c25a828988254e33632a23ba0133fb62b191da9c6a00c3c66fa80029526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c80634b30b66f1461005c578063927cab4714610066578063ae2ac4ae146100aa578063c13c90fd146100ee578063ed896d66146100f8575b600080fd5b610064610154565b005b6100a86004803603602081101561007c57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061015f565b005b6100ec600480360360208110156100c057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101c9565b005b6100f66101d5565b005b61013a6004803603602081101561010e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610235565b604051808215151515815260200191505060405180910390f35b61015d33610252565b565b61016833610235565b6101bd576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602b815260200180610589602b913960400191505060405180910390fd5b6101c68161025e565b50565b6101d281610252565b50565b6101de33610235565b610233576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602b815260200180610589602b913960400191505060405180910390fd5b565b600061024b8260006102b890919063ffffffff16565b9050919050565b61025b81610396565b50565b6102728160006103f090919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903960405160405180910390a250565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561033f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105d56022913960400191505060405180910390fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b6103aa8160006104cb90919063ffffffff16565b8073ffffffffffffffffffffffffffffffffffffffff167f32a792a099c63670df7161917c5efb2fdc734cf9f943ebddccbecef87664f2b760405160405180910390a250565b6103fa82826102b8565b1561046d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f526f6c65733a206163636f756e7420616c72656164792068617320726f6c650081525060200191505060405180910390fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b6104d582826102b8565b61052a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001806105b46021913960400191505060405180910390fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550505056fe4a75646765526f6c653a2063616c6c657220646f6573206e6f742068617665204a7564676520526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a7230582078918a03d487c25a828988254e33632a23ba0133fb62b191da9c6a00c3c66fa80029",
-  "sourceMap": "1341:596:16:-;;;1383:77;8:9:-1;5:2;;;30:1;27;20:12;5:2;1383:77:16;1426:27;1442:10;1426:15;;;;;:27;;:::i;:::-;1341:596;;2074:116:23;2129:20;2141:7;2129;:11;;;;;;:20;;;;:::i;:::-;2175:7;2164:19;;;;;;;;;;;;2074:116;:::o;260:175:26:-;337:18;341:4;347:7;337:3;;;:18;;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o;779:200::-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;1341:596:16:-;;;;;;;",
-  "deployedSourceMap": "1341:596:16:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1341:596:16;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1995:73:23;;;:::i;:::-;;1466:93:16;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1466:93:16;;;;;;;;;;;;;;;;;;;:::i;:::-;;1565:83;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1565:83:16;;;;;;;;;;;;;;;;;;;:::i;:::-;;1654:111;;;:::i;:::-;;1758:105:23;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1758:105:23;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1995:73;2037:24;2050:10;2037:12;:24::i;:::-;1995:73::o;1466:93:16:-;1667:19:23;1675:10;1667:7;:19::i;:::-;1659:75;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1528:24:16;1544:7;1528:15;:24::i;:::-;1466:93;:::o;1565:83::-;1620:21;1633:7;1620:12;:21::i;:::-;1565:83;:::o;1654:111::-;1667:19:23;1675:10;1667:7;:19::i;:::-;1659:75;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1654:111:16:o;1758:105:23:-;1813:4;1836:20;1848:7;1836;:11;;:20;;;;:::i;:::-;1829:27;;1758:105;;;:::o;1843:92:16:-;1901:27;1920:7;1901:18;:27::i;:::-;1843:92;:::o;2074:116:23:-;2129:20;2141:7;2129;:11;;:20;;;;:::i;:::-;2175:7;2164:19;;;;;;;;;;;;2074:116;:::o;779:200:26:-;851:4;894:1;875:21;;:7;:21;;;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;952:4;:11;;:20;964:7;952:20;;;;;;;;;;;;;;;;;;;;;;;;;945:27;;779:200;;;;:::o;2196:124:23:-;2254:23;2269:7;2254;:14;;:23;;;;:::i;:::-;2305:7;2292:21;;;;;;;;;;;;2196:124;:::o;260:175:26:-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:4;401;:11;;:20;413:7;401:20;;;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;260:175;;:::o;510:180::-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;678:5;655:4;:11;;:20;667:7;655:20;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;510:180;;:::o",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"renounceJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"onlyJudgeMock\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isJudge\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeRemoved\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/JudgeRoleMock.sol\":\"JudgeRoleMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/JudgeRoleMock.sol\":{\"keccak256\":\"0xf14da4665908592ea1af163358eed8fdfc483156afa2bfba941e71dd8c19afb4\",\"urls\":[\"bzzr://199dc68599fd5223181052061141d8964c6e439ce3c59aa8784eea97fdaeda33\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":{\"keccak256\":\"0x9adf6a6514d21fdc98880aad0d9547432138a169c31419d2ce29017352f813ec\",\"urls\":[\"bzzr://86b99e607f0e00e3ac0ab7658a29a8dc0be771df01f625f00f7c01236582f5ec\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506100243361002960201b6101c31760201c565b61019a565b61004181600061007860201b6102bd1790919060201c565b6040516001600160a01b038216907fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903990600090a250565b610088828261011960201b60201c565b156100f457604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b03821661017a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806105ee6022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b610445806101a96000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c80634b30b66f1461005c578063927cab4714610066578063ae2ac4ae1461008c578063c13c90fd146100b2578063ed896d66146100ba575b600080fd5b6100646100f4565b005b6100646004803603602081101561007c57600080fd5b50356001600160a01b03166100ff565b610064600480360360208110156100a257600080fd5b50356001600160a01b0316610152565b61006461015b565b6100e0600480360360208110156100d057600080fd5b50356001600160a01b03166101a2565b604080519115158252519081900360200190f35b6100fd336101ba565b565b610108336101a2565b61014657604051600160e51b62461bcd02815260040180806020018281038252602b8152602001806103ac602b913960400191505060405180910390fd5b61014f816101c3565b50565b61014f816101ba565b610164336101a2565b6100fd57604051600160e51b62461bcd02815260040180806020018281038252602b8152602001806103ac602b913960400191505060405180910390fd5b60006101b4818363ffffffff61020b16565b92915050565b61014f81610275565b6101d460008263ffffffff6102bd16565b6040516001600160a01b038216907fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903990600090a250565b60006001600160a01b03821661025557604051600160e51b62461bcd0281526004018080602001828103825260228152602001806103f86022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61028660008263ffffffff61034116565b6040516001600160a01b038216907f32a792a099c63670df7161917c5efb2fdc734cf9f943ebddccbecef87664f2b790600090a250565b6102c7828261020b565b1561031c5760408051600160e51b62461bcd02815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b61034b828261020b565b61038957604051600160e51b62461bcd0281526004018080602001828103825260218152602001806103d76021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe4a75646765526f6c653a2063616c6c657220646f6573206e6f742068617665204a7564676520526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a72305820806424ca3e0b847b520aa8d458d258ff538afef555d589522cf1c2d5cce014880029526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c80634b30b66f1461005c578063927cab4714610066578063ae2ac4ae1461008c578063c13c90fd146100b2578063ed896d66146100ba575b600080fd5b6100646100f4565b005b6100646004803603602081101561007c57600080fd5b50356001600160a01b03166100ff565b610064600480360360208110156100a257600080fd5b50356001600160a01b0316610152565b61006461015b565b6100e0600480360360208110156100d057600080fd5b50356001600160a01b03166101a2565b604080519115158252519081900360200190f35b6100fd336101ba565b565b610108336101a2565b61014657604051600160e51b62461bcd02815260040180806020018281038252602b8152602001806103ac602b913960400191505060405180910390fd5b61014f816101c3565b50565b61014f816101ba565b610164336101a2565b6100fd57604051600160e51b62461bcd02815260040180806020018281038252602b8152602001806103ac602b913960400191505060405180910390fd5b60006101b4818363ffffffff61020b16565b92915050565b61014f81610275565b6101d460008263ffffffff6102bd16565b6040516001600160a01b038216907fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903990600090a250565b60006001600160a01b03821661025557604051600160e51b62461bcd0281526004018080602001828103825260228152602001806103f86022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61028660008263ffffffff61034116565b6040516001600160a01b038216907f32a792a099c63670df7161917c5efb2fdc734cf9f943ebddccbecef87664f2b790600090a250565b6102c7828261020b565b1561031c5760408051600160e51b62461bcd02815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b61034b828261020b565b61038957604051600160e51b62461bcd0281526004018080602001828103825260218152602001806103d76021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe4a75646765526f6c653a2063616c6c657220646f6573206e6f742068617665204a7564676520526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a72305820806424ca3e0b847b520aa8d458d258ff538afef555d589522cf1c2d5cce014880029",
+  "sourceMap": "1341:596:15:-;;;1383:77;8:9:-1;5:2;;;30:1;27;20:12;5:2;1383:77:15;1426:27;1442:10;1426:15;;;;;:27;;:::i;:::-;1341:596;;2319:116:22;2374:20;2386:7;2374;:11;;;;;;:20;;;;:::i;:::-;2409:19;;-1:-1:-1;;;;;2409:19:22;;;;;;;;2319:116;:::o;260:175:25:-;337:18;341:4;347:7;337:3;;;:18;;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:25;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:25;424:4;401:27;;;260:175::o;779:200::-;851:4;-1:-1:-1;;;;;875:21:25;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:25;:11;:20;;;;;;;;;;;;;;;779:200::o;1341:596:15:-;;;;;;;",
+  "deployedSourceMap": "1341:596:15:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1341:596:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2240:73:22;;;:::i;:::-;;1466:93:15;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1466:93:15;-1:-1:-1;;;;;1466:93:15;;:::i;1565:83::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1565:83:15;-1:-1:-1;;;;;1565:83:15;;:::i;1654:111::-;;;:::i;2003:105:22:-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2003:105:22;-1:-1:-1;;;;;2003:105:22;;:::i;:::-;;;;;;;;;;;;;;;;;;2240:73;2282:24;2295:10;2282:12;:24::i;:::-;2240:73::o;1466:93:15:-;1912:19:22;1920:10;1912:7;:19::i;:::-;1904:75;;;;-1:-1:-1;;;;;1904:75:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1528:24:15;1544:7;1528:15;:24::i;:::-;1466:93;:::o;1565:83::-;1620:21;1633:7;1620:12;:21::i;1654:111::-;1912:19:22;1920:10;1912:7;:19::i;:::-;1904:75;;;;-1:-1:-1;;;;;1904:75:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2003:105;2058:4;2081:20;2058:4;2093:7;2081:20;:11;:20;:::i;:::-;2074:27;2003:105;-1:-1:-1;;2003:105:22:o;1843:92:15:-;1901:27;1920:7;1901:18;:27::i;2319:116:22:-;2374:20;:7;2386;2374:20;:11;:20;:::i;:::-;2409:19;;-1:-1:-1;;;;;2409:19:22;;;;;;;;2319:116;:::o;779:200:25:-;851:4;-1:-1:-1;;;;;875:21:25;;867:68;;;;-1:-1:-1;;;;;867:68:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:25;:11;:20;;;;;;;;;;;;;;;779:200::o;2441:124:22:-;2499:23;:7;2514;2499:23;:14;:23;:::i;:::-;2537:21;;-1:-1:-1;;;;;2537:21:22;;;;;;;;2441:124;:::o;260:175:25:-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;-1:-1:-1;;;;;328:63:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:25;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:25;424:4;401:27;;;260:175::o;510:180::-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;-1:-1:-1;;;;;581:64:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;655:20:25;678:5;655:20;;;;;;;;;;;:28;;-1:-1:-1;;655:28:25;;;510:180::o",
   "source": "// The MIT License(MIT)\n\n// Copyright(c) 2016 - 2019 zOS Global Limited\n\n// Permission is hereby granted, free of charge, to any person obtaining\n// a copy of this software and associated documentation files(the\n// \"Software\"), to deal in the Software without restriction, including\n// without limitation the rights to use, copy, modify, merge, publish,\n//   distribute, sublicense, and / or sell copies of the Software, and to\n// permit persons to whom the Software is furnished to do so, subject to\n// the following conditions:\n\n// The above copyright notice and this permission notice shall be included\n//   in all copies or substantial portions of the Software.\n\n// THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\n// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n// IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n// CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n//   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n// SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n// Based on OpenZeppelin's https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/mocks/MinterRoleMock.sol\n\npragma solidity ^0.5.0;\n\nimport \"../roles/JudgeRole.sol\";\n\ncontract JudgeRoleMock is JudgeRole {\n    constructor() public JudgeRole() {\n        super._addJudge(msg.sender);\n    }\n\n    function addJudge(address account) public onlyJudge {\n        super._addJudge(account);\n    }\n\n    function removeJudge(address account) public {\n        _removeJudge(account);\n    }\n\n    function onlyJudgeMock() public view onlyJudge {\n        // solhint-disable-previous-line no-empty-blocks\n    }\n\n    // Causes a compilation error if super._removeJudge is not internal\n    function _removeJudge(address account) internal {\n        super._removeJudge(account);\n    }\n}\n",
   "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/JudgeRoleMock.sol",
   "ast": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/JudgeRoleMock.sol",
     "exportedSymbols": {
-      "JudgeRoleMock": [2498]
+      "JudgeRoleMock": [2771]
     },
-    "id": 2499,
+    "id": 2772,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2439,
+        "id": 2712,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "1282:23:16"
+        "src": "1282:23:15"
       },
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol",
         "file": "../roles/JudgeRole.sol",
-        "id": 2440,
+        "id": 2713,
         "nodeType": "ImportDirective",
-        "scope": 2499,
-        "sourceUnit": 3018,
-        "src": "1307:32:16",
+        "scope": 2772,
+        "sourceUnit": 3291,
+        "src": "1307:32:15",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -135,35 +135,35 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2441,
+              "id": 2714,
               "name": "JudgeRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3017,
-              "src": "1367:9:16",
+              "referencedDeclaration": 3290,
+              "src": "1367:9:15",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_JudgeRole_$3017",
+                "typeIdentifier": "t_contract$_JudgeRole_$3290",
                 "typeString": "contract JudgeRole"
               }
             },
-            "id": 2442,
+            "id": 2715,
             "nodeType": "InheritanceSpecifier",
-            "src": "1367:9:16"
+            "src": "1367:9:15"
           }
         ],
-        "contractDependencies": [3017],
+        "contractDependencies": [3290],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2498,
-        "linearizedBaseContracts": [2498, 3017],
+        "id": 2771,
+        "linearizedBaseContracts": [2771, 3290],
         "name": "JudgeRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2454,
+              "id": 2727,
               "nodeType": "Block",
-              "src": "1416:44:16",
+              "src": "1416:44:15",
               "statements": [
                 {
                   "expression": {
@@ -173,18 +173,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2450,
+                          "id": 2723,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3960,
-                          "src": "1442:3:16",
+                          "referencedDeclaration": 4233,
+                          "src": "1442:3:15",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2451,
+                        "id": 2724,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -192,7 +192,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "1442:10:16",
+                        "src": "1442:10:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -208,32 +208,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2447,
+                        "id": 2720,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4023,
-                        "src": "1426:5:16",
+                        "referencedDeclaration": 4294,
+                        "src": "1426:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_JudgeRoleMock_$2498",
+                          "typeIdentifier": "t_super$_JudgeRoleMock_$2771",
                           "typeString": "contract super JudgeRoleMock"
                         }
                       },
-                      "id": 2449,
+                      "id": 2722,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_addJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3000,
-                      "src": "1426:15:16",
+                      "referencedDeclaration": 3273,
+                      "src": "1426:15:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2452,
+                    "id": 2725,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -241,68 +241,68 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1426:27:16",
+                    "src": "1426:27:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2453,
+                  "id": 2726,
                   "nodeType": "ExpressionStatement",
-                  "src": "1426:27:16"
+                  "src": "1426:27:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2455,
+            "id": 2728,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2445,
+                "id": 2718,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2444,
+                  "id": 2717,
                   "name": "JudgeRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3017,
-                  "src": "1404:9:16",
+                  "referencedDeclaration": 3290,
+                  "src": "1404:9:15",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_JudgeRole_$3017_$",
+                    "typeIdentifier": "t_type$_t_contract$_JudgeRole_$3290_$",
                     "typeString": "type(contract JudgeRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1404:11:16"
+                "src": "1404:11:15"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2443,
+              "id": 2716,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1394:2:16"
+              "src": "1394:2:15"
             },
             "returnParameters": {
-              "id": 2446,
+              "id": 2719,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1416:0:16"
+              "src": "1416:0:15"
             },
-            "scope": 2498,
-            "src": "1383:77:16",
+            "scope": 2771,
+            "src": "1383:77:15",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2468,
+              "id": 2741,
               "nodeType": "Block",
-              "src": "1518:41:16",
+              "src": "1518:41:15",
               "statements": [
                 {
                   "expression": {
@@ -310,12 +310,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2465,
+                        "id": 2738,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2457,
-                        "src": "1544:7:16",
+                        "referencedDeclaration": 2730,
+                        "src": "1544:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -331,32 +331,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2462,
+                        "id": 2735,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4023,
-                        "src": "1528:5:16",
+                        "referencedDeclaration": 4294,
+                        "src": "1528:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_JudgeRoleMock_$2498",
+                          "typeIdentifier": "t_super$_JudgeRoleMock_$2771",
                           "typeString": "contract super JudgeRoleMock"
                         }
                       },
-                      "id": 2464,
+                      "id": 2737,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_addJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3000,
-                      "src": "1528:15:16",
+                      "referencedDeclaration": 3273,
+                      "src": "1528:15:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2466,
+                    "id": 2739,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -364,56 +364,56 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1528:24:16",
+                    "src": "1528:24:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2467,
+                  "id": 2740,
                   "nodeType": "ExpressionStatement",
-                  "src": "1528:24:16"
+                  "src": "1528:24:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2469,
+            "id": 2742,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2460,
+                "id": 2733,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2459,
+                  "id": 2732,
                   "name": "onlyJudge",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2957,
-                  "src": "1508:9:16",
+                  "referencedDeclaration": 3230,
+                  "src": "1508:9:15",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1508:9:16"
+                "src": "1508:9:15"
               }
             ],
             "name": "addJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2458,
+              "id": 2731,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2457,
+                  "id": 2730,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2469,
-                  "src": "1484:15:16",
+                  "scope": 2742,
+                  "src": "1484:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -421,10 +421,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2456,
+                    "id": 2729,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1484:7:16",
+                    "src": "1484:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -435,25 +435,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1483:17:16"
+              "src": "1483:17:15"
             },
             "returnParameters": {
-              "id": 2461,
+              "id": 2734,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1518:0:16"
+              "src": "1518:0:15"
             },
-            "scope": 2498,
-            "src": "1466:93:16",
+            "scope": 2771,
+            "src": "1466:93:15",
             "stateMutability": "nonpayable",
-            "superFunction": 2975,
+            "superFunction": 3248,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2478,
+              "id": 2751,
               "nodeType": "Block",
-              "src": "1610:38:16",
+              "src": "1610:38:15",
               "statements": [
                 {
                   "expression": {
@@ -461,12 +461,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2475,
+                        "id": 2748,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2471,
-                        "src": "1633:7:16",
+                        "referencedDeclaration": 2744,
+                        "src": "1633:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -480,18 +480,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2474,
+                      "id": 2747,
                       "name": "_removeJudge",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [2497],
-                      "referencedDeclaration": 2497,
-                      "src": "1620:12:16",
+                      "overloadedDeclarations": [2770],
+                      "referencedDeclaration": 2770,
+                      "src": "1620:12:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2476,
+                    "id": 2749,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -499,36 +499,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1620:21:16",
+                    "src": "1620:21:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2477,
+                  "id": 2750,
                   "nodeType": "ExpressionStatement",
-                  "src": "1620:21:16"
+                  "src": "1620:21:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2479,
+            "id": 2752,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2472,
+              "id": 2745,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2471,
+                  "id": 2744,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2479,
-                  "src": "1586:15:16",
+                  "scope": 2752,
+                  "src": "1586:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -536,10 +536,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2470,
+                    "id": 2743,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1586:7:16",
+                    "src": "1586:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -550,77 +550,77 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1585:17:16"
+              "src": "1585:17:15"
             },
             "returnParameters": {
-              "id": 2473,
+              "id": 2746,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1610:0:16"
+              "src": "1610:0:15"
             },
-            "scope": 2498,
-            "src": "1565:83:16",
+            "scope": 2771,
+            "src": "1565:83:15",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2484,
+              "id": 2757,
               "nodeType": "Block",
-              "src": "1701:64:16",
+              "src": "1701:64:15",
               "statements": []
             },
             "documentation": null,
-            "id": 2485,
+            "id": 2758,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2482,
+                "id": 2755,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2481,
+                  "id": 2754,
                   "name": "onlyJudge",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2957,
-                  "src": "1691:9:16",
+                  "referencedDeclaration": 3230,
+                  "src": "1691:9:15",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1691:9:16"
+                "src": "1691:9:15"
               }
             ],
             "name": "onlyJudgeMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2480,
+              "id": 2753,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1676:2:16"
+              "src": "1676:2:15"
             },
             "returnParameters": {
-              "id": 2483,
+              "id": 2756,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1701:0:16"
+              "src": "1701:0:15"
             },
-            "scope": 2498,
-            "src": "1654:111:16",
+            "scope": 2771,
+            "src": "1654:111:15",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2496,
+              "id": 2769,
               "nodeType": "Block",
-              "src": "1891:44:16",
+              "src": "1891:44:15",
               "statements": [
                 {
                   "expression": {
@@ -628,12 +628,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2493,
+                        "id": 2766,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2487,
-                        "src": "1920:7:16",
+                        "referencedDeclaration": 2760,
+                        "src": "1920:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -649,32 +649,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2490,
+                        "id": 2763,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4023,
-                        "src": "1901:5:16",
+                        "referencedDeclaration": 4294,
+                        "src": "1901:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_JudgeRoleMock_$2498",
+                          "typeIdentifier": "t_super$_JudgeRoleMock_$2771",
                           "typeString": "contract super JudgeRoleMock"
                         }
                       },
-                      "id": 2492,
+                      "id": 2765,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3016,
-                      "src": "1901:18:16",
+                      "referencedDeclaration": 3289,
+                      "src": "1901:18:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2494,
+                    "id": 2767,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -682,36 +682,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1901:27:16",
+                    "src": "1901:27:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2495,
+                  "id": 2768,
                   "nodeType": "ExpressionStatement",
-                  "src": "1901:27:16"
+                  "src": "1901:27:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2497,
+            "id": 2770,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2488,
+              "id": 2761,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2487,
+                  "id": 2760,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2497,
-                  "src": "1865:15:16",
+                  "scope": 2770,
+                  "src": "1865:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -719,10 +719,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2486,
+                    "id": 2759,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1865:7:16",
+                    "src": "1865:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -733,49 +733,49 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1864:17:16"
+              "src": "1864:17:15"
             },
             "returnParameters": {
-              "id": 2489,
+              "id": 2762,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1891:0:16"
+              "src": "1891:0:15"
             },
-            "scope": 2498,
-            "src": "1843:92:16",
+            "scope": 2771,
+            "src": "1843:92:15",
             "stateMutability": "nonpayable",
-            "superFunction": 3016,
+            "superFunction": 3289,
             "visibility": "internal"
           }
         ],
-        "scope": 2499,
-        "src": "1341:596:16"
+        "scope": 2772,
+        "src": "1341:596:15"
       }
     ],
-    "src": "1282:656:16"
+    "src": "1282:656:15"
   },
   "legacyAST": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/JudgeRoleMock.sol",
     "exportedSymbols": {
-      "JudgeRoleMock": [2498]
+      "JudgeRoleMock": [2771]
     },
-    "id": 2499,
+    "id": 2772,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2439,
+        "id": 2712,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "1282:23:16"
+        "src": "1282:23:15"
       },
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol",
         "file": "../roles/JudgeRole.sol",
-        "id": 2440,
+        "id": 2713,
         "nodeType": "ImportDirective",
-        "scope": 2499,
-        "sourceUnit": 3018,
-        "src": "1307:32:16",
+        "scope": 2772,
+        "sourceUnit": 3291,
+        "src": "1307:32:15",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -785,35 +785,35 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2441,
+              "id": 2714,
               "name": "JudgeRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3017,
-              "src": "1367:9:16",
+              "referencedDeclaration": 3290,
+              "src": "1367:9:15",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_JudgeRole_$3017",
+                "typeIdentifier": "t_contract$_JudgeRole_$3290",
                 "typeString": "contract JudgeRole"
               }
             },
-            "id": 2442,
+            "id": 2715,
             "nodeType": "InheritanceSpecifier",
-            "src": "1367:9:16"
+            "src": "1367:9:15"
           }
         ],
-        "contractDependencies": [3017],
+        "contractDependencies": [3290],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2498,
-        "linearizedBaseContracts": [2498, 3017],
+        "id": 2771,
+        "linearizedBaseContracts": [2771, 3290],
         "name": "JudgeRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2454,
+              "id": 2727,
               "nodeType": "Block",
-              "src": "1416:44:16",
+              "src": "1416:44:15",
               "statements": [
                 {
                   "expression": {
@@ -823,18 +823,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2450,
+                          "id": 2723,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3960,
-                          "src": "1442:3:16",
+                          "referencedDeclaration": 4233,
+                          "src": "1442:3:15",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2451,
+                        "id": 2724,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -842,7 +842,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "1442:10:16",
+                        "src": "1442:10:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -858,32 +858,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2447,
+                        "id": 2720,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4023,
-                        "src": "1426:5:16",
+                        "referencedDeclaration": 4294,
+                        "src": "1426:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_JudgeRoleMock_$2498",
+                          "typeIdentifier": "t_super$_JudgeRoleMock_$2771",
                           "typeString": "contract super JudgeRoleMock"
                         }
                       },
-                      "id": 2449,
+                      "id": 2722,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_addJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3000,
-                      "src": "1426:15:16",
+                      "referencedDeclaration": 3273,
+                      "src": "1426:15:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2452,
+                    "id": 2725,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -891,68 +891,68 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1426:27:16",
+                    "src": "1426:27:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2453,
+                  "id": 2726,
                   "nodeType": "ExpressionStatement",
-                  "src": "1426:27:16"
+                  "src": "1426:27:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2455,
+            "id": 2728,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2445,
+                "id": 2718,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2444,
+                  "id": 2717,
                   "name": "JudgeRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3017,
-                  "src": "1404:9:16",
+                  "referencedDeclaration": 3290,
+                  "src": "1404:9:15",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_JudgeRole_$3017_$",
+                    "typeIdentifier": "t_type$_t_contract$_JudgeRole_$3290_$",
                     "typeString": "type(contract JudgeRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1404:11:16"
+                "src": "1404:11:15"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2443,
+              "id": 2716,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1394:2:16"
+              "src": "1394:2:15"
             },
             "returnParameters": {
-              "id": 2446,
+              "id": 2719,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1416:0:16"
+              "src": "1416:0:15"
             },
-            "scope": 2498,
-            "src": "1383:77:16",
+            "scope": 2771,
+            "src": "1383:77:15",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2468,
+              "id": 2741,
               "nodeType": "Block",
-              "src": "1518:41:16",
+              "src": "1518:41:15",
               "statements": [
                 {
                   "expression": {
@@ -960,12 +960,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2465,
+                        "id": 2738,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2457,
-                        "src": "1544:7:16",
+                        "referencedDeclaration": 2730,
+                        "src": "1544:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -981,32 +981,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2462,
+                        "id": 2735,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4023,
-                        "src": "1528:5:16",
+                        "referencedDeclaration": 4294,
+                        "src": "1528:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_JudgeRoleMock_$2498",
+                          "typeIdentifier": "t_super$_JudgeRoleMock_$2771",
                           "typeString": "contract super JudgeRoleMock"
                         }
                       },
-                      "id": 2464,
+                      "id": 2737,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_addJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3000,
-                      "src": "1528:15:16",
+                      "referencedDeclaration": 3273,
+                      "src": "1528:15:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2466,
+                    "id": 2739,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1014,56 +1014,56 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1528:24:16",
+                    "src": "1528:24:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2467,
+                  "id": 2740,
                   "nodeType": "ExpressionStatement",
-                  "src": "1528:24:16"
+                  "src": "1528:24:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2469,
+            "id": 2742,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2460,
+                "id": 2733,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2459,
+                  "id": 2732,
                   "name": "onlyJudge",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2957,
-                  "src": "1508:9:16",
+                  "referencedDeclaration": 3230,
+                  "src": "1508:9:15",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1508:9:16"
+                "src": "1508:9:15"
               }
             ],
             "name": "addJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2458,
+              "id": 2731,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2457,
+                  "id": 2730,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2469,
-                  "src": "1484:15:16",
+                  "scope": 2742,
+                  "src": "1484:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1071,10 +1071,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2456,
+                    "id": 2729,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1484:7:16",
+                    "src": "1484:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1085,25 +1085,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1483:17:16"
+              "src": "1483:17:15"
             },
             "returnParameters": {
-              "id": 2461,
+              "id": 2734,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1518:0:16"
+              "src": "1518:0:15"
             },
-            "scope": 2498,
-            "src": "1466:93:16",
+            "scope": 2771,
+            "src": "1466:93:15",
             "stateMutability": "nonpayable",
-            "superFunction": 2975,
+            "superFunction": 3248,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2478,
+              "id": 2751,
               "nodeType": "Block",
-              "src": "1610:38:16",
+              "src": "1610:38:15",
               "statements": [
                 {
                   "expression": {
@@ -1111,12 +1111,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2475,
+                        "id": 2748,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2471,
-                        "src": "1633:7:16",
+                        "referencedDeclaration": 2744,
+                        "src": "1633:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1130,18 +1130,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2474,
+                      "id": 2747,
                       "name": "_removeJudge",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [2497],
-                      "referencedDeclaration": 2497,
-                      "src": "1620:12:16",
+                      "overloadedDeclarations": [2770],
+                      "referencedDeclaration": 2770,
+                      "src": "1620:12:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2476,
+                    "id": 2749,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1149,36 +1149,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1620:21:16",
+                    "src": "1620:21:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2477,
+                  "id": 2750,
                   "nodeType": "ExpressionStatement",
-                  "src": "1620:21:16"
+                  "src": "1620:21:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2479,
+            "id": 2752,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2472,
+              "id": 2745,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2471,
+                  "id": 2744,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2479,
-                  "src": "1586:15:16",
+                  "scope": 2752,
+                  "src": "1586:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1186,10 +1186,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2470,
+                    "id": 2743,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1586:7:16",
+                    "src": "1586:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1200,77 +1200,77 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1585:17:16"
+              "src": "1585:17:15"
             },
             "returnParameters": {
-              "id": 2473,
+              "id": 2746,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1610:0:16"
+              "src": "1610:0:15"
             },
-            "scope": 2498,
-            "src": "1565:83:16",
+            "scope": 2771,
+            "src": "1565:83:15",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2484,
+              "id": 2757,
               "nodeType": "Block",
-              "src": "1701:64:16",
+              "src": "1701:64:15",
               "statements": []
             },
             "documentation": null,
-            "id": 2485,
+            "id": 2758,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2482,
+                "id": 2755,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2481,
+                  "id": 2754,
                   "name": "onlyJudge",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2957,
-                  "src": "1691:9:16",
+                  "referencedDeclaration": 3230,
+                  "src": "1691:9:15",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1691:9:16"
+                "src": "1691:9:15"
               }
             ],
             "name": "onlyJudgeMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2480,
+              "id": 2753,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1676:2:16"
+              "src": "1676:2:15"
             },
             "returnParameters": {
-              "id": 2483,
+              "id": 2756,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1701:0:16"
+              "src": "1701:0:15"
             },
-            "scope": 2498,
-            "src": "1654:111:16",
+            "scope": 2771,
+            "src": "1654:111:15",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2496,
+              "id": 2769,
               "nodeType": "Block",
-              "src": "1891:44:16",
+              "src": "1891:44:15",
               "statements": [
                 {
                   "expression": {
@@ -1278,12 +1278,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2493,
+                        "id": 2766,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2487,
-                        "src": "1920:7:16",
+                        "referencedDeclaration": 2760,
+                        "src": "1920:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1299,32 +1299,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2490,
+                        "id": 2763,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4023,
-                        "src": "1901:5:16",
+                        "referencedDeclaration": 4294,
+                        "src": "1901:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_JudgeRoleMock_$2498",
+                          "typeIdentifier": "t_super$_JudgeRoleMock_$2771",
                           "typeString": "contract super JudgeRoleMock"
                         }
                       },
-                      "id": 2492,
+                      "id": 2765,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3016,
-                      "src": "1901:18:16",
+                      "referencedDeclaration": 3289,
+                      "src": "1901:18:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2494,
+                    "id": 2767,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1332,36 +1332,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1901:27:16",
+                    "src": "1901:27:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2495,
+                  "id": 2768,
                   "nodeType": "ExpressionStatement",
-                  "src": "1901:27:16"
+                  "src": "1901:27:15"
                 }
               ]
             },
             "documentation": null,
-            "id": 2497,
+            "id": 2770,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeJudge",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2488,
+              "id": 2761,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2487,
+                  "id": 2760,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2497,
-                  "src": "1865:15:16",
+                  "scope": 2770,
+                  "src": "1865:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1369,10 +1369,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2486,
+                    "id": 2759,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1865:7:16",
+                    "src": "1865:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1383,26 +1383,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1864:17:16"
+              "src": "1864:17:15"
             },
             "returnParameters": {
-              "id": 2489,
+              "id": 2762,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1891:0:16"
+              "src": "1891:0:15"
             },
-            "scope": 2498,
-            "src": "1843:92:16",
+            "scope": 2771,
+            "src": "1843:92:15",
             "stateMutability": "nonpayable",
-            "superFunction": 3016,
+            "superFunction": 3289,
             "visibility": "internal"
           }
         ],
-        "scope": 2499,
-        "src": "1341:596:16"
+        "scope": 2772,
+        "src": "1341:596:15"
       }
     ],
-    "src": "1282:656:16"
+    "src": "1282:656:15"
   },
   "compiler": {
     "name": "solc",
@@ -1410,7 +1410,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-29T15:59:47.400Z",
+  "updatedAt": "2019-07-31T17:11:29.875Z",
   "devdoc": {
     "methods": {}
   },
