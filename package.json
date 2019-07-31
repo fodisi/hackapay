@@ -10,8 +10,8 @@
     "test": "truffle test",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "deploy:ropsten": "truffle deploy --network ropsten",
-    "deploy:kovan": "truffle deploy --network kovan"
+    "deploy:ropsten": "truffle deploy --network ropsten --reset",
+    "deploy:kovan": "truffle deploy --network kovan --reset"
   },
   "keywords": [],
   "author": "github.com/fodisi",

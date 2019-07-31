@@ -7,10 +7,10 @@
 Network id: 3
 Network name: 'ropsten'
 Addresses of Deployed Contracts:
-    Migrations: 0x0bbDAD7C737D0506678520385B604c86b5b97Cc6
-    SafeMath: 0xEc5EF9733018a916AC20237B6AD191ee297642A1
-    HackathonFactory: 0x998B3EAF01dbe582e5c5de4E6cEF1F3F2Bf3c6F1
-    ContestTeamFactory: 0x10DE67EC7dD1206E3A3a002241B0f4b5134b4182
+    Migrations: 0x503d0C4e6cE52314923af10AF0cfAE55Bca311C9
+    SafeMath: 0x0C722F09D716508341B849a1bbca70d09A3cE35D
+    HackathonFactory: 0x9f545806912d09367600d079228a7c23e576b9C8
+    ContestTeamFactory: 0x3040ab05143DD3dF6Dd7384351613AA58BE46e4d
 
 
 ************************************** KOVAN **************************************
@@ -18,10 +18,10 @@ Addresses of Deployed Contracts:
 Network id: 42
 Network name: 'KOVAN'
 Addresses of Deployed Contracts:
-    Migrations: 0xEdB45Ca459B0da44D403fc2D7826eF9898ccCa3C
-    SafeMath: 0xc331BeB76a6342f11Fd1a77EA9537EB22F7a5588
-    HackathonFactory: 0x17edD0c6B77820a71506dD7AF90f2Baf080eB400
-    ContestTeamFactory: 0x650b5eF88E0C1FE826eEfDF954c7E02659864586
+    Migrations: 0x27DD06b0779054D7F0CF8d9F04eaEDc47D5a82C4
+    SafeMath: 0x9f545806912d09367600d079228a7c23e576b9C8
+    HackathonFactory: 0x3040ab05143DD3dF6Dd7384351613AA58BE46e4d
+    ContestTeamFactory: 0x47c679738E95dd013C4D89BE4bDC54c94db8D6b1
 
 
 
@@ -30,6 +30,13 @@ Addresses of Deployed Contracts:
 #######################################################################################
 
 ************************************** ROPSTEN **************************************
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
 Starting migrations...
 ======================
 > Network name:    'ropsten'
@@ -42,13 +49,13 @@ Starting migrations...
 
    Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0x557da88a57f99367bd8220802be16f1bd101723a6adc579142db8ddad8c99777
-   > Blocks: 1            Seconds: 36
-   > contract address:    0x0bbDAD7C737D0506678520385B604c86b5b97Cc6
-   > block number:        6095623
-   > block timestamp:     1564542834
+   > transaction hash:    0xf9d0db6e3a3441b6697a420aa9221036c1bdcc03451b182b69212bd3afe6bea8
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x503d0C4e6cE52314923af10AF0cfAE55Bca311C9
+   > block number:        6099777
+   > block timestamp:     1564597054
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             4.70853662
+   > balance:             4.56541886
    > gas used:            261393
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -56,8 +63,7 @@ Starting migrations...
 
    Pausing for 2 confirmations...
    ------------------------------
-   > confirmation number: 1 (block: 6095624)
-   > confirmation number: 2 (block: 6095625)
+   > confirmation number: 2 (block: 6099778)
 
    > Saving migration to chain.
    > Saving artifacts
@@ -70,13 +76,13 @@ Starting migrations...
 
    Replacing 'SafeMath'
    --------------------
-   > transaction hash:    0xc603786d2f739c9ef5a4036ac04df91e1cdc282beb335d2c62765eace20e89cc
-   > Blocks: 2            Seconds: 8
-   > contract address:    0xEc5EF9733018a916AC20237B6AD191ee297642A1
-   > block number:        6095629
-   > block timestamp:     1564542899
+   > transaction hash:    0x7ade848ec9dd995f983c938584d618a94eedd20fa2001bcdfc84267f51eb08ad
+   > Blocks: 2            Seconds: 40
+   > contract address:    0x0C722F09D716508341B849a1bbca70d09A3cE35D
+   > block number:        6099784
+   > block timestamp:     1564597084
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             4.70621004
+   > balance:             4.56309228
    > gas used:            74306
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -84,56 +90,59 @@ Starting migrations...
 
    Pausing for 2 confirmations...
    ------------------------------
-   > confirmation number: 1 (block: 6095629)
-   > confirmation number: 2 (block: 6095630)
+   > confirmation number: 1 (block: 6099784)
+   > confirmation number: 2 (block: 6099785)
 
    Replacing 'HackathonFactory'
    ----------------------------
-   > transaction hash:    0x267769a38816dadf7bdca3e644371c809410fbbb4e557dc5034a062244f208d3
-   > Blocks: 1            Seconds: 20
-   > contract address:    0x998B3EAF01dbe582e5c5de4E6cEF1F3F2Bf3c6F1
-   > block number:        6095632
-   > block timestamp:     1564542942
+   > transaction hash:    0xb044501c19f4ccd89bf0b64b93d13043f33c78bd408e022e0e8fefe358aa00c8
+   > Blocks: 1            Seconds: 12
+   > contract address:    0x9f545806912d09367600d079228a7c23e576b9C8
+   > block number:        6099787
+   > block timestamp:     1564597149
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             4.62363084
-   > gas used:            4128960
+   > balance:             4.48074538
+   > gas used:            4117345
    > gas price:           20 gwei
    > value sent:          0 ETH
-   > total cost:          0.0825792 ETH
+   > total cost:          0.0823469 ETH
 
    Pausing for 2 confirmations...
    ------------------------------
-   > confirmation number: 1 (block: 6095632)
-   > confirmation number: 2 (block: 6095633)
+   > confirmation number: 1 (block: 6099787)
+   > confirmation number: 2 (block: 6099788)
 
    Replacing 'ContestTeamFactory'
    ------------------------------
-   > transaction hash:    0xa2347db31cfbae8cbb8aefcdbbd804f277c9f53c58e0bc64cb496318d2192b45
-   > Blocks: 1            Seconds: 24
-   > contract address:    0x10DE67EC7dD1206E3A3a002241B0f4b5134b4182
-   > block number:        6095635
-   > block timestamp:     1564542986
+   > transaction hash:    0xca8be9da5b03e6ceb36790f6de95cffbc0d2e96df86768c4522278a302498078
+   > Blocks: 1            Seconds: 20
+   > contract address:    0x3040ab05143DD3dF6Dd7384351613AA58BE46e4d
+   > block number:        6099790
+   > block timestamp:     1564597180
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             4.57118718
-   > gas used:            2622183
+   > balance:             4.44493712
+   > gas used:            1790413
    > gas price:           20 gwei
    > value sent:          0 ETH
-   > total cost:          0.05244366 ETH
+   > total cost:          0.03580826 ETH
 
    Pausing for 2 confirmations...
    ------------------------------
-   > confirmation number: 2 (block: 6095636)
+   > confirmation number: 1 (block: 6099791)
+   > confirmation number: 2 (block: 6099792)
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.13650898 ETH
+   > Total cost:          0.11964128 ETH
 
 
 Summary
 =======
 > Total deployments:   4
-> Final cost:          0.14173684 ETH
+> Final cost:          0.12486914 ETH
+
+
 
 
 
@@ -151,13 +160,13 @@ Starting migrations...
 
    Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0xa1a60c1e8215b9c706e713cf543c955df82e2dc079cf1bbb6d2d882168bef9cf
-   > Blocks: 0            Seconds: 0
-   > contract address:    0xEdB45Ca459B0da44D403fc2D7826eF9898ccCa3C
-   > block number:        12558166
-   > block timestamp:     1564542300
+   > transaction hash:    0x1977633eb05e4a559d94229aa27f04097e4cfcda004141a8f9e5b3012dba37d6
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x27DD06b0779054D7F0CF8d9F04eaEDc47D5a82C4
+   > block number:        12571834
+   > block timestamp:     1564597008
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             0.92582719
+   > balance:             0.84835379
    > gas used:            261393
    > gas price:           10 gwei
    > value sent:          0 ETH
@@ -175,13 +184,13 @@ Starting migrations...
 
    Replacing 'SafeMath'
    --------------------
-   > transaction hash:    0xd315ca41a3825d88e11211e4ccd5c530c41709f35c6c8aaccf92be732f61b918
+   > transaction hash:    0xb91c980f6fbc69f99def066a97f8fba815788eb87270469284045fe5e9a0e8ce
    > Blocks: 0            Seconds: 0
-   > contract address:    0xc331BeB76a6342f11Fd1a77EA9537EB22F7a5588
-   > block number:        12558168
-   > block timestamp:     1564542308
+   > contract address:    0x9f545806912d09367600d079228a7c23e576b9C8
+   > block number:        12571836
+   > block timestamp:     1564597016
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             0.9246639
+   > balance:             0.8471905
    > gas used:            74306
    > gas price:           10 gwei
    > value sent:          0 ETH
@@ -190,41 +199,41 @@ Starting migrations...
 
    Replacing 'HackathonFactory'
    ----------------------------
-   > transaction hash:    0x6fb4711c6daa9d5bbbef19a09231e4e50521e59cc64d96dfbf55ed0c319fea0e
+   > transaction hash:    0xe55c39f3ddab8e171f190e05292c19d89f866b2db8109d3802e9ee33ce2c562b
    > Blocks: 0            Seconds: 0
-   > contract address:    0x17edD0c6B77820a71506dD7AF90f2Baf080eB400
-   > block number:        12558169
-   > block timestamp:     1564542312
+   > contract address:    0x3040ab05143DD3dF6Dd7384351613AA58BE46e4d
+   > block number:        12571837
+   > block timestamp:     1564597020
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             0.8833743
-   > gas used:            4128960
+   > balance:             0.80601705
+   > gas used:            4117345
    > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.0412896 ETH
+   > total cost:          0.04117345 ETH
 
 
    Replacing 'ContestTeamFactory'
    ------------------------------
-   > transaction hash:    0x6c781fb47c0111b1e98610340eead71d55239d3d1a200b61d353b13775cdc412
+   > transaction hash:    0xb1641e4610461f4d4b9a8aa90cffe3d2a71acd6771f3ef36c275867ee60db182
    > Blocks: 0            Seconds: 0
-   > contract address:    0x650b5eF88E0C1FE826eEfDF954c7E02659864586
-   > block number:        12558170
-   > block timestamp:     1564542316
+   > contract address:    0x47c679738E95dd013C4D89BE4bDC54c94db8D6b1
+   > block number:        12571838
+   > block timestamp:     1564597024
    > account:             0x826a471055333505E596F424348983aF0Aa8411B
-   > balance:             0.85715247
-   > gas used:            2622183
+   > balance:             0.78811292
+   > gas used:            1790413
    > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.02622183 ETH
+   > total cost:          0.01790413 ETH
 
 
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:          0.06825449 ETH
+   > Total cost:          0.05982064 ETH
 
 
 Summary
 =======
 > Total deployments:   4
-> Final cost:          0.07086842 ETH
+> Final cost:          0.06243457 ETH
