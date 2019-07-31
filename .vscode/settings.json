@@ -11,5 +11,8 @@
   },
   "solidity.enabledAsYouTypeCompilationErrorCheck": true,
   "solidity.validationDelay": 1500,
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "cSpell.words": [
+    "Hackathon"
+  ]
 }
