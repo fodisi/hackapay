@@ -27,5 +27,4 @@ dist/*
 *.iml
 .env
 database/*
-build/
 dist/
