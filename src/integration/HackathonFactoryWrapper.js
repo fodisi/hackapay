@@ -2,7 +2,7 @@
 
 import HackathonFactoryContract from "../../build/contracts/HackathonFactory.json";
 
-class HackathonFactory {
+class HackathonFactoryWrapper {
   constructor(web3, networkId) {
     this.web3 = web3;
     const deployedNetwork = HackathonFactoryContract.networks[networkId];
@@ -10,8 +10,8 @@ class HackathonFactory {
     this.contract = instance;
   }
 
-  getHackathonContracts = async () => {
-    const result = this.contract.methods.getDeployedHackathonContracts().call();
+  getHackathonContractById = async (id) => {
+    const result = await this.contract.methods.getHackathonContractById(id).call();
     return result;
   };
 
@@ -22,4 +22,4 @@ class HackathonFactory {
   };
 }
 
-export default HackathonFactory;
+export default HackathonFactoryWrapper;
