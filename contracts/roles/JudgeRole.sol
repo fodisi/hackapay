@@ -27,6 +27,12 @@ pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/access/Roles.sol";
 
+/**
+    @notice Implements a access control for a Judge role,
+    which will be responsible for evaluating teams' proposals.
+    @dev not detailed documentation, since its based on OpenZeppelin.
+    Take a look at the repo for further info.
+ */
 contract JudgeRole {
     using Roles for Roles.Role;
 

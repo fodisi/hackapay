@@ -10,13 +10,12 @@ import "../lifecycle/Pausable.sol";
  * @dev This contract follows the "withdraw pattern". This means that payments are not automatically forwarded to the
  * accounts but kept in this contract, and the actual transfer is triggered as a separate step by calling the {withdraw}
  * function.
+ * Future improvements:
+ * TODO: implement multisig to close the contract for new members.
+ * TODO: implement multisig to destroy the contract.
+ * TODO: implement multisig to remove members.
+ * TODO: implement multisig to transfer contract's funds to another address. See TODO on {splitPrize}.
  */
-
-// Future improvements
-//TODO: implement multisig to close the contract for new members.
-//TODO: implement multisig to destroy the contract.
-//TODO: implement multisig to remove members.
-//TODO: implement multisig to transfer contract's funds to another address. See TODO on {splitPrize}.
 contract ContestTeam is Payable, AttendeeRole, Pausable {
     using SafeMath for uint256;
 
@@ -37,7 +36,8 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
         uint256 indexed datetime
     );
 
-    /// @dev Needs to be inherited.
+    ///@dev This class needs to be inherited - internal visibility
+    /// @param initialAttendee Represents the attendee who owns the contest, initially.
     constructor(address initialAttendee) public Payable() AttendeeRole(initialAttendee) Pausable() {}
 
     /**
@@ -94,6 +94,7 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
     }
 
     /// @notice Gets the active members in the team.
+    /// @return An array of addresses representing the accounts of active members
     function getActiveMembers() public view returns (address[] memory) {
         require(activeTeamMembersCount <= teamMembers.length);
         address[] memory activeMembers = new address[](activeTeamMembersCount);
@@ -108,11 +109,13 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
     }
 
     /// @notice Gets the number of active team members.
+    /// @return {uint256} Count of active members
     function getActiveMembersCount() external view returns (uint256) {
         return activeTeamMembersCount;
     }
 
     /// @notice Get the balance of a team member
+    /// @return The balance of a team member
     function balanceOf() public view onlyAttendee returns (uint256) {
         return balances[msg.sender];
     }

@@ -5,10 +5,13 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "./ContestTeamRegistry.sol";
 import "../roles/ContestRoleManager.sol";
 
+/**
+    @notice Controls the evaluation process by the judges and publishing of final results.
+ */
 contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     using SafeMath for uint256;
 
-    /// @notice Represetns a team participating in a contest.
+    /// @notice Represetns a judge evaluating the teams in the contest.
     struct Judge {
         uint256 id;
         address judgeAddress;
@@ -17,9 +20,9 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     }
 
     // Judge's helpers
-    Judge[] internal judges; // List of members
-    uint256 internal activeJudgesCount; // Helper for {splitPrize} and {getActiveMembers}.
-    mapping(address => Judge) internal judgeByAddress; // Controls active members
+    Judge[] internal judgesInfo; // List of judges
+    // uint256 internal activeJudgesCount; // Controls active judges (the ones not removed)
+    mapping(address => Judge) internal judgeByAddress;
     bool internal evaluationEnabled;
     Team internal firstPlace;
     Team internal secondPlace;
@@ -28,9 +31,9 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
 
     /// @dev emitted when the evaluation process is updated. See {openEvaluation()} and {closeEvaluation()}
     event EvaluationStatusUpdated(bool enabled);
-    /// @dev emitted when a judge submits s/he's evaluation.
+    /// @dev emitted when a judge submits its evaluation.
     event JudgeVoted(uint256 indexed id, address judgeAddress);
-    /// @dev emitted when winners is announced.
+    /// @dev emitted when winners are announced.
     event WinnerAnnouced(uint256 teamId, address teamAddress, uint256 finalGrade, uint8 rankPosition);
 
     modifier evaluationIsOpen() {
@@ -53,7 +56,8 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         _;
     }
 
-    ///@dev This class needs to be inherited.
+    ///@dev This class needs to be inherited - internal visibility
+    /// @param initialOrganizer Represents the organizer who owns the contest, initially.
     constructor(address initialOrganizer) internal ContestTeamRegistry() ContestRoleManager(initialOrganizer) {}
 
     /**
@@ -98,6 +102,10 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         emit JudgeVoted(judge.id, judge.judgeAddress);
     }
 
+    /**
+        @notice Published the ranking results of the contest.
+        @dev emitts an WinnerAnnounced event for each winner (1st, 2nd, 3rd place).
+     */
     function publishRank()
         external
         registrationIsClosed
@@ -142,6 +150,12 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         emit WinnerAnnouced(thirdPlace.id, thirdPlace.teamAddress, thirdPlace.grade, 3);
     }
 
+    /**
+        @notice Gets the id of the winner teams.
+        @return {uint256} First place's id
+        @return {uint256} Second place's id
+        @return {uint256} Third place's id
+     */
     function getWinnersIds() external view returns (uint256, uint256, uint256) {
         return (firstPlace.id, secondPlace.id, thirdPlace.id);
     }
@@ -202,11 +216,13 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         return evaluationEnabled;
     }
 
+    ///@dev internal implementation for {closeEvaluation.}
     function _closeEvaluation() internal {
         evaluationEnabled = false;
         emit EvaluationStatusUpdated(evaluationEnabled);
     }
 
+    ///@dev internal implementation for {openEvaluation.}
     function _openEvaluation() internal {
         evaluationEnabled = true;
         emit EvaluationStatusUpdated(evaluationEnabled);
@@ -217,11 +233,11 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         // TODO: check if can re-add previously removed judges to be added.
         // require(judgeByAddress[account].judgeAddress == address(0));
         super._addJudge(account);
-        uint256 id = judges.length;
+        uint256 id = judgesInfo.length;
         Judge memory judge = Judge(id, account, true, false);
-        judges.push(judge);
+        judgesInfo.push(judge);
         judgeByAddress[account] = judge;
-        activeJudgesCount = activeJudgesCount.add(1);
+        // activeJudgesCount = activeJudgesCount.add(1);
     }
 
     /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.
@@ -229,9 +245,14 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         super._removeJudge(account);
         Judge storage judge = judgeByAddress[account];
         judge.active = false;
-        activeJudgesCount = activeJudgesCount.sub(1);
+        // activeJudgesCount = activeJudgesCount.sub(1);
     }
 
+    /**
+        @notice checks if a grade is valid or not.
+        @param grade {uint8} the grade to be evaluated
+        @return {bool} true if valid; otherwise false
+     */
     function isValidGrade(uint8 grade) internal pure returns (bool) {
         return (grade >= 0 && grade <= 10);
     }

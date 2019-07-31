@@ -19,7 +19,7 @@ contract ContestTeamFactory {
 
     /// @dev Modifier to check if team name is not empty.
     modifier notEmptyName(bytes32 name) {
-        require(name[0] != 0, "Hackathon name already in use");
+        require(name[0] != 0, "Team name cannot be empty");
         _;
     }
 
@@ -57,7 +57,7 @@ contract ContestTeamFactory {
         @notice Get a contract address with the internal id.
         @return An address representing a deployed contract
     */
-    function getTeamContractyId(uint256 id) public view returns (address) {
+    function getTeamContractById(uint256 id) public view returns (address) {
         require(id < deployedTeams.length);
         return deployedTeams[id];
     }

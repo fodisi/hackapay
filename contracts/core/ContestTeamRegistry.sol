@@ -6,15 +6,14 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
     @notice Controls the registration of teams and the subsequent proposal submission process
     of the teams participating in a contest.
     @dev TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct.
+    Future improvements:
+    TODO: Add struct to identify team members.
+    TODO: Possibility to request a msg.value for members to signup for contest.
+    TODO: Ability to refund members once they show up to contest.
+    TODO: Add mapping for team members.
  */
 contract ContestTeamRegistry {
     using SafeMath for uint256;
-
-    //TODO: Add struct to identify team members.
-    //TODO: Possibility to request a msg.value for members to signup for contest.
-    //TODO: Ability to refund members once they show up to contest.
-
-    //TODO: Add mapping for team members.
 
     /// @notice Represents a team participating in a contest.
     struct Team {
@@ -102,6 +101,15 @@ contract ContestTeamRegistry {
         return (team.name, team.teamAddress, team.proposalData, team.approved, team.grade);
     }
 
+    /**
+        @notice Returns the stored information of a team, based on a provided address
+        @param teamAddress {address} the team's contract address used on registration
+        @return {bytes32} team's name
+        @return {address} team's address
+        @return {bytes32} team's proposal data
+        @return {bool} team's status: {true} for approved; {false} for reproved;
+        @return {uint256} team's grade
+     */
     function getTeamByAddress(address teamAddress) public view returns (bytes32, address, bytes32, bool, uint256) {
         require(teamAddress != address(0), "Invalid zero address");
         Team memory team = teamByAddress[teamAddress];
@@ -192,6 +200,10 @@ contract ContestTeamRegistry {
         _openSubmission();
     }
 
+    /**
+        @notice Gets the submission status
+        @return {bool} returns {true} if enabled; otherwise, {false}.
+     */
     function getSubmissionStatus() external view returns (bool) {
         return submissionEnabled;
     }
@@ -223,11 +235,13 @@ contract ContestTeamRegistry {
         _reproveTeam(teamId);
     }
 
+    ///@dev internal implementation
     function _closeRegistration() internal {
         registrationEnabled = false;
         emit RegistrationStatusUpdated(registrationEnabled);
     }
 
+    ///@dev internal implementation
     function _openRegistration() internal {
         registrationEnabled = true;
         emit RegistrationStatusUpdated(registrationEnabled);
@@ -238,11 +252,13 @@ contract ContestTeamRegistry {
         emit SubmissionStatusUpdated(submissionEnabled);
     }
 
+    ///@dev internal implementation
     function _openSubmission() internal {
         submissionEnabled = true;
         emit SubmissionStatusUpdated(submissionEnabled);
     }
 
+    ///@dev internal implementation
     function _approveTeam(uint256 teamId) internal validTeamId(teamId) teamIsReproved(teamId) {
         Team storage team = teams[teamId];
         team.approved = true;
@@ -250,12 +266,14 @@ contract ContestTeamRegistry {
         emit TeamStatusUpdated(team.id, team.teamAddress, team.approved);
     }
 
+    ///@dev internal implementation
     function _reproveTeams(uint256[] memory teamIds) internal {
         for (uint256 i = 0; i < teamIds.length; i++) {
             _reproveTeam(teamIds[i]);
         }
     }
 
+    ///@dev internal implementation
     function _reproveTeam(uint256 teamId) internal validTeamId(teamId) teamIsApproved(teamId) {
         Team storage team = teams[teamId];
         team.approved = false;
@@ -263,10 +281,12 @@ contract ContestTeamRegistry {
         emit TeamStatusUpdated(team.id, team.teamAddress, team.approved);
     }
 
+    ///@dev internal implementation
     function isValidTeamId(uint256 teamId) internal view returns (bool) {
         return (teamId < teams.length);
     }
 
+    ///@dev internal implementation
     function isTeamApproved(uint256 teamId) internal view returns (bool) {
         if (!isValidTeamId(teamId)) {
             return false;

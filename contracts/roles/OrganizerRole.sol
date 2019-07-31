@@ -27,6 +27,12 @@ pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/access/Roles.sol";
 
+/**
+    @notice Implements a access control for a Organizer role,
+    which will be responsible for managing hackathons/contests.
+    @dev not detailed documentation, since its based on OpenZeppelin.
+    Take a look at the repo for further info.
+ */
 contract OrganizerRole {
     using Roles for Roles.Role;
 

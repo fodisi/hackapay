@@ -20,7 +20,7 @@ contract HackathonFactory {
 
     /// @dev Modifier to check if hackathon name is not empty.
     modifier notEmptyName(bytes32 name) {
-        require(name[0] != 0, "Hackathon name already in use");
+        require(name[0] != 0, "Hackathon name cannot be empty");
         _;
     }
 
@@ -36,7 +36,6 @@ contract HackathonFactory {
     @param description A short description for the Hackathon.
     @return The new contract's address.
     */
-
     function createHackathonContract(bytes32 name, bytes32 description)
         public
         payable

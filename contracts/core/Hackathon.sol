@@ -62,6 +62,13 @@ contract Hackathon is Payable, ContestBracketRegistry {
         _;
     }
 
+    /**
+        @notice Creates a new Hackathon contract with a specific _id, _name, desciption,
+        and a specific organizer.
+        @param _id {uint256} Hackathon's unique indentifier
+        @param _name {bytes32} Hackathon's name. Required.
+        @param _description {bytes32} Hackathon's description. Optional.
+     */
     constructor(uint256 _id, bytes32 _name, bytes32 _description, address initialOrganizer)
         public
         ContestBracketRegistry(initialOrganizer)
@@ -134,6 +141,10 @@ contract Hackathon is Payable, ContestBracketRegistry {
         // Pays winner using team addres.
         IPayable(teamAddress).deposit.value(amount)();
     }
+
+    /**
+        Checks if the specifier address is one of the winners
+    */
 
     function isWinnerAddress(address winnerAddress) private view returns (bool) {
         return (
