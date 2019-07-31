@@ -5,7 +5,13 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "./ContestBracketRegistry.sol";
 import "../payment/Payable.sol";
 
-// TODO: Add Pausable
+/**
+    @notice Represents a hackathon contest, where organizers can control the
+    stages/phases of the contest (such as registration, submission, evaluation and results)
+    as well as pay prizes to the winners.
+    @dev For the payment functionality, the "withdraw pattern" is being implemented for this contract.
+    The ledger allocation is done is the method {allocatePrize} and the withdraw is implemented on {withdrawPrize}.
+ */
 contract Hackathon is Payable, ContestBracketRegistry {
     using SafeMath for uint256;
 
@@ -23,6 +29,7 @@ contract Hackathon is Payable, ContestBracketRegistry {
     Prize internal thirdPlacePrize;
     bool internal prizesAllocated;
 
+    /// @dev emitted when the prize allocation is performed. This may be used to alert winners that their prizes are available to withdraw.
     event PrizeAllocation(
         uint256 firstPlacePrize,
         uint256 secondPlacePrize,
@@ -30,6 +37,8 @@ contract Hackathon is Payable, ContestBracketRegistry {
         address indexed organizer,
         uint256 datetime
     );
+
+    /// @dev emitted when a prize is withdraw by a winner team.
     event Withdraw(address indexed to, uint256 amount, uint8 rankPosition, address indexed requester, uint256 datetime);
 
     modifier whenPrizeNotAllocated() {
@@ -133,7 +142,4 @@ contract Hackathon is Payable, ContestBracketRegistry {
                 winnerAddress == thirdPlace.teamAddress
         );
     }
-
-    // TODO: destroy contract - only owner
-
 }

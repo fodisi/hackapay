@@ -57,7 +57,7 @@ contract HackathonFactory {
         @notice Get a list with the addresses of the deployed contracts.
         @return List of deployed contract's addresses 
     */
-    function getDeployedHackathonContractss() public view returns (address[] memory) {
+    function getDeployedHackathonContracts() public view returns (address[] memory) {
         return deployedHackathons;
     }
 
