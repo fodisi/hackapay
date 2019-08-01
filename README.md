@@ -35,6 +35,12 @@ The current UI, only interacts with the contract Factories, allowing the creatio
 - [Strategies implemented for avoiding common attacks](avoiding_common_attacks.md)
 - [Design Pattern Decisions](design_pattern_decisions.md)
 
+### Contract Diagram
+
+The basic architecture / contract diagram of the project can be seen in the diagram below.
+
+![Alt text](/diagrams/contract-diagram.png?raw=true "Contract Diagram")
+
 ## Getting Started
 
 This project was developed with the following environment:
@@ -128,9 +134,3 @@ export MYTHX_PASSWORD='MYTHX_PASSWORD'
 
 After setting up your credentials, you can run the following command:
 `npm run verify-security` or `truffle run verify`
-
-### Contract Diagram
-
-The basic architecture / contract diagram of the project can be seen in the diagram below.
-
-![Alt text](/diagrams/contract-diagram.png?raw=true "Contract Diagram")
