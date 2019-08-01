@@ -24,9 +24,7 @@
 // Source https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/test/behaviors/access/roles/PublicRole.behavior.js
 
 const {expectRevert, constants, expectEvent} = require("openzeppelin-test-helpers");
-
 const {ZERO_ADDRESS} = constants;
-
 const {expect} = require("chai");
 
 function capitalize(str) {

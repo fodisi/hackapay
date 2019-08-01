@@ -2,10 +2,12 @@ pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
-import "../core/HackathonTeam.sol";
+import "../core/ContestTeam.sol";
 
-contract HackathonTeamMock is HackathonTeam {
+contract ContestTeamMock is ContestTeam {
     using SafeMath for uint256;
+
+    constructor() public ContestTeam(msg.sender) {}
 
     // Helper testing functions.
     function getReservedBalance() public view returns (uint256) {
@@ -14,5 +16,9 @@ contract HackathonTeamMock is HackathonTeam {
 
     function getAvailableBalance() public view returns (uint256) {
         return address(this).balance.sub(reservedBalance);
+    }
+
+    function getBalance() public view returns (uint256) {
+        return address(this).balance;
     }
 }

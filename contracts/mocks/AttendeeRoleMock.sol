@@ -28,7 +28,7 @@ pragma solidity ^0.5.0;
 import "../roles/AttendeeRole.sol";
 
 contract AttendeeRoleMock is AttendeeRole {
-    constructor() public AttendeeRole() {}
+    constructor() public AttendeeRole(msg.sender) {}
 
     function removeAttendee(address account) public {
         _removeAttendee(account);

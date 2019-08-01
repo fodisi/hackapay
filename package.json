@@ -7,7 +7,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "deploy:ropsten": "truffle deploy --network ropsten --reset",
+    "deploy:kovan": "truffle deploy --network kovan --reset",
+    "coverage": "npx solidity-coverage",
+    "verify-security": "truffle run verify"
   },
   "keywords": [],
   "author": "github.com/fodisi",
@@ -17,11 +23,12 @@
   },
   "homepage": "https://github.com/fodisi/hackapay#readme",
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.4",
-    "@babel/node": "^7.5.0",
-    "@babel/preset-env": "^7.5.4",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
     "chai": "^4.2.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb": "^17.1.1",
@@ -32,18 +39,33 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
     "ganache-cli": "^6.4.5",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.0",
     "lint-staged": "^9.2.0",
-    "openzeppelin-test-helpers": "^0.4.0",
+    "openzeppelin-test-helpers": "^0.4.2",
     "prettier": "^1.18.2",
     "prettier-plugin-solidity": "^1.0.0-alpha.27",
     "solhint": "^2.1.2",
     "solhint-plugin-prettier": "0.0.3",
-    "truffle-security": "^1.5.2"
+    "solidity-coverage": "^0.6.3",
+    "truffle-security": "^1.5.2",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
     "bignumber.js": "^9.0.0",
-    "openzeppelin-solidity": "^2.3.0"
+    "openzeppelin-solidity": "^2.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "prop-types": "^15.7.2",
+    "rimble-ui": "^0.9.6",
+    "styled-components": "^4.3.2",
+    "truffle-hdwallet-provider": "^1.0.15",
+    "web3": "^1.2.0"
   },
   "husky": {
     "hooks": {

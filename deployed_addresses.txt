@@ -1,0 +1,248 @@
+#######################################################################################
+                            SUMMARY - DEPLOYED CONTRACT ADDRESSES
+#######################################################################################
+
+************************************** ROPSTEN **************************************
+
+Network id: 3
+Network name: 'ropsten'
+Addresses of Deployed Contracts:
+    Migrations: 0xA4a36DB7F7118E79b55927b3e157BCd5631f6DD3
+    SafeMath: 0xB01d9901BB86a3Fcc49E3db39fbe414F8775C8Bb
+    HackathonFactory: 0xB8E8120e5616Fe345b439ea29922b924DF0B8A13
+    ContestTeamFactory: 0x8E7A8de5b0c883dCDe4AA260A91d7717BFfec5c4
+
+
+************************************** KOVAN **************************************
+
+Network id: 42
+Network name: 'KOVAN'
+Addresses of Deployed Contracts:
+    Migrations: 0x585e9830247cF1cB8f1EE0541a759b59c80594F4
+    SafeMath: 0xB8E8120e5616Fe345b439ea29922b924DF0B8A13
+    HackathonFactory: 0x8E7A8de5b0c883dCDe4AA260A91d7717BFfec5c4
+    ContestTeamFactory: 0x9B92cF4D39A9c9879aE57Ec4604dc80d895C8777
+
+
+
+#######################################################################################
+                                DETAILED MIGRATION LOGS
+#######################################################################################
+
+************************************** ROPSTEN **************************************
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x72378699f4eebcd73cdf474d85827f5b126388b379560c44a31d532462dbf5c0
+   > Blocks: 1            Seconds: 28
+   > contract address:    0xA4a36DB7F7118E79b55927b3e157BCd5631f6DD3
+   > block number:        6102039
+   > block timestamp:     1564623595
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             4.4391688
+   > gas used:            261393
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00522786 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 6102040)
+   > confirmation number: 2 (block: 6102041)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00522786 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'SafeMath'
+   --------------------
+   > transaction hash:    0x2dbe206d5165644b6623f980a4e4a4cec6ecef055bf3ff253556620181919b63
+   > Blocks: 3            Seconds: 16
+   > contract address:    0xB01d9901BB86a3Fcc49E3db39fbe414F8775C8Bb
+   > block number:        6102046
+   > block timestamp:     1564623643
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             4.43684222
+   > gas used:            74306
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00148612 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 6102047)
+
+   Replacing 'HackathonFactory'
+   ----------------------------
+   > transaction hash:    0x5bce241fe622c11d1fdcf780c07a0103f91913a27edf7367ff94d64790087fbc
+   > Blocks: 1            Seconds: 24
+   > contract address:    0xB8E8120e5616Fe345b439ea29922b924DF0B8A13
+   > block number:        6102049
+   > block timestamp:     1564623667
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             4.35449532
+   > gas used:            4117345
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0823469 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 6102050)
+   > confirmation number: 2 (block: 6102051)
+
+   Replacing 'ContestTeamFactory'
+   ------------------------------
+   > transaction hash:    0x90c89ceee0fcb64b745c75085a34ae7f7153cec0f029250737b4e023d2281f2b
+   > Blocks: 2            Seconds: 32
+   > contract address:    0x8E7A8de5b0c883dCDe4AA260A91d7717BFfec5c4
+   > block number:        6102054
+   > block timestamp:     1564623724
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             4.31868578
+   > gas used:            1790477
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03580954 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 6102055)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.11964256 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.12487042 ETH
+
+
+
+
+
+************************************** KOVAN **************************************
+
+
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'kovan'
+> Network id:      42
+> Block gas limit: 0x7a1200
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x31f3ca504e5d421ca0d766fd177010b6ac1c4a2d6cc5c232ba0c30beda62d777
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x585e9830247cF1cB8f1EE0541a759b59c80594F4
+   > block number:        12578564
+   > block timestamp:     1564623948
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             0.78522876
+   > gas used:            261393
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00261393 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00261393 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'SafeMath'
+   --------------------
+   > transaction hash:    0xa826915be0b2f449bc213d451816f57f93f24ab268e810c8c0b301d92a825577
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xB8E8120e5616Fe345b439ea29922b924DF0B8A13
+   > block number:        12578566
+   > block timestamp:     1564623956
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             0.78406547
+   > gas used:            74306
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00074306 ETH
+
+
+   Replacing 'HackathonFactory'
+   ----------------------------
+   > transaction hash:    0x4ceec42b003fced2477eb7fad17c22e9df75dd2d4cc820742c74be44064b209b
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x8E7A8de5b0c883dCDe4AA260A91d7717BFfec5c4
+   > block number:        12578567
+   > block timestamp:     1564623960
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             0.74289202
+   > gas used:            4117345
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04117345 ETH
+
+
+   Replacing 'ContestTeamFactory'
+   ------------------------------
+   > transaction hash:    0x5cc8dee4b1bd23c9033957830795d47112b106e2f9ec7656ca928e344fbed1a1
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x9B92cF4D39A9c9879aE57Ec4604dc80d895C8777
+   > block number:        12578568
+   > block timestamp:     1564623964
+   > account:             0x826a471055333505E596F424348983aF0Aa8411B
+   > balance:             0.72498725
+   > gas used:            1790477
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01790477 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.05982128 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.06243521 ETH
+
+

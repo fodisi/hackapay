@@ -27,6 +27,20 @@ const {shouldBehaveLikeRole} = require("./Role.behavior");
 
 const JudgeRoleMock = artifacts.require("JudgeRoleMock");
 
+/**
+ * @describe These tests validate the functionality of {JudgeRole.sol} by using
+ * a Mock inherited contract ({JudgeRoleMock})
+ * @dev Contracts that implement Roles.Role, use {shouldBehaveLikeRole} tests, which provide
+ * a shared set of tests for Role contracts.
+ * Tests coverage:
+ * - Access controls and other integrity checks (modifiers): checks if contract reverts
+ * when appropriate, as well as allows usage when sender has the right permission.
+ * - Core functionality: checks the intended contract's core functionality, making sure it
+ * performs what is expected (PS: due to the complexity in some scenarios, where the next test
+ * depends on previous steps, and to keep each test independent, some tests duplicate codes to
+ * execute the required steps needed to validate the expected functionality).
+ * - Events: checks if contracts triggers the expected events
+ */
 contract("JudgeRole", function([_, judge, otherJudge, ...otherAccounts]) {
   beforeEach(async function() {
     this.contract = await JudgeRoleMock.new({from: judge});

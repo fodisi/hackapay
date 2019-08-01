@@ -2,17 +2,24 @@ const {expectRevert, expectEvent} = require("openzeppelin-test-helpers");
 const {expect} = require("chai");
 const BigNumber = require("bignumber.js");
 
-const ContestRoleManagerMock = artifacts.require("ContestMock");
+const ContestRoleManagerMock = artifacts.require("ContestRoleManagerMock");
 
+/**
+ * @describe These tests validate the functionality of {ContestRoleManager.sol} by using
+ * a Mock inherited contract ({ContestRoleManagerMock})
+ * @dev Tests coverage:
+ * - Access controls and other integrity checks (modifiers): checks if contract reverts
+ * when appropriate, as well as allows usage when sender has the right permission.
+ * - Core functionality: checks the intended contract's core functionality, making sure it
+ * performs what is expected (PS: due to the complexity in some scenarios, where the next test
+ * depends on previous steps, and to keep each test independent, some tests duplicate codes to
+ * execute the required steps needed to validate the expected functionality).
+ * - Events: checks if contracts triggers the expected events
+ */
 contract("ContestRoleManager", function([_, organizer1, organizer2, judge1, judge2, ...otherAccounts]) {
   describe("access control", function() {
     beforeEach(async function() {
-      this.contract = await ContestRoleManagerMock.new(
-        "1",
-        web3.utils.asciiToHex("name", 32),
-        web3.utils.asciiToHex("description", 32),
-        {from: organizer1}
-      );
+      this.contract = await ContestRoleManagerMock.new({from: organizer1});
     });
 
     it("does not allow non-organizers to add/remove judges", async function() {
@@ -38,12 +45,7 @@ contract("ContestRoleManager", function([_, organizer1, organizer2, judge1, judg
 
   describe("member management", function() {
     beforeEach(async function() {
-      this.contract = await ContestRoleManagerMock.new(
-        "1",
-        web3.utils.asciiToHex("name", 32),
-        web3.utils.asciiToHex("description", 32),
-        {from: organizer1}
-      );
+      this.contract = await ContestRoleManagerMock.new({from: organizer1});
       await this.contract.addOrganizer(organizer2, {from: organizer1});
       await this.contract.addJudge(judge1, {from: organizer1});
       await this.contract.addJudge(judge2, {from: organizer1});

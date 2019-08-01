@@ -4,19 +4,23 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "../roles/OrganizerRole.sol";
 import "../roles/JudgeRole.sol";
 
+/**
+    @notice Extends the roles OrganizerRole and JudgeRole and adds access control
+    to public methods, plus controls judges and organizers accounts.
+ */
 contract ContestRoleManager is OrganizerRole, JudgeRole {
     using SafeMath for uint256;
 
     // Judge's helpers
-    address[] internal judges; // List of members
-    uint256 internal activeJudgesCount; // Helper for {splitPrize} and {getActiveMembers}.
-    mapping(address => bool) internal activeJudges; // Controls active members
+    address[] internal judges; // List of judges
+    uint256 internal activeJudgesCount; // Controls active judges count
+    mapping(address => bool) internal activeJudges; // Controls active judges state
     // Organizer's helpers
-    address[] internal organizers; // List of members
-    uint256 internal activeOrganizersCount; // Helper for {splitPrize} and {getActiveMembers}.
-    mapping(address => bool) internal activeOrganizers; // Controls active members
+    address[] internal organizers; // List of organizers
+    uint256 internal activeOrganizersCount; // Controls active organizers count
+    mapping(address => bool) internal activeOrganizers; // Controls active organizers state
 
-    constructor() internal OrganizerRole() {}
+    constructor(address initialOrganizer) internal OrganizerRole(initialOrganizer) JudgeRole() {}
 
     function addJudge(address account) public onlyOrganizer {
         _addJudge(account);

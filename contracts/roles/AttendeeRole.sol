@@ -27,6 +27,12 @@ pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/access/Roles.sol";
 
+/**
+    @notice Implements a access control for an Attendee role,
+    which will registering ant attending hackathons/contests.
+    @dev not detailed documentation, since its based on OpenZeppelin.
+    Take a look at the repo for further info.
+ */
 contract AttendeeRole {
     using Roles for Roles.Role;
 
@@ -35,8 +41,9 @@ contract AttendeeRole {
 
     Roles.Role private _attendees;
 
-    constructor() internal {
-        _addAttendee(msg.sender);
+    constructor(address initialAttendee) internal {
+        require(initialAttendee != address(0), "Invalid zero address");
+        _addAttendee(initialAttendee);
     }
 
     modifier onlyAttendee() {

@@ -1,0 +1,809 @@
+{
+  "contractName": "ContestRoleManagerMock",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isOrganizer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceJudge",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceOrganizer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "addJudge",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "removeJudge",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "addOrganizer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isJudge",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "JudgeAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "JudgeRemoved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "OrganizerAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "OrganizerRemoved",
+      "type": "event"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getActiveOrganizersCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getActiveJudgesCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getActiveJudgesCount\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getActiveOrganizersCount\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isJudge\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/ContestRoleManagerMock.sol\":\"ContestRoleManagerMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/ContestRoleManagerMock.sol\":{\"keccak256\":\"0x99a33a9281fff7c0344b01f7a46b0c9fb674596f38de7e05db73e81db3577ec2\",\"urls\":[\"bzzr://fb0a95ce39f3d901c8b2a098f19c39b82ce7eeb0a5f793e527466041a398712f\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/ContestRoleManager.sol\":{\"keccak256\":\"0x55c3fee5dd6f5a3dc91d24e3650e0bdfea2048179a7ebe46d0737d4a36d6d3b7\",\"urls\":[\"bzzr://294a21371d685a87eb6bd6cdea1075c4f97c90fded9baa2fa99ec871f53b8138\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":{\"keccak256\":\"0x9adf6a6514d21fdc98880aad0d9547432138a169c31419d2ce29017352f813ec\",\"urls\":[\"bzzr://86b99e607f0e00e3ac0ab7658a29a8dc0be771df01f625f00f7c01236582f5ec\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0x0e35454f69f874f4356b5b0aff68123f26773fbf514028d68b710ac553ee0910\",\"urls\":[\"bzzr://4b5e4357823348a7f8f06d56d99e1299476476f9fc5f421e5f1d461b9fe41ed5\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzzr://1604f5b6d6e916c154efd8c6720cda069e5ba32dfa0a9dedf2b42e5b02d07f89\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5033808061007f57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601460248201527f496e76616c6964207a65726f2061646472657373000000000000000000000000604482015290519081900360640190fd5b61008e8161009560201b60201c565b5050610315565b6100a88161012960201b6106561760201c565b6005805460018082019092557f036b6384b5eca791c62761152d0c79bb0604c104a5fb6f4eb0703f3154bb3db00180546001600160a01b0319166001600160a01b0384169081179091556000908152600760209081526040909120805460ff191683179055600654610123929091610178811b6105f217901c565b60065550565b6101418160006101f360201b6107081790919060201c565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6000828201838110156101ec57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b610203828261029460201b60201c565b1561026f57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b0382166102f5576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526022815260200180610b526022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61082e806103246000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c8063927cab4711610066578063927cab47146100fe578063ae2ac4ae14610124578063ce46e79d1461014a578063e4725f0214610152578063ed896d661461017857610093565b806341676f15146100985780634b30b66f146100d2578063567ad862146100dc578063820429ba146100e4575b600080fd5b6100be600480360360208110156100ae57600080fd5b50356001600160a01b031661019e565b604080519115158252519081900360200190f35b6100da6101b6565b005b6100da6101c1565b6100ec6101ca565b60408051918252519081900360200190f35b6100da6004803603602081101561011457600080fd5b50356001600160a01b03166101d0565b6100da6004803603602081101561013a57600080fd5b50356001600160a01b0316610223565b6100ec610273565b6100da6004803603602081101561016857600080fd5b50356001600160a01b0316610279565b6100be6004803603602081101561018e57600080fd5b50356001600160a01b03166102c9565b60006101b0818363ffffffff6102dc16565b92915050565b6101bf33610346565b565b6101bf33610389565b60035490565b6101d93361019e565b61021757604051600160e51b62461bcd02815260040180806020018281038252603381526020018061078d6033913960400191505060405180910390fd5b610220816103cc565b50565b61022c3361019e565b61026a57604051600160e51b62461bcd02815260040180806020018281038252603381526020018061078d6033913960400191505060405180910390fd5b61022081610346565b60065490565b6102823361019e565b6102c057604051600160e51b62461bcd02815260040180806020018281038252603381526020018061078d6033913960400191505060405180910390fd5b61022081610443565b60006101b060018363ffffffff6102dc16565b60006001600160a01b03821661032657604051600160e51b62461bcd0281526004018080602001828103825260228152602001806107e16022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61034f816104ba565b6001600160a01b0381166000908152600460205260409020805460ff1916905560035461038390600163ffffffff61050216565b60035550565b61039281610562565b6001600160a01b0381166000908152600760205260409020805460ff191690556006546103c690600163ffffffff61050216565b60065550565b6103d5816105aa565b6002805460018082019092557f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace0180546001600160a01b0319166001600160a01b0384169081179091556000908152600460205260409020805460ff191682179055600354610383916105f2565b61044c81610656565b6005805460018082019092557f036b6384b5eca791c62761152d0c79bb0604c104a5fb6f4eb0703f3154bb3db00180546001600160a01b0319166001600160a01b0384169081179091556000908152600760205260409020805460ff1916821790556006546103c6916105f2565b6104cb60018263ffffffff61069e16565b6040516001600160a01b038216907f32a792a099c63670df7161917c5efb2fdc734cf9f943ebddccbecef87664f2b790600090a250565b60008282111561055c5760408051600160e51b62461bcd02815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b50900390565b61057360008263ffffffff61069e16565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b6105bb60018263ffffffff61070816565b6040516001600160a01b038216907fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903990600090a250565b60008282018381101561064f5760408051600160e51b62461bcd02815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b61066760008263ffffffff61070816565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6106a882826102dc565b6106e657604051600160e51b62461bcd0281526004018080602001828103825260218152602001806107c06021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff19169055565b61071282826102dc565b156107675760408051600160e51b62461bcd02815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff1916600117905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a723058208753974037b0a07d9f3d115f195118ca5c283bbd10b75e6114830faaf835d8840029526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c8063927cab4711610066578063927cab47146100fe578063ae2ac4ae14610124578063ce46e79d1461014a578063e4725f0214610152578063ed896d661461017857610093565b806341676f15146100985780634b30b66f146100d2578063567ad862146100dc578063820429ba146100e4575b600080fd5b6100be600480360360208110156100ae57600080fd5b50356001600160a01b031661019e565b604080519115158252519081900360200190f35b6100da6101b6565b005b6100da6101c1565b6100ec6101ca565b60408051918252519081900360200190f35b6100da6004803603602081101561011457600080fd5b50356001600160a01b03166101d0565b6100da6004803603602081101561013a57600080fd5b50356001600160a01b0316610223565b6100ec610273565b6100da6004803603602081101561016857600080fd5b50356001600160a01b0316610279565b6100be6004803603602081101561018e57600080fd5b50356001600160a01b03166102c9565b60006101b0818363ffffffff6102dc16565b92915050565b6101bf33610346565b565b6101bf33610389565b60035490565b6101d93361019e565b61021757604051600160e51b62461bcd02815260040180806020018281038252603381526020018061078d6033913960400191505060405180910390fd5b610220816103cc565b50565b61022c3361019e565b61026a57604051600160e51b62461bcd02815260040180806020018281038252603381526020018061078d6033913960400191505060405180910390fd5b61022081610346565b60065490565b6102823361019e565b6102c057604051600160e51b62461bcd02815260040180806020018281038252603381526020018061078d6033913960400191505060405180910390fd5b61022081610443565b60006101b060018363ffffffff6102dc16565b60006001600160a01b03821661032657604051600160e51b62461bcd0281526004018080602001828103825260228152602001806107e16022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61034f816104ba565b6001600160a01b0381166000908152600460205260409020805460ff1916905560035461038390600163ffffffff61050216565b60035550565b61039281610562565b6001600160a01b0381166000908152600760205260409020805460ff191690556006546103c690600163ffffffff61050216565b60065550565b6103d5816105aa565b6002805460018082019092557f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace0180546001600160a01b0319166001600160a01b0384169081179091556000908152600460205260409020805460ff191682179055600354610383916105f2565b61044c81610656565b6005805460018082019092557f036b6384b5eca791c62761152d0c79bb0604c104a5fb6f4eb0703f3154bb3db00180546001600160a01b0319166001600160a01b0384169081179091556000908152600760205260409020805460ff1916821790556006546103c6916105f2565b6104cb60018263ffffffff61069e16565b6040516001600160a01b038216907f32a792a099c63670df7161917c5efb2fdc734cf9f943ebddccbecef87664f2b790600090a250565b60008282111561055c5760408051600160e51b62461bcd02815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b50900390565b61057360008263ffffffff61069e16565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b6105bb60018263ffffffff61070816565b6040516001600160a01b038216907fe7f15f9ffff540ae14fdebcd9b6d6cc1fc143933338656c99caa595e8b80903990600090a250565b60008282018381101561064f5760408051600160e51b62461bcd02815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b61066760008263ffffffff61070816565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6106a882826102dc565b6106e657604051600160e51b62461bcd0281526004018080602001828103825260218152602001806107c06021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff19169055565b61071282826102dc565b156107675760408051600160e51b62461bcd02815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff1916600117905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a165627a7a723058208753974037b0a07d9f3d115f195118ca5c283bbd10b75e6114830faaf835d8840029",
+  "sourceMap": "68:343:11:-;;;128:54;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;168:10:11;;1889:30:23;1881:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1954:31;1968:16;1954:13;;;:31;;:::i;:::-;1824:168;895:93:21;68:343:11;;1599:232:21;1658:28;1678:7;1658:19;;;;;:28;;:::i;:::-;1696:10;27::-1;;39:1;23:18;;;45:23;;;1696:24:21;;;;-1:-1:-1;;;;;;1696:24:21;-1:-1:-1;;;;;1696:24:21;;;;;;;;-1:-1:-1;1730:25:21;;;:16;1696:24;1730:25;;;;;;;:32;;-1:-1:-1;;1730:32:21;;;;;1796:21;;:28;;:21;;:25;;;;;:28;;:::i;:::-;1772:21;:52;-1:-1:-1;1599:232:21:o;2455:128:23:-;2514:24;2530:7;2514:11;:15;;;;;;:24;;;;:::i;:::-;2553:23;;-1:-1:-1;;;;;2553:23:23;;;;;;;;2455:128;:::o;834:176:26:-;892:7;923:5;;;946:6;;;;938:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1002:1;834:176;-1:-1:-1;;;834:176:26:o;260:175:25:-;337:18;341:4;347:7;337:3;;;:18;;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:25;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:25;424:4;401:27;;;260:175::o;779:200::-;851:4;-1:-1:-1;;;;;875:21:25;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:25;:11;:20;;;;;;;;;;;;;;;779:200::o;68:343:11:-;;;;;;;",
+  "deployedSourceMap": "68:343:11:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:343:11;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2144:113:23;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2144:113:23;-1:-1:-1;;;;;2144:113:23;;:::i;:::-;;;;;;;;;;;;;;;;;;2240:73:22;;;:::i;:::-;;2368:81:23;;;:::i;305:103:11:-;;;:::i;:::-;;;;;;;;;;;;;;;;994:91:21;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;994:91:21;-1:-1:-1;;;;;994:91:21;;:::i;1091:97::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1091:97:21;-1:-1:-1;;;;;1091:97:21;;:::i;188:111:11:-;;;:::i;2263:99:23:-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2263:99:23;-1:-1:-1;;;;;2263:99:23;;:::i;2003:105:22:-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2003:105:22;-1:-1:-1;;;;;2003:105:22;;:::i;2144:113:23:-;2203:4;2226:24;2203:4;2242:7;2226:24;:15;:24;:::i;:::-;2219:31;2144:113;-1:-1:-1;;2144:113:23:o;2240:73:22:-;2282:24;2295:10;2282:12;:24::i;:::-;2240:73::o;2368:81:23:-;2414:28;2431:10;2414:16;:28::i;305:103:11:-;384:17;;305:103;:::o;994:91:21:-;2041:23:23;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;;;2033:87:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1060:18:21;1070:7;1060:9;:18::i;:::-;994:91;:::o;1091:97::-;2041:23:23;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;;;2033:87:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1160:21:21;1173:7;1160:12;:21::i;188:111:11:-;271:21;;188:111;:::o;2263:99:23:-;2041:23;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;;;2033:87:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2333:22;2347:7;2333:13;:22::i;2003:105:22:-;2058:4;2081:20;:7;2093;2081:20;:11;:20;:::i;779:200:25:-;851:4;-1:-1:-1;;;;;875:21:25;;867:68;;;;-1:-1:-1;;;;;867:68:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:25;:11;:20;;;;;;;;;;;;;;;779:200::o;1408:185:21:-;1466:27;1485:7;1466:18;:27::i;:::-;-1:-1:-1;;;;;1503:21:21;;1527:5;1503:21;;;:12;:21;;;;;:29;;-1:-1:-1;;1503:29:21;;;1562:17;;:24;;1503:29;1562:24;:21;:24;:::i;:::-;1542:17;:44;-1:-1:-1;1408:185:21:o;1837:205::-;1899:31;1922:7;1899:22;:31::i;:::-;-1:-1:-1;;;;;1940:25:21;;1968:5;1940:25;;;:16;:25;;;;;:33;;-1:-1:-1;;1940:33:21;;;2007:21;;:28;;1940:33;2007:28;:25;:28;:::i;:::-;1983:21;:52;-1:-1:-1;1837:205:21:o;1194:208::-;1249:24;1265:7;1249:15;:24::i;:::-;1283:6;27:10:-1;;39:1;23:18;;;45:23;;;1283:20:21;;;;-1:-1:-1;;;;;;1283:20:21;-1:-1:-1;;;;;1283:20:21;;;;;;;;-1:-1:-1;1313:21:21;;;:12;1283:20;1313:21;;;;:28;;-1:-1:-1;;1313:28:21;;;;;1371:17;;:24;;:21;:24::i;1599:232::-;1658:28;1678:7;1658:19;:28::i;:::-;1696:10;27::-1;;39:1;23:18;;;45:23;;;1696:24:21;;;;-1:-1:-1;;;;;;1696:24:21;-1:-1:-1;;;;;1696:24:21;;;;;;;;-1:-1:-1;1730:25:21;;;:16;1696:24;1730:25;;;;:32;;-1:-1:-1;;1730:32:21;;;;;1796:21;;:28;;:25;:28::i;2441:124:22:-;2499:23;:7;2514;2499:23;:14;:23;:::i;:::-;2537:21;;-1:-1:-1;;;;;2537:21:22;;;;;;;;2441:124;:::o;1274:179:26:-;1332:7;1364:1;1359;:6;;1351:49;;;;;-1:-1:-1;;;;;1351:49:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1422:5:26;;;1274:179::o;2589:136:23:-;2651:27;:11;2670:7;2651:27;:18;:27;:::i;:::-;2693:25;;-1:-1:-1;;;;;2693:25:23;;;;;;;;2589:136;:::o;2319:116:22:-;2374:20;:7;2386;2374:20;:11;:20;:::i;:::-;2409:19;;-1:-1:-1;;;;;2409:19:22;;;;;;;;2319:116;:::o;834:176:26:-;892:7;923:5;;;946:6;;;;938:46;;;;;-1:-1:-1;;;;;938:46:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;1002:1;834:176;-1:-1:-1;;;834:176:26:o;2455:128:23:-;2514:24;:11;2530:7;2514:24;:15;:24;:::i;:::-;2553:23;;-1:-1:-1;;;;;2553:23:23;;;;;;;;2455:128;:::o;510:180:25:-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;-1:-1:-1;;;;;581:64:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;655:20:25;678:5;655:20;;;;;;;;;;;:28;;-1:-1:-1;;655:28:25;;;510:180::o;260:175::-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;-1:-1:-1;;;;;328:63:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:25;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:25;424:4;401:27;;;260:175::o",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"../roles/ContestRoleManager.sol\";\n\ncontract ContestRoleManagerMock is ContestRoleManager {\n    constructor() public ContestRoleManager(msg.sender) {}\n\n    function getActiveOrganizersCount() public view returns (uint256) {\n        return activeOrganizersCount;\n    }\n\n    function getActiveJudgesCount() public view returns (uint256) {\n        return activeJudgesCount;\n    }\n\n}\n",
+  "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestRoleManagerMock.sol",
+  "ast": {
+    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestRoleManagerMock.sol",
+    "exportedSymbols": {
+      "ContestRoleManagerMock": [2580]
+    },
+    "id": 2581,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2552,
+        "literals": ["solidity", "^", "0.5", ".0"],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:11"
+      },
+      {
+        "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/ContestRoleManager.sol",
+        "file": "../roles/ContestRoleManager.sol",
+        "id": 2553,
+        "nodeType": "ImportDirective",
+        "scope": 2581,
+        "sourceUnit": 3191,
+        "src": "25:41:11",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 2554,
+              "name": "ContestRoleManager",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 3190,
+              "src": "103:18:11",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ContestRoleManager_$3190",
+                "typeString": "contract ContestRoleManager"
+              }
+            },
+            "id": 2555,
+            "nodeType": "InheritanceSpecifier",
+            "src": "103:18:11"
+          }
+        ],
+        "contractDependencies": [3190, 3282, 3396],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2580,
+        "linearizedBaseContracts": [2580, 3190, 3282, 3396],
+        "name": "ContestRoleManagerMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2562,
+              "nodeType": "Block",
+              "src": "180:2:11",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 2563,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 2558,
+                      "name": "msg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4225,
+                      "src": "168:3:11",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_message",
+                        "typeString": "msg"
+                      }
+                    },
+                    "id": 2559,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "sender",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "168:10:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    }
+                  }
+                ],
+                "id": 2560,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 2557,
+                  "name": "ContestRoleManager",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 3190,
+                  "src": "149:18:11",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3190_$",
+                    "typeString": "type(contract ContestRoleManager)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "149:30:11"
+              }
+            ],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2556,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "139:2:11"
+            },
+            "returnParameters": {
+              "id": 2561,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "180:0:11"
+            },
+            "scope": 2580,
+            "src": "128:54:11",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 2570,
+              "nodeType": "Block",
+              "src": "254:45:11",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 2568,
+                    "name": "activeOrganizersCount",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 3038,
+                    "src": "271:21:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 2567,
+                  "id": 2569,
+                  "nodeType": "Return",
+                  "src": "264:28:11"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 2571,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getActiveOrganizersCount",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2564,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "221:2:11"
+            },
+            "returnParameters": {
+              "id": 2567,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2566,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2571,
+                  "src": "245:7:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2565,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "245:7:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "244:9:11"
+            },
+            "scope": 2580,
+            "src": "188:111:11",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 2578,
+              "nodeType": "Block",
+              "src": "367:41:11",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 2576,
+                    "name": "activeJudgesCount",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 3029,
+                    "src": "384:17:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 2575,
+                  "id": 2577,
+                  "nodeType": "Return",
+                  "src": "377:24:11"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 2579,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getActiveJudgesCount",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2572,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "334:2:11"
+            },
+            "returnParameters": {
+              "id": 2575,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2574,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2579,
+                  "src": "358:7:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2573,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "358:7:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "357:9:11"
+            },
+            "scope": 2580,
+            "src": "305:103:11",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2581,
+        "src": "68:343:11"
+      }
+    ],
+    "src": "0:412:11"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestRoleManagerMock.sol",
+    "exportedSymbols": {
+      "ContestRoleManagerMock": [2580]
+    },
+    "id": 2581,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2552,
+        "literals": ["solidity", "^", "0.5", ".0"],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:11"
+      },
+      {
+        "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/ContestRoleManager.sol",
+        "file": "../roles/ContestRoleManager.sol",
+        "id": 2553,
+        "nodeType": "ImportDirective",
+        "scope": 2581,
+        "sourceUnit": 3191,
+        "src": "25:41:11",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 2554,
+              "name": "ContestRoleManager",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 3190,
+              "src": "103:18:11",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ContestRoleManager_$3190",
+                "typeString": "contract ContestRoleManager"
+              }
+            },
+            "id": 2555,
+            "nodeType": "InheritanceSpecifier",
+            "src": "103:18:11"
+          }
+        ],
+        "contractDependencies": [3190, 3282, 3396],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2580,
+        "linearizedBaseContracts": [2580, 3190, 3282, 3396],
+        "name": "ContestRoleManagerMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2562,
+              "nodeType": "Block",
+              "src": "180:2:11",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 2563,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 2558,
+                      "name": "msg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4225,
+                      "src": "168:3:11",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_message",
+                        "typeString": "msg"
+                      }
+                    },
+                    "id": 2559,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "sender",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "168:10:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    }
+                  }
+                ],
+                "id": 2560,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 2557,
+                  "name": "ContestRoleManager",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 3190,
+                  "src": "149:18:11",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3190_$",
+                    "typeString": "type(contract ContestRoleManager)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "149:30:11"
+              }
+            ],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2556,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "139:2:11"
+            },
+            "returnParameters": {
+              "id": 2561,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "180:0:11"
+            },
+            "scope": 2580,
+            "src": "128:54:11",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 2570,
+              "nodeType": "Block",
+              "src": "254:45:11",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 2568,
+                    "name": "activeOrganizersCount",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 3038,
+                    "src": "271:21:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 2567,
+                  "id": 2569,
+                  "nodeType": "Return",
+                  "src": "264:28:11"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 2571,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getActiveOrganizersCount",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2564,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "221:2:11"
+            },
+            "returnParameters": {
+              "id": 2567,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2566,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2571,
+                  "src": "245:7:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2565,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "245:7:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "244:9:11"
+            },
+            "scope": 2580,
+            "src": "188:111:11",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 2578,
+              "nodeType": "Block",
+              "src": "367:41:11",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 2576,
+                    "name": "activeJudgesCount",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 3029,
+                    "src": "384:17:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 2575,
+                  "id": 2577,
+                  "nodeType": "Return",
+                  "src": "377:24:11"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 2579,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getActiveJudgesCount",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2572,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "334:2:11"
+            },
+            "returnParameters": {
+              "id": 2575,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2574,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2579,
+                  "src": "358:7:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2573,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "358:7:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "357:9:11"
+            },
+            "scope": 2580,
+            "src": "305:103:11",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2581,
+        "src": "68:343:11"
+      }
+    ],
+    "src": "0:412:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-07-31T21:53:16.835Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
