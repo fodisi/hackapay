@@ -233,8 +233,8 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         // TODO: check if can re-add previously removed judges to be added.
         // require(judgeByAddress[account].judgeAddress == address(0));
         super._addJudge(account);
-        uint256 id = judgesInfo.length;
-        Judge memory judge = Judge(id, account, true, false);
+        uint256 newId = judgesInfo.length;
+        Judge memory judge = Judge(newId, account, true, false);
         judgesInfo.push(judge);
         judgeByAddress[account] = judge;
         // activeJudgesCount = activeJudgesCount.add(1);
