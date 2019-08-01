@@ -14,9 +14,9 @@ Have you ever organized a Hackathon and found yourself struggling to, or trying 
 - Control of the submission process
 - Provide transparency during the evaluation process
 - Publicly publish the results; and/or
-- Provide transparency about the prizes you`ll to distribute as an incentive
-- Distribute the prizes to winner`s team members?
-- Improve your organizer`s image by using the blockchain to distribute prizes?
+- Provide transparency about the prizes you'll to distribute as an incentive
+- Distribute the prizes to winner's team members?
+- Improve your organizer's image by using the blockchain to distribute prizes?
 
 ##### UI:
 
@@ -52,7 +52,7 @@ This project was developed with the following environment:
 - Node v10.16.0
 - Web3.js v1.0.0-beta.37
 
-  _You should not have problems if running on ubuntu 16.04 or Node 8.\*_
+  _PS: You should have no problems running on ubuntu 16.04 or Node 8.\*_
 
 #### 1 - Requirements:
 
@@ -64,7 +64,7 @@ This project was developed with the following environment:
 - Download and install [Ganache Gui](https://www.trufflesuite.com/ganache) or [ganache-cli](https://www.npmjs.com/package/ganache-cli). Follow instructions provider instructions to install the desired version of Ganache. Make sure you configure your ganache application to use Port Number 8545
 
   _Note related to recent truffle update:
-  A few days ago truffle updated to 5.0.29, and one of the project dependencies for unit tests (`openzeppelin-test-helpers`) presented som issues. This issue is supposed to be fixed now, but if you find problems running this project, make sure you install truffle 5.0.28, using the command below:_
+  A few days ago truffle updated to 5.0.29, and one of the project dependencies for unit tests (`openzeppelin-test-helpers`) presented some issues. The dependency was updated and this issue is supposed to be fixed now, but if when trying to run it locally you find an error related to the web3 version, make sure you install truffle 5.0.28, using the commands below:_
 
   ```
   npm uninstall -g truffle
@@ -108,11 +108,11 @@ Start web dev-server: `npm run start`
 
 ##### Deploying contracts to Testnets (ropsten and kovan)
 
-This project uses [Infura]() infrastructure to deploy the contracts to the test net. You'd need to register with Infura and create a project id. Once you have the credentials, you need to follow these steps:
+This project uses [Infura]() infrastructure to deploy the contracts to ETH testnets. You'd need to register with Infura and create a project id. Once you have the credentials, follow these steps:
 
-- Open file credentials.js
+- Open file `credentials.js`
 - Insert your Infura ProjectId and mnemonic in the file for the desired network
-- Once you have the credentials file properly setup, run the following commands to deploy the contracts to ropsten and rovan:
+- Once you have the credentials file properly setup, run the following commands to deploy the contracts to ropsten and/or kovan:
   - Deploy to ropsten: `npm run deploy:ropsten`
   - Deploy to kovan: `npm run deploy:kovan`
 
