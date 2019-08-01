@@ -128,3 +128,9 @@ export MYTHX_PASSWORD='MYTHX_PASSWORD'
 
 After setting up your credentials, you can run the following command:
 `npm run verify-security` or `truffle run verify`
+
+### Contract Diagram
+
+The basic architecture / contract diagram of the project can be seen in the diagram below.
+
+![Alt text](/diagrams/contract-diagram.png?raw=true "Contract Diagram")
