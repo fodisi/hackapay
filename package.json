@@ -11,7 +11,9 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "deploy:ropsten": "truffle deploy --network ropsten --reset",
-    "deploy:kovan": "truffle deploy --network kovan --reset"
+    "deploy:kovan": "truffle deploy --network kovan --reset",
+    "coverage": "npx solidity-coverage",
+    "verify-security": "truffle run verify"
   },
   "keywords": [],
   "author": "github.com/fodisi",
@@ -46,6 +48,7 @@
     "prettier-plugin-solidity": "^1.0.0-alpha.27",
     "solhint": "^2.1.2",
     "solhint-plugin-prettier": "0.0.3",
+    "solidity-coverage": "^0.6.3",
     "truffle-security": "^1.5.2",
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6",
