@@ -192,13 +192,13 @@
   "ast": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestRoleManagerMock.sol",
     "exportedSymbols": {
-      "ContestRoleManagerMock": [2588]
+      "ContestRoleManagerMock": [2580]
     },
-    "id": 2589,
+    "id": 2581,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2560,
+        "id": 2552,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:11"
@@ -206,10 +206,10 @@
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/ContestRoleManager.sol",
         "file": "../roles/ContestRoleManager.sol",
-        "id": 2561,
+        "id": 2553,
         "nodeType": "ImportDirective",
-        "scope": 2589,
-        "sourceUnit": 3199,
+        "scope": 2581,
+        "sourceUnit": 3191,
         "src": "25:41:11",
         "symbolAliases": [],
         "unitAlias": ""
@@ -220,39 +220,39 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2562,
+              "id": 2554,
               "name": "ContestRoleManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3198,
+              "referencedDeclaration": 3190,
               "src": "103:18:11",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ContestRoleManager_$3198",
+                "typeIdentifier": "t_contract$_ContestRoleManager_$3190",
                 "typeString": "contract ContestRoleManager"
               }
             },
-            "id": 2563,
+            "id": 2555,
             "nodeType": "InheritanceSpecifier",
             "src": "103:18:11"
           }
         ],
-        "contractDependencies": [3198, 3290, 3404],
+        "contractDependencies": [3190, 3282, 3396],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2588,
-        "linearizedBaseContracts": [2588, 3198, 3290, 3404],
+        "id": 2580,
+        "linearizedBaseContracts": [2580, 3190, 3282, 3396],
         "name": "ContestRoleManagerMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2570,
+              "id": 2562,
               "nodeType": "Block",
               "src": "180:2:11",
               "statements": []
             },
             "documentation": null,
-            "id": 2571,
+            "id": 2563,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -262,18 +262,18 @@
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 2566,
+                      "id": 2558,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4233,
+                      "referencedDeclaration": 4225,
                       "src": "168:3:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2567,
+                    "id": 2559,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -288,17 +288,17 @@
                     }
                   }
                 ],
-                "id": 2568,
+                "id": 2560,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2565,
+                  "id": 2557,
                   "name": "ContestRoleManager",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3198,
+                  "referencedDeclaration": 3190,
                   "src": "149:18:11",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3198_$",
+                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3190_$",
                     "typeString": "type(contract ContestRoleManager)"
                   }
                 },
@@ -309,18 +309,18 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2564,
+              "id": 2556,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "139:2:11"
             },
             "returnParameters": {
-              "id": 2569,
+              "id": 2561,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "180:0:11"
             },
-            "scope": 2588,
+            "scope": 2580,
             "src": "128:54:11",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -328,54 +328,54 @@
           },
           {
             "body": {
-              "id": 2578,
+              "id": 2570,
               "nodeType": "Block",
               "src": "254:45:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2576,
+                    "id": 2568,
                     "name": "activeOrganizersCount",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3046,
+                    "referencedDeclaration": 3038,
                     "src": "271:21:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2575,
-                  "id": 2577,
+                  "functionReturnParameters": 2567,
+                  "id": 2569,
                   "nodeType": "Return",
                   "src": "264:28:11"
                 }
               ]
             },
             "documentation": null,
-            "id": 2579,
+            "id": 2571,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActiveOrganizersCount",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2572,
+              "id": 2564,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "221:2:11"
             },
             "returnParameters": {
-              "id": 2575,
+              "id": 2567,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2574,
+                  "id": 2566,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2579,
+                  "scope": 2571,
                   "src": "245:7:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -384,7 +384,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2573,
+                    "id": 2565,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "245:7:11",
@@ -399,7 +399,7 @@
               ],
               "src": "244:9:11"
             },
-            "scope": 2588,
+            "scope": 2580,
             "src": "188:111:11",
             "stateMutability": "view",
             "superFunction": null,
@@ -407,54 +407,54 @@
           },
           {
             "body": {
-              "id": 2586,
+              "id": 2578,
               "nodeType": "Block",
               "src": "367:41:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2584,
+                    "id": 2576,
                     "name": "activeJudgesCount",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3037,
+                    "referencedDeclaration": 3029,
                     "src": "384:17:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2583,
-                  "id": 2585,
+                  "functionReturnParameters": 2575,
+                  "id": 2577,
                   "nodeType": "Return",
                   "src": "377:24:11"
                 }
               ]
             },
             "documentation": null,
-            "id": 2587,
+            "id": 2579,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActiveJudgesCount",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2580,
+              "id": 2572,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "334:2:11"
             },
             "returnParameters": {
-              "id": 2583,
+              "id": 2575,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2582,
+                  "id": 2574,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2587,
+                  "scope": 2579,
                   "src": "358:7:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -463,7 +463,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2581,
+                    "id": 2573,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "358:7:11",
@@ -478,14 +478,14 @@
               ],
               "src": "357:9:11"
             },
-            "scope": 2588,
+            "scope": 2580,
             "src": "305:103:11",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2589,
+        "scope": 2581,
         "src": "68:343:11"
       }
     ],
@@ -494,13 +494,13 @@
   "legacyAST": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestRoleManagerMock.sol",
     "exportedSymbols": {
-      "ContestRoleManagerMock": [2588]
+      "ContestRoleManagerMock": [2580]
     },
-    "id": 2589,
+    "id": 2581,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2560,
+        "id": 2552,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:11"
@@ -508,10 +508,10 @@
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/ContestRoleManager.sol",
         "file": "../roles/ContestRoleManager.sol",
-        "id": 2561,
+        "id": 2553,
         "nodeType": "ImportDirective",
-        "scope": 2589,
-        "sourceUnit": 3199,
+        "scope": 2581,
+        "sourceUnit": 3191,
         "src": "25:41:11",
         "symbolAliases": [],
         "unitAlias": ""
@@ -522,39 +522,39 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2562,
+              "id": 2554,
               "name": "ContestRoleManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3198,
+              "referencedDeclaration": 3190,
               "src": "103:18:11",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ContestRoleManager_$3198",
+                "typeIdentifier": "t_contract$_ContestRoleManager_$3190",
                 "typeString": "contract ContestRoleManager"
               }
             },
-            "id": 2563,
+            "id": 2555,
             "nodeType": "InheritanceSpecifier",
             "src": "103:18:11"
           }
         ],
-        "contractDependencies": [3198, 3290, 3404],
+        "contractDependencies": [3190, 3282, 3396],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2588,
-        "linearizedBaseContracts": [2588, 3198, 3290, 3404],
+        "id": 2580,
+        "linearizedBaseContracts": [2580, 3190, 3282, 3396],
         "name": "ContestRoleManagerMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2570,
+              "id": 2562,
               "nodeType": "Block",
               "src": "180:2:11",
               "statements": []
             },
             "documentation": null,
-            "id": 2571,
+            "id": 2563,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -564,18 +564,18 @@
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 2566,
+                      "id": 2558,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4233,
+                      "referencedDeclaration": 4225,
                       "src": "168:3:11",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2567,
+                    "id": 2559,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -590,17 +590,17 @@
                     }
                   }
                 ],
-                "id": 2568,
+                "id": 2560,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2565,
+                  "id": 2557,
                   "name": "ContestRoleManager",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3198,
+                  "referencedDeclaration": 3190,
                   "src": "149:18:11",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3198_$",
+                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3190_$",
                     "typeString": "type(contract ContestRoleManager)"
                   }
                 },
@@ -611,18 +611,18 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2564,
+              "id": 2556,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "139:2:11"
             },
             "returnParameters": {
-              "id": 2569,
+              "id": 2561,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "180:0:11"
             },
-            "scope": 2588,
+            "scope": 2580,
             "src": "128:54:11",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -630,54 +630,54 @@
           },
           {
             "body": {
-              "id": 2578,
+              "id": 2570,
               "nodeType": "Block",
               "src": "254:45:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2576,
+                    "id": 2568,
                     "name": "activeOrganizersCount",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3046,
+                    "referencedDeclaration": 3038,
                     "src": "271:21:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2575,
-                  "id": 2577,
+                  "functionReturnParameters": 2567,
+                  "id": 2569,
                   "nodeType": "Return",
                   "src": "264:28:11"
                 }
               ]
             },
             "documentation": null,
-            "id": 2579,
+            "id": 2571,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActiveOrganizersCount",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2572,
+              "id": 2564,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "221:2:11"
             },
             "returnParameters": {
-              "id": 2575,
+              "id": 2567,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2574,
+                  "id": 2566,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2579,
+                  "scope": 2571,
                   "src": "245:7:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -686,7 +686,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2573,
+                    "id": 2565,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "245:7:11",
@@ -701,7 +701,7 @@
               ],
               "src": "244:9:11"
             },
-            "scope": 2588,
+            "scope": 2580,
             "src": "188:111:11",
             "stateMutability": "view",
             "superFunction": null,
@@ -709,54 +709,54 @@
           },
           {
             "body": {
-              "id": 2586,
+              "id": 2578,
               "nodeType": "Block",
               "src": "367:41:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2584,
+                    "id": 2576,
                     "name": "activeJudgesCount",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3037,
+                    "referencedDeclaration": 3029,
                     "src": "384:17:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2583,
-                  "id": 2585,
+                  "functionReturnParameters": 2575,
+                  "id": 2577,
                   "nodeType": "Return",
                   "src": "377:24:11"
                 }
               ]
             },
             "documentation": null,
-            "id": 2587,
+            "id": 2579,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getActiveJudgesCount",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2580,
+              "id": 2572,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "334:2:11"
             },
             "returnParameters": {
-              "id": 2583,
+              "id": 2575,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2582,
+                  "id": 2574,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2587,
+                  "scope": 2579,
                   "src": "358:7:11",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -765,7 +765,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2581,
+                    "id": 2573,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "358:7:11",
@@ -780,14 +780,14 @@
               ],
               "src": "357:9:11"
             },
-            "scope": 2588,
+            "scope": 2580,
             "src": "305:103:11",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2589,
+        "scope": 2581,
         "src": "68:343:11"
       }
     ],
@@ -799,7 +799,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T17:11:29.868Z",
+  "updatedAt": "2019-07-31T21:53:16.835Z",
   "devdoc": {
     "methods": {}
   },

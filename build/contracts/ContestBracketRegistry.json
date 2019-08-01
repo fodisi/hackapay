@@ -651,12 +651,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"getTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"approveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamIds\",\"type\":\"uint256[]\"}],\"name\":\"reproveTeams\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamIds\",\"type\":\"uint256[]\"},{\"name\":\"teamGrades\",\"type\":\"uint8[]\"}],\"name\":\"submitEvaluation\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"teams\",\"outputs\":[{\"name\":\"id\",\"type\":\"uint256\"},{\"name\":\"name\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"},{\"name\":\"approved\",\"type\":\"bool\"},{\"name\":\"grade\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"teamAddress\",\"type\":\"address\"}],\"name\":\"getTeamByAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSubmissionStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getWinnersIds\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamName\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"registerTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"publishRank\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getEvaluationStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeEvaluation\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openEvaluation\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRegistrationStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"updateProposalData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isJudge\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"reproveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"initialOrganizer\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"EvaluationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"judgeAddress\",\"type\":\"address\"}],\"name\":\"JudgeVoted\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"finalGrade\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"rankPosition\",\"type\":\"uint8\"}],\"name\":\"WinnerAnnouced\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"teamName\",\"type\":\"bytes32\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"RegistrationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"SubmissionStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"TeamProposalUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamStatusUpdated\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be approved\"}},\"closeEvaluation()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"closeRegistration()\":{\"details\":\"Overwritten to add modifier for access control.\"},\"closeSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"constructor\":{\"details\":\"This class needs to be inherited - internal visibility\",\"params\":{\"initialOrganizer\":\"Represents the organizer who owns the contest, initially.\"}},\"getEvaluationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getRegistrationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getSubmissionStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getTeam(uint256)\":{\"params\":{\"teamId\":\"{uint256} the team's unique identifier returned on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getTeamByAddress(address)\":{\"params\":{\"teamAddress\":\"{address} the team's contract address used on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getWinnersIds()\":{\"return\":\"{uint256} First place's id{uint256} Second place's id{uint256} Third place's id\"},\"openEvaluation()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"openRegistration()\":{\"details\":\"Overwritten to add modifier for access control.\"},\"openSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"publishRank()\":{\"details\":\"emitts an WinnerAnnounced event for each winner (1st, 2nd, 3rd place).\"},\"registerTeam(bytes32,address,bytes32)\":{\"details\":\"Registration process must be open.\",\"params\":{\"teamName\":\"{bytes32} team's proposal data; could be a hash for a file  on IPFS or for a github link; not required\"}},\"reproveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be reproved\"}},\"reproveTeams(uint256[])\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamIds\":\"{uint256[]} an array containing the ids of the teams to be reproved\"}},\"submitEvaluation(uint256[],uint8[])\":{\"details\":\"The position of teamId and teamGrade must be the same in the array. For example, if teamId \\\"1\\\" is sent at {teamIds} array position \\\"5\\\" (zero-based), the grade for team \\\"1\\\" must be sent at position \\\"5\\\" in {teamGrades} array.\",\"params\":{\"teamGrades\":\"Array of the grades given by the judge for each team.\",\"teamIds\":\"Array of the ids associated with each team that is going to be evaluated.\"}},\"updateProposalData(uint256,bytes32)\":{\"params\":{\"proposalData\":\"the updated data for the team's proposal\",\"teamId\":\"team's unique identifier; required\"}}}},\"userdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"notice\":\"(re)approves a team in participating in the contest\"},\"closeEvaluation()\":{\"notice\":\"Closes the evaluation process\"},\"closeRegistration()\":{\"notice\":\"Closes the registration process\"},\"closeSubmission()\":{\"notice\":\"Closes the proposal submission process\"},\"getEvaluationStatus()\":{\"notice\":\"Gets the evaluation status\"},\"getRegistrationStatus()\":{\"notice\":\"Gets the registration status\"},\"getSubmissionStatus()\":{\"notice\":\"Gets the submission status\"},\"getTeam(uint256)\":{\"notice\":\"Returns the stored information of a team\"},\"getTeamByAddress(address)\":{\"notice\":\"Returns the stored information of a team, based on a provided address\"},\"getWinnersIds()\":{\"notice\":\"Gets the id of the winner teams.\"},\"openEvaluation()\":{\"notice\":\"Opens the evaluation process\"},\"openRegistration()\":{\"notice\":\"Opens the registration process\"},\"openSubmission()\":{\"notice\":\"Opens the proposal submission process\"},\"publishRank()\":{\"notice\":\"Published the ranking results of the contest.\"},\"registerTeam(bytes32,address,bytes32)\":{\"notice\":\"Registers a new team in the contest registry.\"},\"reproveTeam(uint256)\":{\"notice\":\"reproves a team from participating in the contest\"},\"reproveTeams(uint256[])\":{\"notice\":\"reprove teams from participating in the contest\"},\"submitEvaluation(uint256[],uint8[])\":{\"notice\":\"Allows a judge to submit its evaluation for the teams competing in the contest. The evaluation for all teams must be submitted once.\"},\"updateProposalData(uint256,bytes32)\":{\"notice\":\"Updates the proposal data for a specific team.\"}},\"notice\":\"Controls the evaluation process by the judges and publishing of final results.\"}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/core/ContestBracketRegistry.sol\":\"ContestBracketRegistry\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/core/ContestBracketRegistry.sol\":{\"keccak256\":\"0x7d361b31638d10155d5da9b489ebe7cd5b604d61c30b8d28152ce6b82adc34f1\",\"urls\":[\"bzzr://2b0c495f1e58e13763c92bdf5fbde5bf373175d9981299abd16c8479b448a8aa\"]},\"/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol\":{\"keccak256\":\"0x2047dc5b9c9dc39677694c879f11fc2d239dc7ec4147c011dd8998ca2da286b1\",\"urls\":[\"bzzr://15387ff8e6f658b30d569119be01007a7043774a8ff3a0551bfcd318a5eecd0f\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/ContestRoleManager.sol\":{\"keccak256\":\"0x55c3fee5dd6f5a3dc91d24e3650e0bdfea2048179a7ebe46d0737d4a36d6d3b7\",\"urls\":[\"bzzr://294a21371d685a87eb6bd6cdea1075c4f97c90fded9baa2fa99ec871f53b8138\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":{\"keccak256\":\"0x9adf6a6514d21fdc98880aad0d9547432138a169c31419d2ce29017352f813ec\",\"urls\":[\"bzzr://86b99e607f0e00e3ac0ab7658a29a8dc0be771df01f625f00f7c01236582f5ec\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0x0e35454f69f874f4356b5b0aff68123f26773fbf514028d68b710ac553ee0910\",\"urls\":[\"bzzr://4b5e4357823348a7f8f06d56d99e1299476476f9fc5f421e5f1d461b9fe41ed5\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzzr://1604f5b6d6e916c154efd8c6720cda069e5ba32dfa0a9dedf2b42e5b02d07f89\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"getTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"approveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamIds\",\"type\":\"uint256[]\"}],\"name\":\"reproveTeams\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamIds\",\"type\":\"uint256[]\"},{\"name\":\"teamGrades\",\"type\":\"uint8[]\"}],\"name\":\"submitEvaluation\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"teams\",\"outputs\":[{\"name\":\"id\",\"type\":\"uint256\"},{\"name\":\"name\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"},{\"name\":\"approved\",\"type\":\"bool\"},{\"name\":\"grade\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"teamAddress\",\"type\":\"address\"}],\"name\":\"getTeamByAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSubmissionStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getWinnersIds\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamName\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"registerTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"publishRank\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getEvaluationStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeEvaluation\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeJudge\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openEvaluation\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRegistrationStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"updateProposalData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isJudge\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"reproveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"initialOrganizer\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"EvaluationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"judgeAddress\",\"type\":\"address\"}],\"name\":\"JudgeVoted\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"finalGrade\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"rankPosition\",\"type\":\"uint8\"}],\"name\":\"WinnerAnnouced\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"JudgeRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"teamName\",\"type\":\"bytes32\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"RegistrationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"SubmissionStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"TeamProposalUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamStatusUpdated\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be approved\"}},\"closeEvaluation()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"closeRegistration()\":{\"details\":\"Overwritten to add modifier for access control.\"},\"closeSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"constructor\":{\"details\":\"This class needs to be inherited - internal visibility\",\"params\":{\"initialOrganizer\":\"Represents the organizer who owns the contest, initially.\"}},\"getEvaluationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getRegistrationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getSubmissionStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getTeam(uint256)\":{\"params\":{\"teamId\":\"{uint256} the team's unique identifier returned on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getTeamByAddress(address)\":{\"params\":{\"teamAddress\":\"{address} the team's contract address used on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getWinnersIds()\":{\"return\":\"{uint256} First place's id{uint256} Second place's id{uint256} Third place's id\"},\"openEvaluation()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"openRegistration()\":{\"details\":\"Overwritten to add modifier for access control.\"},\"openSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"publishRank()\":{\"details\":\"emitts an WinnerAnnounced event for each winner (1st, 2nd, 3rd place).\"},\"registerTeam(bytes32,address,bytes32)\":{\"details\":\"Registration process must be open.\",\"params\":{\"teamName\":\"{bytes32} team's proposal data; could be a hash for a file  on IPFS or for a github link; not required\"}},\"reproveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be reproved\"}},\"reproveTeams(uint256[])\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamIds\":\"{uint256[]} an array containing the ids of the teams to be reproved\"}},\"submitEvaluation(uint256[],uint8[])\":{\"details\":\"The position of teamId and teamGrade must be the same in the array. For example, if teamId \\\"1\\\" is sent at {teamIds} array position \\\"5\\\" (zero-based), the grade for team \\\"1\\\" must be sent at position \\\"5\\\" in {teamGrades} array.\",\"params\":{\"teamGrades\":\"Array of the grades given by the judge for each team.\",\"teamIds\":\"Array of the ids associated with each team that is going to be evaluated.\"}},\"updateProposalData(uint256,bytes32)\":{\"params\":{\"proposalData\":\"the updated data for the team's proposal\",\"teamId\":\"team's unique identifier; required\"}}}},\"userdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"notice\":\"(re)approves a team in participating in the contest\"},\"closeEvaluation()\":{\"notice\":\"Closes the evaluation process\"},\"closeRegistration()\":{\"notice\":\"Closes the registration process\"},\"closeSubmission()\":{\"notice\":\"Closes the proposal submission process\"},\"getEvaluationStatus()\":{\"notice\":\"Gets the evaluation status\"},\"getRegistrationStatus()\":{\"notice\":\"Gets the registration status\"},\"getSubmissionStatus()\":{\"notice\":\"Gets the submission status\"},\"getTeam(uint256)\":{\"notice\":\"Returns the stored information of a team\"},\"getTeamByAddress(address)\":{\"notice\":\"Returns the stored information of a team, based on a provided address\"},\"getWinnersIds()\":{\"notice\":\"Gets the id of the winner teams.\"},\"openEvaluation()\":{\"notice\":\"Opens the evaluation process\"},\"openRegistration()\":{\"notice\":\"Opens the registration process\"},\"openSubmission()\":{\"notice\":\"Opens the proposal submission process\"},\"publishRank()\":{\"notice\":\"Published the ranking results of the contest.\"},\"registerTeam(bytes32,address,bytes32)\":{\"notice\":\"Registers a new team in the contest registry.\"},\"reproveTeam(uint256)\":{\"notice\":\"reproves a team from participating in the contest\"},\"reproveTeams(uint256[])\":{\"notice\":\"reprove teams from participating in the contest\"},\"submitEvaluation(uint256[],uint8[])\":{\"notice\":\"Allows a judge to submit its evaluation for the teams competing in the contest. The evaluation for all teams must be submitted once.\"},\"updateProposalData(uint256,bytes32)\":{\"notice\":\"Updates the proposal data for a specific team.\"}},\"notice\":\"Controls the evaluation process by the judges and publishing of final results.\"}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/core/ContestBracketRegistry.sol\":\"ContestBracketRegistry\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/core/ContestBracketRegistry.sol\":{\"keccak256\":\"0xc15a9e0ef31fce09f610aa64da88dbf3f256af120e0c94d4b90dca958cc61a0f\",\"urls\":[\"bzzr://b7db4d7511e844334e01939846815ce1ad9f1c82d8b751481b84164e7d0bf46d\"]},\"/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol\":{\"keccak256\":\"0x95995388083fbaa2dbb256cfd12d775c0e7da755052b3e6322fc56cc5b28836f\",\"urls\":[\"bzzr://dae0a383e182d7ea591ffb7aaee3e15ef6fbcd1720d4454faced06ce21bf6b90\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/ContestRoleManager.sol\":{\"keccak256\":\"0x55c3fee5dd6f5a3dc91d24e3650e0bdfea2048179a7ebe46d0737d4a36d6d3b7\",\"urls\":[\"bzzr://294a21371d685a87eb6bd6cdea1075c4f97c90fded9baa2fa99ec871f53b8138\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/JudgeRole.sol\":{\"keccak256\":\"0x9adf6a6514d21fdc98880aad0d9547432138a169c31419d2ce29017352f813ec\",\"urls\":[\"bzzr://86b99e607f0e00e3ac0ab7658a29a8dc0be771df01f625f00f7c01236582f5ec\"]},\"/home/odisi/dev/projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0x0e35454f69f874f4356b5b0aff68123f26773fbf514028d68b710ac553ee0910\",\"urls\":[\"bzzr://4b5e4357823348a7f8f06d56d99e1299476476f9fc5f421e5f1d461b9fe41ed5\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzzr://bd34c1ce05b5b2b3a62fc02e160f6805b1cadd476854664f433c685b2fda8dad\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzzr://1604f5b6d6e916c154efd8c6720cda069e5ba32dfa0a9dedf2b42e5b02d07f89\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.5.0;\n\nimport \"openzeppelin-solidity/contracts/math/SafeMath.sol\";\n\nimport \"./ContestTeamRegistry.sol\";\nimport \"../roles/ContestRoleManager.sol\";\n\n/**\n    @notice Controls the evaluation process by the judges and publishing of final results.\n */\ncontract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {\n    using SafeMath for uint256;\n\n    /// @notice Represetns a judge evaluating the teams in the contest.\n    struct Judge {\n        uint256 id;\n        address judgeAddress;\n        bool active;\n        bool voted;\n    }\n\n    // Judge's helpers\n    Judge[] internal judgesInfo; // List of judges\n    // uint256 internal activeJudgesCount; // Controls active judges (the ones not removed)\n    mapping(address => Judge) internal judgeByAddress;\n    bool internal evaluationEnabled;\n    Team internal firstPlace;\n    Team internal secondPlace;\n    Team internal thirdPlace;\n    bool internal rankPublished;\n\n    /// @dev emitted when the evaluation process is updated. See {openEvaluation()} and {closeEvaluation()}\n    event EvaluationStatusUpdated(bool enabled);\n    /// @dev emitted when a judge submits its evaluation.\n    event JudgeVoted(uint256 indexed id, address judgeAddress);\n    /// @dev emitted when winners are announced.\n    event WinnerAnnouced(uint256 teamId, address teamAddress, uint256 finalGrade, uint8 rankPosition);\n\n    modifier evaluationIsOpen() {\n        require(evaluationEnabled, \"Evaluation is closed\");\n        _;\n    }\n\n    modifier evaluationIsClosed() {\n        require(!evaluationEnabled, \"Evaluation is open\");\n        _;\n    }\n\n    modifier whenRankPublished {\n        require(rankPublished, \"Rank not published yet\");\n        _;\n    }\n\n    modifier whenRankNotPublished {\n        require(!rankPublished, \"Rank already published\");\n        _;\n    }\n\n    ///@dev This class needs to be inherited - internal visibility\n    /// @param initialOrganizer Represents the organizer who owns the contest, initially.\n    constructor(address initialOrganizer) internal ContestTeamRegistry() ContestRoleManager(initialOrganizer) {}\n\n    /**\n        @notice Allows a judge to submit its evaluation for the teams competing in the contest. The evaluation for all\n        teams must be submitted once.\n        @param teamIds Array of the ids associated with each team that is going to be evaluated.\n        @param teamGrades Array of the grades given by the judge for each team.\n        @dev The position of teamId and teamGrade must be the same in the array.\n        For example, if teamId \"1\" is sent at {teamIds} array position \"5\" (zero-based), the grade for team \"1\"\n        must be sent at position \"5\" in {teamGrades} array.\n     */\n    function submitEvaluation(uint256[] calldata teamIds, uint8[] calldata teamGrades)\n        external\n        evaluationIsOpen\n        onlyJudge\n    {\n        require(teamIds.length == teamGrades.length, \"Length of teams and teamGrades arrays must be equal\");\n        require(\n            teamIds.length == approvedTeamsCount,\n            \"teamsIds and grades do not match the counting of approved teams\"\n        );\n        require(approvedTeamsCount > 0, \"No approved teams to evaluate\");\n        Judge storage judge = judgeByAddress[msg.sender];\n        require(!judge.voted, \"Judge already submitted evaluation\");\n        for (uint256 i = 0; i < approvedTeamsCount; i++) {\n            uint256 teamId = teamIds[i];\n            uint8 grade = teamGrades[i];\n            // FIXME: check ways to display variables in string messages.\n            // require(isValidTeamId(teamId), \"Invalid team id\" + string(teamId));\n            // require(isTeamApproved(teamId), \"Team with id \" + string(teamId) + \"is not approved\");\n            // require(isValidGrade(grade), \"Invalid grade\" + string(grade) + \"for team id \" + string(teamId));\n            require(isValidTeamId(teamId), \"Invalid team id\");\n            require(isTeamApproved(teamId), \"Team is not approved\");\n            require(isValidGrade(grade), \"Invalid grade\");\n\n            Team storage team = teams[teamId];\n            team.grade = team.grade.add(grade);\n\n        }\n        // Updates judge's voting status.\n        judge.voted = true;\n        emit JudgeVoted(judge.id, judge.judgeAddress);\n    }\n\n    /**\n        @notice Published the ranking results of the contest.\n        @dev emitts an WinnerAnnounced event for each winner (1st, 2nd, 3rd place).\n     */\n    function publishRank()\n        external\n        registrationIsClosed\n        submissionIsClosed\n        evaluationIsClosed\n        onlyOrganizer\n        whenRankNotPublished\n    {\n        require(approvedTeamsCount > 0, \"No teams registered\");\n        Team memory curTeam;\n        Team memory tmpFirst;\n        Team memory tmpSecond;\n        Team memory tmpThird;\n\n        for (uint256 i = 0; i < teams.length; i++) {\n            curTeam = teams[i];\n            if (!curTeam.approved || curTeam.grade < tmpThird.grade) {\n                // If team is not approved, or its grade is already lower than third place, mves to the next team.\n                continue;\n            }\n\n            // TODO: Known limitation for this version: Ties or draws are not properly handled, and the last\n            // one to be computed will be ranked higher.\n            if (curTeam.grade > tmpFirst.grade) {\n                tmpThird = tmpSecond;\n                tmpSecond = tmpFirst;\n                tmpFirst = curTeam;\n            } else if (curTeam.grade > tmpSecond.grade) {\n                tmpThird = tmpSecond;\n                tmpSecond = curTeam;\n            } else if (curTeam.grade > tmpThird.grade) {\n                tmpThird = curTeam;\n            }\n        }\n\n        firstPlace = tmpFirst;\n        secondPlace = tmpSecond;\n        thirdPlace = tmpThird;\n        rankPublished = true;\n        emit WinnerAnnouced(firstPlace.id, firstPlace.teamAddress, firstPlace.grade, 1);\n        emit WinnerAnnouced(secondPlace.id, secondPlace.teamAddress, secondPlace.grade, 2);\n        emit WinnerAnnouced(thirdPlace.id, thirdPlace.teamAddress, thirdPlace.grade, 3);\n    }\n\n    /**\n        @notice Gets the id of the winner teams.\n        @return {uint256} First place's id\n        @return {uint256} Second place's id\n        @return {uint256} Third place's id\n     */\n    function getWinnersIds() external view returns (uint256, uint256, uint256) {\n        return (firstPlace.id, secondPlace.id, thirdPlace.id);\n    }\n\n    /**\n        @notice Closes the registration process\n        @dev Overwritten to add modifier for access control.\n     */\n    function closeRegistration() external registrationIsOpen onlyOrganizer {\n        super._closeRegistration();\n    }\n\n    /**\n        @notice Opens the registration process\n        @dev Overwritten to add modifier for access control.\n     */\n    function openRegistration() external registrationIsClosed onlyOrganizer {\n        super._openRegistration();\n    }\n\n    /**\n        @notice Closes the proposal submission process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function closeSubmission() external submissionIsOpen onlyOrganizer {\n        super._closeSubmission();\n    }\n\n    /**\n        @notice Opens the proposal submission process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function openSubmission() external submissionIsClosed onlyOrganizer {\n        super._openSubmission();\n    }\n\n    /**\n        @notice Closes the evaluation process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function closeEvaluation() external evaluationIsOpen onlyOrganizer {\n        _closeEvaluation();\n    }\n\n    /**\n        @notice Opens the evaluation process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function openEvaluation() external evaluationIsClosed onlyOrganizer {\n        _openEvaluation();\n    }\n\n    /**\n        @notice Gets the evaluation status\n        @return {bool} returns {true} if enabled; otherwise, {false}.\n     */\n    function getEvaluationStatus() external view returns (bool) {\n        return evaluationEnabled;\n    }\n\n    ///@dev internal implementation for {closeEvaluation.}\n    function _closeEvaluation() internal {\n        evaluationEnabled = false;\n        emit EvaluationStatusUpdated(evaluationEnabled);\n    }\n\n    ///@dev internal implementation for {openEvaluation.}\n    function _openEvaluation() internal {\n        evaluationEnabled = true;\n        emit EvaluationStatusUpdated(evaluationEnabled);\n    }\n\n    /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.\n    function _addJudge(address account) internal {\n        // TODO: check if can re-add previously removed judges to be added.\n        // require(judgeByAddress[account].judgeAddress == address(0));\n        super._addJudge(account);\n        uint256 id = judgesInfo.length;\n        Judge memory judge = Judge(id, account, true, false);\n        judgesInfo.push(judge);\n        judgeByAddress[account] = judge;\n        // activeJudgesCount = activeJudgesCount.add(1);\n    }\n\n    /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.\n    function _removeJudge(address account) internal {\n        super._removeJudge(account);\n        Judge storage judge = judgeByAddress[account];\n        judge.active = false;\n        // activeJudgesCount = activeJudgesCount.sub(1);\n    }\n\n    /**\n        @notice checks if a grade is valid or not.\n        @param grade {uint8} the grade to be evaluated\n        @return {bool} true if valid; otherwise false\n     */\n    function isValidGrade(uint8 grade) internal pure returns (bool) {\n        return (grade >= 0 && grade <= 10);\n    }\n}\n",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"openzeppelin-solidity/contracts/math/SafeMath.sol\";\n\nimport \"./ContestTeamRegistry.sol\";\nimport \"../roles/ContestRoleManager.sol\";\n\n/**\n    @notice Controls the evaluation process by the judges and publishing of final results.\n */\ncontract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {\n    using SafeMath for uint256;\n\n    /// @notice Represetns a judge evaluating the teams in the contest.\n    struct Judge {\n        uint256 id;\n        address judgeAddress;\n        bool active;\n        bool voted;\n    }\n\n    // Judge's helpers\n    Judge[] internal judgesInfo; // List of judges\n    // uint256 internal activeJudgesCount; // Controls active judges (the ones not removed)\n    mapping(address => Judge) internal judgeByAddress;\n    bool internal evaluationEnabled;\n    Team internal firstPlace;\n    Team internal secondPlace;\n    Team internal thirdPlace;\n    bool internal rankPublished;\n\n    /// @dev emitted when the evaluation process is updated. See {openEvaluation()} and {closeEvaluation()}\n    event EvaluationStatusUpdated(bool enabled);\n    /// @dev emitted when a judge submits its evaluation.\n    event JudgeVoted(uint256 indexed id, address judgeAddress);\n    /// @dev emitted when winners are announced.\n    event WinnerAnnouced(uint256 teamId, address teamAddress, uint256 finalGrade, uint8 rankPosition);\n\n    modifier evaluationIsOpen() {\n        require(evaluationEnabled, \"Evaluation is closed\");\n        _;\n    }\n\n    modifier evaluationIsClosed() {\n        require(!evaluationEnabled, \"Evaluation is open\");\n        _;\n    }\n\n    modifier whenRankPublished {\n        require(rankPublished, \"Rank not published yet\");\n        _;\n    }\n\n    modifier whenRankNotPublished {\n        require(!rankPublished, \"Rank already published\");\n        _;\n    }\n\n    ///@dev This class needs to be inherited - internal visibility\n    /// @param initialOrganizer Represents the organizer who owns the contest, initially.\n    constructor(address initialOrganizer) internal ContestTeamRegistry() ContestRoleManager(initialOrganizer) {}\n\n    /**\n        @notice Allows a judge to submit its evaluation for the teams competing in the contest. The evaluation for all\n        teams must be submitted once.\n        @param teamIds Array of the ids associated with each team that is going to be evaluated.\n        @param teamGrades Array of the grades given by the judge for each team.\n        @dev The position of teamId and teamGrade must be the same in the array.\n        For example, if teamId \"1\" is sent at {teamIds} array position \"5\" (zero-based), the grade for team \"1\"\n        must be sent at position \"5\" in {teamGrades} array.\n     */\n    function submitEvaluation(uint256[] calldata teamIds, uint8[] calldata teamGrades)\n        external\n        evaluationIsOpen\n        onlyJudge\n    {\n        require(teamIds.length == teamGrades.length, \"Length of teams and teamGrades arrays must be equal\");\n        require(\n            teamIds.length == approvedTeamsCount,\n            \"teamsIds and grades do not match the counting of approved teams\"\n        );\n        require(approvedTeamsCount > 0, \"No approved teams to evaluate\");\n        Judge storage judge = judgeByAddress[msg.sender];\n        require(!judge.voted, \"Judge already submitted evaluation\");\n        for (uint256 i = 0; i < approvedTeamsCount; i++) {\n            uint256 teamId = teamIds[i];\n            uint8 grade = teamGrades[i];\n            // FIXME: check ways to display variables in string messages.\n            // require(isValidTeamId(teamId), \"Invalid team id\" + string(teamId));\n            // require(isTeamApproved(teamId), \"Team with id \" + string(teamId) + \"is not approved\");\n            // require(isValidGrade(grade), \"Invalid grade\" + string(grade) + \"for team id \" + string(teamId));\n            require(isValidTeamId(teamId), \"Invalid team id\");\n            require(isTeamApproved(teamId), \"Team is not approved\");\n            require(isValidGrade(grade), \"Invalid grade\");\n\n            Team storage team = teams[teamId];\n            team.grade = team.grade.add(grade);\n\n        }\n        // Updates judge's voting status.\n        judge.voted = true;\n        emit JudgeVoted(judge.id, judge.judgeAddress);\n    }\n\n    /**\n        @notice Published the ranking results of the contest.\n        @dev emitts an WinnerAnnounced event for each winner (1st, 2nd, 3rd place).\n     */\n    function publishRank()\n        external\n        registrationIsClosed\n        submissionIsClosed\n        evaluationIsClosed\n        onlyOrganizer\n        whenRankNotPublished\n    {\n        require(approvedTeamsCount > 0, \"No teams registered\");\n        Team memory curTeam;\n        Team memory tmpFirst;\n        Team memory tmpSecond;\n        Team memory tmpThird;\n\n        for (uint256 i = 0; i < teams.length; i++) {\n            curTeam = teams[i];\n            if (!curTeam.approved || curTeam.grade < tmpThird.grade) {\n                // If team is not approved, or its grade is already lower than third place, mves to the next team.\n                continue;\n            }\n\n            // TODO: Known limitation for this version: Ties or draws are not properly handled, and the last\n            // one to be computed will be ranked higher.\n            if (curTeam.grade > tmpFirst.grade) {\n                tmpThird = tmpSecond;\n                tmpSecond = tmpFirst;\n                tmpFirst = curTeam;\n            } else if (curTeam.grade > tmpSecond.grade) {\n                tmpThird = tmpSecond;\n                tmpSecond = curTeam;\n            } else if (curTeam.grade > tmpThird.grade) {\n                tmpThird = curTeam;\n            }\n        }\n\n        firstPlace = tmpFirst;\n        secondPlace = tmpSecond;\n        thirdPlace = tmpThird;\n        rankPublished = true;\n        emit WinnerAnnouced(firstPlace.id, firstPlace.teamAddress, firstPlace.grade, 1);\n        emit WinnerAnnouced(secondPlace.id, secondPlace.teamAddress, secondPlace.grade, 2);\n        emit WinnerAnnouced(thirdPlace.id, thirdPlace.teamAddress, thirdPlace.grade, 3);\n    }\n\n    /**\n        @notice Gets the id of the winner teams.\n        @return {uint256} First place's id\n        @return {uint256} Second place's id\n        @return {uint256} Third place's id\n     */\n    function getWinnersIds() external view returns (uint256, uint256, uint256) {\n        return (firstPlace.id, secondPlace.id, thirdPlace.id);\n    }\n\n    /**\n        @notice Closes the registration process\n        @dev Overwritten to add modifier for access control.\n     */\n    function closeRegistration() external registrationIsOpen onlyOrganizer {\n        super._closeRegistration();\n    }\n\n    /**\n        @notice Opens the registration process\n        @dev Overwritten to add modifier for access control.\n     */\n    function openRegistration() external registrationIsClosed onlyOrganizer {\n        super._openRegistration();\n    }\n\n    /**\n        @notice Closes the proposal submission process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function closeSubmission() external submissionIsOpen onlyOrganizer {\n        super._closeSubmission();\n    }\n\n    /**\n        @notice Opens the proposal submission process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function openSubmission() external submissionIsClosed onlyOrganizer {\n        super._openSubmission();\n    }\n\n    /**\n        @notice Closes the evaluation process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function closeEvaluation() external evaluationIsOpen onlyOrganizer {\n        _closeEvaluation();\n    }\n\n    /**\n        @notice Opens the evaluation process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function openEvaluation() external evaluationIsClosed onlyOrganizer {\n        _openEvaluation();\n    }\n\n    /**\n        @notice Gets the evaluation status\n        @return {bool} returns {true} if enabled; otherwise, {false}.\n     */\n    function getEvaluationStatus() external view returns (bool) {\n        return evaluationEnabled;\n    }\n\n    ///@dev internal implementation for {closeEvaluation.}\n    function _closeEvaluation() internal {\n        evaluationEnabled = false;\n        emit EvaluationStatusUpdated(evaluationEnabled);\n    }\n\n    ///@dev internal implementation for {openEvaluation.}\n    function _openEvaluation() internal {\n        evaluationEnabled = true;\n        emit EvaluationStatusUpdated(evaluationEnabled);\n    }\n\n    /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.\n    function _addJudge(address account) internal {\n        // TODO: check if can re-add previously removed judges to be added.\n        // require(judgeByAddress[account].judgeAddress == address(0));\n        super._addJudge(account);\n        uint256 newId = judgesInfo.length;\n        Judge memory judge = Judge(newId, account, true, false);\n        judgesInfo.push(judge);\n        judgeByAddress[account] = judge;\n        // activeJudgesCount = activeJudgesCount.add(1);\n    }\n\n    /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.\n    function _removeJudge(address account) internal {\n        super._removeJudge(account);\n        Judge storage judge = judgeByAddress[account];\n        judge.active = false;\n        // activeJudgesCount = activeJudgesCount.sub(1);\n    }\n\n    /**\n        @notice checks if a grade is valid or not.\n        @param grade {uint8} the grade to be evaluated\n        @return {bool} true if valid; otherwise false\n     */\n    function isValidGrade(uint8 grade) internal pure returns (bool) {\n        return (grade >= 0 && grade <= 10);\n    }\n}\n",
   "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestBracketRegistry.sol",
   "ast": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestBracketRegistry.sol",
@@ -678,7 +678,7 @@
         "id": 59,
         "nodeType": "ImportDirective",
         "scope": 649,
-        "sourceUnit": 4219,
+        "sourceUnit": 4211,
         "src": "25:59:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -700,7 +700,7 @@
         "id": 61,
         "nodeType": "ImportDirective",
         "scope": 649,
-        "sourceUnit": 3199,
+        "sourceUnit": 3191,
         "src": "122:41:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -732,10 +732,10 @@
               "id": 64,
               "name": "ContestRoleManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3198,
+              "referencedDeclaration": 3190,
               "src": "320:18:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ContestRoleManager_$3198",
+                "typeIdentifier": "t_contract$_ContestRoleManager_$3190",
                 "typeString": "contract ContestRoleManager"
               }
             },
@@ -744,12 +744,12 @@
             "src": "320:18:1"
           }
         ],
-        "contractDependencies": [1698, 3198, 3290, 3404],
+        "contractDependencies": [1698, 3190, 3282, 3396],
         "contractKind": "contract",
         "documentation": "@notice Controls the evaluation process by the judges and publishing of final results.",
         "fullyImplemented": true,
         "id": 648,
-        "linearizedBaseContracts": [648, 3198, 3290, 3404, 1698],
+        "linearizedBaseContracts": [648, 3190, 3282, 3396, 1698],
         "name": "ContestBracketRegistry",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -760,10 +760,10 @@
               "id": 66,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4218,
+              "referencedDeclaration": 4210,
               "src": "351:8:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4218",
+                "typeIdentifier": "t_contract$_SafeMath_$4210",
                 "typeString": "library SafeMath"
               }
             },
@@ -1409,8 +1409,8 @@
                       "id": 116,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1420:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1527,8 +1527,8 @@
                       "id": 125,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1534:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1629,8 +1629,8 @@
                       "id": 135,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1644:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1747,8 +1747,8 @@
                       "id": 144,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1756:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1847,10 +1847,10 @@
                   "name": "ContestRoleManager",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3198,
+                  "referencedDeclaration": 3190,
                   "src": "2055:18:1",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3198_$",
+                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3190_$",
                     "typeString": "type(contract ContestRoleManager)"
                   }
                 },
@@ -2026,8 +2026,8 @@
                       "id": 176,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "2860:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2150,8 +2150,8 @@
                       "id": 185,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "2969:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2263,8 +2263,8 @@
                       "id": 193,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "3125:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2346,7 +2346,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4233,
+                        "referencedDeclaration": 4225,
                         "src": "3236:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -2463,8 +2463,8 @@
                       "id": 207,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "3257:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2729,8 +2729,8 @@
                             "id": 236,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [4236, 4237],
-                            "referencedDeclaration": 4237,
+                            "overloadedDeclarations": [4228, 4229],
+                            "referencedDeclaration": 4229,
                             "src": "3842:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2841,8 +2841,8 @@
                             "id": 243,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [4236, 4237],
-                            "referencedDeclaration": 4237,
+                            "overloadedDeclarations": [4228, 4229],
+                            "referencedDeclaration": 4229,
                             "src": "3905:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2953,8 +2953,8 @@
                             "id": 250,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [4236, 4237],
-                            "referencedDeclaration": 4237,
+                            "overloadedDeclarations": [4228, 4229],
+                            "referencedDeclaration": 4229,
                             "src": "3974:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3154,7 +3154,7 @@
                               "lValueRequested": false,
                               "memberName": "add",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 4112,
+                              "referencedDeclaration": 4104,
                               "src": "4094:14:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3527,7 +3527,7 @@
                   "name": "onlyJudge",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3230,
+                  "referencedDeclaration": 3222,
                   "src": "2836:9:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -3724,8 +3724,8 @@
                       "id": 302,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "4614:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -5569,7 +5569,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "4557:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -5859,7 +5859,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "6640:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -5933,7 +5933,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "6616:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -5982,7 +5982,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "6885:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -6056,7 +6056,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "6861:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -6105,7 +6105,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "7186:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -6179,7 +6179,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "7162:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -6228,7 +6228,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "7486:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -6302,7 +6302,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "7462:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -6409,7 +6409,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "7752:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -6516,7 +6516,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "8037:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -6906,7 +6906,7 @@
             "body": {
               "id": 605,
               "nodeType": "Block",
-              "src": "8884:421:1",
+              "src": "8884:427:1",
               "statements": [
                 {
                   "expression": {
@@ -6939,7 +6939,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "9042:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -6953,7 +6953,7 @@
                       "lValueRequested": false,
                       "memberName": "_addJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3116,
+                      "referencedDeclaration": 3108,
                       "src": "9042:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
@@ -6984,10 +6984,10 @@
                     {
                       "constant": false,
                       "id": 580,
-                      "name": "id",
+                      "name": "newId",
                       "nodeType": "VariableDeclaration",
                       "scope": 605,
-                      "src": "9076:10:1",
+                      "src": "9076:13:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -7018,7 +7018,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 80,
-                      "src": "9089:10:1",
+                      "src": "9092:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Judge_$77_storage_$dyn_storage",
                         "typeString": "struct ContestBracketRegistry.Judge storage ref[] storage ref"
@@ -7032,14 +7032,14 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "9089:17:1",
+                    "src": "9092:17:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "9076:30:1"
+                  "src": "9076:33:1"
                 },
                 {
                   "assignments": [585],
@@ -7050,7 +7050,7 @@
                       "name": "judge",
                       "nodeType": "VariableDeclaration",
                       "scope": 605,
-                      "src": "9116:18:1",
+                      "src": "9119:18:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -7063,7 +7063,7 @@
                         "name": "Judge",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 77,
-                        "src": "9116:5:1",
+                        "src": "9119:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_storage_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge"
@@ -7080,11 +7080,11 @@
                       {
                         "argumentTypes": null,
                         "id": 587,
-                        "name": "id",
+                        "name": "newId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 580,
-                        "src": "9143:2:1",
+                        "src": "9146:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -7097,7 +7097,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 570,
-                        "src": "9147:7:1",
+                        "src": "9153:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -7113,7 +7113,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "9156:4:1",
+                        "src": "9162:4:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -7131,7 +7131,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "9162:5:1",
+                        "src": "9168:5:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -7164,7 +7164,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 77,
-                      "src": "9137:5:1",
+                      "src": "9140:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_type$_t_struct$_Judge_$77_storage_ptr_$",
                         "typeString": "type(struct ContestBracketRegistry.Judge storage pointer)"
@@ -7178,14 +7178,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "9137:31:1",
+                    "src": "9140:34:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Judge_$77_memory",
                       "typeString": "struct ContestBracketRegistry.Judge memory"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "9116:52:1"
+                  "src": "9119:55:1"
                 },
                 {
                   "expression": {
@@ -7198,7 +7198,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 585,
-                        "src": "9194:5:1",
+                        "src": "9200:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_memory_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge memory"
@@ -7219,7 +7219,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 80,
-                        "src": "9178:10:1",
+                        "src": "9184:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_Judge_$77_storage_$dyn_storage",
                           "typeString": "struct ContestBracketRegistry.Judge storage ref[] storage ref"
@@ -7233,7 +7233,7 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "9178:15:1",
+                      "src": "9184:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_Judge_$77_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct ContestBracketRegistry.Judge storage ref) returns (uint256)"
@@ -7247,7 +7247,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "9178:22:1",
+                    "src": "9184:22:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -7255,7 +7255,7 @@
                   },
                   "id": 598,
                   "nodeType": "ExpressionStatement",
-                  "src": "9178:22:1"
+                  "src": "9184:22:1"
                 },
                 {
                   "expression": {
@@ -7274,7 +7274,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 84,
-                        "src": "9210:14:1",
+                        "src": "9216:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Judge_$77_storage_$",
                           "typeString": "mapping(address => struct ContestBracketRegistry.Judge storage ref)"
@@ -7288,7 +7288,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 570,
-                        "src": "9225:7:1",
+                        "src": "9231:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -7299,7 +7299,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "9210:23:1",
+                      "src": "9216:23:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Judge_$77_storage",
                         "typeString": "struct ContestBracketRegistry.Judge storage ref"
@@ -7314,13 +7314,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 585,
-                      "src": "9236:5:1",
+                      "src": "9242:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Judge_$77_memory_ptr",
                         "typeString": "struct ContestBracketRegistry.Judge memory"
                       }
                     },
-                    "src": "9210:31:1",
+                    "src": "9216:31:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Judge_$77_storage",
                       "typeString": "struct ContestBracketRegistry.Judge storage ref"
@@ -7328,7 +7328,7 @@
                   },
                   "id": 604,
                   "nodeType": "ExpressionStatement",
-                  "src": "9210:31:1"
+                  "src": "9216:31:1"
                 }
               ]
             },
@@ -7380,16 +7380,16 @@
               "src": "8884:0:1"
             },
             "scope": 648,
-            "src": "8839:466:1",
+            "src": "8839:472:1",
             "stateMutability": "nonpayable",
-            "superFunction": 3116,
+            "superFunction": 3108,
             "visibility": "internal"
           },
           {
             "body": {
               "id": 629,
               "nodeType": "Block",
-              "src": "9472:186:1",
+              "src": "9478:186:1",
               "statements": [
                 {
                   "expression": {
@@ -7402,7 +7402,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 608,
-                        "src": "9501:7:1",
+                        "src": "9507:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -7422,8 +7422,8 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
-                        "src": "9482:5:1",
+                        "referencedDeclaration": 4254,
+                        "src": "9488:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
                           "typeString": "contract super ContestBracketRegistry"
@@ -7436,8 +7436,8 @@
                       "lValueRequested": false,
                       "memberName": "_removeJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3141,
-                      "src": "9482:18:1",
+                      "referencedDeclaration": 3133,
+                      "src": "9488:18:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
@@ -7451,7 +7451,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "9482:27:1",
+                    "src": "9488:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -7459,7 +7459,7 @@
                   },
                   "id": 616,
                   "nodeType": "ExpressionStatement",
-                  "src": "9482:27:1"
+                  "src": "9488:27:1"
                 },
                 {
                   "assignments": [618],
@@ -7470,7 +7470,7 @@
                       "name": "judge",
                       "nodeType": "VariableDeclaration",
                       "scope": 629,
-                      "src": "9519:19:1",
+                      "src": "9525:19:1",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -7483,7 +7483,7 @@
                         "name": "Judge",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 77,
-                        "src": "9519:5:1",
+                        "src": "9525:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_storage_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge"
@@ -7503,7 +7503,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 84,
-                      "src": "9541:14:1",
+                      "src": "9547:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Judge_$77_storage_$",
                         "typeString": "mapping(address => struct ContestBracketRegistry.Judge storage ref)"
@@ -7517,7 +7517,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 608,
-                      "src": "9556:7:1",
+                      "src": "9562:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -7528,14 +7528,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "9541:23:1",
+                    "src": "9547:23:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Judge_$77_storage",
                       "typeString": "struct ContestBracketRegistry.Judge storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "9519:45:1"
+                  "src": "9525:45:1"
                 },
                 {
                   "expression": {
@@ -7554,7 +7554,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 618,
-                        "src": "9574:5:1",
+                        "src": "9580:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_storage_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge storage pointer"
@@ -7568,7 +7568,7 @@
                       "memberName": "active",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 74,
-                      "src": "9574:12:1",
+                      "src": "9580:12:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -7586,7 +7586,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "9589:5:1",
+                      "src": "9595:5:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -7594,7 +7594,7 @@
                       },
                       "value": "false"
                     },
-                    "src": "9574:20:1",
+                    "src": "9580:20:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -7602,7 +7602,7 @@
                   },
                   "id": 628,
                   "nodeType": "ExpressionStatement",
-                  "src": "9574:20:1"
+                  "src": "9580:20:1"
                 }
               ]
             },
@@ -7623,7 +7623,7 @@
                   "name": "account",
                   "nodeType": "VariableDeclaration",
                   "scope": 630,
-                  "src": "9446:15:1",
+                  "src": "9452:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -7634,7 +7634,7 @@
                     "id": 607,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9446:7:1",
+                    "src": "9452:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -7645,25 +7645,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "9445:17:1"
+              "src": "9451:17:1"
             },
             "returnParameters": {
               "id": 610,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9472:0:1"
+              "src": "9478:0:1"
             },
             "scope": 648,
-            "src": "9424:234:1",
+            "src": "9430:234:1",
             "stateMutability": "nonpayable",
-            "superFunction": 3141,
+            "superFunction": 3133,
             "visibility": "internal"
           },
           {
             "body": {
               "id": 646,
               "nodeType": "Block",
-              "src": "9904:51:1",
+              "src": "9910:51:1",
               "statements": [
                 {
                   "expression": {
@@ -7698,7 +7698,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 632,
-                            "src": "9922:5:1",
+                            "src": "9928:5:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -7716,7 +7716,7 @@
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "9931:1:1",
+                            "src": "9937:1:1",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_0_by_1",
@@ -7724,7 +7724,7 @@
                             },
                             "value": "0"
                           },
-                          "src": "9922:10:1",
+                          "src": "9928:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -7750,7 +7750,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 632,
-                            "src": "9936:5:1",
+                            "src": "9942:5:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -7768,7 +7768,7 @@
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "9945:2:1",
+                            "src": "9951:2:1",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_10_by_1",
@@ -7776,13 +7776,13 @@
                             },
                             "value": "10"
                           },
-                          "src": "9936:11:1",
+                          "src": "9942:11:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "9922:25:1",
+                        "src": "9928:25:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -7796,7 +7796,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "9921:27:1",
+                    "src": "9927:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -7805,7 +7805,7 @@
                   "functionReturnParameters": 636,
                   "id": 645,
                   "nodeType": "Return",
-                  "src": "9914:34:1"
+                  "src": "9920:34:1"
                 }
               ]
             },
@@ -7826,7 +7826,7 @@
                   "name": "grade",
                   "nodeType": "VariableDeclaration",
                   "scope": 647,
-                  "src": "9862:11:1",
+                  "src": "9868:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -7837,7 +7837,7 @@
                     "id": 631,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9862:5:1",
+                    "src": "9868:5:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -7847,7 +7847,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "9861:13:1"
+              "src": "9867:13:1"
             },
             "returnParameters": {
               "id": 636,
@@ -7859,7 +7859,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 647,
-                  "src": "9898:4:1",
+                  "src": "9904:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -7870,7 +7870,7 @@
                     "id": 634,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9898:4:1",
+                    "src": "9904:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -7880,20 +7880,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "9897:6:1"
+              "src": "9903:6:1"
             },
             "scope": 648,
-            "src": "9840:115:1",
+            "src": "9846:115:1",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
         "scope": 649,
-        "src": "264:9693:1"
+        "src": "264:9699:1"
       }
     ],
-    "src": "0:9958:1"
+    "src": "0:9964:1"
   },
   "legacyAST": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestBracketRegistry.sol",
@@ -7915,7 +7915,7 @@
         "id": 59,
         "nodeType": "ImportDirective",
         "scope": 649,
-        "sourceUnit": 4219,
+        "sourceUnit": 4211,
         "src": "25:59:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -7937,7 +7937,7 @@
         "id": 61,
         "nodeType": "ImportDirective",
         "scope": 649,
-        "sourceUnit": 3199,
+        "sourceUnit": 3191,
         "src": "122:41:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -7969,10 +7969,10 @@
               "id": 64,
               "name": "ContestRoleManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3198,
+              "referencedDeclaration": 3190,
               "src": "320:18:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ContestRoleManager_$3198",
+                "typeIdentifier": "t_contract$_ContestRoleManager_$3190",
                 "typeString": "contract ContestRoleManager"
               }
             },
@@ -7981,12 +7981,12 @@
             "src": "320:18:1"
           }
         ],
-        "contractDependencies": [1698, 3198, 3290, 3404],
+        "contractDependencies": [1698, 3190, 3282, 3396],
         "contractKind": "contract",
         "documentation": "@notice Controls the evaluation process by the judges and publishing of final results.",
         "fullyImplemented": true,
         "id": 648,
-        "linearizedBaseContracts": [648, 3198, 3290, 3404, 1698],
+        "linearizedBaseContracts": [648, 3190, 3282, 3396, 1698],
         "name": "ContestBracketRegistry",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -7997,10 +7997,10 @@
               "id": 66,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4218,
+              "referencedDeclaration": 4210,
               "src": "351:8:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4218",
+                "typeIdentifier": "t_contract$_SafeMath_$4210",
                 "typeString": "library SafeMath"
               }
             },
@@ -8646,8 +8646,8 @@
                       "id": 116,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1420:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -8764,8 +8764,8 @@
                       "id": 125,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1534:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -8866,8 +8866,8 @@
                       "id": 135,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1644:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -8984,8 +8984,8 @@
                       "id": 144,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "1756:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9084,10 +9084,10 @@
                   "name": "ContestRoleManager",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3198,
+                  "referencedDeclaration": 3190,
                   "src": "2055:18:1",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3198_$",
+                    "typeIdentifier": "t_type$_t_contract$_ContestRoleManager_$3190_$",
                     "typeString": "type(contract ContestRoleManager)"
                   }
                 },
@@ -9263,8 +9263,8 @@
                       "id": 176,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "2860:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9387,8 +9387,8 @@
                       "id": 185,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "2969:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9500,8 +9500,8 @@
                       "id": 193,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "3125:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9583,7 +9583,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4233,
+                        "referencedDeclaration": 4225,
                         "src": "3236:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -9700,8 +9700,8 @@
                       "id": 207,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "3257:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9966,8 +9966,8 @@
                             "id": 236,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [4236, 4237],
-                            "referencedDeclaration": 4237,
+                            "overloadedDeclarations": [4228, 4229],
+                            "referencedDeclaration": 4229,
                             "src": "3842:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -10078,8 +10078,8 @@
                             "id": 243,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [4236, 4237],
-                            "referencedDeclaration": 4237,
+                            "overloadedDeclarations": [4228, 4229],
+                            "referencedDeclaration": 4229,
                             "src": "3905:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -10190,8 +10190,8 @@
                             "id": 250,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [4236, 4237],
-                            "referencedDeclaration": 4237,
+                            "overloadedDeclarations": [4228, 4229],
+                            "referencedDeclaration": 4229,
                             "src": "3974:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -10391,7 +10391,7 @@
                               "lValueRequested": false,
                               "memberName": "add",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 4112,
+                              "referencedDeclaration": 4104,
                               "src": "4094:14:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -10764,7 +10764,7 @@
                   "name": "onlyJudge",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3230,
+                  "referencedDeclaration": 3222,
                   "src": "2836:9:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -10961,8 +10961,8 @@
                       "id": 302,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4236, 4237],
-                      "referencedDeclaration": 4237,
+                      "overloadedDeclarations": [4228, 4229],
+                      "referencedDeclaration": 4229,
                       "src": "4614:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -12806,7 +12806,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "4557:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -13096,7 +13096,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "6640:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -13170,7 +13170,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "6616:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -13219,7 +13219,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "6885:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -13293,7 +13293,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "6861:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -13342,7 +13342,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "7186:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -13416,7 +13416,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "7162:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -13465,7 +13465,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "7486:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -13539,7 +13539,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "7462:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -13646,7 +13646,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "7752:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -13753,7 +13753,7 @@
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "8037:13:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -14143,7 +14143,7 @@
             "body": {
               "id": 605,
               "nodeType": "Block",
-              "src": "8884:421:1",
+              "src": "8884:427:1",
               "statements": [
                 {
                   "expression": {
@@ -14176,7 +14176,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
+                        "referencedDeclaration": 4254,
                         "src": "9042:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
@@ -14190,7 +14190,7 @@
                       "lValueRequested": false,
                       "memberName": "_addJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3116,
+                      "referencedDeclaration": 3108,
                       "src": "9042:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
@@ -14221,10 +14221,10 @@
                     {
                       "constant": false,
                       "id": 580,
-                      "name": "id",
+                      "name": "newId",
                       "nodeType": "VariableDeclaration",
                       "scope": 605,
-                      "src": "9076:10:1",
+                      "src": "9076:13:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -14255,7 +14255,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 80,
-                      "src": "9089:10:1",
+                      "src": "9092:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_struct$_Judge_$77_storage_$dyn_storage",
                         "typeString": "struct ContestBracketRegistry.Judge storage ref[] storage ref"
@@ -14269,14 +14269,14 @@
                     "memberName": "length",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": null,
-                    "src": "9089:17:1",
+                    "src": "9092:17:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "9076:30:1"
+                  "src": "9076:33:1"
                 },
                 {
                   "assignments": [585],
@@ -14287,7 +14287,7 @@
                       "name": "judge",
                       "nodeType": "VariableDeclaration",
                       "scope": 605,
-                      "src": "9116:18:1",
+                      "src": "9119:18:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -14300,7 +14300,7 @@
                         "name": "Judge",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 77,
-                        "src": "9116:5:1",
+                        "src": "9119:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_storage_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge"
@@ -14317,11 +14317,11 @@
                       {
                         "argumentTypes": null,
                         "id": 587,
-                        "name": "id",
+                        "name": "newId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 580,
-                        "src": "9143:2:1",
+                        "src": "9146:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -14334,7 +14334,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 570,
-                        "src": "9147:7:1",
+                        "src": "9153:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -14350,7 +14350,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "9156:4:1",
+                        "src": "9162:4:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -14368,7 +14368,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "9162:5:1",
+                        "src": "9168:5:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -14401,7 +14401,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 77,
-                      "src": "9137:5:1",
+                      "src": "9140:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_type$_t_struct$_Judge_$77_storage_ptr_$",
                         "typeString": "type(struct ContestBracketRegistry.Judge storage pointer)"
@@ -14415,14 +14415,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "9137:31:1",
+                    "src": "9140:34:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Judge_$77_memory",
                       "typeString": "struct ContestBracketRegistry.Judge memory"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "9116:52:1"
+                  "src": "9119:55:1"
                 },
                 {
                   "expression": {
@@ -14435,7 +14435,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 585,
-                        "src": "9194:5:1",
+                        "src": "9200:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_memory_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge memory"
@@ -14456,7 +14456,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 80,
-                        "src": "9178:10:1",
+                        "src": "9184:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_Judge_$77_storage_$dyn_storage",
                           "typeString": "struct ContestBracketRegistry.Judge storage ref[] storage ref"
@@ -14470,7 +14470,7 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "9178:15:1",
+                      "src": "9184:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_Judge_$77_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct ContestBracketRegistry.Judge storage ref) returns (uint256)"
@@ -14484,7 +14484,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "9178:22:1",
+                    "src": "9184:22:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -14492,7 +14492,7 @@
                   },
                   "id": 598,
                   "nodeType": "ExpressionStatement",
-                  "src": "9178:22:1"
+                  "src": "9184:22:1"
                 },
                 {
                   "expression": {
@@ -14511,7 +14511,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 84,
-                        "src": "9210:14:1",
+                        "src": "9216:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Judge_$77_storage_$",
                           "typeString": "mapping(address => struct ContestBracketRegistry.Judge storage ref)"
@@ -14525,7 +14525,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 570,
-                        "src": "9225:7:1",
+                        "src": "9231:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -14536,7 +14536,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "9210:23:1",
+                      "src": "9216:23:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Judge_$77_storage",
                         "typeString": "struct ContestBracketRegistry.Judge storage ref"
@@ -14551,13 +14551,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 585,
-                      "src": "9236:5:1",
+                      "src": "9242:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Judge_$77_memory_ptr",
                         "typeString": "struct ContestBracketRegistry.Judge memory"
                       }
                     },
-                    "src": "9210:31:1",
+                    "src": "9216:31:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Judge_$77_storage",
                       "typeString": "struct ContestBracketRegistry.Judge storage ref"
@@ -14565,7 +14565,7 @@
                   },
                   "id": 604,
                   "nodeType": "ExpressionStatement",
-                  "src": "9210:31:1"
+                  "src": "9216:31:1"
                 }
               ]
             },
@@ -14617,16 +14617,16 @@
               "src": "8884:0:1"
             },
             "scope": 648,
-            "src": "8839:466:1",
+            "src": "8839:472:1",
             "stateMutability": "nonpayable",
-            "superFunction": 3116,
+            "superFunction": 3108,
             "visibility": "internal"
           },
           {
             "body": {
               "id": 629,
               "nodeType": "Block",
-              "src": "9472:186:1",
+              "src": "9478:186:1",
               "statements": [
                 {
                   "expression": {
@@ -14639,7 +14639,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 608,
-                        "src": "9501:7:1",
+                        "src": "9507:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -14659,8 +14659,8 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4262,
-                        "src": "9482:5:1",
+                        "referencedDeclaration": 4254,
+                        "src": "9488:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ContestBracketRegistry_$648",
                           "typeString": "contract super ContestBracketRegistry"
@@ -14673,8 +14673,8 @@
                       "lValueRequested": false,
                       "memberName": "_removeJudge",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3141,
-                      "src": "9482:18:1",
+                      "referencedDeclaration": 3133,
+                      "src": "9488:18:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
@@ -14688,7 +14688,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "9482:27:1",
+                    "src": "9488:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -14696,7 +14696,7 @@
                   },
                   "id": 616,
                   "nodeType": "ExpressionStatement",
-                  "src": "9482:27:1"
+                  "src": "9488:27:1"
                 },
                 {
                   "assignments": [618],
@@ -14707,7 +14707,7 @@
                       "name": "judge",
                       "nodeType": "VariableDeclaration",
                       "scope": 629,
-                      "src": "9519:19:1",
+                      "src": "9525:19:1",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -14720,7 +14720,7 @@
                         "name": "Judge",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 77,
-                        "src": "9519:5:1",
+                        "src": "9525:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_storage_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge"
@@ -14740,7 +14740,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 84,
-                      "src": "9541:14:1",
+                      "src": "9547:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Judge_$77_storage_$",
                         "typeString": "mapping(address => struct ContestBracketRegistry.Judge storage ref)"
@@ -14754,7 +14754,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 608,
-                      "src": "9556:7:1",
+                      "src": "9562:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -14765,14 +14765,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "9541:23:1",
+                    "src": "9547:23:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Judge_$77_storage",
                       "typeString": "struct ContestBracketRegistry.Judge storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "9519:45:1"
+                  "src": "9525:45:1"
                 },
                 {
                   "expression": {
@@ -14791,7 +14791,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 618,
-                        "src": "9574:5:1",
+                        "src": "9580:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Judge_$77_storage_ptr",
                           "typeString": "struct ContestBracketRegistry.Judge storage pointer"
@@ -14805,7 +14805,7 @@
                       "memberName": "active",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 74,
-                      "src": "9574:12:1",
+                      "src": "9580:12:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -14823,7 +14823,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "9589:5:1",
+                      "src": "9595:5:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -14831,7 +14831,7 @@
                       },
                       "value": "false"
                     },
-                    "src": "9574:20:1",
+                    "src": "9580:20:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -14839,7 +14839,7 @@
                   },
                   "id": 628,
                   "nodeType": "ExpressionStatement",
-                  "src": "9574:20:1"
+                  "src": "9580:20:1"
                 }
               ]
             },
@@ -14860,7 +14860,7 @@
                   "name": "account",
                   "nodeType": "VariableDeclaration",
                   "scope": 630,
-                  "src": "9446:15:1",
+                  "src": "9452:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -14871,7 +14871,7 @@
                     "id": 607,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9446:7:1",
+                    "src": "9452:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -14882,25 +14882,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "9445:17:1"
+              "src": "9451:17:1"
             },
             "returnParameters": {
               "id": 610,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9472:0:1"
+              "src": "9478:0:1"
             },
             "scope": 648,
-            "src": "9424:234:1",
+            "src": "9430:234:1",
             "stateMutability": "nonpayable",
-            "superFunction": 3141,
+            "superFunction": 3133,
             "visibility": "internal"
           },
           {
             "body": {
               "id": 646,
               "nodeType": "Block",
-              "src": "9904:51:1",
+              "src": "9910:51:1",
               "statements": [
                 {
                   "expression": {
@@ -14935,7 +14935,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 632,
-                            "src": "9922:5:1",
+                            "src": "9928:5:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -14953,7 +14953,7 @@
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "9931:1:1",
+                            "src": "9937:1:1",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_0_by_1",
@@ -14961,7 +14961,7 @@
                             },
                             "value": "0"
                           },
-                          "src": "9922:10:1",
+                          "src": "9928:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -14987,7 +14987,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 632,
-                            "src": "9936:5:1",
+                            "src": "9942:5:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint8",
                               "typeString": "uint8"
@@ -15005,7 +15005,7 @@
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "9945:2:1",
+                            "src": "9951:2:1",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_10_by_1",
@@ -15013,13 +15013,13 @@
                             },
                             "value": "10"
                           },
-                          "src": "9936:11:1",
+                          "src": "9942:11:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "9922:25:1",
+                        "src": "9928:25:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -15033,7 +15033,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "9921:27:1",
+                    "src": "9927:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -15042,7 +15042,7 @@
                   "functionReturnParameters": 636,
                   "id": 645,
                   "nodeType": "Return",
-                  "src": "9914:34:1"
+                  "src": "9920:34:1"
                 }
               ]
             },
@@ -15063,7 +15063,7 @@
                   "name": "grade",
                   "nodeType": "VariableDeclaration",
                   "scope": 647,
-                  "src": "9862:11:1",
+                  "src": "9868:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -15074,7 +15074,7 @@
                     "id": 631,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9862:5:1",
+                    "src": "9868:5:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -15084,7 +15084,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "9861:13:1"
+              "src": "9867:13:1"
             },
             "returnParameters": {
               "id": 636,
@@ -15096,7 +15096,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 647,
-                  "src": "9898:4:1",
+                  "src": "9904:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -15107,7 +15107,7 @@
                     "id": 634,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9898:4:1",
+                    "src": "9904:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -15117,20 +15117,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "9897:6:1"
+              "src": "9903:6:1"
             },
             "scope": 648,
-            "src": "9840:115:1",
+            "src": "9846:115:1",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
         "scope": 649,
-        "src": "264:9693:1"
+        "src": "264:9699:1"
       }
     ],
-    "src": "0:9958:1"
+    "src": "0:9964:1"
   },
   "compiler": {
     "name": "solc",
@@ -15138,7 +15138,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T17:11:29.825Z",
+  "updatedAt": "2019-07-31T21:53:16.665Z",
   "devdoc": {
     "methods": {
       "approveTeam(uint256)": {

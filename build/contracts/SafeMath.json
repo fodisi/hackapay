@@ -3434,14 +3434,14 @@
     "3": {
       "events": {},
       "links": {},
-      "address": "0x0C722F09D716508341B849a1bbca70d09A3cE35D",
-      "transactionHash": "0x7ade848ec9dd995f983c938584d618a94eedd20fa2001bcdfc84267f51eb08ad"
+      "address": "0xB01d9901BB86a3Fcc49E3db39fbe414F8775C8Bb",
+      "transactionHash": "0x2dbe206d5165644b6623f980a4e4a4cec6ecef055bf3ff253556620181919b63"
     },
     "42": {
       "events": {},
       "links": {},
-      "address": "0x9f545806912d09367600d079228a7c23e576b9C8",
-      "transactionHash": "0xb91c980f6fbc69f99def066a97f8fba815788eb87270469284045fe5e9a0e8ce"
+      "address": "0xB8E8120e5616Fe345b439ea29922b924DF0B8A13",
+      "transactionHash": "0xa826915be0b2f449bc213d451816f57f93f24ab268e810c8c0b301d92a825577"
     },
     "5777": {
       "events": {},
@@ -3451,7 +3451,7 @@
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T18:26:59.582Z",
+  "updatedAt": "2019-08-01T01:46:08.933Z",
   "devdoc": {
     "details": "Wrappers over Solidity's arithmetic operations with added overflow checks. * Arithmetic operations in Solidity wrap on overflow. This can easily result in bugs, because programmers usually assume that an overflow raises an error, which is the standard behavior in high level programming languages. `SafeMath` restores this intuition by reverting the transaction when an operation overflows. * Using this library instead of the unchecked operations eliminates an entire class of bugs, so it's recommended to use it always.",
     "methods": {}

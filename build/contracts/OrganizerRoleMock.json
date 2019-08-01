@@ -107,13 +107,13 @@
   "ast": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
     "exportedSymbols": {
-      "OrganizerRoleMock": [2813]
+      "OrganizerRoleMock": [2805]
     },
-    "id": 2814,
+    "id": 2806,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2773,
+        "id": 2765,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "1282:23:16"
@@ -121,10 +121,10 @@
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/OrganizerRole.sol",
         "file": "../roles/OrganizerRole.sol",
-        "id": 2774,
+        "id": 2766,
         "nodeType": "ImportDirective",
-        "scope": 2814,
-        "sourceUnit": 3405,
+        "scope": 2806,
+        "sourceUnit": 3397,
         "src": "1307:36:16",
         "symbolAliases": [],
         "unitAlias": ""
@@ -135,39 +135,39 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2775,
+              "id": 2767,
               "name": "OrganizerRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3404,
+              "referencedDeclaration": 3396,
               "src": "1375:13:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_OrganizerRole_$3404",
+                "typeIdentifier": "t_contract$_OrganizerRole_$3396",
                 "typeString": "contract OrganizerRole"
               }
             },
-            "id": 2776,
+            "id": 2768,
             "nodeType": "InheritanceSpecifier",
             "src": "1375:13:16"
           }
         ],
-        "contractDependencies": [3404],
+        "contractDependencies": [3396],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2813,
-        "linearizedBaseContracts": [2813, 3404],
+        "id": 2805,
+        "linearizedBaseContracts": [2805, 3396],
         "name": "OrganizerRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2783,
+              "id": 2775,
               "nodeType": "Block",
               "src": "1442:2:16",
               "statements": []
             },
             "documentation": null,
-            "id": 2784,
+            "id": 2776,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -177,18 +177,18 @@
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 2779,
+                      "id": 2771,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4233,
+                      "referencedDeclaration": 4225,
                       "src": "1430:3:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2780,
+                    "id": 2772,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -203,17 +203,17 @@
                     }
                   }
                 ],
-                "id": 2781,
+                "id": 2773,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2778,
+                  "id": 2770,
                   "name": "OrganizerRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3404,
+                  "referencedDeclaration": 3396,
                   "src": "1416:13:16",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3404_$",
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3396_$",
                     "typeString": "type(contract OrganizerRole)"
                   }
                 },
@@ -224,18 +224,18 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2777,
+              "id": 2769,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1406:2:16"
             },
             "returnParameters": {
-              "id": 2782,
+              "id": 2774,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1442:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1395:49:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -243,7 +243,7 @@
           },
           {
             "body": {
-              "id": 2793,
+              "id": 2785,
               "nodeType": "Block",
               "src": "1499:42:16",
               "statements": [
@@ -253,11 +253,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2790,
+                        "id": 2782,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2786,
+                        "referencedDeclaration": 2778,
                         "src": "1526:7:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -272,18 +272,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2789,
+                      "id": 2781,
                       "name": "_removeOrganizer",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [2812],
-                      "referencedDeclaration": 2812,
+                      "overloadedDeclarations": [2804],
+                      "referencedDeclaration": 2804,
                       "src": "1509:16:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2791,
+                    "id": 2783,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -297,29 +297,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2792,
+                  "id": 2784,
                   "nodeType": "ExpressionStatement",
                   "src": "1509:25:16"
                 }
               ]
             },
             "documentation": null,
-            "id": 2794,
+            "id": 2786,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeOrganizer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2787,
+              "id": 2779,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2786,
+                  "id": 2778,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2794,
+                  "scope": 2786,
                   "src": "1475:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -328,7 +328,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2785,
+                    "id": 2777,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1475:7:16",
@@ -345,12 +345,12 @@
               "src": "1474:17:16"
             },
             "returnParameters": {
-              "id": 2788,
+              "id": 2780,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1499:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1450:91:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -358,26 +358,26 @@
           },
           {
             "body": {
-              "id": 2799,
+              "id": 2791,
               "nodeType": "Block",
               "src": "1602:64:16",
               "statements": []
             },
             "documentation": null,
-            "id": 2800,
+            "id": 2792,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2797,
+                "id": 2789,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2796,
+                  "id": 2788,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "1588:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -391,18 +391,18 @@
             "name": "onlyOrganizerMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2795,
+              "id": 2787,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1573:2:16"
             },
             "returnParameters": {
-              "id": 2798,
+              "id": 2790,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1602:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1547:119:16",
             "stateMutability": "view",
             "superFunction": null,
@@ -410,7 +410,7 @@
           },
           {
             "body": {
-              "id": 2811,
+              "id": 2803,
               "nodeType": "Block",
               "src": "1800:48:16",
               "statements": [
@@ -420,11 +420,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2808,
+                        "id": 2800,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2802,
+                        "referencedDeclaration": 2794,
                         "src": "1833:7:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -441,32 +441,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2805,
+                        "id": 2797,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4296,
+                        "referencedDeclaration": 4288,
                         "src": "1810:5:16",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2813",
+                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2805",
                           "typeString": "contract super OrganizerRoleMock"
                         }
                       },
-                      "id": 2807,
+                      "id": 2799,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeOrganizer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3403,
+                      "referencedDeclaration": 3395,
                       "src": "1810:22:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2809,
+                    "id": 2801,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -480,29 +480,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2810,
+                  "id": 2802,
                   "nodeType": "ExpressionStatement",
                   "src": "1810:31:16"
                 }
               ]
             },
             "documentation": null,
-            "id": 2812,
+            "id": 2804,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeOrganizer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2803,
+              "id": 2795,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2802,
+                  "id": 2794,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2812,
+                  "scope": 2804,
                   "src": "1774:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -511,7 +511,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2801,
+                    "id": 2793,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1774:7:16",
@@ -528,19 +528,19 @@
               "src": "1773:17:16"
             },
             "returnParameters": {
-              "id": 2804,
+              "id": 2796,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1800:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1748:100:16",
             "stateMutability": "nonpayable",
-            "superFunction": 3403,
+            "superFunction": 3395,
             "visibility": "internal"
           }
         ],
-        "scope": 2814,
+        "scope": 2806,
         "src": "1345:505:16"
       }
     ],
@@ -549,13 +549,13 @@
   "legacyAST": {
     "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
     "exportedSymbols": {
-      "OrganizerRoleMock": [2813]
+      "OrganizerRoleMock": [2805]
     },
-    "id": 2814,
+    "id": 2806,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2773,
+        "id": 2765,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "1282:23:16"
@@ -563,10 +563,10 @@
       {
         "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/roles/OrganizerRole.sol",
         "file": "../roles/OrganizerRole.sol",
-        "id": 2774,
+        "id": 2766,
         "nodeType": "ImportDirective",
-        "scope": 2814,
-        "sourceUnit": 3405,
+        "scope": 2806,
+        "sourceUnit": 3397,
         "src": "1307:36:16",
         "symbolAliases": [],
         "unitAlias": ""
@@ -577,39 +577,39 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2775,
+              "id": 2767,
               "name": "OrganizerRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3404,
+              "referencedDeclaration": 3396,
               "src": "1375:13:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_OrganizerRole_$3404",
+                "typeIdentifier": "t_contract$_OrganizerRole_$3396",
                 "typeString": "contract OrganizerRole"
               }
             },
-            "id": 2776,
+            "id": 2768,
             "nodeType": "InheritanceSpecifier",
             "src": "1375:13:16"
           }
         ],
-        "contractDependencies": [3404],
+        "contractDependencies": [3396],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2813,
-        "linearizedBaseContracts": [2813, 3404],
+        "id": 2805,
+        "linearizedBaseContracts": [2805, 3396],
         "name": "OrganizerRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2783,
+              "id": 2775,
               "nodeType": "Block",
               "src": "1442:2:16",
               "statements": []
             },
             "documentation": null,
-            "id": 2784,
+            "id": 2776,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -619,18 +619,18 @@
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 2779,
+                      "id": 2771,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4233,
+                      "referencedDeclaration": 4225,
                       "src": "1430:3:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2780,
+                    "id": 2772,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -645,17 +645,17 @@
                     }
                   }
                 ],
-                "id": 2781,
+                "id": 2773,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2778,
+                  "id": 2770,
                   "name": "OrganizerRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3404,
+                  "referencedDeclaration": 3396,
                   "src": "1416:13:16",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3404_$",
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3396_$",
                     "typeString": "type(contract OrganizerRole)"
                   }
                 },
@@ -666,18 +666,18 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2777,
+              "id": 2769,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1406:2:16"
             },
             "returnParameters": {
-              "id": 2782,
+              "id": 2774,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1442:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1395:49:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -685,7 +685,7 @@
           },
           {
             "body": {
-              "id": 2793,
+              "id": 2785,
               "nodeType": "Block",
               "src": "1499:42:16",
               "statements": [
@@ -695,11 +695,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2790,
+                        "id": 2782,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2786,
+                        "referencedDeclaration": 2778,
                         "src": "1526:7:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -714,18 +714,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2789,
+                      "id": 2781,
                       "name": "_removeOrganizer",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [2812],
-                      "referencedDeclaration": 2812,
+                      "overloadedDeclarations": [2804],
+                      "referencedDeclaration": 2804,
                       "src": "1509:16:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2791,
+                    "id": 2783,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -739,29 +739,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2792,
+                  "id": 2784,
                   "nodeType": "ExpressionStatement",
                   "src": "1509:25:16"
                 }
               ]
             },
             "documentation": null,
-            "id": 2794,
+            "id": 2786,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeOrganizer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2787,
+              "id": 2779,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2786,
+                  "id": 2778,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2794,
+                  "scope": 2786,
                   "src": "1475:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -770,7 +770,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2785,
+                    "id": 2777,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1475:7:16",
@@ -787,12 +787,12 @@
               "src": "1474:17:16"
             },
             "returnParameters": {
-              "id": 2788,
+              "id": 2780,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1499:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1450:91:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -800,26 +800,26 @@
           },
           {
             "body": {
-              "id": 2799,
+              "id": 2791,
               "nodeType": "Block",
               "src": "1602:64:16",
               "statements": []
             },
             "documentation": null,
-            "id": 2800,
+            "id": 2792,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": null,
-                "id": 2797,
+                "id": 2789,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2796,
+                  "id": 2788,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3337,
+                  "referencedDeclaration": 3329,
                   "src": "1588:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -833,18 +833,18 @@
             "name": "onlyOrganizerMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2795,
+              "id": 2787,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1573:2:16"
             },
             "returnParameters": {
-              "id": 2798,
+              "id": 2790,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1602:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1547:119:16",
             "stateMutability": "view",
             "superFunction": null,
@@ -852,7 +852,7 @@
           },
           {
             "body": {
-              "id": 2811,
+              "id": 2803,
               "nodeType": "Block",
               "src": "1800:48:16",
               "statements": [
@@ -862,11 +862,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 2808,
+                        "id": 2800,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2802,
+                        "referencedDeclaration": 2794,
                         "src": "1833:7:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -883,32 +883,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 2805,
+                        "id": 2797,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4296,
+                        "referencedDeclaration": 4288,
                         "src": "1810:5:16",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2813",
+                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2805",
                           "typeString": "contract super OrganizerRoleMock"
                         }
                       },
-                      "id": 2807,
+                      "id": 2799,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeOrganizer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3403,
+                      "referencedDeclaration": 3395,
                       "src": "1810:22:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2809,
+                    "id": 2801,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -922,29 +922,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2810,
+                  "id": 2802,
                   "nodeType": "ExpressionStatement",
                   "src": "1810:31:16"
                 }
               ]
             },
             "documentation": null,
-            "id": 2812,
+            "id": 2804,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeOrganizer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2803,
+              "id": 2795,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2802,
+                  "id": 2794,
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2812,
+                  "scope": 2804,
                   "src": "1774:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -953,7 +953,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2801,
+                    "id": 2793,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1774:7:16",
@@ -970,19 +970,19 @@
               "src": "1773:17:16"
             },
             "returnParameters": {
-              "id": 2804,
+              "id": 2796,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1800:0:16"
             },
-            "scope": 2813,
+            "scope": 2805,
             "src": "1748:100:16",
             "stateMutability": "nonpayable",
-            "superFunction": 3403,
+            "superFunction": 3395,
             "visibility": "internal"
           }
         ],
-        "scope": 2814,
+        "scope": 2806,
         "src": "1345:505:16"
       }
     ],
@@ -994,7 +994,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T17:11:29.877Z",
+  "updatedAt": "2019-07-31T21:53:16.849Z",
   "devdoc": {
     "methods": {}
   },
