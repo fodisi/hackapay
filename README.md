@@ -74,11 +74,12 @@ This project was developed with the following environment:
 
 `git clone https://github.com/fodisi/hackapay.git`
 
-#### 3 - Move to the project folder and install project dependencies
+#### 3 - Move to the project folder, install dependencies and setup config files
 
 ```
 cd hackapay
 npm install
+mv credentials-sample.js credentials.js // Required, otherwise truffle compile will fail
 ```
 
 ## Running the project locally
@@ -103,7 +104,7 @@ Start web dev-server: `npm run start`
 
 This project uses [Infura]() infrastructure to deploy the contracts to the test net. You'd need to register with Infura and create a project id. Once you have the credentials, you need to follow these steps:
 
-- Rename the credentials-sample.js to credentials.js: `mv credentials-sample.js credentials.js`
+- Open file credentials.js
 - Insert your Infura ProjectId and mnemonic in the file for the desired network
 - Once you have the credentials file properly setup, run the following commands to deploy the contracts to ropsten and rovan:
   - Deploy to ropsten: `npm run deploy:ropsten`

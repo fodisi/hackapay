@@ -41,6 +41,7 @@ However, this is a low level warning, and at this point of development, does not
 
 **[MythX] Security Analysis Results**
 
+```
 hackapay/contracts/roles/AttendeeRole.sol
 26:0 warning A floating pragma is set SWC-103
 
@@ -120,6 +121,7 @@ hackapay/contracts/mocks/PausableMock.sol
 1:0 warning A floating pragma is set SWC-103
 
 ✖ 26 problems (0 errors, 26 warnings)
+```
 
 [open zeppelin]: https://github.com/OpenZeppelin/openzeppelin-contracts
 [known-attacks]: https://consensys.github.io/smart-contract-best-practices/known-attacks/
