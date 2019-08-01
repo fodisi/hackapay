@@ -66,7 +66,7 @@ This project was developed with the following environment:
   _Note related to recent truffle update:
   A few days ago truffle updated to 5.0.29, and one of the project dependencies for unit tests (`openzeppelin-test-helpers`) presented some issues. The dependency was updated and this issue is supposed to be fixed now, but if when trying to run it locally you find an error related to the web3 version, make sure you install truffle 5.0.28, using the commands below:_
 
-  ```
+  ```.sh
   npm uninstall -g truffle
   npm install -g truffle@5.0.28
   ```
@@ -78,11 +78,13 @@ This project was developed with the following environment:
 
 #### 2 - Clone the repo to your desired folder
 
-`git clone https://github.com/fodisi/hackapay.git`
+```.sh
+git clone https://github.com/fodisi/hackapay.git
+```
 
 #### 3 - Move to the project folder, install dependencies and setup config files
 
-```
+```.sh
 cd hackapay
 npm install
 mv credentials-sample.js credentials.js // Required, otherwise truffle compile will fail
@@ -127,7 +129,7 @@ This project uses [truffle-security](https://github.com/ConsenSys/truffle-securi
 To run a full analysis, you'll need to create an account with [MythX](https://mythx.io/), and use the ETH Address and Password provided.
 Once you have the ETH Address and password from MythX, open the file [mythx-config-sample.sh](mythx-config-sample.sh). Insert the ETH Address and password provided, and run execute the exports (with the appropriate ETH address and password) on you command line
 
-```sh
+```.sh
 export MYTHX_ETH_ADDRESS=YOUR_MYTHX_ETH_ADDRESS
 export MYTHX_PASSWORD='MYTHX_PASSWORD'
 ```
