@@ -3855,12 +3855,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x327895b4E2EeE9464395A4EBDF4515FF2dD17bfb",
-      "transactionHash": "0xcf22aa2270d78477ba2b3eca11d9ec7c72502bb2c400224693464315efb00662"
+      "address": "0x91EAb1d5fE370eb41AD446F66d7ca218CeAdF477",
+      "transactionHash": "0x6af39f06409e4d4bc07f82aaeab9cd2068fd26d6b17c1bbdd854e00ee66d9277"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-08-01T01:46:08.945Z",
+  "updatedAt": "2019-08-01T04:22:24.107Z",
   "devdoc": {
     "details": "TODO: use struct to keep record of hackathon names, and allow implementing upgradability.",
     "methods": {
