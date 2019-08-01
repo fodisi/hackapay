@@ -62,11 +62,11 @@ const Header = (props) => {
           </Text>
           <Text>The contract factories are deployed on the following testnets:</Text>
           <Text italic>ROPSTEN</Text>
-          <Text italic> HackathonFactory: 0x9f545806912d09367600d079228a7c23e576b9C8 </Text>
-          <Text italic> ContestTeamFactory: 0x3040ab05143DD3dF6Dd7384351613AA58BE46e4d </Text>
+          <Text italic> HackathonFactory: 0xB8E8120e5616Fe345b439ea29922b924DF0B8A13 </Text>
+          <Text italic> ContestTeamFactory: 0x8E7A8de5b0c883dCDe4AA260A91d7717BFfec5c4 </Text>
           <Text italic>KOVAN</Text>
-          <Text italic> HackathonFactory: 0x3040ab05143DD3dF6Dd7384351613AA58BE46e4d </Text>
-          <Text italic> ContestTeamFactory: 0x47c679738E95dd013C4D89BE4bDC54c94db8D6b1 </Text>
+          <Text italic> HackathonFactory: 0x8E7A8de5b0c883dCDe4AA260A91d7717BFfec5c4 </Text>
+          <Text italic> ContestTeamFactory: 0x9B92cF4D39A9c9879aE57Ec4604dc80d895C8777 </Text>
         </div>
       </details>
 
