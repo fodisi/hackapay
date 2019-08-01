@@ -41,86 +41,85 @@ However, this is a low level warning, and at this point of development, does not
 
 **[MythX] Security Analysis Results**
 
-`hackapay/contracts/roles/AttendeeRole.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 26 | 0 | warning | A floating pragma is set. | SWC-103 |
-openzeppelin-solidity/contracts/access/Roles.sol`| Line | Column | Type | Message | Rule ID | |----------|----------|----------|--------------------------------------------------------|----------------------| | 1 | 0 | warning | A floating pragma is set. | SWC-103 |`hackapay/contracts/mocks/AttendeeRoleMock.sol`| Line | Column | Type | Message | Rule ID | |----------|----------|----------|--------------------------------------------------------|----------------------| | 26 | 0 | warning | A floating pragma is set. | SWC-103 |`hackapay/contracts/core/ContestBracketRegistry.sol`| Line | Column | Type | Message | Rule ID | |----------|----------|----------|--------------------------------------------------------|----------------------| | 1 | 0 | warning | A floating pragma is set. | SWC-103 |`hackapay/contracts/core/ContestTeamRegistry.sol`| Line | Column | Type | Message | Rule ID | |----------|----------|----------|--------------------------------------------------------|----------------------| | 1 | 0 | warning | A floating pragma is set. | SWC-103 |`hackapay/contracts/roles/ContestRoleManager.sol`| Line | Column | Type | Message | Rule ID | |----------|----------|----------|--------------------------------------------------------|----------------------| | 1 | 0 | warning | A floating pragma is set. | SWC-103 |`hackapay/contracts/roles/JudgeRole.sol`| Line | Column | Type | Message | Rule ID | |----------|----------|----------|--------------------------------------------------------|----------------------| | 26 | 0 | warning | A floating pragma is set. | SWC-103 |`hackapay/contracts/roles/OrganizerRole.sol`| Line | Column | Type | Message | Rule ID | |----------|----------|----------|--------------------------------------------------------|----------------------| | 26 | 0 | warning | A floating pragma is set. | SWC-103 | openzeppelin-solidity/contracts/math/SafeMath.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/ContestBracketRegistryMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/ContestRoleManagerMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/core/ContestTeam.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/lifecycle/Pausable.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/payment/IPayable.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/payment/Payable.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/factory/ContestTeamFactory.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/ContestTeamMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/ContestTeamRegistryMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/storage/EternalStorage.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 25 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/core/Hackathon.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/factory/HackathonFactory.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/HackathonMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/core/IContest.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/JudgeRoleMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 26 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/OrganizerRoleMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 26 | 0 | warning | A floating pragma is set. | SWC-103 |
-`hackapay/contracts/mocks/PausableMock.sol`
-| Line | Column | Type | Message | Rule ID |
-|----------|----------|----------|--------------------------------------------------------|----------------------|
-| 1 | 0 | warning | A floating pragma is set. | SWC-103 |
+hackapay/contracts/roles/AttendeeRole.sol
+26:0 warning A floating pragma is set SWC-103
 
-| 0 Errors    |
-| ----------- |
-| 26 Warnings |
+openzeppelin-solidity/contracts/access/Roles.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/AttendeeRoleMock.sol
+26:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/core/ContestBracketRegistry.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/core/ContestTeamRegistry.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/roles/ContestRoleManager.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/roles/JudgeRole.sol
+26:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/roles/OrganizerRole.sol
+26:0 warning A floating pragma is set SWC-103
+
+openzeppelin-solidity/contracts/math/SafeMath.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/ContestBracketRegistryMock.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/ContestRoleManagerMock.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/core/ContestTeam.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/lifecycle/Pausable.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/payment/IPayable.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/payment/Payable.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/factory/ContestTeamFactory.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/ContestTeamMock.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/ContestTeamRegistryMock.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/storage/EternalStorage.sol
+25:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/core/Hackathon.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/factory/HackathonFactory.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/HackathonMock.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/core/IContest.sol
+1:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/JudgeRoleMock.sol
+26:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/OrganizerRoleMock.sol
+26:0 warning A floating pragma is set SWC-103
+
+hackapay/contracts/mocks/PausableMock.sol
+1:0 warning A floating pragma is set SWC-103
+
+✖ 26 problems (0 errors, 26 warnings)
 
 [open zeppelin]: https://github.com/OpenZeppelin/openzeppelin-contracts
 [known-attacks]: https://consensys.github.io/smart-contract-best-practices/known-attacks/
