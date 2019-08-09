@@ -106,6 +106,8 @@ You'll need to run the following command to start you local dev-server. Once the
 
 Start web dev-server: `npm run start`
 
+When you access the application, make sure you're metamask network is either `localhost`, `covan` or `rosten`.
+
 #### Additional commands:
 
 ##### Deploying contracts to Testnets (ropsten and kovan)
