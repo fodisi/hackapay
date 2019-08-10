@@ -34,8 +34,8 @@ The current UI, only interacts with the contract Factories, allowing the creatio
 - [Deployed contract addresses on testnets (ropsten and lovan)](deployed_addresses.txt)
 - [Strategies implemented for avoiding common attacks](avoiding_common_attacks.md)
 - [Design Pattern Decisions](design_pattern_decisions.md)
-- UI source code is available at [src folder](/src)
-- Smart contracts source code is available at [contracts folder](/contracts)
+- [UI source code](/src)
+- [Smart contracts source code](/contracts)
 
 ### Contract Diagram
 
