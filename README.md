@@ -96,13 +96,13 @@ mv credentials-sample.js credentials.js // Required, otherwise truffle compile w
 
 #### Smart Contracts
 
-You can use the following commands to compile, migrate and test the smart contracts:
+You can use commands below to compile, migrate and test the smart contracts. Make sure you're running `GanacheGui` or `ganache-cli` on your localhost (127.0.0.1) at Port Number 8545 before running these commands.
 
 - compile: `truffle compile`
-- migrate: `truffle migrate` (migrate to ganache instance on localhost - don't forget to configure ganache to use Port Number 8545)
+- migrate: `truffle migrate`
 - run unit tests: `truffle test`
 
-*During development, it was used GanacheGui. You shouldn't have any problem using ganache-cli, but in case some of the steps above fail, please download and install GanacheCli, configure its port to 8545, and run the commands again.*
+*During development, it was used GanacheGui. You shouldn't have any problem using ganache-cli, but in case some of the steps above fail, please download and install GanacheCli, configure it to listen on port number 8545, and run the commands again.*
 
 #### Running Web dev-server to serve the Front-End
 
