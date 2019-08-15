@@ -31,7 +31,7 @@ The current UI, only interacts with the contract Factories, allowing the creatio
 
 #### Usefull Information about the project:
 
-- [Deployed contract addresses on testnets (ropsten and lovan)](deployed_addresses.txt)
+- [Deployed contract addresses on testnets (ropsten and kovan)](deployed_addresses.txt)
 - [Strategies implemented for avoiding common attacks](avoiding_common_attacks.md)
 - [Design Pattern Decisions](design_pattern_decisions.md)
 - [UI source code](/src)
