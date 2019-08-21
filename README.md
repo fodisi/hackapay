@@ -63,7 +63,7 @@ This project was developed with the following environment:
 - [node](https://nodejs.org)
 - [npm](https://www.npmjs.com/)
 - Install [truffle](https://www.trufflesuite.com/truffle): `npm install truffle -g`
-- Download and install [Ganache Gui](https://www.trufflesuite.com/ganache) or [ganache-cli](https://www.npmjs.com/package/ganache-cli). Follow instructions provider instructions to install the desired version of Ganache. Make sure you configure your ganache application to use Port Number 8545
+- Download and install [Ganache Gui](https://www.trufflesuite.com/ganache) or [ganache-cli](https://www.npmjs.com/package/ganache-cli). Follow the provided instructions to install the desired version of Ganache. Make sure you configure your ganache application to use Port Number 8545.
 
   _Note related to recent truffle update:
   A few days ago truffle updated to 5.0.29, and one of the project dependencies for unit tests (`openzeppelin-test-helpers`) presented some issues. The dependency was updated and this issue is supposed to be fixed now, but if when trying to run it locally you find an error related to the web3 version, make sure you install truffle 5.0.28, using the commands below:_
@@ -133,7 +133,7 @@ This project uses [solidity-coverage](https://www.npmjs.com/package/solidity-cov
 
 This project uses [truffle-security](https://github.com/ConsenSys/truffle-security) to analyze potential exploits.
 To run a full analysis, you'll need to create an account with [MythX](https://mythx.io/), and use the ETH Address and Password provided.
-Once you have the ETH Address and password from MythX, open the file [mythx-config-sample.sh](mythx-config-sample.sh). Insert the ETH Address and password provided, and run execute the exports (with the appropriate ETH address and password) on you command line
+Once you have the ETH Address and password from MythX, open the file [mythx-config-sample.sh](mythx-config-sample.sh). Insert the ETH Address and password provided, and run the export commands (with the appropriate ETH address and password) on you command line.
 
 ```.sh
 export MYTHX_ETH_ADDRESS=YOUR_MYTHX_ETH_ADDRESS
