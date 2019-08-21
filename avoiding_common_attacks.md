@@ -2,7 +2,7 @@
 
 The contracts developed for this project, implement a series of design patterns and best practices, such as:
 
-## Attacks and Best Practices Implemented
+## Attack Mitigation and Implemented Best Practices
 
 ##### Integer Overflow and Underflow ([known-attacks])
 
