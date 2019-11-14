@@ -22,7 +22,7 @@ Have you ever organized a Hackathon and found yourself struggling to, or trying 
 
 The UI is still under construction, but you can interact with the `Factories` of the network, which are responsible for deploying and keeping track of the contracts created and deployed by users. There are two Factories in the network:
 
-- Hackathon Factory: Deploys a Hackathon contract to the blockchain. This contract is used for managing ang interacting with the hackathon (registration, proposal submission, evaluation, publishing results, and distributing prizes to winner teams.
+- Hackathon Factory: Deploys a Hackathon contract to the blockchain. This contract is used for managing and interacting with the hackathon (registration, proposal submission, evaluation, publishing results, and distributing prizes to winner teams.
 - Contest Team Factory: Deploys a ContestTeam contract to the blockchain. This contract is used for managing team members, depositing prizes (from the Hackathon contract) and distribute received prizes among team members.
 
 ##### UI Limitations:
