@@ -110,7 +110,7 @@ You'll need to run the following command to start you local dev-server. Once the
 
 Start web dev-server: `npm run start`
 
-*When you access the application, make sure your selected network on Metamask is either `localhost`, `covan` or `rosten`.*
+*When you access the application, make sure your selected network on Metamask is either `localhost`, `covan` or `ropsten`.*
 
 #### Additional commands:
 
