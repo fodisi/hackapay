@@ -29,7 +29,11 @@ class HackathonManager extends Component {
       this.setState({hackathons: [address]});
       this.props.setProcessing(false);
     } catch (error) {
-      console.log("customerror", error);
+      console.log(error);
+      console.log(JSON.parse(error.message));
+      const message = error.message.substring("[object Object]".length, error.message.length).trim();
+      const parsedError = JSON.parse(message);
+      console.log(parsedError.message);
       this.props.setError(
         "Unable to retrieve contract address. Check the id used. Error: " + error.message,
         error.stack
