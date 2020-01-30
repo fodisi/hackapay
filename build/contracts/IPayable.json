@@ -11,26 +11,26 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"deposit()\":{\"notice\":\"Allows the contract to receive funds.\"}},\"notice\":\"Defines the structure that a payable contract must implement to receive funds.\"}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/payment/IPayable.sol\":\"IPayable\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/payment/IPayable.sol\":{\"keccak256\":\"0x49e6a16932e8828c2ece3b77a4c7591154387269fd2a903a0604910e338a9193\",\"urls\":[\"bzzr://0c8990ac44cc8b1f5377c64fe13c96d712ef8c244c5098b0aba5b0590aded55c\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"deposit()\":{\"notice\":\"Allows the contract to receive funds.\"}},\"notice\":\"Defines the structure that a payable contract must implement to receive funds.\"}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol\":\"IPayable\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol\":{\"keccak256\":\"0x49e6a16932e8828c2ece3b77a4c7591154387269fd2a903a0604910e338a9193\",\"urls\":[\"bzz-raw://84819cf6e31a93fc0df8ec71b4ce244b011f9a63add21605aa1d60c5eaaccebd\",\"dweb:/ipfs/QmWWJhsqU7ZxUzBoegMY4YZYjWysua69Gyn67okU1UvfX7\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\n/// @notice Defines the structure that a payable contract must implement to receive funds.\ninterface IPayable {\n    /// @notice Allows the contract to receive funds.\n    function deposit() external payable;\n}\n",
-  "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/payment/IPayable.sol",
+  "sourcePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol",
   "ast": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/payment/IPayable.sol",
+    "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol",
     "exportedSymbols": {
-      "IPayable": [2864]
+      "IPayable": [2869]
     },
-    "id": 2865,
+    "id": 2870,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2860,
+        "id": 2865,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:18"
+        "src": "0:23:17"
       },
       {
         "baseContracts": [],
@@ -38,58 +38,58 @@
         "contractKind": "interface",
         "documentation": "@notice Defines the structure that a payable contract must implement to receive funds.",
         "fullyImplemented": false,
-        "id": 2864,
-        "linearizedBaseContracts": [2864],
+        "id": 2869,
+        "linearizedBaseContracts": [2869],
         "name": "IPayable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": null,
             "documentation": "@notice Allows the contract to receive funds.",
-            "id": 2863,
+            "id": 2868,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2861,
+              "id": 2866,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "211:2:18"
+              "src": "211:2:17"
             },
             "returnParameters": {
-              "id": 2862,
+              "id": 2867,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "230:0:18"
+              "src": "230:0:17"
             },
-            "scope": 2864,
-            "src": "195:36:18",
+            "scope": 2869,
+            "src": "195:36:17",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 2865,
-        "src": "116:117:18"
+        "scope": 2870,
+        "src": "116:117:17"
       }
     ],
-    "src": "0:234:18"
+    "src": "0:234:17"
   },
   "legacyAST": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/payment/IPayable.sol",
+    "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol",
     "exportedSymbols": {
-      "IPayable": [2864]
+      "IPayable": [2869]
     },
-    "id": 2865,
+    "id": 2870,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2860,
+        "id": 2865,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:18"
+        "src": "0:23:17"
       },
       {
         "baseContracts": [],
@@ -97,52 +97,52 @@
         "contractKind": "interface",
         "documentation": "@notice Defines the structure that a payable contract must implement to receive funds.",
         "fullyImplemented": false,
-        "id": 2864,
-        "linearizedBaseContracts": [2864],
+        "id": 2869,
+        "linearizedBaseContracts": [2869],
         "name": "IPayable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": null,
             "documentation": "@notice Allows the contract to receive funds.",
-            "id": 2863,
+            "id": 2868,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2861,
+              "id": 2866,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "211:2:18"
+              "src": "211:2:17"
             },
             "returnParameters": {
-              "id": 2862,
+              "id": 2867,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "230:0:18"
+              "src": "230:0:17"
             },
-            "scope": 2864,
-            "src": "195:36:18",
+            "scope": 2869,
+            "src": "195:36:17",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 2865,
-        "src": "116:117:18"
+        "scope": 2870,
+        "src": "116:117:17"
       }
     ],
-    "src": "0:234:18"
+    "src": "0:234:17"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T21:53:16.862Z",
+  "schemaVersion": "3.0.20",
+  "updatedAt": "2020-01-30T11:34:10.518Z",
   "devdoc": {
     "methods": {}
   },

@@ -2,188 +2,129 @@
   "contractName": "ContestTeamRegistryMock",
   "abi": [
     {
-      "constant": true,
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
       "inputs": [
         {
-          "name": "teamId",
-          "type": "uint256"
+          "indexed": false,
+          "internalType": "bool",
+          "name": "enabled",
+          "type": "bool"
         }
       ],
-      "name": "getTeam",
-      "outputs": [
+      "name": "RegistrationStatusUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
         {
-          "name": "",
-          "type": "bytes32"
+          "indexed": false,
+          "internalType": "bool",
+          "name": "enabled",
+          "type": "bool"
+        }
+      ],
+      "name": "SubmissionStatusUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "teamId",
+          "type": "uint256"
         },
         {
-          "name": "",
+          "indexed": true,
+          "internalType": "address",
+          "name": "teamAddress",
           "type": "address"
         },
         {
-          "name": "",
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "proposalData",
+          "type": "bytes32"
+        }
+      ],
+      "name": "TeamProposalUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "teamId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "teamName",
           "type": "bytes32"
         },
         {
-          "name": "",
-          "type": "bool"
+          "indexed": true,
+          "internalType": "address",
+          "name": "teamAddress",
+          "type": "address"
         },
         {
-          "name": "",
-          "type": "uint256"
+          "indexed": false,
+          "internalType": "bool",
+          "name": "approved",
+          "type": "bool"
         }
       ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
+      "name": "TeamRegistered",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "teamId",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "teamAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "approved",
+          "type": "bool"
+        }
+      ],
+      "name": "TeamStatusUpdated",
+      "type": "event"
     },
     {
       "constant": false,
       "inputs": [
         {
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         }
       ],
       "name": "approveTeam",
       "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "teamIds",
-          "type": "uint256[]"
-        }
-      ],
-      "name": "reproveTeams",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "name": "teams",
-      "outputs": [
-        {
-          "name": "id",
-          "type": "uint256"
-        },
-        {
-          "name": "name",
-          "type": "bytes32"
-        },
-        {
-          "name": "teamAddress",
-          "type": "address"
-        },
-        {
-          "name": "proposalData",
-          "type": "bytes32"
-        },
-        {
-          "name": "approved",
-          "type": "bool"
-        },
-        {
-          "name": "grade",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "teamAddress",
-          "type": "address"
-        }
-      ],
-      "name": "getTeamByAddress",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bytes32"
-        },
-        {
-          "name": "",
-          "type": "address"
-        },
-        {
-          "name": "",
-          "type": "bytes32"
-        },
-        {
-          "name": "",
-          "type": "bool"
-        },
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "getSubmissionStatus",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [],
-      "name": "openSubmission",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "teamName",
-          "type": "bytes32"
-        },
-        {
-          "name": "teamAddress",
-          "type": "address"
-        },
-        {
-          "name": "proposalData",
-          "type": "bytes32"
-        }
-      ],
-      "name": "registerTeam",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
@@ -200,7 +141,7 @@
     {
       "constant": false,
       "inputs": [],
-      "name": "openRegistration",
+      "name": "closeSubmission",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -212,6 +153,7 @@
       "name": "getRegistrationStatus",
       "outputs": [
         {
+          "internalType": "bool",
           "name": "",
           "type": "bool"
         }
@@ -221,18 +163,115 @@
       "type": "function"
     },
     {
-      "constant": false,
-      "inputs": [
+      "constant": true,
+      "inputs": [],
+      "name": "getSubmissionStatus",
+      "outputs": [
         {
-          "name": "teamId",
-          "type": "uint256"
-        },
-        {
-          "name": "proposalData",
-          "type": "bytes32"
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
         }
       ],
-      "name": "updateProposalData",
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "teamId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getTeam",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "teamAddress",
+          "type": "address"
+        }
+      ],
+      "name": "getTeamByAddress",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "openRegistration",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "openSubmission",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -242,6 +281,38 @@
       "constant": false,
       "inputs": [
         {
+          "internalType": "bytes32",
+          "name": "teamName",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "teamAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "proposalData",
+          "type": "bytes32"
+        }
+      ],
+      "name": "registerTeam",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         }
@@ -254,113 +325,84 @@
     },
     {
       "constant": false,
-      "inputs": [],
-      "name": "closeSubmission",
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "teamIds",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "reproveTeams",
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "inputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "constructor"
-    },
-    {
-      "anonymous": false,
+      "constant": true,
       "inputs": [
         {
-          "indexed": true,
-          "name": "teamId",
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "teams",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "id",
           "type": "uint256"
         },
         {
-          "indexed": false,
-          "name": "teamName",
+          "internalType": "bytes32",
+          "name": "name",
           "type": "bytes32"
         },
         {
-          "indexed": true,
+          "internalType": "address",
           "name": "teamAddress",
           "type": "address"
         },
         {
-          "indexed": false,
+          "internalType": "bytes32",
+          "name": "proposalData",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
           "name": "approved",
           "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "grade",
+          "type": "uint256"
         }
       ],
-      "name": "TeamRegistered",
-      "type": "event"
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
     },
     {
-      "anonymous": false,
+      "constant": false,
       "inputs": [
         {
-          "indexed": false,
-          "name": "enabled",
-          "type": "bool"
-        }
-      ],
-      "name": "RegistrationStatusUpdated",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "enabled",
-          "type": "bool"
-        }
-      ],
-      "name": "SubmissionStatusUpdated",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         },
         {
-          "indexed": true,
-          "name": "teamAddress",
-          "type": "address"
-        },
-        {
-          "indexed": false,
+          "internalType": "bytes32",
           "name": "proposalData",
           "type": "bytes32"
         }
       ],
-      "name": "TeamProposalUpdated",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "name": "teamId",
-          "type": "uint256"
-        },
-        {
-          "indexed": true,
-          "name": "teamAddress",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "name": "approved",
-          "type": "bool"
-        }
-      ],
-      "name": "TeamStatusUpdated",
-      "type": "event"
+      "name": "updateProposalData",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
     },
     {
       "constant": true,
@@ -368,6 +410,7 @@
       "name": "getApprovedTeamsCount",
       "outputs": [
         {
+          "internalType": "uint256",
           "name": "",
           "type": "uint256"
         }
@@ -377,35 +420,35 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"getTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"approveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamIds\",\"type\":\"uint256[]\"}],\"name\":\"reproveTeams\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"teams\",\"outputs\":[{\"name\":\"id\",\"type\":\"uint256\"},{\"name\":\"name\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"},{\"name\":\"approved\",\"type\":\"bool\"},{\"name\":\"grade\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"teamAddress\",\"type\":\"address\"}],\"name\":\"getTeamByAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSubmissionStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamName\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"registerTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getApprovedTeamsCount\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRegistrationStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"updateProposalData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"reproveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"teamName\",\"type\":\"bytes32\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"RegistrationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"SubmissionStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"TeamProposalUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamStatusUpdated\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be approved\"}},\"closeRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"closeSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"getRegistrationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getSubmissionStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getTeam(uint256)\":{\"params\":{\"teamId\":\"{uint256} the team's unique identifier returned on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getTeamByAddress(address)\":{\"params\":{\"teamAddress\":\"{address} the team's contract address used on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"openRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"openSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"registerTeam(bytes32,address,bytes32)\":{\"details\":\"Registration process must be open.\",\"params\":{\"teamName\":\"{bytes32} team's proposal data; could be a hash for a file  on IPFS or for a github link; not required\"}},\"reproveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be reproved\"}},\"reproveTeams(uint256[])\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamIds\":\"{uint256[]} an array containing the ids of the teams to be reproved\"}},\"updateProposalData(uint256,bytes32)\":{\"params\":{\"proposalData\":\"the updated data for the team's proposal\",\"teamId\":\"team's unique identifier; required\"}}}},\"userdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"notice\":\"(re)approves a team in participating in the contest\"},\"closeRegistration()\":{\"notice\":\"Closes the registration process\"},\"closeSubmission()\":{\"notice\":\"Closes the proposal submission process\"},\"getRegistrationStatus()\":{\"notice\":\"Gets the registration status\"},\"getSubmissionStatus()\":{\"notice\":\"Gets the submission status\"},\"getTeam(uint256)\":{\"notice\":\"Returns the stored information of a team\"},\"getTeamByAddress(address)\":{\"notice\":\"Returns the stored information of a team, based on a provided address\"},\"openRegistration()\":{\"notice\":\"Opens the registration process\"},\"openSubmission()\":{\"notice\":\"Opens the proposal submission process\"},\"registerTeam(bytes32,address,bytes32)\":{\"notice\":\"Registers a new team in the contest registry.\"},\"reproveTeam(uint256)\":{\"notice\":\"reproves a team from participating in the contest\"},\"reproveTeams(uint256[])\":{\"notice\":\"reprove teams from participating in the contest\"},\"updateProposalData(uint256,bytes32)\":{\"notice\":\"Updates the proposal data for a specific team.\"}}}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol\":\"ContestTeamRegistryMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol\":{\"keccak256\":\"0x95995388083fbaa2dbb256cfd12d775c0e7da755052b3e6322fc56cc5b28836f\",\"urls\":[\"bzzr://dae0a383e182d7ea591ffb7aaee3e15ef6fbcd1720d4454faced06ce21bf6b90\"]},\"/home/odisi/dev/projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol\":{\"keccak256\":\"0xa6364c08f026c54b91444a72401b90830090ac9b22edd2c7680463e76e61af41\",\"urls\":[\"bzzr://bcf245d1a5900632e020463a87e8301b0a3eee2f902a51ae9865fce3ba95eb2e\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzzr://1604f5b6d6e916c154efd8c6720cda069e5ba32dfa0a9dedf2b42e5b02d07f89\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50611236806100206000396000f3fe608060405234801561001057600080fd5b50600436106100f45760003560e01c80637385712c11610097578063e35fb24111610066578063e35fb241146102da578063eaf2f9cd146102e2578063f540548b14610305578063ffc6ff1e14610322576100f4565b80637385712c1461027e5780637dc673bc146102c2578063b103b43a146102ca578063d06e4ee7146102d2576100f4565b80633ed2b77a116100d35780633ed2b77a146101da5780634ea701a81461023457806354e1db2b1461025a57806358e2f50e14610276576100f4565b80628e0f1b146100f957806324ba9fab1461014b578063288c4a461461016a575b600080fd5b6101166004803603602081101561010f57600080fd5b503561032a565b604080519586526001600160a01b03909416602086015284840192909252151560608401526080830152519081900360a00190f35b6101686004803603602081101561016157600080fd5b503561041a565b005b6101686004803603602081101561018057600080fd5b81019060208101813564010000000081111561019b57600080fd5b8201836020820111156101ad57600080fd5b803590602001918460208302840111640100000000831117156101cf57600080fd5b509092509050610426565b6101f7600480360360208110156101f057600080fd5b5035610466565b6040805196875260208701959095526001600160a01b039093168585015260608501919091521515608084015260a0830152519081900360c00190f35b6101166004803603602081101561024a57600080fd5b50356001600160a01b03166104b9565b6102626105a0565b604080519115158252519081900360200190f35b6101686105ae565b6102b06004803603606081101561029457600080fd5b508035906001600160a01b036020820135169060400135610618565b60408051918252519081900360200190f35b610168610a09565b6102b0610a6b565b610168610a71565b610262610ad4565b610168600480360360408110156102f857600080fd5b5080359060200135610add565b6101686004803603602081101561031b57600080fd5b5035610c67565b610168610c70565b60008060008060008561033c81610cd7565b6103855760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b61038d6111d5565b6001888154811061039a57fe5b60009182526020918290206040805160c08101825260069390930290910180548352600181015493830184905260028101546001600160a01b0316918301829052600381015460608401819052600482015460ff1615156080850181905260059092015460a0909401849052939c919b5092995091975095509350505050565b61042381610ce2565b50565b610462828280806020026020016040519081016040528093929190818152602001838360200280828437600092019190915250610e3592505050565b5050565b6001818154811061047357fe5b600091825260209091206006909102018054600182015460028301546003840154600485015460059095015493955091936001600160a01b039091169260ff9091169086565b6000808080806001600160a01b03861661051d5760408051600160e51b62461bcd02815260206004820152601460248201527f496e76616c6964207a65726f2061646472657373000000000000000000000000604482015290519081900360640190fd5b6105256111d5565b505050506001600160a01b0392831660009081526020818152604091829020825160c0810184528154815260018201549281018390526002820154909616928601839052600381015460608701819052600482015460ff1615156080880181905260059092015460a090970187905291969295919450925090565b600354610100900460ff1690565b600354610100900460ff161561060e5760408051600160e51b62461bcd02815260206004820152601260248201527f5375626d697373696f6e206973206f70656e0000000000000000000000000000604482015290519081900360640190fd5b610616610e65565b565b60035460009060ff166106755760408051600160e51b62461bcd02815260206004820152601660248201527f526567697374726174696f6e20697320636c6f73656400000000000000000000604482015290519081900360640190fd5b8360001a60f81b6001600160f81b0319166106da5760408051600160e51b62461bcd02815260206004820152601960248201527f5465616d206e616d652063616e6e6f7420626520656d70747900000000000000604482015290519081900360640190fd5b6001600160a01b0383166107385760408051600160e51b62461bcd02815260206004820152601b60248201527f5465616d20616464726573732063616e6e6f74206265207a65726f0000000000604482015290519081900360640190fd5b6001600160a01b0383811660009081526020819052604090206002015416156107ab5760408051600160e51b62461bcd02815260206004820152601760248201527f5465616d20616c72656164792072656769737465726564000000000000000000604482015290519081900360640190fd5b6001546107b66111d5565b506040805160c081018252828152602081018781526001600160a01b0387811693830193845260608301878152600160808501818152600060a08701818152835480850185559184905287517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf660069093029283015595517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf782015596517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf8880180546001600160a01b031916919095161790935590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf986015590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfa8501805460ff191691151591909117905590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfb9093019290925581549091908390811061091e57fe5b600091825260208083206001600160a01b03808a1685529184905260409093206006909202909201805482556001808201548184015560028083015481850180546001600160a01b031916919096161790945560038083015490840155600480830154908401805460ff909216151560ff19909216919091179055600591820154919092015590546109b59163ffffffff610eb516565b600255604080518781526001602082015281516001600160a01b0388169285927f443b25596b838f2775d21b1153b87036f08c058fd4702446f1136ab26e5f3b90929081900390910190a350949350505050565b60035460ff16610a635760408051600160e51b62461bcd02815260206004820152601660248201527f526567697374726174696f6e20697320636c6f73656400000000000000000000604482015290519081900360640190fd5b610616610f19565b60025490565b60035460ff1615610acc5760408051600160e51b62461bcd02815260206004820152601460248201527f526567697374726174696f6e206973206f70656e000000000000000000000000604482015290519081900360640190fd5b610616610f59565b60035460ff1690565b81610ae781610cd7565b610b305760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b82610b3a81610fa3565b610b8e5760408051600160e51b62461bcd02815260206004820152601460248201527f5465616d206973206e6f7420617070726f766564000000000000000000000000604482015290519081900360640190fd5b600354610100900460ff16610bed5760408051600160e51b62461bcd02815260206004820152601460248201527f5375626d697373696f6e20697320636c6f736564000000000000000000000000604482015290519081900360640190fd5b600060018581548110610bfc57fe5b60009182526020918290206003600690920201908101869055600281015481546040805189815290519395506001600160a01b039092169390927fa44de9e6ce79675199796005de8516704078af25aaf78ab4be180213882560ee9281900390910190a35050505050565b6104238161103d565b600354610100900460ff16610ccf5760408051600160e51b62461bcd02815260206004820152601460248201527f5375626d697373696f6e20697320636c6f736564000000000000000000000000604482015290519081900360640190fd5b61061661112a565b60015481105b919050565b80610cec81610cd7565b610d355760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b81610d3f81610fa3565b15610d945760408051600160e51b62461bcd02815260206004820152601560248201527f5465616d206973206e6f7420726570726f7665642e0000000000000000000000604482015290519081900360640190fd5b600060018481548110610da357fe5b600091825260209091206004600690920201908101805460ff19166001908117909155600254919250610ddc919063ffffffff610eb516565b6002908155810154815460048301546040805160ff90921615158252516001600160a01b03909316927fd903780bcf5bcea81714ac3450a34cb3de7b0735a59883e1eb90edd901a54ad49181900360200190a350505050565b60005b815181101561046257610e5d828281518110610e5057fe5b602002602001015161103d565b600101610e38565b6003805461ff00191661010090811791829055604080519190920460ff161515815290517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b600082820183811015610f125760408051600160e51b62461bcd02815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b6003805460ff19169055604080516000815290517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6003805460ff1916600117908190556040805160ff9290921615158252517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6000610fae82610cd7565b610fba57506000610cdd565b610fc26111d5565b60018381548110610fcf57fe5b60009182526020918290206040805160c08101825260069093029091018054835260018101549383019390935260028301546001600160a01b03169082015260038201546060820152600482015460ff1615156080820181905260059092015460a090910152915050919050565b8061104781610cd7565b6110905760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b8161109a81610fa3565b6110ee5760408051600160e51b62461bcd02815260206004820152601460248201527f5465616d206973206e6f7420617070726f766564000000000000000000000000604482015290519081900360640190fd5b6000600184815481106110fd57fe5b6000918252602090912060069091020160048101805460ff19169055600254909150610ddc906001611175565b6003805461ff001916908190556040805161010090920460ff1615158252517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b6000828211156111cf5760408051600160e51b62461bcd02815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b50900390565b6040805160c081018252600080825260208201819052918101829052606081018290526080810182905260a08101919091529056fea165627a7a723058204ef9c913590ce51ca4f7bdade9831ecb9dc43f05fa37928a7c96f3aed300915b0029",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100f45760003560e01c80637385712c11610097578063e35fb24111610066578063e35fb241146102da578063eaf2f9cd146102e2578063f540548b14610305578063ffc6ff1e14610322576100f4565b80637385712c1461027e5780637dc673bc146102c2578063b103b43a146102ca578063d06e4ee7146102d2576100f4565b80633ed2b77a116100d35780633ed2b77a146101da5780634ea701a81461023457806354e1db2b1461025a57806358e2f50e14610276576100f4565b80628e0f1b146100f957806324ba9fab1461014b578063288c4a461461016a575b600080fd5b6101166004803603602081101561010f57600080fd5b503561032a565b604080519586526001600160a01b03909416602086015284840192909252151560608401526080830152519081900360a00190f35b6101686004803603602081101561016157600080fd5b503561041a565b005b6101686004803603602081101561018057600080fd5b81019060208101813564010000000081111561019b57600080fd5b8201836020820111156101ad57600080fd5b803590602001918460208302840111640100000000831117156101cf57600080fd5b509092509050610426565b6101f7600480360360208110156101f057600080fd5b5035610466565b6040805196875260208701959095526001600160a01b039093168585015260608501919091521515608084015260a0830152519081900360c00190f35b6101166004803603602081101561024a57600080fd5b50356001600160a01b03166104b9565b6102626105a0565b604080519115158252519081900360200190f35b6101686105ae565b6102b06004803603606081101561029457600080fd5b508035906001600160a01b036020820135169060400135610618565b60408051918252519081900360200190f35b610168610a09565b6102b0610a6b565b610168610a71565b610262610ad4565b610168600480360360408110156102f857600080fd5b5080359060200135610add565b6101686004803603602081101561031b57600080fd5b5035610c67565b610168610c70565b60008060008060008561033c81610cd7565b6103855760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b61038d6111d5565b6001888154811061039a57fe5b60009182526020918290206040805160c08101825260069390930290910180548352600181015493830184905260028101546001600160a01b0316918301829052600381015460608401819052600482015460ff1615156080850181905260059092015460a0909401849052939c919b5092995091975095509350505050565b61042381610ce2565b50565b610462828280806020026020016040519081016040528093929190818152602001838360200280828437600092019190915250610e3592505050565b5050565b6001818154811061047357fe5b600091825260209091206006909102018054600182015460028301546003840154600485015460059095015493955091936001600160a01b039091169260ff9091169086565b6000808080806001600160a01b03861661051d5760408051600160e51b62461bcd02815260206004820152601460248201527f496e76616c6964207a65726f2061646472657373000000000000000000000000604482015290519081900360640190fd5b6105256111d5565b505050506001600160a01b0392831660009081526020818152604091829020825160c0810184528154815260018201549281018390526002820154909616928601839052600381015460608701819052600482015460ff1615156080880181905260059092015460a090970187905291969295919450925090565b600354610100900460ff1690565b600354610100900460ff161561060e5760408051600160e51b62461bcd02815260206004820152601260248201527f5375626d697373696f6e206973206f70656e0000000000000000000000000000604482015290519081900360640190fd5b610616610e65565b565b60035460009060ff166106755760408051600160e51b62461bcd02815260206004820152601660248201527f526567697374726174696f6e20697320636c6f73656400000000000000000000604482015290519081900360640190fd5b8360001a60f81b6001600160f81b0319166106da5760408051600160e51b62461bcd02815260206004820152601960248201527f5465616d206e616d652063616e6e6f7420626520656d70747900000000000000604482015290519081900360640190fd5b6001600160a01b0383166107385760408051600160e51b62461bcd02815260206004820152601b60248201527f5465616d20616464726573732063616e6e6f74206265207a65726f0000000000604482015290519081900360640190fd5b6001600160a01b0383811660009081526020819052604090206002015416156107ab5760408051600160e51b62461bcd02815260206004820152601760248201527f5465616d20616c72656164792072656769737465726564000000000000000000604482015290519081900360640190fd5b6001546107b66111d5565b506040805160c081018252828152602081018781526001600160a01b0387811693830193845260608301878152600160808501818152600060a08701818152835480850185559184905287517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf660069093029283015595517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf782015596517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf8880180546001600160a01b031916919095161790935590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf986015590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfa8501805460ff191691151591909117905590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfb9093019290925581549091908390811061091e57fe5b600091825260208083206001600160a01b03808a1685529184905260409093206006909202909201805482556001808201548184015560028083015481850180546001600160a01b031916919096161790945560038083015490840155600480830154908401805460ff909216151560ff19909216919091179055600591820154919092015590546109b59163ffffffff610eb516565b600255604080518781526001602082015281516001600160a01b0388169285927f443b25596b838f2775d21b1153b87036f08c058fd4702446f1136ab26e5f3b90929081900390910190a350949350505050565b60035460ff16610a635760408051600160e51b62461bcd02815260206004820152601660248201527f526567697374726174696f6e20697320636c6f73656400000000000000000000604482015290519081900360640190fd5b610616610f19565b60025490565b60035460ff1615610acc5760408051600160e51b62461bcd02815260206004820152601460248201527f526567697374726174696f6e206973206f70656e000000000000000000000000604482015290519081900360640190fd5b610616610f59565b60035460ff1690565b81610ae781610cd7565b610b305760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b82610b3a81610fa3565b610b8e5760408051600160e51b62461bcd02815260206004820152601460248201527f5465616d206973206e6f7420617070726f766564000000000000000000000000604482015290519081900360640190fd5b600354610100900460ff16610bed5760408051600160e51b62461bcd02815260206004820152601460248201527f5375626d697373696f6e20697320636c6f736564000000000000000000000000604482015290519081900360640190fd5b600060018581548110610bfc57fe5b60009182526020918290206003600690920201908101869055600281015481546040805189815290519395506001600160a01b039092169390927fa44de9e6ce79675199796005de8516704078af25aaf78ab4be180213882560ee9281900390910190a35050505050565b6104238161103d565b600354610100900460ff16610ccf5760408051600160e51b62461bcd02815260206004820152601460248201527f5375626d697373696f6e20697320636c6f736564000000000000000000000000604482015290519081900360640190fd5b61061661112a565b60015481105b919050565b80610cec81610cd7565b610d355760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b81610d3f81610fa3565b15610d945760408051600160e51b62461bcd02815260206004820152601560248201527f5465616d206973206e6f7420726570726f7665642e0000000000000000000000604482015290519081900360640190fd5b600060018481548110610da357fe5b600091825260209091206004600690920201908101805460ff19166001908117909155600254919250610ddc919063ffffffff610eb516565b6002908155810154815460048301546040805160ff90921615158252516001600160a01b03909316927fd903780bcf5bcea81714ac3450a34cb3de7b0735a59883e1eb90edd901a54ad49181900360200190a350505050565b60005b815181101561046257610e5d828281518110610e5057fe5b602002602001015161103d565b600101610e38565b6003805461ff00191661010090811791829055604080519190920460ff161515815290517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b600082820183811015610f125760408051600160e51b62461bcd02815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b6003805460ff19169055604080516000815290517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6003805460ff1916600117908190556040805160ff9290921615158252517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6000610fae82610cd7565b610fba57506000610cdd565b610fc26111d5565b60018381548110610fcf57fe5b60009182526020918290206040805160c08101825260069093029091018054835260018101549383019390935260028301546001600160a01b03169082015260038201546060820152600482015460ff1615156080820181905260059092015460a090910152915050919050565b8061104781610cd7565b6110905760408051600160e51b62461bcd02815260206004820152600f60248201526001608a1b6e125b9d985b1a59081d19585b481a5902604482015290519081900360640190fd5b8161109a81610fa3565b6110ee5760408051600160e51b62461bcd02815260206004820152601460248201527f5465616d206973206e6f7420617070726f766564000000000000000000000000604482015290519081900360640190fd5b6000600184815481106110fd57fe5b6000918252602090912060069091020160048101805460ff19169055600254909150610ddc906001611175565b6003805461ff001916908190556040805161010090920460ff1615158252517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b6000828211156111cf5760408051600160e51b62461bcd02815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b50900390565b6040805160c081018252600080825260208201819052918101829052606081018290526080810182905260a08101919091529056fea165627a7a723058204ef9c913590ce51ca4f7bdade9831ecb9dc43f05fa37928a7c96f3aed300915b0029",
-  "sourceMap": "68:223:13:-;;;130:45;8:9:-1;5:2;;;30:1;27;20:12;5:2;130:45:13;68:223;;;;;;",
-  "deployedSourceMap": "68:223:13:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:223:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3439:293:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;3439:293:3;;:::i;:::-;;;;;;;-1:-1:-1;;;;;3439:293:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8416:83;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;8416:83:3;;:::i;:::-;;8791:98;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;8791:98:3;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;8791:98:3;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;8791:98:3;;;;;;101:9:-1;95:2;81:12;77:21;67:8;63:36;60:51;39:11;25:12;22:29;11:108;8:2;;;132:1;129;122:12;8:2;-1:-1;8791:98:3;;-1:-1:-1;8791:98:3;-1:-1:-1;8791:98:3;:::i;1103:19::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1103:19:3;;:::i;:::-;;;;;;;;;;;;;;-1:-1:-1;;;;;1103:19:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4172:332;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;4172:332:3;-1:-1:-1;;;;;4172:332:3;;:::i;8042:101::-;;;:::i;:::-;;;;;;;;;;;;;;;;;;7819:88;;;:::i;4887:1108::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;4887:1108:3;;;-1:-1:-1;;;;;4887:1108:3;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;6734:94;;;:::i;181:107:13:-;;;:::i;7012:94:3:-;;;:::i;7243:105::-;;;:::i;6206:343::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;6206:343:3;;;;;;;:::i;9160:83::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;9160:83:3;;:::i;7540:88::-;;;:::i;3439:293::-;3545:7;3554;3563;3572:4;3578:7;3520:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;;;;3601:16;;:::i;:::-;3620:5;3626:6;3620:13;;;;;;;;;;;;;;;;;3601:32;;;;;;;;3620:13;;;;;;;;3601:32;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;3601:32:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;3601:32:3;;-1:-1:-1;3601:32:3;;-1:-1:-1;3601:32:3;-1:-1:-1;3439:293:3;-1:-1:-1;;;;3439:293:3:o;8416:83::-;8472:20;8485:6;8472:12;:20::i;:::-;8416:83;:::o;8791:98::-;8860:22;8874:7;;8860:22;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;8860:13:3;;-1:-1:-1;;;8860:22:3:i;:::-;8791:98;;:::o;1103:19::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1103:19:3;;-1:-1:-1;;;;;1103:19:3;;;;;;;;;;:::o;4172:332::-;4240:7;;;;;-1:-1:-1;;;;;4300:25:3;;4292:58;;;;;-1:-1:-1;;;;;4292:58:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;4360:16;;:::i;:::-;-1:-1:-1;;;;;;;;;4379:26:3;;;:13;:26;;;;;;;;;;;;4360:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;4360:45:3;-1:-1:-1;4360:45:3;4172:332::o;8042:101::-;8119:17;;;;;;;;8042:101::o;7819:88::-;2513:17;;;;;;;2512:18;2504:49;;;;;-1:-1:-1;;;;;2504:49:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;7883:17;:15;:17::i;:::-;7819:88::o;4887:1108::-;2163:19;;5031:7;;2163:19;;2155:54;;;;;-1:-1:-1;;;;;2155:54:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;5062:8;5071:1;5062:11;;;-1:-1:-1;;;;;;5062:16:3;5054:54;;;;;-1:-1:-1;;;;;5054:54:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;5126:25:3;;5118:65;;;;;-1:-1:-1;;;;;5118:65:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;5201:26:3;;;5251:1;5201:26;;;;;;;;;;:38;;;;:52;5193:88;;;;;-1:-1:-1;;;;;5193:88:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;5308:5;:12;5688:16;;:::i;:::-;-1:-1:-1;5707:58:3;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;5707:58:3;;;;;;;;;;;;;;;5757:4;5707:58;;;;;;-1:-1:-1;5707:58:3;;;;;;27:10:-1;;23:18;;;45:23;;5775:16:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;5775:16:3;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;5775:16:3;;;;;;;;;;;;;;;;;;;;5830:13;;5707:58;;5757:4;5707:58;;5830:13;;;;;;;;;;;;;;-1:-1:-1;;;;;5801:26:3;;;;;;;;;;;;;5830:13;;;;;;;5801:42;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;5801:42:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;5801:42:3;;;;;;;;;;;;;;;;;;;5874:18;;:25;;;:22;:25;:::i;:::-;5853:18;:46;5914:51;;;;;;5960:4;5914:51;;;;;;-1:-1:-1;;;;;5914:51:3;;;5929:6;;5914:51;;;;;;;;;;;-1:-1:-1;5982:6:3;4887:1108;-1:-1:-1;;;;4887:1108:3:o;6734:94::-;2163:19;;;;2155:54;;;;;-1:-1:-1;;;;;2155:54:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;6801:20;:18;:20::i;181:107:13:-;263:18;;181:107;:::o;7012:94:3:-;2284:19;;;;2283:20;2275:53;;;;;-1:-1:-1;;;;;2275:53:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;7080:19;:17;:19::i;7243:105::-;7322:19;;;;7243:105;:::o;6206:343::-;6309:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;;;;6340:6;2755:22;2770:6;2755:14;:22::i;:::-;2747:55;;;;;-1:-1:-1;;;;;2747:55:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;2398:17;;;;;;;2390:50;;;;;-1:-1:-1;;;;;2390:50:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;6387:17;6407:5;6413:6;6407:13;;;;;;;;;;;;;;;;;6430:17;6407:13;;;;;6430:17;;;:32;;;6506:16;;;;6497:7;;6477:65;;;;;;;;6407:13;;-1:-1:-1;;;;;;6506:16:3;;;;6497:7;;6477:65;;;;;;;;;;2450:1;2683;6206:343;;;:::o;9160:83::-;9216:20;9229:6;9216:12;:20::i;7540:88::-;2398:17;;;;;;;2390:50;;;;;-1:-1:-1;;;;;2390:50:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;7603:18;:16;:18::i;10868:115::-;10963:5;:12;10954:21;;10868:115;;;;:::o;9973:300::-;10032:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;;;;10055:6;2885:22;2900:6;2885:14;:22::i;:::-;2884:23;2876:57;;;;;-1:-1:-1;;;;;2876:57:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;10073:17;10093:5;10099:6;10093:13;;;;;;;;;;;;;;;;10116;10093;;;;;10116;;;:20;;-1:-1:-1;;10116:20:3;10132:4;10116:20;;;;;;10167:18;;10093:13;;-1:-1:-1;10167:25:3;;:18;:25;:22;:25;:::i;:::-;10146:18;:46;;;10234:16;;;10225:7;;10252:13;;;;10207:59;;;10252:13;;;;10207:59;;;;;-1:-1:-1;;;;;10234:16:3;;;;10207:59;;;;;;;;;2943:1;2683;9973:300;;:::o;10315:168::-;10388:9;10383:94;10407:7;:14;10403:1;:18;10383:94;;;10442:24;10455:7;10463:1;10455:10;;;;;;;;;;;;;;10442:12;:24::i;:::-;10423:3;;10383:94;;9797:134;9843:17;:24;;-1:-1:-1;;9843:24:3;;;;;;;;;9882:42;;;9906:17;;;;9843:24;9906:17;9882:42;;;;;;;;;;;;;;;9797:134::o;834:176:26:-;892:7;923:5;;;946:6;;;;938:46;;;;;-1:-1:-1;;;;;938:46:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;1002:1;834:176;-1:-1:-1;;;834:176:26:o;9285:144:3:-;9334:19;:27;;-1:-1:-1;;9334:27:3;;;9376:46;;;9356:5;9376:46;;;;;;;;;;;;;9285:144::o;9471:142::-;9519:19;:26;;-1:-1:-1;;9519:26:3;9541:4;9519:26;;;;;9560:46;;;9519:26;9586:19;;;;9560:46;;;;;;;;;;;;;;9471:142::o;11025:223::-;11088:4;11109:21;11123:6;11109:13;:21::i;:::-;11104:65;;-1:-1:-1;11153:5:3;11146:12;;11104:65;11179:16;;:::i;:::-;11198:5;11204:6;11198:13;;;;;;;;;;;;;;;;;11179:32;;;;;;;;11198:13;;;;;;;11179:32;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;11179:32:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;11025:223:3;;;:::o;10525:301::-;10584:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;;;2624:49:3;;;;;;;;;;;;;;;10607:6;2755:22;2770:6;2755:14;:22::i;:::-;2747:55;;;;;-1:-1:-1;;;;;2747:55:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;10625:17;10645:5;10651:6;10645:13;;;;;;;;;;;;;;;;;;;;;10668;;;:21;;-1:-1:-1;;10668:21:3;;;10720:18;;10645:13;;-1:-1:-1;10720:25:3;;-1:-1:-1;10720:22:3;:25::i;9619:136::-;9666:17;:25;;-1:-1:-1;;9666:25:3;;;;;9706:42;;;9666:25;9730:17;;;9666:25;9730:17;9706:42;;;;;;;;;;;;;;9619:136::o;1274:179:26:-;1332:7;1364:1;1359;:6;;1351:49;;;;;-1:-1:-1;;;;;1351:49:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1422:5:26;;;1274:179::o;68:223:13:-;;;;;;;;;-1:-1:-1;68:223:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"RegistrationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"SubmissionStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"TeamProposalUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"teamName\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamStatusUpdated\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"approveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getApprovedTeamsCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRegistrationStatus\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSubmissionStatus\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"getTeam\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"}],\"name\":\"getTeamByAddress\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"teamName\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"registerTeam\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"reproveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"teamIds\",\"type\":\"uint256[]\"}],\"name\":\"reproveTeams\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"teams\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"bytes32\",\"name\":\"name\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"grade\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"updateProposalData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be approved\"}},\"closeRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"closeSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"getRegistrationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getSubmissionStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getTeam(uint256)\":{\"params\":{\"teamId\":\"{uint256} the team's unique identifier returned on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getTeamByAddress(address)\":{\"params\":{\"teamAddress\":\"{address} the team's contract address used on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"openRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"openSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"registerTeam(bytes32,address,bytes32)\":{\"details\":\"Registration process must be open.\",\"params\":{\"teamName\":\"{bytes32} team's proposal data; could be a hash for a file  on IPFS or for a github link; not required\"}},\"reproveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be reproved\"}},\"reproveTeams(uint256[])\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamIds\":\"{uint256[]} an array containing the ids of the teams to be reproved\"}},\"updateProposalData(uint256,bytes32)\":{\"params\":{\"proposalData\":\"the updated data for the team's proposal\",\"teamId\":\"team's unique identifier; required\"}}}},\"userdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"notice\":\"(re)approves a team in participating in the contest\"},\"closeRegistration()\":{\"notice\":\"Closes the registration process\"},\"closeSubmission()\":{\"notice\":\"Closes the proposal submission process\"},\"getRegistrationStatus()\":{\"notice\":\"Gets the registration status\"},\"getSubmissionStatus()\":{\"notice\":\"Gets the submission status\"},\"getTeam(uint256)\":{\"notice\":\"Returns the stored information of a team\"},\"getTeamByAddress(address)\":{\"notice\":\"Returns the stored information of a team, based on a provided address\"},\"openRegistration()\":{\"notice\":\"Opens the registration process\"},\"openSubmission()\":{\"notice\":\"Opens the proposal submission process\"},\"registerTeam(bytes32,address,bytes32)\":{\"notice\":\"Registers a new team in the contest registry.\"},\"reproveTeam(uint256)\":{\"notice\":\"reproves a team from participating in the contest\"},\"reproveTeams(uint256[])\":{\"notice\":\"reprove teams from participating in the contest\"},\"updateProposalData(uint256,bytes32)\":{\"notice\":\"Updates the proposal data for a specific team.\"}}}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol\":\"ContestTeamRegistryMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol\":{\"keccak256\":\"0x95995388083fbaa2dbb256cfd12d775c0e7da755052b3e6322fc56cc5b28836f\",\"urls\":[\"bzz-raw://77979a86ff0e2df9c610b111cc7ebae4d6fd1cc3e313fbd1f6a0822dcd94123f\",\"dweb:/ipfs/QmcrcszBfQnfUPJfpjG2N98GZAShTNVdAsgNq5CskfVC12\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol\":{\"keccak256\":\"0xa6364c08f026c54b91444a72401b90830090ac9b22edd2c7680463e76e61af41\",\"urls\":[\"bzz-raw://543cc1fa2fb6075edf8903ceeec3efaf15c6813360ee4e21cbb043895d1c31ae\",\"dweb:/ipfs/QmeZxFK1NtuoDNZ7Esh9ojX7hH53jdNTDjMkv6H41odtip\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzz-raw://d62d769b2219d5de39013093412623e624fa887f871826ea3bae6052ee893610\",\"dweb:/ipfs/QmV3yVktya1s617QmuzQR2CfuJgUi3dR2xEZY9ecmqZ2G1\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506111a3806100206000396000f3fe608060405234801561001057600080fd5b50600436106100f45760003560e01c80637385712c11610097578063e35fb24111610066578063e35fb241146102da578063eaf2f9cd146102e2578063f540548b14610305578063ffc6ff1e14610322576100f4565b80637385712c1461027e5780637dc673bc146102c2578063b103b43a146102ca578063d06e4ee7146102d2576100f4565b80633ed2b77a116100d35780633ed2b77a146101da5780634ea701a81461023457806354e1db2b1461025a57806358e2f50e14610276576100f4565b80628e0f1b146100f957806324ba9fab1461014b578063288c4a461461016a575b600080fd5b6101166004803603602081101561010f57600080fd5b503561032a565b604080519586526001600160a01b03909416602086015284840192909252151560608401526080830152519081900360a00190f35b6101686004803603602081101561016157600080fd5b5035610414565b005b6101686004803603602081101561018057600080fd5b81019060208101813564010000000081111561019b57600080fd5b8201836020820111156101ad57600080fd5b803590602001918460208302840111640100000000831117156101cf57600080fd5b509092509050610420565b6101f7600480360360208110156101f057600080fd5b5035610460565b6040805196875260208701959095526001600160a01b039093168585015260608501919091521515608084015260a0830152519081900360c00190f35b6101166004803603602081101561024a57600080fd5b50356001600160a01b03166104b3565b61026261058e565b604080519115158252519081900360200190f35b61016861059c565b6102b06004803603606081101561029457600080fd5b508035906001600160a01b0360208201351690604001356105f8565b60408051918252519081900360200190f35b6101686109d6565b6102b0610a2e565b610168610a34565b610262610a8b565b610168600480360360408110156102f857600080fd5b5080359060200135610a94565b6101686004803603602081101561031b57600080fd5b5035610c00565b610168610c09565b60008060008060008561033c81610c64565b61037f576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b610387611139565b6001888154811061039457fe5b60009182526020918290206040805160c08101825260069390930290910180548352600181015493830184905260028101546001600160a01b0316918301829052600381015460608401819052600482015460ff1615156080850181905260059092015460a0909401849052939c919b5092995091975095509350505050565b61041d81610c6f565b50565b61045c828280806020026020016040519081016040528093929190818152602001838360200280828437600092019190915250610db192505050565b5050565b6001818154811061046d57fe5b600091825260209091206006909102018054600182015460028301546003840154600485015460059095015493955091936001600160a01b039091169260ff9091169086565b6000808080806001600160a01b03861661050b576040805162461bcd60e51b8152602060048201526014602482015273496e76616c6964207a65726f206164647265737360601b604482015290519081900360640190fd5b610513611139565b505050506001600160a01b0392831660009081526020818152604091829020825160c0810184528154815260018201549281018390526002820154909616928601839052600381015460608701819052600482015460ff1615156080880181905260059092015460a090970187905291969295919450925090565b600354610100900460ff1690565b600354610100900460ff16156105ee576040805162461bcd60e51b815260206004820152601260248201527129bab136b4b9b9b4b7b71034b99037b832b760711b604482015290519081900360640190fd5b6105f6610de1565b565b60035460009060ff1661064b576040805162461bcd60e51b8152602060048201526016602482015275149959da5cdd1c985d1a5bdb881a5cc818db1bdcd95960521b604482015290519081900360640190fd5b8360001a60f81b6001600160f81b0319166106ad576040805162461bcd60e51b815260206004820152601960248201527f5465616d206e616d652063616e6e6f7420626520656d70747900000000000000604482015290519081900360640190fd5b6001600160a01b038316610708576040805162461bcd60e51b815260206004820152601b60248201527f5465616d20616464726573732063616e6e6f74206265207a65726f0000000000604482015290519081900360640190fd5b6001600160a01b038381166000908152602081905260409020600201541615610778576040805162461bcd60e51b815260206004820152601760248201527f5465616d20616c72656164792072656769737465726564000000000000000000604482015290519081900360640190fd5b600154610783611139565b506040805160c081018252828152602081018781526001600160a01b0387811693830193845260608301878152600160808501818152600060a08701818152835480850185559184905287517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf660069093029283015595517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf782015596517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf8880180546001600160a01b031916919095161790935590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf986015590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfa8501805460ff191691151591909117905590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfb909301929092558154909190839081106108eb57fe5b600091825260208083206001600160a01b03808a1685529184905260409093206006909202909201805482556001808201548184015560028083015481850180546001600160a01b031916919096161790945560038083015490840155600480830154908401805460ff909216151560ff19909216919091179055600591820154919092015590546109829163ffffffff610e3116565b600255604080518781526001602082015281516001600160a01b0388169285927f443b25596b838f2775d21b1153b87036f08c058fd4702446f1136ab26e5f3b90929081900390910190a350949350505050565b60035460ff16610a26576040805162461bcd60e51b8152602060048201526016602482015275149959da5cdd1c985d1a5bdb881a5cc818db1bdcd95960521b604482015290519081900360640190fd5b6105f6610e92565b60025490565b60035460ff1615610a83576040805162461bcd60e51b81526020600482015260146024820152732932b3b4b9ba3930ba34b7b71034b99037b832b760611b604482015290519081900360640190fd5b6105f6610ed2565b60035460ff1690565b81610a9e81610c64565b610ae1576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b82610aeb81610f1c565b610b33576040805162461bcd60e51b81526020600482015260146024820152731519585b481a5cc81b9bdd08185c1c1c9bdd995960621b604482015290519081900360640190fd5b600354610100900460ff16610b86576040805162461bcd60e51b815260206004820152601460248201527314dd589b5a5cdcda5bdb881a5cc818db1bdcd95960621b604482015290519081900360640190fd5b600060018581548110610b9557fe5b60009182526020918290206003600690920201908101869055600281015481546040805189815290519395506001600160a01b039092169390927fa44de9e6ce79675199796005de8516704078af25aaf78ab4be180213882560ee9281900390910190a35050505050565b61041d81610fb6565b600354610100900460ff16610c5c576040805162461bcd60e51b815260206004820152601460248201527314dd589b5a5cdcda5bdb881a5cc818db1bdcd95960621b604482015290519081900360640190fd5b6105f6611091565b60015481105b919050565b80610c7981610c64565b610cbc576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b81610cc681610f1c565b15610d10576040805162461bcd60e51b81526020600482015260156024820152742a32b0b69034b9903737ba103932b83937bb32b21760591b604482015290519081900360640190fd5b600060018481548110610d1f57fe5b600091825260209091206004600690920201908101805460ff19166001908117909155600254919250610d58919063ffffffff610e3116565b6002908155810154815460048301546040805160ff90921615158252516001600160a01b03909316927fd903780bcf5bcea81714ac3450a34cb3de7b0735a59883e1eb90edd901a54ad49181900360200190a350505050565b60005b815181101561045c57610dd9828281518110610dcc57fe5b6020026020010151610fb6565b600101610db4565b6003805461ff00191661010090811791829055604080519190920460ff161515815290517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b600082820183811015610e8b576040805162461bcd60e51b815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b6003805460ff19169055604080516000815290517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6003805460ff1916600117908190556040805160ff9290921615158252517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6000610f2782610c64565b610f3357506000610c6a565b610f3b611139565b60018381548110610f4857fe5b60009182526020918290206040805160c08101825260069093029091018054835260018101549383019390935260028301546001600160a01b03169082015260038201546060820152600482015460ff1615156080820181905260059092015460a090910152915050919050565b80610fc081610c64565b611003576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b8161100d81610f1c565b611055576040805162461bcd60e51b81526020600482015260146024820152731519585b481a5cc81b9bdd08185c1c1c9bdd995960621b604482015290519081900360640190fd5b60006001848154811061106457fe5b6000918252602090912060069091020160048101805460ff19169055600254909150610d589060016110dc565b6003805461ff001916908190556040805161010090920460ff1615158252517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b600082821115611133576040805162461bcd60e51b815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b50900390565b6040805160c081018252600080825260208201819052918101829052606081018290526080810182905260a08101919091529056fea265627a7a7231582031d1c928a6b6da5ef744c323df9dc0229d839bf1ca1da719ed4b4434eea9cfe664736f6c634300050c0032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100f45760003560e01c80637385712c11610097578063e35fb24111610066578063e35fb241146102da578063eaf2f9cd146102e2578063f540548b14610305578063ffc6ff1e14610322576100f4565b80637385712c1461027e5780637dc673bc146102c2578063b103b43a146102ca578063d06e4ee7146102d2576100f4565b80633ed2b77a116100d35780633ed2b77a146101da5780634ea701a81461023457806354e1db2b1461025a57806358e2f50e14610276576100f4565b80628e0f1b146100f957806324ba9fab1461014b578063288c4a461461016a575b600080fd5b6101166004803603602081101561010f57600080fd5b503561032a565b604080519586526001600160a01b03909416602086015284840192909252151560608401526080830152519081900360a00190f35b6101686004803603602081101561016157600080fd5b5035610414565b005b6101686004803603602081101561018057600080fd5b81019060208101813564010000000081111561019b57600080fd5b8201836020820111156101ad57600080fd5b803590602001918460208302840111640100000000831117156101cf57600080fd5b509092509050610420565b6101f7600480360360208110156101f057600080fd5b5035610460565b6040805196875260208701959095526001600160a01b039093168585015260608501919091521515608084015260a0830152519081900360c00190f35b6101166004803603602081101561024a57600080fd5b50356001600160a01b03166104b3565b61026261058e565b604080519115158252519081900360200190f35b61016861059c565b6102b06004803603606081101561029457600080fd5b508035906001600160a01b0360208201351690604001356105f8565b60408051918252519081900360200190f35b6101686109d6565b6102b0610a2e565b610168610a34565b610262610a8b565b610168600480360360408110156102f857600080fd5b5080359060200135610a94565b6101686004803603602081101561031b57600080fd5b5035610c00565b610168610c09565b60008060008060008561033c81610c64565b61037f576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b610387611139565b6001888154811061039457fe5b60009182526020918290206040805160c08101825260069390930290910180548352600181015493830184905260028101546001600160a01b0316918301829052600381015460608401819052600482015460ff1615156080850181905260059092015460a0909401849052939c919b5092995091975095509350505050565b61041d81610c6f565b50565b61045c828280806020026020016040519081016040528093929190818152602001838360200280828437600092019190915250610db192505050565b5050565b6001818154811061046d57fe5b600091825260209091206006909102018054600182015460028301546003840154600485015460059095015493955091936001600160a01b039091169260ff9091169086565b6000808080806001600160a01b03861661050b576040805162461bcd60e51b8152602060048201526014602482015273496e76616c6964207a65726f206164647265737360601b604482015290519081900360640190fd5b610513611139565b505050506001600160a01b0392831660009081526020818152604091829020825160c0810184528154815260018201549281018390526002820154909616928601839052600381015460608701819052600482015460ff1615156080880181905260059092015460a090970187905291969295919450925090565b600354610100900460ff1690565b600354610100900460ff16156105ee576040805162461bcd60e51b815260206004820152601260248201527129bab136b4b9b9b4b7b71034b99037b832b760711b604482015290519081900360640190fd5b6105f6610de1565b565b60035460009060ff1661064b576040805162461bcd60e51b8152602060048201526016602482015275149959da5cdd1c985d1a5bdb881a5cc818db1bdcd95960521b604482015290519081900360640190fd5b8360001a60f81b6001600160f81b0319166106ad576040805162461bcd60e51b815260206004820152601960248201527f5465616d206e616d652063616e6e6f7420626520656d70747900000000000000604482015290519081900360640190fd5b6001600160a01b038316610708576040805162461bcd60e51b815260206004820152601b60248201527f5465616d20616464726573732063616e6e6f74206265207a65726f0000000000604482015290519081900360640190fd5b6001600160a01b038381166000908152602081905260409020600201541615610778576040805162461bcd60e51b815260206004820152601760248201527f5465616d20616c72656164792072656769737465726564000000000000000000604482015290519081900360640190fd5b600154610783611139565b506040805160c081018252828152602081018781526001600160a01b0387811693830193845260608301878152600160808501818152600060a08701818152835480850185559184905287517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf660069093029283015595517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf782015596517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf8880180546001600160a01b031916919095161790935590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf986015590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfa8501805460ff191691151591909117905590517fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cfb909301929092558154909190839081106108eb57fe5b600091825260208083206001600160a01b03808a1685529184905260409093206006909202909201805482556001808201548184015560028083015481850180546001600160a01b031916919096161790945560038083015490840155600480830154908401805460ff909216151560ff19909216919091179055600591820154919092015590546109829163ffffffff610e3116565b600255604080518781526001602082015281516001600160a01b0388169285927f443b25596b838f2775d21b1153b87036f08c058fd4702446f1136ab26e5f3b90929081900390910190a350949350505050565b60035460ff16610a26576040805162461bcd60e51b8152602060048201526016602482015275149959da5cdd1c985d1a5bdb881a5cc818db1bdcd95960521b604482015290519081900360640190fd5b6105f6610e92565b60025490565b60035460ff1615610a83576040805162461bcd60e51b81526020600482015260146024820152732932b3b4b9ba3930ba34b7b71034b99037b832b760611b604482015290519081900360640190fd5b6105f6610ed2565b60035460ff1690565b81610a9e81610c64565b610ae1576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b82610aeb81610f1c565b610b33576040805162461bcd60e51b81526020600482015260146024820152731519585b481a5cc81b9bdd08185c1c1c9bdd995960621b604482015290519081900360640190fd5b600354610100900460ff16610b86576040805162461bcd60e51b815260206004820152601460248201527314dd589b5a5cdcda5bdb881a5cc818db1bdcd95960621b604482015290519081900360640190fd5b600060018581548110610b9557fe5b60009182526020918290206003600690920201908101869055600281015481546040805189815290519395506001600160a01b039092169390927fa44de9e6ce79675199796005de8516704078af25aaf78ab4be180213882560ee9281900390910190a35050505050565b61041d81610fb6565b600354610100900460ff16610c5c576040805162461bcd60e51b815260206004820152601460248201527314dd589b5a5cdcda5bdb881a5cc818db1bdcd95960621b604482015290519081900360640190fd5b6105f6611091565b60015481105b919050565b80610c7981610c64565b610cbc576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b81610cc681610f1c565b15610d10576040805162461bcd60e51b81526020600482015260156024820152742a32b0b69034b9903737ba103932b83937bb32b21760591b604482015290519081900360640190fd5b600060018481548110610d1f57fe5b600091825260209091206004600690920201908101805460ff19166001908117909155600254919250610d58919063ffffffff610e3116565b6002908155810154815460048301546040805160ff90921615158252516001600160a01b03909316927fd903780bcf5bcea81714ac3450a34cb3de7b0735a59883e1eb90edd901a54ad49181900360200190a350505050565b60005b815181101561045c57610dd9828281518110610dcc57fe5b6020026020010151610fb6565b600101610db4565b6003805461ff00191661010090811791829055604080519190920460ff161515815290517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b600082820183811015610e8b576040805162461bcd60e51b815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b6003805460ff19169055604080516000815290517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6003805460ff1916600117908190556040805160ff9290921615158252517f78b477400a612eb4ec0a343596323cccfac06b27624264a549d8322c736d055c9181900360200190a1565b6000610f2782610c64565b610f3357506000610c6a565b610f3b611139565b60018381548110610f4857fe5b60009182526020918290206040805160c08101825260069093029091018054835260018101549383019390935260028301546001600160a01b03169082015260038201546060820152600482015460ff1615156080820181905260059092015460a090910152915050919050565b80610fc081610c64565b611003576040805162461bcd60e51b815260206004820152600f60248201526e125b9d985b1a59081d19585b481a59608a1b604482015290519081900360640190fd5b8161100d81610f1c565b611055576040805162461bcd60e51b81526020600482015260146024820152731519585b481a5cc81b9bdd08185c1c1c9bdd995960621b604482015290519081900360640190fd5b60006001848154811061106457fe5b6000918252602090912060069091020160048101805460ff19169055600254909150610d589060016110dc565b6003805461ff001916908190556040805161010090920460ff1615158252517f48fbf5c7b70581e7e2145562de373e14a5af56d09f9b96d73545d0d35f71f0889181900360200190a1565b600082821115611133576040805162461bcd60e51b815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b50900390565b6040805160c081018252600080825260208201819052918101829052606081018290526080810182905260a08101919091529056fea265627a7a7231582031d1c928a6b6da5ef744c323df9dc0229d839bf1ca1da719ed4b4434eea9cfe664736f6c634300050c0032",
+  "sourceMap": "68:223:12:-;;;130:45;8:9:-1;5:2;;;30:1;27;20:12;5:2;130:45:12;68:223;;;;;;",
+  "deployedSourceMap": "68:223:12:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:223:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3439:293:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;3439:293:3;;:::i;:::-;;;;;;;-1:-1:-1;;;;;3439:293:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8416:83;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;8416:83:3;;:::i;:::-;;8791:98;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;8791:98:3;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;8791:98:3;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;8791:98:3;;;;;;101:9:-1;95:2;81:12;77:21;67:8;63:36;60:51;39:11;25:12;22:29;11:108;8:2;;;132:1;129;122:12;8:2;-1:-1;8791:98:3;;-1:-1:-1;8791:98:3;-1:-1:-1;8791:98:3;:::i;1103:19::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1103:19:3;;:::i;:::-;;;;;;;;;;;;;;-1:-1:-1;;;;;1103:19:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4172:332;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;4172:332:3;-1:-1:-1;;;;;4172:332:3;;:::i;8042:101::-;;;:::i;:::-;;;;;;;;;;;;;;;;;;7819:88;;;:::i;4887:1108::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;4887:1108:3;;;-1:-1:-1;;;;;4887:1108:3;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;6734:94;;;:::i;181:107:12:-;;;:::i;7012:94:3:-;;;:::i;7243:105::-;;;:::i;6206:343::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;6206:343:3;;;;;;;:::i;9160:83::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;9160:83:3;;:::i;7540:88::-;;;:::i;3439:293::-;3545:7;3554;3563;3572:4;3578:7;3520:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;;;;3601:16;;:::i;:::-;3620:5;3626:6;3620:13;;;;;;;;;;;;;;;;;3601:32;;;;;;;;3620:13;;;;;;;;3601:32;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;3601:32:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;3601:32:3;;-1:-1:-1;3601:32:3;;-1:-1:-1;3601:32:3;-1:-1:-1;3439:293:3;-1:-1:-1;;;;3439:293:3:o;8416:83::-;8472:20;8485:6;8472:12;:20::i;:::-;8416:83;:::o;8791:98::-;8860:22;8874:7;;8860:22;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;8860:13:3;;-1:-1:-1;;;8860:22:3:i;:::-;8791:98;;:::o;1103:19::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1103:19:3;;-1:-1:-1;;;;;1103:19:3;;;;;;;;;;:::o;4172:332::-;4240:7;;;;;-1:-1:-1;;;;;4300:25:3;;4292:58;;;;;-1:-1:-1;;;4292:58:3;;;;;;;;;;;;-1:-1:-1;;;4292:58:3;;;;;;;;;;;;;;;4360:16;;:::i;:::-;-1:-1:-1;;;;;;;;;4379:26:3;;;:13;:26;;;;;;;;;;;;4360:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;4360:45:3;-1:-1:-1;4360:45:3;4172:332::o;8042:101::-;8119:17;;;;;;;;8042:101::o;7819:88::-;2513:17;;;;;;;2512:18;2504:49;;;;;-1:-1:-1;;;2504:49:3;;;;;;;;;;;;-1:-1:-1;;;2504:49:3;;;;;;;;;;;;;;;7883:17;:15;:17::i;:::-;7819:88::o;4887:1108::-;2163:19;;5031:7;;2163:19;;2155:54;;;;;-1:-1:-1;;;2155:54:3;;;;;;;;;;;;-1:-1:-1;;;2155:54:3;;;;;;;;;;;;;;;5062:8;5071:1;5062:11;;;-1:-1:-1;;;;;;5062:16:3;5054:54;;;;;-1:-1:-1;;;5054:54:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;5126:25:3;;5118:65;;;;;-1:-1:-1;;;5118:65:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;5201:26:3;;;5251:1;5201:26;;;;;;;;;;:38;;;;:52;5193:88;;;;;-1:-1:-1;;;5193:88:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;5308:5;:12;5688:16;;:::i;:::-;-1:-1:-1;5707:58:3;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;5707:58:3;;;;;;;;;;;;;;;5757:4;5707:58;;;;;;-1:-1:-1;5707:58:3;;;;;;27:10:-1;;23:18;;;45:23;;5775:16:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;5775:16:3;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;5775:16:3;;;;;;;;;;;;;;;;;;;;5830:13;;5707:58;;5757:4;5707:58;;5830:13;;;;;;;;;;;;;;-1:-1:-1;;;;;5801:26:3;;;;;;;;;;;;;5830:13;;;;;;;5801:42;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;5801:42:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;5801:42:3;;;;;;;;;;;;;;;;;;;5874:18;;:25;;;:22;:25;:::i;:::-;5853:18;:46;5914:51;;;;;;5960:4;5914:51;;;;;;-1:-1:-1;;;;;5914:51:3;;;5929:6;;5914:51;;;;;;;;;;;-1:-1:-1;5982:6:3;4887:1108;-1:-1:-1;;;;4887:1108:3:o;6734:94::-;2163:19;;;;2155:54;;;;;-1:-1:-1;;;2155:54:3;;;;;;;;;;;;-1:-1:-1;;;2155:54:3;;;;;;;;;;;;;;;6801:20;:18;:20::i;181:107:12:-;263:18;;181:107;:::o;7012:94:3:-;2284:19;;;;2283:20;2275:53;;;;;-1:-1:-1;;;2275:53:3;;;;;;;;;;;;-1:-1:-1;;;2275:53:3;;;;;;;;;;;;;;;7080:19;:17;:19::i;7243:105::-;7322:19;;;;7243:105;:::o;6206:343::-;6309:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;;;;6340:6;2755:22;2770:6;2755:14;:22::i;:::-;2747:55;;;;;-1:-1:-1;;;2747:55:3;;;;;;;;;;;;-1:-1:-1;;;2747:55:3;;;;;;;;;;;;;;;2398:17;;;;;;;2390:50;;;;;-1:-1:-1;;;2390:50:3;;;;;;;;;;;;-1:-1:-1;;;2390:50:3;;;;;;;;;;;;;;;6387:17;6407:5;6413:6;6407:13;;;;;;;;;;;;;;;;;6430:17;6407:13;;;;;6430:17;;;:32;;;6506:16;;;;6497:7;;6477:65;;;;;;;;6407:13;;-1:-1:-1;;;;;;6506:16:3;;;;6497:7;;6477:65;;;;;;;;;;2450:1;2683;6206:343;;;:::o;9160:83::-;9216:20;9229:6;9216:12;:20::i;7540:88::-;2398:17;;;;;;;2390:50;;;;;-1:-1:-1;;;2390:50:3;;;;;;;;;;;;-1:-1:-1;;;2390:50:3;;;;;;;;;;;;;;;7603:18;:16;:18::i;10868:115::-;10963:5;:12;10954:21;;10868:115;;;;:::o;9973:300::-;10032:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;;;;10055:6;2885:22;2900:6;2885:14;:22::i;:::-;2884:23;2876:57;;;;;-1:-1:-1;;;2876:57:3;;;;;;;;;;;;-1:-1:-1;;;2876:57:3;;;;;;;;;;;;;;;10073:17;10093:5;10099:6;10093:13;;;;;;;;;;;;;;;;10116;10093;;;;;10116;;;:20;;-1:-1:-1;;10116:20:3;10132:4;10116:20;;;;;;10167:18;;10093:13;;-1:-1:-1;10167:25:3;;:18;:25;:22;:25;:::i;:::-;10146:18;:46;;;10234:16;;;10225:7;;10252:13;;;;10207:59;;;10252:13;;;;10207:59;;;;;-1:-1:-1;;;;;10234:16:3;;;;10207:59;;;;;;;;;2943:1;2683;9973:300;;:::o;10315:168::-;10388:9;10383:94;10407:7;:14;10403:1;:18;10383:94;;;10442:24;10455:7;10463:1;10455:10;;;;;;;;;;;;;;10442:12;:24::i;:::-;10423:3;;10383:94;;9797:134;9843:17;:24;;-1:-1:-1;;9843:24:3;;;;;;;;;9882:42;;;9906:17;;;;9843:24;9906:17;9882:42;;;;;;;;;;;;;;;9797:134::o;834:176:25:-;892:7;923:5;;;946:6;;;;938:46;;;;;-1:-1:-1;;;938:46:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;1002:1;834:176;-1:-1:-1;;;834:176:25:o;9285:144:3:-;9334:19;:27;;-1:-1:-1;;9334:27:3;;;9376:46;;;9356:5;9376:46;;;;;;;;;;;;;9285:144::o;9471:142::-;9519:19;:26;;-1:-1:-1;;9519:26:3;9541:4;9519:26;;;;;9560:46;;;9519:26;9586:19;;;;9560:46;;;;;;;;;;;;;;9471:142::o;11025:223::-;11088:4;11109:21;11123:6;11109:13;:21::i;:::-;11104:65;;-1:-1:-1;11153:5:3;11146:12;;11104:65;11179:16;;:::i;:::-;11198:5;11204:6;11198:13;;;;;;;;;;;;;;;;;11179:32;;;;;;;;11198:13;;;;;;;11179:32;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;11179:32:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;11025:223:3;;;:::o;10525:301::-;10584:6;2632:21;2646:6;2632:13;:21::i;:::-;2624:49;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;-1:-1:-1;;;2624:49:3;;;;;;;;;;;;;;;10607:6;2755:22;2770:6;2755:14;:22::i;:::-;2747:55;;;;;-1:-1:-1;;;2747:55:3;;;;;;;;;;;;-1:-1:-1;;;2747:55:3;;;;;;;;;;;;;;;10625:17;10645:5;10651:6;10645:13;;;;;;;;;;;;;;;;;;;;;10668;;;:21;;-1:-1:-1;;10668:21:3;;;10720:18;;10645:13;;-1:-1:-1;10720:25:3;;-1:-1:-1;10720:22:3;:25::i;9619:136::-;9666:17;:25;;-1:-1:-1;;9666:25:3;;;;;9706:42;;;9666:25;9730:17;;;9666:25;9730:17;9706:42;;;;;;;;;;;;;;9619:136::o;1274:179:25:-;1332:7;1364:1;1359;:6;;1351:49;;;;;-1:-1:-1;;;1351:49:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1422:5:25;;;1274:179::o;68:223:12:-;;;;;;;;;-1:-1:-1;68:223:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\nimport \"../core/ContestTeamRegistry.sol\";\n\ncontract ContestTeamRegistryMock is ContestTeamRegistry {\n    constructor() public ContestTeamRegistry() {}\n\n    function getApprovedTeamsCount() external view returns (uint256) {\n        return approvedTeamsCount;\n    }\n\n}\n",
-  "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol",
+  "sourcePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol",
   "ast": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol",
+    "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol",
     "exportedSymbols": {
-      "ContestTeamRegistryMock": [2651]
+      "ContestTeamRegistryMock": [2656]
     },
-    "id": 2652,
+    "id": 2657,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2633,
+        "id": 2638,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:13"
+        "src": "0:23:12"
       },
       {
-        "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol",
+        "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol",
         "file": "../core/ContestTeamRegistry.sol",
-        "id": 2634,
+        "id": 2639,
         "nodeType": "ImportDirective",
-        "scope": 2652,
+        "scope": 2657,
         "sourceUnit": 1699,
-        "src": "25:41:13",
+        "src": "25:41:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -415,133 +458,133 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2635,
+              "id": 2640,
               "name": "ContestTeamRegistry",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 1698,
-              "src": "104:19:13",
+              "src": "104:19:12",
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_ContestTeamRegistry_$1698",
                 "typeString": "contract ContestTeamRegistry"
               }
             },
-            "id": 2636,
+            "id": 2641,
             "nodeType": "InheritanceSpecifier",
-            "src": "104:19:13"
+            "src": "104:19:12"
           }
         ],
         "contractDependencies": [1698],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2651,
-        "linearizedBaseContracts": [2651, 1698],
+        "id": 2656,
+        "linearizedBaseContracts": [2656, 1698],
         "name": "ContestTeamRegistryMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2641,
+              "id": 2646,
               "nodeType": "Block",
-              "src": "173:2:13",
+              "src": "173:2:12",
               "statements": []
             },
             "documentation": null,
-            "id": 2642,
+            "id": 2647,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2639,
+                "id": 2644,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2638,
+                  "id": 2643,
                   "name": "ContestTeamRegistry",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 1698,
-                  "src": "151:19:13",
+                  "src": "151:19:12",
                   "typeDescriptions": {
                     "typeIdentifier": "t_type$_t_contract$_ContestTeamRegistry_$1698_$",
                     "typeString": "type(contract ContestTeamRegistry)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "151:21:13"
+                "src": "151:21:12"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2637,
+              "id": 2642,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "141:2:13"
+              "src": "141:2:12"
             },
             "returnParameters": {
-              "id": 2640,
+              "id": 2645,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "173:0:13"
+              "src": "173:0:12"
             },
-            "scope": 2651,
-            "src": "130:45:13",
+            "scope": 2656,
+            "src": "130:45:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2649,
+              "id": 2654,
               "nodeType": "Block",
-              "src": "246:42:13",
+              "src": "246:42:12",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2647,
+                    "id": 2652,
                     "name": "approvedTeamsCount",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 1094,
-                    "src": "263:18:13",
+                    "src": "263:18:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2646,
-                  "id": 2648,
+                  "functionReturnParameters": 2651,
+                  "id": 2653,
                   "nodeType": "Return",
-                  "src": "256:25:13"
+                  "src": "256:25:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 2650,
+            "id": 2655,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getApprovedTeamsCount",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2643,
+              "id": 2648,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "211:2:13"
+              "src": "211:2:12"
             },
             "returnParameters": {
-              "id": 2646,
+              "id": 2651,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2645,
+                  "id": 2650,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2650,
-                  "src": "237:7:13",
+                  "scope": 2655,
+                  "src": "237:7:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -549,10 +592,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2644,
+                    "id": 2649,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "237:7:13",
+                    "src": "237:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -562,43 +605,43 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "236:9:13"
+              "src": "236:9:12"
             },
-            "scope": 2651,
-            "src": "181:107:13",
+            "scope": 2656,
+            "src": "181:107:12",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 2652,
-        "src": "68:223:13"
+        "scope": 2657,
+        "src": "68:223:12"
       }
     ],
-    "src": "0:292:13"
+    "src": "0:292:12"
   },
   "legacyAST": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol",
+    "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/ContestTeamRegistryMock.sol",
     "exportedSymbols": {
-      "ContestTeamRegistryMock": [2651]
+      "ContestTeamRegistryMock": [2656]
     },
-    "id": 2652,
+    "id": 2657,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2633,
+        "id": 2638,
         "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:13"
+        "src": "0:23:12"
       },
       {
-        "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol",
+        "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol",
         "file": "../core/ContestTeamRegistry.sol",
-        "id": 2634,
+        "id": 2639,
         "nodeType": "ImportDirective",
-        "scope": 2652,
+        "scope": 2657,
         "sourceUnit": 1699,
-        "src": "25:41:13",
+        "src": "25:41:12",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -608,133 +651,133 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2635,
+              "id": 2640,
               "name": "ContestTeamRegistry",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 1698,
-              "src": "104:19:13",
+              "src": "104:19:12",
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_ContestTeamRegistry_$1698",
                 "typeString": "contract ContestTeamRegistry"
               }
             },
-            "id": 2636,
+            "id": 2641,
             "nodeType": "InheritanceSpecifier",
-            "src": "104:19:13"
+            "src": "104:19:12"
           }
         ],
         "contractDependencies": [1698],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 2651,
-        "linearizedBaseContracts": [2651, 1698],
+        "id": 2656,
+        "linearizedBaseContracts": [2656, 1698],
         "name": "ContestTeamRegistryMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2641,
+              "id": 2646,
               "nodeType": "Block",
-              "src": "173:2:13",
+              "src": "173:2:12",
               "statements": []
             },
             "documentation": null,
-            "id": 2642,
+            "id": 2647,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2639,
+                "id": 2644,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 2638,
+                  "id": 2643,
                   "name": "ContestTeamRegistry",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 1698,
-                  "src": "151:19:13",
+                  "src": "151:19:12",
                   "typeDescriptions": {
                     "typeIdentifier": "t_type$_t_contract$_ContestTeamRegistry_$1698_$",
                     "typeString": "type(contract ContestTeamRegistry)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "151:21:13"
+                "src": "151:21:12"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2637,
+              "id": 2642,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "141:2:13"
+              "src": "141:2:12"
             },
             "returnParameters": {
-              "id": 2640,
+              "id": 2645,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "173:0:13"
+              "src": "173:0:12"
             },
-            "scope": 2651,
-            "src": "130:45:13",
+            "scope": 2656,
+            "src": "130:45:12",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2649,
+              "id": 2654,
               "nodeType": "Block",
-              "src": "246:42:13",
+              "src": "246:42:12",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 2647,
+                    "id": 2652,
                     "name": "approvedTeamsCount",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 1094,
-                    "src": "263:18:13",
+                    "src": "263:18:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2646,
-                  "id": 2648,
+                  "functionReturnParameters": 2651,
+                  "id": 2653,
                   "nodeType": "Return",
-                  "src": "256:25:13"
+                  "src": "256:25:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 2650,
+            "id": 2655,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getApprovedTeamsCount",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2643,
+              "id": 2648,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "211:2:13"
+              "src": "211:2:12"
             },
             "returnParameters": {
-              "id": 2646,
+              "id": 2651,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2645,
+                  "id": 2650,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2650,
-                  "src": "237:7:13",
+                  "scope": 2655,
+                  "src": "237:7:12",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -742,10 +785,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2644,
+                    "id": 2649,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "237:7:13",
+                    "src": "237:7:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -755,28 +798,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "236:9:13"
+              "src": "236:9:12"
             },
-            "scope": 2651,
-            "src": "181:107:13",
+            "scope": 2656,
+            "src": "181:107:12",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 2652,
-        "src": "68:223:13"
+        "scope": 2657,
+        "src": "68:223:12"
       }
     ],
-    "src": "0:292:13"
+    "src": "0:292:12"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T21:53:16.841Z",
+  "schemaVersion": "3.0.20",
+  "updatedAt": "2020-01-30T11:34:10.507Z",
   "devdoc": {
     "methods": {
       "approveTeam(uint256)": {

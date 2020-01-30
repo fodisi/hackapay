@@ -2,45 +2,6 @@
   "contractName": "ContestTeamRegistry",
   "abi": [
     {
-      "constant": true,
-      "inputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "name": "teams",
-      "outputs": [
-        {
-          "name": "id",
-          "type": "uint256"
-        },
-        {
-          "name": "name",
-          "type": "bytes32"
-        },
-        {
-          "name": "teamAddress",
-          "type": "address"
-        },
-        {
-          "name": "proposalData",
-          "type": "bytes32"
-        },
-        {
-          "name": "approved",
-          "type": "bool"
-        },
-        {
-          "name": "grade",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
@@ -50,34 +11,8 @@
       "anonymous": false,
       "inputs": [
         {
-          "indexed": true,
-          "name": "teamId",
-          "type": "uint256"
-        },
-        {
           "indexed": false,
-          "name": "teamName",
-          "type": "bytes32"
-        },
-        {
-          "indexed": true,
-          "name": "teamAddress",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "name": "approved",
-          "type": "bool"
-        }
-      ],
-      "name": "TeamRegistered",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
+          "internalType": "bool",
           "name": "enabled",
           "type": "bool"
         }
@@ -90,6 +25,7 @@
       "inputs": [
         {
           "indexed": false,
+          "internalType": "bool",
           "name": "enabled",
           "type": "bool"
         }
@@ -102,16 +38,19 @@
       "inputs": [
         {
           "indexed": true,
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         },
         {
           "indexed": true,
+          "internalType": "address",
           "name": "teamAddress",
           "type": "address"
         },
         {
           "indexed": false,
+          "internalType": "bytes32",
           "name": "proposalData",
           "type": "bytes32"
         }
@@ -124,16 +63,50 @@
       "inputs": [
         {
           "indexed": true,
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         },
         {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "teamName",
+          "type": "bytes32"
+        },
+        {
           "indexed": true,
+          "internalType": "address",
           "name": "teamAddress",
           "type": "address"
         },
         {
           "indexed": false,
+          "internalType": "bool",
+          "name": "approved",
+          "type": "bool"
+        }
+      ],
+      "name": "TeamRegistered",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "teamId",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "teamAddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
           "name": "approved",
           "type": "bool"
         }
@@ -145,6 +118,53 @@
       "constant": true,
       "inputs": [
         {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "teams",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "id",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "name",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "teamAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "proposalData",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "approved",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "grade",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         }
@@ -152,22 +172,27 @@
       "name": "getTeam",
       "outputs": [
         {
+          "internalType": "bytes32",
           "name": "",
           "type": "bytes32"
         },
         {
+          "internalType": "address",
           "name": "",
           "type": "address"
         },
         {
+          "internalType": "bytes32",
           "name": "",
           "type": "bytes32"
         },
         {
+          "internalType": "bool",
           "name": "",
           "type": "bool"
         },
         {
+          "internalType": "uint256",
           "name": "",
           "type": "uint256"
         }
@@ -180,6 +205,7 @@
       "constant": true,
       "inputs": [
         {
+          "internalType": "address",
           "name": "teamAddress",
           "type": "address"
         }
@@ -187,22 +213,27 @@
       "name": "getTeamByAddress",
       "outputs": [
         {
+          "internalType": "bytes32",
           "name": "",
           "type": "bytes32"
         },
         {
+          "internalType": "address",
           "name": "",
           "type": "address"
         },
         {
+          "internalType": "bytes32",
           "name": "",
           "type": "bytes32"
         },
         {
+          "internalType": "bool",
           "name": "",
           "type": "bool"
         },
         {
+          "internalType": "uint256",
           "name": "",
           "type": "uint256"
         }
@@ -215,14 +246,17 @@
       "constant": false,
       "inputs": [
         {
+          "internalType": "bytes32",
           "name": "teamName",
           "type": "bytes32"
         },
         {
+          "internalType": "address",
           "name": "teamAddress",
           "type": "address"
         },
         {
+          "internalType": "bytes32",
           "name": "proposalData",
           "type": "bytes32"
         }
@@ -230,6 +264,7 @@
       "name": "registerTeam",
       "outputs": [
         {
+          "internalType": "uint256",
           "name": "",
           "type": "uint256"
         }
@@ -242,10 +277,12 @@
       "constant": false,
       "inputs": [
         {
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         },
         {
+          "internalType": "bytes32",
           "name": "proposalData",
           "type": "bytes32"
         }
@@ -280,6 +317,7 @@
       "name": "getRegistrationStatus",
       "outputs": [
         {
+          "internalType": "bool",
           "name": "",
           "type": "bool"
         }
@@ -312,6 +350,7 @@
       "name": "getSubmissionStatus",
       "outputs": [
         {
+          "internalType": "bool",
           "name": "",
           "type": "bool"
         }
@@ -324,6 +363,7 @@
       "constant": false,
       "inputs": [
         {
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         }
@@ -338,6 +378,7 @@
       "constant": false,
       "inputs": [
         {
+          "internalType": "uint256[]",
           "name": "teamIds",
           "type": "uint256[]"
         }
@@ -352,6 +393,7 @@
       "constant": false,
       "inputs": [
         {
+          "internalType": "uint256",
           "name": "teamId",
           "type": "uint256"
         }
@@ -363,15 +405,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"getTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"approveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamIds\",\"type\":\"uint256[]\"}],\"name\":\"reproveTeams\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"teams\",\"outputs\":[{\"name\":\"id\",\"type\":\"uint256\"},{\"name\":\"name\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"},{\"name\":\"approved\",\"type\":\"bool\"},{\"name\":\"grade\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"teamAddress\",\"type\":\"address\"}],\"name\":\"getTeamByAddress\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"address\"},{\"name\":\"\",\"type\":\"bytes32\"},{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSubmissionStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamName\",\"type\":\"bytes32\"},{\"name\":\"teamAddress\",\"type\":\"address\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"registerTeam\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRegistrationStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"},{\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"updateProposalData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"reproveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"teamName\",\"type\":\"bytes32\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"RegistrationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"SubmissionStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"TeamProposalUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamStatusUpdated\",\"type\":\"event\"}],\"devdoc\":{\"details\":\"TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct. Future improvements: TODO: Add struct to identify team members. TODO: Possibility to request a msg.value for members to signup for contest. TODO: Ability to refund members once they show up to contest. TODO: Add mapping for team members.\",\"methods\":{\"approveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be approved\"}},\"closeRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"closeSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"constructor\":{\"details\":\"This class needs to be inherited.\"},\"getRegistrationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getSubmissionStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getTeam(uint256)\":{\"params\":{\"teamId\":\"{uint256} the team's unique identifier returned on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getTeamByAddress(address)\":{\"params\":{\"teamAddress\":\"{address} the team's contract address used on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"openRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"openSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"registerTeam(bytes32,address,bytes32)\":{\"details\":\"Registration process must be open.\",\"params\":{\"teamName\":\"{bytes32} team's proposal data; could be a hash for a file  on IPFS or for a github link; not required\"}},\"reproveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be reproved\"}},\"reproveTeams(uint256[])\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamIds\":\"{uint256[]} an array containing the ids of the teams to be reproved\"}},\"updateProposalData(uint256,bytes32)\":{\"params\":{\"proposalData\":\"the updated data for the team's proposal\",\"teamId\":\"team's unique identifier; required\"}}}},\"userdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"notice\":\"(re)approves a team in participating in the contest\"},\"closeRegistration()\":{\"notice\":\"Closes the registration process\"},\"closeSubmission()\":{\"notice\":\"Closes the proposal submission process\"},\"getRegistrationStatus()\":{\"notice\":\"Gets the registration status\"},\"getSubmissionStatus()\":{\"notice\":\"Gets the submission status\"},\"getTeam(uint256)\":{\"notice\":\"Returns the stored information of a team\"},\"getTeamByAddress(address)\":{\"notice\":\"Returns the stored information of a team, based on a provided address\"},\"openRegistration()\":{\"notice\":\"Opens the registration process\"},\"openSubmission()\":{\"notice\":\"Opens the proposal submission process\"},\"registerTeam(bytes32,address,bytes32)\":{\"notice\":\"Registers a new team in the contest registry.\"},\"reproveTeam(uint256)\":{\"notice\":\"reproves a team from participating in the contest\"},\"reproveTeams(uint256[])\":{\"notice\":\"reprove teams from participating in the contest\"},\"updateProposalData(uint256,bytes32)\":{\"notice\":\"Updates the proposal data for a specific team.\"}},\"notice\":\"Controls the registration of teams and the subsequent proposal submission process of the teams participating in a contest.\"}},\"settings\":{\"compilationTarget\":{\"/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol\":\"ContestTeamRegistry\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol\":{\"keccak256\":\"0x95995388083fbaa2dbb256cfd12d775c0e7da755052b3e6322fc56cc5b28836f\",\"urls\":[\"bzzr://dae0a383e182d7ea591ffb7aaee3e15ef6fbcd1720d4454faced06ce21bf6b90\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzzr://1604f5b6d6e916c154efd8c6720cda069e5ba32dfa0a9dedf2b42e5b02d07f89\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"RegistrationStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"enabled\",\"type\":\"bool\"}],\"name\":\"SubmissionStatusUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"TeamProposalUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bytes32\",\"name\":\"teamName\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"}],\"name\":\"TeamStatusUpdated\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"approveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"closeSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRegistrationStatus\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSubmissionStatus\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"getTeam\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"}],\"name\":\"getTeamByAddress\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openRegistration\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"openSubmission\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"teamName\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"registerTeam\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"}],\"name\":\"reproveTeam\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"teamIds\",\"type\":\"uint256[]\"}],\"name\":\"reproveTeams\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"teams\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"bytes32\",\"name\":\"name\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"teamAddress\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"},{\"internalType\":\"bool\",\"name\":\"approved\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"grade\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"teamId\",\"type\":\"uint256\"},{\"internalType\":\"bytes32\",\"name\":\"proposalData\",\"type\":\"bytes32\"}],\"name\":\"updateProposalData\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct. Future improvements: TODO: Add struct to identify team members. TODO: Possibility to request a msg.value for members to signup for contest. TODO: Ability to refund members once they show up to contest. TODO: Add mapping for team members.\",\"methods\":{\"approveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be approved\"}},\"closeRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"closeSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"constructor\":{\"details\":\"This class needs to be inherited.\"},\"getRegistrationStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getSubmissionStatus()\":{\"return\":\"{bool} returns {true} if enabled; otherwise, {false}.\"},\"getTeam(uint256)\":{\"params\":{\"teamId\":\"{uint256} the team's unique identifier returned on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"getTeamByAddress(address)\":{\"params\":{\"teamAddress\":\"{address} the team's contract address used on registration\"},\"return\":\"{bytes32} team's name{address} team's address{bytes32} team's proposal data{bool} team's status: {true} for approved; {false} for reproved;{uint256} team's grade\"},\"openRegistration()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"openSubmission()\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\"},\"registerTeam(bytes32,address,bytes32)\":{\"details\":\"Registration process must be open.\",\"params\":{\"teamName\":\"{bytes32} team's proposal data; could be a hash for a file  on IPFS or for a github link; not required\"}},\"reproveTeam(uint256)\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamId\":\"{uint256} the ids of the teams to be reproved\"}},\"reproveTeams(uint256[])\":{\"details\":\"Should be overwritten on inherited contract to add modifier or require statements for access control.\",\"params\":{\"teamIds\":\"{uint256[]} an array containing the ids of the teams to be reproved\"}},\"updateProposalData(uint256,bytes32)\":{\"params\":{\"proposalData\":\"the updated data for the team's proposal\",\"teamId\":\"team's unique identifier; required\"}}}},\"userdoc\":{\"methods\":{\"approveTeam(uint256)\":{\"notice\":\"(re)approves a team in participating in the contest\"},\"closeRegistration()\":{\"notice\":\"Closes the registration process\"},\"closeSubmission()\":{\"notice\":\"Closes the proposal submission process\"},\"getRegistrationStatus()\":{\"notice\":\"Gets the registration status\"},\"getSubmissionStatus()\":{\"notice\":\"Gets the submission status\"},\"getTeam(uint256)\":{\"notice\":\"Returns the stored information of a team\"},\"getTeamByAddress(address)\":{\"notice\":\"Returns the stored information of a team, based on a provided address\"},\"openRegistration()\":{\"notice\":\"Opens the registration process\"},\"openSubmission()\":{\"notice\":\"Opens the proposal submission process\"},\"registerTeam(bytes32,address,bytes32)\":{\"notice\":\"Registers a new team in the contest registry.\"},\"reproveTeam(uint256)\":{\"notice\":\"reproves a team from participating in the contest\"},\"reproveTeams(uint256[])\":{\"notice\":\"reprove teams from participating in the contest\"},\"updateProposalData(uint256,bytes32)\":{\"notice\":\"Updates the proposal data for a specific team.\"}},\"notice\":\"Controls the registration of teams and the subsequent proposal submission process of the teams participating in a contest.\"}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol\":\"ContestTeamRegistry\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol\":{\"keccak256\":\"0x95995388083fbaa2dbb256cfd12d775c0e7da755052b3e6322fc56cc5b28836f\",\"urls\":[\"bzz-raw://77979a86ff0e2df9c610b111cc7ebae4d6fd1cc3e313fbd1f6a0822dcd94123f\",\"dweb:/ipfs/QmcrcszBfQnfUPJfpjG2N98GZAShTNVdAsgNq5CskfVC12\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x4ccf2d7b51873db1ccfd54ca2adae5eac3b184f9699911ed4490438419f1c690\",\"urls\":[\"bzz-raw://d62d769b2219d5de39013093412623e624fa887f871826ea3bae6052ee893610\",\"dweb:/ipfs/QmV3yVktya1s617QmuzQR2CfuJgUi3dR2xEZY9ecmqZ2G1\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\nimport \"openzeppelin-solidity/contracts/math/SafeMath.sol\";\n\n/**\n    @notice Controls the registration of teams and the subsequent proposal submission process\n    of the teams participating in a contest.\n    @dev TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct.\n    Future improvements:\n    TODO: Add struct to identify team members.\n    TODO: Possibility to request a msg.value for members to signup for contest.\n    TODO: Ability to refund members once they show up to contest.\n    TODO: Add mapping for team members.\n */\ncontract ContestTeamRegistry {\n    using SafeMath for uint256;\n\n    /// @notice Represents a team participating in a contest.\n    struct Team {\n        uint256 id;\n        bytes32 name;\n        address teamAddress;\n        bytes32 proposalData;\n        bool approved;\n        uint256 grade; //FIXME: scale down to a smaller uint type.\n    }\n\n    // Team's helpers\n    // mapping(uint256 => Team) internal teamById;\n    mapping(address => Team) internal teamByAddress;\n    Team[] public teams;\n    uint256 internal approvedTeamsCount;\n    bool internal registrationEnabled;\n    bool internal submissionEnabled;\n\n    /// @dev emitted when a new team is registered\n    event TeamRegistered(uint256 indexed teamId, bytes32 teamName, address indexed teamAddress, bool approved);\n    /// @dev emitted when a the registration process is updated. See {openRegistration()} and {closeRegistration()}\n    event RegistrationStatusUpdated(bool enabled);\n    /// @dev emitted when a the submission process is updated. See {openSubmission()} and {closeSubmission()}\n    event SubmissionStatusUpdated(bool enabled);\n    /// @dev emitted when a team's proposal data is updated. See {updateProposalData}\n    event TeamProposalUpdated(uint256 indexed teamId, address indexed teamAddress, bytes32 proposalData);\n    /// @dev emitted when a team's status is updated. See {approveTeam} and {reproveTeam}\n    event TeamStatusUpdated(uint256 indexed teamId, address indexed teamAddress, bool approved);\n\n    modifier registrationIsOpen() {\n        require(registrationEnabled, \"Registration is closed\");\n        _;\n    }\n\n    modifier registrationIsClosed() {\n        require(!registrationEnabled, \"Registration is open\");\n        _;\n    }\n\n    modifier submissionIsOpen() {\n        require(submissionEnabled, \"Submission is closed\");\n        _;\n    }\n\n    modifier submissionIsClosed() {\n        require(!submissionEnabled, \"Submission is open\");\n        _;\n    }\n\n    modifier validTeamId(uint256 teamId) {\n        require(isValidTeamId(teamId), \"Invalid team id\");\n        _;\n    }\n\n    modifier teamIsApproved(uint256 teamId) {\n        require(isTeamApproved(teamId), \"Team is not approved\");\n        _;\n    }\n\n    modifier teamIsReproved(uint256 teamId) {\n        require(!isTeamApproved(teamId), \"Team is not reproved.\");\n        _;\n    }\n\n    ///@dev This class needs to be inherited.\n    constructor() internal {}\n\n    /**\n        @notice Returns the stored information of a team\n        @param teamId {uint256} the team's unique identifier returned on registration\n        @return {bytes32} team's name\n        @return {address} team's address\n        @return {bytes32} team's proposal data\n        @return {bool} team's status: {true} for approved; {false} for reproved;\n        @return {uint256} team's grade\n     */\n    function getTeam(uint256 teamId)\n        public\n        view\n        validTeamId(teamId)\n        returns (bytes32, address, bytes32, bool, uint256)\n    {\n        Team memory team = teams[teamId];\n        return (team.name, team.teamAddress, team.proposalData, team.approved, team.grade);\n    }\n\n    /**\n        @notice Returns the stored information of a team, based on a provided address\n        @param teamAddress {address} the team's contract address used on registration\n        @return {bytes32} team's name\n        @return {address} team's address\n        @return {bytes32} team's proposal data\n        @return {bool} team's status: {true} for approved; {false} for reproved;\n        @return {uint256} team's grade\n     */\n    function getTeamByAddress(address teamAddress) public view returns (bytes32, address, bytes32, bool, uint256) {\n        require(teamAddress != address(0), \"Invalid zero address\");\n        Team memory team = teamByAddress[teamAddress];\n        return (team.name, team.teamAddress, team.proposalData, team.approved, team.grade);\n    }\n\n    /**\n        @notice Registers a new team in the contest registry.\n        @dev Registration process must be open.\n        @param teamName {bytes32} team's name; required\n        @param teamName {bytes32} team's name; required\n        @param teamName {bytes32} team's proposal data; could be a hash for a file \n            on IPFS or for a github link; not required\n     */\n    function registerTeam(bytes32 teamName, address teamAddress, bytes32 proposalData)\n        external\n        registrationIsOpen\n        returns (uint256)\n    {\n        require(teamName[0] != 0, \"Team name cannot be empty\");\n        require(teamAddress != address(0), \"Team address cannot be zero\");\n        require(teamByAddress[teamAddress].teamAddress == address(0), \"Team already registered\");\n        uint256 teamId = teams.length;\n        // Teams are initialy approved. Based on expectation that most teams would be approved to participate in the contest,\n        // avoiding organizers to send multiple or incurring in additional transaction cost to approve the majority of teams.\n        // If needed, organizers can send transactions to reprove teams (less transactions == less cost);\n        Team memory team = Team(teamId, teamName, teamAddress, proposalData, true, 0);\n        teams.push(team);\n        teamByAddress[teamAddress] = teams[teamId];\n        approvedTeamsCount = approvedTeamsCount.add(1);\n        emit TeamRegistered(teamId, teamName, teamAddress, true);\n        return teamId;\n    }\n\n    /**\n        @notice Updates the proposal data for a specific team.\n        @param teamId team's unique identifier; required\n        @param proposalData the updated data for the team's proposal\n     */\n    function updateProposalData(uint256 teamId, bytes32 proposalData)\n        external\n        validTeamId(teamId)\n        teamIsApproved(teamId)\n        submissionIsOpen\n    {\n        Team storage team = teams[teamId];\n        team.proposalData = proposalData;\n        emit TeamProposalUpdated(team.id, team.teamAddress, team.proposalData);\n    }\n\n    /**\n        @notice Closes the registration process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function closeRegistration() external registrationIsOpen {\n        _closeRegistration();\n    }\n\n    /**\n        @notice Opens the registration process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function openRegistration() external registrationIsClosed {\n        _openRegistration();\n    }\n\n    /**\n        @notice Gets the registration status\n        @return {bool} returns {true} if enabled; otherwise, {false}.\n     */\n    function getRegistrationStatus() external view returns (bool) {\n        return registrationEnabled;\n    }\n\n    /**\n        @notice Closes the proposal submission process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function closeSubmission() external submissionIsOpen {\n        _closeSubmission();\n    }\n\n    /**\n        @notice Opens the proposal submission process\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n     */\n    function openSubmission() external submissionIsClosed {\n        _openSubmission();\n    }\n\n    /**\n        @notice Gets the submission status\n        @return {bool} returns {true} if enabled; otherwise, {false}.\n     */\n    function getSubmissionStatus() external view returns (bool) {\n        return submissionEnabled;\n    }\n\n    /**\n        @notice (re)approves a team in participating in the contest\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n        @param teamId {uint256} the ids of the teams to be approved\n     */\n    function approveTeam(uint256 teamId) external {\n        _approveTeam(teamId);\n    }\n\n    /**\n        @notice reprove teams from participating in the contest\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n        @param teamIds {uint256[]} an array containing the ids of the teams to be reproved\n     */\n    function reproveTeams(uint256[] calldata teamIds) external {\n        _reproveTeams(teamIds);\n    }\n\n    /**\n        @notice reproves a team from participating in the contest\n        @dev Should be overwritten on inherited contract to add modifier or require statements for access control.\n        @param teamId {uint256} the ids of the teams to be reproved\n     */\n    function reproveTeam(uint256 teamId) external {\n        _reproveTeam(teamId);\n    }\n\n    ///@dev internal implementation\n    function _closeRegistration() internal {\n        registrationEnabled = false;\n        emit RegistrationStatusUpdated(registrationEnabled);\n    }\n\n    ///@dev internal implementation\n    function _openRegistration() internal {\n        registrationEnabled = true;\n        emit RegistrationStatusUpdated(registrationEnabled);\n    }\n\n    function _closeSubmission() internal {\n        submissionEnabled = false;\n        emit SubmissionStatusUpdated(submissionEnabled);\n    }\n\n    ///@dev internal implementation\n    function _openSubmission() internal {\n        submissionEnabled = true;\n        emit SubmissionStatusUpdated(submissionEnabled);\n    }\n\n    ///@dev internal implementation\n    function _approveTeam(uint256 teamId) internal validTeamId(teamId) teamIsReproved(teamId) {\n        Team storage team = teams[teamId];\n        team.approved = true;\n        approvedTeamsCount = approvedTeamsCount.add(1);\n        emit TeamStatusUpdated(team.id, team.teamAddress, team.approved);\n    }\n\n    ///@dev internal implementation\n    function _reproveTeams(uint256[] memory teamIds) internal {\n        for (uint256 i = 0; i < teamIds.length; i++) {\n            _reproveTeam(teamIds[i]);\n        }\n    }\n\n    ///@dev internal implementation\n    function _reproveTeam(uint256 teamId) internal validTeamId(teamId) teamIsApproved(teamId) {\n        Team storage team = teams[teamId];\n        team.approved = false;\n        approvedTeamsCount = approvedTeamsCount.sub(1);\n        emit TeamStatusUpdated(team.id, team.teamAddress, team.approved);\n    }\n\n    ///@dev internal implementation\n    function isValidTeamId(uint256 teamId) internal view returns (bool) {\n        return (teamId < teams.length);\n    }\n\n    ///@dev internal implementation\n    function isTeamApproved(uint256 teamId) internal view returns (bool) {\n        if (!isValidTeamId(teamId)) {\n            return false;\n        }\n\n        Team memory team = teams[teamId];\n        return team.approved;\n    }\n}\n",
-  "sourcePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol",
+  "sourcePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol",
   "ast": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol",
+    "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol",
     "exportedSymbols": {
       "ContestTeamRegistry": [1698]
     },
@@ -390,7 +432,7 @@
         "id": 1069,
         "nodeType": "ImportDirective",
         "scope": 1699,
-        "sourceUnit": 4211,
+        "sourceUnit": 4216,
         "src": "25:59:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -413,10 +455,10 @@
               "id": 1070,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4210,
+              "referencedDeclaration": 4215,
               "src": "672:8:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4210",
+                "typeIdentifier": "t_contract$_SafeMath_$4215",
                 "typeString": "library SafeMath"
               }
             },
@@ -1222,8 +1264,8 @@
                       "id": 1134,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2155:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1340,8 +1382,8 @@
                       "id": 1143,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2275:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1442,8 +1484,8 @@
                       "id": 1153,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2390:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1560,8 +1602,8 @@
                       "id": 1162,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2504:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1698,8 +1740,8 @@
                       "id": 1174,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2624:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1863,8 +1905,8 @@
                       "id": 1187,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2747:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2044,8 +2086,8 @@
                       "id": 1200,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2876:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2750,8 +2792,8 @@
                       "id": 1266,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "4292:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3332,8 +3374,8 @@
                       "id": 1307,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "5054:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3483,8 +3525,8 @@
                       "id": 1316,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "5118:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3677,8 +3719,8 @@
                       "id": 1325,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "5193:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -4188,7 +4230,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4104,
+                        "referencedDeclaration": 4109,
                         "src": "5874:22:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -6583,7 +6625,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4104,
+                        "referencedDeclaration": 4109,
                         "src": "10167:22:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -7402,7 +7444,7 @@
                         "lValueRequested": false,
                         "memberName": "sub",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4129,
+                        "referencedDeclaration": 4134,
                         "src": "10720:22:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -8169,7 +8211,7 @@
     "src": "0:11251:3"
   },
   "legacyAST": {
-    "absolutePath": "/home/odisi/dev/projects/hackapay/contracts/core/ContestTeamRegistry.sol",
+    "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/core/ContestTeamRegistry.sol",
     "exportedSymbols": {
       "ContestTeamRegistry": [1698]
     },
@@ -8188,7 +8230,7 @@
         "id": 1069,
         "nodeType": "ImportDirective",
         "scope": 1699,
-        "sourceUnit": 4211,
+        "sourceUnit": 4216,
         "src": "25:59:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -8211,10 +8253,10 @@
               "id": 1070,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4210,
+              "referencedDeclaration": 4215,
               "src": "672:8:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4210",
+                "typeIdentifier": "t_contract$_SafeMath_$4215",
                 "typeString": "library SafeMath"
               }
             },
@@ -9020,8 +9062,8 @@
                       "id": 1134,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2155:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9138,8 +9180,8 @@
                       "id": 1143,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2275:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9240,8 +9282,8 @@
                       "id": 1153,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2390:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9358,8 +9400,8 @@
                       "id": 1162,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2504:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9496,8 +9538,8 @@
                       "id": 1174,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2624:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9661,8 +9703,8 @@
                       "id": 1187,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2747:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -9842,8 +9884,8 @@
                       "id": 1200,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "2876:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -10548,8 +10590,8 @@
                       "id": 1266,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "4292:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -11130,8 +11172,8 @@
                       "id": 1307,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "5054:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -11281,8 +11323,8 @@
                       "id": 1316,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "5118:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -11475,8 +11517,8 @@
                       "id": 1325,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4228, 4229],
-                      "referencedDeclaration": 4229,
+                      "overloadedDeclarations": [4233, 4234],
+                      "referencedDeclaration": 4234,
                       "src": "5193:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -11986,7 +12028,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4104,
+                        "referencedDeclaration": 4109,
                         "src": "5874:22:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -14381,7 +14423,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4104,
+                        "referencedDeclaration": 4109,
                         "src": "10167:22:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -15200,7 +15242,7 @@
                         "lValueRequested": false,
                         "memberName": "sub",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4129,
+                        "referencedDeclaration": 4134,
                         "src": "10720:22:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -15968,11 +16010,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-31T21:53:16.743Z",
+  "schemaVersion": "3.0.20",
+  "updatedAt": "2020-01-30T11:34:10.457Z",
   "devdoc": {
     "details": "TODO: {registerTeam} to create ContestTeam contracts on blockchain and storage contract's address as {teamAddress} on Team struct. Future improvements: TODO: Add struct to identify team members. TODO: Possibility to request a msg.value for members to signup for contest. TODO: Ability to refund members once they show up to contest. TODO: Add mapping for team members.",
     "methods": {
