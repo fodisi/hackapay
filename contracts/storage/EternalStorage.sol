@@ -22,7 +22,7 @@
 
 // Source: https://github.com/PolymathNetwork/polymath-core/blob/master/contracts/storage/EternalStorage.sol
 
-pragma solidity ^0.5.0;
+pragma solidity 0.5.16;
 
 /**
  * @notice Stores and retrieves state data. It allows other contracts to implement better

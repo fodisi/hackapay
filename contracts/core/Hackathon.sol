@@ -1,6 +1,6 @@
-pragma solidity ^0.5.0;
+pragma solidity 0.5.16;
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts/math/SafeMath.sol";
 
 import "./ContestBracketRegistry.sol";
 import "../payment/Payable.sol";

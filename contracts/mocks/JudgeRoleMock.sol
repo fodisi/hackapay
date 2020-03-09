@@ -23,7 +23,7 @@
 
 // Based on OpenZeppelin's https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/mocks/MinterRoleMock.sol
 
-pragma solidity ^0.5.0;
+pragma solidity 0.5.16;
 
 import "../roles/JudgeRole.sol";
 

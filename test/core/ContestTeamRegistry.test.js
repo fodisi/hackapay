@@ -1,4 +1,4 @@
-const {expectRevert, expectEvent} = require("openzeppelin-test-helpers");
+const {expectRevert, expectEvent} = require("@openzeppelin/test-helpers");
 const {expect} = require("chai");
 const BigNumber = require("bignumber.js");
 

@@ -36,34 +36,34 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"datetime\",\"type\":\"uint256\"}],\"name\":\"Deposit\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"deposit()\":{\"notice\":\"Allows the contract to receive funds.\"}},\"notice\":\"A contract that can receive funds/deposits.\"}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/Payable.sol\":\"Payable\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol\":{\"keccak256\":\"0x49e6a16932e8828c2ece3b77a4c7591154387269fd2a903a0604910e338a9193\",\"urls\":[\"bzz-raw://84819cf6e31a93fc0df8ec71b4ce244b011f9a63add21605aa1d60c5eaaccebd\",\"dweb:/ipfs/QmWWJhsqU7ZxUzBoegMY4YZYjWysua69Gyn67okU1UvfX7\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/Payable.sol\":{\"keccak256\":\"0x7de3e12a72891731a3f10f0fccb8d321dfef6efdaa35566abb61025f6615b868\",\"urls\":[\"bzz-raw://874b6845575ee70b26dde0287396a15778f67fb33959e40908deda42377be6af\",\"dweb:/ipfs/Qmd4akc8NWL6Ku24kbpd12RyCVFn9zMjctNExYK2Qs1zm9\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b5060f58061001e6000396000f3fe608060405260043610601c5760003560e01c8063d0e30db0146021575b600080fd5b60276029565b005b6000341160665760405162461bcd60e51b815260040180806020018281038252602181526020018060a06021913960400191505060405180910390fd5b604080513481529051429133917f90890809c654f11d6e72a28fa60149770a0d11ec6c92319d6ceb2bb0a4ea1a159181900360200190a356fe6d73672e76616c7565206d757374206265206772656174686572207468616e2030a265627a7a72315820b4c7f61b5d54ceb5d6eccbc54933fef0bed41cd4318670f7636d4cfe22a236e064736f6c634300050c0032",
-  "deployedBytecode": "0x608060405260043610601c5760003560e01c8063d0e30db0146021575b600080fd5b60276029565b005b6000341160665760405162461bcd60e51b815260040180806020018281038252602181526020018060a06021913960400191505060405180910390fd5b604080513481529051429133917f90890809c654f11d6e72a28fa60149770a0d11ec6c92319d6ceb2bb0a4ea1a159181900360200190a356fe6d73672e76616c7565206d757374206265206772656174686572207468616e2030a265627a7a72315820b4c7f61b5d54ceb5d6eccbc54933fef0bed41cd4318670f7636d4cfe22a236e064736f6c634300050c0032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"datetime\",\"type\":\"uint256\"}],\"name\":\"Deposit\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"deposit()\":{\"notice\":\"Allows the contract to receive funds.\"}},\"notice\":\"A contract that can receive funds/deposits.\"}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/Payable.sol\":\"Payable\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol\":{\"keccak256\":\"0xb94cf25b516d077f8b3070bd3334aaedeb6bb4d5ddd025f196800b06f622b4db\",\"urls\":[\"bzz-raw://bd43ea25ee0e2f607a72550c26f8f43ae258412ddeabd80c5c1d536c850db665\",\"dweb:/ipfs/QmTPY3dX8FDwh4V6EBSGohiGoFMGrii3zE3u2vQfmbnehp\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/Payable.sol\":{\"keccak256\":\"0x6eac2d42c4537946f2895a68e7e0923e6c448dbed9374a8a14643fc0405f5598\",\"urls\":[\"bzz-raw://046a8e0ebad9e8a6544c10d650c75f6d285b33bc79bdb7271ce20f526264a4de\",\"dweb:/ipfs/QmWmSAMe957bMfBkEB67KyAbX3STyYQSG3xo5DLjprVAxC\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060f58061001e6000396000f3fe608060405260043610601c5760003560e01c8063d0e30db0146021575b600080fd5b60276029565b005b6000341160665760405162461bcd60e51b815260040180806020018281038252602181526020018060a06021913960400191505060405180910390fd5b604080513481529051429133917f90890809c654f11d6e72a28fa60149770a0d11ec6c92319d6ceb2bb0a4ea1a159181900360200190a356fe6d73672e76616c7565206d757374206265206772656174686572207468616e2030a265627a7a72315820850c23a1cc4ce45f57069dee2e6c0ebc532295f8cbffc38aa1c51939abb3ef9f64736f6c63430005100032",
+  "deployedBytecode": "0x608060405260043610601c5760003560e01c8063d0e30db0146021575b600080fd5b60276029565b005b6000341160665760405162461bcd60e51b815260040180806020018281038252602181526020018060a06021913960400191505060405180910390fd5b604080513481529051429133917f90890809c654f11d6e72a28fa60149770a0d11ec6c92319d6ceb2bb0a4ea1a159181900360200190a356fe6d73672e76616c7565206d757374206265206772656174686572207468616e2030a265627a7a72315820850c23a1cc4ce45f57069dee2e6c0ebc532295f8cbffc38aa1c51939abb3ef9f64736f6c63430005100032",
   "sourceMap": "107:405:18:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;107:405:18;;;;;;;",
   "deployedSourceMap": "107:405:18:-;;;;;;;;;;;;;;;;;;;;;348:162;;;:::i;:::-;;;414:1;402:9;:13;394:59;;;;-1:-1:-1;;;394:59:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;468:35;;;488:9;468:35;;;;499:3;;476:10;;468:35;;;;;;;;;348:162::o",
-  "source": "pragma solidity ^0.5.0;\n\nimport \"./IPayable.sol\";\n\n/// @notice A contract that can receive funds/deposits.\ncontract Payable is IPayable {\n    /// @notice Event emitted when the contract receives a deposit.\n    event Deposit(address indexed from, uint256 amount, uint256 indexed datetime);\n\n    /// @notice Allows the contract to receive funds.\n    function deposit() external payable {\n        require(msg.value > 0, \"msg.value must be greather than 0\");\n        emit Deposit(msg.sender, msg.value, now);\n    }\n}\n",
+  "source": "pragma solidity 0.5.16;\n\nimport \"./IPayable.sol\";\n\n/// @notice A contract that can receive funds/deposits.\ncontract Payable is IPayable {\n    /// @notice Event emitted when the contract receives a deposit.\n    event Deposit(address indexed from, uint256 amount, uint256 indexed datetime);\n\n    /// @notice Allows the contract to receive funds.\n    function deposit() external payable {\n        require(msg.value > 0, \"msg.value must be greather than 0\");\n        emit Deposit(msg.sender, msg.value, now);\n    }\n}\n",
   "sourcePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/Payable.sol",
   "ast": {
     "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/Payable.sol",
     "exportedSymbols": {
-      "Payable": [2903]
+      "Payable": [2895]
     },
-    "id": 2904,
+    "id": 2896,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2871,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 2863,
+        "literals": ["solidity", "0.5", ".16"],
         "nodeType": "PragmaDirective",
         "src": "0:23:18"
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol",
         "file": "./IPayable.sol",
-        "id": 2872,
+        "id": 2864,
         "nodeType": "ImportDirective",
-        "scope": 2904,
-        "sourceUnit": 2870,
+        "scope": 2896,
+        "sourceUnit": 2862,
         "src": "25:24:18",
         "symbolAliases": [],
         "unitAlias": ""
@@ -74,47 +74,47 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2873,
+              "id": 2865,
               "name": "IPayable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2869,
+              "referencedDeclaration": 2861,
               "src": "127:8:18",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IPayable_$2869",
+                "typeIdentifier": "t_contract$_IPayable_$2861",
                 "typeString": "contract IPayable"
               }
             },
-            "id": 2874,
+            "id": 2866,
             "nodeType": "InheritanceSpecifier",
             "src": "127:8:18"
           }
         ],
-        "contractDependencies": [2869],
+        "contractDependencies": [2861],
         "contractKind": "contract",
         "documentation": "@notice A contract that can receive funds/deposits.",
         "fullyImplemented": true,
-        "id": 2903,
-        "linearizedBaseContracts": [2903, 2869],
+        "id": 2895,
+        "linearizedBaseContracts": [2895, 2861],
         "name": "Payable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
             "documentation": "@notice Event emitted when the contract receives a deposit.",
-            "id": 2882,
+            "id": 2874,
             "name": "Deposit",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 2881,
+              "id": 2873,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2876,
+                  "id": 2868,
                   "indexed": true,
                   "name": "from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2882,
+                  "scope": 2874,
                   "src": "224:20:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -123,7 +123,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2875,
+                    "id": 2867,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "224:7:18",
@@ -138,11 +138,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 2878,
+                  "id": 2870,
                   "indexed": false,
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2882,
+                  "scope": 2874,
                   "src": "246:14:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -151,7 +151,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2877,
+                    "id": 2869,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "246:7:18",
@@ -165,11 +165,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 2880,
+                  "id": 2872,
                   "indexed": true,
                   "name": "datetime",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2882,
+                  "scope": 2874,
                   "src": "262:24:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -178,7 +178,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2879,
+                    "id": 2871,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "262:7:18",
@@ -197,7 +197,7 @@
           },
           {
             "body": {
-              "id": 2901,
+              "id": 2893,
               "nodeType": "Block",
               "src": "384:126:18",
               "statements": [
@@ -211,7 +211,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 2889,
+                        "id": 2881,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -220,18 +220,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 2886,
+                            "id": 2878,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4230,
+                            "referencedDeclaration": 4276,
                             "src": "402:3:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 2887,
+                          "id": 2879,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -250,7 +250,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 2888,
+                          "id": 2880,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -274,7 +274,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "6d73672e76616c7565206d757374206265206772656174686572207468616e2030",
-                        "id": 2890,
+                        "id": 2882,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -301,18 +301,18 @@
                           "typeString": "literal_string \"msg.value must be greather than 0\""
                         }
                       ],
-                      "id": 2885,
+                      "id": 2877,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4233, 4234],
-                      "referencedDeclaration": 4234,
+                      "overloadedDeclarations": [4279, 4280],
+                      "referencedDeclaration": 4280,
                       "src": "394:7:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 2891,
+                    "id": 2883,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -326,7 +326,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2892,
+                  "id": 2884,
                   "nodeType": "ExpressionStatement",
                   "src": "394:59:18"
                 },
@@ -338,18 +338,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2894,
+                          "id": 2886,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4230,
+                          "referencedDeclaration": 4276,
                           "src": "476:3:18",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2895,
+                        "id": 2887,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -367,18 +367,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2896,
+                          "id": 2888,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4230,
+                          "referencedDeclaration": 4276,
                           "src": "488:3:18",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2897,
+                        "id": 2889,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -394,11 +394,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 2898,
+                        "id": 2890,
                         "name": "now",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4232,
+                        "referencedDeclaration": 4278,
                         "src": "499:3:18",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -421,18 +421,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 2893,
+                      "id": 2885,
                       "name": "Deposit",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2882,
+                      "referencedDeclaration": 2874,
                       "src": "468:7:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256,uint256)"
                       }
                     },
-                    "id": 2899,
+                    "id": 2891,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -446,39 +446,39 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2900,
+                  "id": 2892,
                   "nodeType": "EmitStatement",
                   "src": "463:40:18"
                 }
               ]
             },
             "documentation": "@notice Allows the contract to receive funds.",
-            "id": 2902,
+            "id": 2894,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2883,
+              "id": 2875,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "364:2:18"
             },
             "returnParameters": {
-              "id": 2884,
+              "id": 2876,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "384:0:18"
             },
-            "scope": 2903,
+            "scope": 2895,
             "src": "348:162:18",
             "stateMutability": "payable",
-            "superFunction": 2868,
+            "superFunction": 2860,
             "visibility": "external"
           }
         ],
-        "scope": 2904,
+        "scope": 2896,
         "src": "107:405:18"
       }
     ],
@@ -487,24 +487,24 @@
   "legacyAST": {
     "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/Payable.sol",
     "exportedSymbols": {
-      "Payable": [2903]
+      "Payable": [2895]
     },
-    "id": 2904,
+    "id": 2896,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2871,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 2863,
+        "literals": ["solidity", "0.5", ".16"],
         "nodeType": "PragmaDirective",
         "src": "0:23:18"
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/payment/IPayable.sol",
         "file": "./IPayable.sol",
-        "id": 2872,
+        "id": 2864,
         "nodeType": "ImportDirective",
-        "scope": 2904,
-        "sourceUnit": 2870,
+        "scope": 2896,
+        "sourceUnit": 2862,
         "src": "25:24:18",
         "symbolAliases": [],
         "unitAlias": ""
@@ -515,47 +515,47 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 2873,
+              "id": 2865,
               "name": "IPayable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2869,
+              "referencedDeclaration": 2861,
               "src": "127:8:18",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IPayable_$2869",
+                "typeIdentifier": "t_contract$_IPayable_$2861",
                 "typeString": "contract IPayable"
               }
             },
-            "id": 2874,
+            "id": 2866,
             "nodeType": "InheritanceSpecifier",
             "src": "127:8:18"
           }
         ],
-        "contractDependencies": [2869],
+        "contractDependencies": [2861],
         "contractKind": "contract",
         "documentation": "@notice A contract that can receive funds/deposits.",
         "fullyImplemented": true,
-        "id": 2903,
-        "linearizedBaseContracts": [2903, 2869],
+        "id": 2895,
+        "linearizedBaseContracts": [2895, 2861],
         "name": "Payable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
             "documentation": "@notice Event emitted when the contract receives a deposit.",
-            "id": 2882,
+            "id": 2874,
             "name": "Deposit",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 2881,
+              "id": 2873,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2876,
+                  "id": 2868,
                   "indexed": true,
                   "name": "from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2882,
+                  "scope": 2874,
                   "src": "224:20:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -564,7 +564,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2875,
+                    "id": 2867,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "224:7:18",
@@ -579,11 +579,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 2878,
+                  "id": 2870,
                   "indexed": false,
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2882,
+                  "scope": 2874,
                   "src": "246:14:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -592,7 +592,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2877,
+                    "id": 2869,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "246:7:18",
@@ -606,11 +606,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 2880,
+                  "id": 2872,
                   "indexed": true,
                   "name": "datetime",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2882,
+                  "scope": 2874,
                   "src": "262:24:18",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -619,7 +619,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2879,
+                    "id": 2871,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "262:7:18",
@@ -638,7 +638,7 @@
           },
           {
             "body": {
-              "id": 2901,
+              "id": 2893,
               "nodeType": "Block",
               "src": "384:126:18",
               "statements": [
@@ -652,7 +652,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 2889,
+                        "id": 2881,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -661,18 +661,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 2886,
+                            "id": 2878,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4230,
+                            "referencedDeclaration": 4276,
                             "src": "402:3:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 2887,
+                          "id": 2879,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -691,7 +691,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 2888,
+                          "id": 2880,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -715,7 +715,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "6d73672e76616c7565206d757374206265206772656174686572207468616e2030",
-                        "id": 2890,
+                        "id": 2882,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -742,18 +742,18 @@
                           "typeString": "literal_string \"msg.value must be greather than 0\""
                         }
                       ],
-                      "id": 2885,
+                      "id": 2877,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4233, 4234],
-                      "referencedDeclaration": 4234,
+                      "overloadedDeclarations": [4279, 4280],
+                      "referencedDeclaration": 4280,
                       "src": "394:7:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 2891,
+                    "id": 2883,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -767,7 +767,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2892,
+                  "id": 2884,
                   "nodeType": "ExpressionStatement",
                   "src": "394:59:18"
                 },
@@ -779,18 +779,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2894,
+                          "id": 2886,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4230,
+                          "referencedDeclaration": 4276,
                           "src": "476:3:18",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2895,
+                        "id": 2887,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -808,18 +808,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 2896,
+                          "id": 2888,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4230,
+                          "referencedDeclaration": 4276,
                           "src": "488:3:18",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 2897,
+                        "id": 2889,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -835,11 +835,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 2898,
+                        "id": 2890,
                         "name": "now",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4232,
+                        "referencedDeclaration": 4278,
                         "src": "499:3:18",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -862,18 +862,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 2893,
+                      "id": 2885,
                       "name": "Deposit",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2882,
+                      "referencedDeclaration": 2874,
                       "src": "468:7:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256,uint256)"
                       }
                     },
-                    "id": 2899,
+                    "id": 2891,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -887,39 +887,39 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2900,
+                  "id": 2892,
                   "nodeType": "EmitStatement",
                   "src": "463:40:18"
                 }
               ]
             },
             "documentation": "@notice Allows the contract to receive funds.",
-            "id": 2902,
+            "id": 2894,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2883,
+              "id": 2875,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "364:2:18"
             },
             "returnParameters": {
-              "id": 2884,
+              "id": 2876,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "384:0:18"
             },
-            "scope": 2903,
+            "scope": 2895,
             "src": "348:162:18",
             "stateMutability": "payable",
-            "superFunction": 2868,
+            "superFunction": 2860,
             "visibility": "external"
           }
         ],
-        "scope": 2904,
+        "scope": 2896,
         "src": "107:405:18"
       }
     ],
@@ -927,11 +927,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.20",
-  "updatedAt": "2020-01-30T11:34:10.519Z",
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-03-09T03:26:21.890Z",
   "devdoc": {
     "methods": {}
   },

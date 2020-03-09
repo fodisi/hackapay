@@ -23,9 +23,9 @@
 
 // Based on OpenZeppelin's https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/roles/MinterRole.sol
 
-pragma solidity ^0.5.0;
+pragma solidity 0.5.16;
 
-import "openzeppelin-solidity/contracts/access/Roles.sol";
+import "@openzeppelin/contracts/access/Roles.sol";
 
 /**
     @notice Implements a access control for an Attendee role,
