@@ -1,4 +1,3 @@
-
 // Source: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/access/Roles.sol
 
 // SPDX-License-Identifier: UNLICENSED
@@ -11,7 +10,7 @@ pragma solidity >=0.7.0 <0.8.0;
  */
 library Roles {
     struct Role {
-        mapping (address => bool) bearer;
+        mapping(address => bool) bearer;
     }
 
     /**
