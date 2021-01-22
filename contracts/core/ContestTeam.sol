@@ -1,6 +1,8 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: UNLICENSED
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+pragma solidity >=0.7.0 <0.8.0;
+
+import "@openzeppelin/contracts/math/SafeMath.sol";
 import "../roles/AttendeeRole.sol";
 import "../payment/Payable.sol";
 import "../lifecycle/Pausable.sol";
@@ -38,7 +40,7 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
 
     ///@dev This class needs to be inherited - internal visibility
     /// @param initialAttendee Represents the attendee who owns the contest, initially.
-    constructor(address initialAttendee) public Payable() AttendeeRole(initialAttendee) Pausable() {}
+    constructor(address initialAttendee) Payable() AttendeeRole(initialAttendee) Pausable() {}
 
     /**
      * @notice Splits the available's contract balance between active team members.
@@ -73,7 +75,7 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
         // this issue in case a bug is found (tests do not show bugs, but untested scenarioes may rise).
         require(distributedPrize == expectedDistribution, "Invalid split between active members");
         require(address(this).balance == reservedBalance, "Reserved balanced was not updated properly");
-        emit PrizeSplit(msg.sender, availableBalance, activeTeamMembersCount, prize, now);
+        emit PrizeSplit(msg.sender, availableBalance, activeTeamMembersCount, prize, block.timestamp);
     }
 
     /**
@@ -90,7 +92,7 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
         // Updates contract's reserved balance, so future splits will be correctly calculated.
         reservedBalance = reservedBalance.sub(amount);
         msg.sender.transfer(amount);
-        emit Withdraw(msg.sender, amount, now);
+        emit Withdraw(msg.sender, amount, block.timestamp);
     }
 
     /// @notice Gets the active members in the team.
@@ -124,7 +126,7 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
         @notice Trigger the paused state.
         @dev Implements the onlyAttendee modifier for access control.
      */
-    function pause() public onlyAttendee {
+    function pause() public override onlyAttendee {
         super.pause();
     }
 
@@ -132,12 +134,12 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
         @notice Lifts the paused state.
         @dev Implements the onlyAttendee modifier for access control.
      */
-    function unpause() public onlyAttendee {
+    function unpause() public override onlyAttendee {
         super.unpause();
     }
 
     /// @dev Overrides {AttendeeRole} internal method, to properly update internal storage related to team members.
-    function _addAttendee(address account) internal whenNotPaused {
+    function _addAttendee(address account) internal override whenNotPaused {
         super._addAttendee(account);
         teamMembers.push(account);
         activeTeamMembers[account] = true;
@@ -145,7 +147,7 @@ contract ContestTeam is Payable, AttendeeRole, Pausable {
     }
 
     /// @dev Overrides {AttendeeRole} internal method, to properly update internal storage related to team members.
-    function _removeAttendee(address account) internal whenNotPaused {
+    function _removeAttendee(address account) internal override whenNotPaused {
         // Makes sure the contract have at least of member/owner.
         require(activeTeamMembersCount > 1, "Cannot remove last member from contract");
         super._removeAttendee(account);

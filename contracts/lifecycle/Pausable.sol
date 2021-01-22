@@ -1,4 +1,6 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: UNLICENSED
+
+pragma solidity >=0.7.0 <0.8.0;
 
 /**
  * @dev Contract module which allows children to implement an emergency stop
@@ -14,7 +16,7 @@ pragma solidity ^0.5.0;
  * access control rule needded) to avoid the inherited contract being paused/unpaused
  * by unauthorized parties.
  */
-contract Pausable {
+abstract contract Pausable {
     /// @dev emitted when the pause is triggered.
     event Paused(address account);
 
@@ -24,7 +26,7 @@ contract Pausable {
     bool private _paused;
 
     /// @dev Initializes the contract in unpaused state.
-    constructor() internal {
+    constructor() {
         _paused = false;
     }
 
@@ -54,7 +56,7 @@ contract Pausable {
         @dev Must be inherited to apply proper access control before calling internal
         implementation on {_pause()}.
      */
-    function pause() public {
+    function pause() virtual public {
         _pause();
     }
 
@@ -63,18 +65,18 @@ contract Pausable {
         @dev Must be inherited to apply proper access control before calling internal
         implementation on {_unpause()}.
      */
-    function unpause() public {
+    function unpause() virtual public {
         _unpause();
     }
 
     /// @dev Internal implementation that triggers the paused state.
-    function _pause() internal whenNotPaused {
+    function _pause() virtual internal whenNotPaused {
         _paused = true;
         emit Paused(msg.sender);
     }
 
     /// @dev Internal implementation that lifts the paused state.
-    function _unpause() public whenPaused {
+    function _unpause() virtual public whenPaused {
         _paused = false;
         emit Unpaused(msg.sender);
     }

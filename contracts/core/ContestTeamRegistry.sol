@@ -1,6 +1,8 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: UNLICENSED
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+pragma solidity >=0.7.0 <0.8.0;
+
+import "@openzeppelin/contracts/math/SafeMath.sol";
 
 /**
     @notice Controls the registration of teams and the subsequent proposal submission process
@@ -12,7 +14,7 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
     TODO: Ability to refund members once they show up to contest.
     TODO: Add mapping for team members.
  */
-contract ContestTeamRegistry {
+abstract contract ContestTeamRegistry {
     using SafeMath for uint256;
 
     /// @notice Represents a team participating in a contest.
@@ -78,9 +80,6 @@ contract ContestTeamRegistry {
         require(!isTeamApproved(teamId), "Team is not reproved.");
         _;
     }
-
-    ///@dev This class needs to be inherited.
-    constructor() internal {}
 
     /**
         @notice Returns the stored information of a team
@@ -164,7 +163,7 @@ contract ContestTeamRegistry {
         @notice Closes the registration process
         @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
-    function closeRegistration() external registrationIsOpen {
+    function closeRegistration() virtual external registrationIsOpen {
         _closeRegistration();
     }
 
@@ -172,7 +171,7 @@ contract ContestTeamRegistry {
         @notice Opens the registration process
         @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
-    function openRegistration() external registrationIsClosed {
+    function openRegistration() virtual external registrationIsClosed {
         _openRegistration();
     }
 
@@ -188,7 +187,7 @@ contract ContestTeamRegistry {
         @notice Closes the proposal submission process
         @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
-    function closeSubmission() external submissionIsOpen {
+    function closeSubmission() virtual external submissionIsOpen {
         _closeSubmission();
     }
 
@@ -196,7 +195,7 @@ contract ContestTeamRegistry {
         @notice Opens the proposal submission process
         @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
-    function openSubmission() external submissionIsClosed {
+    function openSubmission() virtual external submissionIsClosed {
         _openSubmission();
     }
 

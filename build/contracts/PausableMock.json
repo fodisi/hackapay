@@ -3,7 +3,6 @@
   "abi": [
     {
       "inputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "constructor"
     },
@@ -60,16 +59,13 @@
       "type": "event"
     },
     {
-      "constant": false,
       "inputs": [],
       "name": "_unpause",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [
         {
           "internalType": "address",
@@ -79,12 +75,10 @@
       ],
       "name": "addOrganizer",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": true,
       "inputs": [
         {
           "internalType": "address",
@@ -100,12 +94,10 @@
           "type": "bool"
         }
       ],
-      "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
-      "constant": true,
       "inputs": [],
       "name": "isPaused",
       "outputs": [
@@ -115,288 +107,273 @@
           "type": "bool"
         }
       ],
-      "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [],
       "name": "renounceOrganizer",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [],
       "name": "pause",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [],
       "name": "unpause",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [],
       "name": "onlyWorksWhenNotPaused",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [],
       "name": "onlyWorksWhenPaused",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"Paused\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"Unpaused\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[],\"name\":\"_unpause\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isPaused\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"onlyWorksWhenNotPaused\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"onlyWorksWhenPaused\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"pause\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"unpause\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"_unpause()\":{\"details\":\"Internal implementation that lifts the paused state.\"},\"isPaused()\":{\"return\":\"{true} if the contract is paused; otherwise, {false}.\"}}},\"userdoc\":{\"methods\":{\"isPaused()\":{\"notice\":\"Returns if the contract is paused or not.\"}}}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/PausableMock.sol\":\"PausableMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/lifecycle/Pausable.sol\":{\"keccak256\":\"0x13c9c60ded6c062f523ae97e0ccce959b4445fb9350261ec676fcffa86f7cff0\",\"urls\":[\"bzz-raw://fe0a5cd6d67d4abbe45a965a57efb9fc3de00352f8e1345fdd6d24be6a372327\",\"dweb:/ipfs/Qma1rpyzs9xHQcqHSeXaDwM9ZCrwDdXZ74M62aoD4mBDEy\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/PausableMock.sol\":{\"keccak256\":\"0x01da696b3c1dd5b1ac25c507933ae2abec7a3520d6cf6732a99c94e5a2159b49\",\"urls\":[\"bzz-raw://c1564ac729f537339c9e7456dc55ef5c3e978f380bff7d4104bc5640687a1432\",\"dweb:/ipfs/QmcGgtZHXXK98quP8fXDhkTRAdLhYqE1ZtzwDVu4ENdXZk\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0x0e35454f69f874f4356b5b0aff68123f26773fbf514028d68b710ac553ee0910\",\"urls\":[\"bzz-raw://fea5d97d3592c0d0ebacb85802ed5e7bdc695c6d328bc128f0a725cb0a51e154\",\"dweb:/ipfs/QmRVkhYPrCRnkpxBonthuUzAQu9cnCxVNDZBuCwA98LzgB\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506000805460ff19169055338061008857604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601460248201527f496e76616c6964207a65726f2061646472657373000000000000000000000000604482015290519081900360640190fd5b61009a816001600160e01b036100a016565b50610214565b6100b88160016100ef60201b6105701790919060201c565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b61010282826001600160e01b0361019316565b1561016e57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b0382166101f4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806108bf6022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61069c806102236000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c8063567ad86211610066578063567ad862146100ec5780638456cb59146100f4578063b187bd26146100fc578063e4725f0214610104578063fc8234cb1461012a57610093565b806339e36e61146100985780633f33d08c146100a25780633f4ba83a146100aa57806341676f15146100b2575b600080fd5b6100a0610132565b005b6100a0610181565b6100a06101d1565b6100d8600480360360208110156100c857600080fd5b50356001600160a01b031661021d565b604080519115158252519081900360200190f35b6100a0610236565b6100a061023f565b6100d861028b565b6100a06004803603602081101561011a57600080fd5b50356001600160a01b0316610294565b6100a06102e4565b60005460ff161561017f576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b565b60005460ff1661017f576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6101da3361021d565b6102155760405162461bcd60e51b81526004018080602001828103825260338152602001806105f26033913960400191505060405180910390fd5b61017f610373565b600061023060018363ffffffff61037b16565b92915050565b61017f336103e2565b6102483361021d565b6102835760405162461bcd60e51b81526004018080602001828103825260338152602001806105f26033913960400191505060405180910390fd5b61017f61042a565b60005460ff1690565b61029d3361021d565b6102d85760405162461bcd60e51b81526004018080602001828103825260338152602001806105f26033913960400191505060405180910390fd5b6102e181610432565b50565b60005460ff16610334576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6000805460ff191690556040805133815290517f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa9181900360200190a1565b61017f6102e4565b60006001600160a01b0382166103c25760405162461bcd60e51b81526004018080602001828103825260228152602001806106466022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6103f360018263ffffffff61047a16565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b61017f6104e1565b61044360018263ffffffff61057016565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b610484828261037b565b6104bf5760405162461bcd60e51b81526004018080602001828103825260218152602001806106256021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff19169055565b60005460ff161561052e576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b6000805460ff191660011790556040805133815290517f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a2589181900360200190a1565b61057a828261037b565b156105cc576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff1916600117905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a265627a7a723158204c65cb99d223de13c21b2c78ed6e673c0640f8816f46455e11261c0a9e934c1564736f6c634300050c0032526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c8063567ad86211610066578063567ad862146100ec5780638456cb59146100f4578063b187bd26146100fc578063e4725f0214610104578063fc8234cb1461012a57610093565b806339e36e61146100985780633f33d08c146100a25780633f4ba83a146100aa57806341676f15146100b2575b600080fd5b6100a0610132565b005b6100a0610181565b6100a06101d1565b6100d8600480360360208110156100c857600080fd5b50356001600160a01b031661021d565b604080519115158252519081900360200190f35b6100a0610236565b6100a061023f565b6100d861028b565b6100a06004803603602081101561011a57600080fd5b50356001600160a01b0316610294565b6100a06102e4565b60005460ff161561017f576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b565b60005460ff1661017f576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6101da3361021d565b6102155760405162461bcd60e51b81526004018080602001828103825260338152602001806105f26033913960400191505060405180910390fd5b61017f610373565b600061023060018363ffffffff61037b16565b92915050565b61017f336103e2565b6102483361021d565b6102835760405162461bcd60e51b81526004018080602001828103825260338152602001806105f26033913960400191505060405180910390fd5b61017f61042a565b60005460ff1690565b61029d3361021d565b6102d85760405162461bcd60e51b81526004018080602001828103825260338152602001806105f26033913960400191505060405180910390fd5b6102e181610432565b50565b60005460ff16610334576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6000805460ff191690556040805133815290517f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa9181900360200190a1565b61017f6102e4565b60006001600160a01b0382166103c25760405162461bcd60e51b81526004018080602001828103825260228152602001806106466022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6103f360018263ffffffff61047a16565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b61017f6104e1565b61044360018263ffffffff61057016565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b610484828261037b565b6104bf5760405162461bcd60e51b81526004018080602001828103825260218152602001806106256021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff19169055565b60005460ff161561052e576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b6000805460ff191660011790556040805133815290517f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a2589181900360200190a1565b61057a828261037b565b156105cc576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff1916600117905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a265627a7a723158204c65cb99d223de13c21b2c78ed6e673c0640f8816f46455e11261c0a9e934c1564736f6c634300050c0032",
-  "sourceMap": "128:517:16:-;;;183:88;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;1108:5:7;1098:15;;-1:-1:-1;;1098:15:7;;;229:10:16;1889:30:22;1881:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1954:31;1968:16;-1:-1:-1;;;;;1954:13:22;:31;:::i;:::-;1824:168;128:517:16;;2455:128:22;2514:24;2530:7;2514:11;:15;;;;;;:24;;;;:::i;:::-;2553:23;;-1:-1:-1;;;;;2553:23:22;;;;;;;;2455:128;:::o;260:175:24:-;337:18;341:4;347:7;-1:-1:-1;;;;;337:3:24;:18;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:24;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:24;424:4;401:27;;;260:175::o;779:200::-;851:4;-1:-1:-1;;;;;875:21:24;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:24;:11;:20;;;;;;;;;;;;;;;779:200::o;128:517:16:-;;;;;;;",
-  "deployedSourceMap": "128:517:16:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;128:517:16;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;429:107;;;:::i;:::-;;542:101;;;:::i;351:72::-;;;:::i;2144:113:22:-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2144:113:22;-1:-1:-1;;;;;2144:113:22;;:::i;:::-;;;;;;;;;;;;;;;;;;2368:81;;;:::i;277:68:16:-;;;:::i;1271:78:7:-;;;:::i;2263:99:22:-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2263:99:22;-1:-1:-1;;;;;2263:99:22;;:::i;2448:105:7:-;;;:::i;429:107:16:-;1487:7:7;;;;1486:8;1478:39;;;;;-1:-1:-1;;;1478:39:7;;;;;;;;;;;;-1:-1:-1;;;1478:39:7;;;;;;;;;;;;;;;429:107:16:o;542:101::-;1665:7:7;;;;1657:42;;;;;-1:-1:-1;;;1657:42:7;;;;;;;;;;;;-1:-1:-1;;;1657:42:7;;;;;;;;;;;;;;351:72:16;2041:23:22;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;2033:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;401:15:16;:13;:15::i;2144:113:22:-;2203:4;2226:24;:11;2242:7;2226:24;:15;:24;:::i;:::-;2219:31;2144:113;-1:-1:-1;;2144:113:22:o;2368:81::-;2414:28;2431:10;2414:16;:28::i;277:68:16:-;2041:23:22;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;2033:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;325:13:16;:11;:13::i;1271:78:7:-;1312:4;1335:7;;;1271:78;:::o;2263:99:22:-;2041:23;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;2033:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2333:22;2347:7;2333:13;:22::i;:::-;2263:99;:::o;2448:105:7:-;1665:7;;;;1657:42;;;;;-1:-1:-1;;;1657:42:7;;;;;;;;;;;;-1:-1:-1;;;1657:42:7;;;;;;;;;;;;;;;2506:5;2496:15;;-1:-1:-1;;2496:15:7;;;2526:20;;;2535:10;2526:20;;;;;;;;;;;;;2448:105::o;2143:53::-;2179:10;:8;:10::i;779:200:24:-;851:4;-1:-1:-1;;;;;875:21:24;;867:68;;;;-1:-1:-1;;;867:68:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:24;:11;:20;;;;;;;;;;;;;;;779:200::o;2589:136:22:-;2651:27;:11;2670:7;2651:27;:18;:27;:::i;:::-;2693:25;;-1:-1:-1;;;;;2693:25:22;;;;;;;;2589:136;:::o;1906:49:7:-;1940:8;:6;:8::i;2455:128:22:-;2514:24;:11;2530:7;2514:24;:15;:24;:::i;:::-;2553:23;;-1:-1:-1;;;;;2553:23:22;;;;;;;;2455:128;:::o;510:180:24:-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;-1:-1:-1;;;581:64:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;655:20:24;678:5;655:20;;;;;;;;;;;:28;;-1:-1:-1;;655:28:24;;;510:180::o;2271:105:7:-;1487:7;;;;1486:8;1478:39;;;;;-1:-1:-1;;;1478:39:7;;;;;;;;;;;;-1:-1:-1;;;1478:39:7;;;;;;;;;;;;;;;2322:7;:14;;-1:-1:-1;;2322:14:7;2332:4;2322:14;;;2351:18;;;2358:10;2351:18;;;;;;;;;;;;;2271:105::o;260:175:24:-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;-1:-1:-1;;;328:63:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:24;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:24;424:4;401:27;;;260:175::o",
-  "source": "pragma solidity ^0.5.0;\n\nimport \"../lifecycle/Pausable.sol\";\nimport \"../roles/OrganizerRole.sol\";\n\n// mock class using Pausable\ncontract PausableMock is Pausable, OrganizerRole {\n    constructor() public Pausable() OrganizerRole(msg.sender) {\n        // Do nothing.\n    }\n\n    function pause() public onlyOrganizer {\n        super.pause();\n    }\n\n    function unpause() public onlyOrganizer {\n        super.unpause();\n    }\n\n    function onlyWorksWhenNotPaused() external whenNotPaused {\n        // Do nothing. Just tests modifier\n    }\n\n    function onlyWorksWhenPaused() external whenPaused {\n        // Do nothing. Just tests modifier\n    }\n}\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"Paused\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"Unpaused\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"_unpause\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isPaused\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"onlyWorksWhenNotPaused\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"onlyWorksWhenPaused\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pause\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"unpause\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"_unpause()\":{\"details\":\"Internal implementation that lifts the paused state.\"},\"isPaused()\":{\"returns\":{\"_0\":\"{true} if the contract is paused; otherwise, {false}.\"}},\"pause()\":{\"details\":\"Must be inherited to apply proper access control before calling internal implementation on {_pause()}.\"},\"unpause()\":{\"details\":\"Must be inherited to apply proper access control before calling internal implementation on {_unpause()}.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"isPaused()\":{\"notice\":\"Returns if the contract is paused or not.\"},\"pause()\":{\"notice\":\"Triggers the paused state.\"},\"unpause()\":{\"notice\":\"Lifts the paused state.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/PausableMock.sol\":\"PausableMock\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/lifecycle/Pausable.sol\":{\"keccak256\":\"0xe658c5869875103432729fd020763ede0557d94848fe421aa140050cfad0215c\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://9f8cc47d690ed64cf8780b26b9d25cd945004831b1ade3be565e47b61d070bee\",\"dweb:/ipfs/QmZACTXi1S92e1tF8tXWi5oWKfptjwMTfDyRcJXDPRLUcZ\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/PausableMock.sol\":{\"keccak256\":\"0x48778b7793c04d62f50298b0102a2829bf5da1f9a021cfa24d65568a9ff8d5d0\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://9aaeaf231a52db0013a291ff2316c69caa440141d8ebff116feaf4e6b540c9c3\",\"dweb:/ipfs/QmP7RavhjaSmoXci79tBHXXyFzDzsJp6f1LXV2i4rSbq8b\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0x0c17393f30884f60b569af8fa1b984136bff5cf02514e591a4f9dcb6037e8820\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://f9b90fa964b5298679ec55ac6a385e0c0d1a47943b2dc8f702f936ffc86b3073\",\"dweb:/ipfs/QmWoGAkt4iqkX9oD2gFo9ncPDcJga6u8PpK3SZDYpwGgS7\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/Roles.sol\":{\"keccak256\":\"0xa2b42f0e55cbc7aa021e27a6d433231aef7afa7bcb67ad2b591122d4cffa2b10\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://251d332eafdcc13078f201e14296a0280e29cce88040905d786d4571bba84eea\",\"dweb:/ipfs/QmWYu8To6JMBy46CgXVv9o7biZbsARWh4H5h2zpcjGW6qG\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506000805460ff19169055338061006e576040805162461bcd60e51b815260206004820152601460248201527f496e76616c6964207a65726f2061646472657373000000000000000000000000604482015290519081900360640190fd5b6100778161007d565b506101b4565b6100958160016100cc60201b61036d1790919060201c565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6100d6828261014d565b15610128576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b0382166101945760405162461bcd60e51b815260040180806020018281038252602281526020018061084e6022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61068b806101c36000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c8063567ad86211610066578063567ad862146100ec5780638456cb59146100f4578063b187bd26146100fc578063e4725f0214610104578063fc8234cb1461012a57610093565b806339e36e61146100985780633f33d08c146100a25780633f4ba83a146100aa57806341676f15146100b2575b600080fd5b6100a0610132565b005b6100a0610181565b6100a06101d1565b6100d8600480360360208110156100c857600080fd5b50356001600160a01b031661021d565b604080519115158252519081900360200190f35b6100a0610230565b6100a0610239565b6100d8610285565b6100a06004803603602081101561011a57600080fd5b50356001600160a01b031661028e565b6100a06102de565b60005460ff161561017f576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b565b60005460ff1661017f576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6101da3361021d565b6102155760405162461bcd60e51b81526004018080602001828103825260338152602001806105e06033913960400191505060405180910390fd5b61017f6103ee565b600061022a6001836103f6565b92915050565b61017f3361045d565b6102423361021d565b61027d5760405162461bcd60e51b81526004018080602001828103825260338152602001806105e06033913960400191505060405180910390fd5b61017f61049f565b60005460ff1690565b6102973361021d565b6102d25760405162461bcd60e51b81526004018080602001828103825260338152602001806105e06033913960400191505060405180910390fd5b6102db816104a7565b50565b60005460ff1661032e576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6000805460ff191690556040805133815290517f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa9181900360200190a1565b61037782826103f6565b156103c9576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b61017f6102de565b60006001600160a01b03821661043d5760405162461bcd60e51b81526004018080602001828103825260228152602001806106346022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6104686001826104e9565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b61017f610550565b6104b260018261036d565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6104f382826103f6565b61052e5760405162461bcd60e51b81526004018080602001828103825260218152602001806106136021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff19169055565b60005460ff161561059d576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b6000805460ff191660011790556040805133815290517f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a2589181900360200190a156fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a26469706673582212200c08051f91db2c0959cbdbc5be6fe8833882a3cbaf969bdd2cd62c989c0bc10964736f6c63430007060033526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c8063567ad86211610066578063567ad862146100ec5780638456cb59146100f4578063b187bd26146100fc578063e4725f0214610104578063fc8234cb1461012a57610093565b806339e36e61146100985780633f33d08c146100a25780633f4ba83a146100aa57806341676f15146100b2575b600080fd5b6100a0610132565b005b6100a0610181565b6100a06101d1565b6100d8600480360360208110156100c857600080fd5b50356001600160a01b031661021d565b604080519115158252519081900360200190f35b6100a0610230565b6100a0610239565b6100d8610285565b6100a06004803603602081101561011a57600080fd5b50356001600160a01b031661028e565b6100a06102de565b60005460ff161561017f576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b565b60005460ff1661017f576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6101da3361021d565b6102155760405162461bcd60e51b81526004018080602001828103825260338152602001806105e06033913960400191505060405180910390fd5b61017f6103ee565b600061022a6001836103f6565b92915050565b61017f3361045d565b6102423361021d565b61027d5760405162461bcd60e51b81526004018080602001828103825260338152602001806105e06033913960400191505060405180910390fd5b61017f61049f565b60005460ff1690565b6102973361021d565b6102d25760405162461bcd60e51b81526004018080602001828103825260338152602001806105e06033913960400191505060405180910390fd5b6102db816104a7565b50565b60005460ff1661032e576040805162461bcd60e51b815260206004820152601660248201527510dbdb9d1c9858dd081a5cc81b9bdd081c185d5cd95960521b604482015290519081900360640190fd5b6000805460ff191690556040805133815290517f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa9181900360200190a1565b61037782826103f6565b156103c9576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b61017f6102de565b60006001600160a01b03821661043d5760405162461bcd60e51b81526004018080602001828103825260228152602001806106346022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6104686001826104e9565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b61017f610550565b6104b260018261036d565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6104f382826103f6565b61052e5760405162461bcd60e51b81526004018080602001828103825260218152602001806106136021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff19169055565b60005460ff161561059d576040805162461bcd60e51b815260206004820152601260248201527110dbdb9d1c9858dd081a5cc81c185d5cd95960721b604482015290519081900360640190fd5b6000805460ff191660011790556040805133815290517f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a2589181900360200190a156fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a26469706673582212200c08051f91db2c0959cbdbc5be6fe8833882a3cbaf969bdd2cd62c989c0bc10964736f6c63430007060033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "176:528:16:-:0;;;231:81;;;;;;;;;-1:-1:-1;1156:5:7;1146:15;;-1:-1:-1;;1146:15:7;;;270:10:16;748:30:22;740:63;;;;;-1:-1:-1;;;740:63:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;813:31;827:16;813:13;:31::i;:::-;692:159;176:528:16;;1314:136:22;1381:24;1397:7;1381:11;:15;;;;;;:24;;;;:::i;:::-;1420:23;;-1:-1:-1;;;;;1420:23:22;;;;;;;;1314:136;:::o;423:175:23:-;500:18;504:4;510:7;500:3;:18::i;:::-;499:19;491:63;;;;;-1:-1:-1;;;491:63:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;564:20:23;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;564:27:23;587:4;564:27;;;423:175::o;942:200::-;1014:4;-1:-1:-1;;;;;1038:21:23;;1030:68;;;;-1:-1:-1;;;1030:68:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;1115:20:23;:11;:20;;;;;;;;;;;;;;;942:200::o;176:528:16:-;;;;;;;",
+  "deployedSourceMap": "176:528:16:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;488:107;;;:::i;:::-;;601:101;;;:::i;401:81::-;;;:::i;1003:113:22:-;;;;;;;;;;;;;;;;-1:-1:-1;1003:113:22;-1:-1:-1;;;;;1003:113:22;;:::i;:::-;;;;;;;;;;;;;;;;;;1227:81;;;:::i;318:77:16:-;;;:::i;1319:78:7:-;;;:::i;1122:99:22:-;;;;;;;;;;;;;;;;-1:-1:-1;1122:99:22;-1:-1:-1;;;;;1122:99:22;;:::i;2520:113:7:-;;;:::i;488:107:16:-;1535:7:7;;;;1534:8;1526:39;;;;;-1:-1:-1;;;1526:39:7;;;;;;;;;;;;-1:-1:-1;;;1526:39:7;;;;;;;;;;;;;;;488:107:16:o;601:101::-;1713:7:7;;;;1705:42;;;;;-1:-1:-1;;;1705:42:7;;;;;;;;;;;;-1:-1:-1;;;1705:42:7;;;;;;;;;;;;;;401:81:16;900:23:22;912:10;900:11;:23::i;:::-;892:87;;;;-1:-1:-1;;;892:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;460:15:16::1;:13;:15::i;1003:113:22:-:0;1062:4;1085:24;:11;1101:7;1085:15;:24::i;:::-;1078:31;1003:113;-1:-1:-1;;1003:113:22:o;1227:81::-;1273:28;1290:10;1273:16;:28::i;318:77:16:-;900:23:22;912:10;900:11;:23::i;:::-;892:87;;;;-1:-1:-1;;;892:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;375:13:16::1;:11;:13::i;1319:78:7:-:0;1360:4;1383:7;;;1319:78;:::o;1122:99:22:-;900:23;912:10;900:11;:23::i;:::-;892:87;;;;-1:-1:-1;;;892:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1192:22:::1;1206:7;1192:13;:22::i;:::-;1122:99:::0;:::o;2520:113:7:-;1713:7;;;;1705:42;;;;;-1:-1:-1;;;1705:42:7;;;;;;;;;;;;-1:-1:-1;;;1705:42:7;;;;;;;;;;;;;;;2586:5:::1;2576:15:::0;;-1:-1:-1;;2576:15:7::1;::::0;;2606:20:::1;::::0;;2615:10:::1;2606:20:::0;;;;::::1;::::0;;;;::::1;::::0;;::::1;2520:113::o:0;423:175:23:-;500:18;504:4;510:7;500:3;:18::i;:::-;499:19;491:63;;;;;-1:-1:-1;;;491:63:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;564:20:23;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;564:27:23;587:4;564:27;;;423:175::o;2199:61:7:-;2243:10;:8;:10::i;942:200:23:-;1014:4;-1:-1:-1;;;;;1038:21:23;;1030:68;;;;-1:-1:-1;;;1030:68:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;1115:20:23;:11;:20;;;;;;;;;;;;;;;942:200::o;1456:144:22:-;1526:27;:11;1545:7;1526:18;:27::i;:::-;1568:25;;-1:-1:-1;;;;;1568:25:22;;;;;;;;1456:144;:::o;1954:57:7:-;1996:8;:6;:8::i;1314:136:22:-;1381:24;:11;1397:7;1381:15;:24::i;:::-;1420:23;;-1:-1:-1;;;;;1420:23:22;;;;;;;;1314:136;:::o;673:180:23:-;752:18;756:4;762:7;752:3;:18::i;:::-;744:64;;;;-1:-1:-1;;;744:64:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;818:20:23;841:5;818:20;;;;;;;;;;;:28;;-1:-1:-1;;818:28:23;;;673:180::o;2335:113:7:-;1535:7;;;;1534:8;1526:39;;;;;-1:-1:-1;;;1526:39:7;;;;;;;;;;;;-1:-1:-1;;;1526:39:7;;;;;;;;;;;;;;;2394:7:::1;:14:::0;;-1:-1:-1;;2394:14:7::1;2404:4;2394:14;::::0;;2423:18:::1;::::0;;2430:10:::1;2423:18:::0;;;;::::1;::::0;;;;::::1;::::0;;::::1;2335:113::o:0",
+  "source": "// SPDX-License-Identifier: UNLICENSED\n\npragma solidity >=0.7.0 <0.8.0;\n\nimport \"../lifecycle/Pausable.sol\";\nimport \"../roles/OrganizerRole.sol\";\n\n// mock class using Pausable\ncontract PausableMock is Pausable, OrganizerRole {\n    constructor() Pausable() OrganizerRole(msg.sender) {\n        // Do nothing.\n    }\n\n    function pause() public onlyOrganizer override {\n        super.pause();\n    }\n\n    function unpause() public onlyOrganizer override {\n        super.unpause();\n    }\n\n    function onlyWorksWhenNotPaused() external whenNotPaused {\n        // Do nothing. Just tests modifier\n    }\n\n    function onlyWorksWhenPaused() external whenPaused {\n        // Do nothing. Just tests modifier\n    }\n}\n",
   "sourcePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/PausableMock.sol",
   "ast": {
     "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/PausableMock.sol",
     "exportedSymbols": {
-      "PausableMock": [2863]
+      "OrganizerRole": [3532],
+      "Pausable": [2607],
+      "PausableMock": [2979],
+      "Roles": [3618]
     },
-    "id": 2864,
+    "id": 2980,
+    "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2812,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 2926,
+        "literals": ["solidity", ">=", "0.7", ".0", "<", "0.8", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:16"
+        "src": "40:31:16"
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/lifecycle/Pausable.sol",
         "file": "../lifecycle/Pausable.sol",
-        "id": 2813,
+        "id": 2927,
         "nodeType": "ImportDirective",
-        "scope": 2864,
-        "sourceUnit": 2500,
-        "src": "25:35:16",
+        "scope": 2980,
+        "sourceUnit": 2608,
+        "src": "73:35:16",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol",
         "file": "../roles/OrganizerRole.sol",
-        "id": 2814,
+        "id": 2928,
         "nodeType": "ImportDirective",
-        "scope": 2864,
-        "sourceUnit": 3402,
-        "src": "61:36:16",
+        "scope": 2980,
+        "sourceUnit": 3533,
+        "src": "109:36:16",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
+        "abstract": false,
         "baseContracts": [
           {
-            "arguments": null,
             "baseName": {
-              "contractScope": null,
-              "id": 2815,
+              "id": 2929,
               "name": "Pausable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2499,
-              "src": "153:8:16",
+              "referencedDeclaration": 2607,
+              "src": "201:8:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Pausable_$2499",
+                "typeIdentifier": "t_contract$_Pausable_$2607",
                 "typeString": "contract Pausable"
               }
             },
-            "id": 2816,
+            "id": 2930,
             "nodeType": "InheritanceSpecifier",
-            "src": "153:8:16"
+            "src": "201:8:16"
           },
           {
-            "arguments": null,
             "baseName": {
-              "contractScope": null,
-              "id": 2817,
+              "id": 2931,
               "name": "OrganizerRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3401,
-              "src": "163:13:16",
+              "referencedDeclaration": 3532,
+              "src": "211:13:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_OrganizerRole_$3401",
+                "typeIdentifier": "t_contract$_OrganizerRole_$3532",
                 "typeString": "contract OrganizerRole"
               }
             },
-            "id": 2818,
+            "id": 2932,
             "nodeType": "InheritanceSpecifier",
-            "src": "163:13:16"
+            "src": "211:13:16"
           }
         ],
-        "contractDependencies": [2499, 3401],
+        "contractDependencies": [2607, 3532],
         "contractKind": "contract",
-        "documentation": null,
         "fullyImplemented": true,
-        "id": 2863,
-        "linearizedBaseContracts": [2863, 3401, 2499],
+        "id": 2979,
+        "linearizedBaseContracts": [2979, 3532, 2607],
         "name": "PausableMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2827,
+              "id": 2941,
               "nodeType": "Block",
-              "src": "241:30:16",
+              "src": "282:30:16",
               "statements": []
             },
-            "documentation": null,
-            "id": 2828,
+            "id": 2942,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2821,
+                "id": 2935,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2820,
+                  "id": 2934,
                   "name": "Pausable",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2499,
-                  "src": "204:8:16",
+                  "referencedDeclaration": 2607,
+                  "src": "245:8:16",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_Pausable_$2499_$",
+                    "typeIdentifier": "t_type$_t_contract$_Pausable_$2607_$",
                     "typeString": "type(contract Pausable)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "204:10:16"
+                "src": "245:10:16"
               },
               {
                 "arguments": [
                   {
-                    "argumentTypes": null,
                     "expression": {
-                      "argumentTypes": null,
-                      "id": 2823,
+                      "id": 2937,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4230,
-                      "src": "229:3:16",
+                      "referencedDeclaration": 4294967281,
+                      "src": "270:3:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2824,
+                    "id": 2938,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "sender",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": null,
-                    "src": "229:10:16",
+                    "src": "270:10:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
                       "typeString": "address payable"
                     }
                   }
                 ],
-                "id": 2825,
+                "id": 2939,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2822,
+                  "id": 2936,
                   "name": "OrganizerRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3401,
-                  "src": "215:13:16",
+                  "referencedDeclaration": 3532,
+                  "src": "256:13:16",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3401_$",
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3532_$",
                     "typeString": "type(contract OrganizerRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "215:25:16"
+                "src": "256:25:16"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2819,
+              "id": 2933,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "194:2:16"
+              "src": "242:2:16"
             },
             "returnParameters": {
-              "id": 2826,
+              "id": 2940,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "241:0:16"
+              "src": "282:0:16"
             },
-            "scope": 2863,
-            "src": "183:88:16",
+            "scope": 2979,
+            "src": "231:81:16",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
+            "baseFunctions": [2566],
             "body": {
-              "id": 2838,
+              "id": 2953,
               "nodeType": "Block",
-              "src": "315:30:16",
+              "src": "365:30:16",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "argumentTypes": null,
-                        "id": 2833,
+                        "id": 2948,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4293,
-                        "src": "325:5:16",
+                        "referencedDeclaration": 4294967271,
+                        "src": "375:5:16",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_PausableMock_$2863",
+                          "typeIdentifier": "t_super$_PausableMock_$2979",
                           "typeString": "contract super PausableMock"
                         }
                       },
-                      "id": 2835,
+                      "id": 2950,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "pause",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2461,
-                      "src": "325:11:16",
+                      "referencedDeclaration": 2566,
+                      "src": "375:11:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
                         "typeString": "function ()"
                       }
                     },
-                    "id": 2836,
+                    "id": 2951,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -404,103 +381,107 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "325:13:16",
+                    "src": "375:13:16",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2837,
+                  "id": 2952,
                   "nodeType": "ExpressionStatement",
-                  "src": "325:13:16"
+                  "src": "375:13:16"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2839,
+            "functionSelector": "8456cb59",
+            "id": 2954,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2831,
+                "id": 2945,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2830,
+                  "id": 2944,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3334,
-                  "src": "301:13:16",
+                  "referencedDeclaration": 3465,
+                  "src": "342:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "301:13:16"
+                "src": "342:13:16"
               }
             ],
             "name": "pause",
             "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 2946,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "356:8:16"
+            },
             "parameters": {
-              "id": 2829,
+              "id": 2943,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "291:2:16"
+              "src": "332:2:16"
             },
             "returnParameters": {
-              "id": 2832,
+              "id": 2947,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "315:0:16"
+              "src": "365:0:16"
             },
-            "scope": 2863,
-            "src": "277:68:16",
+            "scope": 2979,
+            "src": "318:77:16",
             "stateMutability": "nonpayable",
-            "superFunction": 2461,
+            "virtual": false,
             "visibility": "public"
           },
           {
+            "baseFunctions": [2574],
             "body": {
-              "id": 2849,
+              "id": 2965,
               "nodeType": "Block",
-              "src": "391:32:16",
+              "src": "450:32:16",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "argumentTypes": null,
-                        "id": 2844,
+                        "id": 2960,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4293,
-                        "src": "401:5:16",
+                        "referencedDeclaration": 4294967271,
+                        "src": "460:5:16",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_PausableMock_$2863",
+                          "typeIdentifier": "t_super$_PausableMock_$2979",
                           "typeString": "contract super PausableMock"
                         }
                       },
-                      "id": 2846,
+                      "id": 2962,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "unpause",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2468,
-                      "src": "401:13:16",
+                      "referencedDeclaration": 2574,
+                      "src": "460:13:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
                         "typeString": "function ()"
                       }
                     },
-                    "id": 2847,
+                    "id": 2963,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -508,399 +489,393 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "401:15:16",
+                    "src": "460:15:16",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2848,
+                  "id": 2964,
                   "nodeType": "ExpressionStatement",
-                  "src": "401:15:16"
+                  "src": "460:15:16"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2850,
+            "functionSelector": "3f4ba83a",
+            "id": 2966,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2842,
+                "id": 2957,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2841,
+                  "id": 2956,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3334,
-                  "src": "377:13:16",
+                  "referencedDeclaration": 3465,
+                  "src": "427:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "377:13:16"
+                "src": "427:13:16"
               }
             ],
             "name": "unpause",
             "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 2958,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "441:8:16"
+            },
             "parameters": {
-              "id": 2840,
+              "id": 2955,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "367:2:16"
+              "src": "417:2:16"
             },
             "returnParameters": {
-              "id": 2843,
+              "id": 2959,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "391:0:16"
+              "src": "450:0:16"
             },
-            "scope": 2863,
-            "src": "351:72:16",
+            "scope": 2979,
+            "src": "401:81:16",
             "stateMutability": "nonpayable",
-            "superFunction": 2468,
+            "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2855,
+              "id": 2971,
               "nodeType": "Block",
-              "src": "486:50:16",
+              "src": "545:50:16",
               "statements": []
             },
-            "documentation": null,
-            "id": 2856,
+            "functionSelector": "39e36e61",
+            "id": 2972,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2853,
+                "id": 2969,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2852,
+                  "id": 2968,
                   "name": "whenNotPaused",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2445,
-                  "src": "472:13:16",
+                  "referencedDeclaration": 2548,
+                  "src": "531:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "472:13:16"
+                "src": "531:13:16"
               }
             ],
             "name": "onlyWorksWhenNotPaused",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2851,
+              "id": 2967,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "460:2:16"
+              "src": "519:2:16"
             },
             "returnParameters": {
-              "id": 2854,
+              "id": 2970,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "486:0:16"
+              "src": "545:0:16"
             },
-            "scope": 2863,
-            "src": "429:107:16",
+            "scope": 2979,
+            "src": "488:107:16",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "external"
           },
           {
             "body": {
-              "id": 2861,
+              "id": 2977,
               "nodeType": "Block",
-              "src": "593:50:16",
+              "src": "652:50:16",
               "statements": []
             },
-            "documentation": null,
-            "id": 2862,
+            "functionSelector": "3f33d08c",
+            "id": 2978,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2859,
+                "id": 2975,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2858,
+                  "id": 2974,
                   "name": "whenPaused",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2454,
-                  "src": "582:10:16",
+                  "referencedDeclaration": 2558,
+                  "src": "641:10:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "582:10:16"
+                "src": "641:10:16"
               }
             ],
             "name": "onlyWorksWhenPaused",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2857,
+              "id": 2973,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "570:2:16"
+              "src": "629:2:16"
             },
             "returnParameters": {
-              "id": 2860,
+              "id": 2976,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "593:0:16"
+              "src": "652:0:16"
             },
-            "scope": 2863,
-            "src": "542:101:16",
+            "scope": 2979,
+            "src": "601:101:16",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 2864,
-        "src": "128:517:16"
+        "scope": 2980,
+        "src": "176:528:16"
       }
     ],
-    "src": "0:646:16"
+    "src": "40:665:16"
   },
   "legacyAST": {
     "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/PausableMock.sol",
     "exportedSymbols": {
-      "PausableMock": [2863]
+      "OrganizerRole": [3532],
+      "Pausable": [2607],
+      "PausableMock": [2979],
+      "Roles": [3618]
     },
-    "id": 2864,
+    "id": 2980,
+    "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2812,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 2926,
+        "literals": ["solidity", ">=", "0.7", ".0", "<", "0.8", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "0:23:16"
+        "src": "40:31:16"
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/lifecycle/Pausable.sol",
         "file": "../lifecycle/Pausable.sol",
-        "id": 2813,
+        "id": 2927,
         "nodeType": "ImportDirective",
-        "scope": 2864,
-        "sourceUnit": 2500,
-        "src": "25:35:16",
+        "scope": 2980,
+        "sourceUnit": 2608,
+        "src": "73:35:16",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol",
         "file": "../roles/OrganizerRole.sol",
-        "id": 2814,
+        "id": 2928,
         "nodeType": "ImportDirective",
-        "scope": 2864,
-        "sourceUnit": 3402,
-        "src": "61:36:16",
+        "scope": 2980,
+        "sourceUnit": 3533,
+        "src": "109:36:16",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
+        "abstract": false,
         "baseContracts": [
           {
-            "arguments": null,
             "baseName": {
-              "contractScope": null,
-              "id": 2815,
+              "id": 2929,
               "name": "Pausable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2499,
-              "src": "153:8:16",
+              "referencedDeclaration": 2607,
+              "src": "201:8:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Pausable_$2499",
+                "typeIdentifier": "t_contract$_Pausable_$2607",
                 "typeString": "contract Pausable"
               }
             },
-            "id": 2816,
+            "id": 2930,
             "nodeType": "InheritanceSpecifier",
-            "src": "153:8:16"
+            "src": "201:8:16"
           },
           {
-            "arguments": null,
             "baseName": {
-              "contractScope": null,
-              "id": 2817,
+              "id": 2931,
               "name": "OrganizerRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3401,
-              "src": "163:13:16",
+              "referencedDeclaration": 3532,
+              "src": "211:13:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_OrganizerRole_$3401",
+                "typeIdentifier": "t_contract$_OrganizerRole_$3532",
                 "typeString": "contract OrganizerRole"
               }
             },
-            "id": 2818,
+            "id": 2932,
             "nodeType": "InheritanceSpecifier",
-            "src": "163:13:16"
+            "src": "211:13:16"
           }
         ],
-        "contractDependencies": [2499, 3401],
+        "contractDependencies": [2607, 3532],
         "contractKind": "contract",
-        "documentation": null,
         "fullyImplemented": true,
-        "id": 2863,
-        "linearizedBaseContracts": [2863, 3401, 2499],
+        "id": 2979,
+        "linearizedBaseContracts": [2979, 3532, 2607],
         "name": "PausableMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2827,
+              "id": 2941,
               "nodeType": "Block",
-              "src": "241:30:16",
+              "src": "282:30:16",
               "statements": []
             },
-            "documentation": null,
-            "id": 2828,
+            "id": 2942,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [],
-                "id": 2821,
+                "id": 2935,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2820,
+                  "id": 2934,
                   "name": "Pausable",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2499,
-                  "src": "204:8:16",
+                  "referencedDeclaration": 2607,
+                  "src": "245:8:16",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_Pausable_$2499_$",
+                    "typeIdentifier": "t_type$_t_contract$_Pausable_$2607_$",
                     "typeString": "type(contract Pausable)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "204:10:16"
+                "src": "245:10:16"
               },
               {
                 "arguments": [
                   {
-                    "argumentTypes": null,
                     "expression": {
-                      "argumentTypes": null,
-                      "id": 2823,
+                      "id": 2937,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4230,
-                      "src": "229:3:16",
+                      "referencedDeclaration": 4294967281,
+                      "src": "270:3:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2824,
+                    "id": 2938,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "sender",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": null,
-                    "src": "229:10:16",
+                    "src": "270:10:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
                       "typeString": "address payable"
                     }
                   }
                 ],
-                "id": 2825,
+                "id": 2939,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2822,
+                  "id": 2936,
                   "name": "OrganizerRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3401,
-                  "src": "215:13:16",
+                  "referencedDeclaration": 3532,
+                  "src": "256:13:16",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3401_$",
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3532_$",
                     "typeString": "type(contract OrganizerRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "215:25:16"
+                "src": "256:25:16"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2819,
+              "id": 2933,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "194:2:16"
+              "src": "242:2:16"
             },
             "returnParameters": {
-              "id": 2826,
+              "id": 2940,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "241:0:16"
+              "src": "282:0:16"
             },
-            "scope": 2863,
-            "src": "183:88:16",
+            "scope": 2979,
+            "src": "231:81:16",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
+            "baseFunctions": [2566],
             "body": {
-              "id": 2838,
+              "id": 2953,
               "nodeType": "Block",
-              "src": "315:30:16",
+              "src": "365:30:16",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "argumentTypes": null,
-                        "id": 2833,
+                        "id": 2948,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4293,
-                        "src": "325:5:16",
+                        "referencedDeclaration": 4294967271,
+                        "src": "375:5:16",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_PausableMock_$2863",
+                          "typeIdentifier": "t_super$_PausableMock_$2979",
                           "typeString": "contract super PausableMock"
                         }
                       },
-                      "id": 2835,
+                      "id": 2950,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "pause",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2461,
-                      "src": "325:11:16",
+                      "referencedDeclaration": 2566,
+                      "src": "375:11:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
                         "typeString": "function ()"
                       }
                     },
-                    "id": 2836,
+                    "id": 2951,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -908,103 +883,107 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "325:13:16",
+                    "src": "375:13:16",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2837,
+                  "id": 2952,
                   "nodeType": "ExpressionStatement",
-                  "src": "325:13:16"
+                  "src": "375:13:16"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2839,
+            "functionSelector": "8456cb59",
+            "id": 2954,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2831,
+                "id": 2945,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2830,
+                  "id": 2944,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3334,
-                  "src": "301:13:16",
+                  "referencedDeclaration": 3465,
+                  "src": "342:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "301:13:16"
+                "src": "342:13:16"
               }
             ],
             "name": "pause",
             "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 2946,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "356:8:16"
+            },
             "parameters": {
-              "id": 2829,
+              "id": 2943,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "291:2:16"
+              "src": "332:2:16"
             },
             "returnParameters": {
-              "id": 2832,
+              "id": 2947,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "315:0:16"
+              "src": "365:0:16"
             },
-            "scope": 2863,
-            "src": "277:68:16",
+            "scope": 2979,
+            "src": "318:77:16",
             "stateMutability": "nonpayable",
-            "superFunction": 2461,
+            "virtual": false,
             "visibility": "public"
           },
           {
+            "baseFunctions": [2574],
             "body": {
-              "id": 2849,
+              "id": 2965,
               "nodeType": "Block",
-              "src": "391:32:16",
+              "src": "450:32:16",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "argumentTypes": null,
-                        "id": 2844,
+                        "id": 2960,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4293,
-                        "src": "401:5:16",
+                        "referencedDeclaration": 4294967271,
+                        "src": "460:5:16",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_PausableMock_$2863",
+                          "typeIdentifier": "t_super$_PausableMock_$2979",
                           "typeString": "contract super PausableMock"
                         }
                       },
-                      "id": 2846,
+                      "id": 2962,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "unpause",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2468,
-                      "src": "401:13:16",
+                      "referencedDeclaration": 2574,
+                      "src": "460:13:16",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
                         "typeString": "function ()"
                       }
                     },
-                    "id": 2847,
+                    "id": 2963,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1012,196 +991,215 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "401:15:16",
+                    "src": "460:15:16",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2848,
+                  "id": 2964,
                   "nodeType": "ExpressionStatement",
-                  "src": "401:15:16"
+                  "src": "460:15:16"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2850,
+            "functionSelector": "3f4ba83a",
+            "id": 2966,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2842,
+                "id": 2957,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2841,
+                  "id": 2956,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3334,
-                  "src": "377:13:16",
+                  "referencedDeclaration": 3465,
+                  "src": "427:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "377:13:16"
+                "src": "427:13:16"
               }
             ],
             "name": "unpause",
             "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 2958,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "441:8:16"
+            },
             "parameters": {
-              "id": 2840,
+              "id": 2955,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "367:2:16"
+              "src": "417:2:16"
             },
             "returnParameters": {
-              "id": 2843,
+              "id": 2959,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "391:0:16"
+              "src": "450:0:16"
             },
-            "scope": 2863,
-            "src": "351:72:16",
+            "scope": 2979,
+            "src": "401:81:16",
             "stateMutability": "nonpayable",
-            "superFunction": 2468,
+            "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2855,
+              "id": 2971,
               "nodeType": "Block",
-              "src": "486:50:16",
+              "src": "545:50:16",
               "statements": []
             },
-            "documentation": null,
-            "id": 2856,
+            "functionSelector": "39e36e61",
+            "id": 2972,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2853,
+                "id": 2969,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2852,
+                  "id": 2968,
                   "name": "whenNotPaused",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2445,
-                  "src": "472:13:16",
+                  "referencedDeclaration": 2548,
+                  "src": "531:13:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "472:13:16"
+                "src": "531:13:16"
               }
             ],
             "name": "onlyWorksWhenNotPaused",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2851,
+              "id": 2967,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "460:2:16"
+              "src": "519:2:16"
             },
             "returnParameters": {
-              "id": 2854,
+              "id": 2970,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "486:0:16"
+              "src": "545:0:16"
             },
-            "scope": 2863,
-            "src": "429:107:16",
+            "scope": 2979,
+            "src": "488:107:16",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "external"
           },
           {
             "body": {
-              "id": 2861,
+              "id": 2977,
               "nodeType": "Block",
-              "src": "593:50:16",
+              "src": "652:50:16",
               "statements": []
             },
-            "documentation": null,
-            "id": 2862,
+            "functionSelector": "3f33d08c",
+            "id": 2978,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2859,
+                "id": 2975,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2858,
+                  "id": 2974,
                   "name": "whenPaused",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2454,
-                  "src": "582:10:16",
+                  "referencedDeclaration": 2558,
+                  "src": "641:10:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "582:10:16"
+                "src": "641:10:16"
               }
             ],
             "name": "onlyWorksWhenPaused",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2857,
+              "id": 2973,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "570:2:16"
+              "src": "629:2:16"
             },
             "returnParameters": {
-              "id": 2860,
+              "id": 2976,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "593:0:16"
+              "src": "652:0:16"
             },
-            "scope": 2863,
-            "src": "542:101:16",
+            "scope": 2979,
+            "src": "601:101:16",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 2864,
-        "src": "128:517:16"
+        "scope": 2980,
+        "src": "176:528:16"
       }
     ],
-    "src": "0:646:16"
+    "src": "40:665:16"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+    "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.20",
-  "updatedAt": "2020-01-30T11:34:10.517Z",
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2021-01-22T04:14:17.113Z",
   "devdoc": {
+    "kind": "dev",
     "methods": {
       "_unpause()": {
         "details": "Internal implementation that lifts the paused state."
       },
       "isPaused()": {
-        "return": "{true} if the contract is paused; otherwise, {false}."
+        "returns": {
+          "_0": "{true} if the contract is paused; otherwise, {false}."
+        }
+      },
+      "pause()": {
+        "details": "Must be inherited to apply proper access control before calling internal implementation on {_pause()}."
+      },
+      "unpause()": {
+        "details": "Must be inherited to apply proper access control before calling internal implementation on {_unpause()}."
       }
-    }
+    },
+    "version": 1
   },
   "userdoc": {
+    "kind": "user",
     "methods": {
       "isPaused()": {
         "notice": "Returns if the contract is paused or not."
+      },
+      "pause()": {
+        "notice": "Triggers the paused state."
+      },
+      "unpause()": {
+        "notice": "Lifts the paused state."
       }
-    }
+    },
+    "version": 1
   }
 }

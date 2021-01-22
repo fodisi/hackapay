@@ -1,4 +1,6 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: UNLICENSED
+
+pragma solidity >=0.7.0 <0.8.0;
 
 import "./IPayable.sol";
 
@@ -8,8 +10,8 @@ contract Payable is IPayable {
     event Deposit(address indexed from, uint256 amount, uint256 indexed datetime);
 
     /// @notice Allows the contract to receive funds.
-    function deposit() external payable {
+    function deposit() external payable override {
         require(msg.value > 0, "msg.value must be greather than 0");
-        emit Deposit(msg.sender, msg.value, now);
+        emit Deposit(msg.sender, msg.value, block.timestamp);
     }
 }
