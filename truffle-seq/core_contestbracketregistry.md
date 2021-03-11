@@ -1,13 +1,13 @@
-Test date: 2021 Mar 02
+Test date: 2021 Mar 11
 
 
 
 ## creates contract and checks initial status
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestTeamRegistry.test.js#L29)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestTeamRegistry.test.js#L29)
 
-##### d1, tx: 0x137b93f64dca521c52a63306db5224755778a0d7791b048d418cbd17a0df4a3c
+##### d1, tx: 0x9d7e0b46e41c9d8a3f6d24e5ef1c2bd524bfb2c51053431220eeef2c0b5562cc
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZal440TAj2mzaFLggsqBvMgIs8WQd2GusnGsl--ImWql1IqeadJ4CJs-UwvUuwBpuoT9HgLJeSHOvZgMAP3JoYMF8LoX0g748c-a44R_QU-YbCPTE8eLl2fwtRTZilOQQ8daMWoo3y3WO5GC2sM01Un2fzZgJ5gHM5V3eNKXDZJ2uKkRSuWHwaQHM9fuovy5c3O2zaD1a4e-s3mGlIQZwTVYo1OuVzI9c5_e1Fm9d2lqbwFS9aETIJWVYpX0fD10_ZOi1olRlMgTk1ZnJJyYebLo-BLmAkOfkrKAevJGnuuJjtmk5qBRAFcUu7XaAnde-KpIfclANJtkWMOm06D1upIfaC_725HxH09aUYselG9VIlwOQBLv2hsdnwvaPjirTW8TXj7uWebzeLQ0LdUMJQ-LdsKb4wLAStjLeNB9famcQlE5yigTzWZZtemrogj3nZBym4dpLqiuVYu0NuiIPPc-JmyOhiiIg0hh7EmHogK1Rd31_d0JekA_LoCpPTle2SZ0JHA7ERZJunIccJgBq08IYG9qCptgV0rpVYuQjijislwNgtZ-2Pwdk-YqwroCt0xrLh0FQ_IgLdOdg4SmHJu5mxVVxYNLAllHPoHMVih_cKUwy5c51ObaeTEVZyMyAmAA4f5U3HCmHEeX6h05OvW-WglVvFQ6ubrIWDC_YTA9oSDk1KwLH8-HikBuuZYesyFewGG7wqwt50ivFYz8dhl5SbDjhm_vPDdl_fBmpphc6L-HURHpzYSv2N_EuZibVGYb58aM_EownmjvtNROJixoZDjDhiHi9jI7mY4nZ1AIcpE-JddF6D3ZPzQ0qqoB-H1BtYrviM-i6k-vBsKdcCjbCGeci3rBoa2Q7teTIW3R-_5s_Ppf-TsrQWxrNCqkUNMqF0jjCnwdGiqUaxGzWFRjbsxnZSwNUdPc-HxE5dhxIkYFQ0NTu1YkWTK-QxmjlfJGAgyelxO6JtftleR)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpNdhcnYYB-dW0m81qhuW8ITnqWZNgHndQodyzrtIjAGlj1hLf6bL6zldk-VkkLvy9kGyrKpfR2W8OPbEP3Rqk2BfKon7JB4X21vn6NIO_nIf99D1Dn69Wazzj-zsNK9EKpqH_8n0yHbm5d05qt89S96e-3cHcecsY2Cvv58ZOgWN2dtSd46ECZKIV6dZBdxcODWBsGqBWbX6OD1Iz5gCfr_B84Zf_rAcSJJGANWJk5TP628kqR4M7Ex74YvOEcW17JU3EgUUNUEsuJU31hF2Mc3QtE6XuPjUu9Ys5tgcxnZKiMpBC4tAEGzDdtgEKpDzds3AV8sXkzTjO2aSu7X0C6qwzkCHGwfT9C5JtL6OFgvlUHIdMask4l_faHg5oLQDZM2tYU1NJBA8gnMGvPrbusiLCOdfLBdIt6vLk6oI2zEvwdonh7B7GlIe1tEjolg0a28VS7AsYoKS7xV0JoJAiZoVXqTabqK5T8Lr0VQ8XR8WT_WW7yXfMR6Vo_7ivHleoOW3Zf8DY_4d4nbESlKNG0J5qnHmvljO-1fdTDnhsgvdzWsxvhLfFpJg_NOxi7czQR2UxVQQM3QMrQWxCvGZc0BzGk7x3_SIQ_MzY7CoQt_5lynZFTYSmg94Yj3HxyS2dbK1HgaG3uSfU9mfhbfmnKOmVONNlqdjZSGwfG5B_oTA9oSjkEKwKn8-HijB4e7nuJTa8Yt5HwiEDnGBEdwlYDvxHGgJBUzFzUJPh_wokCWwopE_8lFmPsnEyfB_7KJsIdePIYMIhNdPTOvMyxhji9qTvRascTq8o4sb3mHSirYa5JOzsgEKvcomyMDhm4dk1Jte1Q_slDWNTcSlHI_5vrXp9PaG4xZ-9Na0xG-z3bNWxRrustxXjDankerktQHMFGWit-zr6bR33Lt3SPs0rkfXfs7QpHnfWzELdhr9leUJjTw-8je3Ud47AATxG5Nl2c-hFmN4oYlhZvpZ4--jlm40)
 
 
 ```plantuml
@@ -29,7 +29,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x137b93f64dca521c52a63306db5224755778a0d7791b048d418cbd17a0df4a3c
+title Txn Hash: 0x9d7e0b46e41c9d8a3f6d24e5ef1c2bd524bfb2c51053431220eeef2c0b5562cc
 
 
 actor EOA as "EOA"
@@ -42,21 +42,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -79,12 +79,12 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xD461976Da203E8a1c3a32990ea1f7dBcd444E480 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xD461976Da203E8a1c3a32990ea1f7dBcd444E480 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xD461976Da203E8a1c3a32990ea1f7dBcd444E480 |
-<#FEFECE>| Roles_01 | Roles | 0xD461976Da203E8a1c3a32990ea1f7dBcd444E480 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xD461976Da203E8a1c3a32990ea1f7dBcd444E480 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x9B1C8C72037dd3ccDB838EfE15E5d067fB824901 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x9B1C8C72037dd3ccDB838EfE15E5d067fB824901 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x9B1C8C72037dd3ccDB838EfE15E5d067fB824901 |
+<#FEFECE>| Roles_01 | Roles | 0x9B1C8C72037dd3ccDB838EfE15E5d067fB824901 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x9B1C8C72037dd3ccDB838EfE15E5d067fB824901 |
 endlegend
 
 @enduml
@@ -93,11 +93,11 @@ endlegend
 
 
 ## Opens/Closes evaluation, updates state and emits events
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L47)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L47)
 
-##### d1, tx: 0xd8dfb3fb743a7e7dba89cf6cd921db9f63837f511ef6583f68f496870c08d1bc
+##### d1, tx: 0x0ad8bd5f6ba63284a1b256f53ea61a311041a9b3d69e8a332e3c8aa41a3a2409
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZcy905rg1J2sWzLgxRIlbIgxDY1gC51ZhD1QV_xBY7Gy5BGYYPDGn3RvxldxZakFXDobXYcJJgC266fYLKwv5AJv2bK8wRP42BPbqgSC_-fh-DKYKuSnHe-zRoUr_48EKtC998j0lbd89cG6gR54k0Yrk5ph0oBsb7OLqEf3286Pg7GmyqPv2ZLeqWkRTo5pnAisa9smuG8LHyiMeXUy_7qQn44AVnVgYJi3qm2V0BtEWq2n2KcD964-x622vOCca37mXK1hmRSgLMP8nt1cTlm0ziNZOebU2EmgsxL2UgM9GExxbO3smrg3Tjrg4zTON6VOCfyWw5xrsrW2HpWU40mRIRqmn53gXqa8HDphZ5zqjpAVfWOFRcA_QT7QkKcMpKsWjt6aRnYYlMbNW5PtbasljPzfZ2TEbEQswqAbqqoOJ9NdI-MLUvOW1xDOAvLMXyGakS3JbgxMCBnSHFyMA4ipV9vU4HsMPH0LrZdO8zOA0joXm_gWPmM5Vkv65ilty1CHX9mL6oOZpzPbE8aKty1HD0oIG1dle-5Rt16ntQjrgxqAZvtEuvVOPpx7dDwDgq8hsExWd9UxxXLTZv3EO8fq2yKll_mBh5Mtuiu8xFsL_pBFDQ3pIWiIYGF7Vr-BE1P5M2K6l5mc0ANJ4lTX2isWkahlFvDQcyarYaDMF8_KJevQSAjDAbMy35QF8uZZ0-_0OkIGdoqwd13iQ3ZzuhelLSaDzdo_fHFdltgBmtphBCiyoioZZzhSvAN_EyWibVIYr1AaMpDowvpj9pNROVjx2ZFjCdiHa1kIdr0ICF2A2cnwT8kfJHZWuqVMmDECY_emInujUV5lh1hlUIz59zZ8xLYKJI1wrzA2cX_w7Ke0s_lnTlsSwULMiLgD2ot8-hKysoxphkMPrisxJPatV5jogl2xjdkHgShFNkJV0ydQxrzHRG7zE8EK4ptW2hV5TvMVmg8bLVK7pd39zvRVmC0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZaaWO0wLChBsWzLgxRIlbIgBea3KOE376U3qlxtNKAWuQMW5KsQXY2sptVFtNDSV6RiBD6eT3gC6CDKnp8TkaAnv2cK8rGuX4ZqXVJFqNlggpYLVZkEOWMVUjrUjzrbx3JHaqWq6UIVWK1VA9WMIu2BM8NFiTGOjQAmBuT2Qa8Cz4AXHvipo56gHf5OshWBdmKOra9sWxuVoZuOl12zvkFfro88LlY_b4dO7-W4t0dSgpG829VfK4S2xiSIBZ0PD82FEVgEwzj1rSMgMN4iDDoANGriKs3LGDCmk6LWtJNzQbquQ9eLONeE8WbDh5YypYXbdgRGkzSjm0GEQ3nWb3OTUk48YMgRI8X4dojAdz2teXycMaskOk_faHkvoLQDZM2tSIIkK69Vg1MGvPrbuslLHqdfL9dIt6vLk6oI2PEvwdonh7A70NdKWxbMQNt0M9uFE6dkOWd7nmtmOacoDClduH7RPL42NM6TWprIeIp87Jx81tPQLEpdOco-V0Cz6GcWKU8m7tzYbD8aKty1Gb0YIO1cdaU5hsd6nvswrNKhFSEgkYtU2unQhzNoBL6h6zYnkfrwnVLDqwdPCvGZc0B_mk7xZ-ubrUfx4MTarlwAVvd7Uh0PXKM9vA6Jtuy5FAi2Yb8H7WrJS0KgeHfmXIEOliBhtwJsHcATqW2J_udIoKa3ReLEbOIFqNBZEABuw1jWb1JYerM76ug57BzNHE-z8hd9blUdVFBiLtzfc6STiyolo5pw6PkJlEH_1v6zabw4KefaQrvsdQFbl6uxR6T7UQRDPZS2TbFg0xxG64P9YKs7TpZd6Hjg_DGQQ99v8GzwmQirB_Q5NVCbxwNq76kX94RH1Av_IU53wqElGnbuUo_UjfyxvK7Rjwl6USViMMQhPdEw3xHjpYsVkqxRxfuxLTznUiP6foizUvDy3oThlNr5j0VquWvGJFU0AjyLtbP_2aYLLzGVEwCdtLj_0m00)
 
 
 ```plantuml
@@ -119,7 +119,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd8dfb3fb743a7e7dba89cf6cd921db9f63837f511ef6583f68f496870c08d1bc
+title Txn Hash: 0x0ad8bd5f6ba63284a1b256f53ea61a311041a9b3d69e8a332e3c8aa41a3a2409
 
 
 actor EOA as "EOA"
@@ -132,21 +132,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -169,20 +169,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| Roles_01 | Roles | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| Roles_01 | Roles | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x3f34423dd4ff88f45d30f9b6ffb7d4ffd3250489fa165b2c7f0b3d1eb56926b5
+##### d2, tx: 0x43502dcbc75d8183ac1f26445e6107e14db481a6fce103d99b5508d2e51a9e6f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSz8aJIjMKTfqy81036alICXEd3OYTIhRsLeA_tsNDCqeq590H57EETlVtNSvVmeXHzemPV9nIWZBJIRpCHUAwDj4JfXYOqZ5KCZec8MtGvNbCkfbQQRWoo0O1Bs0a4DjPgde42YlaM2HK32lNW5ECfNSPTAmj9icGpaMqY1YREe50vnSG4voDKd5oiIlv4w0vTI-2nP5YHo2HIlNGsaFlrT9a2h-gTJ9S6Gqy1bSgJoE4PUOnAG2hgOIJfWUjO5E6t73SUn653bnxFknuqOD6hUu5yUyMVYYXkrIns_5pF9SReVDcF96P0dkUYtRuox1aeK6Km_Eky0qxA3T8LWsauJ9X27L7f8GsXmhB9ymbsAOQADcPrbuUqEjSil65QjWvsh895P4NMQfMEv_wbpTKZZrSkdoPPiKDwTNWf2IBXnqNYC1-_jjo2P21dzOcZEJP79tZxosgS1zHgw4IdJjtxsMr-ImQiQlbUtS_m0pcmX0Azcuj4La71JBxm6xI0cj0KTXY3rjS4IddkDqxO4TSh_N36t6UHYmvi2ZTXJqF3-YdBizly6E5oXxC0VwZSBFty4fjk4BgHO4wfANYO-OVb_2M9WyBB9KY8Tc3bmm9LGRpjW4vW_my9dK_fDu-PiS7BJXKfXSINWVFPvbAUQ9D_Ail7lhIlfQstnICbjqw_gpKdxzcssFm5keRfNOufmMgyb2pSd58m68X659gXzLga_xbDAYKYZQg08uAA9W15FNhBjij7fVvxxKGNnEZL2IfUaCplzA4K7tNQtu67YpZcwQBuFQZcsrMfRVYrmQ11wAUTyAFCkZ_PPmcw5NoBetyFpLeC_qzedh0z2rBbV33q2jr-zrSsyDXWrJjGqvmYV-Alm3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSvgaJIjM4Tfay81036alICY9dJOYTIhRsLeA_tsNDEqeq590H57EETlVVT_bV0eXHzemPOfHHWWhJ2wBKIGKqRUf73F5Hf29WP3ycCMt0vKNalVoB5Vm9Gp2e1SGSgZDD1DT0jKr58mB1RFw5U0aL-bTBWtB_2mTo96G1X4JirmGukGSSboeSIPM9dwbTm8iP-cxO9odSW0MhLqFbJtyNfCWTVnJgTF1q6Y8fd2bYYH1N69IamcucaWuONhO0JfnR9SsU1p5BPTxbcUps4eQJSTnHTEYBM4vF78yYpMJM5ZKvkrsvBhKumtXMgmjcWd1bCK6gGVdFZ0DEsXt2ARDf74wPYYrXoA4DiSAqoVCfHYasgZfMHxVtb2hsh9nnIhOkHemYHbHbtac5lkVEbUtb4wzMBfusORYPdeL2Adama7tDH6mlz-1V2nay8Tb1JDfBdVto6kRIjnduYgeL2_zkzVocXpMnVYrjjtx7s2cOm5e9HjLjeoCWtBvFM0LAQ4ru2YEiQODZkYattQ2g15QJZFoQPXOhT3tkIDQROlrdQ3VRaJSjhsMEqVPWndGRnH-_WvEiGnVe5eAMAQy8Zva-ds4CJ55NB9KY8Tc1f5WIgWEdB4np1xWuJEb_HVnyZSvEEZ0fJ25al0-UL6UPyWJRzHPU_VMfVIrilaaCbjKw_gpKdtzcssFm5kaRaLiVaxBrMJUpSd5emR0XM5ffXzbga_xbD8oKzYqiGlWe8o24SmoP_wYq9RxklTL7yJdn0WbMPPDuVol51pyTvNYO-3DVNJJV1MK9ZtkDgtZlXqwjjzogMqtUYwb3gUHrtE3Ow_9FI-qLeC-wxTFN1-0NlRbUlW1gFNzUztSMuDXmTHbGuxmYRyA_m00)
 
 
 ```plantuml
@@ -204,7 +204,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x3f34423dd4ff88f45d30f9b6ffb7d4ffd3250489fa165b2c7f0b3d1eb56926b5
+title Txn Hash: 0x43502dcbc75d8183ac1f26445e6107e14db481a6fce103d99b5508d2e51a9e6f
 
 
 actor EOA as "EOA"
@@ -216,12 +216,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -238,19 +238,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| Roles_01 | Roles | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| Roles_01 | Roles | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x46b26c11e63c47a86643794354f308bfcb784bf99082594a9dbe0da6d7441d2a
+##### d3, tx: 0x34a669d485b140f3f246e3be609811f68ef13ea948e093e920ae5906b3d0abe3
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSzBKJIfMKTfqy81036alICXEt3OYTIhRsLeA_tsNDEqeq590H57EETlVVT_bV0eXHyPoRVDHIWZFRQRoaP2QcDj4ZRdc8qZbGAhuc4Ut0vtbAkvaQQRXIo_iXPsGa4DZfwbi4IYleUInr32hNW5ECftSPShoj9qc0pMIoY9YtouNz71o3ZdEzJYLAnE_aZi9ZhVqNV0uJjG075gv7afx-BqYGQhufyeaWw4r8APmfVD-7t69JMmguMgYu8IROHFen6F2PP7ZI5QBl0Rt6VDgZS2hrRr-ZVgY7uc6xub-453VhGSU3s8XQSnPtF0y9tOvmPH55gc7vstW1dRGxX1CcqsYPCnHQWT5I6EFDQPFsaivI8pLqxCikhsXJhbbuufLi7Czu0epeY-pL2xsFtMkRYcSPh5qyR8DnStqIX1IoeM3rciYO7-_2L6Q6Hd-uMdERPAftJtosgu2-9cw4YinI__kjRecXrKrVgriw_u7sEbO0bh5HwKj8kEWM7uFM4PQ6WCuYY8iQeiZEc6UrtPxRYJyJYDokH1Ho1izHjqux30_faBKEtwD7yzHzc06z1k5dx_3Kwp35wWM0fOvBuaFkNaVOKnC7XKiDUAXcO6GN4lTX3C-Xja3F7ocjFyYNluc1mTDk9GsrmhU9qzaMOeyyKQTbNTlNKfVAvjF8hD5jQu_BENNlzdw3Bn5wrRCvYUrM4tc_PnSF6e1iRGyISsZL7Lfbr9Qf0hRDlO171HHC89T9gszgBJbljPzsGdnER5IAvwcKpZ_gsGCxNVLucFWpPrqqtmPrFLS9mWSlnFNQHWoLXTT9sGEezr0rXiHew8MinxpLuC-wxXFN1-0NdRcQlW1gFKTVDtSMuDXmLHbGuxmYJyB_m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTqkX51gliRPm-c0qdiczc9W5XfP8bsPPxbgh__q6IdjMRQqQ2M6MsTrllc-OdS3OKQw5qiKePKmKEfF5A435yjj4ZeKI8qXnW38w5k7jG6M5Z7fPcYduudk-r_COEyprDCKEW-eQeeXGmQn-1JZ9L7ANIItIRfeCv0Yb9iHOBnVuD3c771TgdEBAnA_a3i6mbhuB4KM97831QzT3PG-_roHO7VzKvibWg7C8fd2bYZWcNAOJdI9SJIISY7pO1ZunBM7RRcGvpS2mU6p63Sj6Cq2RkuvXnBQ3iM6YS2q7kMkYs-02cowt0pFY8a2JKSf2JTIzyow877R8xZ1Acqx2P2n8Qez4OAwF5QKFzIKEabohwLaMtjvmezgoSSKgsBaQ24aPKPTPYelzJvshMqfdlbYwUDc6ucPw5GYhvC91vpKHiB_VXZ3DSlJ-YBGGEidaxXvxRLS9_4nTXPNaI__kjRncXtKrVgrjv_u7wEaOWQmKeygMaMbGBhy7AYE5UGuq2aCgQaqZFkcxbXSqVCEoWoxtOwFbTxkHXItN47tBwxkD839DfzMSe-p13FWt3Zz_UwTKXozGBGKiSruH7uhyVOGfCKLOibI4HsO60Gg5gWrdOWop1tZuJ6d_HRpyJGuEsd29kb0ItYSloBAKUD9DEcllthgKlbOsdqHcYsfTVrYght-pzHbuYzQjcCrFQhcQpVivktZK0YBK8adpHwdgypxdl4mLjMtg0pGeer04lKnQTr5fotsT-weJqdEYKKcHfbCu_oinWkwxQl4nyEPEkcc-2ihZNjIqZUE-wLjcjzNafjdeDJct8XuulQPtxDYHu_Z6Qj1d7VU9wmFGoyvS3py0jRw3hvjxQp0gcBfis14zwMVX7m00)
 
 
 ```plantuml
@@ -272,7 +272,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x46b26c11e63c47a86643794354f308bfcb784bf99082594a9dbe0da6d7441d2a
+title Txn Hash: 0x34a669d485b140f3f246e3be609811f68ef13ea948e093e920ae5906b3d0abe3
 
 
 actor EOA as "EOA"
@@ -284,12 +284,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -306,11 +306,11 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| Roles_01 | Roles | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x24219918Cd50EE665bD1E6160D9e57c60b3d6F68 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| Roles_01 | Roles | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x0fCd561BD3F43A750332C5004d0b8C5EB86d88F1 |
 endlegend
 
 @enduml
@@ -319,11 +319,11 @@ endlegend
 
 
 ## closeEvaluation reverts if evaluation is already closed
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L64)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L64)
 
-##### d1, tx: 0x191ff6d40a5ed5ae444f71891a93dd5cb0eb7de0ad497359bb24c9bc2dca2b57
+##### d1, tx: 0x40fc2eddb600b6128f477add16c11a0e271489926d7c7e5370b99b80de72205f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtHm8151N5IYiVQXQjPNsKgawnmv43Gvod0twut_V9GGQAALQqQHf26BxVFVTVSV5PyQE4ul6fgE8CKnjhDEHK8Obzw4Uey4HH6gWjEoWVpymSQfbDuvY0v_wlNwlssFiCB7JI1qno3z3XL8PU2oM0AUn2HzYRJ5gH-50ZvIsX1ZOXKAVDcUGuzIC8xMqSHq-A73SXUmIfGpr01nUY9xpyV1h4GGh_9_f91mCRG9Y2ZSc3GB2PJQqaOARYOPJJ8Oju1EdwGH1NReSQqhMKBck6tXEe-bWiofbpHTS2KygZj9jUjLQKuYAwpU5Nv4-LaJDOvGotrBelOisO08xDEumIfiD_N2CHBLB95HYEuRIf-oL6eI9DTFpsB-_uqvkib5ZBTXL7Abpr3XGPWLaUMVP-C8CK5CwJQOqjriLBfjamcIkEbyigrnZG1xjSAvLMkymbkS33exUOmdx-otmOqsoDCldxXvxpw84ki8w1xkZGbcGsxtLj-omgDZFnNZqz0tiTAo0HesZVFo9KKgJJFq92C6e906Q-JuLlgKPdzHTjrtfLtpHw7f-1ONmU-ZrwxmYUzrwGt8XQjr65Jipb3ru1Fw5m_SVlJEgrRSYpiYy-Yl-PHwlWyqeB4ea3vtyVYpWMHLGb8RmQ7W4eT0equ9p7CFZCpp_JMel95vJ6cBoFr4wE6Z1bRAfqV0nMYAE8ugFlW56II7UMtMufbZ8yLj5zDOhafjiU7_A9yzszPU6UTOno_oAJD3FMP_a9V_l4DagwKKefKWsvkMzSxISrqs7xUmepxJPx4R0BajzG2gBOPIKs9pm4yvvneOQFxK6ccHUo8DTy6hFYtrXT_IKzr9wJgmo6gDe2XU_j9BG_j3hK0RUt8itxUTEKJeTz1f2LPkEgbVhtAtvAk2oudVwgkysF5Lhr3jEOwtJbPwzJhw5arUzVKMq1VJY3b1Cju0gtnLULdyAI9LNr1yxfYVTMty3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpGvfqrIieY_fu0C20TA-824dSTA8rAaSPsif_FTTqhIaBxGQrQHfLLlRvxldxhbSV2RaFDLSwMmO4y8pdSXiw0f5qgT8ZhZYGuX5AAJVuTvJg99C-jqaJXHywZjzf-iGSfRgIInQ18hFG71VA9YMIu2BH4NFYTGyRiTHA8T2QaGCz4AXZvipo56cHh5OshYBdWKmSo6xuRuVoH0OBKMlnNZsjGo2bFulPHg50vs2Eu5xbGK1uX8TwLZ0_LZ21Ky7JQ1ZamQU8NpVhLFgrfdH24pBGXUixZ76gJ0iPZPiswZxbcU9sgb5NTjs6zGNbc7GMa0mPPx6q9thDl0K3d0y89Ws7NdHY2FLBf8GgUueJ9_GjoACKgqcLudtz4XPOR9LOoFORHABAovvADGAoFBEil6r2hd4TAfSQMwtAbmsoONfN7M-M5Qvum5wr8EvLcLzG4YH3pXfxM89nyTDy1A9iYpFv-4HsMLH0LrXNO0zubDSa3jya0_ahApOp-NOUla6UZ8IWAFamsByoUCC9xdw2o224caAEFCyB7oDCphksQRZ6drcrjqsxGVCwhVRlYaic_6UwVHim_LFJnjMROPo15EWNoXy_-5SOgs-5t5EPkrH_CiyreFDAInAf0WT_Nuiu5aLO9GAyN2OWYku4ge9Ltm4qrTu_PlKtaYiKnhmz7-YT7BIX5kXCoNXOxJS98anFlm6F4vByT6gmmt5WexVAwBtNf72PClxKprvzgk_B2goplFChyXS_B7DILxoluF8NaalGwb4iZKlkyxHQbwt7RQpeppN9hCR0Rcfz05VQ1x5QOLDZ_OefJaRRFpO6d2IUq4FUi6hFI_sXLthfUYb-3_MGaaUnnEu_YM53-qFlGvLuEszUDj-uTIZ9gznbmPrbrhCChd57FlKRj0EDmCCg54txGwZtOrELths9laUJjPw-ufe3-Z57Q2SxW5LlIkyhVuK42klh3zoZlzuR_qD)
 
 
 ```plantuml
@@ -345,7 +345,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x191ff6d40a5ed5ae444f71891a93dd5cb0eb7de0ad497359bb24c9bc2dca2b57
+title Txn Hash: 0x40fc2eddb600b6128f477add16c11a0e271489926d7c7e5370b99b80de72205f
 
 
 actor EOA as "EOA"
@@ -358,21 +358,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -395,20 +395,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xad1Ba78be391e636045cef0d2cBFeF487e586B18 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xad1Ba78be391e636045cef0d2cBFeF487e586B18 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xad1Ba78be391e636045cef0d2cBFeF487e586B18 |
-<#FEFECE>| Roles_01 | Roles | 0xad1Ba78be391e636045cef0d2cBFeF487e586B18 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xad1Ba78be391e636045cef0d2cBFeF487e586B18 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xc04a5ab0f6b07174a71E93980Ba4f94E8649B10C |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xc04a5ab0f6b07174a71E93980Ba4f94E8649B10C |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xc04a5ab0f6b07174a71E93980Ba4f94E8649B10C |
+<#FEFECE>| Roles_01 | Roles | 0xc04a5ab0f6b07174a71E93980Ba4f94E8649B10C |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xc04a5ab0f6b07174a71E93980Ba4f94E8649B10C |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xfbbffab2b6c68c216ac4efca078c45f1da6c659a7512759339a163e274921b61
+##### d2, tx: 0xe76f285cf3d19f0d33c1bfbbe2799692d5c17fb9e478b4bbc359b6a727699523
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLFRJjj047tVhvY2r48emdPy2qejak28FbGWYlfIgcgyEmuhd7MqNaD2qt_l9B4el81bxTfpEMVspAmGPur3wzfv9GIshZRjl20hcdjj5cXn3XNDoAWnolkPhLkZ9dLLMzYVvjDyaWinRDogeap0zhaZL6JXJ_SBS55R_LGRXzMeqZCp9-COiNJF0LDsxY0NhLrKzChnNJyH-E6pxGgLqcO6ljUP_cxtuKbNXEZulvf6p-vS0yKARcnRbemhd7OLmStIm0KsTwVWBSkYA4iiWYAMSIe3FqOPKYdHIr8PHgMla1tH09F83v9eqEyFq8_x52JX8F2Bs1SicNHSUduv0cnWZ_SzmR8vBVK2-QWJFWGrRcnPFdBNDDEDiwjljRp_xVdRb3SZzeJOOi9nzbua71sTWgpgXl87h5fqkZO7X-AzhENnptrBwjU6OCTqV0h3Zuze3GkTmL3ksiqnMQztdV_8hsy-z7h3awqzWuDRSok6tJHyxlPi3KooQTGQ-FtqloBGpQv8zGdMczH3eOWrr0_ew7qnThCehbuehCYXhfeNDPnxvvxdPUilm2F74lF71fSn7HYSqyOmKifImxxdFAvvqqLUbuwimQfQmUMZ8GKZANdk7RkyPHo6es0Qo2AT93B0ef0v9jFO2rG-YLFb5KKqIViuVWtyzXIyvT-IelB7cAG5zGS-nVtO2oD9fQS2EPxID4mJYj9uxATCokfq6eapNlbM_mC0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLDTJzim57tthxW3QK0PmadJf4PTHDgcOWyJgAlsCgR9ZfrYaJgLxK0BtN_VRHinU84eifFxSUxnkTU4N3hFhMyM5I6yyRLf5a9PukwrMNBB5r2fkJ9oo8lxkQqR8qTrLLiudEIJV9GJCd1-NQcKmEwvKrmg2y_jBy1LRVLJRJoliahFpK8PZuYbVmcOe7CFkMpiib9l73_qau8WUh7TS2crcKD0MzFVtJuuRqcGjlutu_JypZiGQvZPfYmHbtZjAmMpbO4hxkukWAvK4fTXlrUKNHcmaifkjmX4AOGA4yPY5ifU4IIbO2fA-Y8IekZsc8Xv4YOnOxsmIr2omYFr_3e3xk00zmE2idbTw2N7euxm4ChveKNvb9-gkNRUhh_NnVqV6knItequ86I72MVfHv5mUde1HLKxbJ_mgk5Ur-RuX7oKjJhxTMYL_BqjiAzqTW63pu_S6XGwXK6nRpV6f9tEDF-PJsUVEft1-SwUml6jkIM3TXg-j7kw0IooRTG6y3twpmYqsvEKHx3PffuGgL13_S2z-bYC_IoIcrSAI-Mvhjmh3cCwffIccw-08uSIuySM5p4z6BvGMqCcfLKEVIzvo7dRHLnNNbd3gseDruz6ISYA0kVUeukknYpAHJW9ebXaT586oIJBPAGI5l1nb8zPA728-adlBV3xK_2UVrUqe17lSK7BMD0aI2AU13dhiZuTygX4GlquOiE0Zh0egjDgH2vnnLlz3m00)
 
 
 ```plantuml
@@ -430,7 +430,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xfbbffab2b6c68c216ac4efca078c45f1da6c659a7512759339a163e274921b61
+title Txn Hash: 0xe76f285cf3d19f0d33c1bfbbe2799692d5c17fb9e478b4bbc359b6a727699523
 
 
 actor EOA as "EOA"
@@ -445,8 +445,8 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xad1Ba78be391e636045cef0d2cBFeF487e586B18 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xc04a5ab0f6b07174a71E93980Ba4f94E8649B10C |
 endlegend
 
 @enduml
@@ -455,11 +455,11 @@ endlegend
 
 
 ## openEvaluation reverts if evaluation is already open
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L68)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L68)
 
-##### d1, tx: 0x467f2d4a800b47bfcf9114b10e95dafc790a5eb785a3f3a590213def303d37ff
+##### d1, tx: 0xf66bff35eb78c9d76156aec1a9cfd093df26bc4a1688085fb07282d353b4af11
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZal441TLQ2mzaFLggsqBvMgI-n0rE0WnzcWB_zzbn1ee9HgHPEc8OZjyzrpznmNdnaxJWrgaurYnZ0pYSf6ljGilO_K63ME89O3gKG7W_k1JZ8bkacSQFZKx_LxtHvZXwcPnlA8GV4PIXHImsEv13XDTFIGA8DnEuu6QYIL8SJGB1Jwj3c376Tw7CkbZUleGOBbBcINA4Ia1c3nKlHSZ8TVoo1OwVzCfT5WQ5Bmft2Zip0aN6OY4qkucIWunNJO0Zvnwrve2nSRdFkkvuT1sBGirxUuRDO4Xe7Nv5YJljUeeHCwM6jostA431tk2CSBGqOf2mo5thje0wQmG-CEexIPA8Z6I5IxH4AcfgCfVT9SoK6K6ZqzJuBxEsuL9Xirre9T9R4yHuK3gLT0bdUMZI_q01MbK-TASxjLuR99BapdglF5iierXkJH3ETQbVKEOqK-uE3eFPQmlz-2854ao_9yxkwnzomge2ki2x0xAfG5kTrRTSiEouhzN8v7Jz_0JCSIQ5GuAiQV66SqoTMVW12qJ5EWMH1GuHkQyKdTTTjstmxyHjSBRFJze8TUlyvjqUlM6uBxVgtRSB0pGzc3H-1VE7p_qJkZMdqhufpCgx_YN-RnEjYSmg94Yj39xyS2dbK1HQa9ZuP7y2LggLjmZcDuV8RdlqdjXSHhIaDC_oTA1mSjk98cqme-HijFafZYes-8SLgAzrOThYaMSlnM4RtrYXGc6zwVwicpNVrbKP5rp3E_8lFfPwrFyfB_TuXibVGob4ea6_FotZbQpUkcmtPsbEVQR7OZO9ULFY2amIXEAsnE-0ddF6T3ZPzQ0qroB-J1B7YrvyM-i3jwAdefFIT6QeLnF8MBNqeAQ7_eTQW2R-x5c_OBfwwGTiVt-tMRyqvNE7LUmxRZ1dQpARgUPGMkK-lp4x7MwKhFNYVVmichthuYsW9wSGSefrj0LUyABwi_1QJAA-kF7TEJxgs_0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZa4ye8wr1J2sWzLgxRIlbIgdCG9KOE376U3qlxtNKAWuQMW5KsQXY2sptVFtNDSV2RaB5DCgdoO4C9obOfyw759igTOZ9XaGqXun4LmplodIAQv2Bffaahur7VxRjSbv3HJauHt29IV0MS1bp2jbW0NgOoVKw5OuYHn98PSA4GCrKAXZvipo54kHmbVshYBdpbepONiXWL1B2BGQ2LwBSVJhrKGfF9_AR8u6gWCl0dSopmC4PUeM2KSxiS2BbWsQ0CTXuRXXQ7Uufvf-NPW6bhBODpNcEs70RNr86mOdjzacc5Pr6g57ZKRLYFGMxhNPA6c4KoPhp1qzze1bi41ZWS4qwPYFnunfDf54ZnJvnBJnzKjZ-9CoSbLwZyzKgqqsQgn4UmsJVWL4opYSWLaUMVP-5f6J60wPQ4qjriLBfiKmcokEbyigzon43sgmLohjZuWfCm7d7HsiOJZupRugK1PNkJpy8ZiigY1hh0kmHwnK1Ra3X_40pcjAlPpDNPUle6QZ3ZWADYm77-o9CT9eVu2Y21vbW7EV1yBN-6CZdjsq_KQVQrfU0xjXvhPTvoWoKrROxscsxCRNg3hbjcQeHp15EWN2jz_k9TOg-z5N91P-ol-PHxhmHOK5YLIXev-FnRmh0emIebuE4p1uqnosOOhDeBfAxp-JMfl9DOf3LZsFr4wEMd3BLUv5F0nMbwQ9XWVVaEMP9NuQDNXXc91n-yLqNklI6covVsfdppxrLyUbrbdHUPNP1x-jCr9NlA_WyXUIQz2gKMoDI-xpj5wNhSTjhEZlD0cini1kQdrWO0h5YTPZKsFzYYb1Hji_DWQS59uGGzgmSkP5_l2hlDIzb9yZXMNWYN91Av_2Hw0yw7NeGwylHTlso-TKhrBMKYj1juQgCqCshAurZCrn_LDW-ezCx1RUjzeR7IwqhCtoVTmijRRLqHxG2_k0DLq3wZwNU5jzQU0M7bL_P4pVEAzzJS0)
 
 
 ```plantuml
@@ -481,7 +481,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x467f2d4a800b47bfcf9114b10e95dafc790a5eb785a3f3a590213def303d37ff
+title Txn Hash: 0xf66bff35eb78c9d76156aec1a9cfd093df26bc4a1688085fb07282d353b4af11
 
 
 actor EOA as "EOA"
@@ -494,21 +494,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -531,20 +531,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
-<#FEFECE>| Roles_01 | Roles | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
+<#FEFECE>| Roles_01 | Roles | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x91e966ced9716c591a36dafa687814cf9054d1266dddd219f1888b6a6d76f712
+##### d2, tx: 0x5ab0aa0ada673f0e7f4cbe83d77005850857b204318912491aee6d019f6032ff
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSzBKJIfMqOPay81036alICY9tJOYTIh7sLeA_tsNDEqeq590H57EETlVVT_bV0eXHxdXsXIZb11Uc4mLeqXgajycQimr7q4g1rA97ezl1pehbF2pDDFm9Gp2m0y8ESpDD9KT0jKrb5n83RFw5U0aqybTfWnFksaoK2Ef32BspN91Y9Dpo76XnwbScVYLt4cmdANlWWkHg05Oj7OzLFRmUqs2rF5FLPuCXYQ7Q0fNkkZt4PUOnAGIhYOAJdW-R0ETU9Rq68kby5eMYvkUnHjCy3vdRikrdBZlqQOZB9inWPTjUNtBTTs8SIPQhD-oR88fYmrI3ywxm7FOGRj3C6qcYPCnHwa-Yf2vwMbCdpINSf3aHa_FilZsXbhLbeqhLi7EzO0hp8Y-p5AvsF_KkRgbTEQBfOkNRIXkfbU1a4ek77HU4m7x-st8nb85VtXQS9DaQdUFlBQfn7qche9AygL_zrfTayEw6B_MjdF_0ynqB06jugFAbf5nK2w_1wmYBVCSS1J7MDC6HtJ27AThXtOSkNuhjdaKnG5lXOpQ8l2PAsWKDNstmNjpb3sO0Vr6uUVlu1JBy0MgfO1boYlYGvw_Zp0cfeXBbXhnqCmWabnBtOOpFeRP0pnyfhJ_8bx-9WS7RRYKfj0AtYSloh8KUUADEcllthgKlbOsdqHcYsfTVrQght-pxH5uYzIjYCtFQRcQpBivkNZK08GqF4dpHvawfiUKqZ9JsBIn2-2WZ88Hp39dtKMXBVTrxgi-YC-9aLhnD9t2-Lyb1NJVLOgFWJVtqKtpLL17IBiNHI6pAUtvei5eatSRJcnxdl1RbXKxZMP8ZyLgq6Vzzedh0z3BlbmFFm2rld-lctjhC2oOkcp84JxnL-4V)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSveqQIfM4Tfay81036alICX9d3GYTIhRsLeA_tsNDEqeq590L5NEETlVtNS-VmeXHqepgSjHJWWhTI7AKSWbKRUP63F9Hf3pb8luc4MtgInA4VUBl93m9V03l-yJSgZqDESz0lLlo5dC9SoQLu2JGcPtXT0iz_8i5ICkD28cUhaWmCavvBYKuvolJFpAxZWOrj9tmU8u4oaOj74zrFRmUvC4QUAV2fMbGwqWdCALB9C4SOdETCxXQYBWXAbX5-YapKBA66KninqpeTn9h2Za7JDs74hRdJRjj9smHItJwBX6ot8DnhaTKyDDR6gsaeHWoIADgVld7Z05EsXt29PDPr4sPaYrZoIuqiSIoyVr9KypfUNqh8XkRwXHRzcuOXNiNAPCO4NaPP7pnVwdpjKjbLCjbYvUjabnSter2Adfma7lDHAmlz-5Oio5_uVb9TDP8NRto6kRAjndv6geJ2tzkzVYcXmspVYriRtx7w2dOmve1HlLjegCWshvFM0NIQuKu2YAiASrZkXau5f-s0eComuz6YI64tXUR747ZtrW-GEt5SQcsN7QSvGzc07zHk7dR_yKs_25L2i2ovBNYG-PUb_2M9WoghAKY8Tc1Y5daiikdB4np1xWuJEf_IVnyfaS77JXakjI2dWVlR0eSimJ_yYpyUwjA-bhRVD9oMpHhUllIdtwDzjUWRTGtIgn-JsjLfEvcfEBHm8GSysoN3sgr80EAALLfL2qKGLmK4N127fPCs_HQCjzlVjQ1_4vqLmAbkTJEFyhU0pUkrhnCV1c7TqqNmUbPf-oX7PQYMrJbzaexjmOE8RdHmvA-S29tROPsAtLeC_qzedh0z1BNMw67u1Qhz_hvjuQ31kcQHjoX4_yLFW7)
 
 
 ```plantuml
@@ -566,7 +566,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x91e966ced9716c591a36dafa687814cf9054d1266dddd219f1888b6a6d76f712
+title Txn Hash: 0x5ab0aa0ada673f0e7f4cbe83d77005850857b204318912491aee6d019f6032ff
 
 
 actor EOA as "EOA"
@@ -578,12 +578,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -600,19 +600,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
-<#FEFECE>| Roles_01 | Roles | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
+<#FEFECE>| Roles_01 | Roles | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x0eea379d70e8a765169524685617f71617ac345d0aab076a98d7b600e0ac4209
+##### d3, tx: 0xf011f2c7c2c30e0dcc405671568bf3543f1b50860dd1004d7d5f6e51e61a82a8
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLDjJzim4FxkNt43QK0Pmadpqg8keaqJiGyJYA5z6TDqiTrYaJgLuq0BtN_VDOqOV84ekalkvRdpSsV6pck7rZMBaZ5iN6MQHQ4ig--rMQB51PHgheoSeBYVswenCgtAoi9-dkLPcZ4sgjswL0c3zhbJA9M5v-uNuAAo-gao3ijngUTceOmZn9bx2SZ9kODSDdPPgZUE7_f9WHUysAvGIctcuF7EzBVLezEk2TRL_sPgFRzpDHHhkB7DR4Qup6bNAhXP6RZ0-kuC-8ehXVruA6Ek1XX7eHSDGp-81c7anRFO8ucY7uII8nOyZd0ua74HSQuuYi3dGqQK2KUjPvTZm1hsIEyneirfePT8Hqtf4Afs4qlqANUjvhfsTlsz4lT_kDUcl1knnrYB2IV9Hv5mV7m6rLAPx07B1fskpE4H-oXfTV9htohvUuk_AtHo1gFFZsWDyPp0IEocJJ59htUT_SokRpxrUgFJrfx0uQsvPQDk6RvqEja05TdEQGFq7lpl27JTzdW0cstY4PEA2DGFwDJ7JEmMaLszebSgXxgiNtKmvLFEURBv2hHln2zzR749qu71XTeQnb9QLPFl9OywtewGvCefQx0irt3vQ9I4iH2qz8vSV1K5mTZFVL4CqbZuM1GYmpYFk2-pD1f8NXHXEkZZv2tm-olmdhyj6aZbJueYZtpE9wdiHpp4SJyG_d0eqzZpHD0FSpwLL9JOwJXYvoJfIly3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLDTJzim57tthxW3QK0PmivtKHSHcaJiOG8nj9SnJKxi58lKgHm7MkZ--sxJg8CNY28xkH_d7fzxJSXvQxcntRmcX7UsqTsya8Qq3qelkE5pgELCQd71ouUPQJejfatT6DZFipoRPeHCMhkgPKoWV-ub5zB0o_0BSDaOzTneo-kaLZCzbzeYOcLt0Jawjv2BpYng-SRnGprBODxETis5K7e6Z0wcl_q-EHr8aA7-DzsgsRrjeLZ1hUcg2d69LRQMSBlKSCdR-pEWoueoLZbbM3gbIoKLPUbHFmYP7qH5vVgUMx72fr50XM2KUY8KVXL8dyc0ySZX4K79IelKiwi4U0jxkEyHbCsgKYqu7dMAXv2jlJ0edxGtSgPQQrRVc_BX3sLzohiHUuJqc70IVnG9nyTdq2oapXvvtN6h6druH3vAMfxysZTI_DxWRmkTdC7aynCt6dMEOL9kkuqnyMXqa_tCRcu_ZKQJqzuUm-6TlYEJOHY-37ky1YoowTCQy3tupmXKstCyWFKcyOW8YGAgHsxbnqfi1v5Slv9NICjLtRvYaDAKKXgllmBE6-gB7njSnBIW-Lnk38aGHhRes-KXuqqBSLrQQJIlwnLSFMaf82bB77gBBhfCnrvME3dpWYAXUSN2F4c49yCnuwcNfMEd4AuRXVvRuFT7u3r_NvIwKyeh6ZbL4D0n3wWVIPQ6BCdACA1k6egnx-Q1WqLHdK4ZSeuhNkb_)
 
 
 ```plantuml
@@ -634,7 +634,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x0eea379d70e8a765169524685617f71617ac345d0aab076a98d7b600e0ac4209
+title Txn Hash: 0xf011f2c7c2c30e0dcc405671568bf3543f1b50860dd1004d7d5f6e51e61a82a8
 
 
 actor EOA as "EOA"
@@ -649,8 +649,8 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x4de2BbbF6200BCd3605aA34c299dC711c435F0Dd |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x03C0af082f6609a6058e1D71AEc7603D7d953F62 |
 endlegend
 
 @enduml
@@ -659,11 +659,11 @@ endlegend
 
 
 ## openEvaluation reverts if not organizer
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L73)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L73)
 
-##### d1, tx: 0x05efa8d47501da0fea8bff1c57b903d6cf4d2adabb700d28622907ff5a0e84da
+##### d1, tx: 0x9ca2031ec4ccb7b44251b0dd8731c7601ccf5a85a9b19f621efa21e8686568bd
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtPmG8A2kAgMmzg5grLRQIwNg4ZiGDJZ8SJOexV--ImWq_2XeHPEc8OZjyzrtznqNdnaxJGngamuYnZ0riKe7djGiUGhL43KE898zgSGP-ayz7QTAjECerl2fs-bssXt6ZXCpZkG9W_pJboYaXacn1BY8TVWSAuDHAmfxQY2L8SJ0p1Mwj3c57APw6Cc5ZRlmMOBbp6KtA4IeUc3nGlIQZyTVYo1OuVzI9M6lRnBmnd2lqo0WN6P24qcu7ocumAJV13xYLHcWAvnwbLi2UI3HzOB0ygjrhy4hekO7Zh1HeEVLEHUsMxFj1gy7GHMvT1s1Z5Bc6mgzSzq2J62FnZr6QJEX7mwHgBQ9X4pCcQRqINChUs5YzFWgzfyUkPMRRDHO2tORH_8A5VQaNW9Pt5aqljOzL9HEdIdDx9Q5YoQPC9cfpXQBAdSOa4VJdscLrdkCvVc0evDjBE7mi0b-h4YMPldSFs3RB4gWIwnpi4Sgb3cv_GVrm8wBYlrSZ2Slty2CXn9eL3Z8nvyOfJJ9r5-04BHC4g2PxrFX6vhnKSrnMdRNzZstNVTjgWo_W_LkZTkYqwwvWdjUjUrMy6oASW0Ju5yuVF_HkQHQVI_YZCpAN_4lyrWDDgCmBv4yTFBxiO2dLK1HQiAZOGAUH2rr4wvm29DNUFsRrDv8h5BgO_8_KJewQiAjDAbMy35QNXn751zz0uoIGdomx71DiP3ZzuhelLSaDzdm_fHFdjtgBmtph6EM-IMPHpzhVP8N_6yXibFIYr1AaMpCoxPpj9pNJOVjz2ZFjDdqHi1kIdr0I8DXb9JOdFDppdd6XXe_jGQQP5x8WvdpQisAVMvtyfBtKdgEZDGAesWCrx-K5D3wqEjG1jxSYpVjvqu5bppWRgDUgLYUxLcsNMavqk7LRhMEtFLvmnOUkjPQfqizUvry1oShlNr9j0Fq_0vGJ7U0AjyLtbP_2aYLLzGVEwKdtLj_0m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CBMdpqbIi8ZJ9u0C20TA-824dSTA8rAaSPsif_FTTqhIaBxGQrQHfLHlRvxldxhbUV2RaB9TKo6AO4a8BcV5Yw3D1ygU4ZwYWGqXPp7XuJeEdM6G53_jPcWduvBcUstS9EStb96Kz0jLdm6Z814ph9S159fBdZ4kQscaIyo7Z4X4ZkL3mS7C6EIh4A6LB6tV9CmDLMyXkQ1WcF0PLgKMlrNZwjGw2rFulUPx40vc3Fu5xKKGHuXAPo9J1_PZ31Sq7NL36La1RIbjbWHO4lkbhMajNVIKCEsPR3Kn3KOCWqcb7fvQlMf7HKbb4yT4nEePkTFoGOCe2YQ6xrpRG70vmF22ODfa4oOWYrJwIOBay5vW-9czPdEHIJAwouEbHKIkJhHeRmMwpb5rHJcCcLa2MTvQDhqLCEQPJb4fpkrNXiaafpEUgyyMooXsDqACSpBKQwmD2gdp0IMyNIpW-xaAGSPGLPJuFZyWkYmRe2kiAx14BPK7ky84_aDEwOZ_NO-_b6yZ9Y06Ed0whyITD2voKwY-028BbEU0i2B3m9SwKiMDfhj_oLCtmRSMBLDEpxL1ZfgLIHtCTg-M7xNR7r6SeHp05vOi2tt-ubrYhxqLSabdxA_vb7kl1bXGM9LA5Zdu_5l2i2Z1AWNWuJC5dL33HXIiwWkahlFvDQcyarYaDQFu_KJevwS8jauNWy35QVfQb61z-8vhcjVXerU66Oa77xnNHUwz8PRBb_McUFFlLNv5KMQTbvbTaFlxKpKbUyh-3o5v9hqDfHB8rBxlEqMPUjnssiwEyr2Qp6m6vQVI1a4cQf7c3ZQCuYgAKRB3nOsl0IUa5FSW5BtjUx0kxtalLI_4vbanmcgOJkFx5MGZsXrw79l3sNhnjltBQrjo-vuIwgVKLPZkgRlfCqLfjtJ9CJpDQaT6Eh8xkR7IwqhCtoVTmijRRLqHxG2_k0FLq3wZcNU5jzQU0M7br_P4pVEAzzJS0)
 
 
 ```plantuml
@@ -685,7 +685,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x05efa8d47501da0fea8bff1c57b903d6cf4d2adabb700d28622907ff5a0e84da
+title Txn Hash: 0x9ca2031ec4ccb7b44251b0dd8731c7601ccf5a85a9b19f621efa21e8686568bd
 
 
 actor EOA as "EOA"
@@ -698,21 +698,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -735,20 +735,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
-<#FEFECE>| Roles_01 | Roles | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
+<#FEFECE>| Roles_01 | Roles | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x96466884490a99520d7eacbc07fd08e986811fcfc07a4b243a4d842d6452b0d8
+##### d2, tx: 0x01f24155e4b68c520e422afc1b40dfa2a259866c29f8a834a5e21323cc9082e4
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzem4FxkNt7hfArbw-Qy004nDDg6jH-gLgpQFcpJvCG7ZHeSP3iTZFQ_xn82BNr3wpI4SixPVkwvy_a9On-D5ThcuvGnaTjCvUC8DJCNYPe8BSQGuWYLt1FnnKXdkPBxMPffUDaF--5-o5Z7s5cANGRbxno5H0tpwXNWCDF9xqnPaVRIPAJ6g2mX3krgGPyc5v2JN4zIN9ludFn6SFoLxrH8cQWHEBnoNPUsyxuYmQhuHyeaetDh89h1cSw7Gy9bDh4fmjbKmQ4mvstWqrR3RpI2mFTRNBHQTPVB9eeuYdbpA7c0hQ0HECum7f93-97hUyANWU_AXbzt8ou3HYMBBL4FJteW36oHtM9KDfl4oKHGglkK11gxfwbyQ0SuIepLi-CillZ9dNBBaolMmKxqI2YgY1vaAIxtttMkRocSPhbq-RB5MCaKThkRuiERDst89gZ2Iv7cmYQPsjvXcpOLkFTubL29MVctlwllh5FrqTlATgy-W9rD4CWgCIvj4Pa6nV8he0RGQ0pGA8wf7IsD-BGPyNhTQGPzCWSOrrtFux7h2QyHeEnviHkupTP-Rs-1iWDpuEyuVFeQ7b47FK2rI61LhPBukJ3F8qo5oUE2fIOyCdE8K6ZKRJWM4vXVm_N_JEqcYOVFP7Ut3GEqkLRmlFIYB4k99_s78ZMLU-Unccxgc__5PaFSwUwtbnhbZuBYuc8GaSwhNq8hKfikTEA5vj6QRgqs2B-4WxCNjLhdVUdlFaQsEFj2hKf2hzSgqePOf2afbSpGWCeiDTWbtjpmykA-UxrCG98isUHIMDme66oXr-pqbWf8j299pIsA1_o0SrxKasIPj8461IvXsbLbUyj-NEsZb0gbe-VKebQKmGnEVYcKq7jMnzu6VbefdvelWqgEVCY3LjFpdCYD7DVrUZxwlDwlDmKFOjvoPIG2PpteFKMzu_e7w9NoLiE_XQ8ph4wIVQGdVP__0000)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLNRRjim37tNLt0jiFMohl8jSO8iQ2xEkeUXGrPi3zimA3QT6dNaG9BRf9T_7-quMTDRi0uB0bEcfCD3YZfcx4WReKm-IHaJkSbaFXcXOleyaLEXn0HI7AECkY8y7wiibr4lIpC5suDW4FG2nbhQp5DiCoX_PoWYL71TlG8SPogvogGHQITDndA2qX1YR5OB1ZIvW9pcQfhYsiINv0h1SbU-poAA4Za6YrUkszAs3YiIh8h_KUfaV6OqZEPmgl8u9bnc4fCYdCua70jzrWG-urPikvRdeJkg-Q5dStHjMyIXDN9v50jRs5x3hzL2kn7xmdTSuQ5jEROJXWtks-WoAbbeY7fmqW6XOOli5gEocIHCfe9IxL4Ig4rNKVdG376SQAFcdxBm_1UtoYtFhbW7Er5Z8QaYQfYbkDn_txc-fN3gvTBbonPZ9LCuQ6-A3_lxJSYcA8CBaUR299dSsMMRDXMu3tYLK8bU-NT-o1-iLVNHsygsRzw3cKyHo4enAMqHcGR5yXkW1b2eDT0e3AaT3Ote86k1sxMxTRSNrRgE7_2UvJXrtx7zHfTRVQlURV3GzeC5oYvS0t_7uSEtu2Drq2DKYmHMrIg9dmdzCi9Kc3miM2h28tCD8nGALHC-YIbStyBj_qpjJnAFdyd1GHE6Q78buMNfZR8i9PxqZqMgA_VkKpNTr3V_Yys6kBE3xziAevy5nSN582AjrvT2ILARDhJ2XURHclRUtZ3u6WnFN-tjjGvBV_ifiiNP5sfL4dgpLf4cX29DIQcY33N8p523NU2V6rvUt7TlbWb4I3gJN0Y36mM3BVIQVRwZ0X4QaQJw3iK-xtFEYtgIB9CsqA309KopgcndsO-hVPHIeNJqd1bKaZAOmycbn0WwB-hOky3FA-LpysLGnmrwWtxaKLIEdRxbrKV8NTln6hNwmAtPSSs96xxNNm_wG57lkVu1UgMyrV1leUWCgvDaH_Iax_Dl)
 
 
 ```plantuml
@@ -770,7 +770,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x96466884490a99520d7eacbc07fd08e986811fcfc07a4b243a4d842d6452b0d8
+title Txn Hash: 0x01f24155e4b68c520e422afc1b40dfa2a259866c29f8a834a5e21323cc9082e4
 
 
 actor EOA as "EOA"
@@ -781,12 +781,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -804,10 +804,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
-<#FEFECE>| Roles_01 | Roles | 0xd0e0f0897331b2b1223A4e405F57a08c092dba81 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
+<#FEFECE>| Roles_01 | Roles | 0x34ECFDd574C0eAD157be04235967F462f63f985D |
 endlegend
 
 @enduml
@@ -816,11 +816,11 @@ endlegend
 
 
 ## closeEvaluation reverts if not organizer
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L80)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L80)
 
-##### d1, tx: 0x16219bdbca2626ccc5f1ab30970b5291478cabc4fef149c327ad24fd19644207
+##### d1, tx: 0x701f6e3be8a3f870b673f8e7d1c13e531990a6f42458ad4496ffd941a7a112b3
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpKdJDyGGRMa77n08aFO52PqTfur8dSfnDahXl--IfYLzeMXKawRr9RRFv-VkkPnzPkmaiMXiEemOmzJ6EXqAPLZo4EeH6Xn2fFfA-ssK3tqJfzhln55iu5Els-jskemT9NOSgMC6-MUWq5S69iKGu2msuLEiBKQjAEpheTAM40CxL-ZHv1Hob9fHf1OcRi8d1OutbrsXxuUw3mulH2zvU_IrS88Lzizr4lO7DW4nXbkJ1W7XCXlQIC7jeuOpJ0Q7m1-TckiqXIyakZMt9gMi1WwA2c_MkQYwJSUhDoGAwGKgSBochBXrz5qly9rcpVDSNcSKCcd9zUvb2p217Mft68NDXZ8S8L7j40cLsBQXy2bxhVfXOitu8fOFzzp9bspKM0js7KVg0ZNsbLa2MPnPN7nf-gWfd2PJcgrR5YukoOJ9J7KsM5IvmO0isi5CgpJUOIoF1nmSlySIzlSFGSQQP6aMpzqzzjwA4kWIwnpidX9bJcxtJj-neo9ZFnVjyVCtiEEH0cer3lFs9qOfTJBrPo04ev84g2Sb9Rwb7d-a5zzoUwuKZKvTkYY4x6AzL-Ekt-tK6ZuNejffLB0zHTc32V0l7Bx_w9vJhhxbSKPcvLNyopnMdSqep5CaTvtiVipXQHQGbuRmg9c0K6YKEOGB7C7a1Lx-9hLN4gkK1fZyJvGE3WxXMjdKQFWOBH774Vb7lm2Zf13lBHjSaona-AqaUckBv4isx9_ooRDT_gLX7dNC8hya4_HtrWTvmVuxHBOAUk5AoPEDSNdl72t7TTDXEptACsqslH6mgr8Ty9N5C4fAR4xvAUSyOqE5dqe3TJ8hPC7EURLcoJvVT_oSrr9wFbfbD4RH62v_QUL3wqFReGoykHPlci-DEircZRSgrRedl8RZYcxLSUcBFaVFRxHgxQ1NgNjjkTReKirU9z_2o4fjNn9j0Js_0nJTBQ3ATuNNqPy2KkOL-STEw4dtrjy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtMmI244TQYYmzg5grLRQIwNAIPmGDJZ8SJOexV--ImWq_2XeHPEc8SZPv_DtznqNdmavIpLNEXl6XF1C9p8RkaAHz2cI8wxu468H2kbtkFSKgYIJ_daI9me-zNlztdcFaDDKJsBH9b1y1eBxGi6qd09S92fwJgJciHD7eHmAgH4nq0k3FYxE84UP6iLYQU4kUXR0p8NkXlj-94DWj5Iz5lBqQna4AVrVoZGA1pe5TmBtAWi2n2Kwqh60-x642vuEMa375cL1GnYkQ78ZQ5hKRLWeXUKpZncYRZ3RfhmHc3MptkI-QTgD8F1jat6BCrPp3O8fypI6thjsWATmWFA0ODfqv4KZZbJFaOH8TKTX-eI-5M6KQZMvIhodHygABLijDeBT9h6uufA7Ggs0BAyiRxvM8PUOJfKRpVUjAfUtvCfqRZgVB9lSyG0zwi7SgZ8_8AJ81voqTx64u-CMU8b4NPRdy_28xDfH0LrXNO0zOg4io1q-o0ToMbRivrAsNxw1dem4e9HyMCYVFCvma9k_028eaQQ08y_3mjSuekEkRVRSMf-P3TUX_O1PVSVnJM7PZ7VDNjUkkRvXDAtw3EK8fa2_KFZ-etU9jVfUn3cPjR_YN-Qn7cnEOL4YHUZezsC1pwe0erI8Xs8Ahk1Ag1PSyH5CN-7rRr9x8x5EQS3J_udIoKaBReNEb8IFqNAJ9CRuy1lmE2tLHwiEDnGBEdwlYDvxHOejMzwVwicpN_rbKP5rdcT-HUVYZsrEyfB_7KJsIdePIYMIhNdPTOvMyxhji9qTvRarcTq8o4sb3_X2yoXEAsowj4ifpTbWuyVMW8FS2thG2rxElDWN-zelHI_5vrWB9NaSJ-3wbnG-E1zw7Qh0stlnjlN2AJNhBciswdNg1ABkTIohswqP5gtHJizrJIRifaaDPcnqkjApD-dtSBBMsrTKUq0lxW3bS0-ewbtXRVQdW5XvPVsHCtpYlVKt)
 
 
 ```plantuml
@@ -842,7 +842,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x16219bdbca2626ccc5f1ab30970b5291478cabc4fef149c327ad24fd19644207
+title Txn Hash: 0x701f6e3be8a3f870b673f8e7d1c13e531990a6f42458ad4496ffd941a7a112b3
 
 
 actor EOA as "EOA"
@@ -855,21 +855,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -892,20 +892,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| Roles_01 | Roles | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| Roles_01 | Roles | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x45457679bd751d5f1a52a9878bebde50fbf0bfd3d9a587f17aa00c04d14b725a
+##### d2, tx: 0xd3bc77bfe9ee3e906752ec48f890aecb707618d1e8d3d9fa01ba6f756914285d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSzAaIIjMqPPqy81036alICYEdJGYTIh7sLeA_tsNDEqeq590f57EETlVVT_bV2eXHxbXsXIZb11Mc4mL8ouroMyJDMQQZI2LiLIYnyBRM6U54lqipJHy6GI3e1yGSfYRQIex1AfhA9cG6cRrAy19ffExJ1cMTjCaLYEf3296PhbWW9Dpo76XnwbScVYLt4cmdANlWWcHg1WiMhiUAdlulIP1wlYdAa_YeSc1J-5A5r64kCGa9fLmDL5mml9X6-Z4SHtNQtejBZpN4cvaCTTcBT_pkUH2kZJY4UMHQ8WMStqliZp6A0sf8oo7UxRB2AOiD4WzEEy2os47xGx1j9aaJCOCfVPHXCnDJsFwfBcKSP8RFJtBmjiRQbLRDgvO1JlNCLEO4NsPfNAn_wbpTKlfp1TB5o_RKDnChm8XbLmuwBmc0lRtsv2DfGh-iBHW9idKxXvvRLE9-qnS1PNaI__kjRecXtKnVgrjv_u7cEbO0bh5HfKj8-EWN7uFM4LQvZdWA0onfWsEwAJfE5rxO8VSxtkXpJWF0-ODcjGMGR_f2ygvs_SRh3T7sOCPq6yKVluEJh4CNw1Q2bYcl28-PFdx26DYYh1agH4FpGouP5hgDfonCSmUuE4pfVqNyV8tEJXemwKqXLRmFdayorBaYJVghBrxwrBwMjby4fajgdNzMQc-_issH-0jKhSYDZ-dvMeox-Raub434DAm9CqVPUgO7bDAoqnXqyOkW8Co2aOmovnr5uMstDUvh_eWFYT6QiNIT0hdVvKKq7rNAJu6tjn7DyrNGQrMgqcx3TTpkEDRDWzSoyOV4vGvmkysUz6WuJczS3NeitxxnFK1w6LVheSVW5hVlzVDlJKO5anTDkG8d_XNuHy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTqiB1HglaLfw-c0qdiczc9W5XfP8bsPPxbgh__q6IdjMRQqQ2M6MsTrllc-OdS3OKQw5qiKePKmKEfF5A435yjj4ZeKI8qXnW3BgYl1seB92HiTPcYduqlVx_h7Fs66kfobs65JN44M42cRrAy19ffAxJ6gHUcaoa2EKcX1ZlLpGfyavvBXGunHN9dubTmY6kVHTY2XAv00CNhiUAdlulIR1wlYdCay6Gvr3C8KhLSGnuJATw1JXQYBXHEJ3Dl19r0n2smvYT16RwFAMRJKmD9tOSRd0CB2vtJASo40dQaPkBBWHY5PiMotNC1kE5J5AMQY9kd_kWSXXX-mEexJf94p6WgGUamZCTLTH-b1VuY39jPgUPU7j3JUgBHjNh8ATgu6Gb15rcQMusF_KkRgbTEQBfOkNRIXkfbU1i4ek77HU4m7x-st8nYZzFo8jX4uokRl7NjjKuZuJLq4b-TA_UoslsM5TZ5zhsxd_0NewHY0hnQYoPMGQbCllWQf8OPu3ZSAGQbhJY4zwhka7ZRvXjWAFzsF3xdjUPABj6g9d-Zst4KJDfcDRSvGzc07_nk7dR_-Kol05ggM0PSehuaEHluym9QO8IvQAyCZC842XKBNXJ8nXzW0FdodjluYNlyd1GHikKHTAmlla1LcM4a-wIMVjtLkNqjVAvfF8R56jwyzAzVLljZq2Rv6w5R7vEIrNitatPnUF6a24MYHf_YXJFTxZd9UPegPDNO06PHIAe9SvynQ5jjpNkQ_w83qd6fKKQJg5yxyI8_3ULOgFWJVtqKtpLL1kMe7Xj2oBUp5QOTUsUxr6q-ODtlM3m3JGTKpUD9ghGP_rsoUk3q0l-t8z_03K-lwzRkwjmQXWwh9XH_IaNuL_)
 
 
 ```plantuml
@@ -927,7 +927,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x45457679bd751d5f1a52a9878bebde50fbf0bfd3d9a587f17aa00c04d14b725a
+title Txn Hash: 0xd3bc77bfe9ee3e906752ec48f890aecb707618d1e8d3d9fa01ba6f756914285d
 
 
 actor EOA as "EOA"
@@ -939,12 +939,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -961,19 +961,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| Roles_01 | Roles | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| Roles_01 | Roles | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x7ef6613e5ea849d119d184bdd1ad04e37ed81fa39de9675176ddf9f155a808b9
+##### d3, tx: 0xc227c6b8f232afa0b3513e48ddc6f0e606fcb651e1dcad96d0fa81f2390afe6d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLRKzf057xVNt6gC_LMDI44WaCP0KFrmT6XJljGEvrDzWGpXWspkr7myjzx4WAADwPs19ApETdzzZkN_M1iNnkkJ3PC6EEPIMKs350nVHdB4LTy20aEK8eE3oy7AisawAP9gc2rv_VyhizOKvj9WYq6nUS2kK05j-KZm66gufjK6fwqatWWXoWD8KPcFg57BwUGeqoD4bnuyJs-GR2hSzyf5oAM0x2jqdLVsEPkIOAL-nz97GykZ8PW0cSgYoB2PIOs2SBPMC8XrnTxO8th6DLgjeCkSg_Q4BPDbrSDXB2viAher55uTiITXi16hUxQzPeGKIEoNPTxbXSq6AKiD4JTFsa3rx12TeLHsamSnYDEeNOf2DIceoXzQFeuYBLHa-CqlFnZsSMIDsSiWfse0PUK4TLF4vojV-fSN98xzMpgx665iO8fRBUMxGzRMtiG9gb6_ued6JTnAjStsB9LEV0pOWLMhEV-zNDvpffb8tqfRUlkAvZ9286ivCF2vZlJ89z-1zG12hK66eKXzQEX4LKoi5ogZzSZSu2XMt4SAwmutAbvADfEMF4gzKQttPcYRC0jM3iMVFlf7r4BlK0r3s2UheBu1TVl8qo9oSASfI8yChSG85Uezk2OZ-3s7ku_ChI785wkoVRs7lJHP4h2-y8BqZGXdlIBUA9BzyPhELtMDn_5Pic-u-rVgmh5xvpYz6GGaURdQwuaoKqBck5Kz6XEQtEpx__m-sUVDZURkuM_zHhPlFQvN1M4rXOoGgUA9mb9bKXHWqmDDTWLFXpnukJkhCq244X24rznWqiLWqq5cvq-aW61XiU9VaJnm3gmB2lF9-aoYGCDSbp2DFFCjcVzE5z78ULIH_UnGIKfWWcSN4iKq7vNnpu6VbigttfVR6et6ZMhxRZrQb3rx4hWktQ5lYJal2gyTgqJzPnwjHCkRlfCKf-u_WDwBhtby5-Xg8Pb9Ta-tUaF-Yy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLHRzCm47xthpY61DjWu2Hjcawbecapu05jAXCy049EVEcYfKvbEwDbxBzpITDktM0LGrHLpZcVFtztFdzXxBMnGjjocZCcIbkeSXgZPkOyKpEXnHHodA2IeKZE9xeebHmMUQ7XyL5q50qZndh6BdBiCwX_PoWaQhXiNW7U5ZhxKIWhya6UJTGKbIN4rAu3ZcXo2JahzIp7ZOaFsGy4fxNsdGWfCpK1XpUkgzhsNZOaMBF_EsMooPar42_WL9TfIhZCPZP7E9qhU2lCsI7mUUAwdSIFWzJrN94A7djjnyDM86NYfnnzxgT9xBSTT6GYPDUNF1M1Gz5TBbBq9QEI9PQeHyS340PsoEumAflDacmcADKX9O76XfhAXtQCaynOlNXV9EVVk5ClkJTY4-nOJuIYYkXnaUDg_MtdvfBAQLQXgvSTncgcSD3VjZyyUtO8ILuOZ2v4NWgR5MftZsrRLG7V8LPZPMRjt_sYlh1UqqZF6zl_-GhiOeP0LebfRQkTQL25_mJg08t608sIXFhHqeZFkH-rGZVij8RI3xqWuaF7ypg1vmRTa3iZfnDsUU86qH9b3ow1l-3mvbFqZbheDrIh1DRbgecV2VCmmbIOCgbOQi8ZSman2etw4DwB6LnUmTN_JEqwYT-VoS718OpHbbh1mzABYo8ddlHFHMuQzzwVQhgjR_uNcotxpWy-FzOelrOKbpU3YFIUV1TQaTpqePSiHOzY-llxu-XZD3vzjB_VUrdx-tyYMvrz9LSreQSR5Q5R9VASf4eMQ40LbXhi0g-lU7rpNpnT9I2HX2Qx41QtAWPR2ZOxkI434gt8SdE3ueYFEETLFKcNIHneKE4IfbrNTh3gn_KwIgcIEdhEBMf56IpW-Bj22OC7TUnDuFkbyhxvvQQjTkm4VhlD1ocsax3J6OrShyDT7aPnt7Am6xIuvtYRczwHr5kkVu1UIsyp_5ieEiFc9DbhUj87-XS0)
 
 
 ```plantuml
@@ -995,7 +995,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7ef6613e5ea849d119d184bdd1ad04e37ed81fa39de9675176ddf9f155a808b9
+title Txn Hash: 0xc227c6b8f232afa0b3513e48ddc6f0e606fcb651e1dcad96d0fa81f2390afe6d
 
 
 actor EOA as "EOA"
@@ -1006,12 +1006,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1029,10 +1029,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
-<#FEFECE>| Roles_01 | Roles | 0x19960A3574b4812bE512121ad0a4d8A6BfF374Bc |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
+<#FEFECE>| Roles_01 | Roles | 0x045b186550Afe5cB77DD237020BEbb41e9840313 |
 endlegend
 
 @enduml
@@ -1041,11 +1041,11 @@ endlegend
 
 
 ## openSubmission reverts if not organizer
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L88)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L88)
 
-##### d1, tx: 0x05d5414ded006f85766c88b1eb88ea6b3db8ea7264e38d9514e5bff6c7e5eeed
+##### d1, tx: 0x39b5dca3e640bd565d84b485a13eeba822c4d08ea177f3c87597c793313043a5
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpKdpHiKGRMa77n08aFO52Tc9aqQaJkKuMqlXl--IfYLzeTMe9ashsfnzFZztp_NYCo5dcMPAvuE449RhLEO3BXJ9dc8vP8eD816Ha46R-K-HIdCPTD8aLV2fr-rrErr2JZ8zJiGfWVBJ5omG2YRL5E0YLV5pAZLBMaaSoO6G6X53FJVeuU8KSfYhOI8M5kxYPm66DTVTi228PGG6hLIlfJpvMWL1Al-NCekZliw0Z-5UvM68k4J7EX5mFv9mmR9-4-Y8se5j6LOW0agTqBDTn_4zZnk2UvvW3cy47ALhEfPeUC6nRLZ2vc7e-AwmXH01mPJv6aFlNhU0PR27SezWsdJinqE6L3j8GcIwhJ1zGj-AACwq6b-b_jCZDSej6otMWjscYRXYaaL2BO4ihYnklbOHavXELHZDzYqh5xSKocncEfiicjon43tg_iogDjyZfCm779rkOmc7XqtmKucwlCZd_W7PjgC6kiIw17l4GfcJst-G3-IagjZFbJnz-GPwF1I0Kh91AN-o9CT1OVu2YA14bW6EV1yBN-E8ZXpBQfazq-TUn_LDnhdVPMxFeMRGxJXUG3ctErw3jQSe1p01-eN2zn_TIwpLzo8koApy5VyoZzLW2mhp4Yb3HxyV2tXQ1HYbGZmK4-22AQ6QSCM6C7c5rxz9xOt4AgK-o_udIaT7JRWLEbSIFaQBfsc2yU4tP4bMgG-M7Quf5dJyNX6zzugKMpQyF_MJPxVwo-Cowwp8_9AEuyzOd-G5_rk8x9JqAfHQ91lpikqShUTrqs4xFSeBQpAz4P2RMXy8X6PnajNOdDDpIcd11Xi_jWOS55xGWvxpQisAVRxlzANifVWSQQ4aIv8nNF-I8e3MXrw7El3cNhnflNJAFEvIoXg1QvhjTjirRMuOhkks3EgSUpPl-LRZsElOQvqkzUnr-XsShFJs9TKEqFCxG3NS0Qf-LtYR_IaWLbvLV-GCdtXl_Gq0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVJzim47xtNt5YBo36vZH9qrGC4MWoU40WGDeB4d8I9ur8dSfnjfR2_xvBcfRq1wr6DMbQrSRs-Uwx-wuNdmavpHMJgXYaXB12PQ8O-5oI_2aHGoRP058USn6UiU0fbbaXmlCipIHyybpFFNS9ESxLEEKd1AfFdxEGIvZKIu2BJ2RFcL0iTT8a5WCk5296QgxWuUOKSbZ8OSeNDkwIPmwQCPVTi31CH0mQhKMlrNZyjGw2rFulHPx4VPM3FuPxMKGHuXALg9J3_KZ01SlxNQ0ZtVRDC60wRnlK3yss6NOCt-YOJDCvzrcdrGgCa7OuqomhqeEEPTfMODcwhkdKq9b9C6M1mj3TQmTO3diuxX5Ccqg2PCYGwZcIuBawavW-hcvvdEHAZg-ouEcHQfN9HesrOBTPog-OO36NIo2BEul6rp9c0jCfIwMPtR9mqQGKvZFLsM9HvOv5w57rPrgDzHuXLJxWw6GRIpWyx4AG2PGLPJxt3yWsYmRe4kiAx14BPKvk_q4yaEEwOZ_NuydBDr3Z8GSS1HjKuq-M5ZWfrLy04IJFSy1P463XAvpHKSysNB_bQKRRTwWNQPRdEA71BLjZFSFjsIq_r7Kib2dA0Ko0Vg7m_OTxYRNwNiGbcPM_ub_ciHfiIM5U8bNewFTZ0K-h0AEKY8V317pE99TTk693cBp2wz-azaPYbLAVvVyJfQEZBjnoLKW17wFbPrcAyU4tOcbUYm-M7Quf5dJyNX6zzufK9XlUd-R9irlz5KcLTLPcVadcuqzRd-G5_rk8x9JqEfH691lpikqSRUPrqs4xFSfBRJAz4P2RHXy8kM99cZVOz6YFKbgomSQFhG4dfHVqeEQyd5cnp-rENgfUYi-HubAmD1t3zI_1Gt0-z3eqWJVtuatxbTE8KIDisrIpsrPBRr6hGmFJz2m3Bn5MMtC2vkcwRRfhdIxrx7No7PoizFObqGxGypj0FTq1gdbNU5lzAI1MNbr_v1IVU6_z3G00)
 
 
 ```plantuml
@@ -1067,7 +1067,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x05d5414ded006f85766c88b1eb88ea6b3db8ea7264e38d9514e5bff6c7e5eeed
+title Txn Hash: 0x39b5dca3e640bd565d84b485a13eeba822c4d08ea177f3c87597c793313043a5
 
 
 actor EOA as "EOA"
@@ -1080,21 +1080,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1117,20 +1117,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
-<#FEFECE>| Roles_01 | Roles | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xfa04d69019672320780c55F749b5761AcaF3395E |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xfa04d69019672320780c55F749b5761AcaF3395E |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xfa04d69019672320780c55F749b5761AcaF3395E |
+<#FEFECE>| Roles_01 | Roles | 0xfa04d69019672320780c55F749b5761AcaF3395E |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xfa04d69019672320780c55F749b5761AcaF3395E |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x4b23b52bde1f6ce39747797553ec02647f6576c34263ee31e1e1449b0043d5bd
+##### d2, tx: 0x3f0774537acab54238b7259ca58e118db7ceea080ef068cb243fe6a4f92b64ea
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzem4FxkNt5hfVLjxPmt0eYX0gLhFrIjQBLzMAV9IGuQDJZ8Tbheot_V9GHQ-eRMgO1opldy-Bdp-O6nNMs4CjamOKna9fNPC435z6KiHqA98IGuG1crHNWvK6aceqwQf0fMzxlxtKwNiOOsamIR38hF1Oe85ToMhm07gOflKcb4qahYWHoYD8JOD_E0VPgSGeuoDKfmOU8qla6mtBdlH4HHB0TWyT9rNzZ6rv84A_S_b3eUN1WDmGJELDRl4oupiKaGpiOI3eI-g0CVku7j19uTH6ZrAo4wDT_r_PhlUGw6tAwuVh_Y-PNGSUsAW-XOI5_NhGMSkqxa1H6ZaeM6g7UFMo0qh91TOLGs4uVnI52g7Ke2jMahAX-Q7WvYRTJaA0ql_t2hMF9cn2BOiHe8IHLHlJJ1sVgdpiKbkLFFGcSlAumLJ66xkMn_sDggGpf2UPe5mrZhE9Nh6spPeXpt6Qy2AjPp__gvF6UDie--bBPvzmtCP8H0LefXOQz4aj4W3xy3QW25MWEDmf3QqT28Z_s0UvxbL_V9x67esOx3GziHJgMAKSi9xQhjrpgjzXHb0sw1xt3u_hDxI1tq0jKyWNcr2k8NGh-FC1Kc2tEMYl38t4A0Gg6gmv4OmUqzt7zaQWz9l7mcszjrwA79b8JtfHUaQK8ywTSNYIxT6w_LT5dVV1IR9VkEjt-jAen-vnId5uE8D3vV2oL9RPhG2AUQHp7DpSrUzqUtT_PfSxFnjV0tNoERdtskLWMXjOMAr24KIK9A5QMeGQQ66kmA7svuSN5trcO9H4Ww4ry9Wqi5WqtrcfqyKe48ZOWJ_OZY7j_ZdEVr95acRQ11ZakOPbxPrgmVv-iefLpfw3asg2HbC87ZQuaHjDxLiO-1trRAj-QBJKKry3aNJkJRThlTzcqli2pVzriMh-nLlQ0Lkawjsl4MDtscg4zS_m4zLzvo-AzGT8RbIR9TUjB_yry0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzCm4FxkNt5i4ko5WVFI9grAHTkbR1_GK3V11uQGarowQAbJsSxMClRVkQHfzxwA8QegvvpFZvyxdvymzb4ReKmnoHWJXSbbCGbHCNsUogbGOW8PZb76VH6TZrLUo7YGPxc2pM4m30O1OnrjvXbs6LI_CnGnAhYgNm4ESfN-ogKHMIzBntA2qX1YObO1GvfSG4uBDStmpiHn-Wl1SbU-BoAEKpa6YzUkwyfstjSaMBt_eTJf-Cne2ETmeeea8LncKfCXdCma70XzrWO-SnBkUMx3yKGamePhEtxesOrM91e-MfOVXrw4ABZFCU5DFmfjrqcmAToaPOTD5mMZaaM6g0T7FH0QDiXkC2gRIQDqAYZL0IM1slGLbG_D2CUfDch-EO_EVtAhMl9in5sm8pKMaYgYHdc6o_NtdNUNb4wz35s-R31MCOMzxhhzONUt3VaKvN4HJbAjqrnkRRDrYqhS1xmgg5Il_5kdyfHrwZvwMzlkxmzWvbC4ib9CAdiXie86PVXle0PGg3NGA8ge7GsD-8mt0xTlzprt43VxZX_mWUKudk_OVglFhNtBwxTuPFl10cKRhe2_u_3fMt187VG8rJA1LRKgucT2lumm5QQ8IfQAyCXSGOX2eMh3Pp65gsku_f-ftIJn-9dixRLXXAPG4bwMNfZd6V6aVo8oNRktdwhfkhxvNspMx3lR-xwfCFvHKbnS32BIUNqfb2IrwK8dMcWUnNHtTaR1rs1qycfdf_E-ydUV8bkUVQbM5Q4tTohIXaXa6IbLdAC6cHjgi0kykU7LnNttPfb0ZAGpwOKmk5Oms4AlsPTRAX2Z4MccRr7Sv_kSyxAU9Cka3JGeSGdJh2hRM_RZQXsbL2eTFMS6bQGCvd1qAJ66teiwzZRmyqhvt7orQIAu6pTRt6erFTknkUVpgD4OUcuhR7XDgnU9eUEq6lSsVQ2ezrp_0BrItdhujr1qXlL9ie_qfE_p7m00)
 
 
 ```plantuml
@@ -1152,7 +1152,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x4b23b52bde1f6ce39747797553ec02647f6576c34263ee31e1e1449b0043d5bd
+title Txn Hash: 0x3f0774537acab54238b7259ca58e118db7ceea080ef068cb243fe6a4f92b64ea
 
 
 actor EOA as "EOA"
@@ -1163,12 +1163,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openSubmission()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1186,10 +1186,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
-<#FEFECE>| Roles_01 | Roles | 0xa8b700a3d722BBB725b11777A106D85bAc4398C5 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xfa04d69019672320780c55F749b5761AcaF3395E |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xfa04d69019672320780c55F749b5761AcaF3395E |
+<#FEFECE>| Roles_01 | Roles | 0xfa04d69019672320780c55F749b5761AcaF3395E |
 endlegend
 
 @enduml
@@ -1198,11 +1198,11 @@ endlegend
 
 
 ## closeSubmission reverts if not organizer
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L95)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L95)
 
-##### d1, tx: 0x48be9fff32d884ffc973b649beda2de9c7539a56a757ba32c9235b20ec9ab7e0
+##### d1, tx: 0x551699cd0153e00564e59ea5538f61ad9e2ad5d3b0e1dc7240d33b9ba4d033ca
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtK8W945TrG39seUgLLjfBvKgEt52rE0WnzcWjF_xBY7GyAEW5KsQXY2sptVVtNTSV2RaF5DKgdoO449pbOfyoBWasLCiHbJI8IGyuYBeKlyfacakWbwQf18-UQxdzbn2JZCrIVWPWV8pu3JW4gRL4k0YbV5pAXHDd2IEn90BXOYXMYXuk3c37ELobF2bZRlucKEZjP3Tq228HGGDhHAzbkFfroe8Klc_55aS3LG6R0BtCWz3n2KgLWc7-x602veDEg2DMnRZTXY6JJsmh5OO-hRPPEsMpNX0zO3RlcaqRMgqgMcOZ3PrtzQR1jCrxjkKcLmZc39VOUZkjGCqWmCS3mYcJSL-FA98jOSaUAQw4jF7rIsFuap9oLNgFprgZT9agyP6iDiquLTKq8ZB5P3bdMNZQnbHWUcKXTBSRbMuR588ixdgVB6iSaT3zAW6SwtQ-e2GCXzmShQB9HmVTy1F1Sho8f-7HsINHGrqXNK9zeY5iY1t-20Uo6bLiP-hyUpb6wZ9Y0EEWWxByITDSfmKwY-0299d6U3Czx7m5SwqSRlLSdHFzvdLCtsTCkQxrFJQcXwulROLQ8mPFQj9kpEK8vY2zaM3xp_SIwpLzo8koApz5VyoZ_LW2mgB4Yb3HxyV2tXM1HYbH3mSfi0ubLnsu8gEOFeAht-JsXk9TKe3clrFb4vEEd3BLIu5V8mMIzC4uyDlI9Ei4X-jEjnGBEZulI9wxnKfJRQyF_MJPx_wo-CowxJ8_8gCuQ-nESbB_dSGsIlfLIYrIBRcPTSvMi_hjiDsTfGNscHs8o0tjJuGS4NZ9AknwMjzJTCADjZuiJNWfF227jI2bpClzeNTsKlPI_4vLbmAcYGJkFubU03EXrw7El3sNhnjltJQjmopRxgURWIUfJKvSxgsxdbzi-lwVjlHMexPi9fTOwFJbPwzIRw7axNUlYBQ0tfn1wYcUq3Lxmflgpy5nCghwe-SunFlhRy1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpI5lJSKg0cq77n08aFO52JcncqQaJkKuMqlXl--IfYLzeTMe9ashsjW-tprtp_NYCo6dcMPAvuE449RhLEQ3G2YIFSLoo1GRG28Y8VaP2vyYbUQIdwT9gk1JjzFjd7S8ESdqE14j0kMdBnWN2YRL4k0YLV5pAZLB_2IEv418ZOWzFLVeukOKSfYhOI8MDkxYPm66DPVTCCvZ6O51Az5hEPvyhO8WbVzBcSLHNsSGZE5UvRqUuX8TwqJ0_KZ21SlwJQ0ZspOSpmivDMnJK6exbh0zmMpRRFGSWt5F73DkSpEWmk2XUsnHRfg15p2BKzCC6S6KXHf3xrpxm3BOmt6FODfq7CP3XbJFaOJ8z9d2z0bzAw8uqsfybOPFZzGeJJPgh0MxJHDnnIIBX5e2MTnPDBvM4PEOJbKepUoMXOicXJ2RgSuMYofth8SUTN-cLLll4LBc0uvQsrZ2uM4JmbIYB2_okNz0jbdKG9TObs2FM2XpSliFye6SL1NxkHfRBzz0ZuS2S9HiK8u_MPBZf51_0KHG8ii0Ps68XQznHaTjp-e4nrt3SWAVTdk6s_LzRWdNCrZRwhIzum1BfE7QKvG3c03zGk7xZyubrkfx4HTaLlwAVvd7Qh05XNc9bA6Ztuy5FAq2Z58X7WuJ20HJGZNXYWrXyWglVvFQ6ubLIdsM_K-KZewQS2jqhYHyZ5QGfWd6XzyUIx9AVB3iS4sneEFtYkYzLwGqsV3-r4-UtUelZykiioBpIx80VyRw92_utq9afwHNeTGYsPYNRUTeFQ-R3jlfKLvea-cDWDpK-W0NciL9LcFJfcrAQS466p-s1fmKNj23dlFoPyK-jskzbBqKdoCjb6H9CeRhNr9my3_qEjI1D_VYJVkbKy_rMCFoEgRWDgMEwpHS9x1SqtO2wWlRTCzCOGMikzRfKizU9z_1oKflNnBj03s_0rJJ7Q3gTuMtrPy2OkLLzKTEyOdtrjy0)
 
 
 ```plantuml
@@ -1224,7 +1224,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x48be9fff32d884ffc973b649beda2de9c7539a56a757ba32c9235b20ec9ab7e0
+title Txn Hash: 0x551699cd0153e00564e59ea5538f61ad9e2ad5d3b0e1dc7240d33b9ba4d033ca
 
 
 actor EOA as "EOA"
@@ -1237,21 +1237,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1274,20 +1274,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| Roles_01 | Roles | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| Roles_01 | Roles | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x5a3bd58c63c3ccb328b9e13c07220fbb6a346e39ad1764c7fd4aa24a7d598df9
+##### d2, tx: 0x4ce62eff74cec41a9d76465f20477e716f6d4c6fb4062d302b29a314c42128c3
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTwKjRI4UiK1x-c0qQd8l9cPtks1ZsPBTxHs8_lURbi89WdeQ2M6sixFVV3FzTW8XHzfGPOfHHWWjJ2wB4HEAwBjKZgcY8yZ4KCYaI_dTKEM5J7fvbYlu4aTnr8i8ETHcceaEWUfpAsWY5CpgHu3ZNANtkJGq2xDqA4T26aGSc6L0Z9jpo76XnfbOsRXCxmKqtANld2P9AeVGi6hNOsKFlzSaI9t_HEfqU6iqi2bSgM8mG5nYKfC9k9f8EARwjWtMf4aTbZG3xZdSuPmvTi1Qek5moxTjQy2OHntN4qwB9WtVSxa_I5nARPVwIRCL98CMmPPnWzIZin2eXXsqEmJRPbAUZYcMsiCYX3PTXUqJva8CKstKz3JdTpTMephoOiGgs9aQKeaTKHTv9XRdrvshHqgdNeGk7ZPIl19qjCY-ncrjQuUGgb0uwBn67_Rtsv2FXRmis2ZLEitbxXvvxL29-woi2YhLI__kjRmcXxKClzQsy_03p7Gi0Asaeyh-fbc1YpBy0L0_IcWDkE8SrMnmPKqyrmtjsEOiwFdSfepnYFgnPzb9rFE2n6AisGiSsfsZxC4Ch6yM_FmLdQ00Dr0j2rWsko9-I_Nx26DZ2bwoL8Y7PWPCK2LK6qxf66QFyFYPfVqhOlCxEJXemuKmXPBmll9OdcV84xzOP-tTszRIrsJpIMJUeDOj5wLwzJTRzVyi_8r5ledI_8QMqMG-mSdvaqkV24FJJ3_fKT_gMvPLzWW7DLv-N9HPC8DPTYjSI6nvhlDGpJxydHYX9CsoAPpzaIA1y5qYV0hyyknyQRzAsW-QVj-FOhkPn87b21PsMtOSz_rknBaNMcxeDmAdsrnD-cp6hha-0BsSnVNo0r1RPlR6ZVzDWrAf1KEEy1V_6Fm5)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTmjieJHU8rfw-c0qQd8l9cQ1fHBfqkmkTwtL_tu3fJrRM_Kq4i8CixCptmpVJY3aG1kkJ3dC2U6bAMGvZ8GY-YwJ8wxu478n438vvF7TG1MbJ8wAl53mfH_smwEGa7rj9hde4gYlMy4JeM3Ql08S5ogxBwJXUP1d0paKqc34r2mS-hWu2pagrIWNImkNsRq0Yorivpn9CZa0YpQcnrhkVsz0a2R_YTJPuDPeY2PmfSeqnRZ4P2ONS3MMSCprRGVecCN2jKMQUgZ4pE9-uhdCRQKsPPudFCjDtOJ5RXenwjg9G-t8zhbZiPZPbjsE7O8jYmr23yy2u1gsK6uHR9l9ucp4iTGZB49eSwYmVS9SY46cZPgS5l7T3RNgBIzwB0SxKmCkiIFgeiZ5VF-gSNbBPTHpr_dBMeXNWW_dsLUmhInj4L8N2dlTr-33xcu7Yf6GbsKqpBJE2hczGrxRLCLzLbOTAjCB-_Qrl2Rx3Gs_DhBxy0FCP2G0fUJ3MlxcUObAvVu0o1ybj0RKuXZPR52ZuvxFmiZkMyoD0jfFBQyV10aJdc_n7WjxlXqbZjFsMhCeEp05-et2pr_X2H9m3TIgW4MpQ-2tNByFC3QcZ2kK2kEXc48ak1Ag0wTy1DD7UFpCqluLiVwRxErru4AOKabuNtbHKUI84s-iix7kR6hfQxJv931lOEk6Wr9_-fkD_7_c_iOYtmHfTa8hRpARuEJyoQ5FXE5Phf_qg4TxbDAgHpYeyV2ZKcN136RHhM1EiSM-xaCz-_0vDa99dkSJEFiZHGB1kqZuDF3Bi_EbzJgfx_cypVpG4KcBKjTpsvuRCSzfkH4DHCln3Xt18jvVJlfingwOFX1wCOiRzGEXDipijGl_cmQfqX267E0JVmp-0W00)
 
 
 ```plantuml
@@ -1309,7 +1309,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5a3bd58c63c3ccb328b9e13c07220fbb6a346e39ad1764c7fd4aa24a7d598df9
+title Txn Hash: 0x4ce62eff74cec41a9d76465f20477e716f6d4c6fb4062d302b29a314c42128c3
 
 
 actor EOA as "EOA"
@@ -1321,12 +1321,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openSubmission()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1343,19 +1343,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| Roles_01 | Roles | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| Roles_01 | Roles | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x0e9e771922b5da34ea8debdd782bf4f65a4723448010a468933404186eea9541
+##### d3, tx: 0x69299d5f5ac97cdc27bf8982e07e4948957206a7f344485c0c56425571d48331
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzCm4FxkNt5i4dk13UUjIQTIBLrJu0CQAXDyO0WvoRMBbZgLxMpjnluxbpGjAo-h65fLvPpp-V5pv_CJnewr4SgKavmnKPf2bfCO5TENcPmA9IQGunXbsXF9vLWLfKnFYhnGi3s81j59n5X7ctcENGRrxm95YWfkcrU0juNARWffH1xcsLXEK1f279bLm80c5v3JKarpN9lucDqWMExAzq6aQIR7OF76TLVRpgk616lsVoTrDhum6k8vdAboD29SPZAJ8vpD9BmL-k88-8nZ6ttVQjjsxAN2SL44ASPfwWTsF797BK-ulksuRi0jBjnMq7OSbxjMq48KRS-r69KiCKGzEWr1QDWYkyMeR2PBigcWL4ye2TIcfwXyQ8OuphHHy_T5SlcDM_MI1oFMmKxLM4YgY1eMEIxN_-fSNr8vzJ9q-RB5MCqK3hgRzeSNBuuWoGkD7yjuaccT5N9tZsrQLG7_Hgp6olJAltikprcdQQINZUr-VmrcFaKWAyMajbSYBsbGXNy7wW25MWEDaeJwqT28p_oOUvxb1mCoVKmyst5uOZl2QGMOXavY1xRVFWbx2vGzk0L-oE7Dv-WTjT0Vg5O9hCfL4xyG-d64gJ1bKh5KX4Vc5c8K2jKHl1TJkBs3kwTCxMSIVpwJWuCZ6A8fbOJ7fHSNHKuywJyIkMxSUt-hwQQ-UIes6_QT7NpPLfX-hIWkRWOHwJo_5agIt7IXaon4ZsAw-_l3w5CqF7kslzzvLVkxVoDRdNqbLpMXdRMAqAqIUKvIbHQeGHQ66kmAVrxn-kOUxYmJI9649hiI1ZSg1bi8DljmJmPID2BBzJsAVTxdd5Vr95qcSQ11XKkOPbNPSDcFgtMKKYLrz9mPL98ocCFfjSGKmaTrx7tWXwNoeVbwqtxW-Nq_6jXUEWYuWt7OQzk3GT_lHKdI2haR-bRWzBprJN-Jr5zS_m6zajvc-AzGT8RDIR9ZUj87-WS0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjJzim4FxkNt5ZqdZPsDpc7NKLRGc33mXKqFPXcoOdkPQ8rAbi1rfU_likQLeeCAenhQfopldy-Bdp-GbZkze8POfHnfWeJ2wBKOIAwOjKZeKI8yXmY3BfYlXYgF929hqyonMytG_tmrx8M4kRQOPj1jNl74M22cxgLu23NANNkJGYwsJfK8vG6a8Sc4N0FatE8CU56cUuD76QNYCqx8NlH2H9AeVGuBNhhhAjJpK9Lkz_A7KwF3SQeYcSgM8m85ncKfCXd4qa70XzlWDyuWRD84YSWIFYm8kJkEb50p_mcyWzj0FR3noloLtX3IpRjdqdvh7Zsat7yHg9xLjMWr79OaFKm-CE20rhPDSObSsaSJeMb6gFaa1jkehAXwQFmrGRDJtAuujVl54jUJ5Y6UnO3OMaYgX-dk5y_MFdyfBIgUUXyvSrnYgciDrUjJ-yVxy3SPPhF2sYKQfrcikDJRPgLGdyX5Y5bUg5V-E7_C5QTIDzg6txzZEOwHY1h1IZobwAhA116NuBr04AjGOQnJ7rew4Hdt0tjBlDhcVt4hTh-I7lDIpBywsc7tHvOw_XTGCUD_rmXh89Dy0_SlZoBJoa5dg6Qfd0ebmLyNEXNqUO2bF49Kj5U6Hk84AXKEt0aHZ3pHtS_S_KxfDu_aosjtUWZwPG4bwNNfJd6V6a_q1akdPl_gccg_hcVx5PiUza-_jRXSdFakBiPX2HrhiheIJ9JHjQyKpqAAQzjTKFluRzipTRMwrFbR_z9xBbsPToLH5QNwe8tIgHPIHLIOuQP6wemIxn_efND_VZ-Zo114beqajXSALYi9bWivC7Cf2W4Mcc7r3SutkSyxAUfCia3ZGeSGdJB2hRcVVZOXsbL4eTFIS6bQGCfd1y9J61pgiwzY7morBvqdorQU05mhU3qCB4uTprNDzp8zkp73VY7NGihskX7OdzvKsVIEeZrpz0BwIt7luj59rXVP9ibvxqWVuD)
 
 
 ```plantuml
@@ -1377,7 +1377,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x0e9e771922b5da34ea8debdd782bf4f65a4723448010a468933404186eea9541
+title Txn Hash: 0x69299d5f5ac97cdc27bf8982e07e4948957206a7f344485c0c56425571d48331
 
 
 actor EOA as "EOA"
@@ -1388,12 +1388,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeSubmission()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1411,10 +1411,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
-<#FEFECE>| Roles_01 | Roles | 0xD857D7EF25dF803ebAB92FFD7BEcc6A04A7183B5 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
+<#FEFECE>| Roles_01 | Roles | 0x979a849E3ed500676876b47356b0Ae537B3e4baF |
 endlegend
 
 @enduml
@@ -1423,11 +1423,11 @@ endlegend
 
 
 ## openEvaluation reverts if not organizer
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L73)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L73)
 
-##### d1, tx: 0x0e672b22db81d370065bf282336c867ec667468580e298524a2c86e959e7ca5d
+##### d1, tx: 0x00674ca722b3ba0f2485b40fe9901e6431be49e77e2894ac08497b9307f38924
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkfb0Na0TAb1O-w5grLRQbqgLOviGDJZ8SJOexN_V9GGQNWfQqQHf26BxVFVSFSV5PqBE4iEqIOSH8ImriKg7ljGaUGhLY6asX4W6Keasuq-1ZbCbEd4KQ_ZKw_QwdIuXfucPHB998FyC91DImxHO0bp4EdoEbM5HAme3DPJA86BVB1Hwk3c37ALw5CcbZRlmMKAbjf3TC2525K255gBNV3pzMWH12l-NAWc3WKd0dy2zJljzn2KcD964-x622vOC6a37L3gkvLkMyBsAgBgKEhRVjpohMdMuvxYIEuvRSppRezAgUxPLOnRAPTskIvSpMn1C6JSOUlUw1Io10nmF2ARDX3mSCQJQGH8oCMsDwPFcLWPXOlJaAkPFZxIIcspLs0Xs6qVoYYaMIBq2ihopR7oj0wOmdJfJcjkj2fTDCc4oLvqlbbNkM1yzci5SgxG-82JF1vmqTx64u-C6y5YXBCtoUNX4TbcKG5TOvs2FM2WBSeSFwe6S5XNxkHYRBz_0J4OIS5Hic8y_MPJY95D_0KJGCaa0PvnZuHkSqR5JgxMidiLzh-DoY_a-xpAtvr1BT3kE9wZlsnslojepb2EO0lr2uVkFxYNMwdiHPsJM_ef_cSTwi1c5HOdaeQFVZmKygmACKYCU3bFm9TDID-2AZM3w2gz_azeRYNLA0vRyJvHEJXfmAqsg5NoCbX_74SQ7tpwBaa9yjEfmGx6Wu_UAwBrN93VPylwKJvxzwYyDywopBFChCXz_bSr9NlA_WyXUIIz2AKMoDI-xpj5oNhSTjhEZFDCcini1kIdr0I4D2wEanEQSdbDACpRO-B4ru2JpWXxCWbThNkmBk-PBtalnEJPIAnP54xZ-fQI0reTUXpBmzbwyRJztMlTjuTEELSTBGftpgYqSssMLjcUBVjNbRS_pM4Nm-aQdAprxatmF9skzVKMq1_JY3b1Czu0gtnNULdyAY9LNr1yvmoVUMty3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZal9GdgK2c4jH-gLcsbVQbKEOaJeWO7ESu6XVxtNKAWuQMW5KsQXY2sptVFtNDSV2RaF5DCgdoG4C9obOfyu759ikTO39ba0qXun4LmmVpdIAQv23ffaahur7DxRiSbv2nJuuIt29IVFcS1bp2fbW2NgOnVKg5OqaxYI0ouK8WOgeL23pTdaCDS3XE-j74Vlt3Gp8NibWL1B2BGQ2LwBSUphrKGfF9_9R8uwgiCl34yo3mC4PUeM2KS7aO2BbdMRm8TKTgmJ9zPkkuP7gEXRjgddab3xZXKumtJq3nkEjook6ux9lEfRJgMvnZK2WtRqKs2AVCLXkxUj85bS83Z0S6qgTYFXmofTf04pzI5nFHnTSUZE5DoV9twpqzKAqssQcm4kqiJViq4YxXS0LdUMJQ-aH4Jc4vPACtjLeNB9eKmcwlE5yigzon4Zwe_rwgj3mWfym4dhLqiuVYu2NugK9ON-Jmy8hiiQg0hh4km9ooK1Rd3H_58pggA_LoDhUatKECX1nm56vJZJvRaE2dKfu08acSPuCptiV0LpkYewvYkf_Sqi-6rQI_Kh5wx7PZSSZJMDTsketk1OTZMwGpb22P0lr3u_iEzmbfzB-A2pDfVyI_pM0-seB0eaJ9qzFknW6TLW55AnCDX0XvdaiicNBCXJ5xXzMzIUoEnJgdFil-9qib94-wuogM0Zz7oqZJ1-F0RiYIhn4Uh3ZSK2pf-huZUUqLAaotlJ_tasQ_-yhZCEYioloBpyATjJlAI_nr4zafw5KejagrvsNMErlEwxR2T7UM5DfdT2CXjhGy4NB4uoMfikhHBAItOOEF7re2JmWjwK0jUxNcnB-nQqxANudEak1GiISPmyqlm0DeVUXtgmDjxyRRzqcaGNDY1RMcKTJgkTcgQrBAwbjtJ_Avl1AvdSweR8MjiTBhIipV9zt2orjjNH7j0B-u0rNGFgFfTuMtrfu1OULNzaNDyuhtrDm00)
 
 
 ```plantuml
@@ -1449,7 +1449,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x0e672b22db81d370065bf282336c867ec667468580e298524a2c86e959e7ca5d
+title Txn Hash: 0x00674ca722b3ba0f2485b40fe9901e6431be49e77e2894ac08497b9307f38924
 
 
 actor EOA as "EOA"
@@ -1462,21 +1462,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1499,20 +1499,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
-<#FEFECE>| Roles_01 | Roles | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
+<#FEFECE>| Roles_01 | Roles | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x4df7b116efdcd9efa05ae27a5c3c0fa808db9003decb71d7111dcaac42b90249
+##### d2, tx: 0x3345e7d659eb62fc599317ba7ffb3dca1b13dfefd135c2bee60c030c7ff0d7a1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzCm4FxkNt5i4djZczCiIrgLQctN0H_GK9dW0qF8iIzTjDIfR6UqZFrtBcbQLbvMCRIgoZbd-xddpkSdZ9rO9umhnXbZed2vBiOn6cQlKpqHHemXmn5grHFoUcJoGgj-dkK6Diy6PuF-WB6sTRCCEmogtnKAXGPkwrU0rxb9l-NQYQoRfICzHkq8CN7B1MSqEOUS56QIuSh4-_GRWdUqzBqJIgLw11wlNNULRH_M95WT_usswUZAMOXdS66A925SvbAN8LnCDRmMzge5V7gaaZ3sl6DCb5HDJ0GF13P24KXVyaH4F59natDVeOn3JuMUvoafX3ngaBjnr6HKCkc8-k2y2yB21jaDHcLpgKmdWbBjKn9eNSzG-T0DSPHQPsPlStdzXNlLbWTNh8ATcv7GL14pp3DSxF_LkRgbTDh5qiNB1cCLKzZlh8iFUtijo2Ue1pSYAuHBSxszmzPjAd5_urL1fNRftxxKbwnTzz6BsdQ-lmGtco2GrM9SsJ8o3Shbtu4QmA2rG2CfgHqTZVWqZ7aGU65qHkOKPT3mVIuRll2F8rHTNpQYHjZiTtjpb1su1Nx0uTN7mHlge3zGBHDOLgiYVYNiumXJOGfPiZI4H-OMOXG6JGlUYWdSti7TKwRsCua_dyd-VWk6w0gZuN7fnNcU4K_w9oApjNldRpLTrpTFnMPDtEd-fqs3wdD9SNunY4Zx-LTXDAbD1zfohdcqfhExEnny60mldktkjWyhV-TlPCkpBzMg8hIrKf4MI95bf5GgHmiwTzHWD_ZpXbSNzs1haO12qfdqHZXSAnXihjVitJqLKEX4cjbx54_vAUUyh2V9Cca33KfSmdJBodON_RZSHocLIaVFgKEZAOCPd7_LgA3xg8wz3_omKZuqNmLjne6AUR_HF0xYffH-e8w3K7YzA5297yfU54M2nBkv6lGtHVt5zH_GI-MjX_yAHMTOdoGxeITzdty0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzem4FxkNt7hfFLbQ-iG880OQe5qsuUf4wks3-iqEVQ5HWqEifqMslM_xn82AtifMgSYb7FEzdFFdSzF63koJXYNJrB6HEuodKyYDCnU9degZ9X0YcFKgY_avTXakLQ3BCqCF3y9Jy91o5ZNkdcAFGRbxmA5GWEtrIl0symaDvbs8ZrEax6Ue7Q46BlLWXEQN41ESpDDSMtYOtA3uDLNlWz2gKIFmUELwwwqtSEA1AlYlzCs6Lyu2z4SpamUnuJBNE9IXBEPXhV2NdI0pto_ti10DHjjZ9grM3RQRTyB8X74SUGhARp8yrMCiVByXgn5Y4qkkSybpNCL28zHoQGZwk7fCGWBMsIt69ND9JAP2afrG4cWTNr3vKCtmd5YdPc_p-JbD-wLMnvSiGvsQiP2KqNCA4jnkVzNv_gMmccNIvSlMuoLJ66_joa-l7pPWMoAEhmIQIvSakcTNRPfKu7x6wyIAh4h_ywvFcVTgezULRRt_JMu-HI1h1QJqXQHQL0i_mxK00Qj1Hf9IUteQCHdl1dM-xL-K1-ePjzlXNpW-NxGyckjTfzxGo_ejxcijS85oYxS0Z_WyEPp-8uww0zKYmHMrIg9NmZxEC9Kc5mMB0tXaRc528L1qu7tOWgtTt3tbAdzJEBFPxA_tu4HkjneU5nwKPQbn9F-iKXjvTxzMqqtzSrJiTaGTxR_vRb1zRMWkBWOHAJxubeOJMhJWwvSQ1wjwUtjZS9FuUZisTvUzx3qz_v6jZZxGgrAGjjh5Uc056bAIgKojA0pHmrsXJzlU7bn3xQN2IWadKckXCEDWi4MUiq-t5C1XKuagRr7SSY7dFEYdYJBf0qqA709qwqgUxpinzK-IgbGEdhE71fD6SpXz5gZWkD7TUnzu8ULyg7vCgXI_PPg1HuNWq7eDUfr7WJ3e7NYoQ7qLHYraDVyM3JNW_wcgB-u_WDwfRpLy5-Xw0ohasH7zAJlymy0)
 
 
 ```plantuml
@@ -1534,7 +1534,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x4df7b116efdcd9efa05ae27a5c3c0fa808db9003decb71d7111dcaac42b90249
+title Txn Hash: 0x3345e7d659eb62fc599317ba7ffb3dca1b13dfefd135c2bee60c030c7ff0d7a1
 
 
 actor EOA as "EOA"
@@ -1545,12 +1545,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1568,10 +1568,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
-<#FEFECE>| Roles_01 | Roles | 0x9b5db0C2965b9cc35d657a1B85df37cB888a1dc9 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
+<#FEFECE>| Roles_01 | Roles | 0xddB8d8710aCCE1544077D78F1cDc3dEb8e023fa6 |
 endlegend
 
 @enduml
@@ -1580,11 +1580,11 @@ endlegend
 
 
 ## closeEvaluation reverts if not organizer
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L80)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L80)
 
-##### d1, tx: 0x26ed5324e26e0995188b331a9de6a03cecf8b47d82d6c328e270603e524cd35d
+##### d1, tx: 0x25716f9a41ba356d6e61ffc68f2320b412f63808d205a00596ea38229017bbd1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtKn2Ga0TAeMmzg5grLRQIwNAYPqGDJZ8SJOexV--ImWq_2XeHPEc8OZjyzrtznqNdmavIpLJEXl6XB1C9p8RUaAHz2cI8wRO468H2idFcVyKgYIJl9l4YO9FVRVlTbr2JbCzYKMRGF4P2CQ5Wccv1BX8LFISICtYJXo5SYYaHiH0BnJwk3c376Lg58kbZRleMK2jlf3TCCuZ6KADbgBNOZpzMWP1Il-NCet2WKx1cy2zoe80SOcET2pWVYpXWgM35j2nOGjkcKPTu8GscrRDSJpJhB4c5pQZfY_ymF7g3UuOtFPDmn56WzhK59PHzxbfSO8fypM6xbvtWALmWEC1mRJfo8z63AbsaOH8zRd2z0bzAy8erMfobVXFZxHMc6pLs0XscyJYYaaM2hK2ihopR7ojGYOndIfNcjkj2fTDSc4wLvqlbbNkM80UzM2kLLaV45Ba0qxQkrZ2yN4B_4IYBClpUNX4TbbKG5TO5s2FM2WBSeSFye6SbXNxkHpRBzz0JqO2S9HiM8m_MPpX95T_0KHG8aq1PxwFXQznHiTslTun-eRlETs6Rp3FyrtMwDlKu6xNTZZrFAlhcEnyXd84Kw1VA7p_uLvYhRuNSKvcxQ_ubtci1vjJM9H84Jhw_LZ0ioh0A1NYuJ05Jp0bL0kks0Ych_3wDwczaLYdD63f_qJfvAG5jq9dIiB7Q7b94cDy-0rOd9RYerM76ue57RzNHE-z8eN9blUdUlBiLtzPL6ITvPbVaNdugsrEyfB_7KJsIdePIYMIhNdPTOvMyxhji9qTvRascTq8o4sb3t2XMHId5JOzsgEKvcomyMDhm4dk1Jte1Q_ElDWNTksNefVYSwo5aYoE9t3zImeEdG-z3bNWxRrustxXrBKSsxIQ_S1WWTciSRldqWRjSzOmcwRLCtjTRh2cg6rqkjApDydtSBBMsrT4Uq0lxW3bT0-ewbtXRVMdW5XvPVsHCtpYlVKt)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtPmG0a4TQah2seUgLLjfBvKg9t52rE0WnzcWjF_xBY7GyAEW5KsQXY2sptVVtNTSV2RaB5DCgdoO4C9obOfyw759igTOZ9XaGqXun4LmplodIAQv27ffaahur7VxRiybv3HJauHt2PIV0MS1bp2jbW0NgOoVKw5OOYTn98PSA4GCrKAXZvipo54kHmbVshYBdpbena9smu8W5X5ej1AzbkFfroe8Klc_55aS3LG6tWJkPHw6Y4jKh18EzsC15omRT82EzMPBCqEB6Ph76aqpCBcfXQ5ljaEzeLFFqFJGRBHfEz1far7Qj4pE6crTjwZMyhn08vWoNs7exhKDB8C370y8fat5VZnYIBM797YcpYMcZwjR7iMPafEhr7zwf5ffibLZ8zXjcl0h9bZ4vGh8yiwoyRMCcC1qoa9fRhSgN3OfXDbSTRvOLhbZ8NfKWxbMRNr0I9aFEEdkOWd7nntmKu6olCZduH7PPL43NM5TWZrYeIp87Jw81t9QLUpdQko-V0Cr6N70KR1XEVvaIOwJGlq5447oB0ES-JuMli8P7JkMuNfwNpDCpwRzK6lrRJimUClIc6EuZgLxGQFHRZLdA4Sm1Vg5mlSVxYNMwdiH5sJM_ef_cSTwi0M5HOcKeQFVZmKygmACKY8U3bFmE9DSTk2AZM3w2gz_azeRYNLA0vRzJvHEJZfmorKk1NoCbfUc2SQ7tv0bMIK-MdMueLZGyNj5zDuhKffiUN_g9yz-zPV7PTPPaVaLcOS_RNEIb_pl8B9NqgjGQf5ipSkkSxIUrss7xUmeBxJ9x4P0Rcfz8E2AnKbMO-DGXr9QiC76Zwq19uKNzA0MlEnviI_ikYzbByNdM74fM99CuFgNu07O7teTwi3RU_6s_TAfxkYQxhG3yxpLxnc6spDvkzLkEWsg-NPmRbeMxrcjiB7HwKhFtYJVmybQRryHxG6zk0DKqpsWwdU5jzMV0cBbLVL7pl29zzRV)
 
 
 ```plantuml
@@ -1606,7 +1606,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x26ed5324e26e0995188b331a9de6a03cecf8b47d82d6c328e270603e524cd35d
+title Txn Hash: 0x25716f9a41ba356d6e61ffc68f2320b412f63808d205a00596ea38229017bbd1
 
 
 actor EOA as "EOA"
@@ -1619,21 +1619,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1656,20 +1656,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| Roles_01 | Roles | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| Roles_01 | Roles | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x1f23c74317955cb4a94b8844e2c08339616b0e9671fd787a8c79194ae7580af6
+##### d2, tx: 0x9968bd58dca970766006e384afdf9faa5210a70609bc38f1d3a5532e0d6a5794
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzim4FxkNt5YNq2CpNbfNYfMKTfay0616DA-824dSTg8rAbiPsif_FTTqhIZG4i14KKvvsm_zpoNyoc472dDf2v7EI6ir8KeHn6NHDrcOima6q7E1rmanoo-7SYY54clo0i9Ny8W37e18OTAJtFU8L1VGyuIBc7Ml0AS53AxAuHcUJVF1cB4XKR4L2yNX3WvXnoNSfppbObVsHq7mrxwBbYIP6801crS3xKz_DwG84tyKw6omL0hYAPm9SiqHLoYCvrpk9e8E65gs0OwCLBJYbtRCbo_rOeZc_bsv7cspSsOUfRbEuOJKUuxhf4chkSoBtPzmxSPTriUPQb3C6MnHkh1UHUOWXsqEmJJfhCu6pEKsaCHNEbZYUdZ-f8FCgNbzAo8Rs-eKM_Pk68Lx5mEcC2CoCiYvulzJvshMogdMYnTl6n3SJEz6eJKSk6Wyve8sDzlGp7c8lZ3yfBfh12xU-IrJHNkCt4rLAQM_jrhSKqEcsBysjZE_G_Gqp47j8ADQbj5na6r_1wmYYHN2d0KnrZJ6aTqujXsrmpDEF9wRcooA8e3veOEDPEWvtW9ZQ9MpxFOyHnb3sP0lr7u-JiunJ9yWMebO9doclYGgVSHniIKSSLI8XwQ6KISIIxRSCR6C7k0Xy-Kzb_4oz_auA0DbroNKi3xv4L5aIDFl55duzrRbzBNokQJo6nHhUlFIltrRxOz0c-HkXMn-JcjLfDvDoSNZnf0mZNBSlKeKttQfvHMcSAcZLq01rKKZA2NEUik2csvhtDVzq5yJZINWkNv5Cx_2fv0zrsb-1XuSn_TD5y73LgUOxNyC3LPQlb6ulG3wj8mOQxbMws-rUyb9lEviHhqMRzzule0zB8lDyCFGAtlt-lctXeC2wOf6tA4J_nL-0S0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vZHfVbIi8ZJfu0616D9Ua90JEsr4wbIEixKK_lTTqhIZG4i14KKvvsn_ztsNyoc471MQALsECa9OgNDPZYAXI76RoZ5JR0IP60Z9ZrbyEr1vANalpt85N_fXF-o5X1mMUfg9Be7w6Wh6XO9PymfmaglqBfUQPNwM3kH8I8s8YLukwEFa779Sgd4cLYP-fNS236lfks2Sft801crS3xKz_DwG84tyKrcaWw4k89h2bIgJ1769JdKcu6eYuOGLmmxGYUVPRiJRBe-Pvr37jYcrXUbQBE69bp3MRXcKETIcNXIRRc9maxNRPajGRhEsura4KnPhf1wU-y0As46xGp1jEetJCKEfFHGX2dsiC7r2Nuf1McWrFSlZsnjgr5ishbW5ErS39Z4ZwZBFn6B_K-VgbifPB9OkNhQXk9bU3K9gkN3GVKq4xEzt81yB6VvXMSbqcilTFVBQfWhtcRWQAYsM_jrhUKqEcsBysjZk_G_Gqx40j9ADQbj5na6r_1wmYfGe2i1H76DDQnpHIU1POTJg6vOT-RIV64xVzxab7CzWWHK6NYlYfkawxJdA7io0VgFmytTuYcNu0jLAm3BbDV4XAzv761DJnXLBXNXePX09feJgm1aRm-m17ZvJsdyHBt-JWuCEN0fTAWdlanVbUOOyyKQTZNTlNKfVAvjF8hD5jQu_A_NNlzds2Bn5wbR4vkUqMatctPnSF6e0N6YMPiMZJ0Kqe9HMcSAcZLq01rKKZA2NEVCNXRRSrxsl-o0-9reeoR9i2kT_fU3WlwiK7mDlxgERvkkWhQ1bj0ANsyTElsTPOSyMhkEs0vCQiS-FRSyJFSz9pDMWp_hj4zS7e9TzkHb-06fz_rutzzPWM31DsP0ZVEAlmZy0)
 
 
 ```plantuml
@@ -1691,7 +1691,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x1f23c74317955cb4a94b8844e2c08339616b0e9671fd787a8c79194ae7580af6
+title Txn Hash: 0x9968bd58dca970766006e384afdf9faa5210a70609bc38f1d3a5532e0d6a5794
 
 
 actor EOA as "EOA"
@@ -1703,12 +1703,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1725,19 +1725,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| Roles_01 | Roles | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| Roles_01 | Roles | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xa770179f6813aa1e33ad96de95c6de97dcd69a22d7d6d3b30c203159e807d54b
+##### d3, tx: 0x1c50c53da389221d0fb34bac9fb85e72f979afda73ac6c701aaa942b31918746
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzem4FxkNt7hfArbw-gGXX34K2c4jH-gJgpQFcpJPEA3HWqEifqMIllVTmc1bRwXTHf2EUTiF_VS-Vo4iGDZXRRPE65CP3PLsNY0cfcBM4s45cD8S8HA7eheOgJJJCbEcgGQNlV2NjW96MiQEqkmnQ3udQEGg65UlW8SfJg-JfKLIJk9HsgCoXBYqAuMz6Xo0Jd9z2J1jOalyJM2ix_oVHPInce43YzTjuLjxfKaM1d_M9buT6uD36PmfhFXa72PZMs2S3PLS2JCUGFuLFW-T_nWMAixhX0EkgwGGKrYu4NvqvUHh0MYMfM-h4btuFAeobt72x3EVUdj3nYLBB94FJnjWp2mHNQBKTbi7CKJGQbsA0aqzb1J-T3sSHGRgsSdQNJnYpl5bcTNh8ETwf5GL17TJnDSxh_lND-IEyrowV9bYx62AUosDiM7T-yQ42MfmV1I99cmSQgsTzYcNJdm0s85LcnM_kqVwWThbetqlhIjcuzWPnC4iagC2vj7fa6-_0Qe0pGQ0pIA8kf7IoC-zGVSyno_tYFJnSYhklbXkSAjrL6stQXQh_f1ftsuGDc1EV0F73vz2u-fXHwXcYUmAbT1_5oObn6cmcHHpb8J7fav351er0qu4HEOtyBj_qpjJnAFdydkRWFwQ3Eju6Nf3T8q8Pxq7uh4bEwTfsgwgM_-5viDSQUxtrzhb3zpYekRGKIQRww4LYGtBMX62z6ZDQrAfHz-3VjdhogLvbxXRpr5DZ_xNAuAGc_NAaAtIYG9IPLCqO1ABJNO9VwvuiND_V1scO144fhuKbZSg1Xi8TZiynqPa6X5d9Wx5BkyopdFwqcwJE90WnoNCEsgikrbFwxsKKgvrD5pQb4hoc06frSA9RHVrB5tWP-NokVcYw2XLw-vNj0RLiNG3HnPwuRSvpqfV3TmlQxRxSYg2D1P3_f0Kk-v_W5w9Rtby6-Xw0pBasG7zAGFz6y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjJzim4FxkNt43QK1PmKdQ9gcwYhwaWmy8rA7jmvWcDt7QYDIfR0TQ2lzzbpGjbBTgJ5HLpZdRpprtFZyXv4Xf9dKwZWbXgKv4EXvmITHL92PCiZ74VCX5q6R-rL0cgGWwIPn8sEvvFQ_Z4T9GUXRp9e7yD-8iu1BcnIl0SIAZsqHe5hVYQ2Z6N6X43FLgGGyd5v2JL4vYlZRnFRhbO5HMldCM194OWa4Brtrk6uS52LB4Fn4g6ewqWi4CBcGQXeXBTAHZ3XTJ0STCZUf0fuPVfNxL2fZbkAPf13GSM9K1yzrmu5IvROQkxR8mOBR5_9flKuCnvbRCWMMuXcDNQWHBvckaxfsrW2dOGhj5i6mwygC9mrGxc0HNkYsnV5pt-J1IMivE4__g3pNoBM-kM0SxaqCci2AodyHykV-fStrBvbJBfSkNBK9ofb1kReeF-_jryED4SU-QnIdJKI9szyYcNHdmCs8vLgHM_jrBSKaQHIDzAMppxYlesOG3Mi76kSqYuo1RVWVO0P8h1JZoVUn7ZICwfJMlqZRRTgKJrDgMuz6EOLcsOvcEswP6rx3RBlLDnrkWxC4Sw065Rp-z4soX5wXc2QpAbHCVCVK-mbYOrCzOIiH3CuS1PvBBEfoo2SpluVuZKtj8ukKpAPVhqESwbGBUbzuWIMBaYV-GnQfmxxrMqqrzyr5iDiITbdzjInxypYWkRWOIQNo-OLAWt3IXuIz43zSqIwM-zyFhNtmgbHg7kR_v6jdix3EvoWdjh5K4RnMBOvIg8E4AHAAnmQxvmnNFR-x1pZA1WAFGHDTCyusAGHQ2JSuVoK30DOjYzOXYbtOffLazKPTH772GuIAcNbMsjUp7rJvCAPCwV4urbm8pcC7PZU01jDxLiO-1tvRAj-Rpe6RNDCokWn7jNgTIyJerxjXEjMjHmsy5xPhhyevhXzPwq6UI-iJr7z0hwIs6_mg5PrYS93d29twW_m80)
 
 
 ```plantuml
@@ -1759,7 +1759,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xa770179f6813aa1e33ad96de95c6de97dcd69a22d7d6d3b30c203159e807d54b
+title Txn Hash: 0x1c50c53da389221d0fb34bac9fb85e72f979afda73ac6c701aaa942b31918746
 
 
 actor EOA as "EOA"
@@ -1770,12 +1770,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1793,10 +1793,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
-<#FEFECE>| Roles_01 | Roles | 0xE586359Ff2af391d6DE070Fda73935D3DCd2a9e1 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
+<#FEFECE>| Roles_01 | Roles | 0x2D212D8d6B7FC44EC6e8785D301cAdB699eC97f3 |
 endlegend
 
 @enduml
@@ -1805,11 +1805,11 @@ endlegend
 
 
 ## reverts if submission is not open
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L128)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L128)
 
-##### d1, tx: 0x3d948c04075387b8c0cca097e00b421a9be2dedef5368411a1ab8d1a79c2b187
+##### d1, tx: 0xd27197a270d4763dff2af9fb898daf1a8f07e9741f9df7f37ffdf76dcd78a2d1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZdX9GdgK866jH-gLcsbVQbKNH83KOE376U3qlxtNKAWuQMW5KsQXY2sptVFtNDSV6RiBD6eT3gC6CDKnp8TUaAnv2cK8rGuX4ZqXGpQw3_rLPpAe1D7iO9FNRVhTbp6JXCzYKIJGVuP20o4Wccn1BY8LVWSIurHAmhxSYYa9iIUNYXqQNC6EKhLA19B6tVXim2Zkf3TO124iWy6BqIl-NZwjGY25VulPHBs1pe1RmBtAktr29VfK4S2xiSIBZ0PD82FAu5JjNrUvLQjObiUJNqVkMC9phsgQQ3Z2JCGWUZLAdMxQXXee6S71bgERtg6RJ5AcQyfTFUw1PZ00Oq7ZDAcGpyS8L7j40cHwBQYz0bzA_fXejNaAlQV7hcHcspLs0Xs6qVY2YNsXLe1MTvPDhvMVPIKJfKfpUrMXSiccJ2PgyuNoofts2EFUZ3NAgqF6Clp0IVDNIpX-BW1VYn9bcRvF3nYkonAe2kiSx17AfG5kSC7-S1EYuhzN8pDbs-W9oC1D4eSvkDFZ5AQPEelG0XA90dGpFUfy3ND-BXUhRRChkbxTiVoJVGytqMhM-Tcu7RgTi0zhzQnAzYUeHp15FWN3jz_k9TKg-z5d95P-ol-PHxhmMOK5YMIXqv-FnRmh0eeIaLuD4p14wY4Qi0LZc3w2gz_azeRYNLA0qp-9qed9msu5JfL4Zv6oulZYEAZRm-Zf10VhJhSK2pa-BqYUkyLoKssl3_basU_-al3FEkOPNv5vj7Fs9pa9VyxYEoLz2AKKYHRyxBh72tdTTjXEplACsqskn6mcr8V28J6C4fARCxvEUSyOqEDdre3JJ8lv44lUBNcnRwmQxxalPIUOosKn2YQmFKlAG9eVUXrA0DlxyNRzcTEZLgNksRjtE9MtK6dOrNGwHddVhtYE6R5w9YYWhpjRdIwqhCtoVTmijRRLqHxG2_k0CLq3wZoNU5jzQU0L7b5_R4pUjAzzJS0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtH88XA0EDPImzg5grLRQIwNAYUqGDJZ8SJOexV--ImWq_2XeHPEc8SZPv_DtznqNdmavIpLLEXl6XD1C9p8R-boHz2cI8whe468USicwD7WALP99Tfx4YO9FVQ_ldNk4dAPw4lCEWU8pu9Hn1TDo2d2HgEWvaPh6RXo5SiYbHaIX5mPzN9n1ZZ8rYldImbtqpC6q5heRobWaGp2DKlLQoDElPH2az7yfqoWSw1Jy2TohJ0Z49JhICOVxiOGBcWxQO8nPpJOTczPiWrbsiyw4g57X2B_bj1WL9cq9m-QERPd2OS8MTLi8b4qMCBj5QymacB90O-ZUjGiqXGEK1mJJfgCW6b6aUeuaUAgx2jF7zIqFerIhoLKIF3qQPh5bgyL6iDiavbTKqf2h5P3bbUNDroga4jEfSgFvlbNbyfPScSvDvvDbapigqACUpAqgymD2Ydp0IMSNIpW-RaEGIDHbUJuFZyYk7HNG5TO5s2CMoeBSuODy8ATbnNukPUVb6-Z9Y0DAIOU5_4dZ30Uv-GiWWk9f2ZWA0YnyZIDZt7Cipw_rJQlfkqPVc7RVTPd5RSUaFSlhEJMVrUijkp53EO8f65yC-Fx3kyHQVI_YdCpQN_4lyrWFDgUmA94YTFJxiO1dLO1HAiH3CGMVKyLL6wxe2AQlyFetgRsHMASqeEd_HEdaf0stN6TAmiTe-KaIOtpu5JHEI_NHgiCDnOAEtokYzrwHOikMzwTwyknNVrbKP9tccL_H-VWpDoTvoVyE8diblGob4idMlEmwHwjvtNROpexot9hCRWJafj876DSqYjCAcvxHCmmZPuED7ri33d8lw44lUBdpOb_iwxmKlHIVOysLf74yWUjVaZDmF_GwL86tz-9jwuLJWtfre-u43RmKj9n6rsauljNqMAzk6lL-r-cPvhdjkTv6foizUvD-3oThlNr5jGVquWvG3lU0gjuLtcP_2eYLLzOVESCdtbj_0m00)
 
 
 ```plantuml
@@ -1831,7 +1831,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x3d948c04075387b8c0cca097e00b421a9be2dedef5368411a1ab8d1a79c2b187
+title Txn Hash: 0xd27197a270d4763dff2af9fb898daf1a8f07e9741f9df7f37ffdf76dcd78a2d1
 
 
 actor EOA as "EOA"
@@ -1844,21 +1844,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1881,20 +1881,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| Roles_01 | Roles | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| Roles_01 | Roles | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x013a5ad53de19b39a66585917ad2d018df83e5314feb3b40acb36777e19be1ef
+##### d2, tx: 0xd2f54691124c534d429bdb63361943ef5733c79249e7d1b685682e964c401861
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJ-9047xVlsBYlMZklDksjAN48q8ffmz6uvdSYucPjWiqbYtPRkz0z7-_QIcS8AAdaH1cEp---MOwEu6nuroZqiKuPGmBdSbY70h5yjj4Jb3X658n53BkOdGxL5aXOpzBCmMV-a4_y0F6Zd8zIqMRGVKP2Oo5Wddz272IgUGkanhJJfeCvLX8JOW3lNBeat41EIdK91LhXf_9dG2ZiT9TO1mdSWW6hrKFbJpwLfDWTVvJcIV3aSuXdC6LAWO3mcKwqQc0gwc44yn7BU1JRbXeOsnRiJ2yqFBGSUocxHakncRCZMOyQ5h2jep6G8HMsE0OXPRZkcxfBGmnODIoI1FruBm3cCCUoJr6RTD9b4oGIlMf297hhgBs2NqfXackrUmiYsvlk565xFHO1pjNGvJK4NMPfM8PlwbS3ocL-T9r-R2LufN0yJBx1hSDqnvZLQ5ms7w9Fdp-t89i8cHjG9raSl-0lHHM8Zyfh09ByfL-_rfUiwDw4B_Kidt_7VHi8e2an74bVsDQqA5qlmUQ82No7EWKHJJFcavywZGQ7RDlHc7JToCJmp0AqEqxt8m3tsd6F0njlsbXTu5o07FWNpdy-1MSqWXkeLeMi6ftHNo4-Ti8KsEAg6If28_474A1IgWMdE44vW_my96b_IjY-pivF6p1fT25al2syi8iIuadVQdEMdlmN4jV6fiF8lEAQNtcgbIl_cR73NWIyCeoNqLgSKjBRxROukpYqSMFXSOapHzrgSTxdFEoIxIiQG7GeSn26VIgNvtbaAtYslVL_gFVgHPAOfhEuFoF535qtZI6Zu5txyzTzaLIm-xpmBHxBdST3ptVjT0R6Bt8iJpFj0pV51RoRh2UzCcUtL2z0tgrZ-lZEw2UsTjR3V-RXaQb7XXsJB_qv-0l)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBw2DpMv-DHMhIDjqy81036alICX9t3OYTIhRsLeA__ikQThHKWe34KKvvyxttNUNyoc476l3bId66I6yCBainf5GHD-cSi8L7qCcXa8c7HxV3bLUoAIRPxc2J_sm7tP3GewqcMMYJQ2wHe8dGi6yVWKuoLLwbql3io1BXt8if474WLbjwADn0Jafr2GJQuQVwPq0Pgzq5pn9KZa4HclLGoMFljKaI1t_LEfqE38QeXbSgM8mG5nYKfC9k9fAEE5wr08wJHe3ntPznXfsx5XsOZVyA8bSotAPRrjYu7YM5Nj-m_Q5bx38RJfkio5yruvjofek8rYos23ry3m0hc4FvHx1ifaqJYSSK-rY4aARZiBo2NCfXgasQdQMnxStb5KkEtUiWvsh8PTO4NMPPsBflwbSTocLUhbr-RALufNWusNq3MuRfZr2gaJXiFqIVVZykGNvHCZQm4sQo_q3yf9RYVmaiGeirIlz_hMy9aTr8twfPVl-EvZPH01AoSUL_Csp0XVbzdl03b92Qy1L76C_6rpHQS-tmwZHPxOR1RG_O5u_219RU3xZFJli-OqeiQocvonG3c0Ez2k57x_2Ksp1BLJB15RbheYFk7uROInC4PSi5UAXc4Cak1Ag1MTy0lC7UFZ8rFubiVsR71wsu5AOGabuMtfHdcV84s_CizOUF5VIbzhcWyYyebkVEIhLfx_PSGAUEBmopLUHMfpISZTPJ75oyUZW9yBmDDEFgjIZFKffMIKSrZW0S556mGXcLQzWsMGhl_PzDV_mEJL2IPvbCpZ_8qK2mPlQy37mxlcvoru5fJoqgEN7pe1wJT_f-8uVsMwOz2n6hNx7xp7MzS8WN0_wPCvkgDu1lPh7zV8TKC_CxQs6_ms3hL8t33d69_uS_0K0)
 
 
 ```plantuml
@@ -1916,7 +1916,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x013a5ad53de19b39a66585917ad2d018df83e5314feb3b40acb36777e19be1ef
+title Txn Hash: 0xd2f54691124c534d429bdb63361943ef5733c79249e7d1b685682e964c401861
 
 
 actor EOA as "EOA"
@@ -1928,12 +1928,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -1950,19 +1950,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| Roles_01 | Roles | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| Roles_01 | Roles | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xc7679220c9e6c2343ce62adddce23438b00a8b6f03eb7b5837ff39c31b89894b
+##### d3, tx: 0xc85df4755757fb2f90980bd147ac33c4936186ede6b4c0b8b684b280fec17026
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vYPjVbIieatJmGC2CQIz827RSTk8rAaSPsjf-TztITEE0Yq5H5NbdBFztVUTpwSGSf8Pfaq-IWXXkKbLFk9Ia-mkLcEcsGWIEP0gwZ1nDz1fhg8WJL8DNtfXBmn2GeupCqraYq3v6qeMIGspwXNWDDNnVQeCIzf9F50ZgGmYzirgGGyd5v3ZN8yJkJRnAxwNKAklV9SiYc8rW1gjN0-bFVvUaI1L_3ELnOEXoO1FuLhd_JxY4XERHCBrHC4fouPDe1FXEgvlMLJuqX6MNRU5T2mC4GbPl7cSKkPnfqzjoLtUy6ottxTzOTUuvtj-dHDCcJ18FRne0yjW3-qUmRIPMCHZXb83524pqz6OFcckv23EZ9wUf-BkbjRABLjNh8DTw05Jc15zbIPokV-fStrBuSoMIvSlkr3SJgy48QLSE6gz9W8E3vkGZgKA_x0aPoPErVu1UMrJWVjCN0aLPol__esw8STLCNwjR6l-0ynqB06jOgFI5f5nK2oV0nwnbba6E182QzhWY4wSUhrjzIp1lS0L5kDSXCpjETIAmi3n8ifv8_1irbcW7C0Cw3SAFt-7PrY6Br0j1AnINX8ViknzX34nkIXOQiH3CmCkcPQw2UTi3BC7UFXCQVz5l7mcHqTDk98crmhU9u-dQO8yyOywA-_1ffI-LZQVH6Q7QjryLyhJlztr2hn5wax45lUqM4qMtPnSFce0aJGiJh97cUhIBgMqo1GsRUm2E2YYO0IpobbxMMYhVQrvsGVnEJ5IAvOaKxZugsG4xNULucFWxNrqs_mYQAtHew7LwBhKTNpc1wxD_7wjAnpRzosx5bZIPhGJhWTzrc-Vk3u0lUhBrV03K9lxzwQvjmR3WgdAXfpW4pyL_W40)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTqk10etNI5jw-c0qdiczc9W5bfP8bsPtkMjj_UytKDgpQclLI0YppEv-ytt3x0H2JfHcKXUZZ11Mw5mKev1BekvICMQIZI3Z0oxY3elk1Z8lHDpDirp2btxG3xe18STAJpFU9b1TGyvYBc5MlmASvZAzpuLccP-b0p7YGYDYebSB-ZYvW1mNSfpnjObVwJq7mrhvBbaSfs801grT3vKz_bwJ87NyCw7ImL0h2ATmBOiaGLoYKvrnk9u8E6Lgs08wYLmxJYp7jXtRIS96ub7FfM5iM0wBJ3EoFBDfk4qUysPeHJHqmwPhXGsN9Zmo7Dfe4anPf95wSE43Kx27TezWsdGQfME6KhieWYlTaPW-hg_u85LQJi_pwEwM6jMMhIlMmIxaW0dCYBpACxxS_zIvlgLqgkNIvSik5BVJgq189HUEsg-9WCF35kHZBe8_B2kOJdEnVq1UsrJYFXDNGQLgvT-_4JVak2x6hxLjpt-0deuve1LiLDaoCWxAvNF0Af9SAS1H565DQnpHIS-pWh3HDwncwDD-OZXztuyjxdW6wrb1psk4iMcwZhr0EO0Pq6yKVluEph0CNw1Q2bYbl28-PEfzX34nHLIob8Y7PWOXPvBB5fopCSmUuE4pfVqNyV8tEJfgmHNNXHJmFdbXdcV84s_KMNiFDgNqjRBv938xLElcir9z_TjTZy1RfEv4R75EozLaqSt9vQC647FDqamzobIFzYYbPQQmQMCNm44P1IFeLSxyPQ6jzhNdLH_4vqHpALYMJU7Yh-0n-EygnSV0s_lejlagA6M1IKqliXFgk9xTyMmlj9f1t3CDQlOxNiymkaxW1-j1d_NR9wuFGA_wSZty0DJc_hrfxgt1i63giY4d-CHVXNy0)
 
 
 ```plantuml
@@ -1984,7 +1984,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xc7679220c9e6c2343ce62adddce23438b00a8b6f03eb7b5837ff39c31b89894b
+title Txn Hash: 0xc85df4755757fb2f90980bd147ac33c4936186ede6b4c0b8b684b280fec17026
 
 
 actor EOA as "EOA"
@@ -1996,12 +1996,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2018,19 +2018,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| Roles_01 | Roles | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| Roles_01 | Roles | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x6ff5bfe3a44b287f2bcd0eebe7748ed562b955f0af90959d555f7dc2a2a44655
+##### d4, tx: 0x8a7121f7ac38413e52275fa4d5008f879f63f2bb42eec8e00fea9950e4dd7e3e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRcviqILEnYfAcWqa814ZxWeISn4aZKgTodAsbyDztITEIf6-CWiQgDhRFzjqzJyvN7q97YQH2fiC88PhAcAT3XmcKt8LyH0KTueW5Z7l7rBqBH9nopugZME0FVRjlMpP2XucSHAo3SFuPCEenWQV54EEJM8JtCPSqwaPXm8UCIz3eoyM2FapEL8vICOfOPU8gl6UuqLp8BgZdXJp03LA87lFsy6lX12hid_8a30OomSu4NulKzq4lag6C6BuUStn2aq4Rax7k-vhZCvKscuxICdp5SJt2cCCCezbYdgOhZgbfFg6-IKpDz3GO69whK0Lsw9g6W39NWklsUHVJ1Ez1kuU0DXcwuOW2L0j0i4GU2w2FoKiMX8aKaxFOlRibZNpBnXLLPUSYe1mO4PTnnERxwyBgbaoOp9VE1yznSRDxwvHa5iuefm4JDGNLcUhc7waNi3Acig2wz8hwe4OEvYjBups4SlxnGMSRg_ZJfpQ6KChjVBpXD-YmYEVFHTjv-8RbPCGmj9mEy_ONZLBePCiVijs29Gc6dkl2iP3G8sF38PhMC5fzQ7hCrHHL9QwYKbM7SEgghj9I3DFg7i-qxECf9by8_lxJFeL8tkPqXclfRUTGmcGXVqqqUhFPLVgAwxGi0uBUSLoR6dsTA9vjwIsFE8vcjLIw1isognc0HGpcZWzeyZA7WPZKpRmKe0-QANOO5KoqyHaTuUaZVdnBQ4yWLh-JWuCslcGo5Ho_39uJnn7u2L_0MKZtrr6wBMpUo9bdHElwv96__Tl_vGZM0TMIsJi7K_Ss0rB9iE_L_wgJoza3RFwRxB4Rh6hsU2S9yMqWlMBkyMcKF2MVgi5Qe83HLS6pxZZaopUSbV8TOxUuIyESRPenNfCvy6ki9hTYVmkGdSWkN2bvif6NJRcopEcMPBhfV-jP_pApIr-s6irg5NHHkZ5wJD8mIafiz4YF49An0IK9N2AXara12tB1ItT-I1RxEW_vBH-UOya4fr4qmUU_EVDmzqNtYhBYpLN2flcPqORM9xQYzGnYw2OrBKEbfj_ekRfgcehQi1GeSSYnNJMwL4tKH3keNbGTHNS7LUkhatLpknkhLJ6hv3iOgLGxfU4EAijLqTFeRnN2oIdE3pg2PpgC_W00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRc_FI9a4CqRJfO1820TA-824dSTA8rAaSPsif_FTTGbgIq1P6G6DL6zjd--vvBkUh3w63L58Xit6C4CramhEnomHAhoC-eOAESSn2ndsRUjUXI3BkzvCu4VZ3q1awVGUXlLJEOhQFSF4PCUepWUVb4EF3H4Gt2PSqxiLHoCUCIz0OoEM28KpUgvnaOXApsiHvTCEmeYzbfzJt8nvYXPIYkwBT-rg2GANz8vv6uKYcs9tX2v450UX5Cf8nmnTJZWzfEjh5P6fIGr6LmA2UPkgAnZggQdG2gliTGip0DAoWgmMgw-egOvx920aOjQmEORhl6qm3dOXw4g0x9prCKxm5xHO2jyd8YoOKgFQ114kbBS1zJ9wnC4gbc1qdtlKLKOej6rVKbPs8a7BmY3XBOhROtnJMj-J2TB5qCNWEnCtmrYd9BHnJJaCc6WhgC_NDFp8_P5LELK5zwJaDG8qSBLPMnbi85Vx7E_jFUHL_-hIB8PGAEnyl-INQA-FvSzdkttx3SZPX65fEnqNxYyOPTFBbj_bkmT8KGy_pu5X8w94fwJgwhTg6tlUxjcOwfAzecc5ggcdPH1aeXcqHJpMTUotRU8x95uA__tIE89AV0ftpUlIs2ofHkfI_9fk1fJkkEbJqhjiZmq0nXhsUhpF3KkX0TmQMwlgQPXgTrMmUGyq9B6Em03wYwSi0WsCoBqSfG1yqS-moAfZOnSTqWkTt-EujgJsGMFrETdPsyHcJcU3uPVJS98a19to1PodTNkVIfyBcZS0y8rhN9u_YxL_zBqUmIQYHpDuvcIRQd4WjmxvN_7MGZxC7sFmtsQCThNhsU2S9yMqelMBk2MYSFYIVki56e83HLS6pxZWKopUSbUeTertSPL7XRPfxl25puQUiTcxD_XD4MZcxX591ij4lct9bxbDqNpcWqyhzpMUIHd5QmJOW0q98ZWqA1BZIGITN34hb4cLl4RBBVVktnPqRdbF91ATnFCCdlpdpSUz5__9LnPllx9lcxqyITJIYMLud88PfTMohOxbwr_47caAqeMqD5ALlE3sdRlJHtRuXQg5wMGEKtHQgrjSAw-RQ6slK5AlaBOpKQe_Ai8NAQetoCFfRXN1oolE33k09zVaV)
 
 
 ```plantuml
@@ -2052,7 +2052,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6ff5bfe3a44b287f2bcd0eebe7748ed562b955f0af90959d555f7dc2a2a44655
+title Txn Hash: 0x8a7121f7ac38413e52275fa4d5008f879f63f2bb42eec8e00fea9950e4dd7e3e
 
 
 actor EOA as "EOA"
@@ -2066,16 +2066,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2087,25 +2087,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2123,28 +2123,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| Roles_01 | Roles | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| Roles_01 | Roles | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x1480dfb7b8003ff1a1a6ee9343ce195ede424577c88edcafb2978ca60e0a3e79
+##### d5, tx: 0x03e0e9f8b442f4fc38e17c03e6623414774b7ee28c1621682b6bd7b3046f0461
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSvAsIIfMqOPqy81036alICXnBcr4wbIsixKK_lkSDEqeq590H57EETlVVT_bV0eXHqepgOjHHWWhT2wAKOIIgDjKZ9ba8yXmW2BkCNuxa7aXuY3FSWbV-c4_34923fMUPjWXK5r3P35AcDMl02UvJEzoeLdMpTA16A7G1Z7HomLzCpc771TodE7AnA_q3i5gB7qNB8vJCG2Brgw7oXv-hqcGElwfKEbWg1L4KxYIHP8ONA9JdI5SJGISC3Li0vrO3O_6IUH67gLEabZCOYr4tsau72s_YJ4sx4RJTRddOSnP4jc-wt7MeaYPWwvFJCguDjJ3youm1Jl6xX2JDftoTCoCrC28GALxqgGFzIKEKgNbz2pdjpVKghPiNB4ATYu7J9YCoCiymyN-fyxLBQLJBPOkNhQXk9bU1K8gkN3GUKq4xE-tWMUvml0Fomgcqrpixf7NTfN0pzHLMAbQ-dUlnJKvhAlnQsqxzpz0JyS8nWesgcmPsGpAvVTWoaYYKc16d9kYrcP49wr6esltRHvvWSjj5aKyP6w_HUqu35fUJAEe6NWEwyrHzc06z1k5dx_3KrE7Br0j1InpNX4VClK-mYOn1IzPIeDdp0mYP19b6yxO66OFyF2PqlwBUFcR71oquH9r8GMyJrwKvvdXQMwZi_RkhKlfQsNpIMIsgDRrXwNw-ZTRdu6tQDsAsVoabgl9l9-JYqSj84RDqamzIjKnFQQKbgaoRTlq0JCeevW8UfcqxgBIbliwzrKdDC-9HYbObatX_A_06BhlgiN7m9ixwQRvUL2hsQUXtJnsgTlocH-u3lCJwvYt7D-t7IkmqM6q5wu6VTPndxW-0BtipFNm0r3hE_YwkRS6CmLJbmqvCa_pi_0F)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSveqQIfMaT9qy81036alICX9d3R2TIhRsLeA_tsNDEqeq590H4tEETlVVT_bV2eXHzemPOgH88GL9fV5AEAAwDjCZfbY8n1ym6NIPV7jGEM5J8vpaIluqW_xuN58oA4sKy4x1Afho5d25SpgLu2JN6LtkJHC128Ro16N1X5JirpGnyavvBXGOy5N9dvbTnmiP-cxO4cIoG5Oj7OzLFRmUqs2rF5FfSu6GwCXciALAj8KSOd9ZE1mDP5mmlIm3NH2RKwvdxOYnscaJXhRBMvvCNfTjs4xbkDvJkHntcZ5bjkmt5OZSgF4Yspgk2dU5i6KnGQfX-S1C0qxQ7S8firaSJPcAFKOHN1jkWhJnyqb7sJQgEbP7j_UKAlQid75AjYv6Z296L6NkU2B_K-TgrjAfruiNRniGt4plGg4L7BXeFEQ2DZVRqCiSit3FqmKp6IvtDqZh-qgWP-fgx0olVJlNijhSbXNuzVQTkv_W9cEEQ2LR5JPCZ8EokNtW6MakDQ0epZ6eZOuefEUxuHHesyvRXJGVcfv_I187Exv5kivOSzlH8bjjxpc76KFPa2_KVZvEpp5Edo1QYbWcVEA-93fzn76n1HnoL8X7fePH9mfhjfmniOmUu27pvJsNyJBt-JWe0sNt1HAmllaHNaka2V-K6VjtLkNqjVAvfF8R56jwmzBzVLljZu3Rz6w5RFvIIrNata_9nUFMa323Sk4VfIg7krHIijKOTl6Fe23CWf6CCka1OjAM-xht5UT49yJmvLaGapX_A_a2GJlgiN7m9ixwQRvAYXbeKrjFswcr6lvpQxVz2F73PEURL6xt_LxbdNiXK6u6lHPnttY-W3qiZFNmmz0hU_Ww-RU6WmBfYuRSeHF_BFm3m00)
 
 
 ```plantuml
@@ -2166,7 +2164,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x1480dfb7b8003ff1a1a6ee9343ce195ede424577c88edcafb2978ca60e0a3e79
+title Txn Hash: 0x03e0e9f8b442f4fc38e17c03e6623414774b7ee28c1621682b6bd7b3046f0461
 
 
 actor EOA as "EOA"
@@ -2178,12 +2176,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2200,19 +2198,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| Roles_01 | Roles | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| Roles_01 | Roles | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x40d5541b7163d2b331b207614b698e17c16c77bdfd5580f8784981c93e3c987c
+##### d6, tx: 0xdfb6d5ed50eba5e63076b537d20c616b69e2910501df955e8e0cb5d2944ad4a1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLHjJzim4FxkNt43QMnbR4xIlA6keYyfy642CRHz03GvjbiiKgUo7MYX---xf547qWPHv7DyvtjvdhiGScGTCwwQ5uImofMwckVI47kdz88PDeT2pgGMGyRlPgQij1YLHMbWTv9Dib56IC-wLI7x19hdLZ8X3Jordm0dfL6FfNQi61HgfkTIE_GuTLk32IetBXULMHJoXUAxUfJWTRTdvqm8fMVWqVReToDxNzeaI1l_L5irktKMyXLSccewHR_4ALT8k5ngE67szX3eiaj567QzFFQYGFXv47YvJ-F8w-PHcaWlvbx4upWNKpHBw3I9aswQU3mDPC3J9EO48UCEKy_E1i0ixA3S8GYRKrmj69OwmYAaTKE3y4bt8MVAEhFwLlAxNzHhhhngiKD8unCE-czPmlx-8TWgdokNtREYOawL-iErlYQzbgjFhUollu9RBIIWr6pUoFe6RchpDJ1Zs0hMu2IRdmgBkwkRV-cE3OBzNFqHde1-fd3yCpj5QjxAU7bmjMkakAcBsrHvS0Yzzm_CQ2Iv3ps-QJMqwNSw5zcFxEBoNQVJ-zASz-4_rG46gPja3VZk_GK3b0LUb5QAlJPT8YJof-wPasyJiPa3SlwCNI4TKuLzbiEOZYcbDSBOxaWlRcg_wDDjiHu8OQH5tVOUvbnt4AvB9urcHR62imSj1GmunvbpgABBEATXwCN91CLOyj0F0ihzW0LH8iKWu7xYn-beC7pf-FKEV4tV18syS48pFnp7E1WfIqTnmDAfD-PHaAP-u8ry6J0wp30eejDYH8vmnJ_A7m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLHjJzim4FxkNt43QMnbR4xpqWPr5KsR0Xyc44FR1q2J4r-BHUfKjWCjTFzzbpRgGDeWYdoEdtjzxXp6ZgmJnbMpWZ5HkL9NimmDitTApuKHCoXmYbec8h-RchBISbWMfO7TSJfEXobZFUkM1VOPh9zR518DF3MV02UbKO-bTg8O56ggPwWTUPouhSAOm8tBUMNc1Ru0lgj712_OdfqBAPMUWiURezzhsVlI9C6Q-AVQgkcjiv0juT9KamdvPKwv0k5oeU54sDj3u0ivoI8PeWmvPYB4oEUTA0lzZcppFFAYB8gn7Niyv9wSn668NUHv5ifs70H21i9ZH5dkAFNqR032mWx97KQqEPMhkQ1IXrG4MfSOeW_T1KwLTMRvhSplVd5lRVAgnWvZQvzmq7zB4_Rt3y5MsKovz5uKbN2gr1-kzJNhDRtwrCZ-wYkuvHo1f1QpjQmjQ5Ehhq0O8vQm0eTYTYejxQvk_eKT6oBxEVmHde1_vd3yCpsbrhoLyUBWQjUWlAcBsrHvS0Yzzm_2Q6fo7thvPjH8fzzgNQG_qelBTwrMxylwl0__gGueI3qaAw1txoyPe2paHMbHxZNfCedKFtKl7BxTYCqzOEVFkYlH2LNOPpcC-8XpNZDCuqxjfKtjbtowBTS3AGrQmhPsb7CzGRGk71ejYc89PmyQ9GpodEwS8uWlU9G6IJlf14CP9NutvKFFzpjTlzsD4-wDl4uIyxpTJLywVdq2NyCtGKNgSp_EmmdlTECmYSCu2w9KZdoF--Ca7ddUi9CEwg34JiCHEwAL_YX_0000)
 
 
 ```plantuml
@@ -2234,7 +2232,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x40d5541b7163d2b331b207614b698e17c16c77bdfd5580f8784981c93e3c987c
+title Txn Hash: 0xdfb6d5ed50eba5e63076b537d20c616b69e2910501df955e8e0cb5d2944ad4a1
 
 
 actor EOA as "EOA"
@@ -2253,8 +2251,8 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x615F0E25D70769a9C73a9f1Dc6399231C2e3a0BE |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x0aE3039c5f07895B959b46EdD3103FB9D11C7EAE |
 endlegend
 
 @enduml
@@ -2263,11 +2261,11 @@ endlegend
 
 
 ## reverts if not judge
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L133)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L133)
 
-##### d1, tx: 0x56be1c6425ec6dc9bbfe33b1d2c348393c60d2083ff72c10a3757a838116ce90
+##### d1, tx: 0xc0b860bb07a3c3c5979797d6552866aea171ebf8c9bfe00fabd911c7acbc4dad
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVJzim47xtNt5YBo36vYHDcbOCKKewU40WGDeB4d8S9ur8dSfnjfR2_xvBcfRq1wr6DMbQrSRs-Uwx-wuNdmavpJHJEXyaXB1Sfp8V-4AHx2cMGwRO018H2HcSCVuKgJINGJTDKWMVUbxFwtg476Twd8WJ0kMdBrWW54og9S15gkBdL6gMT98uaWCXDIA6UgxGmyqfv31NmqGiRDp5pmACnbnsmu8WbX4Oj1AzbkFnroe8Klc_b5aSzNK6_XZkLHw6Y4jqh1C1zoC95ophju6ERCSN1dSQfYsu4_2MxuV2idmZCBdLSAsMnHqQcDIrmh1fSeCogsatcMkvXk5mqQ84KyOrXkvTTu1bi8VZ7i6qwPZ7GuPKkqX2PFfCOVg4lXLHd6arlahvqoCrIfED6cl1RjD4N3798g6MG1Pt5eslLSGafbCLIZExPU6YII7CPggpnQBA7GlHe-xFj6hhFKBAVC3HoJQMS7ZO1fvAbEL5FlSFo3QB6kWIwnBi4GjbJcx_GJwGuwfYFrVZoSitqEEX01mb6vJZJvRaE2dKNm0HbCWom1ddMFWQPtJaD1eTisTot-qskSbydtkisNEe6NXTnmsexzjTrs9dKvG3c03zGk7x3-yIQ_MzY0ioAt_5lynZDTY2mhn4oj3HxyS2dbO1HgaG3uS9-88feTfmnOOmUONNlqdjZSGgfJxB_YTAHqTjk1KwLn8-HijFqmJZms_8agmI7omxN5CiwFYz8dhl5IbDDhm_zPDdj_hBupBhhCZyaip7dx4-oGl-jn3PAUbLABL8DkPbspbQp-kcmtPwb1VQP7eZ83UrFX08pU8agx4vf-UKqe8DDdvi3JWflA07FUVLcHNxtExafUob-1nfeIHBaZ5S_v8YWCw7NeSwyEPUl6c_T6fHlqLxwC8st9vztknO3PDPkB1R8GzSn_4n6CFsrZfTwjdhv3iuMUdjIw8TeETtW6gw0rJzhl2s-bD0hBog_iWfFl7U-Xi0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpQ5vQIfM4MWx-810WBGlICXEd3GYTIh7sLeA_tsND2tf2wr6DMbQtsoVxvwxvthncP3JJ3Ebyq522CjrAlC15ufaJx4SCiK6a8X8oE2C-K-HIdCPdAT9gk1JhzlhddS9ESdqE15j0kMhBrWW54og9S15gkBdL6gMU4aSoO6G6X53FLVeuUOKSfYhOI8MDkxYPm66EPVTi228PGG6hKIlvNZojGg2LFulPHP7VPq17yEzoiCGSOcETIBWVYJXWcNz5j2HJtdJffnJXpNyXc-vJl4ERCiwRjes4ynm3C73fk_oK50QCXwuXk4xpEU-6R20OCfyZQ5thprW6UpXk4SmRJhsuo53gkT8GcJwJ67wXBuLKPnfDRvA_QT7QfGc6pNMWjscYRXYaaL2BO4ixYmQNwk8IKodAfHcTil2HPD2cCrKPuj5bJiMeaVTdsdLrdk4bFc0e_Osbd1us08_bIZBYtpk7v1j5ZNG9TObs2CMofpS_eDy82TLnNwknlRBDz3ZeG0S9HkKuq-Mv3Wfr5y04PJ8Ci2PxsFXQvpHKSSrk_ouPvWszsWlD9oUvmMcS5o3TSnknptcGQFHTAmfoW5CW7wXyFr7zn9hzRs82p8hVyM_p6Crs8B2l4JAqD7lnmAULW56gH0FXmbmmPHGBRXYGvYymklVfFP6OfLIdsN_4wMZenRS2fqh2H-ZnTCqmVZm4x8agyG7omxN50iwVg-8tdj4IfCDpq_zvDcj_lAup3ehChyau_WrrYTvmVyM8ZiblGgb5id6l6mxH-jvtNJOJe_oGfjCRmJafjO70g5Pd6GrDXtQePGMRB3nOsl0IU45FUWvBszMx7ExzalPI_5tf8MIB4d6SFrBYW2y3pqETU3DlNZJVkdKD0F7yhXdEjorRTDs6WtkSnhOxfd5BVlCjwrcsEZOQvqkzUnryXsShFJs9T4EqFCxG3NT0Qf-LtXR_IaWLbvLV-GKV_7U-Xi0)
 
 
 ```plantuml
@@ -2289,7 +2287,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x56be1c6425ec6dc9bbfe33b1d2c348393c60d2083ff72c10a3757a838116ce90
+title Txn Hash: 0xc0b860bb07a3c3c5979797d6552866aea171ebf8c9bfe00fabd911c7acbc4dad
 
 
 actor EOA as "EOA"
@@ -2302,21 +2300,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2339,20 +2337,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| Roles_01 | Roles | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| Roles_01 | Roles | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x8e877441c1aa47ad10a9f641c06482cf91b528128a1c1258146a4be53232fa25
+##### d2, tx: 0xb75455fab40fb442af84b0447b272b95b68311a5833bd24ff651d05d990440c3
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPVJzj037-_Js6n5z36TacJDArOHId9u0616D9Ua92JNDk8z5BTNRQMmdUVawOTBQKm45KL-_ptPyTdXR53RL2POfGnXeN9PJ6AX6BwDfLZL3Y2J0o4J8umlXsel919Byzo1P_280nw0MC7sampqM5G_OO24w5WLXy1JdALtkNIODRDqe4S2MaeOjyi3K9IpaEE2pNEn8hYPtedm7AMiWjCabGEmEArwA6Y1zzg4ApEVofrEXWQ3T4KhbJHxrDSPbAJ2RYQI3X1FMm3d_Z2RpOTnuejHAU9YSMnrVVep3t7j-D-oufSsxTi7yd4TdtByT29XDkm6tOVRPTHos93q8FpBg267Q8xZDfcqZWT8vNQeoA4DaUAsYVCfHYasgZfMHxVtd2hSjbgiHhiN0rGKaVKPPw9XV-wSDMb5Eg5wUAm4UALmD4Y-ngsDTKEOrMXiDzv2Jvy_jo6V2nahK2Jvd9tZxtaLaP-KbWLBDLB-Uwrl6O7zI1-gMdd_ZkOwLW0KOcZYlx6h22cDBy7cY0bj0RYufZcsH379vxZTEtGZYE_runjZA8um6ReSJi9UfwVy2XoUtu3Z-PHzc06_2k77x-2Knh13L3B0fRjhe0FKRyDC3McY4kKYk8HcK4aK0dLXZCSm-m17Zwoj7z5R7ud-_jjk1IcK1BULbwKvndXf3_LMKltdclfIsFpGM1UCQtFN9NgrTzikG5F75vPvgj0pMzfQStcMvnTFBhuYJ2OPlfHbuxvCUUyx18jQre0n9HPA8DPzgkx6BAbN-U-sd_qd1YX96RP5Cx_I950zqrZ-3ZmzlsvJLybRV2enKDAuLf-w1utkmt7nWOTt5O_JdpFYmYCvGQhIP_isJNHEq8lzt7DlYFKCtjxe-9_qz2er0F33kb97mT_0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBw2DpMcTfAbOHQ3ju0616D9Ua92TE6r4wbIsixKK_lTTqhIZfHG6egfwpltuxhlB-LH23etbsXQZZ11Us5mL8o4rCRUf6dFDHv39WLJn4Ozk1pelL7oSPxc6J_rUltVS8-J0s6acEmIgpr3oM6gOrOy09xbExt9bUHPcwK2DfBA8cDYbGn-DSyXneSUPN37yJEyaE6ofk-1ndAe1EBHMFLJou5jDWjJvJvL91qDhG4pXIXT9WhZ4fZQJS3LHSCBDi0rq8doNkMx21QE9OAp1anOJb35VDFo625pXjPgEmzrMiodY1aiIptLYwiP1W4uqQX9iMMIHUkyy16vW1-KEmRRPD4h774iznYAaiKSQsoVjfHoankhfMHxTtb2d2jdgiGfshWTSOKVqPPx9HVowSZMaL9g5w-9X8yKhoKUBx6lSramxX5I5mdxd9Vhm-NCRyh5KjO7RD5UxU-Ibi1BvIM4LM6gM-jrhTKqEwa7yKilE_NUmqx44b8gFAlcRPmKUIlTxm0dIqXZ0KnJXF5iyqKatO3tHw3lC4o7j9uxV3yEOIJzmU9Vrka53nCrcotVdA7im0_gLmezVlLCSmGrKomAMxQw83xbv6s5iJ16LB3NYePY1a5nBtOOpFeRP0pnyP6d_YjZyJlRtst0fRQ4LlAqyaUSPyiGlrbbhzvvhwKjZyq5aNZ6jproLwjNVRBa1Jm9UMUQhICrlQUbDvbkSN3ow-B6qFCtCeovrQPTIMdO9bpKk03oKMJ23NVOhN0pPCgvpN-q__9rOgHNFiYcS_r4oXl1DO_WOUFl-t6QlaZ8M-sueGjpeWUSnpyT57WaQUy6HArplAFBSLjBiUgj9d-pPDTKxe9Vxk3w-0-gPlRtHyBzfS5JgWI67-8j_3lu2)
 
 
 ```plantuml
@@ -2374,7 +2372,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8e877441c1aa47ad10a9f641c06482cf91b528128a1c1258146a4be53232fa25
+title Txn Hash: 0xb75455fab40fb442af84b0447b272b95b68311a5833bd24ff651d05d990440c3
 
 
 actor EOA as "EOA"
@@ -2386,12 +2384,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2408,19 +2406,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| Roles_01 | Roles | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| Roles_01 | Roles | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x7e7b5196168cd0167d4b3ddc9b8cef70e4d160e127469a57cdf7f1742f893aef
+##### d3, tx: 0xd825c8f899a92089704c9e56506bc915bf9e4df8b84b34b07b36e7e18558092e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSzeqIIjMKKewU40WXhGN9EJOJXkHEfNjR2qj_tsNDEqeq590L5NEFjlVVT_bV0eXHyOoRVDXIWZBRQRoOIGrCNU96Z7DXf3AlbJYcF6xlivo9RfPccduqWjxOJSavD3OIIhR1ChVG38XDKohAS1fffFxJ5cMTjAahuPIMKICxN933nVdaADSZrAvil0hkPVWk4lV9HCYKNrmQELwAEtXzue4gUAVAPFq1zP0D85hdSSnuXARs5J2zLZ1AJE35j2nB_seuJGznmkue8xd2pUg2y6RKS1bx5Ff2iUZqgdvhjTa3P-Bs8yTtwt5GRFEP4mmPTmYzV2Y0yp03jeTWccp2Kz63ALsKOGqzbXZ-gIzalt4M3qvp_ZTBNNA8njth89Tw3vJc15zbQLoSVwfS_L8uJIBhOl9DXGtqoj1I2aN3jglYO3z_HPa8wd2FopDcKqojRj7NZjKu3uJLq8bPkdVlL4tvB0gng-LRSz-W9sC9A1LR5ZQ8Z8EYkqpm2hIqXZ04UTOqnP7TEovRgVMg_4ewFgyngA8XyplURGcmguN21f5ZMvGPyTpb3sO0lr6uUVly0pBy0MgXO1boalY0sRUHnWJa_E2fKOyD5E89DDIj-2SZM3w00-VAUs_Y9VVoS512wwapRM2zycBiYn5dlX7dPLtRrrANokRJoApHRMklolbsx_TzWgyHUfMnERtjDXDvjsSN3vg049QbgJcKQPEw0cbjCWKDcti0ZWeec04kynPPr5eotFjMTa7yJcsKYkMfXEu-AkaWCwxIl4nyEO-kccz35gdKPFsC4J32NgD4xzJTskiZfD6C-OYyBm8oJYDS3NeitxxnFK1w6LVheOVW5hVlzUjlJKO5anLDkG8d_Yfy0y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vhJvMR6AbAQ31mHYI7j1GdRYj16fKpdErbButtT9qum2BGL45EMSi_tTzrtEfn1ob6kcT35E2M65pcGnvaAH_3QH4wRO658n53BgiV1sgB92HiTPcYduCWW6mN50o66kPwde4gYkaM2HK32lNm5ECfNSPLApr4-JeHmBgH4nris20Kuk82U5cgHYPU9NSYV0C1lV1OkYH0x1eBNheRA7tsiIf8v_AlDaED8vy1bSgIAE4PVeHAS2hgOIJbW-wW2THcxB2jtOzJpcjQZhETGCFM7P5hLvw1aMZprXHh7BNPEtJKuTthQ58mpNibpgjH2Ji50ZzU3S1vR33jeTWcdJIPXC64ezHX4Yrps5wHFwKWoJNAlPMHRUtb2Zsh9nnIhOkHeoYHbHbragblkVEbUtbCvykNJviWt5pVGg45B9XOFkQo9WVxy3sKJ8u0zB2wQJJExkaTSsbRZFn5LGITxuTw_bDJciY_5hRRltFq3F9WBGIZQkR1aP1-NoUy0gKYBF0KTXY3MjSKIdVSyCU6jWc3RtwI0sd87lHwPmF8FrpQ3ljNZKRhkEjK3PWpdGRnH-_WvEiGnVe5eAQ59U4H-n_7s4CJ55MB9KY8Tc3bmm9LG7pjW4vW_my9dI_eju-PiS77JWKkX2INYVF9vbAVB46tNMthrrANsjR3w9p1RLklwiL5__PjiZy1QfMn5RdDDoDLbqStBng054GhCapHzbga_xbD8oKzYqiGlWe8o24NIJCtzPQCs-xdtL1_4vrK99bgOpEFyhHGJ-kqhnCV3cFhfflWfgcf5Z-Tmt7UxPjcaxxJOFEOrihsTno-w5jkN6xRwz6lHPlttY-W1qqvVhuGUWrlVlTNDl3OO5KvSDES8d_Yhy0m00)
 
 
 ```plantuml
@@ -2442,7 +2440,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7e7b5196168cd0167d4b3ddc9b8cef70e4d160e127469a57cdf7f1742f893aef
+title Txn Hash: 0xd825c8f899a92089704c9e56506bc915bf9e4df8b84b34b07b36e7e18558092e
 
 
 actor EOA as "EOA"
@@ -2454,12 +2452,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2476,19 +2474,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| Roles_01 | Roles | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| Roles_01 | Roles | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x9892be08d89ce4409ff3cea798acbcc37b3b508f49976b0044a20fa5d58c1f46
+##### d4, tx: 0x16d62e5492ac152052d28377631e26a249cc91964a4efb32e07e46f9c28ba440
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTRRziw37xNhn1wNZRiT5DyYUsYAvQcoRO351sw0NiPC52ox1Xrv42MjwQN_tverqbjjqcwPiMw8B4aIYBvVQOOaP1tkG5jYcbA21GcKyMKIqtoiqJDGCEKfZAMAZm4SHRhh53XC4ipJVyPZyQZuOYG_TpCKtb0QFMPI0YbffVraD8FcKukCcKW7QH9hAPI6TGOcUM2CKxUg9mLUfRAriJdv4BIdhEKVO8mJ5HCUwmMNLVj_flQ2LBR_wZo99wOdF8v_QABA4Azn2GcbVJBkQ8V89_iKNOU-8759VD3Fn3ISLWGHRQGu0K-22w4xN6RkyoFd23m-fmnnm6BHU26hYzwaTCdI9amwFheP40XfplOxX2apIGYcG527I88cPj3ZVH9SohZ93TwVfo9i--iLsrPkwAjx4J7e90HVPgbSh6_AsnlAONvOkbYy10NrxktIabfuHWKn59t5BHdsfl_Ay9ODZ4r1Usbdo52DMQoMDaOxn1IyKzt3pQnIb-zsgCOIfMT5z_KDx9Vn_E_TNjmzPQQ-KnIR1LCg_O7f0LsokLNvMujyvnYJmWy5WPxxDpZp7LxdZ_6vaWArx9j9YmRxBulmu4jBD_oWk7Wy4RBItf9sMj6ttyTVSH8tkHqYUlEswwW9FbI_ZlHz1rdO8qjmVsX9opWN8p06_UP5Ow6VJzadBj3tuOLQEwwMW9Onc3b-0JonpcCn1IYz5AZFcmkAPUWfTwZnp2ZbzVq-YcXtOAu_vtixkxHKsaAhUZZuF4iIz5F_2BEMlfo5QMRmkQ9d7b0jAvE7jNR__wt7C4ke4uoU-PWkjwMG5ePzhdwttRoRlP0ctycUsm7gvqzdab2V1f8lp7tH93cjycdRR0JA6Zqlk1PTHogvMlEIlEEiLtS5Kd5DfICTsGSVxtxoMtPtm1aAx9hLngUhELbNQviSheXcQxxtthGlypDfQzSJMvg5VAfSMCCfO4apHji7B4ZnbZ91fOaU8d4Jca5BPWbBuF58LdkExYgRlduF3TIAqZJEJtvgMH81u-wLpGLhwyIrirNHct60pP64sxF7xj7ti1sBB1nu0QH2Fr-dwCpFNVKDdgdckY8jb2zh3hgxXQgLbSdg-QsDzQfOkwJRs6aLUqqXbkeR5P5jwDVLOWdfpu_v1q-YsdwFm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTHJzim47xthx3OowQDpKdSf44CBMdJZKa814XxGK9EugGHgLCvpaO7_FTTGbgIq1P6GMDL6zjd--xxBkUh3w4lkM9I5PCK8LQeJ1GJdqkKNoHYoYIRu9J7N8Gk2ovYcHKY76Hf9l6RaJVo1Xv2kxcQfNmFuUepvYpa4b_LGuo_PJBvdGd5KYTDOZ7XGe76I2qMZ63oLkMqaDEKjoPEajySQtGXEs9Xc8WOQwGMtLJjxgSQ1AhjxuiyYSSgn_uCdyeYYa0lKebAEJwz5FWRoySxc5ngPcZgl4TjdGLQJoSzFTJxXcMPXiPra-dK3W9RiqtAA8zyG-V4ujICx43l-unIWi1bWGBetg63MOwteDr2u3QL1CcK0TK1aE2vSYMuZwjZ7YUvahE3BBWu9rgrPUsAjh936JC17f77MShd-xl2zfPIcC-NpWUFWRWUtYebfOK39bZCPKT1UwQz-NiHnhp9gIbeBprX4QXHu_dAndWBeSh_U7ll8Q_Yz-ztC8HIPUVjcJX3ktKyVwZRlUlFMCsc74ChsAHgVxAqW4wv_BhSBNcUO-W50HmB1JroIKoFkhfhqK5ekaRV8mFDCAo-eVTjbsX3pN9j0i7ZtMfvXwym-KZmrn_UFaJoGw1BNlVUTaKboHVovsGpjAddwoEDchv3Hf5cZHmdfDooDJQatj3M_T0m-bPlEPlxK4i2YnYiW8zP_ZJ0u9WYA55Aq0VD5VOvarpku0CsnLSt-EObgTsHMFvEjhTty35NXHJuQVJyB4i19to1Porzjygb3uND2u5vHBIkJXxLsp__NuvWbr0dcRroCbsq9P5MXdsj-DiWxsSFiFbliiTcjDhPuvKan9UXz8ov9s9fVfTysWOxWG96bmNFgkDGBLzpLfftZCtYhaWgRxFIunsP3pzjkNDRzXyWif6pQoWD96lziYvNbZv5jvK3EchStqAkM9Bc3Mn3CYI4bDYWG80h7NHAnQ1KBL0wyv1TxDkxhkxSyBnKN0gMfZDy-4lm43jF-fTlAbv_PrytNncbDBHwZkzGoxTDavgMOVY1JqBJTdj-ptG3izUFZA7PDdhlRjyHRQ1wKGFKtGrKhQuLLirjRgnJKooJRs2aLNiqXXkeRDOeTwE_LGWdfpu_w0iyeJx_0m00)
 
 
 ```plantuml
@@ -2510,7 +2508,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x9892be08d89ce4409ff3cea798acbcc37b3b508f49976b0044a20fa5d58c1f46
+title Txn Hash: 0x16d62e5492ac152052d28377631e26a249cc91964a4efb32e07e46f9c28ba440
 
 
 actor EOA as "EOA"
@@ -2524,16 +2522,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2545,25 +2543,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2581,28 +2579,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| Roles_01 | Roles | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| Roles_01 | Roles | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x675dffbc118e5a1ac1afdc36271d7685ef7986e83baa4cd1deedbcf04a5e4fa7
+##### d5, tx: 0x6ca092876db6503b5d76c19f3ba0ef2c9a5f11625e9beffb858552d097cbdea2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzCm4FxkNt4C2TXWaBHDcrMbekjI6D84AXDy08GkzgMBbZgLxOoLRV-TIvgMLenL355LEVjyldlk9K-4U6KT6bTCCo6mSBakfZ4POSzJFKE3KyXeGbeTeZoVcBpGQfXdkO67esWK3ICXUjRDC-eBg7vdX8eCNDLRW3UvIN_asc4soDA9df9sx35nAuCH7ovSpWeposZZu4FwWy1lhNJlKQbKJy3tQjLD9NilQX2YZd-iRJevSnRYEPoQ8adOht2fomXEBpMyGNlM1U-otGbKaiJIzqCAq4VfOw9aizte-AhJ3WDAEWTXcy9cZDYIobT4AfQ9ryA0MWbs19TCEeOUlHi0MjXXkIEuR2wLwGmvrI4dGTOT6YuVkJ5DKklC_2INvzyylxfofyMcixU5cj0upsXvTrsnQLegxT9ikTaHea88-_rjSU7fqoxO8fwcBhh0h42Nvlh95_r5zEhEFwjb__ebkFcCWAN6QINB6xmepQy1ZS4vN8CZd1uhowlFNsyxUssuTUl7kt05tdCFNd-AZhdHsn2NIMqKfCeXjPNkdj2LCcHBJ2WbpxxZ5KzDgpLeZ1eo3eSTsS0ubX5sHcsleQ9XErHU70V3i8c7jsUn2R44lMfF1VWCxVt0SZ4AMI8qx8_55SI4XamNJd06LpTmyp_J-fN4xttOt-_2c5nXDDmljJZFCyR8_mGpMwjtRwlbjXdvNqYsnBtS__pGaFfQGboyWGoaz-Wx6irqreUUN90gs_JtziRHnsXy-c1lh_UYqlV_1BRiUKc75Q37gsfqGMAMCGsgd5yedJiUgWjQq4V53CyVBu4hOW9BBz3HLYOIYm-1UBz6CueSffbTWtRa7NcULzQH-Px9XnUbN_RfLXKTBETlTOzJAIcKdvUEZ6RqStZtNPE2mRqcTDtntHHyrtaLjEd51zw8GmH-E0gEEeDcgu5DtWG7YLHXknqp63-8DeDkKFNQzXzShYYzNlwjA-vTtK7nYf_ymVy9)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzem4FxkNt7hf6tjHfT0NWXYQA64jPEgLgpQFhJLPCSEZHeSP3iTzEM_xn82Wxsq6jCGoZbtvxldxkmdXBpNXYfJJ392Q65oMKoOK4HVft9A5Pr09iP2yZwDhySgBoG_oBDSmVDXD8mE8aAwsimpqIDG_Qu4vKB1NVqAS9Yhz3QNXcPXbexbH4Y34HEpSXYYSH5oMgXf9ZOCdz9R0RQpqfrIpbCv1jkgLG-LxBwjGP0w_v7KwVZAQ61pE5D5ac1SObAJ2JYRIJYa-ge3rioBgHKqsxx7cUTQBUPotulj86anQeca6GVKJMpRQxeYO299MDjjkswJMu4VCoveas3BOeFGevCGg8OTb3i4ssRIE9rIBFK0Yn3Qz1MsJvYH6AVQgFbn7bz_jUngowCUcy4-5dmiHdacbdlN5PkkfL8ltPOlEuHK2A7HUoell7xT0LsmIMgY6veLrAIvV7KXBqYtdloRMlRktu6PJmMWb7HIoN87BahtUw1AqJdSWn5qSiGrhiulVsVxe71qw-PTk0Dhtu8FNw8Z7FHJYCkYDXfIrP3gIhSbTCwLq2Kc6iTuzWskhDaWS2BM7DgEnq9hcDZ-C0ov8_p0fWCd6WHDnbkjjk_-lefDY2NerNWgm5TKRmSMcr749KA5yL3S0HDK2TM1Opg5kmTu-9zb_IZYrpaq6XqO2LCe2TkLnl8yGupuJsYcQ_NkpxsSDSwVAy4lIm2BOuvvko--KIMHCthGZHVCXJwzlRrHz3aQdJtRs-k-hVIzFs4h6rjoJfN_vIfb1sAQPSWrFCTJAtE3axiHYpjQNR_zbqkSI1MnIM-e4JzVsNNB4qH05ZnCJjTkEHU6ffbU0psm1fPbbGr5kiMxZuioBiOqgzQ6o_6lzc6H9OFXSsQ4abZN74w-IS4XtEg0h0T-d04VirT97OVxRiX2nsU1vpcUtsgnc5dS2_ekSxr-xBdjf3NmDfDkCENQwp-4N35glVpRK3YxUeBaFJxnU_iT)
 
 
 ```plantuml
@@ -2624,7 +2620,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x675dffbc118e5a1ac1afdc36271d7685ef7986e83baa4cd1deedbcf04a5e4fa7
+title Txn Hash: 0x6ca092876db6503b5d76c19f3ba0ef2c9a5f11625e9beffb858552d097cbdea2
 
 
 actor EOA as "EOA"
@@ -2639,33 +2635,30 @@ participant Roles_01 as "Roles_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | false |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | false |\n\
-)
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'JudgeRole: caller does not have Judge Role.' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
-<#FEFECE>| Roles_01 | Roles | 0x30b90F2dE518F5D7A342a351859fcd866bC7c15E |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
+<#FEFECE>| Roles_01 | Roles | 0x44d75AbA47b96646733bcb0d69B5b56Bc658f3D6 |
 endlegend
 
 @enduml
@@ -2674,11 +2667,11 @@ endlegend
 
 
 ## reverts if length of id and grade arrays differ
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L140)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L140)
 
-##### d1, tx: 0x2bd34f6c0f4eabeaae6a969bb220b74892c985f80378b1041ef4b57fd8c14272
+##### d1, tx: 0x1cabd1f1c2f7cbd78c993331e7f38f9f2082fd00bb8e4eac7973238f97185fbc
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtKmQae0wL0XXxKFLggsqbqgLdJWGDJZ8SJOexV--ImWq_2XeHPEc8OYTyzrtznrddmavJpLJEXl6XB1C9p8RSg58-XJ94LDi2B7e2nbqcF_KLqac0pU94mMVUbxFSpr2pb8zYKMBGF4P21O81TFo5U0YKT5p8ZMBst7KbqCXDIA6Ug7GmyKPv2XJerWiBTn5pm9gva9smu8WadseqLBqMendNyiWIEd_KgPHVw1Ju1EuLraO8YxHaOu5t8ybNB1qq0GwDdXmQeQMJqDJC2uO4nPhM0tE3ODostGQXjzmwg53Jss7rwXP4w79wtOOE7xDD6o3OCfyZQ5xrsrWAHpWU40mRJhoen53gYwI4AdkA4oVqBUY7wLQJQuI_-cHrWgJhHeRmMwJM5mnoVf2hO0ihomRNwi-avXEbIlDxLQ5ooQvC9shpb-MLUvOY1xrOAvLUJyWfCW7dBHsiOJZuoRuYKHPbkVpy8ZiigY0hh0km1wnK1Ra3X_a0pahA_PpERPUle6UZ0JWADcm67-oECD9hlu2YA14cWBEV1yBN-ECZYtJR1izm-UEQ_i6uzptcDspg15uhkK4bFEwwvoopWpb2AP0lr3u_iExn5fzB-ASpDfVyI_pM0ysfx0eaI9qzFknW6TLW54gnCDX2hWrbL1Dk68ZcBx2wz-azaPYdTA0fVyJfPEJ9jmAdIa97wF5aoJ6-F0RiZWjnKUh3ZSK2pf-huZUsoA5oPRzKprvzgk_B2goplBChyWu_cgRaxpaVmUHlP9UXbA9P6jUTfsZrRnkEsndHtckJMOt0d9JwGE1q2oAqmgRBkrIIdCssFYnDU0azu8Uz89NUrxi2xlMIz5ByJdMGaaMnnEu_YL50EqFROSgyFPUl6szS1eqUZQrJQlXsZRjc9PjXvuJs1tRDBir7bZSzRisFQrlTBhIipV9zt2orjjNH7j0B-u0vNGFgEfTuUtjJm6nyihw8-Vun7lhRm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVJzim47xtNt5YBo36vYGjIIfM4MWxU40WGDeB4h8J9ur8dSfnjfR2_xvBcfRq1wr6DMbQrSRs-Uwx-wuNdmavpJHJEXyaXB1Sfp8VSA58zXJB8LDi08c8X0pEcFyKgJINmNcQf0e-zRgzxdcNa9DCZnFH9b1--e85Gi6aMW9Sf2f-JgLcYPV4aHm8gH4nr7E57cvE8OUv6YPYOUCkVXPWDEQo6nO4iOp0e9NejHnFlbP1aCh_fSpYgAypu6EuLtaO8YxHiKu4t8yaNB2itm8wCdp60oCqV3EqVHxOZk-wbcKPmWuj9tH3apfc653AkICQWlcsQrjciMCRJZFaFi6K-Hf3xrvxm3BOmt6FODfqxCT3XbJFaOJ8z9d2z0bzAw8uqsfybVfFZzGeJJPgh0MxJHDnnIIBX5e2MTnPDBvM4PEOJbKepUoMXOicXJ2RgSuMYoftB4IFkZ_Jggtt22dp0KVjRIpXyB05VYfHbXVvt3yWsonge4kiIx17B9GvkVq7-K1EgehzN8tjbs-WnqC1E4esACUVBCbnKgY_028eaMM0Cz_7mjSuewEEs-XoisSqZhb7Uw5XzpmlQ0ZRDLYdqUsu9Wyiox6RKvG3c03zGk7xZ-ubrkfx4HTaLlwAVvd7Qh05XNc9bA6Ztuy5FAq2Z58X7WuJu88feLfmnOOmUONNlqdjZSGgfJxB_YTAHqSjk1KwLn8-HekdQOBnuJTaILQ93vOThYaMTFnU4RttYfGc6zwV-icpM_tbSPbrLcH-ISRnPwnFyeB_BKHsIdeLIYsIZNdPTexMyxhfi9qUvOKscTu8o4sj3mH2ipZ9Qcmwj4CfBTXWuyVMW9F22thGSrxUhDZdTksNifVYSwI5aYn9nd3zIue0l0-z3dNWpRruqtxfj6a8vXmBnsgQd5es3nrcT0pxtFQQTiSstS09BQj9pRLEbthsElaEJbPw-v9e1-Zv7Q2QxW1LlokyhVuK42klgZzoYa-yj_u6)
 
 
 ```plantuml
@@ -2700,7 +2693,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x2bd34f6c0f4eabeaae6a969bb220b74892c985f80378b1041ef4b57fd8c14272
+title Txn Hash: 0x1cabd1f1c2f7cbd78c993331e7f38f9f2082fd00bb8e4eac7973238f97185fbc
 
 
 actor EOA as "EOA"
@@ -2713,21 +2706,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2750,20 +2743,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| Roles_01 | Roles | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| Roles_01 | Roles | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xd650ab8747d81f0eca766e879d3fe7c5f7e76f689adadb6631943a48d675cf50
+##### d2, tx: 0x443c0ccb3244aafdd2444ba005d40c7bfbd9c557474577f8935848a33901dc59
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5z36vhPfd5QieatJmGC2CQIz824dTjg8rAbiPsif_FTTqhIZfHG68efopftlk-ykvrC8EJQMQvkFKq9uRZELZqEfYRbDr8HhFePK3gKIFHxT3dMMA-5dQQRXqo0O17v0o96nirHs29JNI78XDSohLu2JJ2TtcR8yxQR9K8sbieWOszM60HeNa9DSJrAvPlYPt4ceEIlT1HSYKKEeqKhrKCgZRnK9KiK_LIOPZgo1S0PNEezZn2KsiQc4gwc24sv6RQ1JuJOf3ptcCE7LOYeZpbnNUgmb6h5aKJDcahcnwxMuu29qtKQjvJIuumcNDQEuIGcMBB98FJZl0ZUmXtAFODbi4YKJZgdwc8GqjgUnVD9Uoc5Yh9wTPT7j3QsLBZjth8ETwo5NM15zcQLowR-fN7Sfb6QvTVcobUALvEDbz0rk6wOzGif4uR3p4dtu_BaDsKIgoi1jagdz0_AIMu7y9B4IB34h_VwrkYP7LID-gMJd_ZlOsKG2IiN7fVpDqnmNnVPxm0xIqXZ0LHHXFrjSqQdhEDtwe1w5di-YEW_3AE1iuDAw27pN4pGCcxxNuBq5oW7CWNwbyEDNS8ejk8LgaS2gt2Nn4JTl8uo5oQE2fKOy57C89TTIj-6CJs3-00yVcTg_9BP_ayF3DbnAcsi5RqilpB8KUUADULRQW-TA-bBRV12PLtJhCqUb_FGtEqx04uTNflagKejJMkmcYobEBXuTV24jJrBpg4fzsgUK5bN2OOq301T558nWL_NgBfjivTUvB-SVFgTMQiNJT0RdVvGKq7rJ6pu6tZq_TzdBeA8rO9GvRijdZFOSbx4uy0JhCSVfrqBXXdxKPxJHN0_wPCvkgDu1lPh7rV8TKC_CxQs6_ms3hL8r33d69_uS_0K0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBw2DpMaIabIi8lJ7u0616D9Ua90JEsr4wbIsixKK_lTTqZIZfHG68efopftlk-ykvrC8ETA6ALECCq9OON9PZ2EXYBvDvOGfDePC38Nanoo-7QgyaBoRPxc2JuF-eD_j4tAepImJ7GBLDHAC2mNp-XNW95VfNIuDoy8i7Sgna0OH4zDi6A1n0Jafr2GJAuQVwPq0osbq5uppL0x1ehNgePA7tseIf8v_AdKw71aDqGokL94aY4jCQZ81LrC99qoFsa2dZcF7D8uZk-KuZ2MSetGYHgdB7HfxKHBn87PTp_4Sr_CIFx1Tt_6PRGVKuh4R42nPR91w_pm4fc47vGx1ifaqJYSCK-rY4aAROuNb4-PI35DjrEmiZszlg5MvRDsn2dQkXanYHTHbdecb_xforQLKwkNMvSj6YbU2ZPVHrxYjcNO8gHA5_SvBzE7pvpRa4o5h0pDfBdVto4jk9VAJn2gmL3VwtMjvJGxhHlnIoyxzTp2pYG2Kaeqh-Pjb1IxAxVU07QI4re2hECP-DhYYqrxWzAFMm78Eef0E4iiRX25tX1TOhEVqUq4huhRjU-u2PG_cGBzI-F6hVuejk85gcK1JxehuYEct4SR25779KY4UYZb4WYcXsd369Z1_W8UFJErV4fk_oVv-6ow5API4jwKNvNc6FF76F6ljtdCbVQbjFeZCAxhrcQDIVVgRBIVWYSChqtmLgSKfBNUJnHGd5uyEFXU6fPb-LAKUxL5AoohXiCO1W8io2aOmJRt2PPCrVftxQlxXSsg4aYpBPd3-HmeEuPlQy37mzlcvpLu5TIt1_0FXssuheZOET9zPFSlhUg7hzRnMmFt4jbtQMWtwPCwkgTu1tSpZUlaEg6VczaR3_uR1LgaRXXpX4tyE_W80)
 
 
 ```plantuml
@@ -2785,7 +2778,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd650ab8747d81f0eca766e879d3fe7c5f7e76f689adadb6631943a48d675cf50
+title Txn Hash: 0x443c0ccb3244aafdd2444ba005d40c7bfbd9c557474577f8935848a33901dc59
 
 
 actor EOA as "EOA"
@@ -2797,12 +2790,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2819,19 +2812,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| Roles_01 | Roles | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| Roles_01 | Roles | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x0c2eeb2b5ab533c3b44d41ccc3ac92169968f7027bb2af385fbdaa0cd58cd0aa
+##### d3, tx: 0x2413b487b3158d57fbf001712ab968959cecf2f0c61699ba4701c2f906661323
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJ-9047xVlsBYlMWyxvPIMY0U4KevVJ0Qp-HUJCp-0XhBbcotTo3ulz-q54vK43KsJMSxk_lDzqrd9oNa9BNCs6mK4y8oc-Xin9KXwLsanyom4SHgeBJiC74tC4ccPP34YO4llR0N1Y4XnwcTngf5eBY6YabbO5Q-0fmc9hfFj6LnEuu6UgIqHSI-NIteuUG2SfoPSQpM9dv5zmegxiftoQICz00gj7Gz5FRuUqc2bF7FT1eDXZO5FeLha_NxY4jiP6C5rnCDfomTDe5Eg72KuWwlCLwhLaMLkwvqAqA8AXCDf-8r6bwzxrF7vznX_MgzrkUICIfahIuaPOnWoeH5wk556rWAUsZt2ARDHY8QCvGQe0YLsex1z2bxfGPHQitqF15tjxHIRDcwOXtimWoOneoOgoHMo_rFdUjRScUwNBfysONYTde522damb7hDH5mUDY4PAnq-8V56RDHelSFo6kRSjnduWgeA5tvzs_q3JakY_5hQLlp7s2dOmLeDHiLDe-CWtpv7B2AZ4fJm94GMDCMHtJYkMxRwJc2rmDVE8np4JA_vr57Xe5NbvJpMb2liiu2vG1cGBzH-FaxFCCoV85gBc2LyeBuaANl8uo9oKJEqY0UcXbmnOmoJJXdOvWzmCDdIlilukLlSdJKX2jbCwFXVV9uaiJ84s_KMNeFDgNqjRBv938xLElcir9y_TjTZy1RfEv4R75EyzLaqSt9vQC689LbKPm-obINTYcbUQQmQMCNm44U1IFOLSxQoq9RxMlDYpw8pubLHhCudiB5NwqajDzLYe-1j_VHRVD5KDde-THtlKRW-xJZUhxV3-lIx_YkswrmwV50T7rQhQq7VTPldxW-0Btgo-Nm0r2R-_UckRS6mu8fouQSu1D_5Vu1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzim4FxkNt5YNq2CpSvxAbOH-ZBuW40CQL-Ga9CuRKJgL8wpjHJ--ovfsb6WfO28efnpjfzxdilv54AE2isLBaSP8RpKkIn7eL2ak4tbc2i-WamCX8oFUNGxK7afuqwUvGg-z7lzNgT7o66Xfvbe4wYleU2nK31hNW5ESfNUvLBpBCZIWHm9gH4nqSi5VPoSGuvBDSx4oiIlz4u0ivQ-2nx7gHm0eutheRQ7tniIf8b_AejqCDG5X5EuKcMI82xHgSu4N4qadF1Ys08wCIncXfRdXYQplTXsap2XbBdCuA7lUBxjHo9AZ8H63dDyF-IMIrba93vr78UPXaamPP56whtp07W1EsXt2APDfr4wvYYrWo94eOyLfa_eIp582wscPtbqUqDPlMNZYbMmSpNW4ZEYBlDCBFO_TQvkgPp5OkdYPHkAc-dL8AIM2mVjrqJ0_duByh6GlJyyAxbESxcxHrxRLE4-4rT3fSNIltijhybXKunV6zk-_m5wEXQ0Ll9HRQl8EAYMtmDMaH950JYA8gnfZICwwVfMBpJwp7B2WFOJvlQ38BQ4wpFUjNfTtmXZq_HSUuwo1pEWtoZy_DqxnJ9yWMebO9doclYG5-yZZ8afeugbGZmqCmW5LqAru8oFOVO03vyfxR-8bx_9mK4BBeKkbOJtoGlpF4EUUAFEnhktBgMlbSqdaTcYMjUVbVhhtsnx1DuYTIjYytDQhIRpRauk7ZM0M6YUPiMZJ7Lfbr9QPGgRDdO175HHC89UvYnO5DfoN_k-xeFud6YX9C-oAPp_bIA6u5sb-1XuSn_TD5y7jPdWdYCyqpP2QhfXud7MPMx73Motwnf-x2McQLDZDUYpVll4zG7ePLzkXX-0Mj-_ryszDHWMJ5Csv0YV-Alm3m00)
 
 
 ```plantuml
@@ -2853,7 +2846,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x0c2eeb2b5ab533c3b44d41ccc3ac92169968f7027bb2af385fbdaa0cd58cd0aa
+title Txn Hash: 0x2413b487b3158d57fbf001712ab968959cecf2f0c61699ba4701c2f906661323
 
 
 actor EOA as "EOA"
@@ -2865,12 +2858,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2887,19 +2880,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| Roles_01 | Roles | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| Roles_01 | Roles | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x186601f08b1d67aceab73273091a8ea820afe24c8af9ad4243459f53b0706273
+##### d4, tx: 0x531a17736e681fc9a393b7e7b9416bebaf40c0671e6692f678641749d9505f0a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTRRziw37xNhn1wNZRiT9CliPoYAvOuoRO351sw0NiPCD2sx1Xrv42MjwQN_tverqbjjqcwPiMw8B4aYYBvVQOOYP1tkGQbYrbA21GwayNC5uhaPucSWu8PJKKiP3Y4u2nMMI53BqipHV-PZ2TZRqp8OQuNgJWYjFfC1OH2qSjwIEc7J2KNcTIG3j8abZCXDLgCz4fXWfCt9kU5cgUYDV4vkH3Ki5UoJn26YOofmMhHTTKUlgc38BN_Zp9FugdEgR-WNrGHHMYNw4IdWduvb_G3vDC3oiuDrt6O4J7NDqA7Go30vvR9BTOtm1NWcWmYOTg12r4VGjkqBRlNZtgMppXpK8yWPO76qCSd0mevtSDsZo1jEWcIEI1K3q68N0yLqYVqgOYJNAl5SHQSVMT6jMIZHjlOYOf18YFgD4l5SdrNs5vI2lEbwdBma10tXxVEIEdX62J4GdKCj6VQY_yhmbWqCJK5RTNF-4AEGK-Ncetn7Y4L_tJ_Q1khzDMh0ugfLFbvyKr-8uTrFlzRjqTNRwbUp0N5LiAiQdz0Mc2dLBygLokHvnHxGO3RGcEFdNEVzNe6ToVOZ4JGCosB1QO5bkEAS605fclolZSOtbXvIIyfUyte-w_ZZvZ9su8kSTrvsnMK95_9VoSQnxO7viGCVDVZWGc-7uo1JnncXcFFSKFc-ptFjM0DchkXbW1MELW5FeNySG4ZCKLGHgdG7ZQNr1UWX3gWnp2dbzVq-YcXtOAu_vtixn_GKw4B9UdZuFbPbcAS-4MSjVJbEagtfSqJ1VE0R5rVFAgt__rlsO9TG9rYzip1TACjWRGgx7EDlntatUg1FlzCzTWDLhjwF9E2-3IGVcFjYI3DRujFss4dKT3fVScpRZjKwXlsIlECiLlU5Kd5DfICTsG-_epxoMtvtm9a9xBhK1gHREHbKwriShgbc6xwtthGlypDeQ_K9ZTt5VAfSM8CXOOapHjiZDY8CLQoWLSIF4HYf_I27lIAby5oawpM7LrLftnydckX9AJfWfxyb2AaWqUTAvg6DzyIDirNJiF-X3DkEtsFSpQq7SwZiHlo8RVjaU67Zky58ywiNjlfdTj4HxI3wTMje-xkO6hzxMJTtExEEhUO--GxE6dTTXh37KmsRqMteryrY3kdtZ_a7JwBMVe_)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRvim4FxkNs5rNpPjtMmW6AgkMbx8rabLgxRIlaoQ31Y2IanapDQixN_VGKaAD4ctPjMwAC7ssRvxdkDyyI7q8TTSwMAQ8iGBdSbYwWk5yej4phZYKvoAMCXmm8EBM6M538TPcYdyOkoDlQ67q7wkvwauGBZwJ0GFXS9NzH3ZJvbAVcPIyxIV9h6S2gb1OwIN2yOmUQjoLgXPAbeJPybFWQcrb9tmC4naZ2cfHJTLk_-k1e5g-uSoJ-A9ph4_n-UgY2BGYtIYKu7FBoN-nFF97YQNFPDoofXf2zkXKU1oqpLz9fZlMjJsXSyZYmJ4PbJOjcj4DdDiYpBB3TqUwKM48t1Pe06wTzp7FCSxqEuWS9jEWcJ6WUeGI8XS3nIuJ-XJ4IUvLlEZBBZuHcYrPUEAjh9Z5NC97b6dMIeM-xl2zfPIc2-MBWQ_0t4pl7LAIWj7NF9Og8w2zanxy-SYZ4MJKrFGNdh68r2Z9ukLZV4EGfN_yUx1Grx5hr_lOGYboixBh_8hsg_Z-KtT7bo_nte-4nXQoQTL-vsd1NJAvTVbRYNo74Cl2E1OQEYHIs9xri0OC6iOsWFJySYGcYPpJCDn1uIEA1ku930SxrRBAto5oLk2Ftxn3Y6I7m9TyhhtjYigIRwK_qqs8zVoV6DCBTllat54sRZV3ot1NCf7bZTo3JyqJOVrLhEv3xKai8p12lY4vuy338ufWXAb0dtGN65VS2NK7ZxYCtnrWs-UajeTYTNlP7Tt3vyANIY97qVFpx8KSC8NUDRIL-jS-b3OF16OtuZMzScZUllV_fSZs2NKIMRFd4mNRKcabM6VA_usoFlP0sp-c-on7QrszdWc2V5fAFt5t1FnDBzBFcs3dK01ewk2Pzrng9PlE2lDEyPsSLSabRTvwV6Ep8SVNUtSblq7Y6pbx1fA0yb6lspAbQLFqMtbW4uQzxTGQ9waUGFRY8m88IKsA13WIWUTKZ4erKkK_KN8BlSTN5TtRdXUQg4aJzCvFluXHOZxZ_gNRohUV6VVD5yPxL717LiuPi_mYSdyoE7b-HcoVe-DcE66JcIQFMAqZTwxstT4MwXUrW1rTmjLwsk5TNFR6-lK5AlaMnXfrHwDuHOgcpNAtUXF5SB9gSyF-W1FgCz_0G00)
 
 
 ```plantuml
@@ -2921,7 +2914,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x186601f08b1d67aceab73273091a8ea820afe24c8af9ad4243459f53b0706273
+title Txn Hash: 0x531a17736e681fc9a393b7e7b9416bebaf40c0671e6692f678641749d9505f0a
 
 
 actor EOA as "EOA"
@@ -2935,16 +2928,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2956,25 +2949,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -2992,28 +2985,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| Roles_01 | Roles | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| Roles_01 | Roles | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0xd1a7a5727ca5dfeb3c57c427d8b6a2b7a4d6721ae0192487a4ab5830ee0c715c
+##### d5, tx: 0xf8ffc1b010fea4918095b2b175e585644a146e297b3bb3620b612ef6a1ae180c
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzis4FxENt5BWNLDcvMINsW7db6_o6s65YsyeFlG5iD9FDj2PCeZgTPkal--a_nI6qjZB4FrGKUUZiVdkICV2V72URI-c6T2OE5pKynZii9TfMQ15kUGqPICxcDoDRLvOVGWpt8BZqRHA1f4GdISNsNK5L0zCq9D5gutKu1NkKs_viPZrilIgPcJyPnnudS18_wuJhaex2AZWmz_f5y9WlhEzmwrJiqK0hbntLQsytm3Gcpslp0kdSwyWtW5bxQOJ3YlyAdF22wN1bwXcvs3NEe05JPKg19iw0d5jQIXadgeT2jkOXWhhEkc2WCa6RJ3Ueld63TQDKaa4nKq4i4bIpn3Zzxs01sSi3qHN3QV9ka2cUg0IP3pVSlb8p-cQUgyNRt9awk_P50jkJVYCDdlXPxIECzektRVSHXQEjqsR3iv4Q9226VTO_l2qwVdu8fudlheCsO5-ZGtltmq7qLdq_bd6zkz-GtyQa70rk2yikKA7fJXDu3MuWfkm1FEBxJZqGUGpo20JtT5lBJSm7LGUnln1Av1_YhXvP_H1NVy6FIItK5bAZAfgtmFvA2r9LV2mYJXI-1v99Sgber6e5eZDaDA6c6j9fEmXhLcYtIlbeIjKBK7lVxTB0uXbg1tVQe0pz0z32mNeqXAX9RpiRc6cD2IFOStk83hMxZzaRI-aVXt7yxEpc5Clh067aOjplECCPPdnMwzJ-ugvR4ZyeE07DbsUVRXaINzgKIuleYCe_Fp5xI6LQqBdMIjhHpJFJqTH--ZyULFfwUTvvM_-psiPSTBLQpmF7vDPkfda4-g--G0ZTw_MTLbSp0ldETp0VHtWTdZBG5Dh6VfP_HqL9Z4-hyWtksfZYQFQURs80xbK4fPbfFbdxM81sLUpkbtXUrjJ-5k7LCg5PNVIq_MO9QjuEqNGnfw3pgd-udlL-JxlbURwlP8ILLljWTAoNwzgTGaQcdLL_NwC8XrCnuaGoLhZSDD3vHxR_e_KkuKVZFyhwcuTviEYXVyvl__Fm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzCm4FxkNt4C2TXWu2Hjaqwbekqo6682bGa-04ANvD96IvrYEwDbst_dahxGyhA98VeXPv_FTy-z-AaGpun5RSj9BWIMjb3b928jp5ccfgXn0ZcDI2LzZCz6kYXLCYZoGiFTe_0e78H2T8oTvzGLKF_6X0bfk5Xk0LuKEljMA8jvByz6QaBAiiVKhWsE-73XSbhgQKvR1s-pRmHEOwrxWqcIgH4uSgcwgcNdoHA4MCO_LYORZQs1Q0wdkanJzYjiPdE2qvc25sZ61o1dQP2ciHD9HwQ4ZROJo7OpSYF7Rr8pQBOQ3NGQBNBRVkH5aTToPTHoN4fRw22nSIouPB5bwE7h7g217POxWijcipYR8gSwu2J8sBxcyf4TqYWpLizFYlZiitJgAzTQR3jxMIOZ6XOvhUvkAhPDAwLPcQqsEqBK266_UrDSUFZm04mPJJ8RdcDUeiqAzU2Z-YWwoyu_MihkvLEmyoa1IuMJMbOtU56PNm9gZNEu14iuEKuChpw0V0GEVFgTnNFD3LmOjLSMkt01yh64v-_3O-xuJT2hxBOgKoUJcLftonoIH9EfO64SyoEml98psGeRVRVlDmP9g-y5eHmudkS7dXkq-z8vTFn-MyPk4Fu-Yss85UXrdsh0OpIt0yl5AECAeMP_B2uW8jIa3-04ft1n1LV_CwqVIVpQX_tz0nYIBRM2swKM5KNE6AjPqIljxi-bdEr_kAif-LJ5NumxX-tS-ufQCNTqeHCl68njkdjxm_1TE3ozixVNULBhkt-2LjMrufuw_FrNf4Ps34LQJwq1LCdc_DOZRM1I6ilL1_fIOdv_XJSXPeti72tz_8GtJsuW1h7WPV5cuzKdP37BpGRuGtaefQpgolJBNC2BoY_xjEiAzrPJiBx7oLQCnj-P9Qqmp-Vm-gkY17gtcfDDnzSpudNdTT2cGnYqAF2QRYGzFqe3h48D_5xJF_JTTXAadjUKxdRGBURSsFw3opN3BfT_wufxj-oWUCPV_l_z3W00)
 
 
 ```plantuml
@@ -3035,7 +3026,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd1a7a5727ca5dfeb3c57c427d8b6a2b7a4d6721ae0192487a4ab5830ee0c715c
+title Txn Hash: 0xf8ffc1b010fea4918095b2b175e585644a146e297b3bb3620b612ef6a1ae180c
 
 
 actor EOA as "EOA"
@@ -3050,33 +3041,30 @@ participant Roles_01 as "Roles_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Length of teams and teamGrades arrays must be equal' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
-<#FEFECE>| Roles_01 | Roles | 0xd9F707469C770B4677fE8d7B744D1bd6bCcD7035 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
+<#FEFECE>| Roles_01 | Roles | 0x51ea86e8352b037bf8a1D17C7A57D729d8f33502 |
 endlegend
 
 @enduml
@@ -3085,11 +3073,11 @@ endlegend
 
 
 ## reverts if length of id and grade arrays differ from approvedTeamCount
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L147)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L147)
 
-##### d1, tx: 0xb88671c9cc3904ad33717c6804a3b28b55b2e4caa784e17b46de1e30e9e2dd84
+##### d1, tx: 0xb4cf64fc3f9f39af665c6e6109e5dccda902442154d4989429fb790031ccb86a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtP8Gae0wLA1axKFLggsqbqgLxPWGDJZ8SJOexV--ImWq_2XeHPEc8OZjyzrtznqNdmavIpLLEXl6XD1C9p8RCg58-XJ94LLq2B48XGmwb3-5Aibaq4tYHC4dl-VtkZr2JbCzYKMBGF4P21e81TDo2N2HgEWvaPh6xJWAvL18ZOXzlL3mSNC6EShKA1PB6tVHim3JNiXkQ114CWJJA4MlnNZwjGo2bFulPHg50vq2cy2zolfzn2Kwqh60-x642veEcc2CcUSvhiaRdDSQXas3MiqrNUvuEAynosFrEhE4pIbrFLkOBhETG9YYPeY6i8B0imccZ6iClNVT1fh20Ou71DEc8nwDA5Bj8WcHwex2z0bzAy8erMfobV2dHyCiJBPgR0IxJM9nHIKDXLe1MTvPDhvM8PMOJfKhpUrMXSickJ2TgyuNooftj8yUzM2kLLaV45Ba0qvQkrZ2yN4JU29HbkNvF3mYkomge2ki2x17B9G5kSC7-K1EouhzN8wjbs-W9oC1E4ewBCQVDCvmagk_028eaQQ0Cywny3NEZB5ZsstBjpZpkYwtA6EyHrtVCQoWrtMym62itlLgj3D3EO8f65yC-FwZTucr-bx4EPcrl-9Vvh4UR4vXKI95wEZtOm7FgW2ZL8Y7mnIOe4ge9bpH4KnVuVLlKdiZiKvfGDF_YTB9IHDkXSwKX8_HOaaIOtpuxTCuBSL7gmut50iwVg-8tdj52fCjxq_rvDcl_hAeo3hDCxyYO_WpDoTvoVyE8diblGob4idMlEmwHwjvtNROpexoN9lCRWJafj870g5f5ASLDkV6kM4OEHji_DWQS99xGGzwmQizB_Q5NUkbwANu76kX98tZ2Lp_aYA0zeTUXohmzbwyRRzmQZVCVjssp8RbUbsRcdtEAMi8stTTlsOxdVDwhyiSlxRHwKhFtYJVmybQRryHxG6zk0EKqpsWgdU5jzMV0cBbbVL7pl29zzRV)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtPmG0a4TQWh9seUgLLjfBvKg9t52rE0WnzcWjF_xBY7GyAEW5KsQXY2sptVVtNTSV2RaB5DCgdoO4C9obOfyw759igTOZ9XaGqXun4LmplodIAQv27ffaahuv3gkqtC8EStK9E5T0kLdm5d09Koh9S15AkFdL2YMs4aSYI4N2X53jL1mSNC6EShbAE5B6tVnCmVDMCXkM1348WADLgBNSZpzMWL1Al-N8ekZWSh0cy2zpCCGSOcALSBXVYpWWcM33j2nP_YXQOH-8xJ2XiL2qspw9ZSrQl5cuFi1iwXk6BhMD0B3Qbk6ReLUowAqeVc-rpOPmPJv2aDthcrW6HpWU40mRIhsun53gZqamJDrBZ5zNDtoACwKd5ob_jCZrKgJhHeRmMxJX5ynmI8kLq2MTvQDhsN41APJ5afpkrNXiaaXpEQgyyMooXqBqQCQpBLgwmD2odp0INSNIpW-xe2V2fJbHJuFZyWkYnhe2kiIx14BPK7ky44yaDEgOZzNO_Vb6wZ9Y0EEWWtByITBSfmKwY-0299d6U3Czx7m5Sxek6yPZgUxcc5wDdL3hUNQTc3mbgMnlk7qBTqB6ersgpb3EO8fq2yKllzmBh5Mtuku8BFsL_pBFDQ3BIWiIgGC7Vr-BE1P5M2K4l5mc8B7cUIo0rTi1DDNUFsRrDv8h5CQiEn_edHoqe5Rhd8fu6Eql3HDC3xyXYp9Al7HgiCDnOAEtokYzrwHqcJB-rC_UVQhlpmkiywApA_8FFnfcvEyv7y7aRsINeLIYsHhNdQTe_MyRZjiPqTveKrcDm9oK-i30LSiJh8QcpxjKqeBDjZuiJNWfF227jI2bpqlzeLTzwNifVWSAou5Iv89NFyIF03xGwz37NXxBzwsNphrUYsJzXljjc7PFQQPJSjekdgJzyvrIpTPGtSyWmRKtUXqfMTlak_XPAsthuZsW5xS0Qhf7b3rkyBRway1iVAg-YDd-CHxwsy0)
 
 
 ```plantuml
@@ -3111,7 +3099,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xb88671c9cc3904ad33717c6804a3b28b55b2e4caa784e17b46de1e30e9e2dd84
+title Txn Hash: 0xb4cf64fc3f9f39af665c6e6109e5dccda902442154d4989429fb790031ccb86a
 
 
 actor EOA as "EOA"
@@ -3124,21 +3112,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3161,20 +3149,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| Roles_01 | Roles | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| Roles_01 | Roles | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xecbb88d3b042b93f8d873b813a736989bcaefa554350652d647c89ac75888b37
+##### d2, tx: 0x61e963fd524047f31fcc5ebf1a81a63d15277147b7c75b88ebc75ee879fae8c1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBw2DBStlLgoYX6JmW40CQIz8o7RSDY9rAjlPMWh_-ovfsj5I2WCHHJddplVTTvVpAOGSQaELAKSv8RGqXIn7J2YYRpCvfegE81S38TCZocy7gYXb6XLveU1J4YTn51DoeCqq5rq2zJKKD1KAPiqhm4cXihj26fhtycmWHq8QHEoRvOO4ZNF8SQd6kLWn_Cpk1BJSfUw2fcac1z2o6jL3BG--DIH84_zKwcmmD1hO5AvKsUyZBZ6PoGLSJIISK3tiW3KHdB4mJ1rckJPhE_qm3GE7XIs71exV3jkCKz6ddkSwdkLxTkgx0G_Rb0TU68RC2GYMZ1ka7f_tW6hOGRb3i6mcuzcOOgeH9Y6qEL9OFc4knI3JHatF2dvxOxLgbwqxLi7ErO1Ah8YwB7Any5zNhhfKIhtOkdZPIF5AqD4Y-XgtDTCE8NMYiDzzYJvy_jo1OYnaOw0cA-Jk7dd9hK9-abWDbkcbVlTQNfE3fX6_DB9x_ntCT2m0fQIZMlwcUOcBQlizO0SfeJNWYdFiPuChQ-AxRizERCx2AE0sPOp7D4XyoqxZo0zJYp4l2XrwD4VPWnbONotuyIi-nHRSGBLAO5dkclYGwhSHniAKl6Af40_539YWIgWEdD4np1xWuIDJ-vV4vc-olz-1Is5A9U5jwR6Yo94dtfXdezrxhgGljSq7aNb5jpvpLEfFVxFb13nnU6MQho8rFwNLRZAVukJYqS5FXQ5PhXzLwTWwjYohgX8EQnm0kAYYO0Iph5TlqMHBl-vzFV_mEJ52IPhdKpZ_8qKAlJUruMFWxVDpcxqEwhPRVS-rMsqx22ENjlgSKzOMRX84YUFwHyTU734_SLQ3FfcpQwftG2_dSRDy1zGpStkZuN_3OAiq3KCEyOa_1ty1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTq2XGECrOWkd3qRZcToBYLbWQ8bqQPR5Qwt-zniexTbQgwUH46QPsVdccs5s0cD7XU9IbQECCLwgN9IZ42KhRbCnvfAF8CC1YlYOHxS3cPSYxkLPBk5Bu0T-psVii53J3BiCwck8F4O9i-OLu2INwNqk5C-yB1s84Gf5Y8bQRWZ8E8SSbtASuOhXLtgFe9jBtGMFurGCGDSQrMCj3xyt95WJ_rGKwM2e2WYdS2NB925SfbAL8LnD19pmOjW1RTBMqMstajWoJCsqavQUH965OQ9pH-VjLgnRXcthfXtQaMs5ZeCXIKJ7TXEEJgGpAbcaYBf_xW4lO8Va3gEogJHAnvnIxL4IMAXZIUL3TOc3j51oUfP7jpUQNhjitR4ATYu7N515v6MUuS9_NRdgKYcBnTR5oqQALyX7Y-XhtDPCEupLYS91zpNwiB_VWNoCeZ5mbUPYTu-zvbOXFqki1akBfNxtMbopmwOHlpQo-_03r7ICG5BmKItlU5RIejh-0DH14ei2Q1L5rC-ALjgaxvf-Q0IwsGuzBKXqE_2ys4JRrNdVzFkk4SQjbcDRSvGzc87sJOEVl_rJQi4DLAi4bkMkYGzvyJx2L9WogbXAmYCnWn2vHDc1Cpw6sICyVcPg_vBO_4qE3ZfmYQgK0jwNNfZd6V6ac_9ij7ilbVIrjlaaCc_erXUEIltfRxQSW6SERqppJQJcfxJQpUPJd5qyEVWnAfvcnPCgzRM-fcbLbMXOqm2WHHM58gXblRn5aotzkW_r_AFdHA4KFCkcSFv7O0pUkzhmAV3s-RdDNWSDUtPRwxSSntIz7jVRbcjQWM5XxzXmZJPl6NveQh4Mh0PzDcVNL1-0NixZPla1g1VczaR3_uQXLcaQXXtHatuE_W80)
 
 
 ```plantuml
@@ -3196,7 +3184,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xecbb88d3b042b93f8d873b813a736989bcaefa554350652d647c89ac75888b37
+title Txn Hash: 0x61e963fd524047f31fcc5ebf1a81a63d15277147b7c75b88ebc75ee879fae8c1
 
 
 actor EOA as "EOA"
@@ -3208,12 +3196,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3230,19 +3218,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| Roles_01 | Roles | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| Roles_01 | Roles | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xeac283dd7973cfe9a01f062546d8887f6ad033dfed170e2630d87b653f58362a
+##### d3, tx: 0x2e2f6943685d310f0e213941998cfafd0ff79e67a78b7c2200602fb70164395a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlneabQieWt9u0616D9Ua90JEsr4wbIEixKK_lTTqhIZG4i14KKvvsn_ztsNyoc471MQALsECa9OgNDPZYAXI76RoZ5JR0IP60Z9-oo-7QYybDpFirp1bp080pyWvB3Gqqnq2TJNK30k5CoQLu2JNALtkTGiwsNfG8w4r8YOwEM242VdaEDIZJEnCl4hlHDWs4lV1UCybGCmQEDwgEtXzuO4QUAVoY8T37K1qHIkL9aaY4jqgZC1LnC99wmOTe1E18jDp-BSRRjMd8WseqP27RDbEzppF3Tn6AUMnHF13PSAqx4ezzp8QLb9oxCSan5CMQoHUd3U0rR03jeTWcdJQPoE6KhrKOGeT5zX-eI-58Eqq6fwbiUtDzIejsnSiGfshWPCOaRKPPw9nVwdpjKjbRDOB5syR4DnCxqQXDHouQ3xcWZOt-z0FXOo-CEoakaqbxjxvBLD5UupSJLKMYpzkzVocXmsnVYriTtx7w2dOm5e9HlLjegCWshvFM0LAL4KWACunfhMEA8JnxPxPcZ6aUUxiScYA0wO6phKv87lU9n6KSltBDQVe-p13EWt2Zz_1wTOXYzGhGGiKruJ7xBYVOGnCMLSiLI8XsO6aM1Ag0wSiJ7C7k3XCwNz5_7oDpauwC2bqAMIy3vvKPvdo1DlrDbuzzQbzBMo-IGoMrJh-hDIV_sRRO_0MwHkHMn-JglLPDxDoSMZ1i25PcbMFChKCJscb5QPmgQDNG07LHICe9SvwoqARRclUr_tGNnEj52IPTaKplzAmQ7thb9y3BovZswQhuFQRIDfsQRHDbtFjvcHn36Bsi8ENJUqRAT_t0hyo0cjrQ3F-kqJrmUWbtsv6Nu0Qdt_NZVtrc1OC4tPa2Dyug_2Fm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlneqbIi8hJ9u0616D9Ua92JE6r4wbIsixKK_lTTqhIZG4i14KKvvsn_ztsNyoc472dDf2v7EI6ir8KeHn6NHDrcOima6q7E1rmanoo-7SYY54clo0i9Ny8W37e18OTAJtFU9L1VGyuIBc7Ml0AS53AxAuHckPzd0p7YGYDYgfSBGfoSGuvBESxvoiIlx8w3OIzz5on9CZ40WpQkXzeUVcz8a2R-gL3POAWLH5EuacMQ8YxHcSuvN4q4d30rx02TcDnC7S-sd7OhiGoQKcuQbcSRdjUEKvOcD4rTZpikSzkH6vicfGurqyYbXcDRNeiHJ5ciaNfmxWDJi8DsXs3QT1PdOuPIUoY2AtqiCNrSN_91fhISdXNnxGqrwYqRLwo2dSi14vWHULdaVB7_gNDrI-LKYwMBbsqeRgPNWv1QBXnqNnC1-_iTACPS17zONZAT5M9tZxosgS9z9gw6ojJIltijhibXKunV6zkz_m5wEkQ0Lh1HRQl8EAYMtmDMaUHA0OxY66jQuuXE-fuTH6Pes4xaqp0rtD3t4vkxdi7wTj3tp2YnhBRRcgFimGpeDme_VmUdM8OlKAq4B5DU4nyozJx2c9WohbXAn4CpWuWpoMK7pjWOPW_my9dI_eju-PiS77JWakjI2dYVlAWeSkI9D-fil7lhKlfQsNmIcIsgTVrPgR_-pRP7u2rIjo8sFwVLQZBlvkJYKGD8k6PPhXvbga_xbD8gKzYqiGlWe8g24VGoP_wYq9RxklTr7yJdH7CfM9vFuVolu0duxoh5ny2R--Yc-Jfer7CTshVQRTlpUynmMfxT2iqMxnsRdkamommYcoOqN0twhDy-SNq0UjcNc-47eDRtxtLpRms61TEK3Jd29_ug_0C0)
 
 
 ```plantuml
@@ -3264,7 +3252,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xeac283dd7973cfe9a01f062546d8887f6ad033dfed170e2630d87b653f58362a
+title Txn Hash: 0x2e2f6943685d310f0e213941998cfafd0ff79e67a78b7c2200602fb70164395a
 
 
 actor EOA as "EOA"
@@ -3276,12 +3264,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3298,19 +3286,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| Roles_01 | Roles | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| Roles_01 | Roles | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x2fec94d85a40b1a290c8ff7dd2b4e2c9ae40fb17ee3b2a1ac3226ac5fa623d04
+##### d4, tx: 0x8aa880ef868bbe89c9716a1a2f0db9d241148abf874c73b7a432d071a04a0a97
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTHRzis47xdho2obnLTLegIBJd8WZgArNP0a28ji9S2nOcYP24oPL1K6pV9Vzz9aHr9YUqqRh3Ci4NoIDxTz-buvX7ojZ2WJJdB287IvAgSXLAJuY9LSz0mevbCf8gEGLmaEYzLvETPhkblmIIO-1D23WkpoEGHeVLdAY6IcburGqhVvphzaIi3sJXB4pMJog36sAmM13Xvgt9UwdacEnEVqX-IMivAzX6YA5K9jLWZkgdRmpUD4wIn_q4LQJ8r1GqNzBCkunZr4fEQJDBFbug-Xs9wGDabZwKOEP4t08U55l0H4ruSkr74GqToCGBfi3YqN2dja8C5mkPy268Gmv3R4NC8KYOCkZuv6rCew1wsUmHfCwb8vu1GVGGX2tEiaJvfpcMI5aOlJdDnyPLPzPQDAxhApdG22XdHvtacb_lxmkwMIbWibou7Zt5nitlhb5GMJa518dLFGNUck_dlCafa6rDRq5tw2M9KOwRBbQtn7Y4r_tJ_Q1khzFNh0ugXLDlv_OlwGWwRUFwZQO-k_w9cCPSKMmMpklq6MOcTQlbrjLlBeg3O4mAFXS4UktH3DXXOhXTWSoB5WDis4zm6U-Z9Q6mBxd5tv8-FRxMyebUK_Sdektyc7p2IjpbTuRhtjcieQR6I_qeqGySPyu2BqFDTmI4CnGJSOCXuDF67NiJ2SE1xDgn1Sz_L2i0g1cl7fr0ypM4afXILbnhrOND5GmbQwWDw2dDwTKDldXFQ7OY7tyd-_W4zbwRKYZuDNfZd6Vg9NyJPI5-jetHRs3oJCu-8rlN9etxxN_ylHx0Fg9VCNZYOlhSLa4w6VQd-TvsydptGvd-JFNQ3rSqUBoGXFW-aNvXxOiYAk-JJDTWB53JwKF2iEmxryWrdfNt7s2tkohHc6oh6Ux8GVzR3v7RiRm6o4zcDAorFDlAoALUsETsIJ3VzRptgN-RsqbUj9hUr2ldOkZ56qa2Q5IqsJjW9OwnY0qiIl4HYfxA25ioAb_7oaAps7LtNjtnyNXgf5MJPWfvzLpAYuoVTAzgADrS9c-Pheyx8YWSEjqRSzNm7h5W824VI2Lmti9tXySbWueV3mEuQlLTDz4Gxg5vL7Krt1rNhgvDrSxiRwrKn3ybtCDAfTbh37LIsgwAxqSygn9FJd1_o5f_bBFiN)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBvisDkU59gbOjRwa6vCG293sPHAw94uQaJgLusnqm7_V9QGb2MtPA6YiQcFxRDyzp-LyzH7oALCWLJvD285SfIAVUboIx28MCv0mfGcFk0W6u5z4Cir5C4oJLD9NOtVi3br2zZCrJtYFqF8puH1mIQ-g8QLVKXd_IeM2f9_4aPXoeL1Zg9OBnZXvgtAMord26nEdyIzEDNCfEuOWY4L4DLQ9Rifs_qC5WbJs3qGMHnELKMzEpsGUXgYNg5Wbd9vT2le5iacNiaiRmBOP3-sExNdSTdp7qZgWWHwom7C2tTGqqmOlj2tJjmpF0jFG0sPfm4nWu5W4NUOhXEuUzIbaT0VR7O9kKx4Vpm2f3f44pzH0elkuEk5Hd2avFqpzYtEcbLishcWgEv8H2FI8F4aJljZV5ZQt5C9iiNGn-1E8c-6jKr9OE0G14PSj1SsPvkQlUH3nEgUweBdq549KeoQBbRNn3Y6b_-bkxo6lqhTlknH3gRJp-hluJlQhU7vNjRthZrJDPvnYAs1QjZyWoR5JBBykTakUPHHxle_7Gc6FNRAEQmxqWMKEWyx0i5qsr0p3iWtTTWPC6sdMm66-RhktMjxGAyhUC_hvctk0aVmGw8BNlRTTKecpfVmfsOmSq_NqiMPsl3uRXverxlS3arkE1YFJ7Jcw5nY6RUsjPdCVQa5W6OCby0baZmECZidz0gL4VTXSKO-3vB9B3s56hsxepNDIkoEn-ftixdRf2LUv5FHnzBmqJH0dVf5d9NsppgKFXSqpWVc3Q5sVFCgtV_w_7C4seLOoU-5ascWB8eqC-rBnDq7UpnveyzzaZ-reDRF72qc8pqFf2NDF24bsbtoQ1bk1WaPN1S-wur0ktt1MwdUCxU8kZqjlG-7nbip3dxRQkGtx3n3PojaLb1gIZNxPb2iBdvBRoe4Sr-vl0LSG9raDsuYD66C5DYmGy4g7dK8nAbLBbFr5o2xtzQxBEpS-BnMN0f9aJez-2XxG_gF-vUkADz_PDysNHhsXrM4ZmxPDfpy4hRFdc7jZVOyF1xgZTy3GNSza0HitZTwxsxT4MwXUrW1LTmjLwsk5TNFR6slL5AlaMnXfr1wruHOgwpNAtUXl5UB9gSuF-OHFhCz_0m00)
 
 
 ```plantuml
@@ -3332,7 +3320,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x2fec94d85a40b1a290c8ff7dd2b4e2c9ae40fb17ee3b2a1ac3226ac5fa623d04
+title Txn Hash: 0x8aa880ef868bbe89c9716a1a2f0db9d241148abf874c73b7a432d071a04a0a97
 
 
 actor EOA as "EOA"
@@ -3346,16 +3334,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3367,25 +3355,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3403,28 +3391,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| Roles_01 | Roles | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| Roles_01 | Roles | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0xde97076f64683381080220bc1e84a4c160be06474fc173ad0902c15d2a34a6ab
+##### d5, tx: 0xe75fff58836d3d593e0ccd7c647d078289fbdb9284cc18e2b6d53a2bfc7a86f9
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjRzis4FxENt5BWRwapKgzMB83rwZZo6q652syOFlG5iM9f6qXCcMGL6etoN_VKNwPZMKnbg7we2EFn-DpTxn7OkojTMXSFIiPmzfLkfxboZ1xLUWv6fn1gIPAopCKLnDJrLeEgh8oy6IO3RD1nbZNkcMfUWoQPwfGAWCtwod0-yeKFohjiEoNnKJFb7RaSUos1aDQNBcSrsPUghs5tuiV2e9ug_k4KXPw0W5Vg-uQsNsz1i7MvrzeMqocpaA-X4jJZyVabxd2bGek5nhUevsU0bz8rKbvceoJE6b7KJlWRHw6F1U1QiSOYo3XkU99dCPZ4QGHIjxXeGXQCiGenWHpHYaJZg1d7_k05ev87Z5Acoj4CKSATK11AElE3ALFkP6Q5DQPvOTAN7tZGRFbGOjzPx_LSg96LQasUtSL-wPUQJTccyaHOmr2EEaTEXTUlZm5M-UpmcNNMDReYae__wA_iEwwyg_MidVx1jnohe2anbaZ_GuQUFDRG6Dm2RVW5CukfANHP-3mzRxbTuQgjxBeR2nUm0tmNpcy-pExe78Vmkr3sqjB4qbX6zqZ0v3IAEjXeH3K0Ov6V97clDKAqlQGnBaIhJ2Ak0WZZ9Asalr8XEqmxGpwP_T7iG_HWzuMgG4yHViui9ICMdY4XloHk85SeL7c53xW76xkuEvdXlLt4F-imyd9AOoKgus6nuMMLrL96FrTCHljY_jIUUYA_2GW1uvTd7n-OfJywX6kkf1mT9z-HwE9qdhG5IjY9PlUyV4e-oCRNVvoVDnztUXx_uRLLznJOeFdcUyYwxiCjOJ9gfra1RfoC4Cdfk2c2ffg-ptL670-DzMraat_sMUROAGYOYkkqQc33CLM7mZsQOT-f79Ob7O7xZa_vvpxrD9tW4Y91jul-NJR9FStDtAxZyBpr4hlXLD6OrakuUDtJN3xZxgpkuuVfkQ7rfj3uqumRiLXq0dJzY36O2m4vXqL3zDq6CN9sNah6-J9CDe_T8_2TwR_m-MMwjV3_-gAQhUk87jBR_eH-0i0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjJzim4FxkNt43QHimDZTfyuAwQcr9WKa8rA7j0qoJ4pjjHEfKjWCjB_zzv_HbBMEWCQqVSlRvVFVSYvyIyaaRfamvoWbXfIbaEOg58leoasEcs0XoCH2ITrXoEL15ANcto0i5cxse5tKZGfhQJ7FH8b3zXe9neU1slWKuB5HsKqZ3ydQU3UH8I8CUKxCqwE7XpEMuLEDSh1ryoMu4rEfBtIdZF9C3gD6vwhwIpGzp46GU_qZgR30q6k8fdAaoJT4lCPd91PnD91moFTm3EX5-8qtJHX2u7dTv8tG5JHBk9rxTvzGFd21COnw7Jb1FabeWdDZZ3PSvSPhuBF3Ia6394eFGevCsC0qRA3S8biraIJPcc6eNan3QT1IMJvY-66JQgEbnaLp-eBNgofCMwyu-btmW-aKk5dTN5UkcLgaNPelD1Y4LGjXjFHSNTdRsG9VnA3FH5SjBPh92lhsG5wGvx_oxkMpTVGGp7Gj0ATcealO6Bgpv7J2bs1Jkm0WsEk8QL-T0uVjZnmSAkpUp21SMMt0Bz3s5Ws_H4RRxETmsjRMoL9bakjAzC07EbT0M5aiIV046LtH2lQZUSJf-lSkzZXj4j5jpNJzmSMWwjBPVypiXJPmWUZoBTOWMzB995U0Xqoy3YyKe4ujGeJyKjn0BfeJQWsCsXjjxkF-VQVrAulS-xExkGL-OKabuMMfnKUI8qSwAMcYt7fPoidk-gGJ_RkFFPXt3DbzVCoMHE5hGJ6RqXJQjxUr-z3NgdxtQtcv-gFIjFq6pTRN4KuL_OsTLsrbcaiDWDhIy05aO636J3C4C1LGrjNUA5DXuh8ehmQifrsyMsBb0-iYkc14Ft_BgoJCCGMO4JKvNdZyNXcMvNabad-vJIcsDaOUH571X_Q9FiwnsUp4HotkOkAKs_4wCK9Bb-HHEhYKcqdxHpAmwVfeQdpglWiPTtwFxRX3KmtQNrRn6M6_qd8ReTfpGyPZhH76TSjfR3xf6eIlRVt2vfDhvyczTOU_c7IIVy8j_n3y1)
 
 
 ```plantuml
@@ -3446,7 +3432,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xde97076f64683381080220bc1e84a4c160be06474fc173ad0902c15d2a34a6ab
+title Txn Hash: 0xe75fff58836d3d593e0ccd7c647d078289fbdb9284cc18e2b6d53a2bfc7a86f9
 
 
 actor EOA as "EOA"
@@ -3461,33 +3447,30 @@ participant Roles_01 as "Roles_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'teamsIds and grades do not match the counting of approved teams' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
-<#FEFECE>| Roles_01 | Roles | 0x491f54219278C4a1fccab9e4F77F346BD5ECb6F3 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
+<#FEFECE>| Roles_01 | Roles | 0xbC760D38849ACa165945F25eCB2926a32Eb40d0F |
 endlegend
 
 @enduml
@@ -3496,11 +3479,11 @@ endlegend
 
 
 ## reverts if there's no approved team
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L154)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L154)
 
-##### d1, tx: 0x0d65e8fe4cf9fca56ae9701f211631012ca2ab07605d2a4149319e370d672c9c
+##### d1, tx: 0x603e373669e52506bf4a2259ead633d86193058c9a214b5f16ac3aaf4d6600f2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtUmG2A0E5MXO-r2rQYljfLBbE0v43Gvod0rA-x_l4W8DFmfQqQHf26BxVFVTVSV5PqBE4iErIOSH8JmriKg7djGaUGhLY6i-X4ZsfV8xN3prTPmglnj7iOPFFRVdTbr2JXCpYMIBGFuPIEvB3TDY2N0Hw_0vLeP7xIZigw5K1X43ir3euUOCSfJgKIINDkx2PmdCNiXkkE-7gW-C5gBNV3pzMWH12l-NAWdx0vE0Du5xdGO1uX8JcaZ2_LZ11Ky6JQ1ZwjUgiXv8MmIDGF1gZSk6GrbWCLQhCCeimItkKQT6gxx5RMOtAgmXAmxQEPPe288f4mP3Tw_Rm1CumF60ODfCAC8HHwfT924Jqz6OFcbkPJzCZ9vSnUBfaRBSPAl6Hh3RE99NNF6-r2iWoplBnjUwpnMcKsTASxjLuR999apcglF5iieT3z2Z6SorIki3Gl9ym4bh5qiuFcw2Y1NAqYoVXqTabqK9T8Lr3lQ8XR8WT_YW7iXfKR6VYx7ryWtCP2G1HyM7-VYJHobEClKNG0GjamHm9WGMli4P7TTikstrBE7Lkux0ul24ovrUZLg-swtLVUfvrMwzmZipb2EO0lr2uViFzn9hzRs8Cp9hVyM_p6Czs8p2eaJoqD7lnmAULG56gH4FXobuackfct35Hp1zXTU_IUsDn3gb0K_-9qed9qsubIRL2Zv6oulZ2EF3Ry2Zf10VhJhSK2pe-BqYUkyLoKssl3_basU_-al3FEiyo_oApCCVsvpa9VyxYEoLz2AKKYHRyxBh72tdTTjXEplACsqokn6Gcr8VyANXOPIKs9pJSqffnWORFxO6d6HUq8DPy6hFYtrXrth9Uoa-nqPgnQDe0jU_bFIX_Q7NeGoylHTlsy-TzfXpRhEg8-fSkkZRRTXEmwdOThrJgLAhpHYr78_P6vskzEnDyZsShFNs5T4Uq8ixG37T0wfyLtXR_IaWLbvHV-GCdtXl_Gq0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpNbjKp54eEdW0m81qhuW8ITnqeZKgHndQodyzrtIjAGlj1hLf6bL6zldk-VkkLvy9kGqLqogOf0ImWgLYMBWSqdofqGCcMG3I7dCHNZ6WgTOPeK8pxCqa_2fv_MySu-GuroDKtv2eFhqEGkvX4cz1BZ8PFAS2SLIDqrYCU128MAavWezt9n23WivJFd2nbtop44pvx8R5eQ9Y46ZjUYr6e-_ra6Gsl-bo9EuhtBmnt0lYoX2NA8IbNAu7mcuO7c_0tHaKuCRBSEs7Mxf5hNzo6IwRZa8OXj6sBOrnw1MEt2Ohfc-5Mas2mp68ZEqRKeZdM3A0eMXUzSki1psSDmZc3QL1CcG8TLp9C5pTIOnVLpTyZZ9bHnVPS7J8zKgauqQQy5kivHVCS5YBfT05dSMZQzbp0IcKvPACxjbuQ99ASndghF5eieTYz2Zwi-q6kizGgfymD79DfPmUDY181CeAyfyxX-GRHODq2NM5TWZ5igStFw3U237TSL-hiUJbs-WnaCEE0esgCQVB2rmKgg_0298dkU0io30mbSuewEkOtg-tjDCstTfBz9QFTSDJTvoDDOrlQwZ-w5Xj5lM5EK09a2_KFZ-mxl4MdqlufBCob_nB_DO3RQaC2-HAdJq-x60frM0KKh4ms42FcUIomvSiI5CNk7rRr9x8x5AgS_o_udIqL47Rhagf82FqVApBCNuy1knDA_51yiErnGBEdwlYDvxHIgJ3UzFy-JPhVwAfCewApE_9FFnfwrFyeB_BKHsIdeTIYEIZNdPTeusyxhfi9qUvQKscTu8o4sZ3uHSiIJD6sowj4ifBTbWuyVMW9FI2tfGSrxkhDZdTYSlLI_5vqXnALYQZk7wb-0Xk1zw7Ph0ctlnfltAgMuR5cqvdkSuPfVQpB4qsy7RWwjnlUNfbjyzq_LUkxtMwLBFNYVVmSbARryIxG0zlmFKqnsWcdU5jzMV0cBbrVL7Jl69zzRV)
 
 
 ```plantuml
@@ -3522,7 +3505,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x0d65e8fe4cf9fca56ae9701f211631012ca2ab07605d2a4149319e370d672c9c
+title Txn Hash: 0x603e373669e52506bf4a2259ead633d86193058c9a214b5f16ac3aaf4d6600f2
 
 
 actor EOA as "EOA"
@@ -3535,21 +3518,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3572,20 +3555,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| Roles_01 | Roles | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| Roles_01 | Roles | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x2b75092d417652e72716fdcebb4247933fbfbc006be924106eb909dadfa8e559
+##### d2, tx: 0x09d5976b2b87e3ff220f6b892ae102e7b45f2cd8d87cce0a84cb6faa3fd091e6
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTzjIA12F25XE7up6CxaN4xFR3j1OjcHtwu7eVxzfAPmWegUnQJhRcPrllfdEJihOaR52ssoKC2Oocwfi954pSnkhiT1Y10aEK4KT4TuET9gfg9icgOOllQ0NT0F63esT9jXYK5n3515gc9Ml02UfZkzJPKNIJkA16g6oXDYtomqzCiuXnvaU9xXY-1NV8pZUKdSXeYXM0t1ugNeivE7taWGhuvyg4m-6re2SmfNE-dt2PJQs2SBLHC69CCCcy8ah_Iflk97d-BMgYxxhExL-5AAKdklvZKgbB_iovBmciU5w3g-XRF169AA-g6Ersc1Kij0IzU2y3SB03iaTHcMpSHYF1QNQfIJGs8wcyg6zn45ih9wUfU7j3NSAbwqxLi7EzK0egeY-J1DS-AyhLrrofLbiNRnif7Y5OhI8liPjpRJ3M94e7BHUem_x-qr8nwXAWx1ngdRts6jkEVApn0gms2prkzVgcXsMZVYrbAs77s2dOmIIIemAUIUIZ1RvzWUW3j9e3D0g3AcVBQtufEPvRRVdXhBUzKDNI1a6mk_Lk1i5tLezub9Mk_MAwCnHzc06_1k7dx-3Ksh13LJp19RbBeWFXNaVOIfC5kOiDU6Hc854eL4tuKoCOVO8Zv-PshyaDd-JWuCcNABDj8BtfIVJD26UT5EUfNRlfPA-rZQVHEODtVh2KIa-_SsM4_3CuOrfledK_9JckzbyYhEB9mS_GYlYn3ofqZ4_vfpdLQ9XJGE05daKYc2NzMelccpfrteevXyz9nQr4aaoXVC_2YDelwiDdm9ldv_Rx4NGdkCVUqxL3-i20ueTD6Yi-nNFgtSgLUws7OUxldIyrQ3FvkoQwWFGotbSBZy0zSBStcZutp3KAcN3i2Dwqi_1Nm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzj037w_ly9YBw2DxPAc-L6nYa3JmGC2CQIz8A5BuhGHwQMwNBQMmly-9qqxMafX8A8eljZdpvyTdnN63Wijb2v76MEYrBaiHo4gLjocSYoK64660vJnaOXk1oelPNoSPxc2J_sW7nm7Z1qKUffXbq5z3L74g63Ml0ASv2gzowKMcP-b0pb2gGanqSiDVJBE8SUb6cUuOlYPtY4Orb9t8U8ubGCmUADwgEN1juO4Q-AVoY8T37K1uHIkL9aaXCjqgZE4guc44r4CEy0dt8lRdcE7PkWws4eIq-I97RgUAT3W9ZgXrKxCA7PZruaYvCArej1EX6WbCVSCj1cLBD94FJZtGHImGtA7KTbq6gLZGQaUKn9Ow2D5vKDzYOEqq6fwbaUtDzoeNRRkM0KxLmCXgIBgCizmuR-kN7MfbCLYw-9b8yKh5AD5z3LkQwOTnkf4OR_x4dtu_Ba3-HXbOn0wpUNk7dl9hK9-abWDbXPB_Uwrl6O7JID-QMJt_ZlewHY1f1IZMluMMKcBQlizK0SfB0gWLHHHFsjQyKdFiuBGx1kM7VgydnXEt_TZ2ntF43qhw7bc6BTQhjEUe-p13FXN3Zz-1QVKWXkeLWaiorqJ7uhYROIfC6LKiLI4Hs868Gg5gWDdOWop1tZuoDJ-9R7vc-plT-0ITQaal2szCCypuaatvTbezvuhwKjjyq5aNj6jpnoL-jFVR3a1JnnUcUQhICrFQRMRpQSuktXqy6FK8isAHrNgyHxdlAeI3MiQ0BIeeb04lQoNlsYofL_tlfv_z9neL59asHJE_qYCmNzJ6pu6tZu_jzdheARTQdF72mBFithS5bxRiBsMq_8DD9t0R8Uz8zFik-vgq2TpTatr3kZbF6wMxu1wPcvlDFnl66gLfc7O8Jtfv-0l)
 
 
 ```plantuml
@@ -3607,7 +3590,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x2b75092d417652e72716fdcebb4247933fbfbc006be924106eb909dadfa8e559
+title Txn Hash: 0x09d5976b2b87e3ff220f6b892ae102e7b45f2cd8d87cce0a84cb6faa3fd091e6
 
 
 actor EOA as "EOA"
@@ -3619,12 +3602,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3641,19 +3624,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| Roles_01 | Roles | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| Roles_01 | Roles | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x70c07dc78fef8be3f8fb08a5e39f445baf071a4460775d838cac48a08beb018d
+##### d3, tx: 0x234a8fd78fa32e66e4b2bb8678ab7bb74bb94204e523a2b5bca8598cc3b67210
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTriej1AFY5XE7up6CxaN4pFTRg6nRCdkzWv4__jDI-541L4Z8PtjxEmttpUTJihOeR6eRJvC6SFSPYeVXb8pSvke4MeSGYhxKaL7A6xxEijLrCtIJCENNj0BkW5Z1yPEKjbcKFu64YEfOLhT0fnaEhdBbCMqaoPzDPJA4c9i5m4zsfn1Zd8zIkNIng_aJeBZBdmN64M9weF3AzT3QG--LoHObVzKcQG_i0R22LpfF8u9bzd4fXAknWfEq0nQmCSU5zoBXEV7ClP3MO_zEEG-DcHzFtRTHeWnznnqtIRtl4Rarts1mlMHKsp87JzYL39XYNfmtW4qi4LsYr7PR2AI4PBKBecGnXvfAf-qbxAV6AidPvculU5EUMHjn3BOkUwZeeheoooLy_DFdSj72gUPXyvlDg6udbu9magviDT-JGJixhOW6qaL_C4qHvjaQdk7lNQem7qcheHApCA_VQsksK7LZ5yhsxx_0NOoaa1MuR2qHMPQ5E7tG5safJ50Ao6efosj-BZfkfrQhoP2l-k96eQX2D3hDNaj2hfDF-9XsEZwTJoQeUp05FWt3Zz_1wVKXYzGBGGiIbuI7w1v7s4gJ2uAbfhmo4mXbAYbRi4PZc3w00-VAUs_Y9UVoTvU2owbpRM2zyaBiombdlGddPLtPrL9NskRJoApGRUkVbVAft-pwIlm5gaR4PkzfqKqcqrpTl5e04JIOfAQHvKwviUSyw9IDBHf2j2Yo48PxA9cdNcZBSwrxyivIDUnbLfXcaxW_A-I4NJUrOgFWTVFqNNxPTAUunsxJiCJFig0SWVxhhVlrLtNFwetUAtZEBpcXOwxdFJPl7tY-W3qOYvNomz0hPxVg_RUcemQfceRTaXN-bJu1m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzim4FxkNt5YNq2CBM_DIyKg0aq67n288UqB4h8Jjur8dSfsjfQM_xvBcdOKQ2aWeYZddEtddkToFeMG8wMfrEKm9uIMkX3ba759r5qcHbJI8UIypqLwJ9ExlYnAaPuKUI7XInp5qKb4oA7Iavnt2DJNWDEKIvWshm2dXSpk2w5f7kPPNmovq8ZOqyi5CKxE8KUb7ELyPU9NTi_1T9Q-IvgccUY3QJIkXzeUVcz8a2R-cL1PVw0Li0bSoxBNGroYCvrpk1uBEALgq0PZRDaEzNkfv_UeRN7NvGwp6FDTpwVCOynp60iSot1uoxAfnLeieNuhy9F4Pgvd8GbCMQAHUdGH0bMmWtQ7ODfqbcGZYb9FK0HN-bXY-hY-ulrCQJavBvAxMyEijsnSiGfs8VjKO4RaLP7pnVwdpjKjbLCjbYvUjg6ucLuDGcgvSD1vJGJixxUX674H_Q5vINLMYDqzyjgc2lUPk1egKql_xesu8OTDCNvjR6Vs0_Han06jeCFQLf5nK2sV0LQHv4e1Zf84QrhZo1Xt0oTYLcmwBWkDk6TwSHYc3lS2atQTg1jOBBLjtslDKVPW2iOt0tx-Ziwm35-WMWbOfhmcFg3gVOGnCMLIiPI8XsOAZ5F9PHlEwGYc3_3mcTB-YtZvcnmSjE6Awr8AU9yyLXGvyiGRTJRUlNKfVQriFedC5jMw_gpKN_zssoFm5gbR4PkVqsercNTpSlce0QHSqonNZpBLDRg6OLIPmgQDNG07LHICe9Sv2nU5jjpNcTLz49zZpQMWUJw1Yx-2fn2-gnGV0s_kevlcww2MQxSCBuYY872wXak3bka6jcU79hUyo6gnxh5bnRw_6lHPlttY-W3qiYytmmz0hU_Vw-RU6WmBfYaRSeHF_5Nu1m00)
 
 
 ```plantuml
@@ -3675,7 +3658,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x70c07dc78fef8be3f8fb08a5e39f445baf071a4460775d838cac48a08beb018d
+title Txn Hash: 0x234a8fd78fa32e66e4b2bb8678ab7bb74bb94204e523a2b5bca8598cc3b67210
 
 
 actor EOA as "EOA"
@@ -3687,12 +3670,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3709,19 +3692,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| Roles_01 | Roles | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| Roles_01 | Roles | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0xed6f599a23a9eb6209223ed64158c46b86b1c07ef6481ee97e5eeca4cce8f44f
+##### d4, tx: 0x1636ecfa18c9690aa73f5812ba3225763934f44f65adf47fb013afc8fcac0a9e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBvisDkUbIOeOMYdfNYJ4n93s1Mbod4iQaJgLusoKb_--IqXB4cZBwD1OrSRssRwxvydvwYFaGwwvqiKa9OGNEfF59015yhD4JhdY4vf233BSv-8iLbaXms6MPeg-6FaZV-WJiflhMGfxX5QVCV0G5BsiXvH-obHoaKdDqq6Qn782KgF6I2yMZ73oHkMqKDCKMXFVaWkWXhsGVULXcCYO6gmMNLVjxhlQ2LBR_opp91xhd0OpUgAAA4AzH2Sw1NfoBkaddeztA3k7q8bw_JutBTw7m35PtpGj5Df6pnEs4tXEO0ZcGkJOdW7GTw478BWj17YHRKS4AHCQNVUF1fJdT0lRBOAqwKGaKuvGXmW2Shsla3xGnn0dkLQpmqoS_M16jMNbYhQo8nLpYOoeuoo5-VwkiBsb5ERpfVF1GrnSxTuo9QM5Govv3AgZe3tJtlob26DeOceAsak_yGZLwF5yPMEyHKZ5FztUMySgVVrwXs8eLNPUdifJibl7yvkwtRjwJ_Li2XHRoITL-vEd1NRAvLVbRWLvJh4d11uBZJrsxWQirpDSRuJD0OYUQLbCO7HPZWVXm1AcPxhzuM3_HiihUadPMqO_VlS_OoIlSxh4TUTjLr2IV27_csWSsnwO8rC4tj0L9Wy2uNDtv30pz8UE5x8Ww0qzYoz1SzVL4i0Y1Yl7npn_dCD8J25ABnNgm-QI1i0Lg1rwoAVqyffUFoMqMn3tlvFjxHrw3BfGaZuENf1bAVg9NyHPIryjetHTs3oHCm-8rkN9ethxF_wN8zW5r4bcpnnCrziII2l3FbV_sqxUpHveyzzaZyrWjRF7Cqc8JmFfB-QUYAVvRV9f6-m42XgzBtYM7OTg-OgpqhnZR1PtHLAnpKl6Ex80VyRzvBRihm6o4TcrAmrFLlAoAbSsELsJJ5VzRpteN-RcqbUk9ZUr2ldQk366e7cIvWqs3jW1Owna0qiIl4HYfxI25lI2by7ya2psxLrLjtnydcjGagVfZ1xzaX3ImQFk5Kt5gwk4LVELqP7X7c39uWgFWu-s_RxjzbtBjhrzgyVCWM4mqmqCkstqJZNH4MsWUb5rrDqDL2slJfRDRMwiKyNS9z_0IAlQQGmtKDciYcv7VweGJqvzViW7V1QJz3S0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRzCm4FxkNs6DBo0OE2_DopGc-fB2aAPDsoI-8A5BugJHKgTo75ZPzj-vP6cNP6q7AnEZQcFxRDyzp-LyzH7o8LSWLJ5D2O52PQAO-boI_28HCv0mfIcFkGW745p4CYj4ECpIJD8NOs_i3Jr2zdCrJ_a1eTLdmY7aabxLGqe_PJBvcGa5QJzDOZ7bGg76I2qNZ77oLkMiaBEKjoREaf-SQkPITW9Xc8YOQgmMtLJj_hiQ1Adj7ueyYISgf_wSdiiYYb0lKObAEJs_5FGJv9CzoYurox1u487c1AxbCW3RY7gEfljWw7hFjWpNC2FJZAmUX95fHpxJ38W29meWOE2YJWA1GkZUSPz2JdUmtI7eDfK4oGoGwX19y5mD9BgFgrCU9xcIywCikFZ6j6hBnXLjPSSo1e4UaQTPoXVxkyBsbbAOBvOk1hy3SJEyTKfA2qSW8EQoew0zqzxykGXZtkJK5BINda64QjHaiR8ntY6ayZ_TFNZ8g_JrwpsAeLJPUVbLV2NxTJo_gTk3w_TKpMUSOYjWMhNV8IsmKow_BdTBdkSKUq60nq9XZrqoopC7-i0sXw4rC1oF3JN3i1r3Tzm1qqQQFN1Pe3lUhPPNz8gojun-_E8TOYG_1BhaTUzjLrIIV2d_csn6hkdv-bWpBR_Fnf5cZ_lzqEIsgy78z4QkxeU6uTYzrMpkGoq9B6Em0Zw1_760qJ55KAAKg0-RA-fpa5pkqIEOqQiRUlEKrEv8h7udkxjxz9IhGWhwE7f-bgM84x_8ivQ-MkVIXyBcYS3yHhIkJnxLs__slnp1Bg5ECdlcPBfeIoAj3FjSyRT1tiyUQFFVP8_jQBMpnpD9Y4z3wI_cdWZI_2xvj0rs0WMDhWgUTSUXMhxXh3Jl6Dl5NP5KteRIunsPZpzjjNDRzXyWifMpQoWD91lziYbNbZubjvK3EMdStqAk84dp1hOH6p76IcnO8E2L3ZkbObIgbYZxYv1TxZkuhkxS-BnKN0f8qpaz_Y5uIFkF-fTlAjvyPzyqNndLBQF7RDVpNDSSCGlSdcQvXctqDQxRdjxpHmDT7pjEs-Yzktr7j8NgPGrGTxTGjRvMM3UtlR5EJR5AleMHLktH66wXibcZt8t-L26UdFhya0_unFhy5m00)
 
 
 ```plantuml
@@ -3743,7 +3726,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xed6f599a23a9eb6209223ed64158c46b86b1c07ef6481ee97e5eeca4cce8f44f
+title Txn Hash: 0x1636ecfa18c9690aa73f5812ba3225763934f44f65adf47fb013afc8fcac0a9e
 
 
 actor EOA as "EOA"
@@ -3757,16 +3740,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3778,25 +3761,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3814,28 +3797,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| Roles_01 | Roles | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| Roles_01 | Roles | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x46c90f3f8635b12b6926ddbcaa1757945688f9cbf54606672d3331f35f037694
+##### d5, tx: 0x19c654cffdecc9ce7c4e0948155ad06d91334b7bd162e0c883b5bd33043c1f37
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjJzim4FxkNt43QOmoXlFUegwYG0fCOg0ERHy0JKxib8ZKgMm7Mbx--oxforgDKQqJ_P2pxyvtpztPJmdPquOfK_GpGbXXSbdq8w68latbW2dMXqpqXEJxBBxjgRoG_23FSWNhdR0J7eI4DBKPPQ95eFhT2CQ5WiV95k0uL-b3BWtBsbdQatqX3KPCpCoXWyPno46X1fbOC7nB7mHOxantpZXFPGyiEb4zLxAvCm519lbFf4vxDqP3D88BLIG9nYKcDPc0Yw64OwPlTe4ENJzkqCH9whxZHPOT-GtRvpoA6RC2BsYudb-l9uquIZpNfxuVsDnn72jnl8GwWTzm2ROiDWWzF6i3qx26SerWsqmQfmE6fHvW4KARVONj4wOhUgasQdIQnxS_gLKTUTLZCTYNWlT4Dy_4zEoyOj6rLEgfstIpHaY54BPRo_B2rjOkw2BgfoQyOrd1J9hB3rVoYZGda_yuaQsdps160m4e9UjNiZo1YzBz2PXIR0HFO0Jhdt2Dgylhbsn72aStRzw4Hw2VA1pz24zmqCiGbqKjDAIg8TMLRaNed2kXIqmiZl7k6rpHOH1HpxE2UWV5eOWzst5eR3lCyUk2jvtOhjj1uw2z_t8LYn1BqBFnL81lc5uDB3QZY4k42kEXU8H8C2NKBfoo0Jm-m_DRblMxY3_diBsz2rrX2YLXjTAYFCyGOtbHr5Ix-L8hbrsHDmAo9Erm-t9T2NvT8Xo_FyJHV7_Fb4GoQq4p7bCg-hHgjMxuFUnUlAlLcZkLllKthEN4IpAiy6nypO4D1Yg_4xnwJXfC3cByTiN652eNI5Zf7QgMCWyP4pyvdwCLBWnBCpq7vf0UKahBnY6_8zdWeeoBCSsiXUtfVPkTG_0bPU9tQ8IIBCj6S7Ol4NfxfHiv7_XrodtDNYNjMC6XQtb1N6SYjECeRBX18t1SjxxlUDHkMnQrWyXo5vCkKFFSzZz2pYXyilpNK3YxoGJ97dxn3_uN)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLPRziu47xdhvXDWHxfPaiTjgJ0DUf3QRD0ci8DkWzjiQ38iID4fWoIIkmc-Uyxae_QFH9iYlf1GyuCPxuvpTWhwuHnrRHWJ5IkrDKqGyFiHQvdmeWf53X1hVf2NanCMMarA8lImAEZz2WTf8nrh5iKs6NG_CvHA3HmlRe2l2bD_gNKJXIz8f_eAMf75iTket14mgN9MMLc1Uu8tkTV4BnmmtidbChr13o-OjqsjFDY1OAj_1zhcq_EdOLi0MUc6e_9BdEvAn3EvXhU27j-27pk9RBT2kLuh53AH68aG-H967kjbb2yhH8l2C8iofJNzf7BE0woLgQ2W8U1zCP1n2XbqX7qzBG7mi8UqJr6QNEvp6U2GXrG46XTtr3wq8rmabjd5YUblFYNUysJEpLsZVrTgGcEoWBNRxSPkwerqwxLrfSznXg4SD2zpoyyVtu8jigckKilHL49bvVwwIVzYNLMbVzpHRitBy4jPWX4jPWsj7v1Xrhz1eGnOW4tu51CZvMbqyVFFvAzDbIwRV4pk0R-5uVN_wJ7LEZx4DT1xIIaYI6t3U-1q9KoQ6jCGahgVKSdFkVjDEpx_IWSg7O_Y5C-e3Q9ui2FapxtXbxKJxZqu_J7KUn2h45lojC0FXVsOM0f6PMi4HgoH-GQCXG6pI6SY1bStyBjxmphQn3Vr-7Wu116w2gZuM6XPMLP4CQwKSoQ--pRLCuFFZuog3xN_fTTJcuxZw-4qRGokj2HoyL5Ejtz_L7w8HsT_R6_ttdHyBi_WrRdjLuvZVidRqiGivafBr4rJMl1bO3B2S4dQsGAQItabyJwTaQt9VTCFbikNlPkQwmLEf4NTWlca0yvvtK6QR_IiDEXjaistIQNlNMzD-yeh7fbqNVkq6XH50iulT8KLEz17R5j-EwLTvUySUgtWnQFaZHDad38so9fUUqaY8AUXtwK-grisFVzepZUTRgp6hUkls1oiq9Nn_zhYcgtgY1xHL_wW_qF)
 
 
 ```plantuml
@@ -3857,7 +3838,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x46c90f3f8635b12b6926ddbcaa1757945688f9cbf54606672d3331f35f037694
+title Txn Hash: 0x19c654cffdecc9ce7c4e0948155ad06d91334b7bd162e0c883b5bd33043c1f37
 
 
 actor EOA as "EOA"
@@ -3872,33 +3853,30 @@ participant Roles_01 as "Roles_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'No approved teams to evaluate' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
-<#FEFECE>| Roles_01 | Roles | 0xF17D4157c8aeE2cbE947973448B3502A11027b14 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
+<#FEFECE>| Roles_01 | Roles | 0x2635079EE994D06a95169373A1e27E25bDB22F88 |
 endlegend
 
 @enduml
@@ -3907,11 +3885,11 @@ endlegend
 
 
 ## reverts if invalid team id
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L158)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L158)
 
-##### d1, tx: 0x574d7d9364765beb8b6a6a51d1f5aaa414d5cb488c825958dbf54b32090c87fc
+##### d1, tx: 0xbd0ef94504bf8efe38bc5719b7524fb3013b9ac8e40c505a58c4435faa13c143
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CBGbvQyKgIca77n08aFO52LqI9ur8dSfnjfR2VzybJKlwGgjHJPfMjR5zldlkdkl5PyPECuLIvOE4CSnLAlA1noNBdc8nH8a3I7Z4HN26_bCaqrm4dJH99NpgTNlTJfUnaqoD4zvYK7xw70CkOL8j0IvI6J-dGc7IJk983BXGX1YgkKAFDgUGmrmE4xwmSHS_Sz3DkUm6Wo0M4UXQ9NejnvElLH2iydyfiZZggmoyCTpBF0m9bwbO9HpkHm8kCEitGHjPZXauGUFODXtRyhZdUZRQQEc17bg8QEfcOFcUwRg-QrWDomsyq3AzOqDhQBxhX3wZbFcAGkzUjm4psADnZr7QLEp7GoIg7IB1CtKcANrStV8epfGSNwN-qwEcboORDTQ2tQO9lqA14PTB88ixYyRNCa91wPI5qinkMRXeKWYpcUfiiQXoXo5vLFsPLcsznrYP3pXgRMC9XuTDy5D1ihp8v_u1ssPH0rrYNO8zKg7CoUq_Y0TsKbNivsfilNm3DHvoe57We1n_OfBJf51_0KAGFCk0PhvFXQzeferiqsmRFSFtt8xZ6-XvVXUTdgqPGRTZku7cULR7FSQpASe1J43xei7t7zrBgjNt8Yx8hFmL_pAFrM0B2lCIAKCdlnyBU5e55AKaF1ecu76KN3RX2eSmUONNlqdjZSGgfJvc_nEbewCct7ALIm4Ve-MbQKBnqJV49Al41yiErnGBENwlYDvxHKgJ3UzF_UJPhVxokCmw5fbVaddqqzSdUS7_5Y8x9RqAfHR9nhniEqVhUTrqs4wFyaARJMy4xARM1mAkC4wo6fjpxLpJj88DDNvg3JGfl907DUVLdXNxtAxrKlPIUeuKbmAJP0pNlmGFeFsXrw4ElBaNRzeldLgkfjksZu4LE0RT7BZTe7i0-Wt7q0sZfzkESzvm3LphTAbdhvFlu6Ibjo-9Te2Utm6gwGvGzRl2s-fF0QdoglfZf_IaU-jl)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpMcIlebLXBuCFY0G8EqB4heaJXkHEfNZR2s5_xvBcfRqXLQZcZIjQcFxVFVSFTUBpuoT9HgLJeSHOvZgMAP3LoYMF8LoX0g748c-aFuvUazz5QVIRyTHhE1JhzlhjhkCdIPw4eaMW_mp4EWB1TDY2N0Hg_0vbXeZ9mhxSYYa9iH0BnHwj3c37ALg58cbZRlmMO1XBMGtwFkXx8F12z5hFfv-BO9WXVzBcOJzWKx0dS2zIeE0S9aETIJWVYpX0fD14_ZOzRa86fRDBJUeYq2OTTUpQqR3hTaLAt1DRfXk0xswiBXdSnljkcTPfXqW6gPdM2QZb7cQGkzUEu097D1um2XjElJ24HBLDf4GYJvNb3wXRqK_JBIQNCNUqoCtSfEj6Xl1RkD8NA74lb0h8CixoyRNge-IqgaofRdTgd3P91CcSzNvObdb3WFog0TphTBwWB4y7t3IsiKIZe-RuCMIP6cMpyCZjikY1Bh2EWTxf49Pa3jya0_ijAZOpyNOUla6UZ8IGAF4OJx-n2YbIQR-0eIWH980pJoF2b_JZ8yx3QlhLdg6LNKTtWkCMiznV4lK6WPsh6wdKN5zqwpNx1dA4Ko1V-7m_KVtachrlOWpCcj_nR_COptOZCAYHFBGoU_70fvL0KMf28-6ARW2bL1DkC8HJ5_XzMzIUoEnJcc0oVz4wUIa2RT2fqh2nsYvSHnHVFGDC4eAyT6gmmt5GexVAwBtNf7SPClxKpvvzgk_DCopZbdcLsGk_OpDILxoluF8NaalGYb5iZKlkyxHSbwt7RQpeppJPhCR0RifzG5VQ0oZfCIcmpkSyumDDNvg3JJ9l907lU3bp8jzOTTwoNifFSTQA8bHD87hNrBuu7peTIW3R-_5s_PpfzsQKJMTUiDi1xw30Lf-bTTiarUvLN7hjKhRDz7hL8EDJbTwzYRv7axMUlkAQ0_enHsWcEu1LRuhlAt-590ghwW_TaPFkhV-1W00)
 
 
 ```plantuml
@@ -3933,7 +3911,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x574d7d9364765beb8b6a6a51d1f5aaa414d5cb488c825958dbf54b32090c87fc
+title Txn Hash: 0xbd0ef94504bf8efe38bc5719b7524fb3013b9ac8e40c505a58c4435faa13c143
 
 
 actor EOA as "EOA"
@@ -3946,21 +3924,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -3983,20 +3961,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| Roles_01 | Roles | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x580166cad5d72574e69090ac972122F1677D982a |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| Roles_01 | Roles | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x9fd9a7a4f9a6e4d8e94aaf2b8c7356d19435820b6080b0edecd47d124a1495c0
+##### d2, tx: 0x03ffbbc807ffbdfcff23c19362d869c1809a1294cab14c953e2a2e522d3ca15a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzj03Fv-ly9YNq0RsoMaUQbOHIdju0C2CQHzGKBEtRMDI2_LvRAr5Fxxd3JjQ2al0n55ySK-Ftxi-AmmTf1RDBOOfOnXOJDTZ69bM7wJw34Q746g1ahBGnGt0vCLMdQoD3FmgTVjTJjTnlPpEqrLYq5r3HLAPM1Mlm8SPoQvpRJ5j9qc0prIsX9YtoutzCWuXnmNPfog5SFFv5Q1uorrvoXbeWVWy5frNydzRpK9LiS_qNao6DeSuYbScgBV9rnc4vigk9neECPys0G-YVeomW2zVeI-ycIe8W-nxyQX2FOQldGYRwyHkZpsUSXZhgGIqWkautheU553S4Ob4vQeTy_QW3biaTnYL3QRY6ICb6g7ab2vFJHKFcKlr239hPcUPkBccZkLoxCxLi7Ep00rLSHSPAbQ-AyhLrrAPRxOkdZPIF5IuMWHVOtRcccBiIfHs6szH1y-Vsv2DbQwDg1DChszmrvoAv4V9LQ19VbIltsbhzX-tOXVQjcw-mvsEbP0KkEeahynBMXHRhy3wY2ZyXne9GJriwKLd_YUrtPxheZ3JY1SZ6FHnQ3dSrTsEtueUHmtEk4U7ivHTc06_2k77x-w9zI26wYM2IpBNH4VOlusmbIOGfGi3U6Hc46iq2ZJX5CSm-mUxZyojNz9RFuckxjDk52sC1hUbbwSPIdnf9lohBKxJvNqfRRv83AlwDOdZahrwQ-VEG6F75wPvgj8pKzfkPlDfpWxVt3mfRAOfFc3AXtn8yvvMIKQrZG0Q556eGXsMQ_seicMVgsxQlxHSsALqPYcKpZxevM4zflQy27my_FpENiLj15on_S5oeOCt4RWAJ_Y4KSH1QxZkZt73uAZA7HnDUYZERkcUWVqSXxNotT0FJ6tDnh-DmorIjqmx82Uz7Fm5m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzim4FxkNt5YNq0Rc_FIbrIi8hJfu0C2CQHzGKAExRGHgLFPpjPI-E-xf6b7ItaPY2ZAENU-vvwxd4yXvD1OfcqnpWXXXSrLCOwb9kOcLHEcsHWoEPHA735-CzHveKGlpt8DdmRH8Ef5X1mOEyjabq1rZIGJKiEyVWKupdLwcolBiZ1BXseibKN4nAus3D2uW9mKUfB9DSFFz5Q2uwzqvqo8L0t1eRNglf87tseIf8v_eamw75a3yGmkTP4aY4jiQZC9brC5nyoCEa2dr4kIEEPjsa8f4fuahiUTm6kwejqCkDEc0NFSmESiTdmUD3pfCbSsN5Tud3aDHh1at2Brw2m4Pc07vGx1ijcKfnE6gVOm2MdiaSRoINiXXwcnUdQQyvjhwbGkp-vO1plJGwQm8leYp-JIVrEvxb8gpNBhycKhnKl9nile6zmsJ3k4L8d2VlSb-l3vSmVoYLIrWTaqLxjxv2Mt4lbHOXLOQbRwtIjrHGxgHlnIo-xTTx2pYGIKYeqh-Pjb1IxAxNU07QIbCO0hph6VBQxej1_uKUmE7ByPXtIGEAr160fVjWA7zVse7xYnyBnsgx50sOCvqAyKVloAJh05jr0j4rYLko8-OkPjXB4m1IzPQiH3COTOCYrr1qxP1ERtSF-HgVrBOlitsT_lm8MqXLRmjlJYFC-G9zwOPwtTUwgaBxND1v5vHRS-SLIgJt_zp0buvF3AD5z5Qd5AozraCSN9-OE3BwHbQMOULAbF-vJIiaeuh740uAACWX7igbxXiibMVjsxQlxXSsgbLYpBPd3sHqa1uPlQy27my_FpENiLD6evJIzi1rul4I5Bc2-QjDNmQ9FwRjnkkJtXCTvl9kj17ytP3TKxe5Vpk5w-0-g9kRtLyBzXi5NgXY67-CIVWxy0)
 
 
 ```plantuml
@@ -4018,7 +3996,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x9fd9a7a4f9a6e4d8e94aaf2b8c7356d19435820b6080b0edecd47d124a1495c0
+title Txn Hash: 0x03ffbbc807ffbdfcff23c19362d869c1809a1294cab14c953e2a2e522d3ca15a
 
 
 actor EOA as "EOA"
@@ -4030,12 +4008,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4052,19 +4030,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| Roles_01 | Roles | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x580166cad5d72574e69090ac972122F1677D982a |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| Roles_01 | Roles | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xe6ec87a303e7184b16e95aae79e621b084d87b3beedc9f68682d8abf65b3b733
+##### d3, tx: 0xc6789f8ba32b7de10a33144fae7474d4ae391b10b7875ecb00ba3ccfeaab867c
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTzi2RI4U4R6SFXYDPt8l9cRQ3jXOjcIxlGFH_txJKZXHGTJOD9tjxEuttpUTdLI8WyoWDlam4G9pawfy690MsMsiHgXn20aDI4M76DuET9ghg9icgOOlFR_dTtqXzZCpIQWjeBnk22FICArU0OvJ7T-boc3IIUA16f8oZDWtYmKzdfn1Zd8zIcXfubTyHs3L5xvpZA9O3S2IbUkXjFlVAnAYYd-YidXmOp889d2fytwVSOM9JK9mELPmZDbD2-IO70ez5skoHgxbrGFBeMO3aTmcEROLIAyUUMvG2uYYiDbtFCUp8m-3ljDWfrkh2KvPQ9YwVzO1p62BxPRWj9auZ4V8KhiiWZ9pg3bzP2ve46T6JqxJyFPQMkMMjIkMmSxq01LdH5-a2SttFtKkRocSsNpf_6KJYklfbI2Yb0jxxTT4mEvk2z8HAVyF9ZcQE5NRE-ArJGNkCt4bL9mj_DjNwahiLyNujRBj-nzW9YC2jWg7fIqYyw1OVWzSHPgo37WKXbpJXaToxDJh7RjdXu7NTKCRWo3qqUqvqexyhkD5CWWQNQ-6XpEK7PY2_2RXvs__XClm1Qg5W4NAI-8tcBsFC2Sc3mkMcl7OJ24WrAHRS8eZc3x0msTA-o_YvM-ojzU22pAvLl0-UK6Q9ioJRzPPUNTMfVIrilaaCXjKw-gpKdxzwqsFm5kaRaHiTawBrMBMpSNvemOGaS4uoHvbwaWUIIcBJ77JvYx0Wo8AHp2Bd7NcXRROrxul-o0_nuQqmYIPmDbVHH5qtbMAZu7Nzz5rysNGXYSjnmanQaIktN3hv3HbKsBOT6tBjdkMuxf7JS_6vQ3F-kqJrmUW5tsv6du0QdN_NZNtrc1SC5NPY0D-yg_2Fm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTrjQAH2FMA6SFXYDPt8l9cRQRg6nRCdkzWu4__jDI-541L4Z8PtjxEmttqo_JihOiJQeJ3vC6SFSP38V1a8nVPV84IeSGYhwGaOd6DxrLPRBg9EbcO8lFR_dTtp6ZhIPfABDeFmD14P2mRIw1JZDL7AVIOEfboPzEHJI469ibW4zsfn3Zd8rIiNAng_aNe3bB7sN64M9x8F5AzT3QO--LoHObVzCwgG_C1g22LohF8u9bvd4f0Aknn9EKGzQmCTXtMqquqQ0TYrm8s5nj6tBSM8KhkCwaOF2Rbg1nGEtuHwACE2SGiCm5eX1e-w6Z5eM6gBkNtY06dR8xZ1gcqd2P8HKQeUA4DgSA6gVC5UYdsYZ9kTPU7VBhVB8neXLi0lLHqaTKLTPAXRddpfNZnHElGXTt6n3SJEz4eILvS91-xKYO7-_1Tb8IFyFfZcQ99ExU-orGmNki-9Ag4Gl_RityeOTLMByMjdsx0UOoKW0MOd3qXQPQL64pu1Kf8JMGAim94qRMl5nj-duGQrdEVN0uxtOSdkU5pd2RLhOTVnkinP4jar2cAFimHJuDmu_V_jd9CCNg1O5B5jU4X-WVXzXQamU5YmLuP6PGY1G2TM2Snp1z04UFhEq_qMy_4mE3bfm9Kok9Boll23BKk99VwgpykwjQ-bhilaaCbkeTVsxKZxzssrVWRUKkXMn-NjQHBFvD6UNZmP090mcgNxKgIxlSiwBJj7GfYb0Yo8BPJ3BddaBeItFjMVb7AJhs0WbCKqdSF5NYWYyTqdnCV3cERfflqpgkrRTzXfDknD77iReH7Nk7jgypfrQq71hdSZ6i5kFLvC-cxTFN1-0NixbQla1gFNpUztUMvEHO2hPi6EwqgV2Fm00)
 
 
 ```plantuml
@@ -4086,7 +4064,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xe6ec87a303e7184b16e95aae79e621b084d87b3beedc9f68682d8abf65b3b733
+title Txn Hash: 0xc6789f8ba32b7de10a33144fae7474d4ae391b10b7875ecb00ba3ccfeaab867c
 
 
 actor EOA as "EOA"
@@ -4098,12 +4076,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4120,19 +4098,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| Roles_01 | Roles | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x580166cad5d72574e69090ac972122F1677D982a |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| Roles_01 | Roles | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x58eee627707100f722ddd0a4f8e31be2c88a2b1b39c0cedac70807165ee5d1de
+##### d4, tx: 0xb0198a5aee6880393f2bc96bec52b96b6c44997c215ca755b8e808585ec5de0a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTVRziu37_Nfn1wBpViUfEL-4-ANh4qJROTK7Je1jpBW86McCIeOmUol3Lh-zsFTftKTfkaQrPSBqWiYQ98_cYI4HbxcramDf_5Z45kqoIVXMXOTX4bSp0mup5ECD77e2uc9iqJFKZZrF3VHiFHS31ax32pYnYF62y_KmIDXbzLIyxVfoRwaIOMuduSJP8P9fOaZksAOKIRjoBdkPd7sDZu5Fr0xdHNj8-WTPHCk2Cgqaqv7hwfZ62L_Wz95ascDkFXWdys-NXCSfcDR8pyysN2tqCsFU3YqWqGqPE-Btn7YB4lfTPQG7SSOCS9KQeW01awOQUdX48DoXS1iNekegiTJJ8PA4kc3y_w73A-H-CU8xVPI4Lp8AW30e6PFJRaFhJdE8aoQnQdgRhuAfpoo4QEfh0pCu64F6BEqnYNvzl4vf62c2rPbul7cBZPl7L22WsdaC04JKj0SwTv-EzSJx2EgKveidw2COcnqoLdRRt7MEb_ld-qpQlyzUi3Jg5KwldzI_A57LRn_4Sr7bt_nUrYZfp616Rb-0tYd2O5-tLnsc2MSPefHMbXQIOk_L2uhkC78nfEKBcoqn5ATg3Z1QZx7IK3wVS6_UDRAQ_u5HT_2lxkd-47YkHjHXUuxhtj4agKhUY_4etNxVRbIAem6FXAGXYg8VWZJqWz77Y15c7e3e8Eh45ptzG2m2e6IyEda3tDO79ChWeh3ScZuOg720RD0J-5ER-wuJVF2UqEnCFlP7__W9-ZpKt2dmOlJDEOxAGluQoehzQvT5lOF9CnZuZMzSMZVFjV_oyfs0RKAcOl74pRsW98eyA-LFkRHjwl7gJplwaUky5gLeyNKX2V1z8lh3rZYBExujDKs0eKKlfGyAnBXv9zGwxKxnYxnLqUbTw6mkCjMaW_vs7dDlHl0RAJiojJQfPizCkcMbdtwPPYkkb_wr7_ChUNleARtVOgx6FjngZHGXHdDM-SY1CXHE4DQade4acJGWjfi2k_z9T9iZftT5tUykbvQT4a4CSBVlOzGStxJxfNr0LlxX8sxPTAtK0udgT0kzgNhjz5hoTw0bJFbuwK8yVp_PDU8A6fz5utqIBj87hLTLJJ7KIjxqxMxUskhDN5F4JVGKcZswajTn1PxuhkLZyha3AdoX_sbfxvBFuN)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRc_EU88P8stGm2O40QL-Ga9CuQKJgL8wpKLx--ouXBKbe2wEWiQgDxVFvxdakvwkDq5ukgP35E4M85ZBZnTXd0kMN2PzGGSSuPJ7ZOOy6bx782XxsipGJ-CFG6tfz3w6TN4vJjejmzHan6ZA1R-eXnlkPIAupBcdgfadCnunBi1Z9kS8G9kzDJWenILbhuZIvPbZHvx9Z6eO9Zx52Qj5TrUvyhK6Wsly1pvDu97FiJ_6PAA88x2APo9JXiokEzsa-siRaoYUAOrE3CcRQDj4SBLBzm35z5XYg3wqPwBhZM86g606r3CEtcKrimpP08MI48WXP806wT-HYckCDQ3SGX4qcGJAXGBKF95WkUmB2n-G9YvDSYkbX5bnU4ALQibAZRUn8n9H3HCH9bhBP-gwmlQGKvZFLsU0v45V3MsQaz718EOsPw1XepxGN_oZ2c3KvDGLjrLCQWHavccasnXi8LV77MxjFHHL_-hID8PKgFn_F-JdQgVFvSztktdx3SZfX65fEnrNxYwO5T4hrstArO7cEeHS4i2qazCWLCJszf_OilH-QFStsI5_HDClMLDlf4MMWM3s71AhjtLlPn3UOV27u-q_l03BvAT0bhqTlkwAIv7FvQx8PEBhdgqD5DtsN32F56hfkg3FBKUX0zmQEweUQPbl6OZQFePO4vZbO0H_H_6M08J15KA8KO0-Q6-mpAfZOneTqWc_kyDrRKdiWiVYTR6rjunCc2y7no-ZvMPO2JlW2prgwkIoaJwND6u5vHhOkBnxLsx_uNxPWbr2dcBrpCbsq9P5MXNsl-DiW7rSFyFblgiTwjDhLuvqKnBUXz8gr9w9f_b1ysWuxYG9E5oNFikrGgQ_OAyqpndfvLoHLj6aPyOxCXv-oEBWj_qyGMIlODPG6afLnMLKhovYY-vi3EcwStq8cQPBc3Mm3CY24bDZWWW17EkYKXi6edADqPoaxNxTxMvsvuNabcU0qJQVuw3Td8NPVz2_VDBpwpBvgldBgMOgfkRQZzQFGfH7LGvDOXaPCegk-RQdzKAF1m8pQJX-TxJkYDKpFxm1rTmrJo-yAo-RMTzQvKooIh-6aTVTe3DSmsRoZF8p-rY3id7h_e3rumlty3m00)
 
 
 ```plantuml
@@ -4154,7 +4132,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x58eee627707100f722ddd0a4f8e31be2c88a2b1b39c0cedac70807165ee5d1de
+title Txn Hash: 0xb0198a5aee6880393f2bc96bec52b96b6c44997c215ca755b8e808585ec5de0a
 
 
 actor EOA as "EOA"
@@ -4168,16 +4146,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4189,25 +4167,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4225,28 +4203,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| Roles_01 | Roles | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x580166cad5d72574e69090ac972122F1677D982a |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| Roles_01 | Roles | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0xf5bc21c276be95f0a90e554b784044f1f6a2a2f584351de05633c3792c19fa52
+##### d5, tx: 0x55388cecc09d1dbd88bf3cdd22c268db2caadcee89134c483af814a480da0174
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLTJzim57tthxXYBviOcvCcTeDOHI3fu86106alI9FZE6r4waIEmrhe_ljkGze5DF6rHKgkFyyzFlVwXf3zsWfZcrb1Y6XigPjPeWofhtDT2IDcKAY9qkc1aDSJKpOwFIoBqi2xSJoE3sD2zcgxADI8GFjCbKYLWRkk2t1Kclosr5OKOP5Fz4nfYuYPtImOu-GzPDMOgb0F9YxoMmMEjnax4scQwmauj1lwrTgzpnq9qla_rdK-cTeQaWLScYRB49VOt1OABkSQZaGztGKwp_n4kevqEKjKu6TK15JvlfVmeKSzBtCo9bpXPlxG6_XEggZF1WCvu84hdI0JlajGCccHUdmQWgXX2-qMGTbiBlDAu54FyH2gjWS6vLFsN4tosfh5IIclVr2dtVBaYeTW5o9J9y9Errjx_Ir2MkUmCteE4hQtTy6qWyfSAZ5xVwMlo5uNq8-T7Is_W5rK2j1gCMljZIWQRAoMBr5Pz05Bi8ZmhLs0WZB579OodxxnMODZc8sgr_3XfaVd1qamJXaF8Xa7hkSxOSnKwCemZ32AVCXan0O17uh7D2jJLcKjYaXOqG9nobsMSOhl04dBjr7z07T0Fr7u-Zq-ncHyJlfLTFfHQsE1XtrR29eSamB5MftdqLY2h_DtYW_ylo1TTdPsuLpPncZu9vezHY_IwJwT_v_pTSG8kQzevAntjL9bHLxKFVo8HXZb5JuMBhnjs5YHHi9suscJc9jzesLR2_0xnzkbHL4iuFIdLYc4KcBrjAzCuZxmqxNagVdMgJ-a3cDIf7xANPzxYWKqe486t7LST-mmpgDWw3vosgyvVtgl1KIvEz79FdxnP_CR)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLN9Rjim4BtpAmRffKMRbbeiqK5gH97j9eSqGHAWbm35cAHi8J9bK5Hh9-w_TomljOCYMoj06gvl7jyCHumTLGwjgyS5OrYxqjJZWRQikitD12sEeT13RTGnojkXBMkZqh8eBRpfz_gzjCVOOULcXUumQ9wHHgKjtA-w02UbpUzAux18YdnenjeuGipSPa6V9fUGazfE2hqpSPNVQV32pTW5AfMR8NXyDVIhiOUVLYJOol-fgVBXo5KmcC6rhRECS9dBNQ7XUchW1AlH0V1fgnK88RMKlAqyDL123B90AkNxqe-46lWIKKcjHTiBGXcA03FXXHWAhf1xSSX8Ckc8Ukyy0QnWZ-mU8zbSBlC9qb5JEeIktB4b-RIxrCEySdPsLihRxznhjZowOXVi2ZDzXcwqthhLtsEiSGxxdQSWuVtx0x3DeBRN6iTlRymDErm5zCFATkQVmSqc6iWQ73Vs1nOrDHRBvwGi-O0vE4BusYmWGICTUP6AMloLpngSmcnrjOPFDZq-ZTk1dteKjdxMwhMIb4TPsat2lgVxNbS8BRfUADeaq0EQ4rjEoWgBBZfS0l7OZxAOziS1aPQle_eExe5_vF3bM--Kal4fwHVHsOvQ4miwxEj2KEUK52JMuZmFnWRqUd-dkEF_6Ucolty0bzhLri0_qTnYz2oTbkdy_vol8yROigAnYwshfRJ3lAYsyBkyIr5Uu5FXejj6ZGLf8kmsdZQ9kTdNcJUrWBvJkbq6Ys86vp-DLf18ITNJlJ29ju4VhoMFpJTEUx4N1Obe1scc4immL16FMm6FUEWFHEodAa3PZR9Tfzirvq_lfO0azqfqTaHV-jdy1W00)
 
 
 ```plantuml
@@ -4268,7 +4244,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf5bc21c276be95f0a90e554b784044f1f6a2a2f584351de05633c3792c19fa52
+title Txn Hash: 0x55388cecc09d1dbd88bf3cdd22c268db2caadcee89134c483af814a480da0174
 
 
 actor EOA as "EOA"
@@ -4278,7 +4254,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -4298,17 +4274,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x580166cad5d72574e69090ac972122F1677D982a |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x75a28e80371dfb5f393454a77b588b0c69ea0219334278a4dad0a9410fd955ca
+##### d6, tx: 0xd4f6b83b0c78832477429039b045b8d258675c1c52637e0381fe2ed698d20598
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/lLPHRziu37xNh-1rm7Rhrfjinx5TPC7IDjbwmB0X5-mUjc6WBIKLwiY197VDslxtenqdbtHfkykmouD9KHJvaIB5CFRAEZIkdEQCOUaANKvJQPWzLtg61gUGoudKuWYpyuafIYsEYxmmy6ZG7_IF-unrh9ldiikW_fr95DB0LRC4U5COzQtG3lDUhYPwAhKZYsEtKXZGviBah3IpN6vi_AM-IV1QAzbx54Bf2NYy4TtKjFEY0S4Q_wVQgicPiv3EOMJAyPZiCgTSBc5qgU4DshD3u9THY7uiOnv4dXYduJX8WbROmYXAmpXEUTPE97BVIuAWvKSnjWGAZadBusEHX666Z5AMEOBUVzS3jB17T8zHsfpAr0mfr6CAGbftP2XzqWtbH5bdvc-BxFmBz-eZzsfi6lkp51CvB7AvFBiks5IjX7QfjbniXJQIE5rwlONfrjOUOtM0SD1z23OyUtO8jaodolKlC2_HgKB__ab_OfscS9utj7lz4jny9e6encbDgnF4LEhNWCRW7Ax14PXJOOdx21vythRzsj3btz9u2bV0_-3m-k_-ALNBGxYhq3QoMaUYR2tRCG0XZBGLBCmoQY1779LUoiFGY-81aHEPXNuGyCmFC6Z7KlI2p8_zA3dk7MsFOXDY1NfrnpNWCxIxWQLab5c5q90z8bUGIZJI7C9RdC7L3Tpyoh3-3UBxUpWuE8IXTANHi5jeQL7aXB6g5REKFjsMoeTAv1S1-O7AlAClcnhzWBaIexfDTWDMgleM5vr6Z7Tl2ts7ul_DtHXp-yF9kppu-CX8yRc2k7Z224ZdyLSqciP95phPOgYHJdT_VzZ_q1-EVjlVxxoevTsxm5RjKesZ6j2JKtrHtK2TFr3YoHASa3Gar0Kw-U1hpnR3bhrVUwU5TAXok-R-X9zmpgjSqKobzvgOoYxPTAkizPRjkJf7SAinHTzB9ut6F9_3kwzQ2kZjrC3hXkyVS_Vjrqx3c7ljTeOY594VHYtPJdZ2CKiYt_FzWTUEefCazd7JwSOuN5l-XCdLs6pOdp1rntZTkl5VtL29D8N2Nj6N_hlz0m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjRzCm4FxkNt4CYPV1m7bfaawbekqo6182bGe-049Ex7JMKgUodQrbst_dagQb7TqcYkY7sBuxtprtUN9NGbuRoxGj9paXhBI5AYU9qCISIJLbcaqW5sEXU9-bPsDTb8eFYhpGyF0uFeu7CI4TO-Uvw1AeVwU2SQ7XiZa2l2sq_5aeo_9UBiTg8fH5ZvbT6HoZSk5oMkffBZOKd-HF0Ow_adrad4ir1eSsekjwxRniG90c_eaoSdng3IHp6Eaooz0liTBc0aOp1M-PEJq4EkD-5YIHbz0qZ2BFzSFGTzlKQoVKRoKHTrjH4BPI9ssvWHSAwaLE9bp1WpRgQAiT4InPQX5w_A47pC0Uhdi4osPbAgSCKnrW4iBOliRo2JiKOscidhylqhCVrAclt6cnwUnToSTYMEHYUNTTi6bQ2StIR7dO2cqas6GPzGQc6wezGke4uQ1x7snuzkmGJ9bCf8tFMLuoAmlrv9lwHZeDSPutQ_Vg5TZvL02kYatgjRg1cyhy2fZMR0vNO17C2JUu-meEVD-cVgFnvT-mU0gNG5zGUFCbFa6st8UxIcsZgdKcqjIo7HFWN0jJmM9fYX-GnHsTqI3s-su_z0Syw7jHJ0UEvuL8mgZTfywH4_RRD7MZU7iMcn0hqAjtN0C-PMOti5YCCgqGQlI7ooKaWccX3-4zcyBbDLp_pxH-9_7dUpWuE8IXiALMi5jgIL7aYB7YYbvAdsuhvItiRvZmcUMIZseoxeQZb7Mj5dp6ZNCdKVz0yLyhax7St5QQsS7NXrhmxnM0HHl0k9r75qmhRCbTwAIBmO0stVtzOVmv7euUxEztNjRoxctOAifLBRsE__X4dLVrhQi3aZzUOk426wqyPrRSx7hhcdjwALcCCl9nhGjoOPdCpHgm8tf4AQsAXXCBko5kAh_eqwxArrkIVtKF4wc603vdLcZ5ydmE7owKuD3RwVDOTtpt4BbBNmUDGoVmUb7R6sIynpBcyu26BOy6r7UJA7G7t6FfKP1j1jqODcl7Vt2v6ahDzXzStJAyjYh-DWnIf24AUOrF_6Vq2m00)
 
 
 ```plantuml
@@ -4330,7 +4306,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x75a28e80371dfb5f393454a77b588b0c69ea0219334278a4dad0a9410fd955ca
+title Txn Hash: 0xd4f6b83b0c78832477429039b045b8d258675c1c52637e0381fe2ed698d20598
 
 
 actor EOA as "EOA"
@@ -4346,42 +4322,39 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | false |\n\
 )
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Invalid team id' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| Roles_01 | Roles | 0x580166cad5d72574e69090ac972122F1677D982a |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x580166cad5d72574e69090ac972122F1677D982a |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| Roles_01 | Roles | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xE7163A893CfdAafa4d6075306042b872Cd3acD6f |
 endlegend
 
 @enduml
@@ -4390,11 +4363,11 @@ endlegend
 
 
 ## reverts if team is not approved
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L164)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L164)
 
-##### d1, tx: 0xd99f76a0a93dd727fbf98de2ca15f8451e3c3766dc1bc72751400854b6c4acba
+##### d1, tx: 0x8595f3229dc7b44362f488e18f39d3d9f3e02c9d2a9092226153badbd9d74bdb
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtHm8IK0TQg2mzg5grLRQIwNASPmGDJZ8SJOexV--ImWq_2XeHPEc8OZjyzrtznqNdmavIpLJEXl6XB1C9p8RUaAHz2cI8wRO468H2kbt67yALP99lvl4YO9F_Lw_r-qHSfhgIIpQ18hFG31VA9YMIu2BH4NFYTGiTkCeb4CXDI86Ug7GnyqPv2XJerWiRTn5pm8CSo6xORuVoH0CMefUY_7qQna4AVrVoZGA1pe5RmBtAWi2n2Kwqh60-x642vOEMa37VhCPs1QZh5dtVRjc1rxGT7nHuyne18xPC4ITrstByhdXSTnl62QbJiFqB6uoxZ62AUCQG-zTky1IEC3nW63QTCIZ4KEgNIGXKjrHc3wXRqKOfLfDhXB-z4YDmcIhnaQmsoGMLqooKAWLaEMTPUDh5JA9wLIvqjnkLRXiaWlJkUfyiQnonmBqg0TphShwW90Y7t3ItiKIZezRm1E9iYpFv-4HsMLH0LrXNO0zOg4io1q-o0ToMbRivt9iltm3FHa9m56oOJ7-P766arpz1H11YJG5d76EXQznHiUMQRgrVerxJjVcDUPvlCVilaLhVgzhEJxrl4RNgRFE3EK8fa2_KFZ-etU9jVfUn3cPjR_YN-Qn7cnEOL4YHUZezsC1pwe0erI8XyCKFC6KK2suOYEOliBhtwJsHcATqe2b_nEbavCMt0gTAGaVe-KbIOpnuJTWSLgAZrOTRYWMTFnU4RttYXGcMzwVwicpN_rbKP5rbcT-HURXpzYSv2N_EuZibVGob4eaM_EownojvdNROJixodDjChiHa9jA7_25Pb6SLjYSqtDAQSu66p-s1fpaNj23Nl1ovyM-i6k_5BqKdsCjb6HnF87hNrBuu7xeTQW2R-_5s_OBftLgqxeLsARlkFM6MxSejHoZwzOixdNSfcltkTsr6vkThlJiJV8zdAprzXNH7j2BEq0vtGEgUbTuM_qf85PUMN_a39zuR_qD)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpNdfIofMKTfqy06106bVa90JEsb4wbIEixKK_likQLhI5rgDQjAqgetjyzrpzrmlFXDobcgcT3QC2M6PJcGsz8GYwLCaHqon8SGY59AVC_yfL4acUJU94mMV-cxVxRg4dAPw4eisWU8p48mB1TDo2N2HgEWvaPh5dJWAvL18ZOY1NYZqSNC6EShKA1PB6tVHim33NiXk6EUH3C6WfUYr64-_ba6Gql-bJADme5Fm9d2liY10NA8Z7Gku7qkuOEcW1NJSh3crm39DX_iDpxQjkXdOpQOmce7bS8ixWIMewJlSP0vrJDEi6pNBOzpZ3c_O7lS8fipN6BfxtG6MmW6E1mJJfYC_6Z6asaKI8jNd2jCdzAq8erIhoLNYFprIep3Pgh4Hx3Q9nHMJB1Hg1MHvPzduMeLCOZfLhZItMnKkc-J2TAuwNoohtB40FUh1NAkoFY2ao0USj7UnXEFZ5lY9H5cMv_FmYEoog82ki2x07h5G5kGE7-G3EIqhzdCvjb--WPwC1E0esR0OVx8umqck_WA8e4IQ0ivy7mjVuuoEUuxjUcRViEjUX_O3ez7lTBWj6ex1UhRRSqoFMrQpKPkX7C4Kw1SAtt-ubrYhxqMSardxA_vb7kl1vXGM9LA4Zdu_5l2i2Z1AXNWuJC4JJ0dLWYisWkahlFvDQcyarYaDMFe_KJevQS6jq9cIy35QNfB461z-0nQdfVXerU66Oa77xnNHUwz8ORBb_QcUFFlLNnOLMMTvvbTa7lwCpKbUyh-3o5v9BqEfHB8rBxlEqMfUjnssiwCyroQp6m6vgVG1BZIBuhJ2faTxbDAS3JP-R0quoRsW1xtWrPaN-yAk_LBqKdoEjL2InV44hdz9mQ7peTUX2hoz5s_RBvoAFZS5xHgk26XWranApMRFEhUSckNN3OTQlkjvDNUpqvMUlKc-XvErthuYsWDwSGSeftj0LUyARwi_1SJAA-kFdE4Jxws_0G00)
 
 
 ```plantuml
@@ -4416,7 +4389,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd99f76a0a93dd727fbf98de2ca15f8451e3c3766dc1bc72751400854b6c4acba
+title Txn Hash: 0x8595f3229dc7b44362f488e18f39d3d9f3e02c9d2a9092226153badbd9d74bdb
 
 
 actor EOA as "EOA"
@@ -4429,21 +4402,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4466,20 +4439,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| Roles_01 | Roles | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| Roles_01 | Roles | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xf99ef46bc30d9e9a8f0d4924cf1e0df329ffa7cc1d468f0abe09108377c149d9
+##### d2, tx: 0x49f5eecfc9437802c948767551b80bac61a5225e5d27ee126cc5c6d465ae876a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBw2DpMb2qbIi8Wtju0616D9Ua91ZEsr4wbIsixKK_lTTqhI3KduCH1Jbd3lVTzzTpgSGSc0iqxOSvuImqXQg72TI4tETgGdJR0ov74ebUenV3tLHAX4NUQ7Xqw0_wCTzGlQDdUMoIw2-Hf89gM7Ul08S5JgxAPHbUPHdGpMMoY9YQbSR1cXSG4vAFSdb0yFFx4Q2uwrqPqo8J0t1eOtghfRxtneIf8b_h4ms75a3oGmkT9ccY4jiPdC95rC5HyoCEa2dQHZArFCJxb8Hof2rKogyiENnr95Kf6uhJ5CMSEu8pqSRIoGD7TfsWu0xNYX2WYNZ5gdtJoDW1hPGRX4icyruDc6OQen9I6Dx6iidxRaSPiRgsKd1hw-eKxiyk-CXsAaUCeKLqUT5BfV-wyg7BfNIBBSkNpPIl91il8o-nctDj4L8dIZiTb-Y3vy_Tw2OIDKOcCqAjRr3NdAha1ybLeDbPgNVlbINPBzfn2-DxDv-1pkRI42fsBYMlrbUugBQVWlOGLeQ0xZY7FlPuefEVS-BMeCMJzfnm5iiINYV1GEVjaG_zjk29ibUt7PPRu6o0tEWNody-DK_nXRSGBLAO5NkclY8cRSHniAKl6Af4G_571B9jDGTE64JcD_1tKUczY-9pTzaTxS3vzAMMi7RqakA8aUUU6EUZNRdgPA-r3OVHEOLtVh4KQa__TKp9-2HmolJV1MfnIcjTfF552Tdzmw-a9PbkRbNfKDwI2cjgeJ36WS0Bgee6C6kwXKjcspbrxsjvny-frPgnV9y1gT_b1GGlQaDxmC_Fp-VizT1NHfGrqy3JxGZTozoVKhzjXD7BPydlIYCWW4Fuc1lBUYZERkcUWVqQXutotT0FJ6tDnh-DmosIjCmv02V-7Fm5m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJ-9047xVlsBYlMZklDkMbWBnY0ZbzC5eF9DxCJ7RTbeQovRiRkz0z7-_QIcS8gAdaH1cEp---MOwEu6nGss4CiKuOqmK9fV5E435z4qg9qA9CMIOe8oEH7YJgBoGKJ_FSWMVXlxGx_kC7MWpox3BeFgCK4IeO5u_0XpdAhtDfH5PBqiJEKPf234sAuSX6HUGaq9DCdna-9dU8bZEIdSkeYYL2LYyLjrNyk1RJOBL-K-aJfEHqH3Cu58LSKoupAGcGxYSIZWMUjG1FdNQiOiOnc7RQNWjRfDiUKtFTQsWnGCHDYtXshQBRcHxY9RT34CtR4PEqnL8Ze9Hoq93rFsp7WWDEoHt6BNDf64w4LHgduf0ROuKjG_D1IQfDcfsceStrzogGhPwF0OxKucGr15raMUuZ5zNFWufbNhfkdpOIF4InNYPVOtRccc7iQfGsE--H1y-V-v0Fa5P6uH9SxcxnruAAv6V55Q1fNgbtxsIL-oW7iGljUpUVGSpco2Gb69SoTyYA-XGkjy1JP12hO5EOKZpREZ4fuEsumVsq7AQGOyFOyiRzdgHWrxR4WF77xJj86eqMfwxGDc3EV2l77xyyaze13TGBGjOjRiYFXBwROIfCKLOibI4Hs8E0Gg5gWEdOWBpUxZ_oDB-5R7vdUplT-02JQ4alAsy8CypuabVghFMxZtNqfV6veF8l69QdxagrQk_td83dWIyiinNaLhSqjARBROuEtzmyICq8itqWouD-81pNdQ9bZKj03gKMIY3MVMhjnooLLpthjf_z3irgAJ8iXcS_P4OGUzDO_WGUFl-t6Qlak8mif7tBHzZ7jkkpRdT6ZIE6cstGSkzpHkX7mIklvRqoPvTKxq3UhMFw-Cxe9xPsniD_vk6HgKU67P8l_Jdu2y0)
 
 
 ```plantuml
@@ -4501,7 +4474,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf99ef46bc30d9e9a8f0d4924cf1e0df329ffa7cc1d468f0abe09108377c149d9
+title Txn Hash: 0x49f5eecfc9437802c948767551b80bac61a5225e5d27ee126cc5c6d465ae876a
 
 
 actor EOA as "EOA"
@@ -4513,12 +4486,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4535,19 +4508,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| Roles_01 | Roles | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| Roles_01 | Roles | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x6c604cc40659a510dc58b162edadb2fb4a800d096f185ef521f20084ed8b68b5
+##### d3, tx: 0xf55966296d1752fa700615c06328405ec3793c36291fa370a1664abee41af22a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vgH96YfMaOPqy81036alICXsd3OYTIh7sLeA__ikQThngwM0YAASSxQ_k-_o-HH23Wl3j2b76I6iDBagHrngKjoaQimq6q4c1rB5FIPk1ZelLHpcMQxXIp_gHs54o45Xffdi4gYleMInr31hNW6ESvtUvigmBCZIWHf9PH0nCSi5VPoSGuvBFSxaeubVwQq4ordwpbaSfse05crSzxKz-DuaGPhu9wf81qDJ09_2fIwJ1769IKqcuNAYu9WLmmxGYISywWZXKC_TPwv5O-7wtF9i6REOsmbtc4zfJFUznF9TcRYsbTYK-ewCVUxvt2LOCc4mzUWi05R05jejWcKpgKZ73Ac6I48MfgUnVD9So45Q63qzpSNDDRNgBMjNF0OxqmEci2Bw8i_aOlzJv-CjbRDOB5syR9BY-lHg45BJXRtkQoHWTxS3-LYgw0_BIcRIN6tlaDSsLRZFoDLGQR7qRr-fAtBGYF5hOxjtFy1CnnBGAZQgRHKP1zNoEq0LQLaKW2CXKDC6HwW6nmdilYsu7xQ5pJWN4MltFMh7KUZvCUNS3VqMwyrHTc06z1k5dx-Z4vJX2wbM19ObhnCVik9z2MDXIb5bgH4FpGouP5hg3fooCSpkuVupgVqdyV8tsTlhm8KqfLRmFdeyppFC4s_asNXtLfNqDTbyKZ8Rg7NrMQc__lMcH-0jL3TAR7vEgzLatit9-OC644l3qgnuKAaZUaGfhIg5JHkx00wgA1Z1B6iMB8IstDUzg_iWFYT6QiMoR0fdVvMC8NYN51y2h--Zw-Rhe2tQfYqlQJkn7xJSeELHwlbM6DYUuBrWFsZtHJjikq-2FkktJrmVW5xsvMRu0QZL_NlLt5k3eM0QsP13VEAlmZy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRRJjj047tVhnZH5n2bNL-38neH4hlmW40KgIz8Q6sF4mjd7QtNRKBWtpjsd9HRGW0HHPxrxEoPSyRZaHaxBBHGkXnbZ8bIvx8SXQXOSPFAiL1Y11aEKCP78hePgBoKSI_FSWLV0Z_mUpvZ1uMUPjXXKF-6A69KC6jk0OvpbTxcKekicwK3EKAf2J7Hou20DkUGurADCtoqyIkzHJ3ifUzSn74g1s3mndLVsuFl3GdMv3-HHJeOwWB2ALogCaa8b-bKPmYN4md7eXYsWKyIn_5Sr_JSs6WvPY9QdBk64t7NClTjxc1ajJmhiYZ2I8JLui9mNLk4YBOX4jCKZ4eMQQBkdtL15B15TejHsNGQfMD1Kdia0WjzfAXyg2zma1PQJK_pwEQQ6_MHjH6FmSxKG4YgYBh8CroSV-fyVAHo5elGnSqc5DVJgq5OBHVsEg-9WDtTDkHZbFuVaPL2fxdStc6l7QfmducheT9YwT--abVie6d6hutjtFq0FHqZa9LYLDigCosgy3kWBb9O542hAAAUrhJYaxvd-w4P6BORTdcG6AsWsurjR7c6wDj-tpF3sBBsMyuSPGTcmBzn-FdRFw4sV85g9M1PyfhuK1Jl8qo5AQEAfI8yCZC8KIXKRJWLOvZTm_rdIlilukLdihVNXWlKfPBmFdbXdcV4a_wai_7kh2hfQstpIMGswDRLxqhzzAytVGNU8dKZOlFtj8fcysdEpXyCW1YrIBFYGQNwlCyvhof5Gvkc02sgB9H1BslMNJJQybpdhfw3T9reL59asHJE_agCeVkkLdm8l7wEhjklas8GcyXxXey9Jqp7vDpSxrj7bkTOaMjut8hyC7Jy9qcVpTidhWz0B-Toi_m0rEhvlMhlhSceOPgsOOTqfK-5Vm00)
 
 
 ```plantuml
@@ -4569,7 +4542,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6c604cc40659a510dc58b162edadb2fb4a800d096f185ef521f20084ed8b68b5
+title Txn Hash: 0xf55966296d1752fa700615c06328405ec3793c36291fa370a1664abee41af22a
 
 
 actor EOA as "EOA"
@@ -4581,12 +4554,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4603,19 +4576,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| Roles_01 | Roles | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| Roles_01 | Roles | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x79a9d07f096a64af16047ef1efed6fd9e7b7157ac4b3c01aa881830078cb0e97
+##### d4, tx: 0xc7a2545076c52df907f8117c59175cd8b0891d1b6f36c2158df01101071645df
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTHRzis47xdho2obnLTLagoHJd8WYgAtNP0a28ji9S2nOcYP24oPL1K6pV9Vzz9aHr9YUqqRh3Ci4NoIDxTz-buvX7ojZ2WJJdB287IvAgSXLAJuY9LSz0mevbCf8gEGLmaEYzL5EHPhkbla_5a78m9EIpC8fD7XDQVgOH8QdhL32bzd-lqHwuCP7wM9cecbK6DiLajcE3ahSfvgUUPx4nyIdz8QWrMieyGHQbAgCKQqKtT7hvfd22D_G-gI9EfAMYue9zr6SUebvZKP99-lbJqFHJJ0yek-GX64UCn6xdW3Y2sN3RWChPaB2CtZaQIXzmQSX23q17C0l0yotCOuvu8cHnnWfG9WwwFptmA1Tt3TeyWRIOLwHmGQe0WP66EDT8dpRbCqiBenMakBhuogzwoSKLNsPbEG24Z-ZpFv79_NzZTKWcBvTBbu34kRdPldPBAmYaeIAJkAUZET3V_NKQ9R6Dg2xfBFq6CQinqkR8rtYEavf_k7srZbRv-VK0nb6exltzHNyXX4yz_DEtHzL_KBEQIOgjWLhVV82knKos_hdPhMHGKUqBWiJ3Omu0AsN1eSM-2pOaKGzjncB0TS5nFHhuZRC_cey0_ljNoYbvHzYUZx_uPVy18tkPqXUlUswwXfCLA_YlHk8E1Rqzi4Ne15pQ4eHW3dxZCZiQ1wqKi38U1vy0QDFTThG2iOh1sV0h5qnn6OafHUQbH7pPND9IWfJwWfp2dLpVqvZcXtO5u-9tixn_GSsbAhUZJu8Lvdg6V-4MSZVJLEagtXSqpEVE8Q5sVFEgt__N_SWJxW7h9x8M3wNjR0Ubas9VgVzV9-za3RVutsMCtMDtiyK8IulD0-eMv9uQik4i-NOEzG46Z3mNFkkDGBzzmLjftZDtYhanhjg5Yl2SByMSzJ6x7_XOWEv7TkDBoP2Clct9bczCjoNJJ_zQZ_cLkBttLQd9Rgv2FhHjZ90saMT5YuuITCCOgDh0amKiaTYehQC6iUF6NXsIrx-YwlkNZyz98hI3B5lJikv8HzPzqhsWhtbmbR9glZJgCCyUD-I3oV6VeEovZhcS5lksAyDWV-NmYUC27FQFtgecUQ0VLgwgZwUwWQdrricvkTsEzAkOX-Gv6EjLEQxY3odPLT3VwMOLuSfhpGzxYivnb_m80)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBvisDZilJO8OMb_IZKa814ZxCcboOYUDI9tASJOwuB_l4jAIXBPiT6YiQcFxRDyzp-LyzI7q8TTCwMAQ8iGAdSbY6WY5yej4pfXYKvoAM4W-OE55hB92yc6MPWg_6FjZV-WZj9_hUIeE4Au-4y6uKFYg7cByALF9pqngblRJ99PJ8JLeZFHomHWcRrNE2ZLBHMlYBFafCBMMiXF6UI9ZJ4ajkgdQ_NSr25JRFvHv4azqZeCvFbT5585Uf1ET2dn-AV4dba_sCBaC7MRObasSNcWRFFA84xcKEg7jKSSEkHiGrwES1ht8x8K6jLqU4Ke99GxjMJQF4BWir03TF-vZbkCTQ7SGk4qdOJ9ZG7K894Ik1mhS9_IfY9DSg_bH5bvy8xJQid55MzcnYfa4ZwZJB1MB_LrXUqifp1TB5uFVWRWPtZebfOKZ9baiL4T1UwQz-NF1Oz7ar1Iqbvwn2DJeoM9bOxo3KEL_l7lma5VnwzTx64AfilFog_oAzkjuVbEt1zVliPxF18PMicdLVcTf0Pro-NMvMuaynz0BGpWM6dhaalHyQs0C76l8UmFJzScGcgRZceRh3GWTKMVWaT1m_Lijh_0L9cy9_lZ5FuH8VWXqoUlUswwe9FbI_ZVPZ3pB3umnjNf1dumZwepxVMu9nwDiPFaZpmYuQRgElPhDVQWbWMKCLi0dB7ySO71C4POe5UY3vWe7WYcXzl0Hc-6h6tppbDJkIAn-9xkxU_XKw499_3XwGPQbW1E-mBEMlbhdqeV2ved0_4QqhayUrTl_zhySmIwXJZ9xvcIwQ4iYhGpxNF6tGTxF7c3ptsIFxMYriySpIOXFG-alvfw8fVbTycaRx0GA65qLFEkEGxLymrbftZ6sYxiYgRpDIeztP07yw6hdjkm_G6GhPzTG6aWs-cLJhYnzYcuh1tJIkBzneLcIvWri8p8YX9JOe420AnrqIiMWL2zHzXSXkzntS5tTkU5vgOMIB4td-FY751pt7_KltrIy-Sw-QRuoAiRS471yV16HoB0DGWntP0vCppR37lM86Vf1OFiTe_VkzXtH5ggNDK3TtKBL-bfXtTpsnZernIhv5aPQjKTZk8NAPeroD_fJXN1owlE3Fi0JwlDV)
 
 
 ```plantuml
@@ -4637,7 +4610,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x79a9d07f096a64af16047ef1efed6fd9e7b7157ac4b3c01aa881830078cb0e97
+title Txn Hash: 0xc7a2545076c52df907f8117c59175cd8b0891d1b6f36c2158df01101071645df
 
 
 actor EOA as "EOA"
@@ -4651,16 +4624,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4672,25 +4645,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -4708,28 +4681,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| Roles_01 | Roles | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| Roles_01 | Roles | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x22b4b1061bae2c06d00212b08db93f082f52f5e38ea587b6257eccca47338760
+##### d5, tx: 0xbe199240d4a190a56984a945cf225d3ceb168234116e678983467734baa4d8aa
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLTRvim57tthxZgNZPjtGm4crHTL9AGjGzTgxRINYfDnfW4bHXap9QqsN_V3IKPgQP-RGYu-ElSutElBuGSLLOOMyzpGaHj2rtFOsL8TPFfKXWnXrnDbKw6GjvCJL7hP5JaXO4tasWIZI923YkxpDM0G7FDb4YKWRks2N1ScEosq5RaOPvDzLnfYuYftKwOuE0zP5cRCbSx0vVPhGAdj-qx5qcIwIaujEtwrTZ3Joq9qle_qLKsdTaAuYLScJfD4PVOpEOAhXOQZaKrEm2wSDsu5pkKER5GhgGieTHrt9W6ITptKXgugO-tyW8b_837pFMvabAA7lUyW3DAK39faNfq5eAeO0_j7a7PR2QpKk1MHxW9LTcXGVcKlL3JhB9cULh8c-_KQPOyEcCNx5AawbJOsMPffxr7IECSzWTFGSBxzmTWcavbhfIOlxtMr-Im3UY7rWvMdy4kImLejPWtzeV8Q_nOJr-XikW3Lc0HuMip0GLbYZaiOJvzvRK1np0RLMtWmssBBePnVv8mtX_BgE_sV2UCc0fT6OPZbpCUC3bcNfy7uY7DqXHbKObyBAneW3ZbBaivnST3ql9rLD_17T2F5BvyYqum6P-IVXsTRjIQME1cNnU2EiEaGB7M-tdG5-FZ_9tYZlzdfCl-_W5SA5iR3Vz4iyFeMJhTf_F_Sxw9627t5OsSTuvMegp8ygg3FwPZZF8Q7miNdZRyM9D6mdRhQPkOstM3LLCByBt0qwL5dY_XxATM2OHIOlMqBqpYBl3ZjUInySQfHpdrCDjxIH1wVkWnIbdWZ4ANoNWOzaC-aNp4_U6kqsxD-TDwAI3AtOfEZl2DFvlV)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRRfj047tVhnYbBwtQjBlS355gnS7Gv25Db4JgIwHgWS56mOkrBAsTkF_UCRuKHrLkBHBCNi-SFJCxC7PK6wbDCoaPausfL3D9KBFwjb1JgUK4IXoXoevbUZlILQEoi2eh3M_YA8x2YB73sinBx3Dedp7A33NShxi09vKkxYfbP3aeYv6Qe3A4c9ljWfWcLv3JHazBt9cuAkuGXBCTkv1PLgWH2BuU-jNQmqzh4cpj_rJLnMXiQaZcSAsRF2TSPWfJ8bpF59p8Udm0V9QW20BBuPaZHS2bwmM-8mF7JNFBSZCxnKHulcKxGdZezVp0jnslrxETH4edywLa95bgY7fqFW1PmnxPFKQocI8jffAE6j8Xi3R7ckH3SucZeZPwVbQbjz-vQBSykc8Nx4hcU2RDUBErqzzZh7KE-_sd8E7z-mFGxI3gQvIJjpVgXXsk0_fXRVkBps3cKmIoIavQ-qEM3JMMonUaBFc01HX2-Dek84599k5bdijV-Mp0ASmQwmtyODlZirvWMw6mVJ_EtSWTXDpBm-70YGN6OkZxw0-5umSaq0EQKrrDgrgMGsda2eZtB2_lqVwUJQJJrr5z1_V0FtBuyYqwfMHyIlfbTBfHQsD1XtrT29g2aeB4MfxdmLX2h_WxnHt_pqYN_Vq3k4JJQ0N_HBF3w5awhTBv_pdVH8onLKLZ5vshbQ6HHLbty8TyI55UubFXejj6ZILf8cosdhQ9kTtNNxIrWBupkbrAbkKSpdygp62GfbGzpGkJk0lyU2rvRBvrYd5c8Gz5X3dFBTVYtFA7zh4Tk7RgKVcpqoX9YCwkqsxD-TDxAI39lHQT7T6NVZQ_0G00)
 
 
 ```plantuml
@@ -4751,7 +4722,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x22b4b1061bae2c06d00212b08db93f082f52f5e38ea587b6257eccca47338760
+title Txn Hash: 0xbe199240d4a190a56984a945cf225d3ceb168234116e678983467734baa4d8aa
 
 
 actor EOA as "EOA"
@@ -4761,7 +4732,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -4781,17 +4752,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x5f245b1fccb39566d0b9ac91dce18ed6e391903756abb7406229fb8e1232d87e
+##### d6, tx: 0x4ef1a40ea02f641ada968b10e810e3aca0a327c42c734d9cf7c0f9dded623cef
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNVRvim47xtNt7gNZPrtMmW9bHTL4AIjGzTgxRINYfD1fi4bHXaJ9UqsV--2o5fqeV-sX1WVBQ_-_pT-I3akBB2s7gQ4o9gM-Xw6Yj3gjjCbyA8AUHghBJiY-HsR8fQowZ82mCVHiFHC1eISbJPUQvw19fheeHK1XxQBi19ORBxGbkHXtasrbEbBIAcTZDXX8ChoB8sPQvs1gwoUmNCszWkX9IP7WEZhUbFqnvzRKcGrl-fhhBnn5OGp-7Qr6cAkCHcDbTmFTDm8gh98T1P9tMyJipI98dTeCEvf74Wae39HB6kabov0GkewtUuY6FVeznnWZJkAkQuZkpwY4b4Of7wy3m4KS4Ujdi4PRDPafK2jnhX9bHb-mRbK_PIZRFAclbPaTp-egnPykoCNR0haQepOIVhfLlzFK8Qvt3GUmaIzlSFmJH6PQwLc7wyqJVag0tevxRjBRw1dPSAiDLYshHt8g_nOpbzWSgY3rY0HOGVpGGKb2lEkEGT-ivh3OvXDgfQmuUR7ftvZlGTfqyT5hlHm6DUuhaU3QJWtNuO-8prUUnJDtfAipH5MLGY7mWhLa3KTtZgKtnS99syZ-edU03wXSBtdyDJJCQNf5z6PpjgJInmi-yBGPrXKg1O-B0djlZHzfJYZlzNfCl1mI5SAbiR3Vz44s-dPVGgdLRf_F-Sh-KWP5NHoCNMqPBAYYoljl07T81HNk9ZuSBJXXzBqaZORZnj4dEphhTeQW6-PtYwjCZpEPp_raf2c2HOFUqRatWR-FbQyjnuuzIb28dPxibkw7P2brFAkomA7Px4w3NqHuaV-Pt-hjFjclFOUoiWojsAJexnZJ-Rlm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRKjim47tNL-pGbtOehNnF69eX5wVmG660cRumqr6aTUB1aJsoJ1D8_xqRnma93znQJsHPA-diqTdLXh7ZqWfZgsd6cAXihglf20qhRrDT22EcaE4OjUe9UJisUQLLFyzo0n-6yJ3knumTbNQUOOT1_KnGA3Jmq0m1JdAJtkVQYgoRfMCzHMq9CR6R1KEQN44MbIaot9cuIkyH77zZkn1AfNeC3czCV-h-w6j3WZN-JtMPZYUsXD4ShasL98JBR6epXEkPXXDHJWw1ptnC7E5p5DnDGjyHIhJ3riZXsABc2IcuyDn8-gwCF5-rPH99dhILGXMwdiI4aMJI4lNul0kYX3tgznZ9PbEP5eAEsgT3O6bxXkH3UudZjBHcVfRBsr_SgRSyks8Nx4eaU2RiPBrrQxp7MEqS3ZelGSB-_Y6OseZc6iNquus-OKTDG3ytVMVn3UoyGA1UYsdTtuciee_byWKfIpvW0POGVjGBID0GGoTKOS3V-Qp1ASm6opLyTpFYioYAMiDe96BVZNj1s-qgFrIS-rwRjoBkyy2Hd4SOFwLPcBp8Iv4DX1Kh81wvOH9nQXwHbk-Z-WaUW7_XyFrdV4h9-9Bqo-XiHwsE1HtsVI6eKaeA4ekQyyGsUhGzfRZZ_nNfSd1m29TeAwFXdsZIpsqOlKgdLJh_F-ThEHXRLJHsiNMr55gHPkKM_e0FACfBV2fSTDleOqcQ2DkDfqrYRlPr5dKjeFUCRfSMMJQ7yzyQ5NIbfEfftvZ4sy3FrvBdvckdE5GkyhuJOy8JDt0vTri3h-Ur0q-6JfjxCXwDWZZOTRfTSnv7RmKakHlHsJ6zwS_cBm00)
 
 
 ```plantuml
@@ -4813,7 +4784,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5f245b1fccb39566d0b9ac91dce18ed6e391903756abb7406229fb8e1232d87e
+title Txn Hash: 0x4ef1a40ea02f641ada968b10e810e3aca0a327c42c734d9cf7c0f9dded623cef
 
 
 actor EOA as "EOA"
@@ -4823,7 +4794,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0x72d722B021b3CD414c43409da68BA9711B6b703C |\n\
+| address | teamAddress | 0x7778F7baE42EB592Ad46d0043908704051c007eE |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -4843,17 +4814,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x72d722B021b3CD414c43409da68BA9711B6b703C |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0x7778F7baE42EB592Ad46d0043908704051c007eE |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0xd566ffc09d82e9597b29433b35399bf282d9de5df6c7ceb19a3c1b2a7f5dd82b
+##### d7, tx: 0x09d53d9ab401f58583bd7153245ecce2813737a95487d002bef591e9fe0bbb31
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLPHJzim47xthpYn1uOOcviqIODOHHhQmGC2GRMz824xTjg8DAaS1rhe_likQTgrNGUCQcEJLYavssVVVNUVcpj23ZFDbCu7CI4irscI3xXK9Bk9aY5JR02nxCb4j5XmqrDfdWW_ZLC5RphjJjjl4tAGwN4icmJANryo8HKyL5E0urH5zscYMUp5KIyPo4IZnL3FDtHGEJKvpDKmbakAo-XUGgq-NpjdGaH93sgqMlfQoeCF5GXI-Jz9igZNrndmCNHL7ePeb-X8nnAwemIEMTRV1peIbcs7OK1TqJ2aQxaEDzowQNBJCbsNXqR34AwGbWZjm0aahxdC36hSO4ve2Jp22QOiq0YzVUO1os0BvHR1jEaeY8OCG_Kn29dfbiBqINqXUr6crVWq3MwkQQqyykYEjSQwaWrc-rQihAYMZr-oK9uotP-TMPXl4L9YXxtcKuXWTtSVb1ogz5OMxjvU9LVaeBeExohPd7m4FHvAG9cmGIblMPpZeDW-WJn2G1FGQE14u81E5Jlm0FGzXKzVsYV8xLDG5j2kHbx2lFx3E7y0yHJ0AFlCuaXqI_D_7SAzlNsua3fN2RmC6q_J624LyDHiTMUJR1NBth3aLFmdz9ycz3MmB7xnIhgod6z44iF7M5dZ-DJMSxRa_pK0JG3pKHJG2KYbKdKgiuprq0Xipw2K63H-S7MK9e1_D1N6wTtsImBQcE8gW8M4hd7vsoxOEk_FkEa_BLQ8vraLRLg8YzrasdkHyuKgBgHcKPmjX7D4ZoYbHJZOOc5Xnq7XfQ1m7fWdX4AkOJ8_rvoKNGk-HrggXCNn6Cxk4Yd02mBiyuhGwSYkrpsZOmIyuJk1mJWFsipfsDGGRTzk2CgvvJTCrbes_7ZNyvY-T6fIXvfswDH5mpCjpxGfjHirtpFiWBSyrtCwWUCxrdgdgztHMiK6RXQxgE-pNpM8h5RSaaDyO_Vz3G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xPRVJzim4CVV_LUSs0D3ZCtvHHl4AW9D1my81DNsWeIS-D96f4dbED12zx_l4jAkxQgYKMbiqYebTdpszpw-I-DZx2ZNGkbYa30c2fsbnI10nVAxE1qA9GQGO0zJUIp2kvxAYbIUP4ccu5t7x_WdFcE7kHuds69G_Vee92fugXy1JZCLFsQf5ecNnBrqWAacnKZF9dJ8-2mvBDGmmGN3TVo8ODYpiKiXPPpsmE3rqFUgFVnKGx3Q_rcQnxs-pY4OGrSLKKIwJCSwGUYEKZWLUVy0-8Yxqh6aAmAR6v7JT9fM81k6OvcsWs68PjEm6bP3k8xTR4ZEpG0ZnpNGZP07GM0PZ48MQaBtBpmGEMnHkyKeR3eEuw6WhPxG9Z3Nnuh2X_eAUt6krVWy2-zkkL4jMJjZfLWNnM0wRqbboRIu_5f4U2vqVxfcxdcBiOeTzbel4S7kxW4e7Ahi7ajtxs_I6tPOlmuVwhOr-GnwF4IWDXM3ghqNIK6TSle4YfY09g19u4nIXpyRTk09-4SENxxvPvJRbr3cQ9TtNc7U_c7ENo1U0epphoA9PRUI_-i8z_OEu0freL9u7LkGPGaXbNXgEhgpIRJAOMzOvLJ-J-W_dT2tO9d_ubNfoejWeoG9kiobiO0kOtNE5lo_1T04A1xb0Je1L2fJvvZdeaSYi3r5gHWqVN1rdAL0VpGL9Td3zcisj76AwmtC1NI5otKl66FFrGkxd3i79MeH9_aSJfktEUSb3XKfT3HIfrGjWp03ywHK52sOpDQr9jMvJ_UHHfMA91d3nKEA4hmmf4gfHEUZjclxWTanxFt0uvt8Q7GyJzhOS0tHjlssQmRIifeDPr5uVTsmpbuvnOuqaPyOFaOyCXsJQfTcspgsNCSAzmsNMw4V18w_skboVR7Ii86R-JhavzFl2b9Mwzoo8xfJ_Ve3)
 
 
 ```plantuml
@@ -4875,7 +4846,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd566ffc09d82e9597b29433b35399bf282d9de5df6c7ceb19a3c1b2a7f5dd82b
+title Txn Hash: 0x09d53d9ab401f58583bd7153245ecce2813737a95487d002bef591e9fe0bbb31
 
 
 actor EOA as "EOA"
@@ -4930,28 +4901,23 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 1 |\n\
 )
-"SafeMath_01" -> "ContestTeamRegistry_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| uint |  | 1 |\n\
-)
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"SafeMath_01" -> "ContestTeamRegistry_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
 ```
 
-##### d8, tx: 0xe19be8a77ca53e2bd495d8fa4bbc6653fbefaee612d702106d6f80eac48a0ce9
+##### d8, tx: 0x9780893ad46d6ba82b29eac9f4c2e5ed962568905d2bfc3ec9630add62ce895c
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRzf84Fw-ls8kbQvjUhckCTWcub0T0cqgLQqurFlGLjNQEoQhc3LQhrDeal_UiJ4S92JfKKMzye5PpypEFlEo-86n5xaLnXQJb35Hs4mNamWDoy-KdWeZ9f3Y6BKy4l7Ps6I5bhqipGmy6lG7_LwViKvkvobs6LIVKnGI3LpKZm2lCgE-PjgAD4pLM4zGMugOs9N3W8oBaDF2J5FSCFojlY8upPNkdP1IwJ4ul5PTLRBpl0R1wlDFTAx6fpQ7Q0uZKoG9nMLMsHHXDDFmIkIdXy1dwBGZ38JlnwBbOYEIpNPB1ebeHb7iUIqtYJ0HY9xJa3vlEDoJNX9m574p43p6DgEInPQWzz-687BO8xd7g6nMnMegADKU9O6vFJ9KFhH37AlSclcRB3xxp9rgovqUcy5U5tACmop5vTvrnQPhgSoNRik7hT16A2RBKwzXkcRQOwnA40wwzy66PyyE8I-YYRBzSv4MmgfCF_ceFx9EFJX_rB9x-HVO-HI1f1QJIfOxQ56wNu8mHipX4Yo1EP4vhJu0Xq_Rp2yDDN_XuImzdi85y3yvlFodVqBJSX_kChMDgbQPgBpIxPY0b0Rp4fQ8Oxf0bbPyvaUyrNByO43Y6EDMmtLvt725wmKeGpTk10s_tGkFjcUn2R44lUfn1VXKvBk1fM8KSOdGK3mI5n2XC6WEuOsOmiKLN3raMlycSRCF1mU7C4HR60sxfHPbMKeOoranI-tJRQMyRqGU2CXtJEOjzxAUqVSYLN9KNPFTW1MgwkBYffNjlFCAtK3nAzUkL8VJgSdEyQSNx__VtfksX-thJnwrHAJvTy_QxE338uFoKmbnyROa89tVlmYZYRbqeHCl-1FvTFVtX_tt_U7ej_tzplDAtxqDRFdBN3AV2j3ZiY0q4g0p2w8UsyTBX988YbNdmkAzx88jo1rxjyOB95gXqdmDmp4_vfoN1ICEH_o05cLSYcbNfGkNhuFLFi9SqYBwdbaqMgJf7Dv-qIWXtEc5iHxuRbfrbxqwrEK-Txt4RyeWT5kXwt7k1KulR7XnT1IsGtyG-ps_TUtG3VgrzlW38LSqhLx-GAXRwDnMmtyzXaQa7XJsWhxfly8t)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLPHRzf847xVNp6NIjSslLmN6nmxub21E6rEgbfng7regzDwTo2hc3LQhrDealz-OsCuI25HgQgM1-zwPdRcczaFpp3s8dV2kcAICYOAbvbYag1b-QKsKs75158Ser4z8I_7DYkCwcTfPk7HMNmMzsF6shcRfzXXKFqkK2YqS5s_0hpAhFwI6IVIRgh7PeB6aSUHMncSaNBXSbhOQOeRYd_q5uH6SoLxAvJIPWmDNejkgxNzl0R1wlZd9jVZ2vT3CeUXBKOZyikSTYd2S6RWbSWlJe3FekEGXv4lL3DGGI92B_4Y538QDQM7BLHHuBM2CE8jvIKZwQEC0fyJXC2J64OjoQXaqX7q-4qNH0u7j1umAflJKay5fTgd931tFKlbGpV0iSwTdR_EvEM_l54TkTTYqzdVXHhZ84jnUNPTi6bQ2lEbsV9bAxGXYiaowXrCTrG7Z5K9mb7d8TZmxDa9v4KoqIw-4caXdCxCau_c8slNnFcZNZitVu6RJn5eDM9IhUK9sfJcDo2i5NEu0KTWpbLEkm_0uTCszKjBbx-mQ2mjdi8ry3yvl7mVdnDR7i9TfhPHrIeJdLUoFHDGoc9UmX9IqX_8qOxFU10tUrxlkDbNGSyFOzvl-Fvnw7jXrEEDqyPnB-BI2-FjMMn2B46lxhW2V27o_S1ICGfP8hJaZvPhI51Oj2VmMapX-XPkVsHQ_oVnzJqS7Pt005rX3UoNMf9bAM4ikMANqgVRIhc3_JKJtebKgs55nlrm5BggrOBFPT7k9UfNA7xTofJYxdHgiolyUQNvzIzlf-u7NUDF8T98fFak9isEFZoog3wL01RzXEAsV_yihA7Ute6sN4mOPDCvF1p4x-B1yBV3m_RpIjxPXQtyTfMpGHN_SPakNJYOp86eIVbu2KXHatVwIZYysqFNDGzqPhOOZDZRjPwgq0cTvcleJlafvxoi7Cq_r5jfK_ebdsvLm-xoKxewHzcK8mKzPmwj4MawXpUV3IhexlMnNNTy_qXodxuAYcVAGueKuuYFl9R7kHUU-Zq_QlaoQ4JSbt6IjEBMPj2DqMNjzJjShaQSUliThdQCGbiLtng6A58JXRsW9ytP_m40)
 
 
 ```plantuml
@@ -4973,7 +4939,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xe19be8a77ca53e2bd495d8fa4bbc6653fbefaee612d702106d6f80eac48a0ce9
+title Txn Hash: 0x9780893ad46d6ba82b29eac9f4c2e5ed962568905d2bfc3ec9630add62ce895c
 
 
 actor EOA as "EOA"
@@ -4989,30 +4955,26 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -5024,23 +4986,24 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | false |\n\
 )
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Team is not approved' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| Roles_01 | Roles | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x307036f74d8A35A3600681CA26cbBA9A7Fc7C75B |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| Roles_01 | Roles | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xeFd2e0C1Eef0f2520028D3B3953c61903cEbb5E5 |
 endlegend
 
 @enduml
@@ -5049,11 +5012,11 @@ endlegend
 
 
 ## reverts if grade is invalid
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L173)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L173)
 
-##### d1, tx: 0x649bb40eeabf91a1736d38811778c6ee5083c4b2b1a71aa2c2833f45cd6df567
+##### d1, tx: 0x4e81a8be3095cf1b9e9d6ed93cf9cbffd5acde5d1e4dc4107f2195497b711824
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CBIzDarQiefHqy06106bVaD0bSTA8rAaSPwCK_likQLhI5rgDQjAqgetjyzrpzrmlFZDsaYcKAXycZ66kKf4FFIvPzXYB4KeSGi8ZBe9Jz1yZcUOYwAL9Ak5Jt-sxFPUnuqoD4zvXK7u670CkOL8j0SvJ6J-dGc7IJU983BbGX1YgkKAVDgUGeroE4hwmSHi_Sz0RSzar1a4i8j2rIlHQZiTVgo1OvVz2P74qK1buOxYJUHWIBbEnIZZSFGaunspG1ksfsMXvNaFZ7BsmfQDkcyt0T1nTjst7Rt9kQOxfDpp3qz7M4GtVS4mpR5X-q0n2gsapIfclA7JtgWkOmHwDUupIfc8_7Y5HxH49dgbJIUdZweP7SQRa-3Br7nyqlJJPgB4Mx2PD-2KAZBXS0bdSMJI-aX4AIgSib6Psoy95aqAOpLHdYqMLMmp9enhCj6hhFSRAVC1HPnjBE3niWvyAakL5FlSFs3QB6kWIwnBiWGfbJcx_NjopuwfYFrTZv-KRgF680uq2X-Nu4vES9eNw2n22v5a6DFDzAdn5iw9a6bsZR_YUqxDz0ptFTz7kDpKZS7jD9z0yp-ev9fvEKGvW0jeN3Rx_S2-eLj-Bk22pybVyopnMWoqep4ka39tyVYpWQHLGb9BmQ9Y0nr5osOPB7C7a5Lx_9hKt4gkK1fZzJvIEZjfmmrKk1NoCbfUc2SL7tn2Jh18VB3jSKopa-BqYUkyLAKqsl3_rasUt-ilZCkjOP7v9vj5FNv_a1VzRYEoKz2gKMYGRyxBj7AtdTTDXEptA2sqslH6mwreV2BZ2ECbgRCwqCqtJ2ZRK-AarqAJmGXxKd5TtLknpkyvBsKlf-QIu59WaOxZw9NW0tG-z3dNWpRruqtxfb0UUsT1iT2sqJBrtQXbEiyyRTii8Z43lsdt7iKtJQgrrkjIprybtSBBIsvT4Eq3Fxm3LT0Ue-btXRVMdW5HvLVsn4thIlVKt)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVJzim47xtNt5YBo36PhSfRIg6A6qoU40WGDeB4d9Y9ur8dSfnjfR2_xvBcfRq1wr6DMbQrSRs-Uwx-wuNdmavImtN9Xl4XF3C92eRU5AJz2bIGwxv068PIYNEkVyKwYHJefl4YOPFhkCwNOUGazICOtbAeFZq9HTImwHS0bmaEdfEbE5n9uv2DP3A869WvWekRauXXvaUnd9Xuovwbi2ikUo62n6f41WjHQ_5UFAr38AK_YzL6eLzau8tXdkT1G7Y4XEPMCBzIC45J_jje2DBjXXlUR9ExOOVCC-MjZYMmgxxWUrxGI0Qt1Uo8PYqX6ynsWngp6vOTjDhCjQgMGHJvXiCtRdk04zX3ySzWcapaHyDELBj8WcPcdEDwPFcLePHQlJuAl6V7YahJ3Pgh0MxJM9vnHKFfLu2MTnPDBxM8LUOJfqhpUoMXOickJ2TgSuMYoftF42FfZ_Jggpt22do0KUdsrZ2uM4R_4IXBClpkNz0jbbKG9TO5s2FM2XpSliFwe6Sb1NxkHnFNxw16GybuAZue1X_yZZ3IQx-0eYWPPe2pdmV2z_WZ8vwjkLuDPTPnrw7kW5hkfsEi6JJPhndEJsxvebwlTLiJ54EO0Bq2uNlFvnBhDNt8ix9hFmL_pAFrM1p2lCIAK97lnyBU5e56AL6F1mcu4ckfMx35H_2v1LU_oQrDnAhbFey_Pye7HsruLQQJ2lu62qlIMAC3xy1ZzDIVB3iS4sneEFtYkYzLwGmsV3-L4-UtUelYugiypppIp8FVsnzaXVyRo6oKzBBK2gHRCpBjdEqcjTDX-tqAC-roVH6G6ugVK18mwCuhR3fqHwbD6U3ZHzR0qvoB-Z1p7brPiK-jpjzANefFaT6QiNZU0pNlvGKqFdGwr05tjoBD-qNJjsMQ0hkdbFc2jfjCQldEBp1whJHh5CQo7gDicx3jjOwNUhPw-GxE5dfxKkY7Q3dTu1okWDKzQxmjlfJGAoyilx86JxntleR)
 
 
 ```plantuml
@@ -5075,7 +5038,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x649bb40eeabf91a1736d38811778c6ee5083c4b2b1a71aa2c2833f45cd6df567
+title Txn Hash: 0x4e81a8be3095cf1b9e9d6ed93cf9cbffd5acde5d1e4dc4107f2195497b711824
 
 
 actor EOA as "EOA"
@@ -5088,21 +5051,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5125,20 +5088,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| Roles_01 | Roles | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| Roles_01 | Roles | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x64f1b17e9cecf415ae64277e3fd09d4f207bd95ff32bf9c2e1a899de6f1fa606
+##### d2, tx: 0x1a4dcd5abc8a9c98f46cf78f922230c62f0c07af321a081146bb4356a8eb3902
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzj037w_Ns6n5z36TadJfAbOHLlImGC2CQIz8A5BpcaZqajrkMoKmd-VawOTBQKm454KN-op_TdvpWfZXxaHsXJZb35Hc4mLun0rosyIDH5QZ2758IhP4z7DK6U5alqipJHy6WI3e1ymTf2RQOeT1jKrGY5Hmwn-1JZET7ANAIFIRfeCrHYLeOYnMMuOa74USbBeIOehXf_97OBbB7NdGif43S7YjUgXaWVVQX2ipd-YycGuCZc4KxZKHHnJN6OIao9StYeu5lce3VpMTM8hj3pq8unYnseAT1tRyx0HI-vB9xQv5qg_6SSDEupzo4PBj7nVeXjRiN2vowXbaI7emLaNH0ux97SOjSqaKJ8HL6gVYi3Sz3Ir3yq53fFSwEbf5jrSSwjosRfZDTYP7Wf57T4NMOeB_tNbgakfp1TR5oyR8LwY62-ohs5RC-qmLXKA-vsNuCFdpst89gXgWp19fdRts4jkPUGdXLN1adoftxrIL-oW9kANMdRkluEPJX18AZ6kv6-H5hGejzy3CKXZdWEjeeZuR6XLCi7fsWCx2bjzBx9564Q1y0OkjsNGTrkIXs6ptsg8tZpA7io0V-NmurTmGXJS0BKiODdk2lX8v6y3J8qfeXAbfdWaPX2YqAZRS2ecC7k0XuyixLyHcx_9_duRBj0KMi7RoWkpB2MST5ETjNRlkPQ-H9iF0lCAjZvpLAfFVxtb13nnU6MPhm8rFwNbRZQVukpyqS6NQ4IIve-wTCIFEETbbsXOqm2WHPc5CfXblxeBaYtzElVL_AFdhK6jH9fEuUoFGWdTDz7mSU3jytERlKgACcmut1D1KpGRLh_Nj5lk01tFjwKjhQutQBMyHgFfhoPzCcVNLEy8lPp7zV8TePwPsniD_vk6g58JXXtIatuE_W80)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzj037w_ly9YBo36TldHDgbOHMcJmGC2CQIz824dkRGHwQMwN5XBuN-VawOTBQKm45KLN-ppvyy-dnN6ZdADIXUZb34iT2QBKI0KosyJEKQ58qZ5GCZe6CFRWSeA6VMoD5FmnVTyh-SnTfZhQIew3AhVK60a5CpgLu2JJ2NtcTIOTjDa84T2QaACzNA3JyOvvBXGurIi67ubzm8CUwcxm2XAv00CNgiUAtdulIR1wlYdCay6Gvr3C8KhLSGnuJATw5J0rKJ22UR3Dl29WNOKHWqCGWVTq7LYknd6BITsJTEqUDWqOnxo5iQMQI1t3CDk1e5jDPheYC1okScePA4cwjvv5p277P8xZCgcap0P8wNQeoH4heyLbK_eIp58SgscPrbuUyEDocNhZbMmSpL0IHLHbrag5lxhobMNKfaljYvUDbAy4ZXQH5_ZjcRQOQnA50uwhz67_VqsP6CXQmFg99ExU-mrjnBvMM8LM98lzRlNyfeTretujPQTXn-WfsC192MEAdc7QK6BSli3K0SfaUT0gp2aVjQqufE-Qtk1wPSdtEL-RBJyRZUoHSiri6zxVTSC8ijoMeqvoXxCW7_ZyFEtTqejk85gcS2ot1Nn8URl8qo5ASAIfI8y4ZC812gXsd26OvWzmkDdflOlYSrdSd3GXakX2oNXVUa5MPOIJ_fJdhLsxwMIljOsdqJc3TtwmbMfZlvcomruvl36DDz4QdvBozriFiNPnPEB7mcDIPe_gLAVzpddPPLeMDC0e4KPXIBePRswYoPR-dKUglb7puaMIcAQJk7yZnGHTD_LXa-1jy_FRVOggEz4hGZzOsxu4UyvXjttF6mO5c-qBCvZOPdSw3LSUpNeipcxfle0z78UryiFGBqmjpSQ_ZSCjKhTCEo8dlHny1S0)
 
 
 ```plantuml
@@ -5160,7 +5123,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x64f1b17e9cecf415ae64277e3fd09d4f207bd95ff32bf9c2e1a899de6f1fa606
+title Txn Hash: 0x1a4dcd5abc8a9c98f46cf78f922230c62f0c07af321a081146bb4356a8eb3902
 
 
 actor EOA as "EOA"
@@ -5172,12 +5135,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5194,19 +5157,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| Roles_01 | Roles | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| Roles_01 | Roles | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x61ab49ca0241a2cb9fc74366afe8a31382d79e3547e84562d0b1272d02519671
+##### d3, tx: 0x2f22e62383330ae55b18c649047d5c18e4b5f6e0697f1110d46e1ab2a988d2c2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36bjz9ArRHbdJmW40CQIz8w9AuRKJgLBQpjHJ-zrtIjAD0Im5HLJddR7ztt_dpAOmTAOrI5wECCInqBefHn2LJjwaOeyGHP7p0HTB1-7OWyq8atJpB9NpfXRsm6p9sgFGquoq6rM_8CU4IPlKhm4akqxjSQCpQMJeG8ouq8VRrSa6F9kUGuqAECxuoyIkzus0wIzy59aag1c0QjUkXieVVwoHO7VzKg7Gmr0gYALp9ejydNAPJdN6ucWWuGJLiWZ7nJ8oSHeo6vPXenL6Z7_kExNdOvm7QfXrOYT_WjkluF71SpqgCoBHyCfPhDZpVP5IoM5FguNaRKC4EsHr6PTDfd8wHg7Q915Uw8wbyN5_oGQgqd9xbyUsDOLPRDgvO1JkN0nHK4NcPPton_wbpTKlfL8kbYvTjKjoSNWN2Ahfmq7gD1EplDo4VSn7-mQn0dUPYTu-zjgd4VKQkWahLqhzxBQxPOIt6hxLjtVy0FHrp82jmLDaoCWtAvVT0Af9SAQ1H79EcDOr83OxJjdeaWw3hnnP6KHoYt_CCAmcxNa1d7xdTmCRE76KFPc1yC-3dx_2KPFX2gYM1PSchn8UetfSm5QQ8oombuP6PGSHHSjc4Cnp3x04UFfFQVn8ldyd1GHCkkIwaWFVHY_8yeppfJpnhxzwwahuccqzAPWkrhhyhrUdVR7i5ta9rgyJczxHSpURTd5qyQW09rvXcwb6bZerZmp3AIb7JfYv0Wp8AHT3BchKNGblkQzrNVP2U4ysbm2oRmlbVmHDelqkAZu4tzz5DyrLGdaIsO_WOkkZQPhVZMe7NuuxVi18hCTj-BmXystORgq6VzTidhWz0B_joFVm0rFh-lMxkhS58CBLis14zwLFX7m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36PkT7crQiehJ9u0616D9Ua92JE6r4wbIsixKK_lTTqhIZG4i14KKvvsn_ztsNyoc476d3bIb66I6yCBaiHg5GHD-cSimL7q4c1aB6npow7QYya74lpt85Nm8_y7i-8OVQJ3FH8L1TGy5ZeM1MlmASv2gzowNXMJTB1t8af474n2mN13WvXnmNQfo9bObVwPq0vYnz5poEKpa0HclNGsKFlzSaI1t_LEfqC3GQmYbSgI9949UOr6G2hYOIJhWUje5EhCIoHCEoFTksAHUk6p8lQZWjwZHZDsAUS48tQGZQQ3KJnXYDdOPWFBHuo_DYAx88fYmoIDq_xmBNi8DsXs3QJ1gbOuvIUoX2Q7EiC7t2N8f1gesQdkNHxGrbrPQDArR1pjM0Iyo8kimpiTZ_rBcwfNJgnTB5opOKDzEhG4Wb5muwhuc0_Vqsv6CX_JyyAxX9SxcxHrxRLE8-4rT1fNhftxsMr-ImBiQljUtS_m0p7Gj0A_ceicLa79JBxm6hI0cj0KTHX3LjS4Gd_PRZXrR0d4ROfK72ca6t6pkYsMAyx_ZzbXN6jkqrtJdA7io0VgFmyxT_YcNu0jLIm3Bb5V4Xr-yZZ8afefAbGZmqCmW5LqAruOoFOVO03vyfxR-8bx_9mK4RBeKfb8JtoGlpF4EUUAFEshktBgMlbSqdaTcYMjUVbUhhtsnx1DuYTIjYytDQhYRpRauk7ZM0M1YUPlfHflgqJoajCuLD6xi03iee6C4iSzPT5DfoN-U-weFud1YX9C-oAPp_bIA6xhjAyJ7mvZwwQRuA6dXnC-R1CML1J7iUS_g-prrcKxTfKve8swAivxQSrQ3F-kqJrmUWbtsv7du0Qdt_NZVtrc1OC7NPa2Dyug_2Fm00)
 
 
 ```plantuml
@@ -5228,7 +5191,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x61ab49ca0241a2cb9fc74366afe8a31382d79e3547e84562d0b1272d02519671
+title Txn Hash: 0x2f22e62383330ae55b18c649047d5c18e4b5f6e0697f1110d46e1ab2a988d2c2
 
 
 actor EOA as "EOA"
@@ -5240,12 +5203,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5262,19 +5225,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| Roles_01 | Roles | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| Roles_01 | Roles | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x5d3ba28ec6ad7ed7bf16faf44a9a7d272eceae16aae4093f5bf88e825bdd5703
+##### d4, tx: 0x8ea6abf4688f017cff9d2f1dc88d977e520ce61a2c3a3b4f18b3df78f026ea62
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTHRzis47xdho2obnLTLagoB3d8WZgEtNP0a28ji9S2nKayoK9aog2eDcwI_xwJ8ZkI4jjft62POOlaaRoxxzFnp6FiRMv0csAMCWQ5oLGn2r2p_29HSz0muod6gEGnX1UnpWebHrcQQVxRP3mPZyQC7UPcaU8HuzLdYY1HywjwoFdxJ2S_CcKW7QP9h6Qe36cCp6h1X2PlLSuBFK-nDV4f-O7Swgra7q7AHCNS4hNefceFtzHEiDh-1vKdyTJaF5Zmpxg88jBBJ69Iv9yl5NyF-VI0YqjNEW7OFePza1vABuYiVWHHhmS3yAJjsHWYeDK7m9uOE94RHBwFlkq6KhgUS1XH5XfoVNmsv93pFMht6D5caZ2P0q4T4GZCpR4c-j2SOvpaHYzEi_3Ygx2gBHjNj9MTwHWKCQBFinIN-xl2zfPIc2-NBWUFSN6pU-kKb1PEGK6CkgEWFTFU_7SXOsnYQWhQIpz1H6hCTBcoCTvZhEAVxnzjOvM_Vdt0APGgExz_KL_OOHtFVzJjqVLVt2pcoAbLCAlQRv0Mr2cNNvUxDUOvfruOqh4mr1ENNY1Sr_By2JKd6BgsuuZGTi3f-oY7JcZxjZSO3OzljRpYLrpyAVYxVyOVA9AtELtYklUsAoX9lfB_IZJzNczeJ-mmy4TUQ4CGX6Fm9drXo_6exqiH1Ex8Ts0DclkkbW1MCLWvFeNyQGuJCKLOUgb97pLNF43Gg0_uASpvrGs_UKveTo0UVYVx-mVy74sX5NyQl23BKlAJleIpbhvQH-csi7acPnuHhUkJH_Nsl_vVZc0NK2UPlN0mNMzB8AqC-rBzRpjvFtkGpVycU-m6gvqzNaX2V1v8lp3tH93cTycdRR0JA6JqeU1PTnogvHlEIlEEiLlS5Kd5DfICTsG1_Qo7oMtPtm9a9x9hLngUREHbKwviShebcMxwtthKlypjfQzSpMvh5VQnSMEKQ219ymOR9-94256oGIK9NIAfKreX2sR5ot1vI5RxZgwhMpuzBmrg1Mcwu6VV5Ke-VDAzegbuSvMmQRuoYZ9mUiA3iGkkOusENTllJx3d3MnfIsleJNpVSnntq3PwhvheY7PGlQewwkuEgjPN9-lcTZVMgM8UakzWf5NjD8Oxg6nMHNUZdrL89wS-F-mjFOjP-Yy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBvisDZj9cnGnjBua6vCG293s1GaviPD6f4xbE1iTyDzt2Mb9GbiO1OrLRMoVptVFSpbVROI-P9efdKyIX5YkKvbFVA5GTX7BALDiWXCH2Sa7BBY8L9fBFaoJLE4tdkkvGnUXtKpF4h67SFaP2yQ5mbVL4EDlgOf_frApf9_4aPm8gS5Yg1SA7apUcfpcQfg8niH9_5jWQYraHuppM4QOaafqKxQxdoeGgFA_BxCu6kiC-pDygl8m1Bj8npeH-FHIucyi6-zWSka8rcL-Q7KT9oJK3iAmnusGyi1nUC-sHSSWWUXIPWGcCtqhf8vlyj06PQCBImq48GiqG7SF-vXbU0lQBGHXqt4GJnbG7G89aUc1Wl09VIoYEDDgTf065-U4balMQZID7Qg8IOY8EauJCL_V5ZQN5C9ihZeVF0RYUdYhZ1GU3fXaaL0j0ysPvkBlEOz4dLDTq5GzOI6OqUEvPcsyXL0PVxozzr1KyVltEnXIgVJpzaoUeTqgdpzKxTxrPwndKu6XbMnIjZzPaaEdKBykLYkHPHXwGG3RGaEFN9AkQmsCWMqDUNTWEYuPKjEq7TDmUWD2HzGUz4XWEEwjbNVu2fEF17_zuUv39Zy4kk1rxssNLE9i8NzEDgEUvVg6HwsktoTUI6slt-UMi7kKZIntr3DyRfgEtLdEvZxKWi0Y1qlWOvOz3J049WyAb0hiGNE5VS6KK3luW4tnrGs-UKbgToIMlvFjxHryB7Ik97uQFJzD4y09N-1PIT-j2kb3QVD2O1wHhQkBH_dsp_-NBTWcr2fchvnC6sr1f55XNol-9iZxrGDy_flgiHcjPlLu9GNnPIWzO-q9MPBT5P-cmrQYWDDboRDgEvJgQ_PA_OonMTxbSHbjLaIy9VFXHvS7j-7_0I8R1Rk2KaEoDYxhQcKHKtHxSq17jVCR5vh5ILR3DY8ZGaY13Iu8SAI3Jc4OZEe5oluyPHVhzgxBCpSyBxLGaYN931_-aeBZ_fF-vUk6rv_PrysNJZs7svnvi6iyJeOEjKQkophK91tR92GKfa7eiDEpcaxldUrReWrCB-u0LNS3Kwll2glcDdVMkbCias_Wf77tg0qtC5c_ezoD_jOWx9ng_w0ly8Jx-Hy0)
 
 
 ```plantuml
@@ -5296,7 +5259,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5d3ba28ec6ad7ed7bf16faf44a9a7d272eceae16aae4093f5bf88e825bdd5703
+title Txn Hash: 0x8ea6abf4688f017cff9d2f1dc88d977e520ce61a2c3a3b4f18b3df78f026ea62
 
 
 actor EOA as "EOA"
@@ -5310,16 +5273,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5331,25 +5294,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5367,28 +5330,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| Roles_01 | Roles | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| Roles_01 | Roles | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x8d679046b31f1d1eea9e8c6ff926990251c60d27bd44b5c9963991e6357a5bcc
+##### d5, tx: 0x4ee99c5fe61498fd85fd52e8d0024475af2678cf20273b3cd3dc74c35f5a52d1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRJjj047tVhnZHbrOjhI_nEaOqmacSmWC50L9VaAhrxZYnSDRHUjqcaFvx9yP94rHnQotPizSpP-VCZXaxggmmjfuMZ8dQbhgUfcXOTPFhcJ1Y2WMEKQk-a3TZKzPQ3SgYDF1cb8oIGSBOOMKN1VOODCy4XK83TsqNuBWq-MsfhIZY8X_hAMfBY9dTB1ZHv3tah3Qp0dScBlDR1BUp6JiNIkLw3AxJ3lrgxE6dbWHh_P_eAXzFR0Nf0gvCdMM4osnk2uIhkOPZKKqEm9bt5GyZfyDJtyrSvIAA2BkIPrdayIXolC2Lt55UcAfE9mra574_YbpaVX2A89MIKSYa9Uh9MGoYWZsoUup2PdEPpmGTTK27mChs3OKFxGMEyygQnMafRxuxRhFbqHMxO9SYmrDX9-kjM_qznXhdiDzx2XBUlpy0qmoYkK8nVNkjhzbXA-Y7rlQMdy4kPWXajPWszeSeQcgibYyfikG3bc09uMkpW0BAaRjSyS1vvRC69vaDLcluUDDpvlqq6grK6yeayZg16oSSOq_6yT0BUTZbSaWQXLtnaERCbBEo4iLGMD40XKxeyInqwFM9j7mTrNTm1yv71xvyIque6PyA_KgTRTKQBUYmhvEWpYafA5YhypmOI-br_qvnn_ypqcL__m0kqDP6mp_Ht6Bqh3ZTf_F_SxvMZB7xYiREjwwMGYloejh27pf3Kdc5JuMBRXirLgI9iDrusYJcPbzlsTG2-ixfTcbH50iu-wbHGImbLK_xmYJU1dwybZmstpX5bVeT9nH980BV7VG3hyj7s0aZJtdAZSDHjnlwVX3jEjskENzwBmMaSBT1PqVqfP_DRm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLN9Rjim4BtpAmRffKMRbjhb83NYQ6boI1Ca0Ne9KD0YQGkHAO6YMZjn_xrZMNRbeCZM2f26wvl7DyCH8KUrOTeqiu8GrfXIDREnqAI-pLN5D9j18IP2yMEMtKvqsIWUbKMfuKsQf4cK479OcqKXXWJQPoeO5nhkkox0IQdpkr8PLeoAVA9cGXb4b6Qx8CN9DMJLwAeGEnDN-Pq0ozsENJ3ESpK1YtP3lrfx-AaZGJh_fwhE9rDJmtW1rxgH4d69oKqXu7gku8JLqmEWSrU8mI3pfF0jTn1A7dgIUxO8EQMswmOUaxOVX9cqgHquOoVZ3iy2DtCywJ7FvXP1oJA3r9Fp4R0Qzj3k4PJDv5bUCJngX8SGjJdMA9ymbsAIrqOlpihizZkrsYsFhjW5ks9Id34ptMpjzVS8QPt3_l0fI7Z__W1qEoZqjM2pjpVgXXns0VtGsU7oCvX59G2jOhFM_c15WutLyYKgYpvW2GOHlhOBK50VbVIvxz5NFXjm3BCMzGP-jEtHUJ1mxCXomZ2LNkAD8khBA1wvgILIAmv34SQM6mvGe0SqArrMPSsAc1cs1gA1xSi0zmSEaivUH_KTt0FzIE7Bj-GKa_4fwLVHwKUjZGKUzdKXQ79C2XHhTPu7OsDyhRzJtF7_Z7JPtp-0Is4QhU2VQFOOFKkdTJh_F-URY16ohcZaedUrk30iB-eUVanZZF8A7miNtZPih4WZORFrj4tCxRxXigq5-9tZxLAiA1Pm_bC93gCim-ffNfZ4VU37QybZywtJDEG1P-anjL9Eez1ouoHXdkLGBt0ebSAngHLv0tVNQR_c_Ecz513bxaGdH_Z5dyrl)
 
 
 ```plantuml
@@ -5410,7 +5371,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8d679046b31f1d1eea9e8c6ff926990251c60d27bd44b5c9963991e6357a5bcc
+title Txn Hash: 0x4ee99c5fe61498fd85fd52e8d0024475af2678cf20273b3cd3dc74c35f5a52d1
 
 
 actor EOA as "EOA"
@@ -5420,7 +5381,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -5440,17 +5401,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0xfdee6fe628199281fc5def8fb4bd4d6c4e3e61a8ee93fab008da2ef53b948077
+##### d6, tx: 0xb6ec79dc3ba29eccfc05eb710f368d920d9f1f5d895c09092ac304f0d00c5b6c
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRzD84FxkNp60T42Xu9SuTgfSH9ewq9CGA1V11q1exHsdLfrrjBik2Mt_-yqwJYwXQLfILK0-UDOpuzbdNbRxnB9UASsaBiUvPR5I5w8SnoWjTPg92PDi33cEKF13bfoEP54AtYloGiAZVjIFUf5bjPMUvTYneFgT8ECeuRn-1NXJoEnx8JJBktas4cCKcYAcUkdG9-CyvAIKanpN3Fzctn6SnbBtdd6UYH4uTgswh6JxPGt2glS_5YeRdMW5yGo6ianJYclfJES8mwc0DqoT780zJJbYCyMc6pgj5ZtInEUOXcdSY7c3DvC6UjXqM8ZOyb8MstR8cOkfxyMjHcW7WKKbIpH1ZzvrWIbuIFAXHMNJMP9D6ANQeoHGwKD9vKCzm56cj9ozBPBJhxPJVRBLOptOFoKVuQ38SV7jgcBTrIZLmctniX7Q4DbuiUiFc7umtIQpxLbLGQogIh3VkIbtUFRi05GPZpCTdR6yP3ehn9FFuhFLhgVlUIqx5t-3daqGI0eshgJvWXR6_GAOb6m65w0fesEkQFK9RFYooVnQqWJDFHnduV8Kpi5-OSFhZz4npTnDm4rkQxsfKibKfTin0yubAeEB9GaTGqqhUnh4jkyxGTWdSOI9xtgUdRWUyveXygwNkA4Rj7hTmyrPh4Cqe9UJKW4-OMeti5ICCZ489SKZSGunCedo0Dwo2PnVmkLzflL_4bVxiBz_00FKfHImMsfnKUI4qGoBN6YVRYhbJIDoJq1kCPdNdEvwHZ-mFEF3wfpi1gpCgYxEZvffvzOZT0N5drmxe-vE9h8umrzUlD-_lLTjzzlNFtFKDboXgwsihgixTN9a8f2as-udxhfVKC2KvUhM5PpkVteaaNyn4ETyWu2q__h6f202sO5sCgUnvDFPsnj47wB1yC7UNljbfUzS1zPSROQ0Le0U7uipquDv2Hyle74aKfYTCOqtiZjhJgwjzol4YgDcMQvMDZ-oZspRDfKY3atiYXOcBiNKovfr5nVfyZi2QsWfFQSQfM1vFeDttmHowEvqrQu6tavhjzchJP77NiCEMEGpttDwXxuRDllO25ekTxdJ3VfX67YUtrhVT8t-hhpU8UII9jVBEuIwXavlDDnzcmsq-phRpsv6yrXFfVMAdlJ7y3y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLTjSzeu4FwkNx5jPwxNj6bbp9ip75CWfardCkbmJEz3s-d8aamyCJ8ZoIaqoN-_bJ4KKY1NCfaB7onPkzvzzj7QUY3ahR5CstoS4i9ocwby74bDp4MY9aopCQHo99NeCdunqbckH2zBCmtF-c4_x8M4j8oTfR9DeFYTIoQaXglo5k1zffCVcR8ixQJ9I8sbiXWnjak7FXhd8IUvdgHopV1tyaE2LrskVMH296e47YsNRegnzQO4GShy9yeaetDh89h1KETnZ769JMmgOJXLy9wPyoEWqwWkUICGt8zO9P2SnvpMPDJmQEpNcoAeK174NbmJpQ36QK232kC-hSPKKCfhKPqJf8nRX1wUTO0PU8hZKuAqsOGd4uQbzh08QMnN8ttI3kGeCLRFJZD-yOrwnICxFTQ3VSZ5I0woL2wUNLrOTtMBPk6skDa8RIZPU97r5gPRflzIsUwgYY2aO0aEstVL3YzV7e79et5YmqkMvimccVhpY_f2McNtlIh7zlLVO6SJ2JWgDYv6zmHEdFirCAtP3Ax1OaKdmk3iCr3ukidyJcC7pJqyR-7o0gw0lgRmxf_m17lkBk2kjhMzAKf9JB6sPmL2Q6aSBiOvleOMPtHAws6rM-asgZrHx_hDaFOytsyq_Kepw5Bls6jq0yehpN1p5UiG7UXbfnI0pvdP3ooIaNE7K6Cy7AuWaanBVGIdR09NDt3pa6NzBEBNVJWyF8A1jBbMi5zfKPQbYD4rYrwiljX4vPPtgEo4JonDnB3enlrmv4d1rRoX7Max6_KN58-N6RVScKnqTYd_FseU_-PjjJtGDZxYHjfmoAnkLF51lzS-ZLm47F4y-8tJuE7fYLbgjl4pFVpyJ4lnrG6OdxUOj_N7TwOL2gWsjFXSng5F--1W47uA1yCd1mUjDyLwUniszsbt0gp8__n4NJg6vmGzNo0H4aLHSicilArGLYrtw1uobvtauuha4DAo93Khi8xfCQNKKORg4dK7JbnSZ6cNv7KMHypoEIp32JQyJgtKYgNf3Cw-AocWizSXj1fuj-3RPI-IzfkY8LWV4_G5xJMzwd4Oifhdqrh3fpIMVeLwlLfGNK-w9WnNRkyHSYaWo-azGcqHcXiDzq-pGP1ki_rkCkp7iYl9MxpYNwP_0G00)
 
 
 ```plantuml
@@ -5472,7 +5433,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xfdee6fe628199281fc5def8fb4bd4d6c4e3e61a8ee93fab008da2ef53b948077
+title Txn Hash: 0xb6ec79dc3ba29eccfc05eb710f368d920d9f1f5d895c09092ac304f0d00c5b6c
 
 
 actor EOA as "EOA"
@@ -5489,30 +5450,26 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -5524,32 +5481,33 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 11 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | false |\n\
 )
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Invalid grade' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| Roles_01 | Roles | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xedb3407aE5a531CB5286Fe4792d2d1A7F8873359 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| Roles_01 | Roles | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xF8d7daFB01Fd0C814DEEa513057300fe3201C594 |
 endlegend
 
 @enduml
@@ -5558,11 +5516,11 @@ endlegend
 
 
 ## it allows min and max grade values
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L179)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L179)
 
-##### d1, tx: 0xc590a447c1e584aac66056a022835e143da85185838329e00a7ac8e0800cae7b
+##### d1, tx: 0x7d411f8fec098dfeca5d5d86f3f84ca072643639cc185936ecff28e150ac36dd
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVJzim47xtNt5YBqECpKcQD4KCKKgoyO10C6alawQBuxOHgLCvpaO7_E-xf6b9Vz1gL9EcLMrid---k-zwyPcnqzoWDiKePGmBawbY54dDyhj4ZL7Z258va2e-Gt4tq5cXubwMPXhUX44Oz0B6ZdCpIUK9W-epb1XB3G_r4k1pffDVcJAOTjDae4PI6KBicxb2I9jJo76XnwbSsBXDVacmMdFPDSPneWPWyLhqL8t77-eWMEt_GkN9O6XoY2RmHHVzFk4oavXKmfTx1Pyn7nu1lnTkXsEhrHQMTFqMel0yxdh8RTjtN6crd1Xzr_9Tt_4TkoCvnpOANtAVSu6o7J5AcJ0KUd3L1SnXZyOzHcapYKZ6I5HxH4BcvanJ-gIvaOCaDtfocOcxxzogJ3Pgh0MxoL9vYGe7KY-1BEui6b_f0IfAfowLPdRBmaMJKfZFL6UBHPLRx9D7CvnfDTPxZ5NvWCEJRIpXuE08HAP8LfJvVBlFjbaqG9TOLs3VgL3cvDv-Kz_OSLsnx-hnvF4ZcCbO0eqAHzNu0zE29gNw8n22bdaED1E22j_GZDzxhLRN3cqH-Rssi36AH83jqEDs7FGyF-PHvFPy1y-cAFlm0FmzXqzVWmkgrPSYBici_1N_Ce_LO4iAynAfGYU_hmjuMWKKfIOy6XuWagYbFe9B7CF34ppzJMhF95Of3J7_doWT7Xx1ZJI5Ll0wMb6MfHGVVVkOvhLuVzdXcc8XnoyLqKklI6MouVrfdZoxrL-HL5d7ClDBieX-rleaB_ZVGcIdfDUXD2BPc9TjvsWphviEs-bHNcgpwOs0NJVwG2mD9cdUO7FEppdd9Hjg_DGQQ59w8GzcpgixA_QvtSbZrKlfUM-aLfYc4xZwgMGCtLUz3atWpRruqtxbr0q4jy-zqElqdJYmx8ubkaxS2fsmurc-4z9UbxjkUwtJfPwzJhw3avNUlYJQ0Nf-1wYdEq0rxmhFgpy5fCghwu-TqfFkhRy1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtH8Iae0wr1J2seUgLLjfBvKg9tP2rE0WnzcWjF_xBY7GyAEW5KsQXY1ddy_VtNTSV2RaB5DKgdoO449pbOfyw7D9igTOZAYaGqXun0Kxfy5J9DDSi6wQf18-zRs-r_K8EStK9E4T0kLdm2dZ4gRL5E0YbV5pAXHDt2IEn90BXOYXMXZqSN46EShbAE5B2tVnCmVTNEXkA6EnY43NAjLhAK-_La6Gol-boE9ee3Bm9t0lyp14NA9YbN2u7mkueDcW3ThOPgQkXqx80wtbC1IqoPhCiK8ZTCo0QdR3CWtBQ0M1xZHRXiM3C6muN6zgD30inWYcB50OkdVj0itW0EK1mRIfE8X75AbsaGJFrBd4z75rowCuKt9obGPFZvfURjbgiH7iDatu5HKqud85P7bbUVErZAZ0TCh2QBvlLRcyfL1cSzFvPDdaZeReKGtcLhNv0I5bFk2aiuib71-t8KW5wl8YduT7PDUE6kWAwnBi4GjbGUxmGJoGqwfYFrUoy_8Dr6J40QMWmrB-f4cEWyBy1H11yYm370K15hx2aJRkjKpFR_Hrq_9ThH_gTjzrcSdjbavxfjThDNnc68xTdA4SmHIqBnfy_-5TOgs-5t51Pksl-9Tvh0TRK5YKI1aw-lrOmBCgm2Wbug6OWi-fvB8DLtG4qrTu_PlKtaYiKnhGx7-YT7BIXbkkSYdWOxJyD4qmFlo6DCagzT6gmmt5WexVAwBtNf5oovRtftxox5T_ULncdHQPNz7v-DCt9td9_muYUoMz2gKMoTQyx3f7wtdTTjZEZlB2cink1EIcrWSOLpHEiXgRdjRJDArWWuqVMmCE2Y_eGIrukVDYN-phl9Iz59zZnQMWIJA1wr-2Ct0_z3hKWRVtucthfLFNCfjEJsyOljEtFTjfwgRT2BXZQDsMxJARSMwR3Qk_qUbApzwatyF9MczVKUq1lRW3LCCzeEftXRVPdm9YvLNrHyxmYVVMtm00)
 
 
 ```plantuml
@@ -5584,7 +5542,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xc590a447c1e584aac66056a022835e143da85185838329e00a7ac8e0800cae7b
+title Txn Hash: 0x7d411f8fec098dfeca5d5d86f3f84ca072643639cc185936ecff28e150ac36dd
 
 
 actor EOA as "EOA"
@@ -5597,21 +5555,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5634,20 +5592,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| Roles_01 | Roles | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| Roles_01 | Roles | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xe099e567acb009c1fbc603e8f0faf0edea1504d0d2dfc435e01fbf5d6131759c
+##### d2, tx: 0x5c4f4059857b03212104c30a9f8889f3faca97493342a85b33219c70b6f63c37
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzim4FxkNt5YNq0RczCqwOjOHId9u0C2CQHzGKAExRGHgHFPpjPI-E-xf6b7IoaCH5Nrd7jvxhdB-LH23erbsXRZb11Ms4mLuqXgOcuJbJFDnf3AeLJYYF7ReSuA9GPPccdu50PXC0W8EJ1scieUWUepaan83RFw4U0aqybTfYnB-saoL6EfB2B6TkaGed4EcHSwJ-MAuMTo9y5fBdKNJ8X43S6XjUgXaWVVQXAapd-gJ38SMGFH5Avq4SU8IsnYKmbN4mKdp8owG2UITZhIyrkCHvHsk1D7tAUkRCSqPZ6LGZB7eqr1HKF4lEbwag9Bx0dVSPsMr-44MyOjKW_E-y0CxA3S8TWsc_0aPrZg08kGnXvfR9-qbtAO6AkdPnc_lQ5E5RBLOnNiN0-PmexeoooLY_XrvMf8gJGBryN3HefNaeqNsTUuhPbs2AaAXVtUI_JXy-SkPBbKjO7P95ExU-Ibi1BvIM4LM6AM-jrhTKqEwa7yKilU_NUmqrm2IiN6bVpDqW8FfVizu0HfQGpWYNESPuidEl6RpNuZRF2eFMZn1eiY7h1MwDE620P-Mz0eyWPjbntDKVPW1lGhXH-_WbCSmGrKomAMxQw8ZvXv6s5iJC5BbXhnKCmWaanBtOKpbiFi0Hu-ihH_HMn-9_lxNRYKjj0AtbPUb6KfyiGlrbbhzvvhwKjZyq5aNZ6jproLwjNVRBa1Jm9UMUQhICrlQUbDvbkSN3ow-49QbgJcKPUEwJ6bjEmIBcjS07Weis06k-nNVp5aoxZUVRN_y7TYfLOiJQTm_aT90VqtZU5ZuEtxSvkzIke5d3QE_T3lnAu8d4R7uNrND4CtxFXEsmtHrgUUrrfD-cJFhgdU0RtSn_Nn7L3FxEsDXlzDWwDI3mmvn5_yS_0N)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJ-904Fw-lsBYVT5utcrVe2tnY1NQqmz6uvdS5nEpRRVGMBPaT-k1w7-_QIcS8AAdaH1cEo_FF3ETdK38aT9CwdAK4y9ANOXo5759r6qcnaoo4UHym4LopEBRWInAaVIAl93m9Gp2e1SGSgZqDETT0lLdo5d29SoQHu2JGcRtXT0iz_Di84PSQ4HCzT8XHECSSbpASSvN3B-oUmw6lTHTi2J9n00CsgWUQtdulI51clodGcM3eLOGJU5AbccAk4HdEkTmDH5mmjIm0tJIYktKfYtFRJaHjKp3DAWTMvHvgUkwNcgbB6QUOtkMPPlCRKKM-dYnGwDsshPYoo7OibWZzU3S1wPW1-KEmRRfBCx634ljOH5SwME9xUFwaWyofUNqh8XlRwXHXsprM0KxbmCci2FoiiZv8dvTkHfIATN2TV6maU8LPwD5zZLkQwOTGkf2uQ3x6dtOt-z0CUQYCJ2T5M9tZxmMLY4_Awm6ozHIltijhibXCuXV6zbz-05wEkQ0Kh1HBUzONkAXSdy0d239bG8ynJ7EiyOJdVGzEuZCqB3RaK_3r712tqzixdW6wzj1tpEZnB9SfpL7sOCPq6yKVluEJd44Dr2j2bYskoO-PEfzXB4nPLonb8Y7OWOHPvBB3fonCSmUuV4pI_jNnEPtSd3GWKkkIodWVUL5HP4ZJ_nYdOrsxwMMlZOsdqJc3TFwmbMfN_tDbXlmBE2DPRw9rFoMLjvaliN9nPEBdt3DibmzwLAVzYcbLPTmMUC2m4EL1JFePR_ynP0juxeFzVx3tudcKh0ydyBv7y4JyDyrXa-1j-_FRVOwgT-sMsxVCAt83Pt0SLk6xPWnTotQynm_SHBE7TjiXwj9d-tPDTK7e9Vxk3b-0Eg5lRtHyBzfS5IQWI57-8j_3lu2)
 
 
 ```plantuml
@@ -5669,7 +5627,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xe099e567acb009c1fbc603e8f0faf0edea1504d0d2dfc435e01fbf5d6131759c
+title Txn Hash: 0x5c4f4059857b03212104c30a9f8889f3faca97493342a85b33219c70b6f63c37
 
 
 actor EOA as "EOA"
@@ -5681,12 +5639,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5703,19 +5661,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| Roles_01 | Roles | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| Roles_01 | Roles | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x7a9009fbb0f9b6c92d5ae9a58dcbd9a21432508f3ad686face12dc9546cae22e
+##### d3, tx: 0x7de1f560945d73b73cc2e0fa4ff2fc60ebdc1d32cd399f2081016c3b04eb394d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSz8cRIfMKKeoU40WXhGN9EJOJeb8dSfsjfR2VzybJJiAj1GGKPHpplPtttSvdqB8WR5CssAO4S8AcwjY64jDp6sgHaop8MHo89KuPFnseFD2YNwUvHg-H64KzaD2zesTPB9BeBfk91DImxH-1JZETNgNAykoNfOEr50gYuY9NIo8S786EIhqA9DB4x_IEmbES-4xPqAaQW0EhLqFbTt_NfCWTVmJPTB1ZJKGJ-1I5qc2kCIcDfDmELPmpCnD1-YunG9AWoIEQHB4FWzSuJ4PCAyjU2m2vZhDXklHTj9Wmc_x2UFISGKFlARFcNHTn2ICMwGUdlM06TX2kqKmRJRbwOYXr3wAaCOUQaoVj1Toa1gh9wSvlxscJhLbxOfbi3CzO0epeY_oJCxtFtKkRocTPhvq_h89nVNqAX1IoOMzxciYO7Ut0_b8gl0Fomfcqrnjxv3NDfMupyHLKAbP-BUlr1NPhulnQssxzp_0JaOIq2esh6mP6GVbydl0AjBI6C0HvrZJ5aTqx3URFJToUTpkjxZBufY7h1Nvr1LXtsyB6iTUlzrWXpEK7PW2_KRXv-_m1Clm1QgbW4NAA-8tpBoFC2Qcu2LBZNXefX1BfgNkm2aRmVG17ZvJsdyHBt-JlRqEN4XRQ0NlanVdUOOyyKQTjNTdLKfVAvjF8hD1jQu-AzNNlzxq2Bn5waR4PkUqN4rctPoSFse0GbgMPkPHfexe4QMqp1GsRUm2E2YZO0Ixo5blNcYBVTtxgW_YSsobLYpB9d3sLqa1lNULucFWzNrqtNmLr0ivTO_yo0-IXWWTDt1uho6QKICAVAVTY72kHpsljHpqMRzzule0zA8lryCFGAtktwlctXeC2wOk6tA0J_nL-0S0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlneqrIi8hJ9u0616D9Ua90JEsb4wbIEixKK_lTTqhIZG4i14KKvvsn_ztsNyxM471MQALsECa9OgNDPZaAXI76RoZ5JR0IPI8JanoowJLHUIjxFirp1by0F_BvFo66Xfvde4QYleM1SA9Wrhm0dkKhlSgbPvcLf8aT2QaICzN91W9Dpo76fnfbOcVYLtWamxANlWd6UoWGCshWUQdlulI51clYdiaYJeIuWdCALAkCOSObETIRWQYBXX1N3Bj29muKHjzhKjLlSiKB7YY9Jq9ZPSMp6KPkAa4S6jyo8MwuRcxHZKACTMI6rHMYvDYUOiaWZTV_S0rR03jeTWcdJQPIE6KhjemXHw6E5wHFwKYHfeTNqB8zkRwXHRzcuOXNiN2LCOaRKPPw9nVwdpjKjbRDOB5syR4DnCxqQXDHouQ3tcWZOt-z2FXRI_yEoakaqbxjxvBLD5UupSJLKMYpzkzVocXmsnVYriRtx7w2dOm5e9HlLjegCWshvFM0LAL4KWACemfhMEAAJWMlxeHaOTZlqQ10RJk1vt1QEQx21xGzSC-IMrN5QSvGzc07zHk7dR_yKo_05gfM0PSfhuaDMl8ym9gQCAfOAyT3C81HC2TM5CpQ6sGCyVAQq_o9U_YO71rsu5BfK4judBypp37dYZJeRxzwwbBvMDfz4PejgNNzMwgz_i-qHU8lKhOZDpscrcioxERbur02uq2pDYaUP6j01fRJA53Pjx08ugA9W1BtCcRSejEM-tdtT1_4vqK99bcLJEFyh1GVlNQNu67Xp7zqqNmVrsdQhCp1CA-m4ZkzqMeRjc97eMBJlEXx7tm7Xs6OxM0twhDy-SNq0UjcNc-47eDRtxtLpRms61TEK3Jd29_vL-0S0)
 
 
 ```plantuml
@@ -5737,7 +5695,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7a9009fbb0f9b6c92d5ae9a58dcbd9a21432508f3ad686face12dc9546cae22e
+title Txn Hash: 0x7de1f560945d73b73cc2e0fa4ff2fc60ebdc1d32cd399f2081016c3b04eb394d
 
 
 actor EOA as "EOA"
@@ -5749,12 +5707,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5771,19 +5729,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| Roles_01 | Roles | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| Roles_01 | Roles | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x42fedf05c6e0801e929801294cf293c78077604b16ee3581e914478a6c1e0ca2
+##### d4, tx: 0xb1e5918fc3e314da12e6b4ac1940e72ea1ee74f4b24bb6626f1fcf5dfd0c8af2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRc_FI94KC4Keoc8H0WBGlICXnd3GYTIh7sIWl_tsNa9Oaq9PHq5ZLnlRvV7VFvUxgGsWdLrIgOfGYH0kLYM8KS8dooqICgQGZdFAOYt2NiijOPeK81rcQIVp1ztnlu26qbQj9ohSHhZv3JaCkyKszn7W_aybr9XHDtJI9nOWB1H8ZDMFmOVDUvBYGuvItDawJQuurSqOxfc6OY1Xhf2RTLUFMrze8LEi_47aI3rMEWma-aqKKWLoa4fLoV7Oby3xDXvkON9bwnCE8z9Z5YKCqtjVxCEXzaqLwts2sGspR8cQWMPmRFGSODDEq7MenZHD6TGGkOmfCzuvSJ7Ey1kCQ0hUfX2LZ2b0708BdQbU2-xWwuN6IApavpDZb1T6g8mivsiAEP4m5U4IUP2cVdkyIsqTAOZvbdIwUO-9Yy-O9AJKSKa5ZBZi2sZljmp-ACEPDJ4r2c_MKHY163QUSZVKQGfN_ySRsCg_YJvysCOHIfUVZkJX7MtKyVwx7xTjlM4t67CCewAWQVz6qW4d9VbkUbZpFCSmOWxHGC2DNTa1wFSrsV1ZsEElfXa6ORb33SdZe6antTBi_S7VlfQpZ6qo-4FpzftS0aRpCw1BNexTTGKdo6VqrqLYcwUg-pW9dO3ET1W7pgErRH0-zWUM490Xw0yUWSz0yDhK4C8l1ol0XpLzcC3YcOAML4kJ1S8C3JYMNc_YGZl7D7RvxIsWF89v-9niRc_Y4gq8A_39uGPQbO2Ty0MTDNP_dqcLXyqR6F2DQvnUFwkrV_2yfs0NKAMRl74pNsX98gyA-L_lRHZwk7g3ptrIFrM2rgySxAOXl0-aLQqz4q_oX-BGLTW85b3uLFFFIeM9Va2lDEyPgSLSabRTfwV4EBO2VzhHpM_gN05d9sRKf3KiM-cLHhMpwT4anNVI_zQn_cVjBNycDxdiLTDouCOPSqIJD6zxO8tk4aD8Rq9B09H8cfHRGe6P-SQT9CZktVLlTyk5vfRWKD4qd-EYtu25sNtIlQ0fUt2Kisg-KzZn6z3tBj_gH4NhGlsZCDKBJD_o-fJc63tikfBNTLlgec-YGLX0zwphgwGgYvdSdy_PMLzRfOfwYhw2arUqqbYk8R7P53wk_5GYPK-SFse5dCKh_0000)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRvj84Fw-lsALVcdLozqkOC1HBYgsSL-aA5LQwRvKgXOOC0fUh6LfuoRvxpSGx02ndLxSg3dBPdTdTsUUPvWTxn3ofj12wNAU4I9AdSjo7e0YnKKg5qA9ESqW0HcDH7YHgBoKqJZFSaLVJFsfF_O9EIxqCeCJGklF34G4YburGqhVvIhzaKijCYzB4pa7gL5ZhDSBfZXvgt9HgaK6dObFwG-Wt5hBFeeeIcL2EMj4DtLx_5S3WZJstyiYJMQweC6IVbPb7ADUebET0VryAUaxKSoEABiCE0o6t8r34qnkHO8RO0UM2FdGOk0O83Y0OyLMO5X1ODk67VCuZ0TH7B7G5R51q6MXHkZ-cKT5GG-mFI3eDfs6wK8WrJ6IW4AF5BeFz3aaQQ7LyZGFBxuoNc_PkQAhx4mbGg97r7cUmMf_NzZTKWcBrTBLu6SWxeQtJKbbuLH8aO3gAUZET3T_AAC4sfpQWkxIJo96DNgsMjaQ7n1I-vyUdZpaLVhwzH75KAhjlFmYlv3Z9fx_QDgJwx-fNYw0OYl5l6w_YQp4JhNykjgje2Wezi8GZuN67hjajc-DZ95ZZIDxPBe-6tFJT5pJS8SZnYVS6GrPQBZ-hPPNz8goFnbz-u__7YFv8T0LhtjlkwQI5clvhsGp6Lf-O4ovPGSUcyRScNfUP84pv69Y-PEX4KIcwJg3pMpkGwq8h6Em1ZuJnUC0esFAi4AfK1ysLpG0eK0TqLEne5StzEOfgTsHsFnE3W-Fw3deKadwE7f1dcU84x_8iv6-skRIXyBcYS3yHBHkJnxrs__wVpc2VKAzPFRCoVJHLaGw6VQvuk-2l9yzqERloHxxqUfcZsUI49-6qY_CFR78YhlaqpNO2nGqkYbujXs7UlcEizA-O-mNTsLQUrjK7k_90lpnpSxjs7-0o5xERg2qaEpqowvSMVcKt5OEv6Fh_XQ15cbMjB1Ds8GnLc730W6lTDYf5ADIlKRfhK9slU_akhvpu_DIWv8YovRqxBk4Y7gF-fTlAzvzPzyrNnlrR6lWJhXX1kxKyHrtm2t72C4rsNZeU94JLJM5OK-xHk_TxNkYFLIlQu2ckuUgxRN2jhdzZVLgYatoFOnqQe_MS0-LxHhbRlHV5UB9QSuFUODFhC__1G00)
 
 
 ```plantuml
@@ -5805,7 +5763,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x42fedf05c6e0801e929801294cf293c78077604b16ee3581e914478a6c1e0ca2
+title Txn Hash: 0xb1e5918fc3e314da12e6b4ac1940e72ea1ee74f4b24bb6626f1fcf5dfd0c8af2
 
 
 actor EOA as "EOA"
@@ -5819,16 +5777,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5840,25 +5798,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -5876,28 +5834,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| Roles_01 | Roles | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| Roles_01 | Roles | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x637dfbff7950f94eb3198d61f89fc2ba08a6d5beabbeb5858cf6d85996981717
+##### d5, tx: 0x55df5620e8cf9a4899c3e88af608174198e92a36c355de5d1130f7bba4541d1e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRRfmm47ttLupIbrPjMYwBmL6w2WdGv25Db4JgIwJAOBEBmXfaJBkRRF-ziuJTib6LMui4u-kPupFZWP23nd1jsbb926zDfTfPAZLfRWfLSyrdKCg9LEAGPpSJNRLA75LbfU5D4YVnKKp8VcCMfHmJw9wfv49gkEkx0CULBcuhPNWPbiL4pQGoY9YRpO849-yXwrRNfToQk2nk9TYZpTWv5w9G4x2jVkXNP_S_zIH8x_z4DSLaQXf85t2bspn7N68AKqgucYiuvirq3wmvTNsHftdkCy_AsKYchiq2GUqyO7dcfDmAE1LUAdcQojGBl23BgGWynYWBRD_s2KgM6QGUduN06zX1kqDGDbDaHStng4Tu2DcOGutoINCX9qLZzEAqocw-MtQtvT4Lss2NF9Udt4pNMmVz7K8wvx0xVWeIth_V0zqDIdqb-UpjjRec-tr0F_HslFmCPb5BGAluhBC_UDbYOxLyYSgY3rY2GOIltOALe9BQL53FUkMp1iSmQzciuSDDpveVfYmHr6TH5ZDdvDbXJ6NeP64OEJxr0vf5r6L-m1_Ih7LLLmql8svu1-HRlaDptyBNHTBPwwY-WpkmFbhmvLjyWidubFIhw0oZriK23_kw4BG59WMAjJhFWx4KN_ll5BVyFoDTTdVtu4AQLYlu9ve3Hi_IwJwT_v_pTSG8kQzev7nmjOGql2YR0NvaHHZb5JuMBhnjs5YHHi9cuscJc9jzusLN2_0xnzkbU5akuEodaWB2BCFgQLwOn4FWnsl9O_ETKo_EB2UY2MMvAsBRONOMkcAKk0cZTk0cE1TQdkTlEntMd3-zbmAYtBtev02_-BFv3G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLjRvim4FxkNt7glcpQkc7UgRgeb8Ir7xfMRQLzgJGvS2Ien21ZjgJD_likX6Iaclgs8ON3zlcvny-TBumTrLeetSmAnaIZIzdCngXOVPlBIYWnWm8dADDZaTnELDd8D2gBKi6RU1IFeX5ZXxLU53XWq3vJ52agkE-602UbokzAgKKH5lb4pb1gGipqrY6cnJLarQYgm9s5g_mEWTlRkGkHfhcS03UwgL-jFVpKaM1T_5DPvvEfhc6yW6lLP1dXCfth0k5wBk54rDC3CEQEasQEQnhe9raWR3y84WjzNsIkuNFFve6FWIaiDx784vsKSyl8lF5Os8xDKqwOJ2IQg8_EGn0rx97TOoIRpfEy4dJKY0w1jJvM91_gIvpajLQBipAv_MxmTikZ7hjWLoB3Cw6dcwszyHvZRN3O7pm52U_V7u1g9r5TevYzlP4txB1Bw8VE3fQVGIyg1B9Ip5hxGnGDVQpSbwGinO0bQ4BusZgGe2wwt4rTntZbim6dD2kiD_3XTcJClS0o8sxvVfmv8oUC33UBXg4TSupvqFVH7tBA8mdqW6QboggiHJ4KMgo13CzqCu_sUnQHJbv7zHtSW_7HW2_VHgTKZ4z9lyfEFsjjBkYmhqj1arDHa5YhypoO6zEF_vtYJlndbCl-_W5SecwKX7-YsMFqB9tMvVp_WcyonjYwex6BtjLAKOkyg7luGsD8MLxXK-EYsqOVAz94M6yZRGjpks-mR7i1lUTqkwGeYWMS_vIOGfWar3tr2uku3_nuBtbilGqQkhP3mAOrzcDlvFaEjpqpGTyoei0BKoz5z6pJZNU3zdlEdz5B0KdkJdHsH6_wi_aD)
 
 
 ```plantuml
@@ -5919,7 +5875,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x637dfbff7950f94eb3198d61f89fc2ba08a6d5beabbeb5858cf6d85996981717
+title Txn Hash: 0x55df5620e8cf9a4899c3e88af608174198e92a36c355de5d1130f7bba4541d1e
 
 
 actor EOA as "EOA"
@@ -5929,7 +5885,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -5949,17 +5905,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x6cf2129e3b6aa13796c510dd8affd37e7095f50d20052520476a1e7fd96a1afc
+##### d6, tx: 0xccaa0a5d5809b1056b473a6a314bddf311be46b7ba7886929e28c2295fa27926
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLRJzim57xthpXYBvisDZjNWbX5sYQ31mO2fBqWJQxjj16f4pdEraBtttUQfgNbWTiM9JdnxJkVltDyGiXnRRcnpRGWX3UsrCrqf0ofRtDTSSEdKAYnqhBFnUtOb8sMWx8e3RnBapGP98GSrNPUg1w1zfeeBfM1-wu9S5AQ_AxKbXTnaO_rL6cBY9dTJ4XnS0LPDQOgrCx0LNwdW7cRlWikPQx7m6ZNzQUrHryw4gJpVwhhV3onDOpcS6sQB4DSOdDRABYUQJZXzUGGw2mGcSESIBcZW7FcXb4WV4QbFE1P9jrGXJJoCvzAXrBVyHtgXG5dAinaX9PdWg1amYBrv3m6NiCUsZs2ijbSv1N7hGvm4wgsVOFoANkfndbjpVoi5BS_AMkNF3bZ5-oAP-gCsybwwLPxZv3MEUptdeE4ZnyFmRITobmhFdr_es_8KHVGJvtjBRw2dLSAq6e-RUqlNZJuiPo-G6NH1op08iBtTi9IK1MmG0O-VUEr1iSm6rMluUDDYyv2HuQEqwSE6xc3eSSyuRaUZIGF3lfn53BM3qOXTGUFQLQchCgQ5qDk-Gg8XawGXHGV5qcBjr7z0FT0FrFuzYCvnMHyJlfbTBQZriO2D_ks43Gv9WMAXGzxr3Tww7jCSSV_2z9bV_yGBfLjZ8P_eectqp5waKwhTFv_pjTo4BAgQEHYwsX9PNbUr5luGph4A2_niN3XQSEF9MaaR3UUDecvMTTRjBK0tpCyNPeNnHpEVsib8HO2gwTzPH9l0pzTIvuQRvtwYQ3EC4Y3A7DbWcMFYTYLNkgcKS0Et1J7OkhxuQxJxPhpq7ej8ChTYKwEyOq_cxy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNVRvim47xtNt7gNZPjtGm135KNDKt8seUkLLjfBvMc0pi9AZ78c2rfi_zz5qBIf0_zjI70-6n_z_cxyy7OKMNHs7gQCuQrBNGzJPHXrMscIpGuXLoDbPR7cDwEJL5hsI_omi2xOJoC-p5ZXvMTvwhBeBac2gKoSDzs0KuAazqLscBUoxEndYfj2N5aDnE6DBY2B6jJvcfdu2gxK-1u6zi5IfdfCJYyDVrfsiClBGdM-Z_LLJQUs0gIELoRUZGYN6OpcokudcaumMfo07oMfeWSVUc7F4eSxWU99peOOCVn4Yb77ST9b1Sa8a4HXa7aHieDKzUD_16w8d83HfAbbgZ7vpt02lQetMCacytIh4JQQfyseIfxR4W-PI_LEAkicPyLwUrFxZHBdfon2tQ58tM6Th9UkjNVOwnn3llTvo3XuyS3C8rHcMk5q_St-eOTjW7zrBRTnLUmyr81jHgdJViByve-bjCNf2pvW0LOGlZUJ2110nKuWGny_iPh3KvXDgfQm_SsFJuJGeH32aZikV6n7xazwGMISwyJyL1mZ_jEohbGyMEQfIdAei9yW1PNG5oumKXmUZf4EdqRrGzm3_mpXsy_ubDAnkUaNqPdEsfDB6YpRmj1dL5Ia5ZqE8zioOFjCSKT_oz8b_tz0xXKjZOQ_eactMxBw4KwhTBv_pbVoy7OggAnYwsZ9PN5BA-sy0TyG55UubFXejD67qlIHDXkF6qISxEkksXg0RrdTBeqvlaSpdzh9Q6NfbGzxIkJU1luwLhor7ZZj1TuVZXmt4v2lcCH-eudt5I57TwFH4yAgPJmt62uwtIxvZpqNWj8ShUYioDwqy_cBm00)
 
 
 ```plantuml
@@ -5981,7 +5937,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6cf2129e3b6aa13796c510dd8affd37e7095f50d20052520476a1e7fd96a1afc
+title Txn Hash: 0xccaa0a5d5809b1056b473a6a314bddf311be46b7ba7886929e28c2295fa27926
 
 
 actor EOA as "EOA"
@@ -5991,7 +5947,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0x72d722B021b3CD414c43409da68BA9711B6b703C |\n\
+| address | teamAddress | 0x7778F7baE42EB592Ad46d0043908704051c007eE |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -6011,17 +5967,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x72d722B021b3CD414c43409da68BA9711B6b703C |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
+<#FEFECE>| EOA | Externally Owned Account | 0x7778F7baE42EB592Ad46d0043908704051c007eE |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0xbd314f1129dde8f6bec9592b2863cc5d623f655ae5ca7a83d4a1be5aa9f1b96b
+##### d7, tx: 0xa5722b014b742ed972b0d33034c5539486aacec6498aab6e0719fe8ed99947b1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLXVRzis47_dfpXaBotQhA8KoLQG1LKIkys0e4KQR0zhKPn4oYP2ImP5TN6JVFUT5DcH6yTfRMHrWVZ198_7kz_zeSyynbuN5eqjHvenB6sUbQDO6bQSgsoC1aUWvK1cuW2Jyu79oqmSvZety5k_r-yTzXZRA-n4otq6zMSeKKW3byqIu6rkrDSyiwWZhGRPI6QM9APsnj2dpHkHuzACjPpR-A2-Ik0xCzfx549b0-1EGxgknxrN3GZMw3_E2ZKOsWBY2PoPCar9BhFAQWbd5ncynMAu2yv5B3o-atBkXaB8RXh4CWdzq8tTRk0bYIy2rqi3tqVf9zZ1hYTsaCVIHmnJ7eT1pCXbYINelNSHO05RD6unSfjLYHeZcNf8HiZ27XXodxIdSg0AQoOdUNB-sU7raQKSyyB-BCL0dkPQJi-s2VEi5R6OiaqN2w6TIHnDjNw3wPkjxx5ikLLtX7p0L9wW7KwFjTPRZDNkXEtzXvm4BrxiGb768sLxNr2NQ5MUFVkOVMHxJPg-RCRzgp_0JiOIQCnmL8_L2PfKx5U0nk04hi2IwSUYeDa_uBm43fyMSRmnb6stJCwKwpbSWlEx0s_-xXrJYZu4lx9mBfIrGQgeQIlQ8OIHHGKDauHkhQMPSz697T_ddMwVXYEP-AxdEOdheHTqfOYynEswdV0mEbXinJp42lGiiMh0GonM0qlEA9CAeI5vD5n2BD58imidE8RBQxX-JBDkZRWRX-tjNJYLjZGPh6PQdEUQC5RvOgRKvujS-L2AF1AGxyZCUtuCcXpz2xKIP_LjMGrOgUeetbouAfnBhz0T5B-oxofoD1wR_8lywSxR_F3UtNlSkFwQgRQWuhP3MLUijI8vg2Gy6CX5C3RRV-s_7hN7gDQivIYyTTAC5j_lk3dz_uUh6aWjH9jO3lXJEVWPpjlyy3wLWuqg1_of7gnO3_Zc5GJ-GnNXvfLEsXcxwHMnzwqdlf0MbIvQS8wS8yTnAZYHLlJgfqcbXJJO6R1e-j2RdTk_ghiiz7rXfSbGwmcy-pUJ0gALde9jmSkxDClsQwL-Bt7Sew0VXAadUjmDUH9vOgVlzSE0Txq-xKM4fpElTAwRqrgk8NBMzMccQuYwfpkqS6DzDGkwIFVjhQ6itMswNVseG4hm9itPQ_ekH_e_)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLXDRziu4BtpLmpIonPjkjI7BId81hKTkSq2GOiqQ0_jeg34iKs4bWoAwiPDyjzBAR8jDxApjPkD3z5198V3uPiten58GbvdcYcTZoKXBDTfaeyZL2Ix4Cc4AJO6YKDCU9V55qELvWdlfJ9LyAmVziDUICXXfgSIZmYKpmWPHmLNrH3WRQh4zpJHJ7Qa62PZJBInED1pXRwPl3KvoTL4ujB41_4TmNBdilUCSv4CmQALwAPi3_-iG91g_vCa4yEHpY2QmhdA1mDZbsYX9SBvPG9lMJOw07h9MfvjHzHo8y-raGUU6N37eOuRjrfEuFfjncACssxWCnQraNfMC43VQ0Q1wqKMCPJ5sa0FttM0PR1dsZrYQDCY5XDcNEqP9p3JNMNeGts6Gv5fDJrDuuklr2gNhDLODlPtpeTubagShQqBbbKBOJPJcmqQePqZ6yzs_GdJJrF_nRFrNjqnye4Dy9JfqMnPRRn7I4adx1_THnAyU740MHwDXGw_CPapBTBaZo_95t9OfUdBgZsw_WlqT89WseIDoxPOOJg5-ZKmfTWKha4RrqzuPdgVWRu42_vfqdYZJBOjbEXCwpbS0Nr5uSsdyCIaw7tm2m-NGbaw9B9Ijg4Vd2lC2cWiZirNgqsFNj9sw7RjhkVsUBlh-27jMOxZ-Oxj1rrg7LjUDw2nxOVDNYn3B43F4wi4F6BPPc0D6NbS85J6dcck84AcK1t0APl0rGtSFAHR2oVknc5__m3EKESgWSrSYz9K6en5lgYPz7aJbIi-kIeJFZ8f-7cPavlXo4N9rMrQ5wIjJTGxA7QNcKBScKnK-WqVZvhT3zxAkGSAumudKiC_gHweigPl5QTXOU7UC3N1U4nswh_UaWzJQxUYWIqecCkYrRGixVy0H5G8QW1se0nRJsNuDrAp-y5xAiF_VncsdkfmOnss7hqGM_INqsHnPZ8m2Bczco3lQqTAZfe9cTLm7TDZIcc1goE5EMMQJc7S6DPpX9tPmMA-xkYwFDMRzwL6bJ0ff_3ktmGvT3OwUjGDhxyLM3TVRjffkot_sBAToEzxeUUtBDUpO_GTsWky3lSuekVQxVxofakt1xNX5YRdjmnLTmjJAsuZ6YUstwRXrcBLt1QRrMyt5gDVDMWIl4fpyjgyyx7y0G00)
 
 
 ```plantuml
@@ -6043,7 +5999,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xbd314f1129dde8f6bec9592b2863cc5d623f655ae5ca7a83d4a1be5aa9f1b96b
+title Txn Hash: 0xa5722b014b742ed972b0d33034c5539486aacec6498aab6e0719fe8ed99947b1
 
 
 actor EOA as "EOA"
@@ -6061,30 +6017,26 @@ participant SafeMath_01 as "SafeMath_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -6096,36 +6048,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 0 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 0 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 0 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
@@ -6137,39 +6089,39 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 10 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 10 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 10 |\n\
 )
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| Roles_01 | Roles | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x5Ec02D6F69f3dE1291cA3d4F3F96183F2D6A0557 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| Roles_01 | Roles | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xA6458D123b8F7E7851472ce830C97Ad7dee7426F |
 endlegend
 
 @enduml
@@ -6178,11 +6130,11 @@ endlegend
 
 
 ## it reverts if judge already voted
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L188)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L188)
 
-##### d1, tx: 0x516f964a2c2aee0007bd15380425c13777d5f6fb5b805117dc3ecd4000af878d
+##### d1, tx: 0xdb64a2f07295b9ccd4605b74c94148e55f46362788acc591a8125803d78e612f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZcGDr272XJMVgXQjPNsfLBb94w8QXpaE1kKzh_l4W8DBmMjQD8q1B5zldlkdkFYCo5dgMPAPqD12Cjq8hEXnnL9ds8vOeeDGV28ow33_AT89PaCkeb857pgz_gzRe-GqrHF16yHA3u3pWAkO5ek0IuI5JydKZFH5d4aXrngH0prGg6FcpF8KQP6WYzjtCNF70np8RjXGH3B20nQYbwByVHh6GGf_L_AD8u6EWLl0lSg2qF49JhMWiFzMC85ImTDe6FBiCE6RRAQNsESKqeTBp2ikalDckKRTSTn0YkqGy_oN6ePXXFuTUu79Ygoq7NSW63AV8sXzwxRm58umF60ODfqxCSZXbIxI8AdkgCmVLpVyYXEjPfS9VxJ8pKAawqQ6y5k4y6lc6GHLoiWoplBnjSgOXBJgNAbkTsgSDaa5wPprVbYMUMEXUXH3-PQbVK18KK-uAIrYoKS7pV1JoJAiZoVXqTabqK5T8Lr0VQ8XR8WT_WW7yXfMR6Vox7ryWtqPCG1Hyc6nVYJYGmdkVeB88BYQGeuytqiV8qpEhPDirthrtpFxJfODPxdzvZJjsajw7LjDw2UPtNTEklCK8vW2lGBXUy_UfTOg-z5d9DP-ol-PHxhmUOK5YLIX8v-FnRmh0emIeLuE4p1uqnnrOGhDeBfAxp-JMfl9DOf3LZwFr4wEMd2BTUPal0nMbwI28mFlo4JQIa-MdMueLZGyNj5zDuhKfXiUN-g9yz-zPV5HTPPdlaLcOS_OtEIb_pl8B9NqijGAf5ipSkkSxIQrss7xUmepxN9x4P0RYfz8E2QnIAji3cdvzWdSpRO-B4ru2JtWXxqWbTxNkmBkzPBqKlnETPSIIR41Av_IHv0-qElGnLuUo_UjbyuxJGCWpey32pNQZYMsJwtg5Flsjp4Mq6RDqpJxlWut-XqfMTlak_XPAsthuZsW5xS0Shf7b3LkyBRway1iVBA-YDd-CHxwsy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CBKdprefLX3OPV40WGDeN9EGaJXgHEfNZR2s5_xvBcfRqXLQZcZIjQcFxVFVSFTUBpuISvP8AMGnJGcWXCruCVIP8_fJm4HLq22cB6G_FQV0KYwpWOIzBCm6VFDTpUouXfxcSfAnBeFeC60sPW6cz1BZ8HFASSKbJ9qrYFcHS8c8a5meURiuWHuKOfMnfuovvPg3g2zaD3SE4nw0gjUYr6a-_ra6GslybpvDu87Fm9t0lYYX2N28JcJAu7tEueFcW0yeuz4sTQf5YQMt3RmT1g9kAuLjwqDPLtMQ64UbcozGiswP1OBHLQgkQOIkjqBAPgMeHmPG54aDthnsWEHpWU40mRJ89aX55gZqamN9vBZ1zJDwoECcbc5nbmTEZebOcMpKsWjrcARkYdCPCh80ixomRNukOSaodA9NcTgl2PPDIcCzLvujbbJiQeKSvc6irrWU4LFc0a-ukbd1yt84WuoWhodmU7f5T5WtG5TOLs2CMoeBSuGD_8ATrnNwkn-xBDv2J4GCSEHrMuq-Q5ZWfrLy04GJBSy1P463XIvmfutvRTttDKtNJTnGlKYtFSKATMLWSVTtjjpK_RBLiovYX7C4Kb2yAVF_XNcAjlXTnIMRjh_YNUQm7Mr9Ob4WLElhzMC2pAi0e1UBXC0MVKS541wxe2AQlyFetgRsHMASqeFd_HEdaf0EtJ1Q2myTe-LcMOdpuZMYQr-AZLOSRYWKTlrT4xxqYbScMzwTvyknNVqLIPPsMcL-H-VXJDoTvoVyE8diblGwb4SdMlEmwHvjvtNROpexoKflCRWJafj47GYPfakODDdsbhoXAoGORFxO6d9HUq8DSy7BcnRwmwxvKlHIVOya4fsawWUjVd8NWVEXrQ09lxyNRzcTEFSSABRSLQgvfEjHnc1kwJ3Lwfjqp3LqvLriU2zgjZKvNUlOc-HvErdhxYcWFwCKTe9xk0TMyAxoj_XGGAw-kFtA6Jxot_WO0)
 
 
 ```plantuml
@@ -6204,7 +6156,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x516f964a2c2aee0007bd15380425c13777d5f6fb5b805117dc3ecd4000af878d
+title Txn Hash: 0xdb64a2f07295b9ccd4605b74c94148e55f46362788acc591a8125803d78e612f
 
 
 actor EOA as "EOA"
@@ -6217,21 +6169,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -6254,20 +6206,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| Roles_01 | Roles | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| Roles_01 | Roles | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xb0e63116f99f040b143054fe3a99a276f01b22d2f02cc886c3646725e43fd4a4
+##### d2, tx: 0xf42c1a206438f1a79024ff4c05273305274a88a40b7712e6d4ebf4c23f422cb7
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzj03Fv-ly9YNq0Rs-MbwOjOHLlQmGS4OaZxWeGk5wUDI2_LtMLhAVptEMdQqL9U1gAgQiS-Ftxi-AmoTcYiq3OVfuo9t6Og7uUecRb9r4HeCOOKXwYYhf0tGvtbAkfbQQRXqw0_wFVwZ1qOEqknpQ3yZ514g65UFG8SPpgvpPGLQITDXcgCoX9YR5S71kHSG4voFKbnpV4pkKLm_9NjN4HHeeRWyCfqNyg3RnK9LkK_KIOPZgo1S0QNEezZmcKsiId2vLJ1iJ2Z5l1fo37m72U8cysO-pnqV8_N_1WzqMmAjnx4t0bTDt9ZxahPQ0JI2_oWxjRGz-B85pwZbabBrFjd7H06TaZkC6gRJMGo4LHgZuf0OxkQseVs0eU9iNfscicRQ-wK8S-UM0SxqqEXg2Fw8ajn6RzfN0yfZ6PvTFcmbU8bYl4o-mQt3TSEOsMXiDz-YJvy_jo2R8AgSWYRP6ftZxqKLY0_Agm4IypAldkbhjX1DOXVAjc--mvsDa4WgSIubBz5cfDI7By3cY2DnW1fKj8yMzBuDF3zZZjmPTZerQKhmb3sHNqGS3Vgzu96nCEmrcjuehj0sOCvyAySVlpgdz08Rg5Q5B1gTqby9CpR25DZSbcmr8H7OWuX2esw1QTY0lDxkF_8qluLiVsTxE-tu09jhXMyhRmmorBYIL-gixBkFTNIbyRcWyYyObgVk2hbgxz-vWOy2dXbcQyYjRYbnMcssEBi_C75Zz2A93KFkdJ4ZpZdHPTeMTC28AN8GXdigb-TvP2jujftvVwZtwb5hKIQpk3iZy88EcyQmuV0p-_Fv_nbqcxJSNWTuwZMg3NhDRzpLEDrhnUWBptiODFtWwuaVJtfepsxONe7z6eVL-exe9xOsriT_vk6HgKQ67P8l_Jdu2y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlneqrQi8hJ9u0616D9Ua92JE6b4waIsmreA__ikQThHKWe3KLKvvyxttNVdyoc472dDf2x76I6irBaenm6NHDscec2IZI7Z2HVHCGjl4vcN8XhaMIxXY-_vti0Zv53fQSRx1EhVYBE8IvWrhm0dkKplSw5PvcPf8iPSQ4ICzNA3ZyOvP57A8kChXb_fFGV3NkekM1Ib8W63Dgh7MXv-RqYG9lwfK6aoqWg2ALp9CeuHb-XKPnok9W9Ec1hrW4vYsmmDPjAsRNLYWpbTQjfnR8UqPJgMLJrjrkamcmQEOvYy7TayGBDfeQCP1Wx1aeKQgNldBZ05EoXt29PDfs5QC4nrW4bmfOybbe_hIvwaIilfMHxUtb2ZTjcwOnNiN2PCO4NaPPxnXV-wSjMbKgh5riNBHefNd8qNqTUuhPbs2AaJXOF-Q_HXVxy7US55Os0wpSNk7ddDhK9-bbWDbggbVlTQN9F3fX6_DhB_y0FqjE20Kh1nBUzOLkAYslu0s46IAmMu2aFiPuqhEXbsRIymVSDk1oxrOyFnNHTFs-aQR6XxmwuPH9RLSLfpb3sO0Vr6uUTlxnHRS0FLAe5bkMlY8wRUHnWBKuOLIubuA6OGS2QvxC4PAs3s28-VcTg_93QVoS513owvBgM0zwKNv7c6FF6FUJRQlPTA-bhRV1APDtJh2rUbFlgRBJVWcSCRqtmJgVajhNQJ-HGd5qykViGrIpFrf4f3EgIKLbN2OOq301TL58oWb_Lo5qsszEi_rFCFdnFDfM1PDeNpFu97uBwh3Py2Rv-Vs-ppeBxhH8vdHQRNRhlCTRaNUTne3TgTGRjbqsF3yddOjLQ3FfkpQweFG2_dSRFy0DGBStkZuN_3OAiq3KEEy8aV1ty1)
 
 
 ```plantuml
@@ -6289,7 +6241,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xb0e63116f99f040b143054fe3a99a276f01b22d2f02cc886c3646725e43fd4a4
+title Txn Hash: 0xf42c1a206438f1a79024ff4c05273305274a88a40b7712e6d4ebf4c23f422cb7
 
 
 actor EOA as "EOA"
@@ -6301,12 +6253,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -6323,19 +6275,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| Roles_01 | Roles | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| Roles_01 | Roles | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x0654cfcd06dba799d4dc809a9a38daf0cbb788e3780caba0f03cc321c4246637
+##### d3, tx: 0x59f3ee68cd1b8b6a0080558e3db8f55fc62d63612fc21bd21daf342a2eeea743
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTmijRI4U4R2SFXYDPt8l9cQxkq1ZsJQxspiG_UytBOKJ5KIDX7IcixlVVDzqEYaXHyOoRVDnGWZBRQhoSIGrCRUnofXcOqZaK2hHPVnsgDDSYLwQf1g-zCD-s0i9EJHsciWsWV8taan83RFg5k0arV5TgYnBEaayL6EfB28Ex7937nVda5ckiqIkBFoAxoJKt6NiWWaHgo7KQ1LwAEtXzue4gVAVAXCFHzP0D8KhdGy6Y4jiR1C9LnC59yoCMa0dr6kuVC05zKJ4_6PJk887jCcQp0a46r0UHNuGICSFA6SHemFgSExKQzojkvxd-0HBnYrI3yyxm0pieDqXM3ORypXZABM78gInNOtba_PI3cDZzVGivRStj5OUsRXZ5UnS3vd2YkZBD96Byq-3gqUAe5biNTniGt4plHA4b7BXeFsQ2DZVRq6QIHN-OKdER9ogtJtosg42zvcu4Yeso_ZkjRecXrKpVgri-_u7s6ac0QrYuz8McT4fjjy3Tf6MnW1wd6DFM_Jen7FTJhrVvr7GytcTHH4FcT_tQ5s4FIyGD8eQlS1XtJdA7io0VgFmytTuYctu0jL2mBBa9V4HC-yZZ8N9US5I8nwQ6KIIQQbRSCOoc3t0msTA-o_YvMToSD22IsbphU1zyg8qJP0d_b5d5TrRLzBNskQJo6pHhUlVbVBftspx2hn5wbR4vkzfiPlCfpcvU3G0XBGiJioZIXtJOqffKIaSsZW5q2coO0Qxh5bdqMZBS-txSWxYTMAbLYn9fd3-Lqa1dNUrucFWpNDqqtgPjDkirQWl1w8HD9f-m-qSDwZlz3pfSaTsPDDrlIv7VpNfitdx9FG1wELShjmFGAsVt-lMtfeC6wPg6tA4L_nK-0S0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRRJjj047tVhnZH5n2bzJqNqGYJE8K71A98VK52Q-yuiN3MqNhT9WJ-lMF7IGcG441ObcSzktlcdF7io8mTvPehNOnIndYXCrcCGbGilqtac2i-WXG7ACKnZsu7AYkaw6Pffk1BF-W7tO2nmrnFK-mmgAuXSe4APlKhm4ccahjCQfxwQJAG8vIQ46EzND2doJdak53Z55ScVYLt2AQpz5rm8H8v0DEeNG-LFVnUas1r_5EP9uEXpY6SmfKgufXmcKvqYd0raN32ys4RZ8dRYcr4hna9Cso67ZUCfk6wJRH5s8nTDuuyItYsPrfnP9cXi4p1Ozknk8M8lE7OZ58MQQ8UdFl0SzWXkyCeRJg9aZ4dgLqIWRa-LfG-r9SuI7AjfcTPT7jZcDMMZIjMmSxLW4lAYBhCKbpiV-fStL8wyyNInSis53VJgq1O9HSEEg-9WFtzDcHZbC4VdXPS9vdStMElRIfnduche99ywT-zbjVii2x6hxNjtFy0FHqZa9LyLDaoCWtAvVT0LQGmpu56KKGrhMbaJ7ej9mYjlkbueM_qOxFHzttXOADbyfuJz5fMA6oxsN3dA7im0-ER0Jz_1wTKXYzGBGKiKruH7_ByVOGfCKLKibI4HsO68NA5gWrdV0op1tZuJ6d_HRpyJGuEsd29kb0ItYSlpBAKUD9DEcllthgKlbOsdqHcYsfTVrQght-pxH5uYzIjYCtFQRcQpRivktZK00HgdgJveqprZ9vX66Mcg6bJ5w116OKYw6NE_4MXBVTrxgi-IC-9HYLvcaxX_Az40VwxIl4nyEO-kcb-7hJlDqGZi8KLU9xFVHy34Q3fThrcrtCTuzYq-nYrxDMWp_hj4zS7e9TzkHv-06fz_rutzzPWL31rsR0ZUjAlmZy0)
 
 
 ```plantuml
@@ -6357,7 +6309,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x0654cfcd06dba799d4dc809a9a38daf0cbb788e3780caba0f03cc321c4246637
+title Txn Hash: 0x59f3ee68cd1b8b6a0080558e3db8f55fc62d63612fc21bd21daf342a2eeea743
 
 
 actor EOA as "EOA"
@@ -6369,12 +6321,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -6391,19 +6343,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| Roles_01 | Roles | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| Roles_01 | Roles | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x3e3eb3921fbe5be51d9523b9a8f3330261e5bb82cf00e031ad6302baf7340758
+##### d4, tx: 0xad5d8dfe4bfc4821ba03c6ce7f083390047df9b5541d32d0f10a6c974b47930f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRcvCqJOeO8YtjO1820TA-824dkQGHgLCvpjRoyjzt2Mb90cqP1OrLRMoVxRjxdfolFaBsKiMboaOn8JnJYSX6BaYINaLYp2KVqHX247wNUrUXJ3BXzv8uaVJ3e3_ez_g4xAHg6iCkeSLd2Dm7IM_A8QK7YOok4w5uxCHHA4OW56eCr7p102VlLOupEOwXDd4MNGFLMdFP2VVzI8HKOwNehcXtlfPEaDB-eKYZSAXIwaxfkSo20FKI5QaOwFb4q0EU3hSfcnXWW6jqT2rmmSIlvdTCtN0xt0uCms1wMqEnQ-jUm1WmG-D-6wKk3ooZnIpJ9aYPfz3r_h53UKetiDqWI9kAl6ZC4MeFGK2gkXBf0tKAOPGgEJrAlAjBfXLRbgweApkM8HV8Y3nDOfZjRmhhMt9XEbiw6pp7nUNkBLAIMpZYWeSW6mhgC_NDFp8_X2gcgg2-z8m7g4ODPoihumr22lxfrkugLkcdJziKGwcmy_52N92TCfu_b-tkxJUgfcEWs0e-AjfVFCwmao-_pNTBI5EAFS_3Ow6mnoQMoqnJi-m1DllWOJ0PpDCDRhHjy1t3qstTwlISxhsMJNf3sHT6l__i7s8aht8wn_NeRHTGedGkVqqqxLRBqGUwvzezozEvwtfzRWtQJFVxlRRjCzSrUxR15w1vx6eEO1w3XUD3dhxCOIGcyt8l9Uh3veQwm2N8RNh4n_JcZjwz9RG744-_awsjRNeAAfE2lWoUcoGn-ebVn5bADnTHkYfitiYPPqJhukHHlFtB_-K8DW4rajax1zFqDWTIox3lrV-wau-p1zhyDzbZFLZrxF5E4kBRG7h5t1FmE7r8FdM3ZK11eqy5pwBZK2nVSbQgTupruYwB2hPvpdX3vk9FUvhSclqLGDOYktIbuibINfRboYgdAvBfil-jP_tBt5_wyjNalbOX9vKRem-AHt5QOMEVxJF6SZQm9C5B97PoAsX1pNbnPeTalc_tjhZbutEYG0eUnrDw_5k0JvqNtIkgYfTN2Slc2wFTZgOn2mBVjCsEPRQSVPDPHgyDBSy01pgjLhlhORzkz54rqH2jeNfUTPJTDLGjhauMpQrlh575F2LVmqYjsgaCrr1PhOeUHd-h44zEUNx87ZwpKVm7)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRczEaUK4CaRRfO1820TA-824dTjA8rAaSPwEy_FTTGbgIq1P6GMDL6zjd--vvBkUh3w6zJ56fyd624CrLAlAnpoNABcCnePAESS8ZBbYF1fUHJ7F1-ccIIlnXw0szleVGJgQc2Tz5kFoCE6LSufjgYF5-AkFhL2YQk4aSYJ4N2ZI6QhvW29FtAYUvd2IyCN4QNtEi6NFPCMKi5X7MI2MwAzkThnK8LDa_45aSZLI6_Ia-ataOWbwaOfLmV7Oby3xDHjkON57MPJOBkU67WM5tD9yIFJ03ReN4rdM74CDYeUDtkuR6z0uZeKQe6JYMuHkMevCGWSi21T2z8nVJ36z0ku70RIeEuWa5gdqWmJFLa-0-havu56TAJW_JuFA2QEMMbIkQoevaH0LuH9wa2P_jRmkRMmfXDbiw6pm7ucfuovGK5Wwfe16NBGNDcURc7pcBU9rJNT1SUaf3KAD6ivMryGP2fV_nrkvJNiMVFcrZ2ANIpiTpSOvsgdZ-NBMxjz-mcauuXbRGSTd-eaaEdMBvRR5RyYp3q0i2E1OAUkIAc9xHw_Giey_CdcvxfA_fkcNh7Tlf4MsWMJs711tRkzUoYMym-KBmzv_U0KJoKw0BNe_UTaabpkRorsGpS0pFxmmrm_HTCWmrQ-YwpE2Mez61uGsSZizqtRQwYzayXbeGcCTW2Nn4ivS11iVaGO5IWZveRh3FgUHo6n_I2RwvmtTlIUs1nE9tihMrZK-uogN0BwFdfsa2EE4BF2lfvZANFXKsRmJc6T6wF7cKR__YVpc2RKAjPFREoRJH5aGQ6VQzuc-2V9mzmEQ_oHxhqMfcZtUI4D-6qYlcdf0csKFoQHfi1GeONHGyouv3kNp5MQdVCTQBkpmklKqBZxTaFloqnSvjs7-2o5hEhg3KaApqowfSMVWKtLSEwBXsVsDSqJZ9QjW6P408AR11WG1NEkWKYa6fcgDqPo4xtxTxMzwvuNcbk1GqIQRuwBVW3Bil-fUlArvzPryrVszqw5hCydJMyKpJfQxBFUPnhTitxRxPDKXFquSySFIcqKTt-vPe3TNp6g3ghg5gUQsmR6vzOwsQOf5y3IEDsgCsN4DblKPv6FsjGZWvrVb1U_24-lmF)
 
 
 ```plantuml
@@ -6425,7 +6377,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x3e3eb3921fbe5be51d9523b9a8f3330261e5bb82cf00e031ad6302baf7340758
+title Txn Hash: 0xad5d8dfe4bfc4821ba03c6ce7f083390047df9b5541d32d0f10a6c974b47930f
 
 
 actor EOA as "EOA"
@@ -6439,16 +6391,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -6460,25 +6412,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -6496,28 +6448,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| Roles_01 | Roles | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| Roles_01 | Roles | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x83cec754b01ed306f77968a35e66c2720ef9d49a7c2843e6be7334c6c066c825
+##### d5, tx: 0xda6e1337f748f37bf915b7f33655be6e44c0d04239226f43907b3d392f424419
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRJjj047tVhnZHbrQKTdrRnuX6EBV20mK1Kb-GgirwabWuQskzfWca_zw9Swc3Acwj9NlsUkRicTanOyUbbSPMqumnMTbSLzCX6bRUfhgGHauXmp7gf2FLxTZabKwwUPORU3Ve3_hTFcD7fPrds6PGFnEK2HfuM7S1JdAJtkVQoYpEqh6UehQ4EBBR1GEQN44MbIaot9cuIkyH77yxTY6J9DLZSFXww5TjZpwlIR2r_rDTfkE9BM4uXsjJZKQ4osngCuJhcOOJMKuEWSzQda8L1lwGEvXuN8p2C18jwGKeX793b-CeIln8Xifj-HwA8OQUvokXECstt82HPCeIzVvv3BA4FR9xZ6IpgKeBIKVjqY6mj1r3yg6zn75QMZC_ozNj3-xKMvvSiGjs9KTu9kraixNHtsEiTWu7xUSWON__44mzYEOQvVJzZRvXH-k0VbpRzk8Bs7c1G5RBQMtlP5PHOxbyGSgI3rY09OHlzG8ILA1mH282_iPd0qvXDbXkuEDjZyywmsYGY33ggNxa-e4JzmN6hehZdXkAi2LKJtXHs9AFQHOcB_9IPZrfPGqKyj2bW2-3xX5fzJQg7-01-2SENx_tJoaPdvD-6PrcrEfOq67V5e8gfQGWiPRdUJGsfDVvEyKT_oz8buE3GxX4MnaD_qIpmUX5EgtI-VyvtqICiLL5OnUDgvMWbMbMDl1xl4THNk9JuQBRHeqbQI9ijvwsYRdTrrxKjO2-CxfTMcRP7Cv_QamWLeggftrb4ZU1dwubJysld4QEmqCS9K4hYAZenRs0XrvNeAyyZ37oVT5HrDvrsgmvVtgl1IIvrwApO_hIp-Ot)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRRfj047tVhnYbBwtQj63kKMg5S6doa2PA8lKbKhN0OAFW1IrBQoVkltUCiOkZAhSMoGopbpDdpyoE6Jjg59UgdPMCyLPLefqbA5bpMuYQIpw34YSeicEUtavarOeigCfAmfiuYgCWOkomKOiInmowPueyGmdtlGjmKidYhXAAbtvPJCGCXIB4N6qNn3IvXgnRMPUuCt5Lt27evdRiWcTP8IQWQ_tGhyuUVkf9i3x-gMYAoLGra2pWMhPvJhXC5Qf4k9uBEE7Dz02qUSPjr0t3oHtJpGqdoJtTIfpSC6pBIj16qqorJ3D7XZSQsRbfU9gJ61bvkJaoJTrZ95cgY7fqxWDlO8_i7YFPL94MDQUZ1dG8RDIn9FbGNUAaQ9HSd5NfxNTDxxOykc8Nx8hdUCRLTBDruEynrWM7_V5JaF3-_G78RX3bDVBPsnjnmmxxX7xexNZv6TIYHY0h-AopFtZPqiTg-PAKfHYm14K8Nxi59AYDjcvdjgMzyjc0KvebDXjuV-jfSySpHe5kk6wSMv7b1vgT1w5lnZh6UkYww8QwwNeaq0EQjQpggk5bo1LV0saEvTIX_Ov1fDFNKNq7zw1zrE3Bj-YKYl4fwLVP6MQjomKTzdKfQ0ig2X9hTPu7OmdzzBzJt8d_Z7BPtp-0IrIj5F1FD0UCdgNJkfp_N_1DnXXRTpHsCRXQ6IfUbCq0FzH2ol8AdneNtJRwM94cmceRQLkOsttZPTSBw3sdsoLuMIxW_AV03FmqfUwfNbZ4G-37UybZyrtGCFQTp8cCR1JPjizz7wCiGjqAR3UmBLCxreqOKy_O3JhiEN-ybmAItBtex8ZUz6Vp6m00)
 
 
 ```plantuml
@@ -6539,7 +6489,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x83cec754b01ed306f77968a35e66c2720ef9d49a7c2843e6be7334c6c066c825
+title Txn Hash: 0xda6e1337f748f37bf915b7f33655be6e44c0d04239226f43907b3d392f424419
 
 
 actor EOA as "EOA"
@@ -6549,7 +6499,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -6569,17 +6519,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x7bb40ff497572abe19448af978542574bb7ffdcf12d8040a16f0ccfaa92d06e2
+##### d6, tx: 0x7982fd01e8caaec6b6f3a762a422f1915e4704712eb80befe5b823306b853270
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNVJzim47xtNt5YBviOcvswIODOHTAMmGC30T9Ua2Odjjk8r8aSXr7e_lTTqxIqFF1hYvhOFjlVVVxkV2Nai7B2kdgQ4o9gLvXwcYXBgflCbCAAAUHgh8oCHNepjaLjvA382miVZaP7ey68a8FApNBL9z0y4oMail3G3W6E2vlT5yQ9FCgpiPagun1Hk_M28vnSGfQrBNErDN6PtIjWV6qx5r9cPWoCjgO_JNlmjIL1Mlydfih64rT1CeChMskDkCHbBbTmTMVWM5IJVQ1tGP9mgZKFWsxWYKInaFEUq67GwtAl6_0a2RIMgMQUx55E1VCrJLCjHEX9wYkFe6IfG-gZimX41JlOxX2KpMLfLWeywW0FeIeNMvHFkGirpYfdPwT5UlEBicRBioksmIw5LgV2JLPRDyOxX3JEOQ__4YJixkw3ROpANYan_NXjhib16z3FRTkVVmCtAnLWQyIqQMz5NcDdiNoEog8Fc8D3X1_D0XJKLpxpfT-bxtnMu1XcgweLVBGUOSWy6NXUJ3sMT0P3pdZAEvo6KlYzE0e3nc8_2MXdy9HcQOkog4G-54uiWMZW-JgW-7QGTFe-gf_W0UWN2jz_Zaum6L-IVX6TpQWriS33lYy4TOP9WMBXovxOaaVRKufR_b-HBdjx-t2XN6qD_1DD_7ajerVfj4pd_-Ty9GSXouf6pZUkbbHEP7crWJ-aGupo0XyB5zusx2n88s6tzhHEpFM-_hof1VYzmzjbH9xFuEotKHAYDCNgwTwOn9l0pzUIv-ORft7860sKbjrU5miUZuPT6dG6lk9fHqKAIvyVfzZVThfPSnv7RmL4kLlHoI5-yS_cBm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNVRvim47xtNt7gNZPjtSmlGwekAad8seUkLLjfBvKc0qU2IWmoPclQx7_VXP0qwKD_RGWmFjlVVVxkV31sL1kfJJCh69EDALKpYr6p-YPNbTHo1WLEKAK3cTnCTDceT5WMfOPtusWS3IF63cipBx3FeBscA5FKSDzr0OvBdT-LoiWYBFA9cg4oX9YPpOGn3QuWgqPN1UuCNEPt29QxiPtBDCtL12pUcVwqxU6NZWJh_9-eEfzCJGtn7AvqasM4oqnk2eIhMmN7ifuU0B_rUu6TfTp2894I4n6Bp96-iALhsvdLipnqVUxwbernm6FCq8i3st6uY0FFiNtEIBB44FNeB0HPmnwrUunaCtcILvAsEgHDO6q6ckH3Su6Jl3PwVbecDp-vrIvvSiOksANCy5IQwNhfLd-FiTOvxFUVWuIF7mz0jqRKLoXdxw_LDJli0lgfQ_kBhs3c5GArIixQzfSi6lfOJb-GikG35c08uNixWGGLA2oH2e-_yLg3KvWrrcluSDEZaFb-CFPZ6RbsDF1wTfYw8kNSTNeye5Xnpqeuzp5wJBFIPLNMiXX98rT0tBT5vdDw72ATl8tg1xW7_fd3jn_H2INZSz8lexCTjJOMjDctXQ39AIb8B7giHxRumVQOuex_5wJB_lu1NA1fj89_eacttJ5waKwhTFv_pjToCBQgQEnywsYbQ6HUr5lu8pwYA2_ngN3HQQEF9MaYR3QUDecvMTTVjBM0thTqkfGiYZcS_LQOGfWaL3tDAvDu6_ZfMlBKUEjqD0xzr8-Sr8w426KOOfH6Q7b34Go5v_A1vOmnwJcxJhThpaFljO0aToSwEw8t_Mp-0W00)
 
 
 ```plantuml
@@ -6601,7 +6551,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7bb40ff497572abe19448af978542574bb7ffdcf12d8040a16f0ccfaa92d06e2
+title Txn Hash: 0x7982fd01e8caaec6b6f3a762a422f1915e4704712eb80befe5b823306b853270
 
 
 actor EOA as "EOA"
@@ -6611,7 +6561,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0x72d722B021b3CD414c43409da68BA9711B6b703C |\n\
+| address | teamAddress | 0x7778F7baE42EB592Ad46d0043908704051c007eE |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -6631,17 +6581,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x72d722B021b3CD414c43409da68BA9711B6b703C |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0x7778F7baE42EB592Ad46d0043908704051c007eE |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0x8ee0de62e717bd6cff0a29565b3f1d924267e42c829c85b39da8a5e196143cd9
+##### d7, tx: 0xef013880d3338004c4f825fa1042c14786461705dd03b20b61b4d5384f7beb31
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLXVRzis47_dfpXaBotQh9HaMLQG1PKTfys0e4KQR0zhKL3YsIP2ImP5TN6JVFUT5DcH6yTfRMHrWVZ198_7kz_zeSyynbxdLXXRZ3LZeh1PMenZD2m_L-b46346ZKDCPLSavqEJ5QdiPJepyDjH_wZVwpEsdzkfnWC6rMU4GgA1ote9y3OpwckMMg4ZhORf65DB4WTspd14cpSY9uMPQ5pO-A2-8ZYjEUsza5AbGt1uJRgknlrNDGXMwpzESpKSsHpYAPoPOZ0WkSmggn7EBb9uA_BH7l2B3YANs7OnS89OjfF1W0itzDj-x0qS6RejjnrWoqqwRfXqY1XAqH4-Ec7RQNc931cvBB44lVyk0f733eqxZDncLQ8cWapjaH6OswuXzw4znQ7AhPcUPCdvP-vKHrPoB0hxiv13FCqqpius2Oki9J6ViSqMIw6TeHZFj7w3wPkjxx5ijLLtX7mG0pmHTZGxrbZlC5Qv4tOF7d8Il7Yn1taHZvNjVn6w45PbwREFwKUsNwVfoteykFe3x7I2G6CgnjLOdg19oNu5mXWnXIkmPFgnp6ds3_2NuC2dPHnl36NRBHEVSJs7I-2_StZpT_-OKlGX-AM52w6i359vHLlJ3YaDvYKqaIHqQotD-4KGSzztWiuH3OUO-AxdySJrXDVke8oynEsuGTYBkikjM8HOWfudLWLu9FBrm98pYgH4Q4WU3PSGep1ezk14JE3o6guVqwnR8-x6ONTt3qxH5YQ5zKoBiqmJnZ9Vp8pwV9ah7qgHHmBo7Pbvpuz1dQD_2QtaMNLRrWDMg2gADnUk3EVAAtG7nQ_ikv8SJIOc-u8_tNdR7zwxUuyRrryprPPKt6OegugrKII7fOG70xaCndRxh_dNe_8OrPgD72LkdJIdnVSxRa7__-6g6b83qJQM0-Uf7FmCvsr_U9_AmLQL0-Uf7gnP3vpjAmZE3rM4crSwQMVifbV4tZUU-1AjK3flm3daXvpp4awa5RtwQL9g8Grs3YoQFVJcvmwkgYuBVLzODAdGUWhl_arHGhJMKx0fU7MNPjL-fRGREWuFS23zZXy6VYiwz7dWzThOIZoCC6orsjs4vejA5xevZUK68kTTdtgwWQXxkaDBDpPNiwIBTD_U1igQtQRRrOyAf0IlqvozfkzYhFy3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLXHJzim47xthpYnbqqRczsaQK0CBItfnYG4Wcfx6DFan6vhuIQLusmKod-V4z8sXRHixHXz80-nVJwVl_lkSf6Dq8T4KwNJWKI8fZgEqa705KekH3IaYWv0yXwFM9E65pqLfn5hnJ9MyABjj_sMZz1UeaUIxoF8dpwdZ2kuBeO0ds8bhk98K-b9qOi6FDB6ObTF5TfcyjRaC5L3oUScpiGL1s9FPIUKCH7rWE12T9EtU-yA4AZO_p1AHA-l4mX6q55fjsli8YsqvD2vZE0JJVgxW2zv5nFBTJ6pBCl5s0xjhbkhTod1TYqaTiDrR8SqS9qnR0Kr73Wai5dTSkrk8-21HP2XBDG6kd_i0KrWoxHRoD2cHIY6rBZQCaxmH3ULeO_hKzuJYLQZepYy-859lcIfnhonpodhyTDOyidQic1UDHCc4xN9e19QXzF1PDSxcEvC_ObdoxswP-ICTlaHrVt9ij9u2w6SJjZUVuWaUFrw5v8q60Zj_wGofLh4qSlpw1pj5MdwfcZtn-z1ZuOSJ1lHGTvcAqmdKny3LOgEO0pQk7x84jFx1lWD4FXUfV5HcMoRAU69rYku1lmMmyUl_g59qOVWPnxEXJ9tI2IvR4K_65CyoQ3HC3HVhJOzV8aTtsxMcWsxnPocvVguHIohuLerTwU9oG5fD7TmM7FzQY_c8MQWfucL0-xJP3MmXemqp10gOyyqrn1mghZQXICwXEiRk7bCjsPEt8_3zlOkd7ATgWXMSos8OsamPlcY9j9NLLGk-EIAJFX2fM2TF2TNmv6AdAlRjCv8Mvgezr1iBZEPs1iELVoJFnqrcn-yXNEF5CODJgIAVr8vK7bDNojElSp2Ws6gWl6Kx9H_lJaVfjQkHGETKJ2L1OjfcTl_4OWe49G0R40P9izb-1zIi_d1Uox3_xyCa-SwN5c7oPCNOeB_EarcPoO30w7RkmbqKZfICgwfa4a9rm4-m1Xdk3mfp2dJT3BZnh2U8lGc1ulfklrnVgetxqlDLKIb7C7nhuWpy5OwUfGDBxyLM3QVRthGzXgiuLkivZkEHpsF-ypdfDvot9PJjt6JM6qUxbZpcyxT7fI6QvYStZ8KtJLCBRYDg9nOVvkAMuj5SsjiLhxTc8t-rg19y2BDqGVpJWVoDm00)
 
 
 ```plantuml
@@ -6663,7 +6613,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8ee0de62e717bd6cff0a29565b3f1d924267e42c829c85b39da8a5e196143cd9
+title Txn Hash: 0xef013880d3338004c4f825fa1042c14786461705dd03b20b61b4d5384f7beb31
 
 
 actor EOA as "EOA"
@@ -6681,30 +6631,26 @@ participant SafeMath_01 as "SafeMath_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -6716,36 +6662,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 0 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 0 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 0 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
@@ -6757,47 +6703,47 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 10 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 10 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 10 |\n\
 )
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| Roles_01 | Roles | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| Roles_01 | Roles | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
 ```
 
-##### d8, tx: 0x6c89b576ef54ad242b62163e79fd72db67fe6b3605d7bce7d5ba754de69d16ff
+##### d8, tx: 0x70cfe8f94bfec70daa7dfffeb34bab1094ed30d8c27ae0e7223e8da51580ac65
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjJzim4FxkNt43QOmoXjCqIOkwYhQKbqa8rA7j0w39YIyb8dKgnu6Mmd_V9QIbrHZLcCY7tFbyFZztPpzcR2yrGfji63CcCfEeREYZPkbDf4P2Yo74E40bEoAu6UWaKxARn8c6zOFUGQ_ROwoPcacCBGR5Tur2eePfEGGuIdHqdoWZudOS3TGGbQ68ePax7D3aKyXHfaSnBaryZ-uHhDhSTYQaZDG0B5wQ7WlPt2b1i7B_OvL6WskJWZ-1Svs58SLb9Z8nmlbOmP58htU1ZzsWtl0TpyNGgGbPhLLzjsgvDdgDK7fLwRjUYAvlkzoHdX-W9nrVU4vDejkGbXk6Z4eM68BUEss3I66Dv1gZifaeY4Q2KkrI4fYQZgRoeUdZ84gDdfmamSqlRXLBNlLO3lOjamFi9p7ErYuQbbrpOpfpcmtM62iGmdPhrRwmjRKBQUOF8zEx5N4cJ9IeJvVgaZNBpdykPUlXAvZ9286a4iD2vYj8oTqVG6Wj9l001iNmMAQaNG3_31PSlUHngAc1pqvyvhK9K-1VE1p-x1rJrrV1ppDSgawHK9GMjZVc8QN6D8ScWe0kWY6DZpsVEuxbrGz8x6FWL6sR1rLRs6uTPTiEglMgr-YsEozdiGmn1ptlLG7uMgHl0ql5o88SeQPu9ARWez2eT-54Z63w28_lcTPp4d_sONjx5_feCgtWRQdvIH8Jnloyw9brywLIhZeYxmHanRRZxOjrZV8gH_Xq6Gb7y-ETq8gOhGNDu8bVoQTLgVHxFthzym-LIdEdiBV-XZNlUCwC1PwDeXWWOarqE2dliK49EB_B6pEy4ed2ebjXS2KNiQUdW9qj48r48w8uNK2qp_SvvtdrYF69VaZ9ur9CCwzZUtRevkieWvn4wJysg9M8umcStYd2t7xJiLmC_3e9lpPVRDffM1RtC9HEtMaG_RVt7UxPNHThWOrjRDHgRYSWVNdJ9R9U6Fv7o3cfb-g_XgBUbHraU_Id9_yt)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLHRzD037w_Ns6616mmk3HjaqwbekrI6DAqgKpm00WvEQUBbbwgosMqRFllE5dQjGCsCKGVuZkVp_vidxyAyIQtQ6mnJON0mcQwc8PaH7wMw1aQd49A4z9gWD7Pn6I5LiCipGmy7WMZO1W8qStj8gMUWEftIgZ8m4Mz1NYNcUH7fYsc_JIPw2bfonvZkp8OyU6rorbXPYbj77n8VX0upPNk69LAz0GSMQkkAjbzLOCGTVm3dIUJKvj3k80JKyGn-nKsiId1oLp3EynFzq3EFHd5vCUTPXXJv4c5wAauZYbqco66ZkmqIRbI-L73GvBaDHek-GfRJikN6BLRWaiMMOOU7FK1SzXYkIMuR3Q9aXbogaDEWd8xC5m-icEQ9BarYyCiElicdUhAdHQRpjuNQaBZBANbtNN5fccfp9TcoysM41L2sEtT5nUUFz-3l0YdYGtECItG9fb-zaL_4TswyozgsRjy3NOn8s2fSLh9yWOlIlDBG6Dm0PTW2QS7AkVLPv0lm86llxDuQxY1DqPoQRKD5o1VIdZxAJZWhjy7lynmepfLGabUwHwOXrA6yX8QHX4FWkMLdCjsq1mq1bvpgDe3rm_aq75TptSRVcSWdNt76tHarF23tsUn2R44lUfL1VWKyuU1vM8KKOdGi3yM5n0I6Z9xS8WpkBY2g_-PraqIl_PXTtSFncGBe-5XgOLPbZB6yhsOfNRxTYddkvyV6r9Vo_ZNJvx3TfzyHwEPFthGZQvPZ6rwEplZu6CmFdcqizDzLUbxVu9MrhNadohyqoeaO6gOT1Rrj5XIGAk9URg4fuY98Zb7IxUdTlta7YuGrrGiZjS6NP759CtNiExBVIbbMKPcN1v_NfH-sQTT5RI_RFhg7kTMaXX_vvQCnZHTmD5tpTdq7_GirXtVJO9tdLT1zqTzJtc1gnf1kzt7Vfy25P3J6hRzORlLb0F77L7KSJU3Rf3bslOVNAv8jLx-hIlkNTr1yOQ__9Vx4m00)
 
 
 ```plantuml
@@ -6819,7 +6765,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6c89b576ef54ad242b62163e79fd72db67fe6b3605d7bce7d5ba754de69d16ff
+title Txn Hash: 0x70cfe8f94bfec70daa7dfffeb34bab1094ed30d8c27ae0e7223e8da51580ac65
 
 
 actor EOA as "EOA"
@@ -6834,33 +6780,30 @@ participant Roles_01 as "Roles_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
+"JudgeRole_01" x-[#red]-> "EOA" --: <&warning> <color #red>**REVERT!**</color> (\n\
 <#FEFECE,#FEFECE>| string |  | 'Judge already submitted evaluation' |\n\
 )
+deactivate "JudgeRole_01"
 deactivate "ContestBracketRegistryMock_01"
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
-<#FEFECE>| Roles_01 | Roles | 0xB91107efd5859754AD5073C6e4c3eAe9446Bc4c3 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
+<#FEFECE>| Roles_01 | Roles | 0xDFA7d7E3d2E66AaAAeEdEe15C68C6540B13Fec93 |
 endlegend
 
 @enduml
@@ -6869,11 +6812,11 @@ endlegend
 
 
 ## computes grades correctly and saves it into team's struct
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L201)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L201)
 
-##### d1, tx: 0xe044f183370c5be14e09f305db1f4e6884777b872a5b141f54d51342cc5b09f7
+##### d1, tx: 0x0faf2ce4117eb555d04f0c844244fdf9a4ee29d6118ea61479fb66493365096a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVJzim47xtNt5YBo36vhH9arOCKK8wU40WGDeB4d8I9urmdSfnjfR2_xvBcfRq1wr6DMbQrSRs-Uwx-wuNdmavpJHJEXy8GbYkKvaFVAv8zfJ88LDi08B7N8PdB7YALPhBq4r5gk1Jp-jvhaV8SQR7WfyGA3zzpaAkO58j0IvIbJodKZFH5Kai1rngH8pqNA67crF8OQw6WYzit2NF70npBhjXOPZ860nQYLxByVXh5GIf_5_AB8dxEWD_3FSgZoB49JhHWiFzIC85o_eTe2DEJJCod6RJfe7bSyFaj1qrgHNwHcJobkEOjctxZjrWbc-OHcIPeMKqpKQ0sgXf4qnPe35qxxeBB8Cz7FS8faqdGJ9aIDL54ZpJPmhJn_KjZvDCg_5L6ZmzKgCqsQYn5kms5VoAIHPpjGIokBDeVArY9Z6Tgb2QsIqB5qqAOJPJdIqMLUvOX1vrVwPLM-yHKkO3ZawsiOJ3mmu4gKHPNkHp_u1iiwY1Bh4kmHwnKERazX_a0pckAlPpDPwyV0Cz7dB0KR91EVva8iT9eVu2YA1ubW7EWW0BN-ECZbgcsMtq6e7lk7RGOBuVUCpkjMWZzDoM4rBVjrodoSwcA0Sm0Vg5mlSVtYNMwdiH5sHM_ef_cSTgi0M5UOcKeQFVZmKyhGACKY4U3XFmELDSTU2A3M7o2gz_azeRYLLAVPRzJvIEZZfmotMk97oCbf-c0kF3RyH4LeaFbXskAHPq_5uHlVUAb2ORtf_woRDR_UL9cNLMP7v9vkFFM9_a1VzRYEoKz2gKMYGRyxBj7AtdTTDXEptA2sqolH6GcreV2BbcYSXgRCxfEQMqO8ED7ri3JWelw47FUNLdnJwtEtafUoa-HvehoOGOm_KloKFeVkXrg0DlxiMRzakdDlLwhS2rmy1od2QF0iSoyHBGTXkjNhljuSzejTjDTwtJfPwzJhw3avNUlYJQ0Nf-1wYcEq3Lxmflgpy5nCghwe-SuXFlhRy1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpKdpGYg626qp-810WBGlICX9d3GYTIh7sLeA_tsND2tf2wr6DMbQrSRs-UwvUwuNdmavonMJgXYaXB12PQ8O-5oI_2aHGoRP058USn6Ui-0fbbaXmawMPX8-UJslr-aHSfAhSSfF2LIVFcSXbp2fbm0NcKoUCw5OwgP9B0PSA4ICr5p1myqfvB2GmvGlRDmbpnmqOowxOM6OY1WqMejUg_7aQnq4gVrVYZo9-oe7VmptieWYn2KgKIc7-v602vRtsq17D6AH7d13qspkcwOPKYEYmR5Xw8OHXP733Cvr9xGqxPWpIpDi9_8jot1QBSkaZiK8fYnG67hlsWMMmnwEUmJJff8W6JAasa4IF5Vd4jF7rIsFarp9yLKMF3rIhJBPgB4Mx3PB-HKJBEPo2MHnPz7uMiPCO3fbgJIpMnOkcfJ2VAOwMoogtB48FQh-JAkntYEaoWSSdMvZ2OU7RGWoWRAYpEV-0TbcqG1TObs1FMAXpCdjFuW7Sb9NxETwF7tv1ceyv82ZO8Dg_CdI0YUb-WiWWkHv3ZWB0YnyXJCwwZf6pzSzpR1ybtgHPdkk6nhSTZJMDNfTH_V3LklODgSe1p01-eN2zn-zIwpLzo8koQpy5VyoZzLWImhp4gb2HxyV2tXQ1HYbH3mS9k1p9hbimnKRmkGLNlycjJSIgvJwBF-VA1qTjU6Mgq8A-1WjFyjIZ0-_4KlpMdomx71DiQ3ZzuhelLUaCjdm_ZHFdjtghqYghBCoyqio7t_Q-YGl-Dz2PAUarw4q8jcObstdQ3ElcmxRwL5UQfFfZO3SDFf0o1LBqhp1fakxbDAI3JP-R0quARsW1pNdvSwAVMvt-bBrKdoE59U2fUaOhdy97eBxeTUX2Rov5s_QhvpgGMJGZgLtJK_d7UQvjkuxjkUONTttxHQrzA1ZQjnUwtIfPw-Jx-1afRSlYNQ0djy1wkaEKCsxmjlgJm6nykhw8sVun7lhRm00)
 
 
 ```plantuml
@@ -6895,7 +6838,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xe044f183370c5be14e09f305db1f4e6884777b872a5b141f54d51342cc5b09f7
+title Txn Hash: 0x0faf2ce4117eb555d04f0c844244fdf9a4ee29d6118ea61479fb66493365096a
 
 
 actor EOA as "EOA"
@@ -6908,21 +6851,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -6945,20 +6888,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| Roles_01 | Roles | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| Roles_01 | Roles | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xfa1603879525b1d67e885ffd8a0577d4eff7dec48608c3ec7c77ee0d03929ee4
+##### d2, tx: 0x73f78f25226adf019e6760dbe9b4baa6233ade987301bb825f93a5de4b4a53eb
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzj03Fv-ly9YNq0Rs_KjBnMhA24PV40WXhGlIEXoSTg8z59TBbjBuR_FITEEbb8OYAY9B_RvyMF7PvMnmzm8ROfHofWeJAQAKOYQvRU96WijHf3Y05Lq9EJjG6U5YhmipJHy2lp0ztp63d8pJR77eBg6A2BKCAjV0KuodTnboeYqdoO3DK9b234somq16UUGuqAFKrmn_4pk41hjfUv2H56Y1j3WjUgXaWVVQXAiZd-gycGmD3c4KxZIHHmJBZE9IH6k9WfEH3xi0f_4ec7nbcExdMOdR4IMZOxJYUF84RnZsr4RuzYEKBOTYpkoXTAMjet88zvocovYcr79f27g_daVH0ux97SObSqaCXaBIjMZ930tHvhAX-OI1qbkzFGiaxStl56vRDsn2dQk1q9HHVHbbkB2Vrsvwb8gyyNMnSj6YbSeHeleQzpMJ3kCLOd2Vkyb-l3vSnUoCQhQ84oIgTqzzf9RYVmaiGeioPVwtMjrpGxgHlnIozxzTp3JCG999KQL_2tIWXRbzdkW3jAOvq0hAQcV3Qtun6gt-ysWAKF7isLJXA7qXHrOl1dvdkL4F0mxdjCIHtEKFPW1_yhXno__b5fm0zKoWMMvA-93aR-DC1Mca2LBJNWaPX2YqAYxS2R6C7k0XuzCxLyIcx_9_duNBj4KMi7RqWkpB2MUzACyQ-tUSoLzgMq-YCmhklMPer9z-fij9-29molJV1Mf-IajTxFv56SNZmv-X4OaQVweIiVyc7DULec6DGq0MfHHA89Prgk_QBAbN---cd_qd1ZKIgJf5Cx_A8oW_wOsV0oyVNvkirT1RUu7blJiI7OSfuMnT3fjxiQkrxG2r_NfRbYks_9MWpwPiskgTq0lvt6zV0VKCtDxe-5_mr2hr0t33kb9Vmx-0W00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzj03Fv-ly9YNq0RMrwRfc8LeMq67n288UqB4hfBd3OYlLINozPI-EzpqhIZfRmCH1J55_ly-B7ZiyBOOQ6vqkKuOuoNEfVbMA1YnKqg9rpnCMGuH1aVyUXcgF9InhqyonLy2WVXe3TWxA3Gimox3EfhX3n61VFc5U0uL-bjBZNFWYmToZ5AJOY9Ncq8oRY0d9Hgak6QuMTwYs0wAzqvZ-DK3i4q6jLzBG--DIHO4_z45kbmf0iGCxXKPP8GBjEfpX0kfnAEUJ7gW37rxCHh9vPhMIqU9uRfOyjh6R50NpY2yvPbsmJdjptRC8LeMsxYszoDqH4ETsqKZ4eMQQ8-E0k05x13SeTHsNGQfHDEgVOe2IpqaQBoeRx0OLfeDJlDevjhmwnTdjsn3dQcXbnIHTH5dk7IVrEvxb8fY-NMvSjMYfV8nyle6zmsJ3kCrOd2VlSb-l3vSmVo2Sh6m7MQozqzzf9RXVmeiHeiBLRwtIjvnGwQHlpIoExTTz2p2G99oSUr_CspaXRLzZkW3b9O542hAA9-rhGofdtV6GWhD9sM28mmCRqm2687FT_aVMVGzoqHstRRSnSeUp07uwi1FtuDJgW5jr2j4bYLkoO-uiNR25DXogXYgGYFn1m4SeMg0wTy0lDxkF_8rFubiVsRxEztu09rgIIyBJsHvndnf9loRBHxJvNqfRRv83AlwDOdZahzwQ-VEG6F75wPvgj8BKvfjPijfZWxVt3mOzGypOe7LUeRVSCmgYhHiAO1G8ig2aNGgte5ooPR-NNlwlb7pwb69NcMpU3iZyGOWZUruKFWv-VdS_Owg1KbZj5hMNqtjB37my2pXE-5ljktXA2fthAYdckYjnxqqPpTKBq3UZMFc-Kxe9wOsriD_nk6MgLf67P8J_ev-0i0)
 
 
 ```plantuml
@@ -6980,7 +6923,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xfa1603879525b1d67e885ffd8a0577d4eff7dec48608c3ec7c77ee0d03929ee4
+title Txn Hash: 0x73f78f25226adf019e6760dbe9b4baa6233ade987301bb825f93a5de4b4a53eb
 
 
 actor EOA as "EOA"
@@ -6992,12 +6935,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7014,19 +6957,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| Roles_01 | Roles | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| Roles_01 | Roles | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x520db13b67359729131bc2ef8843c8c62e86071dc8dee24dc3a369a1f9872718
+##### d3, tx: 0x053412b3addc53457686689602b5f02a75164c9606b07556f4e4f6674311957d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vYHjVbIieeHqy81036alICXnt3OYTIhRsLfQ_lTTqhIZG4i14JKvvsn_ztsNywc476d3b2c66I6iCBaiXh5GHD-bSiGK6q8c-a8cnupVzLLUo2JCirp1bsxKZSA8a4Dj9fbe4wYkWM29K32jNm5ESvNUvzAmh9EbVJaKqY1YpomNT75o3Zagr2WJAnE_qdi1LcFfksH9aie-MBHsFLJsy7jDWjJnpwHE-mEZ8Px0jIfwFSGb9ZMPWEknX5Ec1osWuwPDazXoOjTpce5d1vPZnTmMFTzlEDpdhYrybtfMmlr42BkHS8SvRi2iNk1xjcVv15F63LAFBZh0DEoWtI6ODfFoTCHGQeWYX3R72jCdp9NefzgeoNdExswfLMtPk68Lx4BrcSICgAiy4ulzJvshMqgdNYnTl6n3SJEz2eHKSk6W_Pe8sDzlGJuIClh3ieAPD9UxU-IrJINkCt4LLAgN_jqRUKCEwsByMjlsx0UOoKW0Mic6bIqZuw1SFWEi8YMq1XnnZZLjS4J7RgFHiRisZ_tGupQBOnunh-jIEub2rqze73T3ts77SvGzc0BzHk7dx-WCo_05ggM0PSehuWEctqSO4rFmagL2F3HJY0LJGhNWd8rW-W0FdodjluYNlyd1GGkkX2cKXFV9Y_CyGvxuGvsrTszTIbyhcqyYiqMrhZyhrTU_tVO8l4NgLiJcvxHSJURTd5m-QW29C2pDzADCdT0JIccPAMpQs0LmK4R126QPiywYq9RxshEg3-9pR8IIBCicSF5NYWGwxoh5ny2R--Yc-IgeHwEkoqCluKtVTqIF-yq63Nf1QBlT88ZmjjmWSCBLeC_wxHFN1w2NVRaUVW1gVVzUD_VMO5WmTTcG8tpYNuL_)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vgJvGIfM4Tfay81036alICX9d3OYTIhRsLfQ_lTTqhIZG4i14KMvyzd-xhlp-HH2ZfLcKfV3d11MwaAKmuXBekuoCMAI3I7dVIwI4nRVzMLHYgHRv8M4Bs4G1js0a2Eb9pdl4AYV0MS9bp1jXW2dXSpk2w5PxkTPNmovq8YOwkM242VdaADIZdA-Cl4hk-TWM4lR9KkIJFJ1e8tfePP7tniIfF5_9bJM7sW5qGIkPPccY4jqfdCErsC1fqmDsa37r6vPXXcr43L6rNQTGySvz1ngHdPAJURQXcF5E7OYwjgsarhSIXt7jLg6uTbkGZ1biKRgmOKFJC4EoXs2QTDPd8qOXjh58BZI9nBJn_KLxsTAoybv4T_TKgFUid75AjY5x3E16P5NHSuN-vyQLxTKHhLOkXXiGt4plHg4rE72GUUr861_lmt5Y8lW3yjBfhD2xEwHrpPLkC-2gw4ojRJlteWRSjGKuzT6TcO_G4z6750ADgnbvHcLQlaCyBmbLmfGYsEiQOqQ7VSyAuZCqB2SoATXQhYXxoSMTps3zQoWvvbHqceTklOSPG-cGBzH-FaxECCoV85g5S0ovJNn0LFl8uo9AUEAfKGy55E8E9DSjk6SZM3w00-V6Th_85u-auE3DbnnNKe1xmilAeeSUUABSJRMlNKfVQriFedC5jMw_gxKft-xxHLuIwXR4PlVqsercNTpSlce0IHSionNZpBLeprAQPKfRDhO1L2flA07lSoPloYqvRxEhEw3-1rhBWNBymbS_1Ky0VzTfVWOU7CVtJHVEpNZrA9Tn-pPeScxBFHTC_BSqBDxPXIvBUgOSTSskBlgz5c_VMBw0FIoBpVg1w3Mz-zrSszrXWNJb0qvnY_-Alm3)
 
 
 ```plantuml
@@ -7048,7 +6991,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x520db13b67359729131bc2ef8843c8c62e86071dc8dee24dc3a369a1f9872718
+title Txn Hash: 0x053412b3addc53457686689602b5f02a75164c9606b07556f4e4f6674311957d
 
 
 actor EOA as "EOA"
@@ -7060,12 +7003,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7082,19 +7025,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| Roles_01 | Roles | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| Roles_01 | Roles | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x036dd0aae428bbd9717de591ab0cabea3b511022e5d71dcd9058aed5c6dd0b3e
+##### d4, tx: 0x17b2dc673eba3879fc6782c9f193adb5cb69a050b9a276c5ef5b187b69f4b297
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTHRzis47xdho2obnLTDagoB2d8WZgAl7P0a28ji9S2nOcaPI4oPL1K5pV9Vzz9bXr9YUqiRh3Ci4NoUBoxxtHtvX7ohZ2WJJdB287IvAgSnLAJuYfLSz0mevbCf1AdmAyIdPTAX7cMQ_hJE1f7OKJ8SM4McJmXjFvC9GYfwKspfFHzhjFlkJAGZR8qKJEf34gSc3N363UN8kUbdcUoi_4f_IwfDLZJFe8GgKgenHhINJqU_zOOGHhz7rIH9bDJq7X1F-joCa6vnAGca_JpjQBlePWUKNRDdA4G340ER3-EHU1Pdf1kO47CECGIdDYrB6RRqXMU9RW8cEk352wlZiKEoYJ03PeUNOme5FG0nmE2RZCfJ-U0K4C48Gjpgj5zqbpA92sCNfpd_Eehi-eZMpcwmYvq0WezeY_pJAxEzudT8nMnMB6k5aynSRjvcuHK6iv1GI9rJq1tftlupr8aiesfJUYoVe89YZ7J5MThVK18xNzwUBBBg_JjsoEAeLJh-VcB-aAEctZ-fHbFRd-dPZ6N54S5ithy1bc9auhzjZgjPL5Gd76EQM5mngwzcBckvVbZ7CuaTst7OTnsm1dwKemSRlks5uIZqwMKD_I6ibyP_UElw0D6yYwZArmFtdOD9ItMz1-9PZWOZEonpMC_zBWDSSmZyCP3Peie7FgO0R4R-WviGFFGr0h0EWPhmwTGFCzWT4p9AoiroiFXXcAwQgcFw3dCwSqTlNj9QFSW7dydXuT7z5AQKYlwF7XndcTe9tuHPqDziycbkyBcXOnvGhHkBXxrs__wVqd1Fg1UCNlbOFhMLa0w5VQrsjyryc7rG9t_JVNO3rQtUhoIWlWoa7vWxPb0LjmNdwx2Ng2WqiU2PrCwrEnRSgLznzWlxigqzZPK7k_HOlnPZpktety7aBsStPZIicIhNxRLohPFTnJJRVzRJ_gNMLxwAcwox5N8nzQDKKW3QLQql776pXXZbJUm9S5B94ugBQZ1hFqoMYN9-jp9RNtBn-UraLf1bYtenTzA2ZfwrhsYBNXxbx1jVvcxB1eFUUW9xlg-8oVSTmSic0IXFHm7GOG_QnW4JjXL-g2Rw97s4BtkEfhf7g8sToURzlPNrkjY7gFleQJJxRIMUuXiTqNtgtyh43EdoH_o3f_bBFi7)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRc_FIfa4CqPTaC0c106bVa92TE6b4wbIEir5U_lik8Ir9-iOeQAngO_jitptFvNpr8NIGAYfLDeeHefbAH3PYNABqEX9ZAka8nppamkzHxpgKIIRyVX8d4dzm7TVfEmZjfMeIyts4Yy-GKvzBV5SECJvCP7IR24NZRXo5OiI50es1cYrmOV9HvJYJuvZN9iwZMuurSoOxfRuVYH1hf1Gz5EtUrn84AkqVYJGAXoh5R88lP1O4e1UfICKSNzm8V4ZJuIucDvh5TDzhMmPdrEXOTW3zZkxPWMORr6SjZxLjIbg4sLItsbwB1oscTIoG1YRJRGk1opm5q9sJBgOfte9s2u7RLEH5OmfK-q22fwedmNrSdV4mIfMS72VUzHNHYYqhLzILdSYG2l28F4jYFjtV5DQtvC9qkdGwU0x4rV2MASaj75D1GouR2kepzSq_CZ_aLKvLGNtfEGr0ZHfELrR6MmWL_iSx--kyYZzzsiKGIeMTZvVY4ksLyVovRFVlls4r6NCChQ2Zelr5ummw-VBxVBVaQOgXvtbmB1Jqo0rfEsPFxrbcts_tZ8v3-ffXM1r3xzWzeWqqgsSJJ-yuZrgsyHqcNmZ-_jCvWaXU1phdDVUs2ofHEfE_9fk1RJfCTpMppRh43JJBxNPzarksHWUcCx1rvXjmR5gBsSn3pGdCOh00FgJfom23Op8lHob17pHtc74gkTp5ntICxnxmmrjIUoAn-9tixEpYCwuoAV3BwB4aYG4dV85dATrUvj9rOVD6O9uHhSkJH_7sh_wN8zWar4XcxvnC4srEf9PXtol-EiZvx04s_qtss8nMFNkyauJuDfHUCVS4D4wVaa_TO2DGmEYYu5bs78hbAyvAzOwnMTnbKU5jcdky8MFmqnOxjsP_3P6Dd5r2gI1PwPTLkJBtANgi7D1fvVxcSqMZEArW6v018IJ71WK2NEcWaoi6fMg6iZiDsTc-_VlYpWtF6yMbe74ymIU_1VTnzqN_ybN5g-_ig-OBexeNcAJVrWSjL-TzwdOjdTcMQxS6EcEMGTgwrszftAeRdRlRDqGRg9xL06Lt0rNBQuLbSviRQzGKY-GR6AdL7fNX1YghDShJw6yLmiafpmywW2VKvty0)
 
 
 ```plantuml
@@ -7116,7 +7059,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x036dd0aae428bbd9717de591ab0cabea3b511022e5d71dcd9058aed5c6dd0b3e
+title Txn Hash: 0x17b2dc673eba3879fc6782c9f193adb5cb69a050b9a276c5ef5b187b69f4b297
 
 
 actor EOA as "EOA"
@@ -7130,16 +7073,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7151,25 +7094,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7187,28 +7130,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| Roles_01 | Roles | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| Roles_01 | Roles | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x150fe49c78d6d42f50a0e01df65c570e15c76efb5e20bb1350ac3201d2b03ea4
+##### d5, tx: 0xc87ee02b93ffcd9cc51b40b22acfb7013e32512cbd575b534414e32ce4c1874e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLVhJzim4F_kly9YNuOsDkUT88Oe8Tr3GaniqhvCGexZf16fKpdEHddyxxk4j2IX3qP1OrKRs-VptVqkTrSVGWU5ebALummXMgfSbEEGIrISfs929HtZZ2TSH8UKdISoBqNavrakyQjXC0py0A6zGaqplezm_Hbn6d69hvebnfzocLxcGj5iaAM967EXG6AivWn3sBmLEIdb9EETZM_f9SUQEQTzfL6KYWHhf27TrEFU-yO8rEZ_B8eq6Qa2XrFyNPPn37AHIbN6yVSBWJ_HOhIBoOLcaPYR7dFSo8vCFRO89PneKMnRp788ropcs3mEBQwJCDGCs6U63WnwI0nEJGGkOmfC3qu6c1Pu2yOj16vJAKid5A3w088Nwb22-xWwvKbQA3azpjdv6T7g8oivki9EP485U4IUvXcVdUyJkqSgOZ5ZdIqUOk9gyvO9gJGSKq4JBdi2kZlTmr_AAE5jJ6r2b_KRZK6C6iquM-ijX6h_uvtzTLx5RzxiOWYbMi_hd-8dsclY-Mqpxbz_m6ewuHX6GSVr-8jc9KmgzklgjEH5WM766AI5WXcvu4Pe7EcETyG2ocs7QAuJQTInBDiod4FFCPbDNJEsRwLiuojCtX7yyKVm6I9vdT4LhdjlkuQI5dFwKwAnJNEW3tKMkhx3T1g6WCePsaIF0jzs8qW9otSDUhWOpNrJAm3p6AmD7z7YSGQ3OqfMMIb17WnNEEHKShcBZ-a4NztWc-U4TWTYyJlPsTd5froLKk37mGlpF0CxuGiu6-hsCfUk2vjdCkO1qRgyUDHl_-n_IS4-e5unU-5W-jPMG3eLzgNQtpNoVlK0dV-cUcm6grizNaX1V1v8JrXxOfeLTyMdgx0NAA1qKV0iIuUQVKMkjEyOcyLTcTRUfl3JUhJmZjPtRaV_6Y0RERin1RvwlyelyikgMjdswPfYkkf_wq7_ChUNleeRtVOgw6lhnXXnHTEiQ7dZY1mHGYflG4i2bqYOL5f0WvhxPJ1Balcv_UlwbW_F2yMbe5asnIU_1O_mu57tYhRWrLt2glrQgKE2eSry9sAMwneyPgvb4Y_sVDqUUbu0FytsFCFlAhtNJVH86uYUTntDT0DHoxkJPNkRA-jrCOle6oZfT3kjvGOYsrtHtUfl1KBcDFc33k1PZhC_)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRvmu4FxkNp5AlxJgvSvu8OGe5vLzeIzIb2gjT5ygLSOO5eKrAsFQR9Fyzni8km6ok-bb6pMtGjWUspFFCundFOIyAGpNffnbXF3IvAgSXLAJuY9LSwxv33API1KDkRX8T5wgQ9HdkOONmIIOZ2Q471TcaSaJ0lLlAdaaDLmrGu1tkKv_vChmpC_IHCsaCgWnDgi50KxUgfoNUfx9piIdz8S4orx9Fl8eIbK25cr4DtLx_5S3WZJstwiYJQQcW701dtKPnwYNcDHa4ZvVAdZ7Y-aHq4jnw4f9MUWDubX4dX2E5TeqP8oBE7IfDP03vbXCX97ZEg4pi6tBHf6Gjh0ENHjr4YuCGf-S-S0BsCDsZw3RJ2hIEKUg8oGX2pFKw3vfpcMI5aOlJdDnyPLQzPQjAxhApdJ25Nf4d-UPNExl2xjRAc6nNBeS_0p4xV0sAQaid7B54wbx2heptSqVoYYHRKvjGNVf9nwZ6ZDThcoDzmYf_G_x9mzv5Lw_FW8CfThEoo_g2pbkulcFfZsv_XlCOYu1MyLdTVkDPoLsgkNNrMujYmAm9mGU2uCzUXauOpiUijXdao4Dc3lm7MeVH1Pr3ptc1Nmqj1qlOlnMooku0ledXRV_JDvZ93y4kk9rxslNLD9Y9V-LRCQUFGbPODa7eK-3s783tuziwNeM7zkJiSV2Q30uT9trREv3hGYiOh06FkN5um2ZOqfHeTIe3vih22NNKX_1AP_3rGtSF2MrEnBhlyd-_X6SIrDg1O-Z5-PvXZZnGPwDzDKcbpuKDay4vYUYTNFogB_-r__B4UmJwYMpPqwcZxOYqicmpnL_5-Jzx84sVq_ss8rMDtiyauJuD9H-OUw9ULRS9P-kmLwWeD5rmRFfEDJBjvoLzXrZjxWhqzhRw4ImUhBmJjPtRiV-0qHsSdO31H_Mp_Bh_B8jLrO-9RUL0_dOkhz5ql0qArhOndHCAQsmOO60LphiL8fHgLcXz9SXkzftSbtVkV5zQQHMFCiMSFPToGZyH_tBjnLllxDlcw-DCX7RT7J0nax0v8W7lei5XXjupfY5eJkW1qoC74kwNQFtxlOzqGwgLpL0qzr1rUPQOTFSxiPwDSKw-Gv6EhL7QxY3odQDSZVwhmhnv3JdXxp1DzRd_m80)
 
 
 ```plantuml
@@ -7230,7 +7171,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x150fe49c78d6d42f50a0e01df65c570e15c76efb5e20bb1350ac3201d2b03ea4
+title Txn Hash: 0xc87ee02b93ffcd9cc51b40b22acfb7013e32512cbd575b534414e32ce4c1874e
 
 
 actor EOA as "EOA"
@@ -7244,16 +7185,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7265,25 +7206,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7301,28 +7242,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 2 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| Roles_01 | Roles | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| Roles_01 | Roles | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x7900e108cfdfce45eba1b332ab81651796a341f64f90d4448d5758f24ea8d004
+##### d6, tx: 0x573015546b84547bccac38aed4840768e1a7beede7c20b074d076a17adf97501
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLRJzim57xthpXYBviOctDp4iGgGfiE7XW8aFQ2D3cEqqQaJkGuh8Nkl-yqf5sA9cvR9EV4j-zy_ixn2I67jU7QDBE24DwOKZMpH6fIt-IgufhFe90JgT8ZBcuckcnKEYoBKiExSJoEXp4X1xLP5790e7scagTImttN1JWkTNvNAiEBgCWdQYQLGSJCR1QCSV81icfqLSYjYSlyJeBbRiREUPhcQW8MxOP-jVRWSqU2TFvFL9rFfgQ6P05Nkiaon2KcDuM4gxc2OrvFzu7E_P1IQT50P6acfEl9X5k9uzWy2IpcMNx8kEDQ6NEpaAQkwmQfvtj1PhkI1ocbBa79X47gyLa4l8OTj3i4PJEvo2kEHntY8MHjZZJA9ys5dEIrqOlJKjpye5QxvSaLss2NF9Edt4pNMtlz7K9Qvx0tU0uITdVtGRU3Kbz9Fdj_hQx9GHVGZvqTBB-0MLGIq2e-Q-qjBnhyM2rVehBe0vPW4E5Rkm05PP9PB6KUVUEp1iSmQrcluQDDZywFad2SCZySYJYqNS-AOYOZMqJHoFQP7p0nOaxe1_mnpKgNLLdpOiGDRu5ywjiiyoas1qcBjr7z0FT0Fr7u-Zq-mMHyJlfLTFfHQsE1XtrR29eSamB5MftdqLY2pVexnIt_BqYNlRrzk92cqGh-YMQFqOjqUaZd_-Ty7J527YeQEUzThLGQdXTr3tz4HnZb5JuMBhnj-B4YZOJDnjCcCJVx1iks5k1xZhTByQ9OmDbF9LE8XC3gQLwPn7tWfsl9K_DTmiTZ9eP-AhmWS6Gc0i-bOHOERJOEmnYRnSBG6MuxxTUSFxtN0gBSdUZa4D_ui_aD)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLjRvim4FxkNt7glcpQkXa2c5HTL0fXxOUkLLjfNofD1eu4bHXap9QqsN_VXRmigQQ-RKZXyDb-xl5pvmjZHusHshIJaZ7PcagramGrQsuBLKij9r3Y25LsBDFRaQvQbOLLMMbu4m_ZOJXaxB0nin873BfdZ3933VUh8S19fOkxIXbP1cKnKXDKXX1piraGq-GIicvrNUBEn5LnXs0v6z-5pB92ZS3YAzUlpXv-Mf5Wg_YdgYb6OzD0CeDhtUOvuJ9Jc1BXUghWH3RZ0-1JL_IuvRgEb_YEwuWaJMNQyoLcZkzmuVbeIP4WPYXIcoTSE1bvfILablU5oor6agM6g0_F0v0Dx97TOoIRATAYbdJKa0w1ZJdM91-QInmLZT6piogz_SwjRikZAtR1hcIEPzACrrktndkCTS5XV_0K9Bn_Vm2wSwA-HZbvUwDksE4geHzMTZ3_36PM8v1LSjBP7x9iwMEnV4xAKWoOWo64hzq24jH3p_8op-MlVDRWb6QDpHe-s8puLFHxTcZrV3_EtQ4RXDpBmoXmOWjZA_9zz2FByViaq0EQjQxggf5b98rS0d5XUxcW_Q97fDFNKNq7zy0_SlZoRNXAnVYKz8liR6UjomKTzdKfQ0ig2X9hSPu7leH-rjyfxiH_Hhdixn_09PfMA_WdcbkCdgNJifp_N_1rnXXRTZHsiNMrCZIoA9ij_8X7bEK5FZKkkctqiI1DXCqcqgOmD_i6ywuNq7jAjql9ifp1-K-56GHfIjtJlB28ju4VxoMFpNT1xJHtUEZPaHlR6Ceu47RI5t7VZUmaeKResMdeMYXsWsxtd3-ZbmAIt2lHsH6zwS_cDm00)
 
 
 ```plantuml
@@ -7344,7 +7283,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7900e108cfdfce45eba1b332ab81651796a341f64f90d4448d5758f24ea8d004
+title Txn Hash: 0x573015546b84547bccac38aed4840768e1a7beede7c20b074d076a17adf97501
 
 
 actor EOA as "EOA"
@@ -7354,7 +7293,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -7374,17 +7313,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0xf04f00b29133e310fb3d7706071e00b72f56adecfd4c137c448e1cdacdac851d
+##### d7, tx: 0x77dad68358dcaa5e7d45381216e0e6cd582bd202c857145a03e3b6be6bafa4d3
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNVRvim47xtNt7gNZPrtMmW4AekQaB8seUkLLjfBvKcOvi4bHXaJ9UqsV--2o5fceV-sX1WVBQ_-_pT-I3akBBSs7gQ4y9hM-XwcYX3gjjCbzpmAUHghBGSS74xDaMjPLJaXO4FetWKHp4XHvMTvwf7eBacYajbuA7j0fmK9hiljELvFy_6UggqHSJKRYQCS705MTQcpDMJWQliNW7pDhOBBcMcny1eQ_hJj4TVMnAazN-ggsmyiHKaSxWsTPeYBh6PpHLSppISy6fo27IMKY-bD752vhhAPJHDN1a4rAS1KsWFdBJZ8vv8fIUO6mZFwoec95_UtGwJ12KJ5gd7vttW5UnXkqTGDfk9hEIurGWteIexC2YVifTgd5NMpCyASVkBicR9ipEUWbtnL9rnEraltUhl4T8uXuFUIv2mlty8fZ4gSwtuzEEDlY57RK0_jsrlyGtil5I0hURJfhtZUOqVo-aBL1Pzm08i8lne9g2WllAPB_qEVUUr1iSm6rMjuVkR7fq5ZWmSPq0TbhZHq6EUy5oFXfBxtK4_31WR-4b0tMYNPccAigXuFkIMhu1euFWf1ZiDN2GjtaVr4pm0_KBX-y_u59Fn9UcNqTcEMXCBtEpxGb1dc1Ge5ZvinvOysdOfFl7_YdGvE3Y4IsLhe-6VQEBjj8nUfTCgdV-VyxKSXAmg6hdOEbfIMPxbrHR-a0unoajyB5nusl1ZIHe9susdJM9krlKMJIt0zmnFb-PvFeVptrf9w0k1rTE-COctWP-l9S-DjmaVZtmH1L9qkbrNfLZ1q6SQHeu_2iCO7-Q7uQxJxPhps7ih8ChTYawEyOq_cxy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNVJzim47xtNt5YBviOc_ExHQoYjEdWWO40QIz8qoM-jX6fKpaEez3zxxkcQMbvuDSM9N5yjh_x_Dtv8iHXQT7OQf8BWPKjT3L9o8Zo9jDJD3Y1d4QarH6cDoDJL5hrYhmmy64G3-9UBCH1QMSvTGJKrvXGaO67fWjmN9Zilj0MyswUZVI4j6N4eLrF6F3W4d9QcMbEMmENsJs1uwzjvwXKfaVWoCRqfsuFlZOaHEF_H9VPQ6nBI6PmPQhXa765pMnES7MduHZByJx8koXIgCAM5xHKYXXGfFp0Qpck4vAaC5L1oqsKAzsq5KIE7w3qo4l2XC84X-WhJx1agMNgyLaNi8GTRdS4osQpD9iYRxN7cw3I7XcMZ-m5ZRBIcjbfaTxyaawzvDaPss2NEAHJjEFLqet-ZX2rSzZhl0G9kxlxO6eZcIl2oSThVIqEce1-RjhE_1lOsPI0MusJkht5lEAFnVGvAyi-O0wM4NxK4rZGa48dL64Wttcjm3dCXieLV7VTMuGiQWsY16FVZO-2jjjLVgYazBssR4NIbu6JIXbH_9Jcr1JJeiIyZnQNG39oms4a-V6OTFe-gf_W0UGN2Tz_nYUSZ2z9luZEPjJgMF1ctnU2AkEaOB7uSPxOaaVRKufR_b-HBdjx-t11jZ8Q_eactsx3w5KwBTFv_pbVoI74igA9yusZfSXYbfSR-7tPvoWlyBbmyMdZZmLf9cpNdjQ9kLxNcTUrWDztVBeqvlaCpdvhKj1DKwwUzer9l0dyV2rvRhnswgP3N_P2jnyCNEhXe1kvIJiQj8E-coIH9qCtxGKEHTjEDslEO--jW2nt8xeuv3V_RFu2)
 
 
 ```plantuml
@@ -7406,7 +7345,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf04f00b29133e310fb3d7706071e00b72f56adecfd4c137c448e1cdacdac851d
+title Txn Hash: 0x77dad68358dcaa5e7d45381216e0e6cd582bd202c857145a03e3b6be6bafa4d3
 
 
 actor EOA as "EOA"
@@ -7416,7 +7355,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0x72d722B021b3CD414c43409da68BA9711B6b703C |\n\
+| address | teamAddress | 0x7778F7baE42EB592Ad46d0043908704051c007eE |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -7436,17 +7375,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x72d722B021b3CD414c43409da68BA9711B6b703C |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0x7778F7baE42EB592Ad46d0043908704051c007eE |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d8, tx: 0x58204d662ebc0265e0384ab12b2dd86f5fd51253d0fbfd045c34a2571f83265b
+##### d8, tx: 0xb09d5651bac2325f2c1d473c4dd93395e3c1cb6826072e6cdf5ad97b35f460b6
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLXjJzim4FxkNt5YNpPjR4xIj2bYQAMq6vCG2AhjmvWc9tPQ2pUf76UZKFxxBcbQKcWBQyK0YKgDtyvtpprtwTKcv5DYc3PfNn72KXD7QTyNcYHdCXempVgWH5T4V9S5PrqTfn5lnYhMyAhTQhUQBKAs4pDKOeT0_ka9neM6os88y2NMyYAE35CD9RjHNqG6DOPcAj36nR7AGQe7IimidCWB0LPbEdV4E9TH5onQJ5tbxVQ70WGfxEz7YUpsJ0B-43ew3KFKIumqIa3dF88lBEbj0JrtFPjMUBLg2p-WTjKLrF4gpBTit-RSguPko5tBTXrEGp_ajE86JeNPRiqAFGV5VOAK1GQXjmuRm1BOm7Q386r61dB0qDKcEY4IiwkHFc6EHLScHWyFuk3i5xNoBKibPfLzJNbN7CTAJFQM9sP5iyba8ZOPp8NM4Qm_iNe3qusb-tYstAjRIavOA0wOwKssbSORXEHqmkRENIJ1sxTRaAH-NvhMRwPIPcGSlJwDJibsaQRlYdPdz17CS200suZrypRRWPrCV0HCQpQ44HXqVPydsFi1z1rOy7EUn6UDsJOMSb68JgJUm2NGznG-Vs_jOuhU1J_pS2QKkKCooUTMz8DpBP8C6Wi2V6iDzkXvpQUkQzMyDZPx8d1jnw61xJ2dwWdUS0BRislrPcDtlXUp43FGqyJA0VTOiXfO92CDCeGQzM5p2RvWMkWjE603kBo2guTqwzg9st7OtDo2Os5I7S5ghlbnh11ZbYzwCljc7fLtfSW30Rb7PYxuCIXoz1jJadVojsKrOAdCepX-uR9mBds5Rg5upjnbqut1GCU_nQEJz_J3UtljOUFwF5DjJiKjXpAlM6j5ifjfmDRzbrBt3FWh__N86SDQinPHx3hRftF-Ok9cxFyFgWf89KHFiHnOB-NWCSXx-k5zAGTFgXnOzAKUh5OF5Z7tY0LX2kbUJ8rFwMYTaF5T4Jag7V6vC4ogf0HdZ-vHIZCu3INnr8-Tp0fQC5DWZSb1RxflPvJVik3pt0WTCQM6SFWd4XmQAnq5ougNtz8iMnyRfQrsDMZMUE1wdYF2m7Chj1xMctQrNQ-ty6jLwtMdEMjqvZQdD5n3vVJMf-YkeMh1xT3SXVNDpBb5MhIsXh7oRTFrw5yLOe8NQKu-uJFjgxy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLZTJzim47_tNt5YBqF0vYHDqYA6w4SAJ48WgBQ7CKrExBOMRb8v3gDy_EzpGjgcq1Pe1_I1FCJs-Np-tS-NYtm8xSMAI9Nq148aKL6Oz7mcKNp1mpwHf0U2TLX8QoIuwCWe2Maz4f64JqslwTKzX7PYDH1i5q7sT1cXJC9DFWGuY2I_Za95H5NmJjXZeT8MssgaqDIJzoRxYUmBDZ5nngyP6AMHx8HGoiCE63WNtMNjpjSS1ChtFmnZtkcg6Fm1j6JIRckxI74b6BIkGZWWSNSRy9MFAzHsRCCdWMcPTjiC35fohQ14QSMoAZQp0YFmdRBfODTaJa3RDg4LrxViTid1leCqPO7IqBtZAf0OrdIxXZHjYWUyJxIhTUq4YrLDQlgOEcKT7YivE8g2Yp_Oo9RCrPWqzZsX7NOQ2JPSMnHCggR2UAWs74o5rcAaDzpr0QO7Ky_nRBvNZuoSaJOx8gexN5OOho6KqGbRkq-H11iRsn0dVeyhxvA8X2WUXP_FmtEqauVfPjxktdu3DUWpq6r8UbcRhj2TLFqMY9Ha0BUWjEk7DDQzNu0tmO3VqpJsfOwsUoLRA-6XrZhS0Fw2OV-dTwX3z2dugOSJHvavnEDCjg0Vb4eMfz184EYlLkaUliAELwgPDRTKfqxDAdkuRbYMMxRCSgM6ZORXrYeuCClUT2yc8QQWHu6L0UwIU36mcemaI15ARKytD-0p8fdSXYFIXvixk7jDjyPEF3w7hQrjE6KgaI4ivfeVHK9ZJED53gNhqwYSySdbaV2324vRMKmkXYFX6LVtOPsIDZTG7w5ONMPISRNVbz4bUpzgLl_mPiwzqZ6kS21D-ISL3ohBwKkTKoUre5lx9J-3TsUd-ElD-D2vTYaQo3XIHp9_DYqJ-xy24Jc20e0LICF6Hnh-ZzIi_k5zfE6tJyC6_iZ3q_BmB5xUBX6F43m_JCPt9Wq3eVlQ13efN2afKuIBk82hWHiOunHNLN1zozITrBWsh4O8gyEBnMZTxcrsgzVlAyLaI8GOmF7Va56eBdJrA1gUNnMODvzjQWRj4guxPiDkcgnEcbNNz2jkis8tJDztBUoOGTqsc3kvwKJre31SmkIeof1tbp0renenTMBvRQPKBMRDBR5PiRen7htKe0xmFCpHddudFV4F)
 
 
 ```plantuml
@@ -7468,7 +7407,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x58204d662ebc0265e0384ab12b2dd86f5fd51253d0fbfd045c34a2571f83265b
+title Txn Hash: 0xb09d5651bac2325f2c1d473c4dd93395e3c1cb6826072e6cdf5ad97b35f460b6
 
 
 actor EOA as "EOA"
@@ -7486,30 +7425,26 @@ participant SafeMath_01 as "SafeMath_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -7521,36 +7456,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 5 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 5 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 5 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
@@ -7562,47 +7497,47 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 10 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 10 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 10 |\n\
 )
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| Roles_01 | Roles | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| Roles_01 | Roles | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
 ```
 
-##### d9, tx: 0xacf05a385d1c75cb9f7b8add0b1eecaf06d937ac9038ec48ca5f6750cc40e321
+##### d9, tx: 0xe8e07d6ce6de9817534eee02f40317ec7723edbdd1b6500d0f3f38ff64548cc3
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLXjJzj84Fw-lsB4VMdLqblZ-0rng24uBIUXLXIr7zfJDLwl4ml7ZjRh7Ydmts_is24kIIY9E40YIh9lipFFF3FEP9Unjxb6fOjHmXWMEakBKI0Loy_YT8mAHv38WKp30nHd0vKLQTZBaap17ts_x_TynlPoFKdaFeFgDPGOIWKNzH3WVQRYdrcgCUacyI0ToLIJnaZF1FgqE5KvBjGuaQs5J_5F2KPdDlSHmp1E1s3mUkggQlV-h46mslvHciU3eSuXcC2fAgA8z38TwqJ2wNaAxp4VxW8_Hn5n2qtN2WtXM2Bm8YTmoGGF32a5HjmEFTD1uN7JbQBZ2hGYsx6u41qkpHs34ML24tJ_GnSmXorgjnZHfcCHZv5SxP4JCjS7YkYJ-aGEubohoN4cphvpezgoKgAjxEyY7CYJB97Dtlc9jcWvcJTYpM0Xj5E9eyRgBvX-MVeTprPxTKF99upaCUfXisrklCLOHITixzz64hnwjGjv4OnYxV_0f40TP-cBR-atjbUdwUkwtR_y2_HaB87Q54TLM-wWJYb-2QWKJk0IDBb-5ERK-mhyDHZmpoA9TugoRIfaaH1lf5x21V0t7DvzyOyeHM-3NthO2cNbK9nNSslw4OPAvYKq58AUMaqzVYxDm3pSSRn3uQEq7MwuJcYWOrcsPJe7djCHDhgTo5xiHHjY2NgMM1NW8URhWIKo2b4YLAIFcWi892gfTk4Ont1n1LVtwTQr4pVZiBsz2oTI5og5zLmBiYmXZ6M-g6RsvI8gRqkHUmBo6vcvvCUWpj7FcCJXQVMqh0UiYAieJX-uCfmh7w4RA9uoT-LqTpnMsG_vuEGz_l3UNBlVk3xDL5jGSUT3MLMiZI8vA3LGQzsbr3q1_kR_UbICKQtPY2Yy9cas5omdhcN__w2gXaHlWp_YUc0yruE78E_nX_Uv7ZogUc3mvu9mUq5eM6fLX6NKFM19sBbJIPYUqyawOzFR8lPnxf0VIernai_1EUI7dFCIJZU9wTnFdT8AMT0pODtcg3VRjtzPtRFGzxcMAiKacS27VrCPGdUjm-2yujNtDAlMAwCEz_ksw3cXi5pNb95mhGxt8g-tO_SzpwUFONkUsMiRRTtdp0qtK3cxzwcx6wXQSZ-qS65pCmlkaPQjRM1i_hxfUdHNXPJWTPgpj_HTZ9B_0000)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLZVRzis47xdNt78NbQqsIXPikmW2oh_K9i1GOiqs1xMOQ34aqs4bWoAQkCc-Tz7AP8ZDRQxs4lhXnY6IDuTZzzzF9r04l8wqqpfV2O9ORbEatmMeYBPfKZcJB4PI9nWmWSikfoeD4_uC9MfWf-2SJ0UZWavplH2uWc1yZT5nb71TJK4U9igyILDD9E-59DaXeas7cEzD0YCyixbF5TpYIt51_45mNAMilUCSv5CmAALwBPiZt-jG91g_TCa4vEfpY1Sm8NAuzZu9LfeYN1nbS1RbasFW5vX3wd7kn5sEVPxbkTs74IaTkpGZkLXv7bs1td8kHLsNKevZJjnfnV7NSTrUb7K8OQoI1leutS-i0mEJ7j036rQH6BEJAX34mHcUg0CVQZFSI8ohHPdQNJv3xNAAHijsiv-p_a4prE9zToce6rQ2BFQh1wiX7Q1R5Ql-XMchrJ_9RBDKJrmye75UCRqj9xM61yGKj89XoVV8WbUlZo2B0zdGey_CPapBTBavu_9Ht9SfUchgZsv-GtqOevWseJDohQOOJg5-GqmfTW2Ra2Rq4zvPdf_0Nq55lozokADCjbsP-GQ8rfRlO1heBzGUFFd-DIawBVW5n6sjh8CI6IbRCiuE5UO5T1O59ctLfiUlGhSaHCFxDYtnmCQs5x7TwdJvHRrUdsx7x3Xm77xt6QhesX3B40l4wi4F6NPTc0D6NbK85J6dsck8KIcK1t16Pl3zItSFcLOzq4yt8V3moCuHvsh1BOBBKnJQJ0M-Q9gwOjLLAvvvQfC-8D9mI_AdDmEHovAhkxIkY1jOw8-GB6_p1HYVpvNwIVySTJi_-QjrJtHDkvn8gtu9ZKtggpfE-tJfF1WMlSn7uCVpaxpqrloOMhjJZImUmgMid0zBQtrdu282e7vMtH_wh3rN8V_HshsV_EUw_3thyCMVIx4DGUjIhoEcEzNYctww3ovFpKP68JStKwGzur39KVDXCmQk4PqH2ajSFbIc7EcwHJEZMEzHEZNHulbl9ERybnldbSQLSAaNC2xpmboyBSwV3GTRxuNsAGl5xMZsA73hZro0nk7BF0zE-nxGTyTsM7eTMZNZeQkXLvxqTRzGMEuWylbFKFLtS7Lclk8bOhTbrbnRx5EjyDYpVkD-z5Z7Pe4hzASl3RFV2R_1G00)
 
 
 ```plantuml
@@ -7624,7 +7559,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xacf05a385d1c75cb9f7b8add0b1eecaf06d937ac9038ec48ca5f6750cc40e321
+title Txn Hash: 0xe8e07d6ce6de9817534eee02f40317ec7723edbdd1b6500d0f3f38ff64548cc3
 
 
 actor EOA as "EOA"
@@ -7642,30 +7577,26 @@ participant SafeMath_01 as "SafeMath_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -7677,36 +7608,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 5 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 5 |\n\
 | uint | b | 5 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 10 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
@@ -7718,39 +7649,39 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 10 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 10 |\n\
 | uint | b | 10 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 20 |\n\
 )
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| Roles_01 | Roles | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x70EF6cC7dc5883efc85409f9C26F99EF9916993C |
+<#FEFECE>| EOA | Externally Owned Account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| Roles_01 | Roles | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x2cf40C62D5F2eCaFA72b97F95D2bb73062cC51e7 |
 endlegend
 
 @enduml
@@ -7759,11 +7690,11 @@ endlegend
 
 
 ## reverts if registrationIsOpen, submissionIsOpen or evaluationIsOpen
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L225)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L225)
 
-##### d1, tx: 0x3ee986490b39207185cdc7bfa6ade0ea559ae9dc982774d45ff79ac8ecd3884a
+##### d1, tx: 0x95d69ca2267fcf34f846ac570016943609b256cb8f4330e36bc5b80b94ace008
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkXa8944TAkLbxOUgLLjfNofLbyG9KOE376U3qlxtNKAWuQMW5KsQXY2sptVFtNDSV6RiBD6eT3gC6CDKnp8TEaAnv2cK8rGuX4W4Gdhdw3u5AawbrucZMC6dVg_Vw_GOEqtq918j1lbd8D0J2gR54k0YLk5pB3L6xIWCv518JOY-NYZqQNC6EKhLA19B6tVXiu2AiP3TeEU5Ce0ABqIl-NZwjGY25VulPH860vs0Cu5xbVe-uJ8TwaZ0_LZ21IQ39l1nJGZRQXWsTsfsbPiLg-vwhkdus20KBh1Ujr7OdcjRLTCqFAFk-wQDhYLShsPP1Z9AcQifzDvr6p210neF6ALDXsuuGgBQ8H8YqUUAqYVqhGZ2HAl9LUm-FV9ARh9LOoFORHo9AvGO2BK2ihopR7oj0fIKJfKfpUrMXSiccJ2PgyuNooftw9D7FPXhbTO7ZENvW9FMBfPmVDm4DvOaIxDy7XwnNHObq1NMETWZ5Sg2tE63V62dHSL-BiRMopVGav406YKEy_4dHYbDClKN80GbaWHevhfK-9fcVDmmZ7QrNtKTgsEwLNGSjuTcly6hNg_Ji3pkEFMELSFp6SeHJ85_uV3zH--IQlMzY3CoQt_5lynZFTYCmg94yj39xyS2dbK1HQa8ZuOfE0ALK4sumX5CN-7rRr9x8x5EQO39_qJfvAG9jqAdIiB7Q3bn755yzFKnIWhnqQh33SL2ZjyhelTUaTnao_jJFddsgxyqpBEEMUPNP0xzAfkJlEH_1v6zabw4KefaQrvsdQFbl6uxR6T7UQRDPZS2TbFg0vxG64P9YKsNTpdd6Hjg_DGQQ99v8GzwmQizB_Q5NUibxwNq76kX94RH1Av_IU51-qElGnbuUo_UjfyxzIkExN6_NkaQVM7M6txTwjerh72hJS6qFT4nRSkkzZSwNUdPc-HxE5dhxIkYFQ0NTu1YkWTK-QxmjlfJGAgyelxO6JtftleR)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtHn80a4TQWh9seUgLLjfBvKg9t52rE0WnzcWjF_xBY7GyAEW5KsQXY2sptVVtNTSV2RaB5DCgdoO4C9obOfyw759igTOZ9XaGqXun4LmplodIAQv27ffaahuv3gkqtC8EStK9E5T0kLdm5d09Koh9S15AkFdL2YMs4aSYI4N2X53jL1mSNC6EShbAE5B6tVnCmTDNyXkM1348WADLgBNSZpzMWL1Al-N8ekZWSh0cy2zpCCGSOcALSBXVYpWWcM33j2nPGIcvRD6mso5VjZKmxPkCjzeKQgPbjuqgUKr3DFtsg7UR5BUD3tVyDhKitJcSqhR15FcAmpTkRQ1PN20um71jAdOZqSCgVQG1C_KkSJqSNNBepXJSdAL-a-FL2jDjcfi1BjD4tx518kuN05PtbaslfOH4vXEMIZDxLQ5ooQ5C9khpXVBAdSiH8zgCDUghGy8AVC19zrTBE7uk0D-Ab2M5_ayF2AxB6gWAwnBi4Sib0MvmmVnG4whYlrSZTsNRw0c8muu2ZOinvyioN5IgBy08aYUPO0ptyV2LpYZuxwbErx3rNJJiwaRQYtNjWETjooDzNMdRpMyeDbijumPoX5CWNwXyFs7Sucr-bx41Pcrl-9Vvh4UR45XKI9bwEZtOm7FgW2Zb8Y7mnGypYIN7RXY8vY-mklVfFP6OftIW6N_4wMJamxSSfLB0H-ZvQLfWl7XDsH9LecFLXrkA1Pq_5uHlVUAb2PRtf_woRDV_ULncNLMP7v5vk5Fsvpa9VyxYEoLz2gKMYHRyxBh7AtdTTjXEplA2sqokn6GcreV2BXYSPBLsFHfdr9QiC76Zwq19uKNzA0MlEnviI_ikYzbByNdM74fM99CuFgNu07O7teTwi3RU_6s_TAfRLXDj-5PvqR3S2pRDbfMh-UtNDtHBTFaeQzRv-qsQsnqkjApDydtSBBMsrT4Uq0lxW3LT0-e-btXRVMdW5XvLVsHCtpYlVKt)
 
 
 ```plantuml
@@ -7785,7 +7716,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x3ee986490b39207185cdc7bfa6ade0ea559ae9dc982774d45ff79ac8ecd3884a
+title Txn Hash: 0x95d69ca2267fcf34f846ac570016943609b256cb8f4330e36bc5b80b94ace008
 
 
 actor EOA as "EOA"
@@ -7798,21 +7729,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7835,20 +7766,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x643bed5c966e5e071b3fc0f084f9a1b9f86d6927841a0e328f9c8a61b0038e58
+##### d2, tx: 0x530174f5d36cf2bd8ae2f4c28b672a232569d4b5262884d57918df37e0e0ff4d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzj037w_ly9YBw2DxT8VQLAnYj8sWmS4OaXxGKANn4aZqajqTzaeXVzzJffsj9J2G4HHVB7FzcVdEokC7MeZb2acAMEYC9ai9ZugfcyIcGib9f1YZ38y4i5DhB92XeCipHHyyaRUQ31Yx42RQOez1jKrHX6YWbdz2d2SgUGkaqQa_JI9vGIbeOYHMMxmo3WFcHSgJt75y3EvGx1QIzsv2CD4nc3nMlLGoODlDGXMvp-HEed7HeC_XKjLH175PIOnASBbhOHZeSTTuBTsg-bZs0vSsyOsyexbDwE0HznfHQwmV3ToxD1s6nsdPGcEpOOJkO4ZRCldlEbWss7Kii0GzD5P7uI67P8xZDfcaY391PKwe29GcoD5xKDpWN6YZPgUPi7DDRSgbwqxLeETgLX8weYwo59S-AyhLrrAfLviNRniX7Y9OhB8lePjpRJ3M5KexFTUWW-VFtSXor7M1c6IJExkiPVSoiXF2gk29NgftxsIL-oW9kANMlRkluEPvWWafPXKyhT82rgKs--16AHGQw1L412V3QrA9hJw3QyH-CwW4pI4xmSZqV5itWX70zi9kU-t1qvJ7CsZxC4C-5SEFtwDJeY26w2M1IpRNG4V2_qsmDIO8YXHAef7OWO-2eMg2wSYXza3F7naQV-AsFnDzlUxS86cK1BULfwVPIdXf9lghBLxpxNq9Tfy49XNiFMPer9z-kij9-29molBV1Me-IajTxFv56VdZmv-Y4OagNxKfI4VSixBBj6mfW50Yp8BPJ3BVlKN95lwzUwh-KVFMuDAYZITmjaVYI7qtqJ3nu6tpyzjzYffH4Cyv57R6hOyxBJjgEqCtQQmkDCdCFqG1ntNSHlUQj8dStPDzOxGotbSBzyHwfcvlT7mlsc8AZLXs24zwUVWBm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzj037w_Ns6n5z36bgP9crIi8csJmGC2CQIz8A5BuhGHwQMwksmjXVy-9qqxMafX8AegljXd-xFlEokC7IlDfIx66MEyqBaenY5AfcvJCU6IZo738OgunwFReSmB4VVpB9VmAV03l-ypTgJqBCCkW-etGXwZX7dz2d2Io_Gk5vfdNfOEnHY5feY9Ncq8oBW8EIda9CCrmy_q3g5XhNGNF8vJCOI6KQiUAddqhGR1wlodGgN3aLOGpk1A5ab2SPbETOPmDHLmmjMe0yRKRXgDjfNOSRCL9MOOEnpDn8fC9sorJMusJRlbnbPecotJSQpORhiD9qwQRJJGI18hPjIoI1Dq_zm3hc2Fv1wZjkaqIYUSIkrJ4QXqJrBxK5_YC5LQpixowFR6Q5GkEtUi1pkNGowe8_8opt3flwbSTocLQhbr-R8LuXNoyJBx1hODqnvZLQ5ms7q9Fdp-t85yWg8sS9tcOl-0lUHMHdvIM1KiLIlz_hMuPaSr4R_Kidl_7VHiWa1Iy74bV_Eie4Mv_Hw8GHAL0bf54V5PqygO3bpB3ysWORL2pmYIHZlmlDX2Ed0-iFo1I-HeDfsslOXo07CmlXhmuvT_IXJS0hKiODNk2lY8gxS1fiOKKObIKZmISmYHIvGTEECJc3_0mqUMzg-8xMToUDY1IzI55F2syi8ypmWd_QdEMdlmN4jVeiq7WNa5Mv-vAjNHt-ou0KySNbdcgq0jRccvcoscEBjuTF5Zr3pDrACk3Oo1OHXbbsXOqm2WHPc5CkXLlxmboLP-tVjg_j5pgb4AdcKpEFyZC0RlJJHy77Zt_Dnbhv9wjjiCpD3jsQRjkvv74xpVZzg1vLjkguL9PBazn-7cUj8dStP3zOxGgtbSBzyHwfcvlTNmlsc8AZLXs34zwUFWBm00)
 
 
 ```plantuml
@@ -7870,7 +7801,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x643bed5c966e5e071b3fc0f084f9a1b9f86d6927841a0e328f9c8a61b0038e58
+title Txn Hash: 0x530174f5d36cf2bd8ae2f4c28b672a232569d4b5262884d57918df37e0e0ff4d
 
 
 actor EOA as "EOA"
@@ -7882,12 +7813,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7904,19 +7835,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x9b5a5981bad4de834e676c080df243aaec662a5f455feaf4ae3599c0193c5e24
+##### d3, tx: 0xd5588135c3d505891085d80d84f2fc9f973c20bc7d45493187d7076f206a1d5b
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTmi52etNM5jw-c0qdiczc9W1bfP8bsPPxbgh__q6IdjMRQqQ2M6MsTrllc-OdS3OKQvHwMAKCeQ5pcGn2eHY-MqYnwXm1AaO21aTOtWxK5aXeswMPWg-zFs-t_KPEyprD1Lj1jKr51W91RFw5U0aKybT9ZMcdJGPo96GcX1ZlLpGfyavvBXGurIiJFnAxWGOrj9tWL6Ko04Ol7OzLFRmUqs2rV5FPPuCXZg7O0fNgeXZmcKwqQc0guc44yo7BU0JBx3HzbmZmCYAXDkmXDDqGkxoA3Qj1g887ST4ExPiEnOOMoWQjkU5tF0QeIrCYr7AGatK_VCEO0uxP7SOfKqdOJ96ajeb4IBNnuhI9_Ib62IvLjEpBBozuKQrPUEALR1pDK196L6NMIeM-vywLxUKpdonTF6o3SNDz2eGLic5W_Ph8c1_lmNPM4Z_3wO5wYIJktlijKqbxZDn5LIIB_sxr_AQ7TR5-BMsxViVeATZ0MGbZYfRHgP1kVmUg8gKo7EWKHXIJMiQyObZMHspRuQ1sss69WP1w6Epxt0pyhkE6_4WiBjk0u_dA7im0_wDmy_V_YcLuGjKIm7Bb5V4XvY_Zp0bfWXBbehmoCmW4AY4Qi4PZc7s00-VAUs_Y9U_oS512ow5BfI4zyaBiYmbddIJpjgxjowbhvND9v7PebhNdvNgwzziUmJU8dKhOlDpMgvcysxEBXurW4XeJDByKQPwlCSvBpD5JPkw00tAA1H1BtFMMHJQSb_xlkg3z9neeIIcwHJE_qeHGUTTfVWOU7CVtJHV1OsDm8juR1izgo-QjXFRRizheC7T3f7fHABRz5pFxAy6VTPldxW-0Btio_Nm0r3h-_UwkRS6euAfouOTqPD-5Vu1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTmk50etNY2sSFXYDPt8l9cPXbvP8bsPPxbgh__q6IdjMRQqQ2M6MsTrllc-OdK38KQ6PqkKe8uILEfVbA1AA5BUf73F5Hf29WP3ycCMt0vMNalVoB5Vm9Gp2e1SGSbZeQIQw1EfhA1WN2cRDAy19hjAxN6gM-Lawa2CXDI8cUhaWnCavvBXKuqoiJFnAxmGOrj9tmJXFvG0CshWUQdlulI51clYdiaW7Grr0D8KhLIO9uXATwap0rKJ22Ik67Q0JRjkkQxJikCLjQhkUGLsRkvIxLc8ciPTuJYisQHGxtB8jhsMu3dUeqqvCscO6joE2AOirKW_EVM05xA3T8PWsdSRfcA7K7eeGXJvMc3wXByKWBRIQdkNnxGqrwYqRLwo2dQi1avWHTPbdOh7_gNDrI-Ki5aiNBzjGt4ol1Y6rN3ZelYO2zlSxa8-53Fwmh6GwpUNk7dbjKuNxJ5mDbHPB_-wrl2Q7JJ5-RMpt_WVewLW0Mib6jQqYuw1QVWzOHKeK1U0eZh6cDOxefEzPGMI6XjMEV1ecXXFwFhU4unciRmLzpunug-KwzXnb3sP0lr7u-JiunJ9yWMebO9doclYG5UyZZ8afuugbGZmqCuW4Kq9ru8oDOVO03vyfxR-8bx_9mK47BeKkbOJtoOloF4EUUAFEnhktBgMlbSqdaTcYMjUVbVhhtsnx1DuYTIjYytDQhIRpRauk7ZK0BZHBi-9HflgqJocjCeLD6xi03gee644lS-Ol2csvhtjVzq5yJhHGacNP5Cx_Ii71VrSfFWRUt4StpTT1VTjhXMRa7Tkc7NY-RpjUhnSxeHLONhijajZoZbsNcQj1d_NR9wuFG2_xSZFy0DJw_hrkxgt1i62QiY57-CHVXNy0)
 
 
 ```plantuml
@@ -7938,7 +7869,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x9b5a5981bad4de834e676c080df243aaec662a5f455feaf4ae3599c0193c5e24
+title Txn Hash: 0xd5588135c3d505891085d80d84f2fc9f973c20bc7d45493187d7076f206a1d5b
 
 
 actor EOA as "EOA"
@@ -7950,12 +7881,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -7972,19 +7903,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x389cb23b21448b46d37dfd91ee62bcd19afed80ba3231343a2e164b84f77fa66
+##### d4, tx: 0x06a1a3f2442b7edc953a77e0259e0e517825bc3a1ad660f7ba0b10a0b03a771a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRzis4FxENq5aNrPqsQWNItAG1LNyidP0a28ji2y5YgD8oK9aog2eBcwI_xwJ8ZkI4jjPt62POOlaaRoxvz7np2FaNM50ctAU4GAboLKvvrAJuZ9L2z0mfvbCf1Ad45qcEY-L6ELPhkbFqybqCfeGSboOPIPF2Aq_Cmb2QdhT32bzd-lqUwuCP66M9cekbK6DiLalcEBadSf5gHUPx4nyIhzBQhbhsKSG8bK9jLWZkgtRuzyQ9qXZ_uCgqcHc2igNzBCkunZr4fEQJDBFLug-Xs9sHDcL4mmZRZlSjbmtuAud75_4OcX9wTay4jOGOYa2ni6n7Sjn7R2bvRayS6FVZy7p258M6NHzSXvIAEW1jWS4QJDfb2u0eOuGX2pCgKRwfBcGILeOlJpBeyklpAgtR5tHLNQk4r38YBx8CxdQtnTsjrJ2OhLqDNYAYzlTswIaid062XAfUmgwCztDVvOYaMrCRK5twITy8sTWPgkLhV418JN_zF1a5wlqxTiZYg5Ks_dvY_f2Zfju_gLfJsv-fsQva1HR1VEw_GPPYPrg-KsrMykYeDYB8ZmM1dliokTiCB3yO8hDM4O3st5OP3lWU84KeHFPWUqFH-7fdPOtz9goNndzuw_91upaNKvNk1wyxHfAMgpbFnADvxgXFRKZ7epyo0REemduKu_POZBo0i4u7um21pQWUUXg1M0TWxNZCoYUvp0IKqQLbnhrONDDkGGjzH4zWmMzlgMtBmdj7iJZx-Jmy8XUI5DgHPy7Z-TvXdxY5t4sqZURADqLDY_ap1EYTNFogD_-r__B4Um3wYMpLmwcxsq5f9DXNwl_NISVPW-q-TzaZ_rWTRF7Aqc8BmFf1-QU6BBYFlbq3VO21Oq-5ZoRZaEzVCjPQTynzekxCgtPXehndepZptgSt8xz7K3s8hjnfUN9LbwsvSesfpkIwRR_hIVzoznT-ghLvAvM8HzRDqOX3QHPqM9ZpCQCiOeDB4dm4ecToWfQC6jUmjKXMUyxkQbl-VYyCb8hoB8bFVzRIK73PzqhsegtLmdRvckZiSM7WiK3Q-nEfJ_mua4m7ZfWiI14Pq8XH_um6DhJhj47rKHFj8VgTTNHTFTGjRawsJItlx5U5VEOV0yZdMgdDTn3PRigkX_zMuLuSfhpGzxXivnd_m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRc_FMD1L396qwc8H0WBGlICX9d3GYTIh7sIWl_tsNa9Oaz8LHq5ZLnlRvVFSyb_FLHcW_arJ8V9mWH7EPydpiCO6ogvXFgA1ZdB28yS2X_bKaqfm7_JH91VumT8TktqLeDvFJXEqXN7v6Z0PCuDjgYF51AkARb4kQs4aSyJ7Z4Yo6SgumXCa7avDSJ1BMc3YBRnXMzBdiX0P1p2Eia4fqNxQxNoiGgF9_oBCu6iaCUrDyBl8m1Bj8nZ9X-FoQumEQZNgON9CELQWMghgkUYOBVClGg6aoeXeM8ynGpAvgUBu6Ia6dGqBJeyHJ23n8eQTG127p9K1tZsrCCxm5xHQ2iCdOZoSKgFQ11Cka8o1yJ9woACwac1wb_jKbKSebApMQnev5H3b4H9oc2PkjRmkRImfXDbET3Pu3SJMyPKOA3qUKquY9be7cJ7FnZpo8M9rJNT1KFQCXc96ZcMPjl8LG6N-yixSkglZJfnw6L2hzVBpW5sYtokVFLRjtzmtBwOHXQ3aTb-qlckJGATJlYjM2PHc6dk_3jf3GAnBArHtLCVL-q76qhalwYgQPNKtjMWvH1ehfMCHNk-w3bMryYyaNWh__T0yXazU1BdWzUTibbJYRor-JpS3INKyTAdh7iyamLCoXRGSwCos53dHtOAbUe6bTqrZCvYdKWi0y1qlW8vgz33049lSBb0BiGNEBFKO54pryH2VuzXxVloMrHnABtydEJW-VCfaBZbz6pqlJ17325tXMqkrb8LsNDcy4vXdPkhnub6__yd_PWcr2hMBspicqqHP46XNslU9lWdnQFS3dlwaUcz5gLeztKX3VXj8hrfwG9jbZyMawR2KAE5sKFCksGwc-Og_KpnYRvLqUbz6cHSHRCWz-okBWDlol8R9Hi2ieDIGhuxAgLXOnHGyt1tHIExy5JD8uoMhO1cH022cmmGK1ZdJGAGo3KJb7QSzIThvkxwuySyFpMZB1QP9CyV5lpW9il-XVlcvuzPbzrNpfr3OiRQXwbcEeXclPjc5Q_Rvl3dLNjpeT5lgwvNIxL6qwVNAsRuasC3s_0rJT3KmjloiiczlSMUjEiKY-WPF6tQCstC1a_OxoEFfRWx1pgls3zk49z_C_)
 
 
 ```plantuml
@@ -8006,7 +7937,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x389cb23b21448b46d37dfd91ee62bcd19afed80ba3231343a2e164b84f77fa66
+title Txn Hash: 0x06a1a3f2442b7edc953a77e0259e0e517825bc3a1ad660f7ba0b10a0b03a771a
 
 
 actor EOA as "EOA"
@@ -8020,16 +7951,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8041,25 +7972,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8077,28 +8008,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x555360358fafba5d5cf68b32b39ee7b52aab1bf3507fa3b4a1897a277d580580
+##### d5, tx: 0x244471b3ccce4864ae076ee22511443a60f369c5a964cb7e4a26fa09bf677370
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSvAcIIjMKTfay81036alICXEd3OYTIhRsLeA_tsNDEqeq590H57EETlVVT_bV0eXHzemPOfHHWWhJ2wB4HUAwDjKZfbY8yZ4GCZuc4Mt0vKNCkxbMQxWInY4GIyWv52RQIOw1AfhA5Wi5CpgLu2JNALtkJGiwsRfG8w4D8YOcEM242VdaED2ZJEnCl4hlHDWDPQ-2nR7gHo0HMlNGsKFlzSaI1t_LEfqC3GQ-1IkL94aY4jCQZ81LnC99qmFsq0dhkiwJUguVi8IpjpOZPAcpnsREoqXFExQZ76B9uvBlOGvlC4il-Kns_DYrwTu4qnPP91wSDu5fc47xGx1j9aqIiSCfVPGXD3cM67wXBaKWrGRDJtBeziRQbLRDgvO1JjN0oOn8-eopyHY_rFdwfRIgHTB5o_RKDnChm8XbLmuwBmc0lRtsn1bkHR17vOLpAIvtDqZh-qgWP-fgx1IlVJlNijhSbXNuzVQTkv_W9cE1Q2LR5JPCZ8EokNtW6MaXDQ0eoZ2eZOuefDcez6rGplYVi-BRCPv530lR58x3dfDFwQSkptVOSTpb3sO0Vr6uUVlu1Jhy0MgfO1bpYlYGwRVHnWJKqGbIuLuQ6R01LD2jU6CZM7s00-VAUs_Y9U_oS516ow5API4zydZUPuXJxnHP-tTMvVIryhcayXiKQth3qlrzM-sFWDlqReLi_b9BLUJUJyd5uzQG2mCIpFzA5LzsgUKbgd2jerz00Tb58nWbadhBYfjkQzpNtL2V4wCK99bsHJE_qeHG_TTjVWOU7CdtJHV1KqiteffubhzHYWyjvcuVh_bC8lwNIJJZKNFQ_ajErmD-gpZFd5z07hPcUlX1w3MT_1rSsyDXWLJbmqvmYV-BFm3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTq2tK1glaRPm-c0qdiczc9W5bfP8bsPtkMjj_UytKDgpQclLI0YppEv-ytt3x0H2JfHcKXUZZ11Mw5mKev1BekvICMQIZI3Z0oxYBelk1Z8lHDpBirp2by0F_9vFoB7Iqunt25JNaBEOIvZLhm2dkKplSw5PvcNfG8ouq8YOwDM202SNaED2ZZE-Dl4hlUTWqfNlaiLnAWPW6hNheRB7tsiIf8v_9bGw66e5uHIkPP4aY4jqgZCErnC1fqmDss1CB4gfOuQDA8euRTcKSSEnERUifcbIsc2saJHiDseorwPHw73AB3jXXXicjkCq78DWoYADrFqB3vY2FRHx1DEcqoWTCvJQGn5SwQx4z75znGUfqd9wdaTtjuPPRTcwOXtiGWwOm8p8gppZo_rFdUjRIgTQBbs-x49nExqAX5HouQZpcWWuF6n3bEMA-tzOLZ2TvcB_WBosgmH-fgx2IjNAltyZRiXnNOrVQzkP_m0z7ND0AzYeicLa79JBvu1b9BbIWACemgBME38cVPVweHMOr0uz8qXC9_2yc7B7DLcV-dtN2kD6e-Kq5oW7C0FZcm4_V_jdM8SlK2q5h79U4HyozJx2c9WYAbbAn4CpWv0poMKRpjaOPW_my9dI_eju-PiS7RNXYkj22dYVl33FC-I9D-gilGURKlfQsNmIcHsgTVDXgRx-xSvdu2rQTsAsEAdbQhBev-JoKGk8kMPffXwbgc_q3SCeKuLj6_i03iee646lakOjAssrhpElEY4-9vfBmR9i2XT_1O_1UrSjFWRUtactpLT1lQRR2ApGxJQjfkzwNjDnUxt82QXFNTlcIKJTRgl5hFMWpphk4zS7e5UTkHv-06fp1zyqzzPWM31rsP0JVEBFmZy0)
 
 
 ```plantuml
@@ -8120,7 +8049,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x555360358fafba5d5cf68b32b39ee7b52aab1bf3507fa3b4a1897a277d580580
+title Txn Hash: 0x244471b3ccce4864ae076ee22511443a60f369c5a964cb7e4a26fa09bf677370
 
 
 actor EOA as "EOA"
@@ -8132,12 +8061,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8154,19 +8083,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x7d9cd7893d7f1f1005d59f8493de952b52c4371e7af16886e6458d78e0d67299
+##### d6, tx: 0xbc67fcdee37284524a392ce85080198f51df96dce9b546bb4c7e5fa3209abc64
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLDTJzim57tthxW3QOCoX9Fc4tKH8Kt47YPGX_Oofic9RrghgLCvxcXPzzztsqO8NY2AxEH-d7DzxZLZLvqLnguM3MDYPLkzMfHeM3TNUYcCM423KzJoMbJpgMbNMcPjqneuBl8YptB6HftTD9Wms3yp518D_Er_0MvQevvQRKMJDcgg5wWj8TRsEQ0Wvm5okJBB1byvlgid1CTxjjq9APMUWiDxqx_zFhheYs0z_rVTgUdCTb1kuDwiwffmcLMsGRXVQxWHtUmI-3gKSIN3A1xAi7PgXtDV-d4TUMJ0s7TBtwsyOUXWA6edYA800y-FA06v348tZXb9LbagFRzDGNHmHFiH8zcigjHIq54pEWHszjgGV6WdE5MTDPjlRJN_pPrzofiHHupjCU4yUIyIpiukISAoKTri8lJyv9Izbx4-_tbiKFxQWHzOpYzXzF5H64qY9p2g3gscc6GmcEG_yidzXy5WTB6t9t3oe1_Og9-4p_sUR858TatQ0hsVUbPXLQj1TT0kKN-2xIxrb4aa_TGVOV5z8GvpoEvUg2lH2jLqBseOyp7dFDb-0HetafS-ThY4QK6B1UuCgPG6E_8zvr7DkmxIkhPej6YQ3Tm-QfIGLXNDl2KNNmUUbxg5MvLH5bQkACig5s4HS5VcMH19NfP-5Wt5zMlWjoVWBV-Uj7RAMFBQTyPUWQ4Vr7uqZeV2uL5AnQGIip2EOhSWKbAdruXTqKet-Zy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLFVJzim47xtNt43QK0P8acJfaPTHDecOWyJg4Dx6TFas9VMQkfKZWijw_xtNTi8mGj4aPtSZ-_EttrcxBfnmhhLec9Ch5njLei2BMlcsYo55GkeS8f63OMSJsszCcfKLxM5uppBir76sA1ncmeJ1ljdXaAXXR_jBy1DRVLpRPoeqafFpGAD8yJIlGJav3n0BbTsMU4Rnm_zZE27BxOxePGsK_2zrlHllmyksoPOM_-RQVHqvXeeDd1lLsL9kCnfLo7ShmtSY6Ps1TwwaBsub0gn6mVzC0f2qUM1n7xazJsVzyl8LoNlAOcyYC9UKOGongWKtS3ZWd93HfH9Hwrdjoc81eveFs94czDIBmKTTKI7mCODBT67Re9JtJYx-LxB-H_FtwUy6t74s1uJBfAF8k7y_8eeB2hTp2R2p4_Fs4SPwujVnnRLxntueSh55Gm-FmbhYEG41l8mQef9Efr9zZERt7_gT0QNUti2fm_cWGrQ9NnfzsGBL6Gtf2tGUz9M5KxN1dG3zHBD2MntgMTC8V6d7uN3Zuauw93TlM9NeHEwQbxrCFR6dkSbswz0SYDwwME7IvWEZ5ZWpf0gPR4XtqiUzRoR8ArhXzQ8gjh0xPD11QcKf7b7Bcyzvc5M1BbFIaYzlFJZF4rLY37tnJZCnZmeLBVRZwEtmEyhu3t_lcWQyMuU57mO1L76qpIA-MWauppCGjxhOIb3FkptHK15YPsM8tPDAzte_m00)
 
 
 ```plantuml
@@ -8188,7 +8117,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7d9cd7893d7f1f1005d59f8493de952b52c4371e7af16886e6458d78e0d67299
+title Txn Hash: 0xbc67fcdee37284524a392ce85080198f51df96dce9b546bb4c7e5fa3209abc64
 
 
 actor EOA as "EOA"
@@ -8203,16 +8132,16 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0x7113d78a656179e6ffa7adfdb49d279b79dca96176ac951a67635bab84b5ce2a
+##### d7, tx: 0x60b8c40138e16a6604d385e9c0f07b12612ad2945bd50fcd7c0e4e451078c11d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzj03Fv-ly9YNq2CBMcRjufLbBuCFY0GGzeN9EJaBcr4UgdkBgobyD_df6b7IoaCH1J55_ly-B7ZiyBOaJQeJ3vA6SFSP38VXK8nVPl8CIeSGIe6Gl9ZZ6u7AiibxsHffk1BlzVlTNgC7MepJKMBGNaD1NAXO5Qz0fnaAhdFfC6qdIO3EHBI469ibXlwP9n3ZdCrJiMAuLToBy1kB7KNo7aY1s1RbUgnb8VVAnAiYdygTJ8O6WtX5AvK7iU4oqnYKW5N4madg8TDi2QURTUvvwFhkBON23UEqKCUyx0Hy9eNX5x08mp8vc8KE3QwdbjtGWpzHkX4eeQCIXOPejuxRmDgs26vmwXi9ecICLAg7Kf2Q7Eig7p2N8f1eesQdcNHxOrbbovRTwo2dQi1Igg8kinIiV1VLwww54gzsBfusKZnIk1e4NsDsvffXx4oKJXelKOVzlUR4AMP5fK5JPB9tJtscby1_Iop4YtHI_tkjRncXrKdVgraw-47cEbO04c9erBUOPhJejZ-0DH2IcWDj8eYQcX3AslYDXhjMhyMXNx7YseOXb4FlRvhrNYlu_hS2aEduzVnU8wo1pEmlbdmytVlb7fm0zKYWMMzI-93rEyZJ8N9euAb8ZmICmW5Ag6QS8PZc3t2usUczY-9pT_auA09byBaIiBxqWkpB2MUT5EUbNRlfPA-rZQVHEODtVh2MIa__Sss8_3CuurvledL_9mMkzbyZhEB9qUV2uD9gf-KgMjrBSigoaJZcaO0BOee5C4i2zPUTDdIh_LGJa1wJenG4jDq2kT_fE3GVbSVFWNUFa6tsSkWiHq6t8eTkzle2yznOyVl1dMqBRzDPDfSTBp03shzrQ3F9ksQwWFGoubSBJy0zSBatcZutp3KAbN3i2Dwqk_1Nm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBw2DpKdpis8LQPiC7X288Uq52Jc9sqQaJcKxMqlXVzybJJjQIc4WeYZdtFc---voFeMGOwMPrEKu9uILkX3bEEQIgDjCJ9XaOyZva8kqovBReInAaVQAl93mAGgZi1SISgJqBEST0lKruYpb4kRDAy198RExGcYM1tas56CkD28Ez6f3XCO5vAIKavol6NvcTnmCQwMxO6cQYI4Oj54zrFBeMqE2DF5FXSg68wqWdi6LB0S3n2Kwqpc7gwc04wP6RQ1JXyPUOb6ZvN73OOv3hRJbsTnFw82wiM4wXibIqxViEBNf84dTX7ABMxP1NIynZ9HWoHADrCFp09Y2FPHx1CkcioIRC4orXqbmfRiIoyVr9HzcIilPMP7Stb2ZTjcvOntiN0wPm8h8ooBdI_zDvRfBfLJBhSkNhHIlE1ileszmsp3j4L8d2eUTb-Z3vyzjIF92ySR2T5Q8_GFoaby5_IIp6YrJA_t-jRWcHqqdVcbav_uxwDc40qh1nhNypV8I5zNsUy0Mabmfm5MIO4DhND5ftxV2s8mCoua36WqCDmg2rEAkRx2-5VPzCqvRBS-r5oW7C0VwbSAFN-4fzk0MgbK2gthNn4TClOqm5gPCAfOIyL3C8UPCSjc6CpQ1-GCyV6Hg_vBO_aqE3zjmoNKf1RmjlRWeSkI9D-RPQ0-UA-bBRVD1P5xHhS-SbVhJt-mw0ayyNfddgrWjpccrcopcEBbuTFHJhbcMgqTbwjC-fRGg4uvh706ugA9W1BqgMB3iifLVvxwUWFYSQYu5o_CPdFyHF8NWJNtu67Zt1DrbhuC6jj-ApDZlsgOT-a5WktwlbxYH5Lg-u_11OlbTpsFcUj0datP3zGxerKHkbk-0UcPoRpNyRnXibQPXo34-yVVWBm00)
 
 
 ```plantuml
@@ -8234,7 +8163,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7113d78a656179e6ffa7adfdb49d279b79dca96176ac951a67635bab84b5ce2a
+title Txn Hash: 0x60b8c40138e16a6604d385e9c0f07b12612ad2945bd50fcd7c0e4e451078c11d
 
 
 actor EOA as "EOA"
@@ -8246,12 +8175,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8268,19 +8197,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d8, tx: 0xb18e56b902763067b59fa61347f924280a2224cc41934b180016327c01988971
+##### d8, tx: 0x0681526b631dbf3a44154a967a14b10b994cd36456b9567abe087782de64092f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vgHfVbIiehJDu06106alICX9d3GYTIhRsLeA__ikQPhHqW83KLKzvtp-xhlBvrC9ELAQILsCCq9OeNDHZ0CkYRfBnOH9DeQC9rn4nooyIsHUYAYVPxc4B_xG7_Q7X1mgFSjubq3r6N4MSGdp-X7W99VfVIuqotfPceWn5neHOzq4-BYvW9mKSfBnbOshz9w3OJM-2nP5gKZ0eBNhiRA7tsiIfCv_AbIQZBI2O0RNieXZn2KwrHc7wwc04wP67Q3Jm71vsmuyQZfsYzfEqFPYPXijouazqp9ToapJjCBGChoMXS6K6dRBT49gUAxhEGR1beKQgG_FUy0KxA3T8TWsdORfX66fVIo2AtqiiNrSN_8aLLhEplBmxfOQrP4N8rR1pcN217P4NkOPNvvVTwuUAPrg6Rfys4ZnchFnCliQjxMj7KAgGk6W-nfzsD_lG3xXuge8ngbIQIvszyXhXqhSPsLLKAbg_BitueOSrZByMjlkmm_Gima7j8ADA_kRPGKkol07GFr8hXJWAWnHpHfNT6fRLi_qpJ1m-qveiY08XypnRMf6mxxjHZG8sdstnOuNA7im1_gDmizVmrCKu0QgPG5DiolY8wRUHnWRKuGbIubuQEOGS2QvxC0Pcy3y4Hu_ixH_HMn-9mS77RZakf02tbTUaESPyiGlrbbxzxQrz3NPV1APDwXroqMfNltjLlq_2tzZaM-YjBYXPJHPJ71oyUJIHropD5DFUZIW0qffsICSr7ZvSL5cmGowwLPlAR7cNFUXcdtuEzLS2fPbCpZ_8tW4lNU9y2dmoxFpfVqgQMm4NaJZjZ6mVEwqxRZj3hmMCwZRGpAzYFSTp_LCVpNfincxvle0T3EBw-K7eBRCx8qR_vi6fL8BXXpXB_un-0i0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTstPjfHun0BjwOFHgCczc9Xjkq1ZsPBTxHs8_lURbi89Wd8Q2M6sixFVV3FzTW8X9qepgOjHHWWhT2wAKSGbKVUf63F9Hf3n0HT9XyNt0vaN8kdcMIxXInY4GJSWv5ZfQSRR1AhFaBE4IvZLZm2dkKmVSg5PvcVfG8ouq8ZOryk043VdaED2ZZE-id6TFd0mwT9toP8a5GCmZThrLDdZxpK9KkS_4oeT3BM2Q0etikZt4PVeL6SSRYO2JfaQji2O64xJj2qdSXfc4lKRZ5BJfinpN6RIo3GYpwDnqd2exKIUZTw86qtNRLe9TwZXMNs2BOirKWykV60Azj3k4MoRJkDqpB3KBXR1bUv8R1_NLtoGAYsdvtbyVsUOrP5N8rR1BkI02Uo8lCeplZY_xbmzKZhL8dJni97Y3MUZHVOrRcjRUuHKXS9H-otwS7ZOWdpCnNKHZLAbqbpi7v2t3fMuBygge5ArzE_VYbjoNClmQstRZpz0JySSq0esgknlbXMuACCV0VKZkLA0gpX6DMjS6PEUHuF82atgHBuHzaqtzFs4SjSpMOy6FS-AaaQZwTfpb0EOWV7DW9-_WZCKu0QgPG7BPbV4XqozZp0sfeXBbXBnqCmWuanosO9pDeRP4pnzPcd_YjZyJewEMd35TI45lA-yACypv8bVhBFs7cnhwLko-IGoEwXroqMfNltTLls_2D-no9qepMze6Ktc4vnSFhlq2TSipTIp7lMCdc4OPOzmKEFbnqMP1JFePRVyXSIMvzgFrUp3tudcKh0icyB57y4JyDybmkV0hy_Er_QhfBxjDK8hyZgsPGUUxzkkr-t6RaW3wZaExyVKwpIRp5fD-cB6hha-0BsSnVNo0r1RPlR6ZVzDWrAf1KDEy1V_6Fm5)
 
 
 ```plantuml
@@ -8302,7 +8231,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xb18e56b902763067b59fa61347f924280a2224cc41934b180016327c01988971
+title Txn Hash: 0x0681526b631dbf3a44154a967a14b10b994cd36456b9567abe087782de64092f
 
 
 actor EOA as "EOA"
@@ -8314,12 +8243,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openSubmission()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8336,19 +8265,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d9, tx: 0x6ba8f9a517a9e9da0f0918e7256339c7631d5afc8331ec785d551957aa8a6f6d
+##### d9, tx: 0x6be7eec95d2aba89d2b750cd0af5d269a22f238061ace78acb40e4553fb2d2d4
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLDjJzim4FxkNt4hqe0oHD8qRwYh26aYzc425RGlOvekiTDQJPtATaRBkl--QniX-09Mv8llvRdpSsV6hen5RTjbpHYsjb7jiX2QcOLKAzIuX5hCXEBNM2vckcaLJvkwqN2KPtcMPeoDZDtKOinWl-O2kT3mjpi2t3HQFZVAOftKSgQMGbb2hEoBGqx60-IgrQjQl37SosS1xl15TuUSIpK3r-bK__PoTD4LmRhytvIHixarK6pWGRTLHRZCIbiBU5Whk44plmHd7HGOLJ7wReYnY3awbHExaGW7Vk1vSHa6dijzhCh8yrnHXf7FVT-D_H0nmg0AE2FAIakbPxS9e84UoHuZsgmivGhfgYbTGXXxhOa-OQTY9etLc-zDkVZjkFkGTprwZEqnuNpyaIUSdLqIXKKjpNoAQd5ooZwAM9__FDA2_zg17xASNyBeynDgHIIFOLGUMaq-utv_clt8fW-V-ltHnLu_XfD7zSX6tIHywUHu2vHarwGjq7TytnPBQOni54W3pKgeOzZk0ayP5yIU_8DMV4p3OGhPtIjkkR0eQ_EgWeapSHndlFqAD6n4BltiS0dJWiAbs2aIphKmP7k9euft_QDzROLMMDSRk7rIWaDIbZJnbamqAyDXCiW7PH6bOJd0eYWp3FF06V0i3IBk58MVHXvUlmL-l__lsVT9AxU8kLFvxcIOYz0FAZ-Qn1wwJfHGCGaNQHX7yI2dfCHEnn6xeftUyty0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLFVRzem47xtNt5hfRMbgvg4X92AHGsGg7kOMb6qbtMQdFW25i51jhD2n_xt7H1LxGkr8bzyFxuxVtTcxDPOhcsph1ZZZQrLiynHCxEGQiKrNqA5CrHYo8l5JDUD4gEwgZMSPccMZbB61iPkAemPxDSSkK0DVziZm5sjvKkjBA-IIixK4fKbnDA-EcHaF42k6hsgy9tXKRuWkFwhxe4B8TKCNATL_TlBmNLR16lpVrD6pkRMGBw1gMxAad2PbRP2cAuLt74plm5dtSinH2oYG7Wyv_r8U7aOE8LmU4cgNiGzh_IwVQVdyWB3FYzotq4_2BfbxWbF-8meAooLdjudm0sSa3nXH9kLXLnnkkg8Be763ZNHXtQ2CscitdolYyLlnzs77FKuOMoF2LVnHvvmUNb35EQLDFC9Lulp2_PHnFhgvwb6yMi7ViXoTGE3pyzSAo8vXa5nQ3Nvn9tE9FsHJgQVEft1zLuVm_cJUcA3TXA-j3BU0YNPDMaBz9qzDlbI6YDh1T90lK9r1jjTu0KJIEp9FzpYnpGSff0zlE5MeEMoCcyg63jZnt7YxLUWOIDowMU7IvWM55_YJf48eT6GxJMEAjxrZ_QrHQruLMtW_bcXWAGeQE8jcPprEFBJtCjSlvSdJbQwOPOamiSmSldOJyUHbujkjny6xu6Fz_-OVPyq2Q9kvkNHCF22D4gI88n6eoBC_DIFUZqi2pyQzllSewJ4JiiHkwMTtlD_)
 
 
 ```plantuml
@@ -8370,7 +8299,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6ba8f9a517a9e9da0f0918e7256339c7631d5afc8331ec785d551957aa8a6f6d
+title Txn Hash: 0x6be7eec95d2aba89d2b750cd0af5d269a22f238061ace78acb40e4553fb2d2d4
 
 
 actor EOA as "EOA"
@@ -8385,16 +8314,16 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d10, tx: 0x6c978c6a26521fef6b476b1b6addfeab6f1c1dab3cfbedc315880d8b4d4f7160
+##### d10, tx: 0x859d199a73121860a333a20dec1b935e5205dc6f8b7a6d1ebe4a07b6b56baafd
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzim4FxkNt5YNq2CpIbjcbQielHby06106bVa93VqaQuJcKx6wNmttT9quwM5XY8gievT-VddZkVJo7aq7bcVJRIXB3CfoORSMM9kqtCc5as0gq6oiWZ9cu7DisCxAGwjV2bt-ltEZr23foVQDKYKFo6YabbOLg-0XodDhbFZMUwhPE16IdZ4J7s2uS-6cUGuyoEjLeoN2Rt2eBgGdVEf4pC009QgXuBUV2z947A-2V69OEXTy0dS6MpE4PSuXEl5LpT6JXcRjW4UXUAHZqI8Qk4jKeGgpZarNh80nvYc5Wn7iQ122JZ-oBcIehze1P5L4QyAgjnFGWfmP89ZzHxPsrW3hPGRX4icqz4CcQOQWUJKCuVMIoVyXTga3Xl9wUfkBsXGR7bHOzbi3CxO0OhOYzIhURxLvNBMtAbcxlENzPIl59iD8--mct5j4L8aIZijLwZ3xkxJH0wTUeouwF4kIGrsplajLqvyBEy2gp4BVJRr-QQ79Hz-BMKhOSVu2TZ1IWD6nNoDzCPBdBt1y2JjSevm9KGsCuULzW8rMgxqgy87dNgei8u5prMxuUq8dkTC9AKyredscT7CvGTc0BzHk7dhzu9Tk0Qgda2YseNn8VClOym5YOJEKkBU2Ycm1MpoZRXb8rX-WYFdvdQloJMdydUNXCkbC-iWVUbnzDK8q_yOvwbTcTJILzhcqyYyuPktN1JYgE_sNm1dlc_CSitSPhTqToRp6OuENzoxQNoBD7kIP6wj4ifpOk4englFoxoA1Z1ByhLdlVOOb_hePX--BppoXgczGJE_XWbeVskBdmA_FBqVCbU18q3tf0qhWNTQb_LQs5SYxgDVHRGg8rasb9rweseKUal1tqsPLTK7u1UJEDo-G6e3LDxhU5_ms2hb0r33l69dmP_0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlnkAbOHscJmW420j1Sav2Hk6v4wbUriBON_VPSqxMXfWO68efnpT_xkkylv54AEb6PIbwES45RgGfIZc4kYxZ8nPfAD8ES3Bj9ZbjmDP56Aj5laXOGlKHY5tP2GGwMdEUyGgAyXPocNC6jU0KuAcTqNGhCyoBE1676X4R6lbmuH6kUGurAESxvYkChkEHZsKdV1qZGJ0p1eetgivU7tXWHfufyAbGs6Ma4yXMjPzlk8ItIcSmxN4m4dJ0tRG2SjnqyDtsUUPPX6owNCiYncqfGdHknR3dTCwgI9ss_57dDJWyVSPjIBtTXnOyRwAS6I9HgfX-S1C0KxA7S8bardIJPcc6eNa-1A7qii7zUNV90fBQTdHN9tIurwouiUgs3dSi04LaHU5ZbVx5zNhcwfb6hXkdZPIF6Qiz4Y-XgtDTCE8NMYSD1vZJxixxSXoGl5hyfub2cL5M9tZxosgm9-bbUDbQcbVlT6t933fW-_DhBpy0FqTCm1fM2ZMlvcUOcBolq1i84aLmfmbIJOpXfNTDBpxJ0s8yDsuu16VSEBWY2rkUSRh6U7FT-CKyjgUSuSPGzcGBzH-FahFCKEt42rIc1PxPhuaAdt4SR2b4d5KY8UYXd4d4akst36nZ1xXCVFJErV4fk_oS516owvBgM0zwKN5qMEFF76F1ljthQIljOsdqJc3TswvQJKd_vs-m5uvl_6BD_4QNv6Asyod-7auicnJxbcMQwU5Ab7UvJIgaWugl7uuwAAWX7qibp1eiUM-peFzVJ3vqHpALYUJ-7yZ-0f1E_gmgV0Bq_Fb-nrqC3nhSYC_MF7T48_21pFxtOJBx93stTTtazi_xZLOkPgq6TJTatr0UZbD6wM7u3QChKt6lut3BPAqp3a29_uQ_0N)
 
 
 ```plantuml
@@ -8416,7 +8345,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6c978c6a26521fef6b476b1b6addfeab6f1c1dab3cfbedc315880d8b4d4f7160
+title Txn Hash: 0x859d199a73121860a333a20dec1b935e5205dc6f8b7a6d1ebe4a07b6b56baafd
 
 
 actor EOA as "EOA"
@@ -8428,12 +8357,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeSubmission()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8450,19 +8379,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d11, tx: 0x9487bd4d27ecf998fcbe9848f8ae0d4c8d5fcc6d59e48280d35666e9938968f8
+##### d11, tx: 0x353bbb4cdaef3bf5a45aa57cab00a90229e31ff7f3b3861f81f8917d01ff2101
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTmkKiYKU4Q4zVJ0Qp-HUJCoskuN6iYMxspiG_UytBOKJ5KIDX7IsixFVVDzqEYaXHyPoRVDHIWZFRQRoKIWrCRU96dFDHv3AWLJYc4Ut0vtbIlIoDDFm9V03l-SJScZiD9KT0kLlABcG6cRLBS19ffExJ5cUTjDae4PIMKICxJ8WmCqvv3ZNurIkRFnAxYJKdANlWWkHg07KQELwAEtXzue4gVAVAfCCXjP0E8KhdSSnuXARs5J2rKJ12JV3Dj29vx1MA1nHRyaezZmMHw7qcCDYnYKLJiH4CuuYLpGzwR0wewBHT5rNUbw3UIv64InPP96wVzu5Rc07xGx1ijaaIiOSfVPGX3JsM6FvfBsKWyHOFJtBejiRMYkFR8nO1JlN0wwm8leoI-NY_5Fdwf72QHQXYvjjA6wcLuAGKYuST5uJ0VlxRSZ6Klb_U9fpcsHgTu-yTgZ0VIQkX4hCqhzxhQx9OTMCNolRkVy1TZgMW5RnKMcBpBWemky1kqXBOm1NKOGzRN559wxZTEj1FGfPhnNLUHX6Fcy5BgqBl-SoGSEmsMCDVZn7sOCPq6yKVlxsJx4DNw1Q25YMl2G-vEPzXB4mULImr8Y7PWQXv5hgDfpnCSmUuE4pfVqNyV8pEJXemwMqkLRmFdbXbgN84_-ei_BkhIlfQstpIMIswDRrxqhvz6-sVGNU8dKhOlFtj8WcysbEBXuD024jJrBpg59zsgUK5fN2eOrJ01T55inWbpNhBXfjUQvpNyv1l4wir8gdwHJE_oefeFkkLdmCl7cERjelayQrq1CqRjRwJY1RJJTkihxNu3NAkaYcAsIlvJ6l7gmcVJPldxW-0BsSozNo0r3hv_UwlRScmuQfseOSuHK_5Vu1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlngcefLX3OPF20GGzeB4d8Ifur8dSfsjfR2_xvBcdOKQ2aWeYZddEtllkzoFeMG8wMPrEKe9uILkX3bAEAIgDjCZ9ba8yZvW8lacCMt0rcK8kaLUI7XInY4GIyWv53fQSwx1Efho5d29SoQLu2JGcPtXT0iz_Di84PSQ4HCzN91Y9Dpo74fnpbVcVYLtN4mxANlWYL99WPWqCRrKDl3xmq9qiG_5IeR3BM2Q0fNianJn2Kwqpc7guc04wQ67Q0Jox6YABBZXF7KYbA7sGvZZXkpY5BcKTFqk6MagOkJLhjbf6syFSDDA3fDWne4KnPhf1wS-y0KxA3T8PWsdSNPcA7K7ehWIXzBJ1_NbtoGAIsdPqLyUqEDUil65QjWvtB016P4NXOvN-n_wbpTKZdLOkdYPHkAc-dL8AIM2mVTrqJ0_du7YZ4NmH-MbqndXTZT8wzjgd2VYQkXChNqxrwBQtBO5EFNndRlVu2UZZcW5MnKsoeo3ghbzu1L9BbIWACunfhMEAAJlcS7aHaQTYloQPWQRkZxYSrTps1zE-XxPfHOLjjrvYXxC0FwZSBFty4fbk4BL2i1ovJNn8TClOym9gQCAvOIyT3C8E9CSjc1CpQ6sGCyVAQq_o9U_YO71nsuvBgK0judBogA77dYZJeRxzwwbBvMDfz4PejgNNzMwgz_i-qHU8lKhOZDpscrcioxERbur00IhbcMgqUPwjC-fRJA53Pjx08ugA9W1BtCcRyejEM-xdtT1_4vqLmAbkTJEFyhU0B-kqhnCV3cFhfflWxgEvuLcf5tx9XEuFc-utgzNko6Tc1xhHPFOzixRhUPkHhqMRzzule0zB8lDyCFGAtlt-lctXeC2wOf6tA4J_nL-0S0)
 
 
 ```plantuml
@@ -8484,7 +8413,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x9487bd4d27ecf998fcbe9848f8ae0d4c8d5fcc6d59e48280d35666e9938968f8
+title Txn Hash: 0x353bbb4cdaef3bf5a45aa57cab00a90229e31ff7f3b3861f81f8917d01ff2101
 
 
 actor EOA as "EOA"
@@ -8496,12 +8425,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8518,19 +8447,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| Roles_01 | Roles | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| Roles_01 | Roles | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
 ```
 
-##### d12, tx: 0x7324d005a07e2561b3f4ea2dee2e1472f5f3e58def6a6ba3315095945567a268
+##### d12, tx: 0xc2356c30f44e4db845744e04a6e1e5f09dbaf0a5e590cbecbcefdf6c540f67eb
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLDjJzim4FxkNt4hqe0oX9FchQYB26aYzc42TMXVnZGvyQMrcZgLuqBBkl--QniX-09Mv8llvRdpSsV6hbehZ5qjQiR4oZPwjIZGi7Qkz58OiO0QfwZbjIZdKzEij4oRkZ5mb6TvbcQCZLgxgJ5ci5yp518D_EsE03UDKS-Djg9EQZNL2zIM42lxuf2JyG2vN9bbZMyCFzGpWkEzwEw4b4fFmU6TwjzUZYww8bYN_vjkrNHcMoWsS6zMLKMup2fR8zolDTo8TdO9V1qEN4zoxWiUeki7JZ6eF1IkH7JHyKAtygi1-f74AX118GO3n-T3V-ZvVX0ADuWOKLPQAZsxJK2qq2FPOqIRLQLQ2hfgIfV0rbuReW_j1AUgjMRplIddVxYp3tdNeyVO7XFEuuyyuUpiaYWiQjNE9aBFJqxPHn7hyrz71kNl7VWXo_abZ3u_2QE9v1X6vQ7Lv1Ft-vFiPpQv_zJlZoxs-XXE7lG36tMJyAMJyHOeoQv9Mw3lE7iKzKfOrMXGBJHBrCUmtGMUCed4ddeK5Z-cuJ25xEuLjnAjK7Nxge8n7tFEu-rNe64ZSkbdXqkO5hHOu4wHI6cm9TjB75Mywn_jQuj6YxhUmEsJHWb9MTB4MpBnTU1vYPkxPH6bOUcAeYWp4UO1TsMM1f7aHU6dqK1SlmL-l__lsVT9AwSOIbxvpjZBCVI3oe_6mu5mU9HGCOd4D1n6GpUdfCHEnn6xeftUyty0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/XLDjJzim4FxkNt43QK0Pmcdpqg2k8cqJiGyJg4FxCgR9iI-jrTIf70TQrlttNTi8mHUm8fzzBy-TdximTbqxOLspB1aJZQjCiypHidgXpKfOiOGIPsZKICZ5p5QDKUEgh2mSPscMZbF61hNRb3Xai5zp50ej_6sl03ULrS-LSQ9CIZqpIpIE40ltuf2HyG2vQkogn3U67_ePmVDVT7T2AMrcuF5MzMyl1vTj4QpD_ytKUZPtDUGRkBTDKH0kSzgL2FTh0pUYdby1NyjkBmXbZnU-ZxxA-tuGqOdx8aGFWuB7AXS55m46CPSvobnYeOfG1ZulmWXpHfH9HwMdjmc86ev87Z6YpMcfLuAUEgP7OEr6bkX3DyMPhftTVA_auW_tzY7lUXmnjiU4Y-57dd1-VaKKvgMkvrDX5gTdxAE8zSMlOulgzmxyaENY2WQVduGrHF8G1lBGQl8PTZhJz6SwlV_KwGmkz_eXd3wO1pPe9-5BAuTRe2Ix9cs1lfFqKPIDSBeoe6keLcXEOBiBF6CAYJtzA1n-JCDX2jdTAsuLEg7B-bK54pxXd0-tNu66ZSYbmmwNC1qOiSIT8b7AOassbpYgUDS_sjSEhH5bkO7R9uCA4YbfuXsP-7eI-sdUpJm_p1EU5LwK9OdoCOezCV7JITpDLQ_NZuAtmE_t_ptxFcaInBsicyUZe1kaSP84KJmUooZpKpyEGooa7u_wVT6bfCHEon6xfft-v_y0)
 
 
 ```plantuml
@@ -8552,7 +8481,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7324d005a07e2561b3f4ea2dee2e1472f5f3e58def6a6ba3315095945567a268
+title Txn Hash: 0xc2356c30f44e4db845744e04a6e1e5f09dbaf0a5e590cbecbcefdf6c540f67eb
 
 
 actor EOA as "EOA"
@@ -8567,8 +8496,8 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xf1b9d0f51D4Fe756f58D93a108AA2FAdeC79892F |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xA593F2b9B525E9AA579CCc7F4E4966efc49B88a2 |
 endlegend
 
 @enduml
@@ -8577,11 +8506,11 @@ endlegend
 
 
 ## reverts if tries to publishRank with no teams registered
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L236)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L236)
 
-##### d1, tx: 0xf6617c7f7225daf70edb180e95563adb661c9868423c508c5620c9bbd76dee54
+##### d1, tx: 0x94fe2bbf56663df96436ec22f37142b46c49b19ebc710005fd7e09eeeaaeda9f
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkZc1l80wLA2mzaFLggsqBvKgnt52rE0WnzcWjFzzbn1eU2beHPEc8OZjyzrpznmNdmavIpLJEXl6XB1C9p8RUaAHz2cI8wRO468H2kbt67yALP99lvl4YO9F_Lw_r-qHSfhgIInQ18hFG31VA9YMIu2BH4NFYTGiRiTHA8T2QaGCz4AXZvipo56cHh5OshYBdWKOzONiXlb-94CmQ2bwBSRJhsKGfFH_ATCe7EWKl0dSgom849VeICS2xiSIBbWwQ08T1xPjEDm97DEqV1OuLFYUuLBHi2oxndmFjtd3jTswMUCMTRbbcvGtFCztR5y8gqumPLnZwBthDh0K3d0y89Ws7V5en91g5qc8L7SKfa_eMn56gLQJguG_FLAZCDcgiH7iDed55PCi56e5P7bdsVXQXKnYEbMkDBTR5IwRvC9qhZfVBAlSiG0zwi5Sgx8-8AJ81voqTh64u-Ccy4IYBClpUNX4TbbKG5TO5s2FM2WBSeSFye6SbXNxkHnRBzz0JqO2S9HiM8m_MPpX95T_0KHG8aq1PvnZuMkSqR5ThxVDliazj-jmataUxp6dRrFJxtLjrwUUPtNT6klCK8vW2lGBXUy_UfTOg-z5d9DP-ol-PHxhmUOK5YLIX8v-FnRmh0emIeLuE4p14qm9rOGhDeBfAxp-JMfl9DOf3LZwFr4wEMd2hT2Pal0nMbwIn1WVVWCMfwNuQDNXXc91n-yLqNklI66ovVsfdZpxrLyM5LbdUUPNP1x-ZCr9NlA_WyXUIIz3gKIoDI-xpj5gNhSTjhEZFDScini1kQdq0Lze5iLfXSqvFQUKvcomyMDhm4dk1Jte1Q_slDWNTgsNefVYSwo5aYoE9t3zImeVsXzw7Qh0stlnjlt2QSyGDgUS6LtVjJkcvNMuqJvls6qNhmQc8-erisi7DNkZqvMUlKc-XvErthuYsWDwSGSeftj0LUyARwi_1SJAA-kFdE4Jxws_0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVJzim47xtNt5YBo36bgHfGYg6I6axU40WGDeB4dAIIngHEfNZR2s5_tsND2tf3rgDQjAqgetjyzrtzrqlFZDsbYakLJv86EEvIaK-y52ox2aMGoxv01ACK0HjxZz5Cir5S9ucgOHFlMwlUzvbx2HJumHF6PIVFl809Kog9S15AkFdL2YUk4aSYG4AHOYXcYlqQ7CAESpbCC65ZRlu6K4tvx8R7WInY43NAj5hEPvyhO9WbVzBaSLHNsNWZU5Uvc58k4p5Aa6u7mcuu5c_1Th8CKCqF2ziMfRL24B7CXiM-eOHDcpTD3pJyat7qntqV5lNDAqP1ZPg3Y9oZW5tGaOfynM5thrsWMUmH-CUexIfs8-7dAYU4mdCL5jI-b3TOXHdIewlKl_fKTDBauqQQy5kqmIlkE0HoYMGnPr5usiPSK7fb8NIp6vPk6XI2BEPwcong7B7G_Ae-ZEjsdgFiJ8VS7IwZIKS7hR0JmN9yYAV-mTicqKDT8br2VP8XJ8dj_yW7jX9LR6Vg_7qvHkeyH21Hi47vVYJ9pbD2lKN80I9MGOqytqgV4KpRTHnpAvdz7JJyboj5-fsptK34sr7vnspst4CBsWqZktc5EK09g1zqU3xZ-ubrUfx4HTaLlwAVvd7Qh05XNc9bA6Jtuy5FAq2Yb8I7WqJy91Bb2suuaEOlCBhtwJsHcALKfzd_nEbewCMtABAfO2FqVBIDA7uw1lo9Al41yiErnGBENwlYDvxHKgJ3UzF_UJPhVxokCmwBpA_9FFefwzFyeB_BKHsIdeLIYsIZNdPTexMyxhfi9qUvOKsczu8s4sj3mIeU9naDJOThKCjis13ZPzQ0qqAB-H1pNcvisAVsvs-bBsKdYE5Kl0a6SFrBu41k1zw7Uh0ctlnfltIgUMOnvPZwnr7RxIRRSDkMksEOUjEezaqDDrrBQlNCPgzjKwNUlOw-GvELdhxacW7wFaTe9hk05M_Axoj_XIGAg-gFtP6Jxgt_WO0)
 
 
 ```plantuml
@@ -8603,7 +8532,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf6617c7f7225daf70edb180e95563adb661c9868423c508c5620c9bbd76dee54
+title Txn Hash: 0x94fe2bbf56663df96436ec22f37142b46c49b19ebc710005fd7e09eeeaaeda9f
 
 
 actor EOA as "EOA"
@@ -8616,21 +8545,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8653,20 +8582,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| Roles_01 | Roles | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| Roles_01 | Roles | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x69486971D913B5B2756BD2719355201AA66FD25F |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xb716b3dea0de45541cc7c4f49c3f3ccf863ea3c2f0ebbf4c969c6393692b8337
+##### d2, tx: 0x0ece1e886262800a56acd9373273e606fbe6c6e68b90fd4a53f69304f49d3e7a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlnecbQieWtfu0616D9Ua93ZE6r4wbIsmreA__ikQThHKWe34KKvvyxttNUNyoc476d3b2b66I6iCBaiHf5GHD-cSimK6q4c1aB6FSPl1oelP1paMQxWIp_iXq58oA4sqqnq25JNKB1OA9ZLhm0dkKhlSsbOritIWHm9QH0nCSiDVJJE8SU56cTYnV0hlHTWkKlT1OlZL0x0ehNgiPA7tsiIf8v_AdKw61eDqHIkL94aY4jCQZ81LnC99qmFsq0dKTFo8YSMZCR2RJHSY_CcTnEtnPt4uJpnFKSmXzi95L6KkBpbjRZdj1olPKU-upG9bemRf1wUTu5fs46vGx1i9kNfc66g0IOXjEafB9ymbsAGQgEcPpc_lQ5MvR9rnohOkHemYHLHbtac5lxhobMNKgaNMnSl6obU2JPQH5_ZjcRQ8QHA50uwhz67_Vqsv6CXQmCpQIvtzyXhRYNoiyGgi5GlzRlNyfeSretujPQTXnzWfcC1A2KRLVAEPGKkokqFW1saXDQ0AywndmskwCHptQxTjtda1qrkioZY8MlsFMh7OU3vCOsYHk0xh3T7sOCPq6yKVluEJx45Dr0j4rYMko8-PFfzXB4m1IzPAiH3COD8C2LK6yxO66QFyFYPgVrBOlCtEJXemwKmXPBmllIYFC-G9zwOPwtTUwcahxND9v5vGxU-S5IgJt-pvGGyStXZccyYDJ-bvMuod-Bauid1ZuLXQQQVLEcO7bDAoohXiCO1W8io2aOmotfr5qsszEiyLFCFdnCZb6HPDeNpFrB4q7rN6pu5tZu_jzcheA4bF4uviuBOztfs8-fngtlSyhf-W_fsKxYE7NY9uwq6VJPdrrGVW5xEuthv0QWNvlP6m_-6mLQf6uOSuHD_3lu2)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzj03Fv-ly9YNq0Rs-MbILEnYfGsWmy8n93s1GbT4gUDI2_LvRAr5Fxxd3JjQ2al0n55ySK-Ftxi-AmmTbXeeNGvpXWJfSvbEGvHiU8cbHEXn1Wo7AACUoAw6QgybF5HdkKAFWM3O70qOEoWqBCCkmpgQuGYHWNpvXNWE5VfRIwroFmi7SenIas8YLvj2CYuW9oKQfBXck5dUejWs2lTkOZZL0x1u8tglfO7tneIh8b_8ejqED85X3EuL6MI42xJgSuGBgSIZaKnwW2VSepGm7RRCHsppRbeEIAAFSkrJDT2Xpj9Y4xaeDCEFPx4jcXPYUDPt4viBxRG5OnA5ccYFZZpGHImGtA7KTbq6gKJGQaUKH9Ow9wYyg6-m65QQ3KxpQERQsxKBi_kM0SxKqCXgIBg8izmwR-fN7UfbCLow_9bAyLB5EDbz0rk6wOTnkf4OR_x4dtu_Ba3-GHbOn0wpUNk7dl9hK9-b5WDbXOh_UwLl687JID-QMJtxZlesGI1f1JZMluMMKcBQliTK0SfB0gWLHHHFsjQyMdVimUX6HYs4_eyI0mtyFtOHjSpHDyUz3qpZ2shxROMA7im1_wLmuzVWnDgmIrKgmHMvQw9ZqJnDi9Kc3AgM2h28p6748L2rO5JCO7vFTn_P6h_ajZ-JVRtEt21kbGItfPUcESPyQIRycoqUq-LzAMs-I0oh-ZM9uvA_Ucldpa1ZnnUcUQhI2rEQRMRBQOuEtzmy6FK8isA1rNgypxdlAeI3MiQ0BIeeb04lQgNlsoobL_thfv_z9ngL59asGpE_aYCmNzJ6pu4Vdv-FcUlWpgUtNOyr-XxXjLhzKotvVJwfcjuLgjbSiFt7IVecwrWFUYZERkXUWVqQXutotT0FJ6tjnh-DmorIjCmx92Uz7Fm5m00)
 
 
 ```plantuml
@@ -8688,7 +8617,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xb716b3dea0de45541cc7c4f49c3f3ccf863ea3c2f0ebbf4c969c6393692b8337
+title Txn Hash: 0x0ece1e886262800a56acd9373273e606fbe6c6e68b90fd4a53f69304f49d3e7a
 
 
 actor EOA as "EOA"
@@ -8700,12 +8629,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8722,19 +8651,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| Roles_01 | Roles | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| Roles_01 | Roles | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x69486971D913B5B2756BD2719355201AA66FD25F |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0xe7c285dba0b8b38b1f76ea7875429ca68aede61dbdf786fc87fd9bcd2bdd7019
+##### d3, tx: 0x5566e44f611583c7e04c5d89813c3f6532748e32c660293b936689a76063e5d7
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJ-9047xVlsBYlMWyxxO5sa8y8jHo-c0qdiczc9Zz1JIMBTbkxq3qVxzfAPoe86ficivsTlUR-QRVJah8KMQPiVae8OJbDjNvY2j3ijjOZvbX8qZKG6dPPU9sOD9Sop1DKWDVUb4l2YD23ZCxJLIRG7aD5PFAmAnw1JX9JNoNQikIJX8Fz4XfYuXzkrpGmyavv3WtuqIjJFoAxnGuzQNlWaaPwm4uj78zbFRmUvK4gUAVwYmU36q6V0fN9k_t4PVOs2OAhYOQJbWsR06TA5-uGKDoHdd0Qm5t-hwdc1_uZRhR5CmBc9BASoINVJ_m-YBm-xB9XNIvb3vrcWHB9Yoc7frtW6MmWtQ7ODbiBE8nGweXab2PxHeidxANQX1drapFKd5xGvrooyOLgs3dPi0qLiHSfebQx7_gNDrIEBF5qiNBDYbkJgy48ILTE6Y_HWBszrkGZfME_h0aPpPEzUuUUMrJWVkCN0aLPql_xhM-9eUL6BzMjdt_0-nqh02jPgFI5f5nK2o_1rIHKLa6E182DMrnH2TUlTvnUwxWGOYwO9oBYFazZxeo2hr0KiuROL1ZtJdA7io0VgFmytTqYZ9y8TM2mBBaPU93bhqlOInCBeei3UAXcG5Np2ZJWZCsXja3F7mcjVyaNluc1mSjk5GsDnhUHu-dQO9vueqyA-_UkfA-9fjFIcOBjQu_A-NNlzds2Bo5wbQ9pSzfiPhCkpcvUDG0fB8iJh97bJgcnvJIebBOjB4BuA28WX7iicQTXT2M-zhtPH_4vyGgercIJE7yhrOIEk-IucFWpNrqqtmPD7AK9wXWJYW3h-isU5SudUEcrmaQD71zLQ-veTUlUQj1d_NR9wuFG2_xSZNy0DJw_hrkxgt1K32LRCWHFl5NuHy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJwD047xVlsBYlMWyx_YvGECrKe7J1wFnJEx5n2omRObqQPRbhhNwlzz0QS-ghLKZ8Smok_lDzmsp4mWvAXMJgXhbXB1A5Q8QnLoIyZOJOoRP278-u2BjiUHs88jAfCT5NaZu4eLHU1mISbYgQSwx19fho5dA9SpQLu2JGcPtXL0iz_Di84PSA4Jig-M222VdaEDAZdE-Cl4hk-EWMqlV1KlJJ0n0rrhNGsCFlxSaI1l_L9JPOAXAYATm9Qj-7t69obJEuMeYu8ILmmve4zkcb5jMd-gwxPg9mpKhiLFNStKpCVlKDWt7Shbf99HgXcV6dacfwp67QjJaTkeGJ5cYa7fuxWChOGVj3i6qgIp9nWob7gC8NggUnFHnTSa7MQdazAn8RcyqlTcoSSKgsBaSC84PaPT5pXVxdpfNjzJESh5qyR8DnStq6X3Io8M3xciYO7-_0yMOY_0FookciaBixf7NDjMupyGrK5cvzEzUYsjos1RZrzPsxt-0ceuve1LirDWwCWxgvVU0LIHvMGAEaWHhMk58cmIU5SP6f5iqzhMehpkHxwSMTpoT1LOOU4QScgRhs7EKFPY1zas3dx_3Kop35wZM0fOfRuWFMVa-mfYOAgbPIiH3CuEOCybb1yxO66OFyF2PqlwBUFcR71nqu9AhIWfudxouA7BaYJVgRBrxwrBwMjby4fajgdNzMMc-_issH-0jKhSYDZ-dzMeox-Raub43IBbYMLu-obIW1PgcrPd2ferT00Tr58oWbZdp5uMstDUzR_eWFYUAIy7oV0hdVmLFmNzNAJu6tjn7DyqtGQbdkTHpzC3JpPxTCnoRzWB3qJtJjWrDztrAey2mezMWp_hj4zS7e9TzkHr-06fz_rutzzPWM31jsP0ZVEAlmZy0)
 
 
 ```plantuml
@@ -8756,7 +8685,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xe7c285dba0b8b38b1f76ea7875429ca68aede61dbdf786fc87fd9bcd2bdd7019
+title Txn Hash: 0x5566e44f611583c7e04c5d89813c3f6532748e32c660293b936689a76063e5d7
 
 
 actor EOA as "EOA"
@@ -8768,12 +8697,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8790,19 +8719,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| Roles_01 | Roles | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| Roles_01 | Roles | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x69486971D913B5B2756BD2719355201AA66FD25F |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0xc64ea236d4e8054c0b2bf8f7397e08e5e5deff38946a282acc2e129f8f938b66
+##### d4, tx: 0xf7713d80f3d46c6b1c78d71f39846665720ef4e0ab901d84bdd9f124d679d89d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRvim4FxkNs5rNpPjtGm4Gggk6g79NgIgKpTfNoPDnXm4bPZ8cAtfot_VGKaAj4cwPjMwAC7s-Nntpt5tyH7oBjTSwMAQ4i8BdSbY6e0Y-MaYPrpnAKqX1XaEkJYDLLR8qC_IJD5duz5uv8y8sS_rF8K3GglF17W8YbxKIqe_P2evpwJcgPSciPo2r2Wnqak6CMvUYvmLQfP2Q-DBSWxKw2rfdtaO9ZAc1gj9LzMu_wOsWjJwFyeyYISwfy6SVbL55A5SeXET0lrw9ka7da_sA3iJJW-uQJbX3rnczmGBp21oexurw0DpmGOxX2Yot47FuQPhSY5CCCm1iWmiDt0SWYuJ6aqV7NkKvtG7nns2RjE9I6OSeVe80d8zLEW-q2SG9xbMywDCdFvWHdLaBKTRsB6AkKIFg9CiXSNvBh5zf2Jc2zR5uZuchZTlbP1Imn6NF0RL4T3UQH_-L8GnD34r2MtMBpn2CNgou6oiTmYf_4zt3pPvbRvykKSnb2ezpx_BxsI_ZkTNzNXm-PRg-GmeZf9Fg_4dJmkSbEoNvMa5UKvn9WIcXSOPE-i7pBQDlZl6uH24RLeM4wR5BSU5qBC41b5_u7l3Qoalw0Lbhnbz_stq4IDvaz4bhbjlkuAIv4lwtqJZz7gUEJP5uFfzOV8W42FU7plC34U-uuOi26pVjVWADBTDBG4iOx0oVCBpXncCZYb4QQL2UJXSq02u0hL7Z_YCNbpHgyU4TWFYxdUokxj7Jq0NIjA7mGkoB4KxyOiuQ-gBLIxT53QFPCmzedLryQZU_e__9GMxW3h5x8c3wLfR0cbLsATgVzl8szK3TVwRwh4Th7RrU285yN4W_SNQ4_4qloa-ROMTG46bTmNFgdIesDVaIlEEiLtS5KdbRLvwl4CBy6VSxToM_Wr0jd9sRKh3ahL-MLShcpxTK4pN_M_Twr_c-j9NSfFhNeLyRjmOGz0yIVE6DmxP8MEiz0Qs97Y9n4cf1JNefL-yHP8ipnrSLhTyV9vfK9AdwPmU_v8GKkz1zugcuFLTmhhzIkd804SmmGq_T9sXQGT3ONY70yTpROPf2ptBz9t8SjfARtKJ7T8MefTTHptTGjJgxcJLtlRAEbtCNVGjbBIwdSPo2v7DhkXczQS2CNFg_27ly5bCqzy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRvim4FxkNs5rNpPjtMmWl5HTDGXaBrBLgPkqBvCcWmr19H0PipLh-zztK982JTAjMRKkIh1zjk-UvpXVV0YzAHMJgffb2B5A5Nar2uL4vLcQpvbaCvo9HEJSOz5P8eigv-CYAoH-CWacmJX0wB1KYqmS8Tnyfe9n8V55EyJuNI7JdqMkMEPcQPBFHAv0OwnM2oOmUQroNibv9deJdzAV0bDZ9Vl8E4_p15FIYgwQzl1L2mArzj_dPPfCLOd31VuigpW6lKYbAXFuytcEtx5oUe39UMnPLESsYNLkc94PqiYokKLZtR4DqpH7baP4R0Z2GeTGRXiXvqvCDOERbiDjXoDmMQG0Ud3YObRYFMZt4BXDfL4wPq1r32H4gJm9xXFgL2HfgUJYk8ZElX7QRDcweg_iH2Oi1u_8qo8Jo_r3ONzBBIoNIvU3tu6u7Tuc9RM5OvQpHCY1WlvCV_E7YYUYowahw2_zn69GewRBbPtn7aAD__7-qLrUnS-V7s08fSREqw_vLtJOnlEBjZswV8tLOYumj3cRDUrtbbNGgPTVrhkbA4iClIY2Ow6WHyw96HYUvbd6c9kURWTaJ7NTidNDTZn2VMfv3eaqExZMyWnVOFAIuBTVWlSGoNU1hddTUjiDbRHSoVyc6zynWb2RKCCCNJA9gJLnNMu8ow7CDmBVqKAkwxOrMi_cDjIQm2e66-1JLjuFC3YcYcgK4lH1Su53mQIG1_YOpV755RvwI6et9DQ_a_tz0tmgL2LpV3zwOL5aW1E-mBELFjlaqhl2ve70_4QqRauUpTl_zhySmI6XGJ9xv6I6Q6iYlGpxMF7tGTxE7c3ptsIFtMZriySZIOWFG-alvfwOPULDykaR70GA65qNF9kEGxDyordftZ5sYxigRRpDQeyFP27yw7hdzkpVGMGdPxTGEaYs-cLRhgnzYguh1_InSt_ZGh4qAplOVE8JGcfiK230bGuwjM9GgbOetMN8hlOTNJPtRdYUAo5pbcKBVF8Z5noxz_gNxohUVcVVDjyODHt3DXsB-WxLlP6dMIFJypMBElfef17gkgOvyRNHf6_qrjr-8Df1zQe6QBixgDfSAsoQsztOeAPO9z_1IA_sw0ntKDcjKMv6VweGJavxVj0RU49z_Wi0)
 
 
 ```plantuml
@@ -8824,7 +8753,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xc64ea236d4e8054c0b2bf8f7397e08e5e5deff38946a282acc2e129f8f938b66
+title Txn Hash: 0xf7713d80f3d46c6b1c78d71f39846665720ef4e0ab901d84bdd9f124d679d89d
 
 
 actor EOA as "EOA"
@@ -8838,16 +8767,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8859,25 +8788,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8895,28 +8824,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| Roles_01 | Roles | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| Roles_01 | Roles | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x69486971D913B5B2756BD2719355201AA66FD25F |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0xf0c209840225eac31a93d94e069f6b5479a49784585df74150b7896588135ec8
+##### d5, tx: 0x80d2a458e7f34abe40f7210c16d8191ff6fd280d5076dbbe3f15b4191dfe2c44
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSz8aJIfMqOPqy81036alICXnt3OYTIhROIs5_xvBcdQqbC90H57EkVDzzztbV0eXHzemPOfHHWWhJ2wBKImKqRUf73F5Hf29WP19b_7RWSeBcOHvbYluqejwKHWHSgZDD1Dj0jKr52mH2cRrAy19hjBxN1gMTR9q84T26aJic-M67XhdaED2ZJEnOlYLtWkmdANkWYL9AWTWqLhrMCd3xpK9KiS_bJeT38s6U0fNgkZt4PUOr6G2hYOIJfWUje1E-fJRDF0TQjkkOBnXiQ2H18wWNj3tOjTf1im9chxZ-cxIRpgMI-Ec7tYkxriDLt2VOCcuGUhHUGUOXXsKEmJBPbAUZXcc6c8IGfkkml89Soa6gJPgUfRpsnjgLIvRTwo2dQi1arWHTPbdOk6_hbnrAPLwiNNnif7YbM2ZHVGrRckc7KAgHE6W_HfzsDzl0SzoBMeBCsakT_V8QtubzBFCAhHKB_Mxr_AQ7DQT-BMMxOSVOAPZ0IWb6rNoZcK5Bihj3u0jf8JMW2lEiQ4DhkZ4SvoEtRDvx8TDRhCuvX5hzZng9r7e-GcDOpVq6wmxHzc36T1l57x-Zawn1pTGBHDOrhiYFcJwVOInC0KlMIh4Gp63M30bL0lEs1XcZ_3ucQdzIsBpDpauQC6bC8MIyBxquZpFa2VUc6UjtNkffA-rpIUHUKEtld1Mgaz_i-q8FFDuOvvlOZK_f-LkCf_ZvEB9qK-4OMccdvJfc1vJIiiouRZ64O2BCWf6CCk2THPTjlHhFrGJ49yJ8vHaMJQ5ypzI9D1vLny-1Tu-GRVPgw2H9JnEERF2nFUwjXjtkTKv3hoExrBVRWgdOOTUl-6j1dqsQTTK7u1UJkHw-G6e5oRtHiF_Xi5MgHk67E4JVm_-0W00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJ-904Fw-lsBYVT5utcrBNoZnYCNIqmz6uvdS5nEpRRVGMBPaT-k1w7-_QIcS8AAdaH1cEo_FF3ETdK38aT9CwdAK4y9ANOXo5759r6qcnaoo4UHym4NIO_7jG1QbI8wBl93m9Uo7_UC-8OTAJtFU9L1_XfmbNCAiUGGuAMHsNmZDSZ_F1cB4XKR4L2yTGZJE8SUb7ETynV0hk-TWM4lT1KkIJ0p0e8tgiPQ7tniIfCb_AbGs66e5qHIkP9ccY4jqfdCELnC19qmDEq0dRPgOpBBRt4rR5ekuHLFND6XiE4dRy8mqTTB4H2URkauIHRoL6dPaeIL9kHbR5i6MnHgfzyzzO0fsKEuGR9lEucpCiDHZB88htPFOFgul-I1JMaxFYlZsXXfro5QFLR1pEM02Eo8lYvmlujULgo6LKYrS5myRALvnDbfaN-EsPjeXf2uK3hglqOVz_Gx4UQ5uOs4wAyJk7dajhe9-LbcDbgcbVlTQN9F3PXA_DhBxy0FqTCm1fM2ZMjwnlCH3vVu0E4AIAmLuYcCSQ8qdEWaygn-PeM4vaK_3r713tqyixde62wn-u9bHqcgrNNkEiWSpeDye_FpTFyKPt42rAc3PxvhuaAdt4SR6b775KY8UYXb4d4akEt36nZ1xXCVFBErV4PlVoS511owvBgM0zvKN5KMEFF6BTJRQlPTQ-jhOV1APDqph2tUbVlKtswx0iuWtrlacLlDxMdcJ-Hud5q-kVi8rotBrf4q13IYbLPjmNUCAm4EL1JFePSFynPGjuxeFzGR4tudcKh0ydyBv7y4JyDyrXq-1js_GRVOwgUDPRSTpZS0pMZsxPxgsqmjCr_1QjcrIm_ST9mnCErnD-cpJhga-0BtSoCtn0r0lREwDXlzDWwFI30mvmb_yU_0N)
 
 
 ```plantuml
@@ -8938,7 +8865,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf0c209840225eac31a93d94e069f6b5479a49784585df74150b7896588135ec8
+title Txn Hash: 0x80d2a458e7f34abe40f7210c16d8191ff6fd280d5076dbbe3f15b4191dfe2c44
 
 
 actor EOA as "EOA"
@@ -8950,12 +8877,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -8972,19 +8899,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| Roles_01 | Roles | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| Roles_01 | Roles | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x69486971D913B5B2756BD2719355201AA66FD25F |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x25d78dc0f7a645f46434c9eada5cc95b182e17af176af28225285125609f9ed5
+##### d6, tx: 0x904d935e1da1d9da3dee17c318534806c29ac0dfb59d426c6a02a3e898992eb2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSz8aJIjMqOPqy81036alICXnd3OYTIhRsLeA_tsNDEqeq590H57EETlVVT_bV0eXHzemPOfHHWWhJ2wBKIGKqRUf73F5Hf29WP1nZ_7RWSeB6GTvbYluqW_xOH0ISgZDD1CT0jKr52mM2cRrAy19hjAxN1gMTRDq84T26aHCp7917oVdaED2ZJEnCl4hlHDWEKlV1OlZL0x0ehNheRA7tsiIf8v_AdKw61eDqHIkL94aY4jCQZ81LnC99qmFsq0djXit_PZJfCaynqqSpsaul8KGpEMyvKQMRmkhoHAhwR74zctRjNtNibsFjfAMY5s2AUC6gOVdNM0QTj3k44oRINawPYWrG152cvx2z0bpAGQfDcfwblFR6sfLMpQkM0KxLmCcCIFgCi_4OlzJv-gMqgaNInSlsr3SJAy28PLSEEYy9WBszzl0iroBy0_B2cRINExkaTTsbS3Fr5LOgLxwTw_bDJcig_5hRJltFy1CnmBGIZQgR1aP1-NoUy0oKa9hm17dMDG6HtJYEKxNxjiyyeCcjraKyP0r-nwrup3m_9X6aHlu3TQRe-p13EWt2Zz_XwTOXozGBGKiSruH7pBzFiAOc8ANB1NYePb199WIgWrdR0op1tZuJ6d_HRpyJGuEsd0fJA4al4zUbESPyiGRTTRUlNKfVQriFedC5jMw_h1KN_zcwpFm5grRCPkVr78rcVTpSl6e1SJ2i3JJZr9rJ8yffMMgi6rZ7y116GKZc6NIkejAM-xht5UT49yJ8vHaMJQ5yxzInD1zLoq-1jxSIJVDLq53ItYSScO5iU_rR3VgSQjxtFAwlajzkocSXXruISDR3VgiupvnVG1wsPdhuGUWrdVmTNDl3OO5KvSDES8d_Ypy0m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36bjzjAbQHacJmW40CQIz8o8dTDY9rAjlPMWh_-ovfsb6WfO28efnpjh_xlilv54AEbAPIbwES45hgGfIZX4kYRZCnffAE8ES3BbYFfhS3MPI27HTv8U5B7CNHSKJ8eTBJd7S9rDUGKyObp9fNW9D2PdU5q3GFycmWHbneHEphvO8O9-UGurAESxuoyIkxus0wIzy5PImJ0p2DnlLGsyFl3GdIn3yLAXiCjO9a2bUoxFSHb-XCvnok9W9Eg1fsm9ZuXiDys-KceoRp6RKPvsOhjSssQpjjmqijdwO6woUkpnpBIprgMDJcRR_j-nPFB88fIpLIZyu3e0fsqEuGJ9lEqcnCKUenYk1AzoIcZ-jBFiYKbjEp8hszCSnwoyOLgs3dSa05PaHU5ZbVx7_gNDrIETLYwU9b6ugRwTKWf9OB1ztNHC3-VWVIl50y-aFpakgi4BjxvBLT5V0pTJLMffR-tMjnJGwRQlpQsExz3z3JCGUqWevgMqN6GRNy7h2C95SAS9IcMDGQHyOaz9qeiMBJyPB0YFjcAmu2vl2MRzBGYKBVIfXjjrlk76KFPc1yC-3dx-WKw_05gfM0PSvhuaEgtaSO4rEc5Kk9U6Xca70gkUp06Ht3x04UFbFQVn4lVvE3WmvSSbrA0U-JbnH5ZZpnHfsDTszTIbyhcqyYiqMrhZyizTU_sVeCl4NhLipc9xLQJURzd5myQW6CQvhbwb6gGYCq3ADA5RPjx0CugA9W1BrCMh2ejEM-xdtT2V4vqLmAckTJEFyhE8FWNRNu67Xp9zqqNmVrVAVj-Iqpz4sxv_QibklrGgjbOljtBSCC0i-BGykDLuC-wxXFN1-0NdRcPlW1gFKTVDtSMuDXmJHbGuxmYJyB_m00)
 
 
 ```plantuml
@@ -9006,7 +8933,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x25d78dc0f7a645f46434c9eada5cc95b182e17af176af28225285125609f9ed5
+title Txn Hash: 0x904d935e1da1d9da3dee17c318534806c29ac0dfb59d426c6a02a3e898992eb2
 
 
 actor EOA as "EOA"
@@ -9018,12 +8945,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9040,19 +8967,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| Roles_01 | Roles | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| Roles_01 | Roles | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x69486971D913B5B2756BD2719355201AA66FD25F |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0x12a0f75518b3607ef587c9677e67c21b4d32b80abd45b11aa95ec37ef6fc8013
+##### d7, tx: 0x771696bce27487d8a976a54a9f40f6fa1dc8aecd66b50286347fafe9018300af
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzem4FxkNt5hfRMbOtK22IbYg433sWzTArPj7zPfSXm34S51jjD2QV_xBY6mqZUqJaCevvpFppttuWiXHzemPT9nJ0XBJIBJSI0KqQD8JfXYOuZ5GCYmpVXee99KXfqaJXHiT_skt_49QMWpYqMJGFuR2XOA1VFY5U0aKT5j8WsBMt4qa6CX3IBspSgWYviBo4cg9h5Os_WQtGgmgYlT1Gl3I0x0eeNgFfUDWu84AVoVIXqDXaP3C8DBbVRxY4jCP681brC99qmFwq2dbirel-OubXTKN5eJVSUhyKEtLXDkZTjMK0qhTk1H5eHL9x0inWuTmIjev_QvHwqAmPHnWzJzynOm3LiejmYcpKGycZ0CjOD126tQ2jCdJ4yC8ctKx2pXer_Koe-yQh4ETgu6J696L2-9nVByO-NwaKofbwRBbor2SgPGRcxo3_lxTInC44Tws6DojBj7Dft8G9-God4YlTBlNiahqYYQw4CXctUVmCmc0b1ADixbDOjJN6JcTu3LLq9hm1Nds8i6LtJgLgijkslpmEjWrLWGS9_LkYwrGx_ZUY4D0gVZLLXxWR87Sw0VANp-xfzY-pn3DGjWbQgS-93fjn76nAGyOwaG3yKS0i6KK7KuOnEOtyFz_mpjJn3FrwHShaDFc5H9U5juGPB4o1F_66UXtNiffPlQvZ-HsU1sMlwnhKJuCsEuk1F8e_7-XYc9WwO93RuOTsZJB9Lw_ZU_T_ckL6eSvFhcIropocU3AkUpyoK18zXOWyhT2mJRMH8C1OwGw9ePiN4MaCKe9XSFBdWe38jY_O32CJscb6RfmecBrnuN6IvYcbNYMijkMvr3ojaGm-SK-KaMnpCulv4YXDQR-l4XyEj3yBNztAbl2PTJpgnEwBbjsmdQt6eT7xejpw6UNHFLYjrn-nLttUcJOVb8zG_Ggw5QBFyM2cjOL98SuHC_lRy1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjRzem4FxkNt5hfRMbOtKW90Gnr532sWzTArPj7zPfSX87eWO7sKuBfVtlkuJ0Ij_GEWsXd7C-F_VSYo-472hDfCx62I4iqwd8nZwNH5t5Oi8a6qF2Xro4NHPS3MMQYV0eJL89stslxnrvXBILdYMyGw3uZJWBkOHv-GfmdChuDXMQ9MuI3yMO2us8aLuPz75p0Jd9v2JXQnjVuriEXhdIdRCmZCKG35ggxWlPFYX9aDB_YL3nSAGL-3Eua5aK8IxHiKuuN4m573CrQW6TshPXEPOVy9fjDksmoHpROWsJEP598ojYHXWq6Gz2o_8RjDQqwgOTiOWxr6ZMAMKHmPG56gbxPoum1LiejmYcJST1F64OwX46mPNkIamVrmC-Z9MMizCqkFf5ZUB8gnRhO6Too0HcH0xIX2_FFrQk7ycLQccwVDaYf60ArSuc_x2_tyB2-4ciHWCchdRtoAOJEUWJKWLEh5RwtKjnITfb4tqePUVk4-ZPX0DAmSQ5l6P9XelS_0wm-f8h1RWA0kn5ZIiwxJccvzVwXcdvBkr7XjrttT3ajcEmdkdrd9eVrkjDkx50sOCvq8yKFd_tJh1zdg6Q1x1ALK5ynDJR26DYiY1dAH4FnHnypYINBJXb4vZVm_t_3ErF4C_Nf5fjmO3hJ0fuMtX-cYR84_yOPwdTUocbczhcFv7Pu7PQ_R4jUVWpPxYu4yYZ_Vw6IO63fWFjO37kqAPJgGoyRzxWubsbqZuez9sNkEQLpmTLmMVdImgQix42MRZd2BQp91Xo727nDTDyuomWYr5CpXzSy91h5YVg0OKUxL5AytJXnCLhZuiS5p7rAd7kijjMvv1oFiJmEKL-WYN93Cvk10_1VLC_FWH-VGY-jbyujHopQJcsqNECUhVHhTaDgzkhsOPJRpHgr71To-htQet-kjCdm_AHwX-WLqErNFuj5DQmh2Gvn2T-Udy3)
 
 
 ```plantuml
@@ -9074,7 +9001,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x12a0f75518b3607ef587c9677e67c21b4d32b80abd45b11aa95ec37ef6fc8013
+title Txn Hash: 0x771696bce27487d8a976a54a9f40f6fa1dc8aecd66b50286347fafe9018300af
 
 
 actor EOA as "EOA"
@@ -9085,12 +9012,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: publishRank()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9108,10 +9035,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
-<#FEFECE>| Roles_01 | Roles | 0xE1e6c0ca1Cd86B25bBc1AD96A850827e432C6f36 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x69486971D913B5B2756BD2719355201AA66FD25F |
+<#FEFECE>| Roles_01 | Roles | 0x69486971D913B5B2756BD2719355201AA66FD25F |
 endlegend
 
 @enduml
@@ -9120,11 +9047,11 @@ endlegend
 
 
 ## reverts if rank already published
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L242)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L242)
 
-##### d1, tx: 0x05041231ac920ed98c998048fcc7641e4905219512c959880530173c314320b4
+##### d1, tx: 0xf7c97a2eca72fe350a09506e6c5084a6d0418feb94d9803c4df54d59afc6c472
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLRVRzem47xtNt7gNbfrtPoGG88wLA1axKFLggsqbqgLuvWGDJZ8SJOexV--ImWq_2XeHPEc8OZjyzrtznqNdmavIpLJEXl6XB1C9p8R-aAHz2cI8wRO468H2Xbq67yALPB9e9l4YO9FNi_hTNk4dAPw4eiMWU8p42mG2gRb4k0YKT5p8ZMBst4Kog6G6X7xUg7WuUOCSfIfKIoMDkwYPm66jP3Ti228P0W6BKMlnNZwjGo2bFulPHg50vs2Fu5xbVNxY4jqf6C1zsC95omTD86EgKqjmwmPZBic5O7hSDTrgENqEM_KBKDOBhLDmxKDaxkswpZKhb6ZKUCrmwgPrBS8fenh3BrttGQMmW6E1mJJfYCUZHXIxI89aUgEmlG9VIl2ADLgSfNmfqTg52PRDJQ2tIQnk6AIXKAjW2plB1jVgv19JAVAbUPsgy9baroOpbNdYsMLEzP7Ztemrwgi3mWfyW4dhLqiuVYu2JoHACloV1uUaLqM5T0LrWNO8nRAWjpXWtmWfsN5VYx7riitq9EH01mb6nRZJnPdECdLNm0Hb4XJm1ddMFWQPtHSjwoswPdSTxeDRZBVvptMyEhK37hTkXDGtxUxJerrPYX7C0NwXSBt7xrBhDNt8ix9hFqL_pAFzM1p2eiIAK97lnyBU5O56AL2F1ocu0kcX6h25Hl1z1LU_oQrDnBhb0Oi_PyedPmquLReJ4du62q_IMAC3xzz5gUb-6ZLuOPYGSVl5T5xhqXXikNzgPuy-zLV5XLPPtdcLsG-_epDILxoluF8NaalGwb4iZKlkyxHQbwt7RQpeppN9hCR0Rcfz850Q1R5QONDEJsdbEPiiF5ZQy19xWKzw0MlzhpO5tQjbwANudEiXP8iZYTm_KkA0DeVUXsgmDjxyRRzmgbLSqItS-vPtRhBWvh3yIhWqBOj7Blkd3TSYmgF1fwvqUbApzuatyF9MczV4Uq1lRW3bDCzeAftXRVLdm9YvPNrHyxmYVVMtm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpMdJfAbOHUZBu0C20TA-824dST88rwaSPsif_FTTqhIaBxGQrQHfLHlRvxldxhbUV2RaBDLCwMme266PJcGszBWYwLCiHqon8GWUSHcSC_yfKaacWquY4WMV-hr-hzCZv3JL4y7R18hFWBE0AvYMIu2BHCNFYTHCk2AEv91BZOYXNYZqSNC6EShKIF2bZRlucODXBcGtB0XY6O51Iz5hCPv-BOCWfVzBcSRHGAVWJU1UPM68k4J7Md2u7qkuOEcW1NGSshvZinhtcLqBURr16NKQrEAMtw1Dara1DOrco3t739mchVjc43RCeE6mqBTyqwuHJ9clCVJUjGiiXGCS3mYcJST-F698jOCaUAhF5QQFwriUnQbMawl4VtgaHc6oLMCZs6qY-1MJBE9g1MHvPzduMaLCOZfLhZItMnKkc-J2TAuwNoohtB4GFUh1NAkoFY2ao0USj7UnXEFZ5lY9H5cMv_FmYEoog82ki2x07h5G5kGE7-G3EIqhzdCvjb--WPwCEE0esR0OVpAHuIHNVm54K3nD0MU-ZuMlSKR7NSViURM-OLgUI_kXOVTTDp2vxHYiQ_QwJiqBwlMctPYX7C4Kw1SAtt_qBh5Mtuiu9xFsL_pBFDQ3pIaiIgG87Vr-BE1P5M2K2l5mc8B7cUAg1LTi1DDNUFsRrDv8h5CQiFH_edHoqe9RhZCbuMEql2GH61z-GoRIKdoqwd13iQ3ZzuhelLUaCDdo_bHFdltgBukBhBCyyoio3t_6vYGl-Tz1PA-abw5K8jcQbrtdQ3MlsmxRsL6UQvFPZO3SLFf0m3MBHLfXqwLTIcdE1Xi_jWQSv5xGWrxmSkV5lh1hlnIz59zZpPLaGapW-fVa0RWVUXsgmDjxyRRzmccdNtUuIGsZQzKfDPXhMNRJR7QTHgSMD6tFfAv1JPjkTBhIipV9zt2orjjNH7j0B-u0vNGFgEfTuMtrfu1OUMNzaJDyuhtrDm00)
 
 
 ```plantuml
@@ -9146,7 +9073,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x05041231ac920ed98c998048fcc7641e4905219512c959880530173c314320b4
+title Txn Hash: 0xf7c97a2eca72fe350a09506e6c5084a6d0418feb94d9803c4df54d59afc6c472
 
 
 actor EOA as "EOA"
@@ -9159,21 +9086,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9196,20 +9123,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x5e7dd762d482047a1567fe2630a51c530214547e95cc312251b11e65270528c7
+##### d2, tx: 0xda9813769733bf234d04cad2ed304b10ee4240458126660ab3062436dcded355
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzj037w_ly9YBw2DxPBc5nMhQ4CpU40WXhGN97Ivk6r4UgakbwsbyB_FJTEEbb8OY2YAB_RvysV7PuMney88RSfXnfWeJQxAOOoQ5RUf6WajXf1X7rNI4VAsh_DI9M6UvHe-HTse6tOPEopC9CCMW-eQe4XGmxH-1JZ9TNgNAoEoTfRsrH2L8SIUMMw8o3Y779LwbE6AuMTwXs0vIzs5I99KzS7YjUgXaeVVQXAiZd-gYhG_C0N44xZIPQz7kCoa9aEu6Yiu4SMW2NpiefyalcSdJc1pnnUMw_azjBq65wubtGQtBSTrV3nmfMnOjkrQiMMXvze-T-r0-enA9WrHxvwtGHImGtA7KTbCAjEHe5H3IW8Bqz5KFZINs4yBeoTdkRozuLRbidN7AjYvxWj55T6NUOOB_tNbgijCMIosBbusKhn2CLn4N-EsPjfXh4eKzbilqOVFdvkGZr3L1c7INEtkiPVSPiXF4gl0qcAftxrMr-omRiGljMpTVmSp6I6GL69OoTyYAsanstuFr44QYm9e9INriw4L7tkEqxOZMyP1w4jRnB7i2Z_ok9rqGoz8U1oxOT0GdJdA7ao1V-NmurVtb5fm0zLP0ijoLyG7edWROIfCAMSiDU6Hc4ACGgDkmfaOmVG17ZuojNz9RFuc-_jDk4HJQWLlIo_EyunuqarvrjgzvqhwKjjy49bNTEipHwNwz3TRJi0JXrUc-IfIyrCwsytcKvnTF3hu2HgHPiMZAXtpOyxvh4eqh6a0q68MXIAOPRtQYoPR-hNkg_b7px51hKIMJU3yZy84sczgmyV0s-VdDdiLr6a467QE8oVq3cJI22It_82tNGnSBpZs3noE4KyYUpNeapcxfde7z78UryjtG3qpjpSQ_ZSCjKhTCEo8dlHpy1S0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJ-904Fw-lsBYVT5utctRfGNY4Iilfn-CnZEvBoPcsrsWiMp9xjO3qVz-qr8uGKHF8o7CTbwUUMOwEu6G8sEvjlae9OJdDbFvA9AQcDj4ZRdc8qZbG2fnpEFRWSvo9TfPccduqklskkqk8OV6JbFP8b1-Xf8BgM5MFGASP3gvpvJbQPWc0pMIoY9YtouTUcYSGuvpFKxbYk5NSY_1OKlT1HSYKGDmQALwBENXzue4gVAVAfCCXjP0D8KhdVVxY4jiObC9LnC59zmCcq0dWZVgZXVuZS3pehxhCK5Pp8KhXKTPv50fcSiegzKTr_TzoYEF-YxpV14BTAdL2BOijaYzUnu2Dx23SeTWssmI9sEEfRQn26diiSRsINif1ucnUdgMnRStr2b3jdgiWfth0LVO4NsPfN8HlwvS3IcKPk6wUDX8yKhoqIBx6hSrqmuXPQ5mq7gDFkplDo4RIrKPk4qojRj7NWiha9yLLe8bPgdVlLRNvB0QnA-LR3ty03iTIq2f-AYKTppDyL2uFm1Ea9R609xY6EVPuebEEWtMZToUm_mefBs-4_J2K30PD1pUOTrEmus4vzM3sXnb3sP0lr7u-RjxYYEuWMfHmBBT9V4XD-yZZ8t9uuAbHZmKCuWarr8tuOoFOVO8ZvzPshyYDh-JWuCcN4gRQmNlAo_AiXHvuXVhhBHxBxNqjR7v939lcDONhahvwc-st81d0MyiyqsavhUqy2RpBKukdbny8IrFKlEaIntQePGMNS9bZGi03qKMp62N_GeNGxQCQpsK-mz_9rPgnTDq2kT_b1GGlciCdm9ltv_Rx6NITizhI4OTf-Dxb3eyzFsWpkgTHgtjYdeGCHewb0LqDUcpFRkc-W3qSXzNnmz0lR2tDnh-DmsEIZKmv0X_yS_1Nm00)
 
 
 ```plantuml
@@ -9231,7 +9158,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5e7dd762d482047a1567fe2630a51c530214547e95cc312251b11e65270528c7
+title Txn Hash: 0xda9813769733bf234d04cad2ed304b10ee4240458126660ab3062436dcded355
 
 
 actor EOA as "EOA"
@@ -9243,12 +9170,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9265,19 +9192,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x1e363c895f350e10783c4c24eb0ffbacad0e5b73ffb5f701877b3a3d1bccc7c8
+##### d3, tx: 0x476206a8e7c5a4bcddd7c3a1d26a6c1e4f1fda96595ae2aa69b32dadaea8cab1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSvgq2HMhQDDay81036alICXnt3OYTIhRsLeA_tsNDCqeq590L5NEFjlVVT_bV0eXnzemPV9nIWZBJIRpSIGKqRU9d335nf2AeP1nZ_7ReSfo6VjPcYdu4WPXu0U476apIqM7GFaR2HOB1VDg2d2IgUGkauQbtJGPoh6G1X47fjuGuk82SfAhIIfM5dubTm8if_PTi3XEv10iMhaUIdlqlI91glYdKYV3aT4GpU1AvOC1uXAJc5J0rLJ22TEZDj2f9UoMpRt3vi1kKc5HrxEvmnkEYEXW437EOYgQaMlZf3bmgUMvRcGpExOYphdBFO8fumQf1-TTO1fsqEuGJ9j9U39XADL74KARdiBq2NCfXeasQdQMyTiRQfL7DkvO1JjNGoOn8-eoIyNo_5Fdwf72gPTRbvDjA6wcLuAGKYuST5uJ0VlxRSWcGWP_M9epasHoTu-yTgZ0VIQkX4fqxT-zbjVag2h6hvNjtFy0Cvi8G2lPkBH5P1mKs-y1gqW9hG57d6DD6npHQSjnkesmmIFFTtc3HH4Fc1ksQ2CE_9ONqoXg-fxDUWkKFPW3_KRXv-_W5Clm1Qg5W3hb9V4Hq-yZZ8d9US5I8HwQEKI2AQ7QSCOcC7-0Xy-Kzb_4o-_auA0DbyBaIiBxv4LPbY9F_AFEohktBgMlbSqdaTcYMjVVbVBjtsnx1TuYTIjYYtjQx2QBRauk7ZM0M1YMfFfHflgqJoajCeLD6xi03eee6C7KEUik2wq-rxal-o0-fqOeoT9q1kT_fOYX-wvIV0oykOzkMY-3EhOd_5u_TFpM8OzjZrFBzMYtARnco-kxXmuL8Ot3nchGP_tsYUi3q7LVheOVW5hVlzUjlJKO5anLDkGOd_Yfy0y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSzeqQIfM4Tfqy81036alIEWIksr4wbIEixKK_likQTfHeAM0YAASSxQ_-xxB-HJ6ZZA3skIZX37CJQhoKIWrosvZDKQD8qZaG2fnZD7jGAUv4fqqIJLywGMze1CmTfYPQIBR3CfhA5583RFg5U0arV5TgWmcVX8Fr4WgGuXzirpGeyavv3ZNuqIkJFoAxoHOzj9tWKB4QW0MhrmFfJtyNf5WLVnJbSM3eSaWdCALpljzmcKcDec4guc24yo6BU0JstLgtC6cTAC6sc4aX72ZEbgYvg0JMTBkMts1djFm6YXhY8uNrci21KfiHXXQZ58M6Q8UdFk06UoGtM6KDXD7yHX9QeT4oCmSQqgVD9To46T6Jy_IwFQ6M-MMZIjMmSxr01LbH5-cYLpiV-fStL8uiyNInSis53VJAq5OAHSEsg-9WFtz5gHZgO8_cEHeubJjxh7NDXMupyILK76szEzUgsjsM1NZrygsxt-0cOuba5KuAcqHcGR5ydkWAj8oou16KKGrRMZ49rtF3i9QpxATqEUzlkNsV5_OqlKixDf1rwk5ebvlkeqvoXxCW7_ZyFDtS4fb-0BLGi0ovINn8MRl8qo9oQE2fIOyCZC89MgfMt26OvWzmCDdIlilukLlSd3GWajfSgtWVVB2D4s89zsai_BkhKlfQsNpIMIsgDRrPwNy-ZVR7e6tIDsAsFoS5glPl9kpYqSDG4Y3SP8zobINTpddHQQeQLCNe44HXIAOPSxyHQ4jzxNlopv8pucHMc6IJE7yhv82_7ULucFWpNrqqtmPjDEhUzBcbjLrwfnRw3kEsxIRNQ_HgOcc6zhSjxZjyjMWp_hj4zS7e9TzkHf-06fz_rutzzPWL31LsR0ZUjAlmZy0)
 
 
 ```plantuml
@@ -9299,7 +9226,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x1e363c895f350e10783c4c24eb0ffbacad0e5b73ffb5f701877b3a3d1bccc7c8
+title Txn Hash: 0x476206a8e7c5a4bcddd7c3a1d26a6c1e4f1fda96595ae2aa69b32dadaea8cab1
 
 
 actor EOA as "EOA"
@@ -9311,12 +9238,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9333,19 +9260,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0x5e69440bfeae0678b89047039e2138920e516c310a346fd4ea892e2ac735a249
+##### d4, tx: 0x86b6962e776a9e41fe012999c6388098433072a013c4129a957ddd81645f7776
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjRzCm4FxkNs6DBo0Ok7dlD2QwjE55ceO64b-GaEDSqsYfKpaEh7lvxrooj4kojHqh4wDgO_jitztpv7pr4V8krrpfOfeImWkToM8QWYBvQI9dNF4fJI466HroSHghh92HdwMPei-2KJ3oHuJivtgUmW6XrMS2F095B-eXfHyobPndKlDqa2Qnd8BKg76ibmi2dBnMEIlKB8NMn9Va76ZFMie-yoXAP4nxh1PTLUt-cze9Kjl_AFCadkYSXdFwLHNZCUebEj4fqAzdadxW-MIFiZCRdBvbiN0C79ZZUg7NPvRBp3uOFTFh6mpidYFC7kEcvOmZ2pWAmU32DMrkM7s2b0cDhe-E1vJdT0VR7OAqwKGaCuvGVGG1kJvKI1_e4uYJNAlvKIPEVx1UjMNjYhQoOnLpYOoeaoo5nVwkiBsb5EQBfOl1VLnSxzug9QM58ovv3AgZe3tJtlofY69eOceAsak_y36gqPF5oiPuXv2AVxfxi8bL-lBb7iLGgkmy_ow_a_qwdb_LxS7bMwhdCw3OIZwjsfyyBR1JBhyiTol8Suez8V1OQEonCpTajjrplG2R8GZRC4qc39ERZWVHm1I6PxXzVt1uhUK5lQ3iDQFlluq-OYHlShh4TUjjLr2IV2d_csWSoneOWI52ptU5mSDGZBWRECo8HhxZHImCRTyp-Geqjrqj0InZi79ymlE7EOp45ABqKg4-R2ve25o1sgD7V4OlhkZLOqAx0N7tEzdTtQCde0ibwSFWXLcMef_uHPorzCKgIZU5pICvSuzeNPqyghV_utyvWbr0dMJsnC5qlIs1j3BiK_M_xUJjx84s_qtss0vMEtiyaOJuE93-OkuPypI_IJvjWvr0GQDt1S-gur0jNtDMcdUCxUAkI2gsUSbuHnRYhtStkItx6u1iHNRjIiEJjRoiovLDJZSaqtN_M_Vwbxc-z9MhoNMjGZutRemHQ9waUOED8Hionaesi2J1IoHsIYjeGIzv6ImEoNBVmMLroyVdcGObUPhEwV4l2H4TFEXUqLIylafODryPjKmF_CDXOFbENqIc9nWUP3QmmRCTR-ZsBGO1YmAZRVHMDT4HRQ5wMNNKtIrKhQvELirjRwnJnTmbty98gzff3BTGsQoARaP_gX1FJdr-o3jy5jFqDm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRcvs4l226IDjqC0c106bVa92Jk6b4wbIEixMy_FTTGbgIq1P6GMDL6zjd--vvBkUh3w7zJ36fyb624CjLAlAHpoNAhc8nPfADSC8ZBi8E2wuYcUOYxAP9Al67ljVtkXv2kvcQ9dmFuV8pv2pa4jzKGumFKXbVfqAnn4tYI8ouKA1neEOB-Z1vhtASot726nDdyJN7r9ZBJbWOnYB2b5IYkxBT_Lg1G9NzGv75qL1bs9_YSvaF1g0NgLWb79zF13vWsN07aubj-gPZQjooJEPmWmuuePhZE86fspPnR4FNYQKnGlN0W0dcR5jX6DhKDBO75cn2uB900NJlsCKimnlGRY1mcug3UCo0QXT8y4nr9BYFgrCUnPcIqwCqkBeajDooSaLJsR6Cc02FoDCquRFzRM5pIo7CPajdW-T0N0rlcPB2mX4JBEAofQ0vqzpy8myZNkTK5pINdh41g573sShQU0EXqlzuQ-yfh-9FdtOmX59fv-E5k42xLJn_hjgzsszOJSSSGolOg6n_iII7Jh7yjjWjUPPXw0K170i5FJ8XfcTqj8vbT4EpeziUwL9TjsnTivqEeJrgTHmIQBPthsKJts3oXU3lFxr3YEIdG1Uy7htjaagSpUMloQRd69wlzQbX-Yxf3wZLTztGu9P3MS_mUexcXxfkMzkBsJo6MX2Ons09VCYobm46n-H1WLA2FcXkiC-Pv7877x4nlhd3Tsz9xO74udUojRM3JxdAfS0le-UdQG8uuGiyA-dcCfS-5JPl1EOPqReyUPHl__9_EO9jGgrazix9jD4MH1ePzhtYRu9yd3t0vh_97klHQcQFTv8GtuRIA-QU0KkoX-JJDDWA532wA7YM7OTo-OgpKhzZh1TtULnwcnKURyby-D75pctOVuB8MiwkeDIGhFJBgbnP-1JTLmxef7P_2xbYSPBLiFL8Zn1IO8C20Qvqq2aKWr8rH-dEGdQ-R--sl7F3SwAu52n9flZuj-0XTb_qBrzNlFhElcg-DDhjwr1B44fxfau8PQvfMhPXzvpjhXRQbcyGbnB38asZZ-xsBT4QgkSrGDLTGzNoMc7PtFh6MZN58laQHXgrHssuXifwZV8m-bk5S7AgyuFsuGdr-Hy0)
 
 
 ```plantuml
@@ -9367,7 +9294,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5e69440bfeae0678b89047039e2138920e516c310a346fd4ea892e2ac735a249
+title Txn Hash: 0x86b6962e776a9e41fe012999c6388098433072a013c4129a957ddd81645f7776
 
 
 actor EOA as "EOA"
@@ -9381,16 +9308,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9402,25 +9329,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9438,28 +9365,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x740a2976f2b1359f0d2163ca2789f3d75f7e63d98bf1075b93f61610012c3d2f
+##### d5, tx: 0x85cb279af3a847193a013e8d840a3b958327bcfe09178de3529df04bcd17cdb7
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJwD047xVNp7nNZIUTmkqG1kliQLm-c0qdiczc9W5bfP8bsPtkMjj_UytKDgpQclLI0YppEv-ytt3x0H2JfHcKXUZZ11Mw5mKev1BekvICMQIZI3Z0oxY7elk1Z8lHEpbMIxXI-07lkSJSgpqDECT0jKrv2pc4cRrAy1fBjFxN6YMTRDq84PSQ4HCz6f1W9CBo74XnnbVc_YLtdCm6YlV9OlZL0p0eBNheRB7tsiIf8v_9bGw66e5uHIkPP4aY4jqgZCErnC1fqmDsq0dJeCoi-NOYHaQLhELqDWqR2jYfkEs4Yjsced3RIjkkM5YKASPjgp4Dco3KiEChDXC2AOiqaZTl-W2Kx27TezWsdGQfME6KZqKmPNkIKmVrrTya2ejf-TvT7TBZMhBrXNhO1Tom0HcH5xb6L_kV-fStr8wrNBfycKNYjlfLI2aaWj7dTT4mE5X6w8iLzp_mxA2wJGN-mVajLqby3Dr5LQgLlxz6t53Zkjg_5hRplm7wEcO0rh1HfKj8-EWN3u7B2F9bG8SHH4MjSOHdTYDHjSCp2XqFISoMHX6FdC2cvgnxzbkJCEmwRaMworG3c06z1k5dx_zCwp35wYM0bOvhuWFcNeVOKnC4PKi9UAXcK78cUIo3UTi3BC7UFXCQVz5lFnDZexQSCLr8GMyJrwOvndon1jrrjw3JIbzhMm-YSmErRhvi5HV_tRdC_0MhJinMvpKSZLPz7Do-QW5n5opD5EFKjMdVKffcIfiszW7S516mGXwbRJkij9M-phpgXFYSwAv52pBfd3nL_0Okk-gnSV0splfjlagQCDokTVh1mtFRaMnvKRKS5pQRNAtQRjzfzMWFA1nOAu7VTPndxW-0BtgpFNm0r2RE_YckRS6muAfouQSu1D_5lu1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSvgqIIfM4Tfay81036alICY9tJOYTIhRsLeA_tsNDEqeq590H57EETlVVT_bV0eXHzemPOfHHWWhJ2wBKImKqRUf73F5Hf29WP3yc2Mt0vKNadVpB5Vm9GgZi1iISgZDD1CT0jKr58mB1RFw5U0aL-bTBWtBWYmTo96G1X7xPhaWmiavvBXGuqoiJFnAxmHOpj9tmJXFvG0iMhiUAdlulIP1wlYdKgU3eT4GJ-5A5Vq-uXAJcap0rKJ22TF3Dj29rqpYXkkpliqynxLycr7B5Xxt7Chis6zwTiEDaxwWlkLwNDZDXi_xr8aJRha9Zrs2AKiCKW_F0s0QTj3k44oRIPDqp51g5qK8ROuLfa-OIp58jL7JipovlQ5MjMNZYbMmSpLW4ZEYBlDCBFO_TQvkAPrwiNJniWt5pVGg45B9XOFEQo9WVxyDIPPh4VvXMS5CcilTFVBQhXBucReAAzLB_-wrl2Q7TJL-hMtd_WUOwLW0Mib6bIqZuw1SVWzOHafe3JXA4YngWoCwwVbE63SYosd50OtwbXi50NU4wrkivuGzln5ps_RSvXnb3sP0lr7u-JiynJfyWMefO9dpYlYGwVSHniGKISbI8HwQ6SI2AQ7QSCR6C7k0Xy-Kzb_4oz_auA0Dby8KIiBxvCLvdY5Fl55dxTrRbzBNokQJo6nHhUiFI_NrRxO-0s_HkXMp-KajLvDvFoSNZre05uQbcNwKgXxjKKhBL67RnZw0Wp8AHZ3Bf0MBIblkwznNdH2V4oEKP5asXVE_Kd08tbMBZu4tTz9DyrNGRcJxmg6MrMlPb5eiQBLSp_5wVhFRu9uREpImgEFIrQ3FEkuJrmUWbvsv7du0Qdq7NpVtrc1OC7NPa2Dyui_2Fm00)
 
 
 ```plantuml
@@ -9481,7 +9406,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x740a2976f2b1359f0d2163ca2789f3d75f7e63d98bf1075b93f61610012c3d2f
+title Txn Hash: 0x85cb279af3a847193a013e8d840a3b958327bcfe09178de3529df04bcd17cdb7
 
 
 actor EOA as "EOA"
@@ -9493,12 +9418,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9515,19 +9440,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0xccec0bc9f4ad109f254d133b2870f5b04d1ad243b1ae212a1b1d23a460dcad1c
+##### d6, tx: 0x0d6b30291df642085eb806514f244c26bc2ae801f25c2faf604859483587f970
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLN9Rjim4BtpAmRffKMRbbgi9KYDo9RLv90cI0Bq4g2WICeM8bC2HRLsulvxnuhioa6HhHKW3TStZs-68qAEQiEqQUO58QmnfMhcgTIalibLnJIRGo6dKeaHupTJNJPAZCkYrF0ccIIJyOIGmzei2paaq3upoOJKSDTr0OvBdT-Moh0YAlAfcajb434psmK9Jjv3Lesk2hapSPdVIh3SxTWv4o9NKx1eD_IhjOUVEXAayt-YwdmwCpMaIxZIJPOXBZ6vAIHSBHGSitfs07J1kUGqvM7cCc7HCBC7hh0S9xK3dsQ3b6AF2TjrKej9sxAPbLh2TfZhKS5n1oSe6JT8VN8M0QjX3-qUGTbCplEAuL77U0XPcv56-QIvaDEyDdfvMlARxzHgjpowOXViacNob9dPPckllqT8wnpsXqz1mllt1w3RGQcl99k_lLRNvB0Bw8VE3bUVmImh2MWLcxVs1oiQRAoNhr1Pz04hC8ZmjLs0WdhIippX3UWhdmquXbdBUWCVRNjqCKh3H7X-6FD9QBi3AvfuCh9v5CMsx_c1nsFF2Vs0FQHPwR8gQrR4pB0MoAU-xMK-nTT1qlnrLD_17T2F5BvycvnWCZub_Jew_QYriS33lYu4JOv9WMAjp_DWBCNN-Zl57V_FI9Vz_GEuaARH2lw9Pe_HitIwJ-V_vtmJCKBkAnevxrqj8GtBYxg77zCOexp6nyA5jmqRQz98s6mzRHDpks-uQci1VXTuknGhYYMS_LHIGCGvLa_pmYJk0pzUInwRRvswJY37epXnnrx8XHDmQla1ZGOo67X1x8SkbGaLYRthj5zp_lHU2eXoTwAJ8_pYp-Ot)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRRfj047tVhnYbBwtQjBjSboYrGi1kyf0cIYBr9LArm6AZu0KjIsidxhztZB5hHrLkBHBCNi-SFJCx47BK6A5DEoq94QsfL3jDf2RDRQ5geSKKIZcMAZiMwUrOLwtAeggiDBmP3KV3Q4Z8OMFcfHmGw9w959dKSDzt0KugNTnLoeWoB8kncafb434tcmKZd5n1rgskIxapSLNSIM3EPkn2P5cXni1eF_IhiuUVUXAazt-gcc8yCGqaSxZMRPuZBZ65AILSpnISY6Po07H6Co-ngHMmBFSSYt9N9fnwBdDoot5IoqjIIqXEMMwvgPMBtACETmE7soxtyy2d12LB3L8VdeSW6jX3kqTGDbEaHItmg14UGZRcMADyqbpAST4OFJ-hqjllb7LR7bsn2tObSdacp6IzTQk_HqZd7FO7Jq72-_S7eBj1gQ-bcBwzKJVai0_eXzuE5f_1p6i9Q9MOTlQ7A5jiB9SlK5dq0GimYF2rMu22Uj9ZNkQvz9NF6Xp3h6MpXWytFJhp0zkAcCtvA7U7RXXHBu_Yq1anEM8nvvB7pE412lI0Pgshkcf46GiZLa3KjxpSn_s-ZQJJrr5z1_T0FrBuycruYidubFJBw6n7hOi57lPr8MWBJ0eKQtcU1sC9lkpl57VyFoDTzlSFu5AQLYlu9vfRZ9wbqogT_v_pTSG8MLKqSh5rjJ9fH54sM_WnZJ7AItmiN7ZRiB4aZOJDnjCcCJVx1ekk5k1tXhTBYRASm_bF9JC8qnIhftbX4cy3FrvB7flld4OZEv0EPIpsR4gP23tFvmwF0pUoCkud3WqPTNowwtIxvlpflHGGvUv59qVunP_DRm00)
 
 
 ```plantuml
@@ -9549,7 +9474,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xccec0bc9f4ad109f254d133b2870f5b04d1ad243b1ae212a1b1d23a460dcad1c
+title Txn Hash: 0x0d6b30291df642085eb806514f244c26bc2ae801f25c2faf604859483587f970
 
 
 actor EOA as "EOA"
@@ -9559,7 +9484,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -9579,17 +9504,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0xae81203bad11bbf459d2d89a9918e7720ab40273ba7624a5a4430cf2d53f6f1a
+##### d7, tx: 0x6f67009f11edabafc1b5219d6fce304c691b5595b5394b07752fc0f0b7e38d16
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJ-9047xVlsBYlMZklDkMGWlnY53ewOFHU2RtOcAcxGADPKjsjtSW-h_Vj1HE4D7JI0YpdH_VV3ETdS3OiJQeJ3vE6SFSP38VXq8nVPl82IeSGog6GiPTZ6w7Aijbx6Tffk1Jq0_wVf-n8srcgMWpA3yZWR5GCAyU0KuobTnbqc3QIPEX70jf275WLWu16HUGarnDKh5c-9dS2R2SbUu2upYHGx1ufNeevT6tYWIhyfzAdGn7HaCuWokL3mQ4oqnYKW5NKmadg4Sju5CKdcNpMeYnPONXmAatOplscjXiMfvmNPjZw73R9GUtOJjOHyUfyMXWn_NQe36ma57B8aFK--STG0rx9FSOjSqaKJ91AjMd8eGsNKNj4-PI31DjrEmiYsvlk5M6xFHO1pjNGvJK4NMPfM8PlwbS3ocKUkcwVDXAyKhWU9bzWzk6QO-nib0uRBz47pv_Ra6KPbfK5ZH99lSFs4jn1VIJoagqHA_q-zVocXrLa_Ybaktxxs1c4m4a9OvB-HlJd0w5-ptG22cXDT0fYcYW3PtujE4u7Jkmez3ptSZ6C8pww0ODRiTzl-75F0phlbV3xWBb0ER0ltBuyQj_IZEuXMfHmAhV9V4HwhSHfiRaKS5I4Hw9EOG2bL0jECC9p1_WuIDB-rV4zdToUDY2Is5o9U5jvOLPbX9F-bATbVRWkPQ-D3OVHEOLq_hCNIbV_SskA_0aufLrlehLufuMtconnzd5ewiV2uD9gX-rgSTxdFEYJRIkQGNGeSX26SogOPtbbAtYslVb1gJVgH5AOfhEuFoF535qtZI7Zu5tRz1TzZAfK_E4t-q5ZjzeHd7DYxZbUhnJ5rwzuVNSfiD5mEF0Na_wPDDkgDu1lTh8rV4TKCzixgs6_qr3er8D33kcN_fxy1S0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36PhTfqbIi8lJ7u0616D9Ua92JE6s4wrIsmreA__ikQThHKWe34KKvvyxttNUNyoc471dBjSr7aX2Usqpber1eOcvJDUQQZq2AWL3nCOzk1phBLTp9PARXIx_NxtLwX1mQEvMYJQ2yXeB7GiEiUWKuoNHwdodBPI3JWHe9PH4niSiDVJJE8SUv7aknOlYLtWjWpb9tmUCuLGDWj58zblBmUqM2LF5FbKa7GsiWdCALpfC4SObDhHHmDL5mmism1NJY9gv7gPym9c8UyYHYOQF6_DXD8b6dJkJwg6ZuZR1HzvsGUbwZbaGqeQ4dwisOkGHB5bcatZiFW1lOGRb3i6msZT8nnrGxc8GmzbXZ-OIz58FKM3qzowBR6yfAbwqxLi7EzO0hh8Y-pAHO-AyhLrqAfLbiNRnif7Wb-6WHVOtRccc7a39HE6Y_HX_szriGoSo8oi9jcgdTFVAQNm7zBBCIBJLB_UwrkYQ7LIT-hMJxuGVOwLW0IiL7fRpZCiT5iVq1i8MqC0Pm5KNOq1PNTDBrdLvOwpF73GFQJvZN3uBO4PxFUDVfTVrQ6DVhJQynHzc36T1l57x-xfrY3swWMYImh7T9VCZD-mXZOVAeOAaH3yKCGi6rq2quusEOFSBZPwRsBudDt-JWe0MNmkPQmVlI2xDC8a-yCSzAk_TIILzhcqyYyuPkVU6ib9_-PjiHUERnnZpVn6f-JelTP3x7oSMJenyBorDfdfIfIxkKqg9CEAvn1E2YY88HxB9WmQBBbdxjXt82udDYXLPSoYcS_r4YXk1TVVWKUFi4tMOlWtRwTLyubB6kMwUKyS1rlQRJxFgDJYrkUg530qOTZwu6VJPfrrGVW5vEv6hv0QWN9lT6m_-6mLQf6eOSuHD_3_u2)
 
 
 ```plantuml
@@ -9611,7 +9536,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xae81203bad11bbf459d2d89a9918e7720ab40273ba7624a5a4430cf2d53f6f1a
+title Txn Hash: 0x6f67009f11edabafc1b5219d6fce304c691b5595b5394b07752fc0f0b7e38d16
 
 
 actor EOA as "EOA"
@@ -9623,12 +9548,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9645,19 +9570,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d8, tx: 0x8009a35cf521f70ce4f14e2411f090d208698ae4d46235ce2d62143939bb87d1
+##### d8, tx: 0x97e8bbfb7e1fed25c2e89b7e2380d8898074a08ba965bb622fd6ceeab70d6979
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJ-9047xVNp7nNZIUTzjIIY4U4Kfx-c0qdiczc9XjTu76iYMxspiG_EytBOKJ5KIDX7IsixFVVDzqEYaX9zemPV9HIWZBJIRpKIGKqNU973F5Hf2AWP2yo-AxWSfooVqipHHy2OCmy0D2ZhMPfg9DeFmD1UD2mQow1JZDL7AVISFIJfeCv4X8WuXzime8SNC1ESxLE1Lh6x-IUm6Mi_9TCiuJEG2BLgw7qXv_hqYGAl-PrCbWQ3H4KxXMUR-FkCGa9XLmFP5molIm1NJYKTfajNhShzjMlq5ZuVGjHzYEPVLfatARUcxJOyBXZcjZcB2vQrjEhLbhHf7Nu1R1aiK6gGSN7M0Qzj3k4IoRIU9ap52gZoA4Dbs5vHFcIWmIRTJqF8llRgbL7jaQiGvseGPCOaNKLPQAvVcdplKZXLClGvStkr3SJgy48QLSE6g_9W8E3rkGZOKC_h0qPoR9vFu1UUrGWVjCN0cLw9L__qRUaEEg6RzMjZt_0MOw5e1Mib5fYyouACBdW5saXDQ0gpZ6dZQueXFNSJfsQCUHvpTYcqLH7B16w5AR1xxhSHf5TT-hiUu2vG1cGBzH-FaxECCsV85g8M1LyfBuaEdt4SR2v771KY4UcXb4WYcXMd3EnZ1xW8VFbFPVnClFvEYe1LV2v4h2--H5MPOYJ_oZpifxiAcahxND9v7PeLitlolbqx_TzHLuYzITY2tUqoAQBAOvkNmq0BWmB4dreqhrQ8zIMbGAXpPE0LmKMJ23MTMiisoqrRdsl9o3U9qOeIHBqobS_9M2G-TThVWOUFiStRPV9dLgdl2xlT3ntMRCQrvChOP7EtNXrLslrsWwL8IKX_PwqcVpzedh0z2hkLmjFm2rUNvlsdjhCcoOgct82LxnK-4V)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vgHfVbIi8hJfu0616D9Ua92JNDk8rAaSPsif_E-xf6b7WPO2egfozjd-xlikvrCOEygrKBeOfOo9GcUo68MeM7wRoB5GOWGf3b36noAw7QYia74dIpC5Ntf1B-W4Z1tcUffYcq7r6wA8KS6idWASP2gvowGMgPyc0pb2gGcnhvSRUhGuXnmNQfpYoiAlv0x1i9Q-2n77YHo0mMlNGsKFlzSaM1t_LER9OAXp2ATmfOf-dt2PJdIAS3MHS2BoOGlun7FG3SD-wA3HnzXiHYQw7itCXijZr_LSxbY2kw7mx6OOsgRPZ-q8KOGEZstFyHYbBD94FJZtGUImGtQ7KTfq4YLZGL8x909pVQmeVQWlSP3aMatFikZsXXlLaOqxLi7ErK18oeYwp59Sd7_gN3rIElF5riLa6ugRwLKWh98B1-tNHC3-VWkoCShWZqWBePDCxkwnrmwLkC_4LL19llJlNijhTbWNuzVQjkz_W9wE4SXACQfi6Pa6vVPxe2fIcET0eoYYcjOqufEkPmMXsJCiE_HvhsyuFT-FBNGyGtIjeEkPOTnek4vpZh87C-3VEFpy7PnI6Rv0jHImJ7b5V2Zozn6cn1HHoL8H7faPX2WKgXQSYJ7C7k3XCwNz5_7oEpauQC4bwa99U9-yCCjIuab_qbbxzzQbzBMo-IGoMrJh-hjIlVsRRQ_0MwHkHMn-JylTRDxDsSMZ1X2Z5acQFyfKbtSvvsMcg6bJ5w116OKYw6NE_4MXBS-rxwi-IC-9HYL5caxX_A_46FntbU9ZuCrzTDDw5RJJQtXeSSFesWtE3U7RjkDQRjThTipOTKAB-mQt7BuQz5c_VUBw0FIoBzV33q2jxz_hrjuQZ0gcBXjsH4_wLFW7)
 
 
 ```plantuml
@@ -9679,7 +9604,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8009a35cf521f70ce4f14e2411f090d208698ae4d46235ce2d62143939bb87d1
+title Txn Hash: 0x97e8bbfb7e1fed25c2e89b7e2380d8898074a08ba965bb622fd6ceeab70d6979
 
 
 actor EOA as "EOA"
@@ -9691,12 +9616,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9713,19 +9638,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d9, tx: 0x5267fcc929869346ddb1fbb90e68845ca1f6adce56bc7aaee081ceca69c9c369
+##### d9, tx: 0x7def3f127d6f28be8ada0cc23dc2d077c0af22936c7d776519823cda028c80e1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLVTRzis47_dNt78NbfqMIdBbgKW2-hueys0e4KQR0zhKPp8ior4bWoAQkCc-TztacL7RXmdjP5jyOEEl2FlVlT1yoZ4cyoYiVaa5W9pcoRv92GZieiecQB12SGqeaGVexeOcJHFT3UDKmE_3Fg3VhSln65cPp4T2IX_Oq9D1gwgAS2xr4JVqyHYt8cZKJAXnBB6eLqk6B1mhdAQcsbCAuAFqNS2fxdaVK2jesG4ZgnODoKzV5s149NzaoIBHcERGJY3SvCFXwnNsCZ61EUN2Rp3R7m0yhBLyDf3fO96u7k1s_Iq3frX60QIFDzljXGwGm-refONgZOYaVGTHGgzG0NAzGB18LEMeVVVTm0ps6Ew9pXiDbBH5DdLBZj1cJqs73woPpIACcjcfwcw-2ATSil65QlA_iZrYCxIc1PxwupLfGKpMonRJDP2EoUSBAp-WEa7qMCys-pL7IKVSKYdQCUBRRNvdX1bE67_wA4WmQjN1v3buIIo_QyOvsYZD7dnAVaa3gio_RMYHzU_WvrD2PWcE2bfiOC7nV9hG6Dm1jTWsVKJdV7eRv3mUPtuhU5IcwzmbajUmXN8toIy_Qj_miNv4F32jvKabgv4MSdRqWEj3MK5BbIApwlbaRniXxBLSjh-W4cFLAlXkb8rN7GzdtJ7LGs_qGwwdUFrNgn2B40lIwe4FCPiEx0SZ5mL20thOt858Q4XSm2dE8Mh6xXvIhTkdRYRX_tz0pWZcvi4jdCjJDEOCHR5OXRSb-j2-L29F16GHrJcFNy3LOt-YN6apyjpiXsmF2gpE3zgHJet7g4xA9vpx0fsPperwLVwpuFt_q_lNTdJvlLvbjgQkxQUolAwsYcJeq83KqV-p5tt309OxphAaF5birEayBRSbxnmG-HM0FmRiQemrI4zAbBpXeoj2p5_5eWFjMvEayKepcfmUh8dfIpWSFVF3HuF2YjimIw1THOt-tBVqNNPKFFtqf99C8vdyFvRGXewMztzTSMR6_9Dyj9eq_MfUzmRDBly1j2khoGZa9qM-ItFxxM3fgI1r8F6gj6LnhqstK7bii6lXZkekkSXi5Qmkvar3uRxP3iOgpyiRcS_gv0Bl2fpyOQ__4R-1m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLVVJzim47xtNt5YBqECpKbAabOCqHyfC0c1eDeUnZIviTj6f4dbEAobvN_V9KtR1De2hH3q8MVVdS_VVRx4LqAE8yMaYli-8InMOH3tsqAIwDOB1aooFlYYAm9UO-vjLuPnmEkX7qhur7IQJjqXv31I8ryS4KX_FS6ua33EfW2deVJkmq0nl-fxtQ0l0eKHEshkq4JZDEGWbWDV50pNthq0hJJNNJBElQ0B6irK3way_9Q18Dd-Pq7aTNigWlO8MZBkT30kKPxo1RI60Poog5S1EhIuw1WTJRUusT7jjh0PPzHrTOExEgUMvLBMqVMoOReMjoppG2lRkk6YZswxDXKQGSfSXT2TYogm27PGxX2aJNckDs2OQXsJ496gIQHFg2lHzI8bH-UXU_kNQkcIjHx5O3zYtXLNeIzcQ_EAeckYZ6PkiybIQ2t1-hDT7s5wP7f9PkkpUXBacdN4ELEzsRBSV8UGb4xOFtgE9DZRgq0Kj_kUSkwO7pFbXS7dc-2676Pb-YMJHvFle4O30IW3razbiW87YVi4c9Hi11DGcFePZt3q6oZyMMO-aLXgKmzjxh8BOw1VAPpySiwmE9y3dkHMECGq5IzATHjcmBaKKOABkIw-hmf7T4XDfrJJQrQfpisQOJkqhXc6PHkwNQvHhQ5PjJ9rTTjPdaKHOW9wNb8fu1wBDWEBPCHkWb1YF1HZQ0icXQp0EHl0-04UtZAjHH9Fps5_lm9NGiKoWCrIQuUXZnYJOf4pxUuoAbUyR5ab_6I-nrjfDMw68_PIhgO5dP2sjb2VeFYup2Jgwc0WmplnVjHy_CDRQNkZO_p0XRJaDieVLFf1t-gSkaa4b1fzpMtmxlJaRzsK4FpORiK3MvJgNDTUmqi1m1imaK788tXvcImkQuH1oBGT9fUvBeOBnJm_ok5gq0QbDC65NIysDZX8WcDWDKTOdTreytL7axIHnETG2Hamtn_1nRz0SAXkTEVb0wzlHDVPqqthJQCiIbJJ6gP1gSQgfcdP9RjHFgZhtBRQ9LhLQCcYnKqB3MjkkaN8UMER3RS8jQ81NchOVfibZV8gsnQRvHlgnUor0R70ip8dn_Z4_uR_0G00)
 
 
 ```plantuml
@@ -9747,7 +9672,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5267fcc929869346ddb1fbb90e68845ca1f6adce56bc7aaee081ceca69c9c369
+title Txn Hash: 0x7def3f127d6f28be8ada0cc23dc2d077c0af22936c7d776519823cda028c80e1
 
 
 actor EOA as "EOA"
@@ -9765,30 +9690,26 @@ participant SafeMath_01 as "SafeMath_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -9800,47 +9721,47 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 10 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 10 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 10 |\n\
 )
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| SafeMath_01 | SafeMath | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d10, tx: 0xa921c5ce702482f4969c58eb250261f4e75905de47c0967add90f5b10029cf45
+##### d10, tx: 0xdffae43bb19de9673de8937a0997d9fa7c95508f429553cd65eb92dc8c9d4ec6
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSqFI91MhQDDay81036alICXnt3OYTIhRsLeA_tsNDEqeq590L5NEETlVVT_vV0eXnzemPOfHHWWhJ2wBKImKqRUf73F5Hf29WP19b_7RWSeBcGHvbYlu4eLH68I476appKIRGFKR2fO81RFw5U0aL-bTBWtBEbawa2CX3IBspN91X9Dpo76XnfbOcVYLtWbes4lV1KkIL0wWGMlNGsMFljSaI1t_LEfqC3GQuYbSgQBVHrnYKfC9k9f8E65ws08wORxLu0uNBhLip-hRVjFdZYTYow5Miz6tXUlur4c4xNBgDrqCxjE-4pSejNpUjns2AUC6gOVd7M0QTj3k44oRINawPYWrG152cwx2z0bpAGQfDcfwblFR6zgejcnSiGfshWPCOaRKPPw9nVwdpjKjfLClbYvUjg6ucLu5GYgvSD1-JGJixxU0PxaMuH-M5SoakTpT8w_jAe6VgQkmKhtqxrxBQt9KL-FNshRlVu2PZWMWbMnKsJ8o3ihbzu0dgOJMW2FEiQWDZkYaQTiTAx9ux0KkjrWSyv2vKPDQIHWqlOJ6iHDuXwmxHzc36T1l57x-3a-n3b-WMWfOvhmYFcJwVOGnCGKlMIh4GpE3M30bL0lEs1Xc3_3mcTB-YtZvJ0uEMd0fJA4al4zUdESPyiG_wgozU-jI-bhPV1APBQfr_MMfJlzcwplm5grRCPlVr78rcVTpSl6e1IJ2i3JJZrBLeprAQPagRDlO1t1GHi48PfcqpgBIbllQzrKdnEV422LPbatX_AyK2NJULOkFWJTtqatpLL3xq1D1jnVP0VRuvD3ZjE5wjEC8psbwFTUtgOXe4bchGPzrt2Uk3q0lEtCz_03K-Ww-RkwjmR1Wwh8Xn_Z4ZuL_)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSvgqQIfM4Tfay81036alICY9dJOYTIhRsLeA_tsNDEqeq590L5NEETlVVT_vV0eXHzemPOfHHWWhJ2wBKIGKqRUf73F5Hf29WP3ycCMt0vKNalVoB5Vm9Gp2e1SGSgZDD1DT0jLlA1WN2cRrAy19hjAxN1gM-Lawa2CX3I8cPhaWnCavvBXGuqoiJFnAxmHOpj9tmJXFvG0iMhiUAdlulIP1wlYdKgU3eT4GJU5A5Kc2kCIa9XDmDP5mmlIm0tJ2auG9nuuYo-F2Qxas5stFTXdrF9Tx2NDZhzcaxSHfeBLZtcgAo6lmk1rxt15nYs3AOeFKWtCVc8OTj3i4qsRIE1qpbDf34KAROuNf4-PI359jrFGiZszlg5LjsRXY5UnS3PZ4ZAZBF1EB_K-TgrjAfruiNRniGt4plGg4L7BXeFkQ2DZVxq2SvLe4VrXMC9FcSdUFlBQh17wchi9AzTA_UosloM5TZLzhsxt_0MOw5e1Mib5boyWuA9VV0vQH4be3Zk8OYzhWY4xwdXD4ZT1oMf5FmyHoGz_7StOzY_MTeEyr8cxRRRSvHzc36T1l57x-3awn3b-WMWfOvhmYFcJwVOGnCKLSibI8XsO6aM1Ag0wSiJ7C7k3XCwNz5_7ocHmSTE1Ic499U9-yACypv8b_r5bxzzQbzBMo-IGoMrJh-ijIdVxDrdVWBLgtOZQ_gULgCk_dvE9H2-32i3JJZrBLftrAQPagRDlO1t1GHi48PfaqVr5fottT-weJudDYX98iowPm_bSA3lwxQl4nyEPEkcc-2jeBRKyurBBwBPjIY_cjbjjssdslsMlmjXivrBUeuzBLeCywxXFN1w2NdRaUVW1gVGTVD_VMO5WmTTcG8tpYny8_)
 
 
 ```plantuml
@@ -9862,7 +9783,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xa921c5ce702482f4969c58eb250261f4e75905de47c0967add90f5b10029cf45
+title Txn Hash: 0xdffae43bb19de9673de8937a0997d9fa7c95508f429553cd65eb92dc8c9d4ec6
 
 
 actor EOA as "EOA"
@@ -9874,12 +9795,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9896,19 +9817,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d11, tx: 0x2487d4be4a34046dbcd03c6f5ef465336d5ab91c5edd02a7b1e9915676b65c21
+##### d11, tx: 0xc42420b826238b70ceda6f624729d2c2cdf0d0018b522bbef0729d2d06c7146d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjJzim4FxkNt5YNq0RcvCcQLgnYZOqWmy8r27j2zBajxPHKwUodQsbyDztJTEE0eEDYQhANSxsSy-z-4B8iNNCk7AQ4y9AL-XoofKXTfBf6JDi2haQAIrxJ4n6fYYrJ8gyCF0kxQVzf4_8aNMBN7K8LB-nOb8PMDQl0AU5oMuAxLZUpREHdYhj477ejXjIN5n3paepozNEmjViHe4NR6sNJCfCZy2ZjUckaaUVQXAazd-cRJOQEmjy0LUc70uHbxZCvGgkvXfEcHstWSxz86xAWAk0DG8QH98BIHiY6ePg64HXen79aF6M9q8b9VLPatkgrVB2g1dnA1I-Hp1bmY7r_aKNc8Kzb7i4q-OoaSqOXffW4Cgwdi7qAJTGeymwipWlnEGxzQeZp-xO1Rim8wOn8sPGv6fp_g5nzyZAQ3TRDozxX5HCuR3padzu_xwDXU5vPiS3fYVx1-Ib4olGHwGgdCnkxVlN-feSrKtqePQTsy_W5ZC5A3MRLl87oqjKLjjl0QjlbBM0cX3OYmurEe-2eEkdlk1nqXG-urpqMJEDg2_xIHHBodcOn0tMMwCSm1BeHmfVllNFi7sUeBeAO9kgYlYOsTSHniIKOiNI81wA9N35Z39jE6SpMDx1tLk6zZk8fsjoUDY6WNAbqV2wy7XHvCWJ_nXdRJtuKqfVQfit8lCNtRg-2-YVaFMm8vVthf1KZcMvlKVeX9vGIbU4SARXnK9bvGKzk2srxgQUstETssfCu7FkbD4ipnTmyLCh2TrNLVm-yFDZvhdrocdGY5NIEqc396e9sOW5zPenxOOg3gFufDaAg4gfJFrTfu_6qGFJVq1lnrQj_YiKrh2k93d69txSVW40)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLHJzim47xthpYn5n1ZSzAGf1Mh24qoU42W3calI9CJksrKrwbiXxKK_lkkQTfHOB0nKLMvozdttNTtzeMGOsEPjjL44i8gMwfgaWbDpBXGKwRP1AGO2iLFM3uUwh9Il5VAKiE7D4cJNaB8aR5pARe4wjz8C2uqB9fNWDDI5xUbian6iXYgYL0M4GTsio75nHNajD9JAROMlXMt0XnlOxjad1Tg20vjJFUrFFhSa21D_3DbYk786iZcSAMhmG1nYIsi570rKt3ApAW3T9PxhkVIB7HzjnLc0Sq5P_x0Txt0RNCtTtC-e9nI9ymENJVBn83M2vpwUU1uFYTOijmYzUGY0cPW1-KEmRBP8Y-c35FjOHB2s1EDvHEsBuQ5iNf-NkRZ7zIfNLxSiGrseOTCOKLqlvHYxV_OkEsoD9hrrlNB3Y4rKpZelXOVzlSxs9XC5cRKPsgykqTUyrY2FY5LunHcOz-zLjVag3b47nlPlVi2TZuLW5AnIIrlcAnGMMw_0-o-5iO0QdcEPz6YHcTnsqioDyM6P15D1qwGHX7tHD1sMEmbSTlDUAiL1eShb3rO0Fr4uUltv0oFppDKbmbiIbKJ7p7pDi9Oc2fVijI8Xs81cM1Qw0wSioaixk7-FLFxdSJpFJauw41Vs4ehU5jwMLbAv8b_pBEnxlsffAyTctSYynUdTNKNC3uXgs57BXzS8IuiAwHvG2YcCQLqIGXd6buiL9PHC8BTK8lM_TpuTU_gCO7FcHLQCIddSF5J2GxHcph-4FZbCVFIUXsqbxRQmgEE4_ij77SiylqWzCAuVTXpUHXa7eqSwWLqE-YJSVJ8z1_Gcx7LgFyAXJriEacEyOaVjry0)
 
 
 ```plantuml
@@ -9930,7 +9851,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x2487d4be4a34046dbcd03c6f5ef465336d5ab91c5edd02a7b1e9915676b65c21
+title Txn Hash: 0xc42420b826238b70ceda6f624729d2c2cdf0d0018b522bbef0729d2d06c7146d
 
 
 actor EOA as "EOA"
@@ -9941,12 +9862,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: publishRank()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -9961,18 +9882,18 @@ participant Roles_01 as "Roles_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
 ```
 
-##### d12, tx: 0x020fdf8628e6bb7da5a0e096618d5ff83af6fa764ee6bf84741a5c3252641b28
+##### d12, tx: 0x49c4005e18f5322c4e294d7578723fea6d5a79df50717c7bc18dbd10d092636a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLTRzem57tthxXhfRMbOpKXX1GnL0Z9seUg5QksXtMQdDY1gC51ZjD2QV_xRa9WfLzedOfGhdDj7v_xuHD2ZbBDbCx6CI4iqudCnhvG9BsAv8GfDePO38NaFHPS3LMIIUuaSQ9WstCzrt49QQTw5eiEWU8t4emB1VFo5U0uKT5j8ZMBkt4qb6CXDIA6UhN0mya5v2HJarYiJNoBRWNKp9Nld74UoI7KQEcwBspxe2H1olDFP1eDHpe5VmONAWj3n2Kwqh60Ywc4OvQEMa2drA0X3stBi8Nb-qtE6emAUcXPDPitmj2kiz0AMTCo1Sw7jjaqQwmHr8s6OPartx09fYpGIDqzwm9BOGlj5i6qwIY89Wn3TJ08aUgUmlG9FH33ADLgTfe4LxzfhTZowefri3CrP18peWP9B9Rx7plNj-JETBbq-R95IC4KgfrDvyF-VWiBuyTHEXemURMxHpRjo46Va2fmedJbtxsKbwHTDj6dqdRkle2UJGIWbMnSs6iMPpZ8bzy1Lb-9D0KS1G7seiOHdLgcsJKy8_1jfnaOpFS3bpKzYnhSTIoRKzzlE5ZAtW9b3-P0FrFu-iCzmVPvXceUm2fL1V4HIzz661EJ1JbBXNXevk0BfeHgmIcRmFmUxjypjBz1F5-JQhK50w4p9U5juVb94YDF_6ESfNVlfPHkQfjt8hFXs6drvxOI_5VES74da4VxumrJ4eMc0-rW8NUufbEf3Dplxk3YGwNIFYZydPUuvfNFXQhWivFV762nGd6QBM-Ju3jBZboWYaJNJ8kDSa0MQapE7znnBZIBulG1YpxjKqhpZA7euit7GOwBc7gLk-wouLRxa7MkO_YSQg4aY-CPdDr8mQ7xffPy2Fow3husNnngrctXzFgUwLY70Q_R0QqrRTfj2BjXsVtceKc5Hxbdh1_wH2yVkVu3UgMhvV1VeR26PIN94Jxnw_i7)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLTRzem57tthxXhfRMbOtKW488OQWfXxKFLYbNRmpfDJcmWQd2GxRHGsl--cn1OwHTQfoAKwrpRn-T--8IGGssOCkau9eIb9f7fE12AwAj8JfXYOuZ5K4X-nCAheKfIoJj9d2ZOxlazl-CJqj9c5eisWVmt4emB1VFY5U0uKT5j8WsBlJWQoh6G1X47PhMWXvCBo4cg9h5Oc_WMtGgmx9Nld74UoI5Oj73TvxPrK90WnVadKaV3aT4GpE12fOC1uX8JcLZ0nLJ2CTEZ9j2fxOOsfJLXDGQrQgKIsgBYsjofEGsdKXq8LkSrvhXyKAEEvOHE45eD7d2BSkfMwjKw8vYoq21r_ym3fc4BxHR1j9aeZ2OCG-rW44AR8uNf4wOlXf4sQdQQX5U_gPLlUNN5EjYP6ZA96L7z91RB_O-TwriofrukNRvi4P8pXN9xq_cmlz_4mWHnf4Tz9gzszyYc7Hde4r8vJgHN_jrBUKbQHHDzAcpxxWkOsKG0Mid6kRrcSOg3RFaTOFMLq1fm58ROYmP7TDfrRJ-ez2ox7dYqDx2SdkTnMpYknRgsttKh0QzM6qvjWR87Sw2VANpzuPzW-pn3DGjWbQgS-8Zfjn76nAHXnb8X7fev188fePfmoYOmluVxzmpjRn3FrwHSRa9Vc5H9U5juGPB4o1F_66VXtNiffPlQvft8R3XsMlwvhGJ_bJ5St0daqVfumvH4eMb3Arp87Qvfbqfz_xlVl_XGAhKESd_x9QvPvJEXoldiP3S7MAnGd6RBsoJupf8Z5wWYqJKpOgCSa8KQa_C7TvmBmw9OFs3HfLrAQPOn55sy-JZ8S17Jh7BdBHjkjGzPPpg6pwaHIh8udi7PZHGSl3Urv4FWrtNmjVdyq4wlwWgRMbQtNgNKObwzxZJiHjUjTIgyuGGszIngEtJzq2Tw-SZr7z0hNIs6_mg5DImgIGxnYL_VFm00)
 
 
 ```plantuml
@@ -9994,7 +9915,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x020fdf8628e6bb7da5a0e096618d5ff83af6fa764ee6bf84741a5c3252641b28
+title Txn Hash: 0x49c4005e18f5322c4e294d7578723fea6d5a79df50717c7bc18dbd10d092636a
 
 
 actor EOA as "EOA"
@@ -10005,12 +9926,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: publishRank()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10028,10 +9949,10 @@ deactivate "ContestBracketRegistryMock_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
-<#FEFECE>| Roles_01 | Roles | 0x438eCBDF4C69cd38c01780A5e8568D7940eF0dF2 |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
+<#FEFECE>| Roles_01 | Roles | 0xCF39e4011D63001aA667848D95C2d87b40A10470 |
 endlegend
 
 @enduml
@@ -10040,11 +9961,11 @@ endlegend
 
 
 ## calculates and publishes ranking correctly
-[link to test...](http://github.com/fodisi/hackapay/blob/master/test/core/ContestBracketRegistry.test.js#L253)
+[link to test...](http://github.com/fodisi/hackapay/blob/1746d2fc3fafc73d8b2843f0fed53fbd26643dc8/test/core/ContestBracketRegistry.test.js#L253)
 
-##### d1, tx: 0x0c8409602b52f547d6a9647f6a533249016ea49b009f0f228e7e5af2f83c1154
+##### d1, tx: 0x41026cd8fc1292bbf9241d8da21643a54f79003d4cfb0bba1077e4b1890a8781
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjRzem4FxkNt7glhJgkfcGX1Trg41XxOUgLLjfNofLbyG9KOE376U3qlxtNKAWuQMW5KsQXY2sptVFtNDSV6RiBD6eT3gC6CDKnp8TEaAnv2cK8rGuX4W4GdeTT9y25QVIwyPHhE1JlzVlTNkCdIPw4eaMW_mp4EW91TDY2N0Hg_0vbXgZTXG6SYYa9aHVBnJwj3c37ALg58cbZRlmMK35NCXkqFD26K255wBNV3pzMWJ12l-NCWc3WKx0cS2zIdsVS9aETIJWVYpX0fD14_YOktMJDsnkE9RXMsRDix5XcpNVHgjQDSm6hzW2pOR3USFdlc7KHKrOw1j-lUfMAfR9A6Mkfj1xrst010veF62KDXswuGY9QfT8Y4Ht5ALFw5iHX8bMawlOVNhabTnagyP6iDiu4bSeCH1g1MHvPzduMWKeAPqgKvhRhGgNJJ9XCbUTBvPLxj0dZtemrogj3nZBym4dhLqiuVYu2MuiIPPc-JmyOhiiIg0hh7EmHogK1Rd31_d0JekA_LoChPTle2SZ0JHA7ERZJunIccJgBq08IYG9qCnrgV0rpVZODissqJTSfzwjkGOwZjl3MfzAoEjrxRh77SVgrglOcQ4SmHJu5mxVV_GkgLRVYpWZi_PN_CiyreFDA2nA90-T_7uiu5aLK9IAy6YOWYDG2TM4Anp1z1LU_oQrDnBhb0QO_4-KJawQS2jqgYHyZ9OJnn75HryVewGG7wqwt50ivFYz8dhl5SbDjhm_vPDdl_fBmpphc6L-HURGhx8voKl-Tn3PA-b5AAL8jkPbrpbQpkksmtPsb6VQR7OZO3UbFk09ZM6KbDYSytFEUSQ66Z-r1ffaNiY3Nl1gpujzOTTwoNifFSTQA8bHD87hNr9uqFxGwr06tjwBj-tdJYtBC4tFhtAxQviTmw_GrQ5gTQrse-PZpMnOLT4JThk_qUbApzuatyF9MczV4Uq1lRW35DCzeCftXRVLdm9IvHNrnyxeIVVMtm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPjJzim4FxkNt5YNq2CpKxI9grOHUdBu0C20TA-824dSTA8rAaSPsif_FTTqhIaBxGQrQHfLHlRvxldxhbUV2RaBDLSwMmO4y8pdSXiw0f5qgT8ZhZYGuX5AAH_phsdK2MPz3j9d2ZurE_rUvqU8QUfdiIYHQ3u30JtXO9fkGIuI5Jqd4ZDutOSXN8ef4R4G2yK-hWvWnnbQXIBfOsxw5a0inQo6-xxaGo1qLBqMeodNyiWIEd_KgPHED0fk1EuLraG82xHaOu5t8ybNF1qq0GwjXWrwfxl11up6eRh1Wt3OhxZSuFLBPFNhC1kK6hwbXUur7KvexOjB9Sv3SeTss44K-Pf3BrttGQUmW6E1mJJfYCl6d6asa4I8jNd2jCdzAq8erIhoLNYFJrILfXirTW8Tfl4uefB7Wgr0hAyisnyhK8kCPqgLvhRhGgNJN9XEbUTBvPLxdY07lLWhbLP7n1Iv0DEMhjOml5n4xn4eYpBytbuH7PPL41NM1TWZrWe2tA73_A1d9OL-xaSMo_VG4z60d2KV5YCFtcSuIHNVm54K29D0MUUXuMlSKR7tORLSuq-i-fkc_O3PlVRRTyITeFnhjNhOXNvfkdOjHdA4Ko1Vg7m_KVl4clrlOXpCcj_nR_COptOdCAYH8hGqU_70fvL0KQf40-7ARY2Aw6QSCL7C7s5rxz9xOt4EgK1J_ydIYSdJRWLEbCIFaRBJP8OuyDlmEEq51-jEjnGBEZulI9wxnKfJBQyFzMJPx_wow8YwppF_8hCnH_RdEGb_pk8x9NqCfHA95lpikiShUPrss4xEyfpRJAx4P2RIX_mXUPHd5ROT6cNKfgpmSQFhG4dkHVqe1UyslDYNzYrNefUYi-n5ahoE9x0zIyfV6X_w7Me0c_lnTls2wVrleCNWVEQQNk1QLFRv1urQSTXZMxDvXOpkZqgcC4tEbtfsPlaUpXPw-qheZsW5tU0She7LFMkyBRwKq2ilBB-o1a-yTxw6m00)
 
 
 ```plantuml
@@ -10066,7 +9987,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x0c8409602b52f547d6a9647f6a533249016ea49b009f0f228e7e5af2f83c1154
+title Txn Hash: 0x41026cd8fc1292bbf9241d8da21643a54f79003d4cfb0bba1077e4b1890a8781
 
 
 actor EOA as "EOA"
@@ -10079,21 +10000,21 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: constructor()
 "ContestBracketRegistryMock_01" -> "ContestRoleManager_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "OrganizerRole_01" ++: _addOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10116,20 +10037,20 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x87dbad9140028592fa1cdef2ddd45aea6ec98271c5c3bda2e4c6d6db05188ea2
+##### d2, tx: 0x5818a699fca49a49155dfed29e78c84b3f7c2716a7223128e5615ed5528fc599
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzj037w_ly9YBw2DxPecQLgnYZQaWmS4OaXxGKANdDD6f9VgSjbQ2l_xd3JjQ2a_1YAAuejz_lpPyLbXx30tGfjYd38c2fEfOXoYPlbDeYP2Yp6aE4Gb-oAw6UgiKDBFqap3fq4m2Fo0iOFSp5BiCgYk4Gg96kRrAy1nffFRJ1cHzj9agCQe3276PhLXGCO5vAJGanJN33-JMuI6lTAT2oaJDOG6hrNtbJpuLfDWTVmJbIV3aSaXdC6bBkAOS9b9J8fmELLmBF9H1_ZKQybGo7R3vjpodBOLYqOaCRQabBOZKBWOjJshrOYSg1bAOQ4TkTAL8NSQdeV2ObIoo13ruAm78eSTaZkCocQIA9a8IjMd930tVKtbGtE1moGtUdQQHJVNl56vFBjZ7UnC3uMYYkYBBCMb_wPotQLKvikjovUj52zHZ9VHDxXjc7OOgnA5_UvBzE7pvmva4rIrGPWaKxjxx2Mt4lbHOXLOag_qkrVgYXtKZVYbbjsxxs1c4mIIIemh-Lka1ItAxNT07QGnpu5MKKJzR6Z5fwvjzwo15OMUtuei4OPH85e3brioy5rFyZ1qVAyf-WkKFPW3_yhXnw_WX5fm2zKoWLMvA-8ZaR-DC1McY4gMcl18p254eL5tu5HCO7uFzn-Pshyajd-J_VqENA0fj8AtfHTcMKeywQOyQ-tUKoLzgMq-YCmhklM9er9z-kjdJi0ZXrUc-IfIYrDQxcQBASxE7nnyYKOaQVwWIaVyY7DULec6DGq0MfHHA89PrQktRBALN_Ukcd_qd1hKIgJf3Cx-A9JGUrCRFWH-Vdu-Pw-2Eevbsp9kSjTtxRuLqwHlDntVwRLRiMZPRQU90RgzmNhGHtDsG_KEwDKyhfVlW7fYRcyr_6yOQfMwOTWXFUddu2y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzj037w_ly9YBw2DxVAhIIfMKMWwU40WXhGN97H9d3OYlLINozPI-D_df6b7IoaCH1J55_ly-RFZiyBOOQ65qkKeOqoKEfVbA4J5YjjKZeKI8yXmW38-4j7jGEMbZ8_pB5VmgH_qW-E0iOD2JpFiCAYl8OeO5SoQLu2JNALtkTGYwsRfG8vGQa9Cz793dunpo76fnXck67wcTmY6lTHTY3XEvG0CtgWUQddmhI71clYdiaW7Grr0E8KhLIO9uJATwWpXQYBXH1J3Dl29uncUQFb-4WdRfzjmd3Z1sFJHzIBF3gt4ZKpNQ0dND2t3zD1f6Gx6ZcDwIUJuFgEIHPge1-TT40NiaDnXL3QTHkbOKAh7b0GM-aXH-L1VuY0jj9gUvT7j3JTgbwqxLi7ErK18geYwp3DS-AyhLrqgPR7OkdZPIF4AnMWHVOtRccc7iJfHsE-yH1y-Vsv3FaRP68HESxcxnrvogv2V95Q3fSLIltijhzb1quXV6jcv_mvwEaOWASMebhz5LjAYsduFr44AYm9e5KNKpvfMVDBpxI0q-uRT2hkydnXklzkDRNHzG_JieEUROMnPdklCKVPW1lmhXn-_WbDgmGrKgmIMvQw93qNnDi9Kc3AgM2h28p6348L2rOOpCORP0pnyP6h_ajZyJVRtst29kbGItfPUcESPyQIRycoqUy-LzAMs-I0oh-ZMPuvA_Ubljfo09mwlJFDLfEQdjDhDvbESNJmw-35gaMR5eohrU8zpNbM9XZKD05fKKIY2NjQhksYofL_dlfv_z9neL59asHJE_qYCeVkcDdmCl7r-RhFNGLjzBxQZ8yToeyHokMk9Y5lys3FydkCAsp1x0KV35Aj1dypPDTKxe9Vpk5c-0-gPkRtHyBzXg5MQXc67zAIVWxy0)
 
 
 ```plantuml
@@ -10151,7 +10072,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x87dbad9140028592fa1cdef2ddd45aea6ec98271c5c3bda2e4c6d6db05188ea2
+title Txn Hash: 0x5818a699fca49a49155dfed29e78c84b3f7c2716a7223128e5615ed5528fc599
 
 
 actor EOA as "EOA"
@@ -10163,12 +10084,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10185,19 +10106,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d3, tx: 0x6a423c0b3c31c94943841ba4b4e79979122668053e9e805f1ffe3743b05341a5
+##### d3, tx: 0x8b4c764e5effcfc374214fdc66e1d040b4778b0f2beee4707891afb2b837d239
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5n1ZSn8tRIfMqOPqy81036alICX9d3OYTIhRsLeA_tsNDEqeq590H57EETlVtNVvV0eXHzfmPOfHHWWlJ2wBKIWKqRUf77F5Hv29WP1nZqUt0vKNClRpB5VmfH_q0pyWv52RQIOw1AfhA7Wi5CpgLu2JNALtkJGywsRfG8w4D8YOcEM2FaxE8SU56cTYPU9NUYV0OalV1O_ZL0x0ehNheRA7t-iaI1t_LEfqC3GQmYbSgI9949UOr6G2hYOIJhWUje5ENCvi9wAX4pbMv36FEIrcXPo5J3Gzh-bPjkswBTfmX2VG95QI2AV9d11TpE8DWYMB3AOUd7U1QzX1kqEmR2QDqZ57gZwI4Dhq59PFc4inIBLHqxCykhsXLhLbuufLi7Cru18heYxpJ2psFtMkRYcTUh5qyR9DYflJgq18HHSEEg-HWFtzDkHZ8OC_F2kuINEvkqTUsrJYFYDNGQLwwT-zbjVai1RZrzfsxd-0cOu5e9LyLDaoCWxAvVU0Ab92Qy1H5A6c3OvG3OnrxRuTXIs_6Tay3AE0D_ikjUF0Trin3SE6tt9uRuwo1pEWtoZy_1sSeWnVIBKai2nvbVYGw_SbZ8KfeZ9BXNXePX0AheHgmnaVm-m17ZwJsdyIBt-JWuCsN0fJA0dlenVcUOPvueqyQ-_UkfA-9fjFIcOBjQu_AzNNlzds2Bo5wbQ9pSzfkPhCkpcvUDG0Oc5uckb7bJgcnvJIibBOjB4BuA2CWX7CicRTXT2M-phtLH_4vyG89NcMJU7yhnGnTDybnSV0c_leflagQADXCnOd3dLzb_Nin6BKSnf-e-ir4zva7dRuGBZT_chGP_tsYUi3qCk-N0y_0BM-Vw-RUsim54mj6tA4J_nL-0S0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJ-9047xVlsBYlMWyxxO_e40y8a8vVJ0Qp-HUJCosdK9ZsPBTxHs8_kytBOKJ5KIDX7IsixlVVD_ixAIC7MaZbCb7AMCYDvdCHm4gfcyJEHPAZ2350SheM8It0vNbCkfcQQRWIz_l-rsViKDjfYcs6PI_8Oe85SogLu2JJ2LtcJGYxQJ9G8vG6aACpN91doRdaEDSZLDScVYLt25Oxj9t8Q8eaGEmUELwAEtXzue4g-AVIfqCXaP3C8KhbSSnuJAJc1JXQYBXHEXX2_Ya4RYXLtUnXd4Sng7ZkRRbnb5OhwCLSPS7hkSr0XxR0IAw7lSQJKl4WHqq72-odIQZb8M6gFld7H0QTiZkC4gRIS9aB4XgbqIWDiUAqeVc4WU9DcfwbeMtDzmgjsnSiGfshWP2KaRKPPRYOlzJv-gMmgaNInSlsr3SJAy4OQLSE6Y_9WBszrkGZL7wVqIQ2vDaSdUFlRQfm7qcheHAzDA_UoslsM5LZ5yhsxx_0MOwHY0hnQYqHMGQ5CllWQf8eTP0ep2acZOqufDUq_K3ks-vzQ33-x7bzJkTo4MFphpd-hsc7KIEq_1gSvGzc07_nk7dR_-Kol05geM0PSfBuaEXtqUO4fE71Kj5U6Hc4A1Gg5fm9iOmUu27pvJsNyJBPt9mq89BDBcIy3vvGPQbn9F-fBFoxgrBwMjbyqbajgZMzNUbFFsRRQ_0MwHkHMn-JulLRDxDsSMZ1X2X4Kcg7sMgntkSyo9JrBIf2z2WY48Hp39ddKMXBVUrxyi-IC-9GIL5caxX_A_423hlAiN7m9lxwARvCcYztuZSyBZcU67iK1ztHCWTtcrOpLxD4wvbztoEbYrMWpxhjqzS7u1UzkLg-06ezVrxtTnRWr71L6N3ZkX9dmh_0000)
 
 
 ```plantuml
@@ -10219,7 +10140,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6a423c0b3c31c94943841ba4b4e79979122668053e9e805f1ffe3743b05341a5
+title Txn Hash: 0x8b4c764e5effcfc374214fdc66e1d040b4778b0f2beee4707891afb2b837d239
 
 
 actor EOA as "EOA"
@@ -10231,12 +10152,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: openEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10253,19 +10174,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d4, tx: 0xf2ce71a00f92947b383dc42970c3588c1d6d317709472b684fca02b584b9697c
+##### d4, tx: 0x035b944256bc9081d3357fa93b7494a7c8edf9855b9289c78733604b961d0286
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBvisDkSzGGmjX7Ol4W81qhuW8STnqeZKgHndexpyzrr2Mf90MqP1OrKRssVxxfudvwiFeI-5ebALummXMgfSbEEGIrISfs929HtZZ2TSHBkKdISoBqKKv5akyPlXO3W81WXj5sgQyHs4wy-8quXBVDKCCVwMo_Go5ufcVfOcOio50esncYyOmkIjoaaf9ndlJ1odbnnhvbnsIACe5GdMI2EwgTljJuqJgB7_NHHfCb853gVuH9Pn37gHIbN6ySc5mDzeCTh2v2BM6NSqIaZiwPxfX8PhHCpKFOSmmt9TfaLsP6YEGs1I3stNZ1abUcYvPkZPdiCGKCOKk3uuy34jy0Qq6mXeKobB9nIW1W225sfN0drS7V4aBPISxkVi_8nezPQbAxhA3cH21J0YZ_ACp_RtXTqjbR2OBPqD7kFYSlSMAQaix5D14ovx2heptSq_oYZXRKnjGNVfCOr1ZHhDLhR66mZL_EFDdLMiulVljp24KctdxQauHTjDF7zesfthprXD9nn3A-YuRd_Hh8HEjVowsYrvKM3eCGR7Ga6FN3WXiIpDSOVGx75cwOP1c6vGmtPvv1jCTtN72_pTMotly1Kc7md--dFm7I9vbTCLhdjlkuQI5dFvSwAnJTFNXpeBtS1XEWr3Dg3Eq2PwD0XiDo9XQ0MkGHUWkUzg1M0UWxNZ8reypM4WfcILbnBqGNE5GqubbrjudqxmrGs-UKbeTo0UVYURcrluYAjI2lmqU66UP-0dV05d8tstYD9LOVD2pZmYMXSdZ_hjd_qlHx0Fg9VCNZcOlhSLa4w6VQt-Tvsydpt0vh_97kl1wcQFLv8GNmRIC-QUc6R5NVBf6km52XXzA7WM7OTw-PApqhvZh1TtPLgpJIl6Ux8GVjh3v7Rihm2o5jcDAorFblAoB5UsELsHJ9VzRptgN-RsqbUjHhUr2ZfitHWZhcYQ5IqsziWU8QHY0qeIk4H2fx825jIS5tzsIERxTgxhMpuyBnINWcRP51_y5Zp2_fFk5Mt5owk4PVErKSlIJJEA3M87jhchnvf9FCCABDzpOkgOdcNm0RVzOTVelMgY9rf3zRpgQBfhg5fSdIoQMzzOhufvIBw6aKwrqngkeR9T5TsD_bOXd9pc_A0ly2p7sHy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBqCRc_FI9gaOeY_fO1820TA-824dSTA8rAaSPwCK_lik8Ir9-iO8QAngO_jyldkUo_bg8tIOI2faEeuGegcCUJfsc439JSWdLD0nZbZ0kDUZxaqWufHx_JYA1Vumj8TstqPeFv7JY1qWd7z6Z7fCu5annFWe5k5Tp2MDkb4Oy37Z4YpwSg4mXCb7avDKJ29McRW8xnXMz8NiZ7fUo0Eia4BqaBVxNmiGgF1_p9Cm6Ca4ErDyALBV1xj8XZ9Y-FAMuoEQZ3gOt1AjvLYwhhRQZciHK_4qhMNurD8SGxTqQhWcytpBR86MQbgkOHgQrYQwOxKLZwXc6q78N0dGxTCkfWdUWNO7GTXaw8OJ2bJxG88biYSWV4oUio1Cf9YUnExDDL7o9HirgiPEHK0vH4ISnn6RhwyBgqioOJ9NdG-U0t4pl7L6CWydbDE0YPg1wanryO_K2rYPKrbGLRsWFfYHexbcQRo3K1v_l7UmBQhuqwSEXbJA_NoyubTelyZdpqLxSFyDo-c4OMWv7UVjBngbqCdKxxFLWYK9XfxhmhQGq8E4QjjwJ-qPUjzhzpJJ9dr5qmnJW-pf4MMW63sBkAffFrhPnJDClX3y_QTz39cy3NJ6Q-bjvrJ2P25_JJO3IxSTTQZeRQTBXhvY3BjTJsU6fT21RWyirO4DOngjrMoMeMO45ZcO0n_Hv6M08J2fcw4KO0-Q6NOO5Knqy0cTuDa3VdXBQayaLh-JlRqEFcSo5Ho_Z9uJnn7WX2_mBAIxwqAwBMtU2CmpidLzySZV_lN_iWNhX6h5x9sJgQFDY5Ggx7l5NmMvN3t0vx-f7ireLQl7Eoc8RqFf5MkFJwFagVXK7TOI1PokIfvrso5Ntx1NocUCPdcNXdcqQHRncio1dx8wk1N_MuWq2dO1fOHaOrmsrSeifkZnve3EIkStZqaQHaa9su0C224PDhWWm94EEfbXC2eNABlpb5siExZFpzpml9LCS1f5KtpwcpCFTr_qBryslFdClca-TzeUcfxkzbgQuVgQGGoDkaGZVLEn1Ys3weewi0bJL5frkdIshuaQc5xS0Ofk0rFhxmhhvfexgzqfLiaREAdSFKh31YRBTvIdqTyQX9rJx1zq24-ud_y1)
 
 
 ```plantuml
@@ -10287,7 +10208,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf2ce71a00f92947b383dc42970c3588c1d6d317709472b684fca02b584b9697c
+title Txn Hash: 0x035b944256bc9081d3357fa93b7494a7c8edf9855b9289c78733604b961d0286
 
 
 actor EOA as "EOA"
@@ -10301,16 +10222,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10322,25 +10243,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10358,28 +10279,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 1 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d5, tx: 0x36171cb01f24b6a3163a95a57493551ae3e04a8da85bc9bc4886341551cb1c7a
+##### d5, tx: 0xd7390ad9b2e64a7dd32f269856fe7bf1d3f55815975d60349544e10b10749df4
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBvisDkSzHGojBUrU90G2f7r1GfV4IIDIftASZVBottS9QKb2NnW5ZLLjR9_jktkUdAy-Ghva2gJAnmaXaAjKv6EFIv9Tn6824iOquH4NGG_yYqYckGZwQP9A-cOu60xw0q9sCpLD-1wXvMV48U2INbT3Ih-bChvAXOAacyIH67EXK6EevWk6E7cdSfBBIS8R4oVn5QUQEPSTGH348g8QgqItPRlxgNA2LFQ_YooEHYgZtfIUoZmCKIzHiKeuFRqKz1jaentABWrRSpJVOrgecvuDXcORqB70SioEOLaQS8Cp4zm0NClpEvvlkgvjc1fE-PxcEq2GCb-XwuF3BeMCRc6xHP0s5Vln111g7q7mJFKaqiVLCO_YJCdfGUfVd3EjtB9oHLFPeOn082FoE4tuR7zRsDnI2BFPqjdWCIwkTc-PaiB20GY8k6mfQCuqD__8WuZNCTK5pQKd4A8QDPgjh8st22dvfzjxwrYbxz_lK0obqixRCt56Tgju_b2rUpUVgPfEECLMmBXiVq6IOwTOVbFibZpBAFPy7u-5mXwxv8PdxEjEPzyV0BSTfhbEe85ZMRPbEBsEO_esk6PetsbvHwyf-yZerv-3xnZ9wvmkS3rusoMKE9lBdnEDRPfTVQZxdjjtV1qy3r4vGvlfmQ1lkm7pFAll6j1RZEQXgmM0UGoMZeyWUvh3I4pk5rvAr8VDDVKuI2vtw05CwFKjlNr9QFSW5h-JxUqTUinLBWLz6ZmlJHFq4x-8ivA-MqRfkh1v8MSU4QtBaqVvzi__boFO1jHAPgySJDlR0aWZmxvM_vjEFimUQFFVP8_DO3Mpnoj9Y2y3wHbpJmX9TfzycWPRWO965mNFikDGBbznLkftZCtYBezBjW5_MalctSlQv3Rihm6o4TcLA_ZLsrb-4I-hScMTqpN9TDN_rgF-PUukVSLgSbUhaAFQZJ7W2k8agx6np_OPOmKRM9BW9H8xXHMqeEQyT6U7PBvlxwQyvUFpKd4f84cczF2tu07jFkbUKLUykafODLyQjIpTD8FGO7RVDdjwg9aCwvU-rUqu8M0jOnbymEtki6dqGJNH4csWUbvrLDqDL2slJfRDRMwiLSKiaczWf57jr8ORgAnNHVUZlrM89wSwF-GBFlDnyWS0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/rLTjJzim4FxkNs6nBvisDkUjQH13IzjaOn820TA-824dTjA8rAaSPwC3_lik8Ir9Q0kZeB4gYkspVVSyb_FLXz2NN56fYacA42rK9ef9m2NABn8nfP9ESCfZBjY0XXUnp0h1XbcQIVp6ztnlw26qcwjPolSGhdvZJXcN-AeUOlmjaydlJ2YQkcaIYmaN2ZH6Qh70XybRbTD2JbFUcZX9VdEicGlP4MKi4J7MI2swgThTJpK8LDlV5taIZrMEWna-bKKKWLwa4fLoV7efy3UQZtSmkMIsuH3Ad43dFPFQZ1bwfFUSljMBk1r46ZCYo-fhbcDRh4SCqx5Casiaq8XjEYmo4RWiL03TEtGnpV4Mj5i8tAQIC9bIe3e44ZnN0mdku-gOnqckvEmW2o_EYLPjMRkYhUnGnbI0H-HnblBv_gwmlQKKvlEbyy5Z8Aw7jqf9QU602XfpsL7Gdcbl_bwmc3SvDGNjfISq0ZLgF5_P66yXLFaVR-yzv5Ny_lqEXb2gxBmz4sTejuxd3tMxT_qPgzcKOsW5dLJjJveMq2cNNvUx9Szp3BqmX6EXe4SkVMjaHWCzSdLlG7pTDboBc3q6yT9tTCUdmu5fEKodjrhUuIjCFXByzOUt3v7y4EYIrxslNL59yeNyETcC7DCBT5ypUu5B_4YpVTTb9hSTZOvCR-Je0JEClcqjPtCVQabW4OCLy37DdmOO75E49Ke9-g2vmW6daiiTV42d-Ee6txmajJiIox_9zlOEFkQga08_ZLwGPIdWX0Turj9tgrpwKDYy49X7HElgv55z_VF_vGXs2NMIsIidqqLR4cbbsDUAlmtoVlO0c_ycUsn6gvqzNab2V1bApvXx8fhcTycdRR0JA61qMV2iEWxLyZLdfNd7s2pkYgJoDZWHQnrPS2VhEhTb_m4Y6pcxXWAFtitoo_ooBbUMFaMtbGCwQjpV65SqIVC6jX4P4K9AR50Wm9KEEgLYKAeMADrvo2xsxLrNTsvuNoek1KtJ6Jxy9JZ3xfF-vPkArz_PryrNHdj-dvdXm3BiC39iOXiq90OPzZLdPDdKrFIHHxXMdgIcqNjt-uve0zMB6g3kRg1gTQsmQcvpOvsQOfby0oEjsgCnt41biqQv6_sjGZWvzVb1N-0DzVaV)
 
 
 ```plantuml
@@ -10401,7 +10320,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x36171cb01f24b6a3163a95a57493551ae3e04a8da85bc9bc4886341551cb1c7a
+title Txn Hash: 0xd7390ad9b2e64a7dd32f269856fe7bf1d3f55815975d60349544e10b10749df4
 
 
 actor EOA as "EOA"
@@ -10415,16 +10334,16 @@ participant SafeMath_01 as "SafeMath_01"
 
 "EOA" -> "ContestBracketRegistryMock_01" ++: addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10436,25 +10355,25 @@ participant SafeMath_01 as "SafeMath_01"
 )
 "ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistry_01" -> "ContestRoleManager_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "ContestRoleManager_01" -> "JudgeRole_01" ++: _addJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "Roles_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10472,28 +10391,26 @@ participant SafeMath_01 as "SafeMath_01"
 | uint |  | 2 |\n\
 )
 "ContestRoleManager_01" -> "ContestBracketRegistry_01" --: 
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: 
-"ContestBracketRegistryMock_01" -> "EOA" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestRoleManager_01 | ContestRoleManager | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d6, tx: 0x9bc1fcaccd2fb0dec5725a061158174a9ecd864e4272a81e09e33b4f34b34ef9
+##### d6, tx: 0xd851d041f1ab7a4c2d69afd947d87f9d6d333bc98b708e7d55dfeefc2dfb2e75
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRJjj047tVhnZHbrOjxVgsZX6DS1Ady411WDGNf6gz7YSMpZfQhzi4qd_ln2HfWYfkhILxzdhcx9dPCMD7jPN6DfEICTdOIZUJ50shRmezbKPEeCGHwgmdrSt8L8tE-bLP6NWpJ8P9Fs7iiBRp4hiCscUCCaC3Twikm75bYjjAMrd6PJ7I4zIM47ExMJ2aoNl8QMEc9UvCN1Qt28w_6JkNMLRe4JXyDVIhjOUVLYJOol-9helHsDQGpk7AD7bEkCmMjaIuccaublNu0FWiIfMJAwbKvkOfpr05eHj8BXmdw3YXBoDKMKVuwBkXApiEyWWzB_Lppqyz7_E8aMJA4lNaB0PPmnxPFKQosK8LKqb7xTCXiBOzG_AXlS1HKLipFwtKpNVkj5iUNR4BTYbpF9LslDwwrTzZh7KE-zsd8E7z-mCmxI2QAvIJjzVwcXsk0lfXPRkBps3dKmIoMavQ-qEM3JMMonUaBFc01LX2-Dek84452aTa8k2lVDRW56Q3zHe-tlJuh9T6mqo4qK0baUi7Jfm8Z5qLnmCt5657g87meh0Z7zASccfQrR8SI2jRe927hiX3Jgz7fDNhgBw3E-0VENpvbfnGCZub_J8wsr5hOq67VLq8ceAIWiHQdkV1M4glytUAE_wVaIxx-mTmWROn6lw9vXQZP-bqdyx_p_awOepTLpHsldMrChIoAEij_04VK9IN-5IuwBPHOqcQ2DkDfqrYRlPr5sqjeE-CRfUMPJc7ivyQCuYLekffNvZ4sy2FrvB7vbkdGU3wVfPxNFI5ttDpn-UH5_I3E0fp6VfHu6628XxkEjskENzwBmKakLUYioFwqi_cDm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLjRzem4FxkNt7glcpQkjc4l51rg3I1jH-wLcsbVQaqcVW2KOCJESu6BVllEq9WePhwjaKY5zldvnu_TpuOEogjDBQQPOp9okQwcetHiF8srOKqSWOPJb2hOndVJanUQHNcMMxWpMWu6eP3nWvBkyYmpw1-fYWL6hXlXW0dkKdlScrbDiZIYPwXjeIOsAt3Y1RNa4LbYWnt5gxIEmJHtSvTIALIFG71cwbVjJtyr91WJVnJNQQJgIrXl81hKoK9uJARsWpXUgxXH9RJ0-1p5RX2yQv8X1pxiXjtbDUJYUfrVHNuIKzvod6SSTmBnZuFq5UkgnB4XFoISGTzbv5aiINgm_C1o1BsoEunaiscSLf8Ecf8Xy3I7XkI3-qbJjBIciLP7jz-vwBUygZ7BjYLJF1CskbcQskynrWT7FRxJq72-_S7OEf9DDSePszlz0qxR1BweR7zvMUmYmA1h9QpslwGMKKVA_SbAKinO0cM4BxM3YIeXvxmbEVoLpuRS4gpmN83FzYE-DplEPrGE44mIjoXEmYvbuJHe3iIE19H460GYMxG8u4Uq2nCNkIbp29fvHg8-nqlyMc_xn3f-7LKty4zy8ySldmRdb8nFYNzAZljhDMveCE-BWLLIaL1OgtEys1kJ3_nTuexyPzHBllx1t29jZ8Q_ebcYz6pT5gNy_yBliaOO-kEnYvQLqkXbMbMjl0Z7b6ML_ZKkEYsqSUAD16ssqZRmjpkwo_hNa3lETqkBRDi0US_DIeOn35rJ_l28cu3FzvB7bjVtyrHeBhniUluSU9GzJiovWuF0z6BN6f-eXCDEOgEt0tQxZb_HYy59BaRqTaHlUdFvZS0)
 
 
 ```plantuml
@@ -10515,7 +10432,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x9bc1fcaccd2fb0dec5725a061158174a9ecd864e4272a81e09e33b4f34b34ef9
+title Txn Hash: 0xd851d041f1ab7a4c2d69afd947d87f9d6d333bc98b708e7d55dfeefc2dfb2e75
 
 
 actor EOA as "EOA"
@@ -10525,7 +10442,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |\n\
+| address | teamAddress | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -10545,17 +10462,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xBb9Fd679DcE92451AE6eA2cAAD276786cD63978a |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0x7932C1388Ff5E5AC06fCDA4F1eF1D88e8D148901 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d7, tx: 0x75dcae30779cb29d0aa2dadb729b32d9053288f36f1b3435b00cf00284fe6661
+##### d7, tx: 0x99fe04b334b8b5e9830da83bd53fe98dcea885953c9857f7f5a838daf6642052
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNVRvim47xtNt7gNZPrtOm14wekQaAIjGzTgxRINYfD1fi4bHXaJDUqsV--2o5fqeVqnuO0uxFzVUVlpWSXnvKLnjRJd11HsqBNqrWPKjrckXH6J25NOwLbNoItOrFKMaP5NXZuC1gEXj6GaAFApdBL9T1S4oMaCl3OTW5E2fCz5DgAl9TdOprLsY9YQjSJHZYuX2nhK-PgQ-0gUr3WU6lRXP0oqsDmQ6lwqxH7NridICj_ggjiFB4Ln3EuDdMQ8YwncSqLNDzhE17Lv13eVU3BH2YN1a6On2oKL0WcXOm35iOkao7rNTRff2vFdTZrN3-cD4afPHqlLPnpXw1aYKNNX-Sz41NiORj7K3QR9LafSAiHRa9LjczGFcKlrJYhh9cT5SdjB-eqItREs0Qx4gaw4tQoMhhHtoEa8OU3xakGiBz_2AOnAdEjnFJZZRuXHsr0FxTjT_uDxAnKWAqMqwQz4tcD7ulfSrGMEM0E5X5-D1DGKAwumoNtwJkl5JY6sQXg1TzRzp1aJ0QCzId3Y4G3p_4Ip_LeA0Nlz7jXu3Xz7WVKZPwxMPgYB2gH3uGLIo0QC9u651yNdKxUv-edU0JwXSBtdyDJJCQNf5z4PpDgJInmi-yBGPrXKg1O-3ZFRF6JxRcBM_olI9U3WqEuLBOs6lx9JRnPwz6hT5gcy_yZNyb1oBAYaOkDeoML5LbURU0Fw02ZlC37meMd3JyMJgF3TisqJiprkkwygGNuliVJfKMUp-3yjrOIUac2rTE-COatWNVNabtZ3QdlCy-JgKjvnBq-InraTFt8Hy9K15xeksgeU6-qJRfPSvvwRmL4kLlHoJ6-yMVp5m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLBRzim3BxhLn3TPKFNJNxRHHSq3sVjeMlH5jYbm41RScBKaGDPxf8s--zZ72TDUkXhCspJfAIFr4UAPkouCgXDFIaOmzgKgfuaKhFgDbTJr3Y1Gewa4ZrCRqUwh9NebqMfuSCm7iRzcB6ZoimBsM7GN6E9GcfuQ5M0arBdzwKoM7IBVAGcKXb2pCncmf06Lv3JMayBkJDmbTzBiDoDxGA5oDK8BDwQ_ZJow6iR16lzdweg7urD1SaShdMTPOJBJ6uA2TSp1ITOZG-1pw8eaznD7CTDmiIJKUXmWQ6J2C_9I1Efn33q8iz9ez0BiY3pQ3GKcFc-QtFFPaHPQYZq-BmBMC4UoJr6j9aypQT8M-tJ9cHbUfhea-PIZlBAwFbPcTx-ubQpvDaPks1NcCapDEFrqYrzZx76EHnqNeA4_Vr3q8rHwck9auytweOTjGdztChEuXkO-LG2IOMJHjvXKTF7Slg2c2KVi01323-Q2KIeBttB5xx7ttcjmIdDMbPh-Ev6uxCW2C9Xa63isd7FY-okS7t1kUj4F0ouopqhvJoGyTCmfxgSbXKM0pIu0kA1xMS1fyUXeDFtXVe97e1_uV3zPtnAnVWIzSliR6UjoGLjzdqfg7Cg2YAB7kk9BNcqFGrnn_yhokNWu10kfQcrWdyAaswxZUXLFAtA-VyvNzF1sAgZiOkjeoMamRoejl07V41PNk9JuwBJHX_Be2bWi_6qASpDkiwYwGNqdj7fKbWKSpZ_hQI0RffIzpHlBE9juETxoNFZgxCv38MRzZmdI3E7gj_1b3ky7rhHm0lGjUn1pALbuwxJxPxpgBqLaEXkIMV7zAQVpLy0)
 
 
 ```plantuml
@@ -10577,7 +10494,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x75dcae30779cb29d0aa2dadb729b32d9053288f36f1b3435b00cf00284fe6661
+title Txn Hash: 0x99fe04b334b8b5e9830da83bd53fe98dcea885953c9857f7f5a838daf6642052
 
 
 actor EOA as "EOA"
@@ -10587,7 +10504,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0x72d722B021b3CD414c43409da68BA9711B6b703C |\n\
+| address | teamAddress | 0x7778F7baE42EB592Ad46d0043908704051c007eE |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -10607,17 +10524,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x72d722B021b3CD414c43409da68BA9711B6b703C |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0x7778F7baE42EB592Ad46d0043908704051c007eE |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d8, tx: 0x5572c529c6539e7b003b0bdbe481ad2129ef3d4d9d1116ac425d32abcc96ac3f
+##### d8, tx: 0xe34f44a175041800d3760b28d76451e473ab650793a25221a2af2323aebf6b2d
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLRJzim57xthpXYBviOcvqhGQmYlMJmm420j1UaoOcTDi9r8iTXBNJ_VQSXxLeqSTkYEYU-VUVpTuvF2JcgBJUscIf2U6DBtKnJQKXzK-YA6pu59STIYpxFRiQcRBGObAeqy2uP9QF1Y933siwLx15edudaGXguxxe0nwKfxafjkOfLCTPJgIqYvdQz8C791yYgCPMIMnENnPq4vgt7phaGXHu3eztGhzOUVkv8aCx_YQwBySJMaCxXoZHvZhZ45bP9k9ffEERrv03epFT39_ETA0jyDv9XIgcRqbIaqjjdN3ZCYMJk2az4WZ4MyCnpVE4wFCso27jkJb2op2BrqLaCl8OTj3i4PRD5LbGSZph0GyZQzWtA9-s571UrDVFJChlvGLcxvSaLss2NF9Udt4vMMpVwEuIqpc6lznmaxEuUW6a7fRcIVFh-Mb-JmowW7plRMtm1EwyaeDLysjfRhXhyM2vVeBBe0nPW4U5Rkm053MJ00X7uz8tF2Xp3R6IzWe_NFJhR3_TvJ7F6uiWFlIHaFF9of-yEt3G8aYJ0g33g3VkFQLQchCgQgo6tl0KAQUW4UKYnkKWwUnlL3t0Fz1E5hzz79vYCpqc_ZCvcrDfOu67V5eAcmAH0iR0vZyPIREpl5BVylo1TzlOEu4BQncZu9vhuSpj6BzBf8Pt_dtDdvPmyL3Hold6rXBIyKFK6_f0ECSfBV2nSUDlmOqaQ2TkrftLYhlVr5cqjmFSCRvVcIitXxAUM0k8im-ffNvd4cy1FrvAdvbkdlkzudiXT6Wm2h-_apAEHwm_yE0fp7dgHxygH3E9as-bcpVdJUoqWojs9JexmZNyslm40)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRJjj047tVhnZHbrQKThs-8neHahZmG460r1UaQcol4mjdRQtNb43wxvquJfgWYbjhPJtUsvcpPsOdZ1tM1hLffWLZs9XIDTDOQbRVvAf2ZLCev5Ygz0YJcx4k6vKEogBKy2uQHQF1YB63simAsMFGFXE9gTJmq7K1ZakTtvVAOD4lyh6QIcK8CJFh1H5DBY6hHbU5t9gupEybMCvwx1pJD5TZi7WtzAkr1vyx4gppVwBgV3mnDSGpkD9DbX4kCxaf95pTAJZ6Uh8F_4xQJkOuQFakTwo0yzJsFHwB8FKznxMauziOUoxtGnk5AuI50ZDX2njbd7cnI1b9bXYYFZhh0zQmGtQ7aMmcJ_8AwQW3EeIipP4c-QIvaEEyDdfsMYOtFxZLRdbonJRO9MRo5CrajNMZlyDOwnpsUiz1mkxkFkXsKEehYTFtr-gQ7NG1_TZPtlmBc5abWQp2QMjliMZeOx5yJigI3vY38OHlxG8Ir9EUvQKasHkV5JY5MSjw1TzVzoXat0wbqm-vjFnOU3pacHD6gGW3ous2CFCeZlqWyXxJh7HPbJKMGpJO0ldS5rxcSsesaKxUHlK3F03_nE7hzz499UDpqY-YincrDXPqsBU5eCafAKWiQkBHM4pD-Zl5BVylI9UzlNsuaARH2lw99ltiZj6BT5gcy_zpBbREsRAYiVEDgvLAWtbHR-0F-P2YlC2dmaMtZJuMf8cmMNjQ9-PwNs_UrW9wtz7jKbWKCpZxgMGA_IIXwcbUcSIRm4_NagVcbtSp2b8dEN9jFybioduR4sxpGM25GzT7nnB34V4HkErqi-RywRqMaEJkH6U7zAO_czy0)
 
 
 ```plantuml
@@ -10639,7 +10556,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5572c529c6539e7b003b0bdbe481ad2129ef3d4d9d1116ac425d32abcc96ac3f
+title Txn Hash: 0xe34f44a175041800d3760b28d76451e473ab650793a25221a2af2323aebf6b2d
 
 
 actor EOA as "EOA"
@@ -10649,7 +10566,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0x878aA0f11A9574F71a94f2B3C3b66FF6c3f104DB |\n\
+| address | teamAddress | 0xe039e4A90e17b26090f49Fd29815F89f6180A8F6 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -10669,17 +10586,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x878aA0f11A9574F71a94f2B3C3b66FF6c3f104DB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xe039e4A90e17b26090f49Fd29815F89f6180A8F6 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d9, tx: 0x4e44fed2090407dfc652224c861550c58471dd5bf22ccde96946f832f27bf0b0
+##### d9, tx: 0x2018819bad0a7fb9daa305e603c59e39503d9a67c9f3f503ed7f060bc9b8f98b
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLRJzim57xthpXYBqECpKcSf46i8hqD7XW8aFQ2D3cntKQaJkGuMmlTVzzfIBiMJUMoHNLEVFk-u-ySdn9oKbbkR3tD2U6rBNGzJQGXrLscIsxu578vbbhqU7etDaMjHR_82mFlHiFHi3yavBYoyrns2JJFH78X3JoqNO3JmcJtXROyZ_DihATIMqHKThrWX9EFa6LjobnkJLndzn8SjXwxv49aUWmEROT-DVRuK-i4QVdFT9MD9xQ2P0utfbOASOdDR2xXPgRXb5UJ8w0p9XbJKhWqeeo6GgM1xxekIpk1u_iqzJiiT8Jm4-MwQIfa54GiK1tFLMwOA9fGWfAb5bqVNiJ0AzX3kqTGDfkbMSdng7qyXAnipw1yqbx9SLPPCpylqhllr6csx5on3NRDbJpdThBQkj7V8wGXXyFkSv1mS704fXcKvaRowVjRVKkEsu1-Q6rtyHdil9I0LlDfOt_mlCQFvV85AeiSi02B25-R1IXe80Cd485Ft_Yim37CHbOh-7ZTexCUus4_yNtXnDGD0zPn8zSVHb950-OnnwCiSQ8qP4_TB4rH5XNF1zpo1YYaeHkea6BpqEdqRQxkmmFGZnI-V1kUOJ8-9_qoEfjHQsA1XtrR2EeCamB5mkOz6KkmENztSOl_1UboU7W4LzBMHiC_kOc_DYhxBzBfCPt_7xct8YUF5OrSRbmj8ItFyce3Vq076EKbFXOkl6tuiNGQ7RPhfdLYhlTr5qqjmFSCRvVcUJw7YvzQ2eZJ5AkdVMKIRmBlhYMxvXjIttSP4ygZGJzWFLSvZ4QUt_VZA5GyP97loQ4Cuj4swMRD-TDxBI3AtOfEJl2DVpQ_0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRJjj047tVhnZHbrOjxJg-8neHOgVmG460r1UaQknT9nREsbglsmJIV-_4ST84LTnQA-lntiwSFJCxOUoeDgXDCoqOmyQKgfacKhFwDbSLQfn28STIYMDCRyUwR9GObaMfuSqe7iN3cB73simBsMVGFXE9Gcguxxe09wNExqfbi1WK-LXDfJA4c9dDWX5DhY2hHbU5t9cuokyaMCvcx0A5oDKOBDuD_MhjuQUE1Elydwew7qzC3SaShdMJPOJBJ6uA2TSp1ITOJmw0pthS2W8hJ51mzBCa58WsTwN7xTGDfHswt1OXUduQPdP67IdyZ7iyISCaoC8WOIHPQeXwV3u0h66Fx1uZsKoUvXNIKOTq25cROqtoINCfntbjzFoiJ6-_SwlTykYANR0hpEGPcibwwrP_Zx7MEUptduA4z-yFGBU3KbzBdBwzKJVii0leXyxs5v_1p2i9P1LEM_i3YuO-biiNf2pvW0KOGlZQBY11FUbPdl1S_ifd3KvXrh9UmmysFJuB0pUMsBFH7GQMIFsX9_nXuF783oCSE0v6RXX6ZlMGPgNBggonYD1W2-Hpl-TbFgTc4-dqTLJVmJtmZno-V8jFAHcVaduPdUsejR6Wmxuk14rEIK5YKRCVZ2NKhBzJtF7_Z7JPtp-0IsaQhU2VQDBFwHWzIwTLEly_v_RQELjLD7QnTRM4D9WNzHP-n2EAyXAV2XVTDlfOaYR2PkDfavYRVVr5MmleFQFRfR0evd3-Kqa1WpIbwcbUcCJRm8_NaiVcLtTp50WdFNPjFyrioduRKsvp8X16he-ErOjYBgqUxZhThZb_UYy59BaxqTaHlUdFvZS0)
 
 
 ```plantuml
@@ -10701,7 +10618,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x4e44fed2090407dfc652224c861550c58471dd5bf22ccde96946f832f27bf0b0
+title Txn Hash: 0x2018819bad0a7fb9daa305e603c59e39503d9a67c9f3f503ed7f060bc9b8f98b
 
 
 actor EOA as "EOA"
@@ -10711,7 +10628,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xB4a7Cb55d1A0276482925E9ef9D4341304b19c74 |\n\
+| address | teamAddress | 0x985Eea23a5C81dc7C6d7C860D79DaA44aD599D41 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -10731,17 +10648,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xB4a7Cb55d1A0276482925E9ef9D4341304b19c74 |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0x985Eea23a5C81dc7C6d7C860D79DaA44aD599D41 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d10, tx: 0x272a7b1ef74aa32d2cd7762d53fdf3572aad60be5d64cda4f66007e1c60fdb85
+##### d10, tx: 0xab138643293fb196ed86eb4e82fc721a0317021bd703ba627fcd16fc1e4dd029
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLNRJjj047tVhnZHbrOjxVgs9eX61CSkF50G8FK5gLfxnuc5iuxMwpQ1zDyxCKwQe8fRQsKztjkPisTc9umTrbOQsqnAncHZAzrCKZIilYdqL1evWH97gDMHp6v6fcgqYggoCl0cYPCuYXaxgEsyn3w3zXcZL6ZWhki275UckAsqbUMWB4PwWjeIOcxN2nAQl8USDcPQujR4PN6BuFZhiNEfLA57uF1kw5Th3pvr95Zd_qJNnMXiQqZdS6MQF2TSPWjR8bpDD1pBUhmFVEQ6hWnJ1_FGbz9pbPkfC1Ik2hnSvLv0ir89dcAWX9yfwUT2S1wYamcUgtGlO2HPPebwV3O0MSCEsHr6ijaYAwQIZXhH8R2sHuRaGtk1ewAsPdvQPJVVkTDkUNJ5DjYbpF5Ksl5gwqP_Xx7MEUpsduA4z-_tmRI3QAvGJjvUwsjsq0NqGsVxYyzWvrC4ibfEMlj3bWrzB9SlI5do0GkmXF2rNK222XIEK2BWhtnMu1HcW_KAVh3kyLcSYmJ3A0eIp-Lx8irzqGk4vqJU4EMUS7aI2_yex3saEJNLjAfbEPHMja0X3rsHXvoQHwIprr5z1tV0FtBuyYq-eMHyIlfbT3QZriQ23lkw43G59GM9HSr_C9PIS_vESSl_Cz9bTtSVBj0sHiC_qQHVq35wbaxtwVp_dFihv-o-eh7pZQkbqCgYh3VmXtn8KLxYK-6YsqOVIz94sAuzhHDplQ-_Q6i1lMTqkxGiopcS_TIeO91bL3tj2vDu4_ZnMlBOVEiq25pVfxB6HKJWRkxulES5KJ3eXRaC_LxWOOnYa6mxtQmvVtel1IIvEz7P8Rtfp-Ot)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLRJzim57xthpXYBviOcvsaIODOHI_fu86106alIDD9xBGHgLCv3ckX--yxJTEkHHEtBOhj-FQTpzyvFc7ikBHeR3N96SFA5hgQnCgmyZRJKpGuWLoDb9OzJ6v7fgYqx1TvOU3TC1f6_OYnezBESzLXK3zZXL8PU6Yw02U5oUuBRJ7lvjb8JvIsX9ZQpO8XJQuWfvMPvcfduYgxLo2ypTW5Ifdf4GZU3FsgswFF3GdMs3_LPJOQsnBYELoRAaq9bzdCvWgkPnfEi1mV0fzXBDosxxbEwAQn27qbsxwAFTLsqYHm179N1DmHiGou6wFl16aYXPycGdbISYTa95bYYNfqtWKiOO_QFKQosIp9faX7xTCXL6bxXkHJzbADijAQ-LcHtFxWejxov8fTi2jCrHdQyNhhLd-FiTeu77IUWuJz_KCmzQ0ormedxs_q3Jjg7FgnQJkBBs3dKmNKQfpKxHtc5Nqiboz8MR812x24yArUG8BwoXU-z5lyZSyQdDniLBc6xsvwVDQEGx_Rut8G21dso45HgzjoU1Tz3tko9TgH5mfw7zEScc9Qb9WFq68D5F30yTE0Kt69TF8sgX_W0VWd3b-_HwSKZCz9l_JEjjTgNz1Xt-Q2AgEW8B6eU8_6OYhYxnHtxByWN0uE3k5IsSfe-2UQzBOQHY_IQHNE_y-ujpRELXcDNMnTBQaiPdcvXJ_W0_Bo4fyI5zqs-bYI9i9sOsaJc9jzdKMT2wYUqUtIcETpEF-fbOHkab3sjAyCuctWftF9K_EhkpbiIo_fjTmWILsAVXSJxl9-MuI3Le2US0OHLyB1NQFREUTFxxM097SZEZkccduslm40)
 
 
 ```plantuml
@@ -10763,7 +10680,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x272a7b1ef74aa32d2cd7762d53fdf3572aad60be5d64cda4f66007e1c60fdb85
+title Txn Hash: 0xab138643293fb196ed86eb4e82fc721a0317021bd703ba627fcd16fc1e4dd029
 
 
 actor EOA as "EOA"
@@ -10773,7 +10690,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0xEf6Fe7CC5F32086bf4695631C3Dea8620FE64B79 |\n\
+| address | teamAddress | 0x8b96AB0dD71d9B031E5A520Aa64aBd518E491491 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -10793,17 +10710,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xEf6Fe7CC5F32086bf4695631C3Dea8620FE64B79 |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0x8b96AB0dD71d9B031E5A520Aa64aBd518E491491 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d11, tx: 0x6ed2ead00e08e797dc1a5fa1e6dc6589dcdcba8fcc918f05b152515e705c9507
+##### d11, tx: 0x2db8e67857f5a8b49b336b87032b9ae523ccb4d113b133748fbe48ea3848d76e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLTJzim57tthxXYBviOczF4Je9OHLhQmGC30T9Ua2R7Tjg8rAaSXxNG_VVTXhHhqSJN5jMvyTUvn-TUtn9oM3bXNJqf216rAqqzIRKbrKrkfiAA2HHwf8tg2NapicLjLByiIWllXeFXe3yWvA1oyq9t2JJFM0kbBTotNO3ZqkPtfN6YI8fyP2RQE4JCt7h142SV8AUrdHPwQ-8olzFW1UknSw5KRaRWqNReLsCFFhSaIEl_n5JvQEmgIETmPUiiGrpYSbTek9ePE1RLU1_eZ6lLmGsKQXhfC0wLz0JBXAUvafn5iP9AfYBAf8ozAACizLY7UKo7bCcOqP2WPD8XzS5P0gA27RGx16LpkSod0e_QnqFeolKiogVTXHxbbRFpqrBU_A1Ui-N95TjWboBJfyADLrit-Zk4DCvXh_iS9EpkxeDj1hMzqcBo_jfSauCse1zRsrry0JUVQa1hnAInjwAeyMEvV87AeWzOW4E4Rys2Hb3kSSKPVUEp0iSmMrsju9DrZyvy7YKy27gnI9EXpsB6_31I_Z1LEkh7qakZW7BA_SSqfxQSbfKeZeGJ3L18mmxFGehDHzBoRLG_m3tGJnI-VX-SO38-9_qoEfjHQsA1XtrR2EeSamB5miOUZQNOlBzJtFB_WdJPszk72-rgQ-2VQEAFjunUfDD3Ely_vspbd3nKD7A-SRMKTY8lgWty8tg4KLxYO-72suOVIz98sAqzhHDplQ-xQ6e1lcTukumeYZcS_JHQGI8bLa_toYJU17wwbZmrtpXbh1C4AlCfx_EWrycyWCO-wxCa3ZCH1Z7pzK3pPBZjTBFc_Ecz5X3bRaKdX_Z6FvlV)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLLjRvim4FxkNt7glcpQkfaO3Aswg8GaQpzqhTfA-r9fEi0agCH4ncn9c_ttNGZ9achgsuPY3hyzz_YvyuMnuygYiVMaO0nhM-fw4Yl3gjjSJz7W10erKZhjON8xCcMjqwWiIWDlXeFX81emTbJPUQ6w39fdh31L1kxRBi19QVAxKbiimY8VwOdIbX0pkramfCaLvBGsqqBjJ5pbTmeSTpDsWMcQwn4ul1twrTYZJoq9rle_rLK-6jiAuZbScphB29VPt1OAhcSQJh0Q7mAVTT8uKD8FF3_pC8ZTWrW86GS-5vtu09NN4KaIkwdZYDWHmdU3B5Pke504Rf3waZ0P9fQe3yv3m0hsoEunaitcIJv5Ecf4Xr2LxHcIJzbBDSehQ-PdPNBxdJlDbaTNx89TOQREq8xNMxVwUumrpc6_-nGal7z_2AOPLEPQuUJjZRvXHsr0FxIsk_WCTZvLG5RZfB4_iAZfOxbyGSgI3rY09OIlpG8IL2hfo5Hw_9NF6fp2R5IrXWytFJvpfVGwIToF8XuvGod2J0e_v2Yp7ezb8BWJz0PHw3waEJNbjAomwAF51iZdVaTcFgScY7JoEghlu1xuHmvVlWrEAHcVaduPdUseDR6Wmxuk17LEIK5YKVCUZCNKdBzJtF7_Z7JPtp-4IsLhe-6VQD9FjeoUfTCgdV-VSs_jdAqg6hlOkbgfifWNrHP-d_SfoajyAbnqs-XZIPe8susdJM9kzdKNJIsWzunkbyQYcCFvJwrI29E4ggTzOH9l0pzUInwRNztDOP2wISyJVf89odw12HSy2fo3lkUZwtJw0wwS3kuwtQuvVtel1IIvMz7PCRtfp-Ot)
 
 
 ```plantuml
@@ -10825,7 +10742,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6ed2ead00e08e797dc1a5fa1e6dc6589dcdcba8fcc918f05b152515e705c9507
+title Txn Hash: 0x2db8e67857f5a8b49b336b87032b9ae523ccb4d113b133748fbe48ea3848d76e
 
 
 actor EOA as "EOA"
@@ -10835,7 +10752,7 @@ participant SafeMath_01 as "SafeMath_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: registerTeam(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bytes | teamName | 0x6e616d6500000000000000000000000000000000000000000000000000000000 |\n\
-| address | teamAddress | 0x368A644B9abAF35955378d3Fbde8C9c1b8406063 |\n\
+| address | teamAddress | 0x46652cbDCC0C1F63Af637A0a6fB0b683018BECA4 |\n\
 | bytes | proposalData | 0x70726f706f73616c000000000000000000000000000000000000000000000000 |\n\
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
@@ -10855,17 +10772,17 @@ participant SafeMath_01 as "SafeMath_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x368A644B9abAF35955378d3Fbde8C9c1b8406063 |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0x46652cbDCC0C1F63Af637A0a6fB0b683018BECA4 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d12, tx: 0x8ee92fc47483d45fc057cec37c6957515223caaac94115d69f30fb1a8cc636b1
+##### d12, tx: 0xd5cace26c1b6afd059d6c977c8103a6404344e1dd32f157cadf59239c16e6f44
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPjJzim4FxkNt5YNq0Rc_FULgoY3UdW0m8nf7r1GexZj16fKzdErbBuxxkaQKTBUHc8ACevTxxddhkSJo7aK1kcJ3dE2M6bAMGvZeKY-YQJ4wRO678n53BfCtupL4Kfax382mMV1j4W2YD23hIPvQ9BeBv6WYL2mRnv1JWkL7PRICFoNfuDvLX8WuYfMMqOe741EIdL91ThXf_PhG3BNUdEMP9aSWWMRLJtjJpurf0WJVmJgRFXo6Y8Pt2foZH5N68oamkud4euPdhK0Jfj2T6sK-u6Rij9N2_br0kuu4x0_RONU9PdsmvdZF6sQrbUuhTJXwQnnLgS-uuVMmHBnWrIZyvwm3JieDmXM3QJyMp2CDKGan3Qz1MMJvWBCSoqKRFJWjzSKwjsUNR7EjYP6ZA95L4NHIwM_flATPTAgPTRbozRALuADbv6t-2sOTeXf4uKzhilqOVFdpl0yqABni9CLiZTFVAINmNzABCQBTCh_UwLl287JIT-QMJtxZkOsKG0Iid6jVpDyX8NrVOxm1PIGcl05UVOq0PNTEgxRiyUs3nkXG6tMHppY0K3dzf95FgjXCQn5xOSrb-WxC4Sw5SAFtv59zY3MwXM2QpgNHCVCVqsmbYOabSi5UAXc4Cic1Ag0wTi0lDxkF_8rFubiVsRxEztu4AOKabuMtfnKUJ84s_Ciz7kFLNIbzhcWyYyebkVE2lrfxz-xWWyydXbdgzYjJYdrMwocEFa_C7HJuHXMQuVbEc87b5AgpBXkCOHW8ig2aOmguBrbbssyklUrHCGdrCZb6HvFeEpFr8aq7jJ7pu4Vdw2FcUlWtgUxRe9pcq_zDs-dLekRJjUwFNQGSe2j-qv8X9-Rx0UzD6atL2z0teraPlbEw2UcDnR3VyR1bkbQHXoY4_yFVWB)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLPHJzim47xthpYn5z36vZHfqbIiej1qy81036alICYndJOYTIhRsLeA_tsNDEreAOM1YAASS-VxxhlB-HH23erbsXQZZ11Ms5mLerXgOcvJDMQQZI2J0wd44UEt0vqNIXpdMQxXKp_gHySH8GV6JZFP8L1TGyc4r32hNm5ESftUvSgoh9kb0pMIoY9YOfSR-cYSGuuBFSxaYk5dUYV1yPQw2oP4gWRWq5hrKCc3RpK9KiS_LIOT3As1U0fNkaWIn2KsjPc4guc24sQ6RQ0JqUICouRFdTXdYQ3DKFWy30BUSgZBV8zwhkT9HmYtaJZDW3EHDCE66tB7btxYUGHBnYrIZywxm0pieDmXM3QRydJCCDLZJ48QUwInVD9Uoa5gh9wUvVpsXZgLozOTgs3dUi0KLaHVvfbS-AyhLrrAfLbiNRnif7WbsMWHVOtRccc7a2fHsE-yH1y-Vsu3pt8ZQmkpQQvszyXBVYNqaymgjDGizRlNwfeSr9tufPQT--zWfsC9A1KRLV8tomfSbDll0Lj8IsC0LvnZGrjSqKalzAAuqNSyF-xIVk84_MvNU3887TRpebxOY8NhjeBc76KFPa2_KlZnAph57jn0jKnWMU-A-92Pjn76mXIyPAaH3yKCOicqr6quOsEOFS33HwRsBudDtsH_lmsNqXPQmTlIY_CyGvvuOvwrTk-vahxKDXz4vXNT-inPgJxzpROZyCJZbNc-YjNyd9QxoNoEauj7Hrz8ozBCF2fJZ_OefMMPS5pZ2C156GKZs6N1keikM_frxgi9YC-9bLgnB9l2-Hyb1NJVr8UFWRTFq6tsAgZVRmcF7pNTW2TkG0ENSUhIuvOJzfe1yvn6BwBIQR3Le4ycxPhg7T3BYLmltm7rpEJUQFZVCDWgTSEGGtpYxy5V)
 
 
 ```plantuml
@@ -10887,7 +10804,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8ee92fc47483d45fc057cec37c6957515223caaac94115d69f30fb1a8cc636b1
+title Txn Hash: 0xd5cace26c1b6afd059d6c977c8103a6404344e1dd32f157cadf59239c16e6f44
 
 
 actor EOA as "EOA"
@@ -10899,12 +10816,12 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeRegistration()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -10921,19 +10838,19 @@ participant ContestTeamRegistry_01 as "ContestTeamRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d13, tx: 0x667bf8ce58007e2af4064cd182fe9289ec9f8bd84c142513be9a9efdbe45e779
+##### d13, tx: 0x4aacc7fc4240450d873ce34325d65e1271d1f01bb0803e85ebfdd6642d3263e2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLhRRjD047tVhnYL5n0fh6-nNPKADqsWI1MeLF002AtjSMBLiQFr6XhQ_ZjhnqaTcgGqKOah74LPxstcp9bnJn-6aDUfO5namuWGbeaapeOkSfAUX_68SJQ42FiO-uVCE-_p98lzJX8b79xqkhrkfql8VYh64HuGA3u3P3vok2od06yJ7lvAOi4Y9mhxyH1Z8Iq6OdQW9pSd9aSP7qKuj_4n_8MWwBEr3yptmxWF2YsNhejn_sK9WfJ-Z-Cqx0z42kuOpdWM1D8k4Q684CukOdZBqi4Uq8jsstG3oqF3ejH4bGKwRUkUhrXgWBPgsUZPWUNwbkufkceeceisip7mNTGDD4sRICey8Q5ttpl0KjYHumwHj8dG2qTCXjgHGM0g3hca3yKfziDKyF59ufr_fqfnPUM9UMFlCh-Ffqc4qxlLXVcZ-M8wFJQTB8HsXcmuzVe7fZ-s_YQorL7TClAH1NZ2n61whJBV8QIW4tOFxY89dZ_VWpHpXw7e_c1HnaIOn4-_nb_9VbcchN8yk7e5OZn2a6FCXiMOtv0F-V4hO9opCLo1aA4V-wby-WAq1KeBr1PeBT1ROC2tHQVVS5bvamjcg_mgyghL0djwunbS0dr1uStdxh4itRl2oYEVIt4HQ9WMQsl6v_iSqnmcyppvDWlvH2zCbng6ObezEHoXPwYQHZrLOrhRGj_HFDLIJRlZ72wEOXvY3dfMS0NW0KlN0ol9oBmS8PVsv709BZAEV0zEs0Wkh-7w8SEw2U9s7dPtz-0KHSPZM2yqDqaYYJ6l7JvTVRQ8ohjAv860_4LbBlaZKTRe9nQ5_bdn5gq7B0kBB4vUn3oTAr-XMoWUCtVviZCQyUG7Rfsy-gVtzjx3vlLnbje29Qwcib2lZJBPpot8qRoFr3q2_gh_aXICIQtPY2XsK-spDNSvSNF-_mLL9QGAeZhAWTB8mJR8gtzw6pbevA2HW_zD3jH63hP1NltJsyX18mUD7FnlSg0rSh0DykgVtaOEQYK72ctqO3qzMCRS5WLX1gcEYg0tYh0DykgVtaOHQgK8LYC8wmc2LJizi6ei1qOZ1ziWh_xfRUIWLd9WDtAmdXpOjPC3-puyJJh_f7D29lsdv4EbRT17mS8ehQ0veaUKqXoD4uKipM7aNgG7CSFbJ9l4PlSEhehEJVbx8P37B8h6yFvdZ3uuQxMHLGslxlnSjLyuDGnLr_r0e-rEMpzK0qMdjcPq3CSs0sRgjg5X5zjERzxfN8TePRg1oLadQVcuWQab7QSBDpPtiw0pTTdU1iwg7Qmti_iQb0LUbZbvBN-pOVGR)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLfTRzis57tdhxZ8NbRKsKX9jkGW2-eFfSs0e4KQR0_hC50YRHEH9OEakhX9_lieHNRaHdONsqdq8CCGlo_FFVVgwEKYz4vfAdKwZH2YgKxYT1fmYTILY6TKqYb4VCnZrgVXrLWcQSm6IPH8-EdKF_K7FaB7IiyZVe8W_qquPLp2JJ44-918yIs9DOrwaHZ7KnvhOt6abnjEpUAzoLagPn5VMVWild4WpdBk4sLCn6CWk9YwozlZNmiGgBZ_B5PYFD4AWZbSodGqCdQH5ZhYS7aTmmUg9aU0hnrAmz0TXOxbOAUDcUVQ8RSTssgpJfiJooMCZ3090knXctjj7emOwtGSYzbMn-OMCfI5sa3tF_Q0AZWmxG4oj6aHYXarhWwC4rpflZJqSNt1nq9fEJzFmgj_CCcFRDonQkptb8tvHHBnnTdonEhMR58jjYq6bT0kEPqkRlqEqtTB_yUppLuzClAPZlWvrPF5iTBu0A6SJZWy-H59yFRj4QWqc0hjVwLHIhL8uf-_n5_GSP6chQ8zkVqDz7p6mRGndUPjTi9qikstGAMaSxW5RLm_Oyhq_WBS0j82gmLs2vmMjE7lgjtlfScy-mDkg_WJSzHhGNTnuWtS0Fu5m_i__JEJkZzoA_Dy9SIveqBbSrlwnvZaAeDfCj-ypThqy3Nk-4xVwhlEW7NwjkVZ0R5jrxCjhzl7P4ZSVXU7bkTNUx4ACGEzJBWSy8IgxS0QCj8mGoYDFTFSGC2fvF88pkaCRkxWxZdTUd3YSHmE3u_WWkjKnh2TQq6IH0PZbZjoCVkcYierhsAH2N_GIB3BF5Utmv6AdAlxTCz8svYeZr3KbvbikZURoUGhVprgwX-yjMlF5COQ9rB5jweSg5pVTuhJEBDWMlSf7uDNPwVyISxvC5gx4mtq8LENSy5wMbRkVmOY2WGb03MGOTB8y1wfgN_m6XbkPBYHuTh9iDN8y1wfgN_m6XbkPBYHuTh9iDt8y1wfgN_m6Xb-UHackD7XAXrUnylB2V4IGGsKs6cKU8_Kr3zuZHA_l19xZH1N2R7tsZhirKU6suqCxv6Q-WUlaU6Nb-5k8yDLCjnzRHdkFZb77kff30g4xklPqATI6HBZcef8bM0DyH1ZdC7gHOAg34zct1ZMIu2zHT79yjp9RLu9PfxNcikOHj4SFluRSmQzhSfIoeOtLv9jMiylxPnwp0dxRTiDHxQBNPk6sCO3ZtI7RPSwn1hwc1EBhbwwKd5M6kvWSbcPLdHtCBMcWgroOVThAYhTrgtjS5cv8kvXz5I39i6BD4Vlp3ETHly1)
 
 
 ```plantuml
@@ -10955,7 +10872,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x667bf8ce58007e2af4064cd182fe9289ec9f8bd84c142513be9a9efdbe45e779
+title Txn Hash: 0x4aacc7fc4240450d873ce34325d65e1271d1f01bb0803e85ebfdd6642d3263e2
 
 
 actor EOA as "EOA"
@@ -10973,30 +10890,26 @@ participant SafeMath_01 as "SafeMath_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |\n\
+| address | account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -11008,36 +10921,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 7 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 7 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 7 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
@@ -11049,36 +10962,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 7 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 7 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 7 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 2 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 2 |\n\
 ) { 0.0 GWEI }
@@ -11090,36 +11003,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 7 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 7 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 7 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 3 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 3 |\n\
 ) { 0.0 GWEI }
@@ -11131,36 +11044,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 10 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 10 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 10 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 4 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 4 |\n\
 ) { 0.0 GWEI }
@@ -11172,36 +11085,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 8 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 8 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 8 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 5 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 5 |\n\
 ) { 0.0 GWEI }
@@ -11213,47 +11126,47 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 9 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 0 |\n\
 | uint | b | 9 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 9 |\n\
 )
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x7b055178F055Dec52330c23a368edA3c28279CAB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0x06E4B2B74Cd6B38E0C133783289B01D17B90c28E |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d14, tx: 0x2ae316541be2e589a6f6fc8846901e871e2f19de632c312a5a736ebb8d88b25e
+##### d14, tx: 0xaa6f2514068f520c10eccd490861c8aeafa9aa1b1a3977727160145f0c6cb141
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLfRJzjO47u_lsB4lhHgwFf-GIng2A5b9TIAelQXNLLZUvnOE7PqVDmb1Vxx7ZjEI4ek9H4Renf5EJwtcM--6VE1D8ozoGHoaGzYnZ0NQP8FFE8ikugI8N8SG4mzIe9ZzAzwFCsJe9F6AOS_JhkdtKwNiSDCZ68wOb3-z0a3ud1JJG7UfJpwaIO2utOSzP819K9Q3CNqmAdS79iSvdmOqzp6n-W7WMfCrpvW44H93rIbMhehnyC_An2iyd-MP56lBpBmHd39yp2KTfc8H4nmUPt0Eypw1w1SQqYwQfc6wf56fkEY5LgXxpY6vIegERPAMgYw0LcwvkkgXYRQkaMUvmIEusccjCdG5n9wztqRC8CzEUunIPk8_6Y8CjIE388oSSmbVIGkg1TbWe_EK__gcwAMLrQUc3VsTnxqw2ADQN9tTc7-QB6OJOvD9WkXNH8E9bv_mlJJrgz4jZgg1qO-OaZdAFgJQpFpFSPAEc7_Q1r9yEhL0MIvDuX4zpl6EOeeJLvyJRwomwfCMzLuTFiNYD6GG8u93ignk24VYkEtW9pZ26v1oD3FWam-VG6b1MeBj1ReBJ1QOC8_Yqw_vRBonXViLlLHvLMd1Uxanaku0UMr0cy_TyzawQuBguXyBiLbe55MhcqONn1moWgOwFloRHRoIRactTDFDDizyRj8bgseZXseQ9kcPUhsiMiRleME4LgBevY7M82U5bm9k8_PPc0b6RbV8EJIdXnkm2Fan0_W78TmSmTtJndMVH0Fyx2_Vm0N97AUm6QXUMaQIun5xV39wij5LAuhaIS2yWkLkUINH5MZdp2EWiloBTeCM1wLMHo_Y4KwLxv23r0yP-wAvVPmoDFlj7Fowf_UXtjFczVdMMeBb7WsbQLwRPN9Nc51ZlPZfEuPy3Vx9qd9cDIQhOZ2UvAcQzvoukRy_nzKLP3aHpLgh0TgemUx8A_-wMtqeD63HWz-EptG6ZtO1NdrJs-Z1uqUD7hms-c1tkZ1BiYhVteRFQYL7gXA8mZh1M72qfmYBADkXvAWAJMM1AEHX5sGL__qDf9GAqbm6aLOhmZE0a5mwlSlWbLZFJ0RFTW5UVLFRwC7jT83jz63zNhWBj03jtvwu3o6g77_d_JEsBWBbNsOQHuCI60KPpDmJfGJHL4AEEqumgp0KNYH7iGKM7lIAZQzTtHRzc_Axsj1FC4u7i7xVnCAeBrHCzciuTNzdwlsIwUcgHb64EgArR6COorK3SNLpOxPTkqGRSCrTUgIrJwTTphN9peptSBaj9-qUjp2r9A-quKRsxjPq9-wR6yBPxDzhFUpnngK1LwLENiZl_D1_1y0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xLfTRvj857sVNt6LVTcgJdS6Wu4e6zMVRLQAMgLHzs6xMbt3OADWi8QX6pV9Vz-1W8CJx6vi9-412p7CrvrppxqS_709UHzB53AP1OHW8gCmcOsv8F6b7yvHu0m2Fk6XsqFdSYAY97JxKH09-6Kq70txGqAEOxa8-0c1x3Vbw781rtaNu6Ca_1zHA37e1luadF5GAekUN2uOgSaxa_D4p0E-Cl75_y61wSknp-YwVZW1HlEXswmz_Yq7GVBpJyFOdqnb3EC5N8Z4yvHT8dqPSBYu2k4ZnjCZe5U87Kypc4uxbcTer66KEuwhszJgCCT2ZXxQY6pCi6sRfgcPh4EPRdZKwJXZfZEYA7EaWZxyr0MCuK2r1qJH9dt7dwDojQ-SuB7i2KKVb-TyuiTIBCuYv_8Voh8j6rUi6liZSIVyF0fuiRSyiBeq7OoBPKMd4je5nrbnwWDC3wR-ZsURlNfav0jw_0pbjDXMwXyGaj49XoS_8mdUlZs2E1dFV3dyZa62qe_2Nx-5tyXndgQjl3sv-HtaOiv1jI7EiZRTeHxIvJU0Gk02Ra0grq_TM3tz1RG5h0LQ2zejq5jWmDzLgpy8bNbt6ynMVZ6rrMg1NUnu0zT0tr7uyEVmLANkpznAFLy9SUQe7sTZM_hdkeB7AKnq7FKsI_L4hqR6GFTwcjVLXZqwqinsrw1wnsNKj6pD7c6_fnksgs6r5wiGKz3BXCi0Jp7U3gmY8t5IX4BPKyqrZ3aABexW3ETmVGktp-dMlHEFut1uU0JdN2OYXErS6qTHe32ckIEAqJTLLAvv5VDC-8g1xrvakReTZiJFkBfBzvIqZOdw24LzcKc7k_EvYBxprwEc_i5RE_TCOQnn8bLygyg1olHzfpXDKWkgDP_oCNXrTigVv8mFfRKxqO3t52p7nkjfMJd_6OZ84QYBwVNHOTRey1wfgN_m6XrkTBZHuVhfiDRey1wfgN_m6XrkTBZHuVhfSBlHuJrIK__WDJhyyZhCQ2F41GShIhoEc9UJOetMHuhrHehtI4tzWzT8ySjBiTKeiLKXnDQh_oNkr4U7ZKQ7zqXD_OFNwF3Bwx3TwB1TeSFsg-kmzUGakQ-gKJ08kQjg8vzBnKWkb-W7SGdNW0uefIckRk1Zd09AZIl3SecmMvIUBFUTt6JrOEf-9Ra8CGWMyEdVaBlGtQeufMnuSptPfldiqCx8SdMdPxHDnskRr6oZGzkqRp5xO9YeCsqmf9mzF7IbxgpKtS7aiZujVzp1r9ewjig9tO-fg7TRDxV3OUMwkFlUKmsg1C_JdBnNzsGM_0S0)
 
 
 ```plantuml
@@ -11275,7 +11188,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x2ae316541be2e589a6f6fc8846901e871e2f19de632c312a5a736ebb8d88b25e
+title Txn Hash: 0xaa6f2514068f520c10eccd490861c8aeafa9aa1b1a3977727160145f0c6cb141
 
 
 actor EOA as "EOA"
@@ -11293,30 +11206,26 @@ participant SafeMath_01 as "SafeMath_01"
 ) { 0.0 GWEI }
 "ContestBracketRegistryMock_01" -> "JudgeRole_01" ++: isJudge(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "JudgeRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |\n\
+| address | account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
-<#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| bool |  | true |\n\
-)
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 0 |\n\
 ) { 0.0 GWEI }
@@ -11328,36 +11237,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 7 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 7 |\n\
 | uint | b | 7 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 14 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 1 |\n\
 ) { 0.0 GWEI }
@@ -11369,36 +11278,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 7 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 7 |\n\
 | uint | b | 7 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 14 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 2 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 2 |\n\
 ) { 0.0 GWEI }
@@ -11410,36 +11319,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 7 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 7 |\n\
 | uint | b | 7 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 14 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 3 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 3 |\n\
 ) { 0.0 GWEI }
@@ -11451,36 +11360,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 10 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 10 |\n\
 | uint | b | 10 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 20 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 4 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 4 |\n\
 ) { 0.0 GWEI }
@@ -11492,36 +11401,36 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 8 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 8 |\n\
 | uint | b | 8 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 16 |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isValidTeamId(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 5 |\n\
 ) { 0.0 GWEI }
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
+"JudgeRole_01" -> "ContestTeamRegistry_01" ++: isTeamApproved(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | teamId | 5 |\n\
 ) { 0.0 GWEI }
@@ -11533,47 +11442,47 @@ participant SafeMath_01 as "SafeMath_01"
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestTeamRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestTeamRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
+"JudgeRole_01" -> "ContestBracketRegistry_01" ++: isValidGrade(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | grade | 9 |\n\
 ) { 0.0 GWEI }
-"ContestBracketRegistry_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"ContestBracketRegistry_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | bool |  | true |\n\
 )
-"ContestBracketRegistryMock_01" -> "SafeMath_01" ++: add(\n\
+"JudgeRole_01" -> "SafeMath_01" ++: add(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint | a | 9 |\n\
 | uint | b | 9 |\n\
 ) { 0.0 GWEI }
-"SafeMath_01" -> "ContestBracketRegistryMock_01" --: Return (\n\
+"SafeMath_01" -> "JudgeRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | uint |  | 18 |\n\
 )
-"ContestBracketRegistryMock_01" -> "EOA" --: 
+"JudgeRole_01" -> "ContestBracketRegistryMock_01" --: 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xe3b3D279DcEae670187d1a7556537B974c6a84f6 |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| JudgeRole_01 | JudgeRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| SafeMath_01 | SafeMath | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xF5D4fB2fA2EB0F273A5046d1078929FaCB459d2a |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| JudgeRole_01 | JudgeRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestTeamRegistry_01 | ContestTeamRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| SafeMath_01 | SafeMath | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d15, tx: 0x1a3ec9c57cecfefdfd30816410dc76117fa3365f53f738e707da6125e50a78dc
+##### d15, tx: 0x9c84f4e2c6fc2228a3abf503262155fbe73d9460cc3560efa7efd3c89e025c6b
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vZI_sefLj24TF20GGzeB4d8Sfur8dSfsjfR2_xvBcdOKQ2aWeYZddEtllkzoFeMG8ssOCiKe8uGL9fV5A1AAwDjKZfbY8yZ4GCYun_ZjGEM5Z8CyonLywOVzC0W9ETHcceaEWUeQ2XOB1RFw5U0aL-bTBWtBkbawa2CX3I8cPhcWZvDpo76XnfbOcVYLtWcmdANlWiLnAWTWqThrKDd3xpK9KiS_bJeT38s6Q0fNgaWIn2KcDPc0guc44wQ7RQ0JYzc2jxZhSy4JaSH9RDEcvJaMZRdlMPQVCDlstCIr4zzk2f_wCVEiXYjSolncp0ccZ1ka7fvtWMdOGRj3C6qcvUcOeTG0HGXjUWhJ9yob6AJQgEbPpczlg5LjsRXY5UnS3PZ4ZAZBF1EB_K-TgrjAfruiNRniGt4plGg4L7BXeFEQ2DZVRmFFSYt2Fomhc4bpkRj7NjjL0ZzJLs6bUkdVlPRNvB2kng-rxTp_03CT2q0hsQYoPMGSbCll0Sj82Qq1HvnZKHiSqOddEDr6ly6ZPk3p1eiY7ZA_xz5670PUCwPHv0PDc_NcA7im0_gDmi_VuIdMuGjKIm7Bd5V4Xqo_Zp0cfk0bIuLuQ6OG2QQ4QiCP6yFi0Hu-Kzf_4Iz_auE3DbmAKoW9xvCNvNc6FF56dRLtRrrANokRJoApHRMkFopLrx_P-WoyHUjMpEOdjLnDvlsSN3ng0R4mBCtqerGTqsDAQPagRDlO1t1GHi48PfcqxgBIbliwzrKdnEV422LPbatX_AyKCNJVLOkFWJTtqatpLL3NRJXEdDZK2podrqWiXxPiDt2xBMpoljDoRH4AhzjV3VgiupvnVG1wsPdhuGUWrdVmTNDl3OO5KvSDES8d_Ypy0m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLRVJzim47xtNt5YBo36vlngsefLb3OPF20GGzeB4d8Sfur8dSfsjfR2_xvBcdOKQ2aWeYZddEtllkzoFeMG8ssOCiKe8uGL9fV5A1AAwDjKZfbY8yZ4GCZucF7RWSeB6VVoB5Vm9Gp2e1SGSgZDD1CT0jKr52mM2cRrAy19hjAxN1gMTRDq84T26aHCp791Y9Dpo76XnfbOcVYLtWcmtANlWiLnAWTWqThrKDd3xpK9KiS_bJeT38s6Q0fNgaWIn2KcDPc0guc44wQ7RQ2J5c-wYIjitaYuRTjDvh0eyQXZDspByv98-4xSSXkKSyThK94mNoInmvijGMsFDoA2AUC6gGVdNM0QTj3k44oRINawPYYrXoA4DiSAqoVCfHYasgZfMSvlRwXLRTcuOXNiN0sOn8oeopmJY_rFdQjRIgTUB5syR4DnCxqAX5HouQ3pcWZOtsy3pt8jWZyiAvX9SxcxHrxRLG8_KrTXfNhftxsMr-ImhiQljUtS_m0p7Gj0AzceicLa79JBxm7BI0cj0KUSOr4R7D59l-K6aHrQRYFgqZ2n_B3RZLtXjopMTuD-ouvYnsdwtXnb3sP0lr7u-JiunJfyWMefO9dpYlYGwVSHniGKl6If40_D32B1b51jE6DZc3t0msTA-o_YvMzoSD26Is4A9U5zyg8ypv0dtgYpzkwjI-bhPVD9PBQerlM7fVhwDrkVWRTetOhP_AIMgycydvEBHoqW5eQbcNwKgZxjKqhBL67RnZw0Wp8AHZ3Bf7KNbRRSrxclEY4-9qOeoR9i2kT_fOYX-wvQV0oykPDkcg-2Di9cxF9Zp_5vulZKTnYd3kqrhLRVyvbhsVs02ijcgq6VTTmdhWz0BpjpFVm0rFeElcxkhS6mOEgo8KVun9-5Vm00)
 
 
 ```plantuml
@@ -11595,7 +11504,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x1a3ec9c57cecfefdfd30816410dc76117fa3365f53f738e707da6125e50a78dc
+title Txn Hash: 0x9c84f4e2c6fc2228a3abf503262155fbe73d9460cc3560efa7efd3c89e025c6b
 
 
 actor EOA as "EOA"
@@ -11607,12 +11516,12 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: closeEvaluation()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -11629,19 +11538,19 @@ participant ContestBracketRegistry_01 as "ContestBracketRegistry_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| ContestBracketRegistry_01 | ContestBracketRegistry | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
 ```
 
-##### d16, tx: 0x06132de8911e3e7f51a290b597a9ee27cec671dcbd4a7446f8db99069fab42bb
+##### d16, tx: 0xbfc653d8d6e3c48ce036bad066aba053f8ca0f31d177f76147729fcc88946cac
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLLjJzim4FxkNt5YNq0RcvFcfQbOHHlImGS4wf3s1Mco4wUDwZgLxMmjXV--Qvfs51XiJ5HLxdAsdtlknHT2ZerbsbPJIGYhRAcgAHUQc4cXPaopAKWn4YhhitGoqcMbihYKfOPtWsIGn0aXHyOkfEWIg7zZmJAXOTcy0foMkhWfbMMo9ukHcWfb4J6tsmq3N5n3pYezas9duMjn8y3njhPBbcM56e536zDTBOy-DIH8u_zCcM8qjWRu0gvqbUU8IsnXfO2hkO9JPiOTe7CQE2qt4-t8SKHBXBdlC3UYt8z25WdXXgb8Wz39KfvvBFIy86zdF8fe4EMCUoxd15EMMgIUNFI06TX3kKSmRRP8Ynd3K6CCGXZRrvW-OOTYL1Yh5-TbElbEdVh8ipjsmIxqY2dCY1wMKcpEFpJk7baPpMRhvcMFa9ef77PVyW_lttUmC5mMPZnaQh9_G5uwiG9zHAh6ASpMld-jhibHqqGV6jcz_GnsCHE0Kh5fBNymMQ6osduBM7qjZ07KqXHxqQ96vu7dzTo1c_9s7AOkupnDM3W8g9ibST3EAET-t6wn_Xhb09P0FrBuyYqvm_PvWkegW6sgQk9ZPbv761DJfIkM6l5GB84BfeNkm3cRmV8ExjuojDz1F5sJmyCE38Mjj8BNXSVBKY9F_6ESZVNWJobzgMtUYCnVTElwBg1_GjR3ZbpUkqAPiAoGvXwX4tf2ALqHmfc65mkLbHVqOBVKUfjwRizrR-inWS-v5LenAHTmyLE937glglXzuEV7p7FhjLFVTpqloriqY0Elx-QEHwEM7_kzACnny4L-IoGYw0rsdJuQHmzC_m6z7LkD-gzGMCEcakGOd_Xn-mK0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/jLNVJzim47xtNt5YBw2DpMdI9ArOHMdJmGC2TKXxGPeSnqcZkavbErjBuN_V9Kqx2Wms9gegTpdRttttmnT2ZerbsfOpIGWhRQ7AMImqCTDSpPbcCv0Y4oevONoQwQ9KoQ2GXOPtesWK3I92ZenTIj4ZKFycWYL2mwfv1JWjT7vJACjaN-QPcWbb4J6rsmqZN5n3paizbs9duMj-8y3njhPBbYIvoi2XZUckbaUV6XAayN-cJ9vDh85u2LUwJ5F49JQtKi3LGi4fCvCkq4MSSh_j9c7Y2vTx8HVKzMEMKDzdCQDjDmqvewdh94uGf87lU47GwgISXs77ypdZ15F6BLAFBlh03EoXt2EODflpVCumr0468OmzqPW-OSSYoutLo_E2JxzJfpxox8vTi0kTCOKPqUD2YitvXyRT8vNHRBPkNlO8gPd2OUyb__3-VHSB4ylSJCPCJVSFo4idAj17f6gSt6pj-zVgcXmrJVIXaRtRps2NSm4e5PlLyWUJ9IhLzbl0wcjX3A36EVQYHOqkXXqlYbiZn_FZFXsbJZ3gznDF11s73Rres6d5YUk6GNkDSW0he1yfVFaMdM7xF46r2c2RgfhuX9dN4SR4bBnYgH4FnGfYmRJGNJXdSrZTmTrRXlOxYAThSdZOXR6mfLRmkl3Yef384_yOPsCz-5DANsgRDoBp5zswlWledv3ri2ENzwvG8YpBfRb7Q4Y7bDAA4Cuql5YeL5xGWzrIws_gkJtNkwt713uNLcZ5f5p2nKyb4kY_gkBtWPyVCy-jrqxzKPXu_AJj1Znr0nguZ5EN3aAdCsm7p7DQmuWAfyLsdJuQHmzC_m6z7LkD-gzGMCEcakGOd_Xn-mK0)
 
 
 ```plantuml
@@ -11663,7 +11572,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x06132de8911e3e7f51a290b597a9ee27cec671dcbd4a7446f8db99069fab42bb
+title Txn Hash: 0xbfc653d8d6e3c48ce036bad066aba053f8ca0f31d177f76147729fcc88946cac
 
 
 actor EOA as "EOA"
@@ -11674,12 +11583,12 @@ participant Roles_01 as "Roles_01"
 "EOA" -> "ContestBracketRegistryMock_01" ++: publishRank()
 "ContestBracketRegistryMock_01" -> "OrganizerRole_01" ++: isOrganizer(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "OrganizerRole_01" -> "Roles_01" ++: has(\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
 | struct | role | { bearer: Map {} } |\n\
-| address | account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |\n\
+| address | account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |\n\
 ) { 0.0 GWEI }
 "Roles_01" -> "OrganizerRole_01" --: Return (\n\
 <#FEFECE,#FEFECE>|= type |= name |= value |\n\
@@ -11694,10 +11603,10 @@ participant Roles_01 as "Roles_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x644A2F2cb8C7c2abbcEa7F602dEC68d0bb5C83aB |
-<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
-<#FEFECE>| Roles_01 | Roles | 0x55244df306C64B2f140935C5A97fa74953eEe6AF |
+<#FEFECE>| EOA | Externally Owned Account | 0xD94Eb2F146bA0Ff17FAAd4e791aD4ED92bd33875 |
+<#FEFECE>| ContestBracketRegistryMock_01 | ContestBracketRegistryMock | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| OrganizerRole_01 | OrganizerRole | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
+<#FEFECE>| Roles_01 | Roles | 0x6F8d4cB537cf37073ac030C819D57a412DE0e12a |
 endlegend
 
 @enduml
