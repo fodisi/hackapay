@@ -1,6 +1,8 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: UNLICENSED
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+pragma solidity >=0.7.0 <0.8.0;
+
+import "@openzeppelin/contracts/math/SafeMath.sol";
 
 import "./ContestBracketRegistry.sol";
 import "../payment/Payable.sol";
@@ -70,7 +72,6 @@ contract Hackathon is Payable, ContestBracketRegistry {
         @param _description {bytes32} Hackathon's description. Optional.
      */
     constructor(uint256 _id, bytes32 _name, bytes32 _description, address initialOrganizer)
-        public
         ContestBracketRegistry(initialOrganizer)
     {
         require(_name[0] != 0, "Invalid name");
@@ -97,7 +98,7 @@ contract Hackathon is Payable, ContestBracketRegistry {
         secondPlacePrize = Prize(secondPrize, false);
         thirdPlacePrize = Prize(thirdPrize, false);
         prizesAllocated = true;
-        emit PrizeAllocation(firstPrize, secondPrize, thirdPrize, msg.sender, now);
+        emit PrizeAllocation(firstPrize, secondPrize, thirdPrize, msg.sender, block.timestamp);
     }
 
     /**
@@ -137,9 +138,9 @@ contract Hackathon is Payable, ContestBracketRegistry {
             revert("Invalid address. Address check failed. Should not reach this point.");
         }
 
-        emit Withdraw(teamAddress, amount, rankPosition, msg.sender, now);
+        emit Withdraw(teamAddress, amount, rankPosition, msg.sender, block.timestamp);
         // Pays winner using team addres.
-        IPayable(teamAddress).deposit.value(amount)();
+        IPayable(teamAddress).deposit{value: amount}();
     }
 
     /**

@@ -1,6 +1,8 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: UNLICENSED
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+pragma solidity >=0.7.0 <0.8.0;
+
+import "@openzeppelin/contracts/math/SafeMath.sol";
 
 import "./ContestTeamRegistry.sol";
 import "../roles/ContestRoleManager.sol";
@@ -8,7 +10,7 @@ import "../roles/ContestRoleManager.sol";
 /**
     @notice Controls the evaluation process by the judges and publishing of final results.
  */
-contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
+abstract contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     using SafeMath for uint256;
 
     /// @notice Represetns a judge evaluating the teams in the contest.
@@ -58,7 +60,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
 
     ///@dev This class needs to be inherited - internal visibility
     /// @param initialOrganizer Represents the organizer who owns the contest, initially.
-    constructor(address initialOrganizer) internal ContestTeamRegistry() ContestRoleManager(initialOrganizer) {}
+    constructor(address initialOrganizer) ContestTeamRegistry() ContestRoleManager(initialOrganizer) {}
 
     /**
         @notice Allows a judge to submit its evaluation for the teams competing in the contest. The evaluation for all
@@ -164,7 +166,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         @notice Closes the registration process
         @dev Overwritten to add modifier for access control.
      */
-    function closeRegistration() external registrationIsOpen onlyOrganizer {
+    function closeRegistration() external override registrationIsOpen onlyOrganizer {
         super._closeRegistration();
     }
 
@@ -172,7 +174,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         @notice Opens the registration process
         @dev Overwritten to add modifier for access control.
      */
-    function openRegistration() external registrationIsClosed onlyOrganizer {
+    function openRegistration() external override registrationIsClosed onlyOrganizer {
         super._openRegistration();
     }
 
@@ -180,7 +182,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         @notice Closes the proposal submission process
         @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
-    function closeSubmission() external submissionIsOpen onlyOrganizer {
+    function closeSubmission() external override submissionIsOpen onlyOrganizer {
         super._closeSubmission();
     }
 
@@ -188,7 +190,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
         @notice Opens the proposal submission process
         @dev Should be overwritten on inherited contract to add modifier or require statements for access control.
      */
-    function openSubmission() external submissionIsClosed onlyOrganizer {
+    function openSubmission() external override submissionIsClosed onlyOrganizer {
         super._openSubmission();
     }
 
@@ -229,7 +231,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     }
 
     /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.
-    function _addJudge(address account) internal {
+    function _addJudge(address account) internal override {
         // TODO: check if can re-add previously removed judges to be added.
         // require(judgeByAddress[account].judgeAddress == address(0));
         super._addJudge(account);
@@ -241,7 +243,7 @@ contract ContestBracketRegistry is ContestTeamRegistry, ContestRoleManager {
     }
 
     /// @dev Overrides {JudgeRole} internal method, to properly update internal storage related to team members.
-    function _removeJudge(address account) internal {
+    function _removeJudge(address account) internal override {
         super._removeJudge(account);
         Judge storage judge = judgeByAddress[account];
         judge.active = false;

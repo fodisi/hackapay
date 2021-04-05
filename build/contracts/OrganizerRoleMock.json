@@ -3,7 +3,6 @@
   "abi": [
     {
       "inputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "constructor"
     },
@@ -34,7 +33,6 @@
       "type": "event"
     },
     {
-      "constant": false,
       "inputs": [
         {
           "internalType": "address",
@@ -44,12 +42,10 @@
       ],
       "name": "addOrganizer",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": true,
       "inputs": [
         {
           "internalType": "address",
@@ -65,21 +61,17 @@
           "type": "bool"
         }
       ],
-      "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [],
       "name": "renounceOrganizer",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": false,
       "inputs": [
         {
           "internalType": "address",
@@ -89,182 +81,176 @@
       ],
       "name": "removeOrganizer",
       "outputs": [],
-      "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
-      "constant": true,
       "inputs": [],
       "name": "onlyOrganizerMock",
       "outputs": [],
-      "payable": false,
       "stateMutability": "view",
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"onlyOrganizerMock\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol\":\"OrganizerRoleMock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol\":{\"keccak256\":\"0x6fb0819aa964e85b8a82bc746a574b33491616187a3bebeae5605f5a2d266d78\",\"urls\":[\"bzz-raw://3cd4eba9d50dcd27b37157647b3d9b1fe3802bd4d4d057464c54c3d6ac9cb1f5\",\"dweb:/ipfs/QmfT31tnH4rBFSErHUy3kkuNa8RaXg3JGcYkahwCz2HYE5\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0x0e35454f69f874f4356b5b0aff68123f26773fbf514028d68b710ac553ee0910\",\"urls\":[\"bzz-raw://fea5d97d3592c0d0ebacb85802ed5e7bdc695c6d328bc128f0a725cb0a51e154\",\"dweb:/ipfs/QmRVkhYPrCRnkpxBonthuUzAQu9cnCxVNDZBuCwA98LzgB\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50338061007e57604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601460248201527f496e76616c6964207a65726f2061646472657373000000000000000000000000604482015290519081900360640190fd5b610090816001600160e01b0361009616565b5061020a565b6100ae8160006100e560201b6102b41790919060201c565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6100f882826001600160e01b0361018916565b1561016457604080517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b0382166101ea576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260228152602001806106606022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b610447806102196000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c806341676f151461005c57806344ade56d14610096578063478370df146100be578063567ad862146100c6578063e4725f02146100ce575b600080fd5b6100826004803603602081101561007257600080fd5b50356001600160a01b03166100f4565b604080519115158252519081900360200190f35b6100bc600480360360208110156100ac57600080fd5b50356001600160a01b031661010c565b005b6100bc610118565b6100bc61015e565b6100bc600480360360208110156100e457600080fd5b50356001600160a01b0316610167565b6000610106818363ffffffff6101b416565b92915050565b6101158161021b565b50565b610121336100f4565b61015c5760405162461bcd60e51b815260040180806020018281038252603381526020018061039d6033913960400191505060405180910390fd5b565b61015c3361021b565b610170336100f4565b6101ab5760405162461bcd60e51b815260040180806020018281038252603381526020018061039d6033913960400191505060405180910390fd5b61011581610224565b60006001600160a01b0382166101fb5760405162461bcd60e51b81526004018080602001828103825260228152602001806103f16022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6101158161026c565b61023560008263ffffffff6102b416565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b61027d60008263ffffffff61033516565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b6102be82826101b4565b15610310576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b61033f82826101b4565b61037a5760405162461bcd60e51b81526004018080602001828103825260218152602001806103d06021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a265627a7a723158204cd5c7f9a1be36a2ee47d4db33c0644ad0f13f97ddfce5a4a2526a416fc6029664736f6c634300050c0032526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c806341676f151461005c57806344ade56d14610096578063478370df146100be578063567ad862146100c6578063e4725f02146100ce575b600080fd5b6100826004803603602081101561007257600080fd5b50356001600160a01b03166100f4565b604080519115158252519081900360200190f35b6100bc600480360360208110156100ac57600080fd5b50356001600160a01b031661010c565b005b6100bc610118565b6100bc61015e565b6100bc600480360360208110156100e457600080fd5b50356001600160a01b0316610167565b6000610106818363ffffffff6101b416565b92915050565b6101158161021b565b50565b610121336100f4565b61015c5760405162461bcd60e51b815260040180806020018281038252603381526020018061039d6033913960400191505060405180910390fd5b565b61015c3361021b565b610170336100f4565b6101ab5760405162461bcd60e51b815260040180806020018281038252603381526020018061039d6033913960400191505060405180910390fd5b61011581610224565b60006001600160a01b0382166101fb5760405162461bcd60e51b81526004018080602001828103825260228152602001806103f16022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b6101158161026c565b61023560008263ffffffff6102b416565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b61027d60008263ffffffff61033516565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b6102be82826101b4565b15610310576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b61033f82826101b4565b61037a5760405162461bcd60e51b81526004018080602001828103825260218152602001806103d06021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a265627a7a723158204cd5c7f9a1be36a2ee47d4db33c0644ad0f13f97ddfce5a4a2526a416fc6029664736f6c634300050c0032",
-  "sourceMap": "1345:505:15:-;;;1395:49;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;1430:10:15;1889:30:22;1881:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1954:31;1968:16;-1:-1:-1;;;;;1954:13:22;:31;:::i;:::-;1824:168;1345:505:15;;2455:128:22;2514:24;2530:7;2514:11;:15;;;;;;:24;;;;:::i;:::-;2553:23;;-1:-1:-1;;;;;2553:23:22;;;;;;;;2455:128;:::o;260:175:24:-;337:18;341:4;347:7;-1:-1:-1;;;;;337:3:24;:18;:::i;:::-;336:19;328:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:24;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:24;424:4;401:27;;;260:175::o;779:200::-;851:4;-1:-1:-1;;;;;875:21:24;;867:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:24;:11;:20;;;;;;;;;;;;;;;779:200::o;1345:505:15:-;;;;;;;",
-  "deployedSourceMap": "1345:505:15:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1345:505:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2144:113:22;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2144:113:22;-1:-1:-1;;;;;2144:113:22;;:::i;:::-;;;;;;;;;;;;;;;;;;1450:91:15;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1450:91:15;-1:-1:-1;;;;;1450:91:15;;:::i;:::-;;1547:119;;;:::i;2368:81:22:-;;;:::i;2263:99::-;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;2263:99:22;-1:-1:-1;;;;;2263:99:22;;:::i;2144:113::-;2203:4;2226:24;2203:4;2242:7;2226:24;:15;:24;:::i;:::-;2219:31;2144:113;-1:-1:-1;;2144:113:22:o;1450:91:15:-;1509:25;1526:7;1509:16;:25::i;:::-;1450:91;:::o;1547:119::-;2041:23:22;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;2033:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1547:119:15:o;2368:81:22:-;2414:28;2431:10;2414:16;:28::i;2263:99::-;2041:23;2053:10;2041:11;:23::i;:::-;2033:87;;;;-1:-1:-1;;;2033:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2333:22;2347:7;2333:13;:22::i;779:200:24:-;851:4;-1:-1:-1;;;;;875:21:24;;867:68;;;;-1:-1:-1;;;867:68:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;952:20:24;:11;:20;;;;;;;;;;;;;;;779:200::o;1748:100:15:-;1810:31;1833:7;1810:22;:31::i;2455:128:22:-;2514:24;:11;2530:7;2514:24;:15;:24;:::i;:::-;2553:23;;-1:-1:-1;;;;;2553:23:22;;;;;;;;2455:128;:::o;2589:136::-;2651:27;:11;2670:7;2651:27;:18;:27;:::i;:::-;2693:25;;-1:-1:-1;;;;;2693:25:22;;;;;;;;2589:136;:::o;260:175:24:-;337:18;341:4;347:7;337:3;:18::i;:::-;336:19;328:63;;;;;-1:-1:-1;;;328:63:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;401:20:24;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;401:27:24;424:4;401:27;;;260:175::o;510:180::-;589:18;593:4;599:7;589:3;:18::i;:::-;581:64;;;;-1:-1:-1;;;581:64:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;655:20:24;678:5;655:20;;;;;;;;;;;:28;;-1:-1:-1;;655:28:24;;;510:180::o",
-  "source": "// The MIT License(MIT)\n\n// Copyright(c) 2016 - 2019 zOS Global Limited\n\n// Permission is hereby granted, free of charge, to any person obtaining\n// a copy of this software and associated documentation files(the\n// \"Software\"), to deal in the Software without restriction, including\n// without limitation the rights to use, copy, modify, merge, publish,\n//   distribute, sublicense, and / or sell copies of the Software, and to\n// permit persons to whom the Software is furnished to do so, subject to\n// the following conditions:\n\n// The above copyright notice and this permission notice shall be included\n//   in all copies or substantial portions of the Software.\n\n// THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\n// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n// IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n// CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n//   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n// SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n// Based on OpenZeppelin's https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/mocks/MinterRoleMock.sol\n\npragma solidity ^0.5.0;\n\nimport \"../roles/OrganizerRole.sol\";\n\ncontract OrganizerRoleMock is OrganizerRole {\n    constructor() public OrganizerRole(msg.sender) {}\n\n    function removeOrganizer(address account) public {\n        _removeOrganizer(account);\n    }\n\n    function onlyOrganizerMock() public view onlyOrganizer {\n        // solhint-disable-previous-line no-empty-blocks\n    }\n\n    // Causes a compilation error if super._removeOrganizer is not internal\n    function _removeOrganizer(address account) internal {\n        super._removeOrganizer(account);\n    }\n}\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OrganizerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addOrganizer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isOrganizer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"onlyOrganizerMock\",\"outputs\":[],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"removeOrganizer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOrganizer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol\":\"OrganizerRoleMock\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol\":{\"keccak256\":\"0x3e4ad341206df85e1944fddc18a961c6d839b81ca27a26621e2bdb02d66e2d68\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://d6e2fbd6c6982b4ab3ee096b9d2cbe6557cac08a735f7ebc3868be03262c1100\",\"dweb:/ipfs/QmSRbwzcvkfNv69nwo4JLLRUqzEQzb5jvL3891TozCFsCj\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol\":{\"keccak256\":\"0x0c17393f30884f60b569af8fa1b984136bff5cf02514e591a4f9dcb6037e8820\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://f9b90fa964b5298679ec55ac6a385e0c0d1a47943b2dc8f702f936ffc86b3073\",\"dweb:/ipfs/QmWoGAkt4iqkX9oD2gFo9ncPDcJga6u8PpK3SZDYpwGgS7\"]},\"/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/Roles.sol\":{\"keccak256\":\"0xa2b42f0e55cbc7aa021e27a6d433231aef7afa7bcb67ad2b591122d4cffa2b10\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://251d332eafdcc13078f201e14296a0280e29cce88040905d786d4571bba84eea\",\"dweb:/ipfs/QmWYu8To6JMBy46CgXVv9o7biZbsARWh4H5h2zpcjGW6qG\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b503380610064576040805162461bcd60e51b815260206004820152601460248201527f496e76616c6964207a65726f2061646472657373000000000000000000000000604482015290519081900360640190fd5b61006d81610073565b506101aa565b61008b8160006100c260201b6101ae1790919060201c565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6100cc8282610143565b1561011e576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b03821661018a5760405162461bcd60e51b81526004018080602001828103825260228152602001806105ef6022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b610436806101b96000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c806341676f151461005c57806344ade56d14610096578063478370df146100be578063567ad862146100c6578063e4725f02146100ce575b600080fd5b6100826004803603602081101561007257600080fd5b50356001600160a01b03166100f4565b604080519115158252519081900360200190f35b6100bc600480360360208110156100ac57600080fd5b50356001600160a01b0316610106565b005b6100bc610112565b6100bc610158565b6100bc600480360360208110156100e457600080fd5b50356001600160a01b0316610161565b6000610100818361022f565b92915050565b61010f81610296565b50565b61011b336100f4565b6101565760405162461bcd60e51b815260040180806020018281038252603381526020018061038b6033913960400191505060405180910390fd5b565b61015633610296565b61016a336100f4565b6101a55760405162461bcd60e51b815260040180806020018281038252603381526020018061038b6033913960400191505060405180910390fd5b61010f8161029f565b6101b8828261022f565b1561020a576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b0382166102765760405162461bcd60e51b81526004018080602001828103825260228152602001806103df6022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61010f816102e1565b6102aa6000826101ae565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6102ec600082610323565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b61032d828261022f565b6103685760405162461bcd60e51b81526004018080602001828103825260218152602001806103be6021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a26469706673582212201c516e20a23980e7f69851cbebe895d0287e20457ddb8dd1b4af180d8c88781064736f6c63430007060033526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c806341676f151461005c57806344ade56d14610096578063478370df146100be578063567ad862146100c6578063e4725f02146100ce575b600080fd5b6100826004803603602081101561007257600080fd5b50356001600160a01b03166100f4565b604080519115158252519081900360200190f35b6100bc600480360360208110156100ac57600080fd5b50356001600160a01b0316610106565b005b6100bc610112565b6100bc610158565b6100bc600480360360208110156100e457600080fd5b50356001600160a01b0316610161565b6000610100818361022f565b92915050565b61010f81610296565b50565b61011b336100f4565b6101565760405162461bcd60e51b815260040180806020018281038252603381526020018061038b6033913960400191505060405180910390fd5b565b61015633610296565b61016a336100f4565b6101a55760405162461bcd60e51b815260040180806020018281038252603381526020018061038b6033913960400191505060405180910390fd5b61010f8161029f565b6101b8828261022f565b1561020a576040805162461bcd60e51b815260206004820152601f60248201527f526f6c65733a206163636f756e7420616c72656164792068617320726f6c6500604482015290519081900360640190fd5b6001600160a01b0316600090815260209190915260409020805460ff19166001179055565b60006001600160a01b0382166102765760405162461bcd60e51b81526004018080602001828103825260228152602001806103df6022913960400191505060405180910390fd5b506001600160a01b03166000908152602091909152604090205460ff1690565b61010f816102e1565b6102aa6000826101ae565b6040516001600160a01b038216907f37e96fc6762bae414e69ea6e2490e63bc46f2a1335de0f6b91f49cf808829bcf90600090a250565b6102ec600082610323565b6040516001600160a01b038216907fc459bd414676a5877fcf10a0d73ecf7e1f672a339650b03e628c4046534300e390600090a250565b61032d828261022f565b6103685760405162461bcd60e51b81526004018080602001828103825260218152602001806103be6021913960400191505060405180910390fd5b6001600160a01b0316600090815260209190915260409020805460ff1916905556fe4f7267616e697a6572526f6c653a2063616c6c657220646f6573206e6f742068617665204f7267616e697a657220526f6c652e526f6c65733a206163636f756e7420646f6573206e6f74206861766520726f6c65526f6c65733a206163636f756e7420697320746865207a65726f2061646472657373a26469706673582212201c516e20a23980e7f69851cbebe895d0287e20457ddb8dd1b4af180d8c88781064736f6c63430007060033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "241:507:15:-:0;;;291:42;;;;;;;;;-1:-1:-1;319:10:15;748:30:22;740:63;;;;;-1:-1:-1;;;740:63:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;813:31;827:16;813:13;:31::i;:::-;692:159;241:507:15;;1314:136:22;1381:24;1397:7;1381:11;:15;;;;;;:24;;;;:::i;:::-;1420:23;;-1:-1:-1;;;;;1420:23:22;;;;;;;;1314:136;:::o;423:175:23:-;500:18;504:4;510:7;500:3;:18::i;:::-;499:19;491:63;;;;;-1:-1:-1;;;491:63:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;564:20:23;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;564:27:23;587:4;564:27;;;423:175::o;942:200::-;1014:4;-1:-1:-1;;;;;1038:21:23;;1030:68;;;;-1:-1:-1;;;1030:68:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;1115:20:23;:11;:20;;;;;;;;;;;;;;;942:200::o;241:507:15:-;;;;;;;",
+  "deployedSourceMap": "241:507:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1003:113:22;;;;;;;;;;;;;;;;-1:-1:-1;1003:113:22;-1:-1:-1;;;;;1003:113:22;;:::i;:::-;;;;;;;;;;;;;;;;;;339:91:15;;;;;;;;;;;;;;;;-1:-1:-1;339:91:15;-1:-1:-1;;;;;339:91:15;;:::i;:::-;;436:119;;;:::i;1227:81:22:-;;;:::i;1122:99::-;;;;;;;;;;;;;;;;-1:-1:-1;1122:99:22;-1:-1:-1;;;;;1122:99:22;;:::i;1003:113::-;1062:4;1085:24;1062:4;1101:7;1085:15;:24::i;:::-;1078:31;1003:113;-1:-1:-1;;1003:113:22:o;339:91:15:-;398:25;415:7;398:16;:25::i;:::-;339:91;:::o;436:119::-;900:23:22;912:10;900:11;:23::i;:::-;892:87;;;;-1:-1:-1;;;892:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;436:119:15:o;1227:81:22:-;1273:28;1290:10;1273:16;:28::i;1122:99::-;900:23;912:10;900:11;:23::i;:::-;892:87;;;;-1:-1:-1;;;892:87:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1192:22:::1;1206:7;1192:13;:22::i;423:175:23:-:0;500:18;504:4;510:7;500:3;:18::i;:::-;499:19;491:63;;;;;-1:-1:-1;;;491:63:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;564:20:23;:11;:20;;;;;;;;;;;:27;;-1:-1:-1;;564:27:23;587:4;564:27;;;423:175::o;942:200::-;1014:4;-1:-1:-1;;;;;1038:21:23;;1030:68;;;;-1:-1:-1;;;1030:68:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;;1115:20:23;:11;:20;;;;;;;;;;;;;;;942:200::o;637:109:15:-;708:31;731:7;708:22;:31::i;1314:136:22:-;1381:24;:11;1397:7;1381:15;:24::i;:::-;1420:23;;-1:-1:-1;;;;;1420:23:22;;;;;;;;1314:136;:::o;1456:144::-;1526:27;:11;1545:7;1526:18;:27::i;:::-;1568:25;;-1:-1:-1;;;;;1568:25:22;;;;;;;;1456:144;:::o;673:180:23:-;752:18;756:4;762:7;752:3;:18::i;:::-;744:64;;;;-1:-1:-1;;;744:64:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;818:20:23;841:5;818:20;;;;;;;;;;;:28;;-1:-1:-1;;818:28:23;;;673:180::o",
+  "source": "// SPDX-License-Identifier: UNLICENSED\n\n// Based on OpenZeppelin's https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/mocks/MinterRoleMock.sol\n\npragma solidity >=0.7.0 <0.8.0;\n\nimport \"../roles/OrganizerRole.sol\";\n\ncontract OrganizerRoleMock is OrganizerRole {\n    constructor() OrganizerRole(msg.sender) {}\n\n    function removeOrganizer(address account) public {\n        _removeOrganizer(account);\n    }\n\n    function onlyOrganizerMock() public view onlyOrganizer {\n        // solhint-disable-previous-line no-empty-blocks\n    }\n\n    // Causes a compilation error if super._removeOrganizer is not internal\n    function _removeOrganizer(address account) internal override {\n        super._removeOrganizer(account);\n    }\n}\n",
   "sourcePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
   "ast": {
     "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
     "exportedSymbols": {
-      "OrganizerRoleMock": [2810]
+      "OrganizerRole": [3532],
+      "OrganizerRoleMock": [2924],
+      "Roles": [3618]
     },
-    "id": 2811,
+    "id": 2925,
+    "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2770,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 2883,
+        "literals": ["solidity", ">=", "0.7", ".0", "<", "0.8", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "1282:23:15"
+        "src": "170:31:15"
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol",
         "file": "../roles/OrganizerRole.sol",
-        "id": 2771,
+        "id": 2884,
         "nodeType": "ImportDirective",
-        "scope": 2811,
-        "sourceUnit": 3402,
-        "src": "1307:36:15",
+        "scope": 2925,
+        "sourceUnit": 3533,
+        "src": "203:36:15",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
+        "abstract": false,
         "baseContracts": [
           {
-            "arguments": null,
             "baseName": {
-              "contractScope": null,
-              "id": 2772,
+              "id": 2885,
               "name": "OrganizerRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3401,
-              "src": "1375:13:15",
+              "referencedDeclaration": 3532,
+              "src": "271:13:15",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_OrganizerRole_$3401",
+                "typeIdentifier": "t_contract$_OrganizerRole_$3532",
                 "typeString": "contract OrganizerRole"
               }
             },
-            "id": 2773,
+            "id": 2886,
             "nodeType": "InheritanceSpecifier",
-            "src": "1375:13:15"
+            "src": "271:13:15"
           }
         ],
-        "contractDependencies": [3401],
+        "contractDependencies": [3532],
         "contractKind": "contract",
-        "documentation": null,
         "fullyImplemented": true,
-        "id": 2810,
-        "linearizedBaseContracts": [2810, 3401],
+        "id": 2924,
+        "linearizedBaseContracts": [2924, 3532],
         "name": "OrganizerRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2780,
+              "id": 2893,
               "nodeType": "Block",
-              "src": "1442:2:15",
+              "src": "331:2:15",
               "statements": []
             },
-            "documentation": null,
-            "id": 2781,
+            "id": 2894,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [
                   {
-                    "argumentTypes": null,
                     "expression": {
-                      "argumentTypes": null,
-                      "id": 2776,
+                      "id": 2889,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4230,
-                      "src": "1430:3:15",
+                      "referencedDeclaration": 4294967281,
+                      "src": "319:3:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2777,
+                    "id": 2890,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "sender",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": null,
-                    "src": "1430:10:15",
+                    "src": "319:10:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
                       "typeString": "address payable"
                     }
                   }
                 ],
-                "id": 2778,
+                "id": 2891,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2775,
+                  "id": 2888,
                   "name": "OrganizerRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3401,
-                  "src": "1416:13:15",
+                  "referencedDeclaration": 3532,
+                  "src": "305:13:15",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3401_$",
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3532_$",
                     "typeString": "type(contract OrganizerRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1416:25:15"
+                "src": "305:25:15"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2774,
+              "id": 2887,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1406:2:15"
+              "src": "302:2:15"
             },
             "returnParameters": {
-              "id": 2779,
+              "id": 2892,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1442:0:15"
+              "src": "331:0:15"
             },
-            "scope": 2810,
-            "src": "1395:49:15",
+            "scope": 2924,
+            "src": "291:42:15",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2790,
+              "id": 2903,
               "nodeType": "Block",
-              "src": "1499:42:15",
+              "src": "388:42:15",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [
                       {
-                        "argumentTypes": null,
-                        "id": 2787,
+                        "id": 2900,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2783,
-                        "src": "1526:7:15",
+                        "referencedDeclaration": 2896,
+                        "src": "415:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -278,18 +264,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2786,
+                      "id": 2899,
                       "name": "_removeOrganizer",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [2809],
-                      "referencedDeclaration": 2809,
-                      "src": "1509:16:15",
+                      "overloadedDeclarations": [2923],
+                      "referencedDeclaration": 2923,
+                      "src": "398:16:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2788,
+                    "id": 2901,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -297,36 +283,38 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1509:25:15",
+                    "src": "398:25:15",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2789,
+                  "id": 2902,
                   "nodeType": "ExpressionStatement",
-                  "src": "1509:25:15"
+                  "src": "398:25:15"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2791,
+            "functionSelector": "44ade56d",
+            "id": 2904,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeOrganizer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2784,
+              "id": 2897,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2783,
+                  "id": 2896,
+                  "mutability": "mutable",
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2791,
-                  "src": "1475:15:15",
+                  "scope": 2904,
+                  "src": "364:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -334,104 +322,100 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2782,
+                    "id": 2895,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1475:7:15",
+                    "src": "364:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "1474:17:15"
+              "src": "363:17:15"
             },
             "returnParameters": {
-              "id": 2785,
+              "id": 2898,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1499:0:15"
+              "src": "388:0:15"
             },
-            "scope": 2810,
-            "src": "1450:91:15",
+            "scope": 2924,
+            "src": "339:91:15",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2796,
+              "id": 2909,
               "nodeType": "Block",
-              "src": "1602:64:15",
+              "src": "491:64:15",
               "statements": []
             },
-            "documentation": null,
-            "id": 2797,
+            "functionSelector": "478370df",
+            "id": 2910,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2794,
+                "id": 2907,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2793,
+                  "id": 2906,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3334,
-                  "src": "1588:13:15",
+                  "referencedDeclaration": 3465,
+                  "src": "477:13:15",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1588:13:15"
+                "src": "477:13:15"
               }
             ],
             "name": "onlyOrganizerMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2792,
+              "id": 2905,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1573:2:15"
+              "src": "462:2:15"
             },
             "returnParameters": {
-              "id": 2795,
+              "id": 2908,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1602:0:15"
+              "src": "491:0:15"
             },
-            "scope": 2810,
-            "src": "1547:119:15",
+            "scope": 2924,
+            "src": "436:119:15",
             "stateMutability": "view",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
+            "baseFunctions": [3531],
             "body": {
-              "id": 2808,
+              "id": 2922,
               "nodeType": "Block",
-              "src": "1800:48:15",
+              "src": "698:48:15",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [
                       {
-                        "argumentTypes": null,
-                        "id": 2805,
+                        "id": 2919,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2799,
-                        "src": "1833:7:15",
+                        "referencedDeclaration": 2912,
+                        "src": "731:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -446,33 +430,32 @@
                         }
                       ],
                       "expression": {
-                        "argumentTypes": null,
-                        "id": 2802,
+                        "id": 2916,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4291,
-                        "src": "1810:5:15",
+                        "referencedDeclaration": 4294967271,
+                        "src": "708:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2810",
+                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2924",
                           "typeString": "contract super OrganizerRoleMock"
                         }
                       },
-                      "id": 2804,
+                      "id": 2918,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeOrganizer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3400,
-                      "src": "1810:22:15",
+                      "referencedDeclaration": 3531,
+                      "src": "708:22:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2806,
+                    "id": 2920,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -480,36 +463,43 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1810:31:15",
+                    "src": "708:31:15",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2807,
+                  "id": 2921,
                   "nodeType": "ExpressionStatement",
-                  "src": "1810:31:15"
+                  "src": "708:31:15"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2809,
+            "id": 2923,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeOrganizer",
             "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 2914,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "689:8:15"
+            },
             "parameters": {
-              "id": 2800,
+              "id": 2913,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2799,
+                  "id": 2912,
+                  "mutability": "mutable",
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2809,
-                  "src": "1774:15:15",
+                  "scope": 2923,
+                  "src": "663:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -517,196 +507,189 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2798,
+                    "id": 2911,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1774:7:15",
+                    "src": "663:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "1773:17:15"
+              "src": "662:17:15"
             },
             "returnParameters": {
-              "id": 2801,
+              "id": 2915,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1800:0:15"
+              "src": "698:0:15"
             },
-            "scope": 2810,
-            "src": "1748:100:15",
+            "scope": 2924,
+            "src": "637:109:15",
             "stateMutability": "nonpayable",
-            "superFunction": 3400,
+            "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 2811,
-        "src": "1345:505:15"
+        "scope": 2925,
+        "src": "241:507:15"
       }
     ],
-    "src": "1282:569:15"
+    "src": "170:579:15"
   },
   "legacyAST": {
     "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/mocks/OrganizerRoleMock.sol",
     "exportedSymbols": {
-      "OrganizerRoleMock": [2810]
+      "OrganizerRole": [3532],
+      "OrganizerRoleMock": [2924],
+      "Roles": [3618]
     },
-    "id": 2811,
+    "id": 2925,
+    "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2770,
-        "literals": ["solidity", "^", "0.5", ".0"],
+        "id": 2883,
+        "literals": ["solidity", ">=", "0.7", ".0", "<", "0.8", ".0"],
         "nodeType": "PragmaDirective",
-        "src": "1282:23:15"
+        "src": "170:31:15"
       },
       {
         "absolutePath": "/media/fodisi/56401C55401C3DE5/dev/Projects/hackapay/contracts/roles/OrganizerRole.sol",
         "file": "../roles/OrganizerRole.sol",
-        "id": 2771,
+        "id": 2884,
         "nodeType": "ImportDirective",
-        "scope": 2811,
-        "sourceUnit": 3402,
-        "src": "1307:36:15",
+        "scope": 2925,
+        "sourceUnit": 3533,
+        "src": "203:36:15",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
+        "abstract": false,
         "baseContracts": [
           {
-            "arguments": null,
             "baseName": {
-              "contractScope": null,
-              "id": 2772,
+              "id": 2885,
               "name": "OrganizerRole",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3401,
-              "src": "1375:13:15",
+              "referencedDeclaration": 3532,
+              "src": "271:13:15",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_OrganizerRole_$3401",
+                "typeIdentifier": "t_contract$_OrganizerRole_$3532",
                 "typeString": "contract OrganizerRole"
               }
             },
-            "id": 2773,
+            "id": 2886,
             "nodeType": "InheritanceSpecifier",
-            "src": "1375:13:15"
+            "src": "271:13:15"
           }
         ],
-        "contractDependencies": [3401],
+        "contractDependencies": [3532],
         "contractKind": "contract",
-        "documentation": null,
         "fullyImplemented": true,
-        "id": 2810,
-        "linearizedBaseContracts": [2810, 3401],
+        "id": 2924,
+        "linearizedBaseContracts": [2924, 3532],
         "name": "OrganizerRoleMock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 2780,
+              "id": 2893,
               "nodeType": "Block",
-              "src": "1442:2:15",
+              "src": "331:2:15",
               "statements": []
             },
-            "documentation": null,
-            "id": 2781,
+            "id": 2894,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [
                   {
-                    "argumentTypes": null,
                     "expression": {
-                      "argumentTypes": null,
-                      "id": 2776,
+                      "id": 2889,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4230,
-                      "src": "1430:3:15",
+                      "referencedDeclaration": 4294967281,
+                      "src": "319:3:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 2777,
+                    "id": 2890,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "sender",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": null,
-                    "src": "1430:10:15",
+                    "src": "319:10:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
                       "typeString": "address payable"
                     }
                   }
                 ],
-                "id": 2778,
+                "id": 2891,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2775,
+                  "id": 2888,
                   "name": "OrganizerRole",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3401,
-                  "src": "1416:13:15",
+                  "referencedDeclaration": 3532,
+                  "src": "305:13:15",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3401_$",
+                    "typeIdentifier": "t_type$_t_contract$_OrganizerRole_$3532_$",
                     "typeString": "type(contract OrganizerRole)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1416:25:15"
+                "src": "305:25:15"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2774,
+              "id": 2887,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1406:2:15"
+              "src": "302:2:15"
             },
             "returnParameters": {
-              "id": 2779,
+              "id": 2892,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1442:0:15"
+              "src": "331:0:15"
             },
-            "scope": 2810,
-            "src": "1395:49:15",
+            "scope": 2924,
+            "src": "291:42:15",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2790,
+              "id": 2903,
               "nodeType": "Block",
-              "src": "1499:42:15",
+              "src": "388:42:15",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [
                       {
-                        "argumentTypes": null,
-                        "id": 2787,
+                        "id": 2900,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2783,
-                        "src": "1526:7:15",
+                        "referencedDeclaration": 2896,
+                        "src": "415:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -720,18 +703,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 2786,
+                      "id": 2899,
                       "name": "_removeOrganizer",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [2809],
-                      "referencedDeclaration": 2809,
-                      "src": "1509:16:15",
+                      "overloadedDeclarations": [2923],
+                      "referencedDeclaration": 2923,
+                      "src": "398:16:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2788,
+                    "id": 2901,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -739,36 +722,38 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1509:25:15",
+                    "src": "398:25:15",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2789,
+                  "id": 2902,
                   "nodeType": "ExpressionStatement",
-                  "src": "1509:25:15"
+                  "src": "398:25:15"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2791,
+            "functionSelector": "44ade56d",
+            "id": 2904,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "removeOrganizer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2784,
+              "id": 2897,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2783,
+                  "id": 2896,
+                  "mutability": "mutable",
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2791,
-                  "src": "1475:15:15",
+                  "scope": 2904,
+                  "src": "364:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -776,104 +761,100 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2782,
+                    "id": 2895,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1475:7:15",
+                    "src": "364:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "1474:17:15"
+              "src": "363:17:15"
             },
             "returnParameters": {
-              "id": 2785,
+              "id": 2898,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1499:0:15"
+              "src": "388:0:15"
             },
-            "scope": 2810,
-            "src": "1450:91:15",
+            "scope": 2924,
+            "src": "339:91:15",
             "stateMutability": "nonpayable",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2796,
+              "id": 2909,
               "nodeType": "Block",
-              "src": "1602:64:15",
+              "src": "491:64:15",
               "statements": []
             },
-            "documentation": null,
-            "id": 2797,
+            "functionSelector": "478370df",
+            "id": 2910,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "arguments": null,
-                "id": 2794,
+                "id": 2907,
                 "modifierName": {
-                  "argumentTypes": null,
-                  "id": 2793,
+                  "id": 2906,
                   "name": "onlyOrganizer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3334,
-                  "src": "1588:13:15",
+                  "referencedDeclaration": 3465,
+                  "src": "477:13:15",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1588:13:15"
+                "src": "477:13:15"
               }
             ],
             "name": "onlyOrganizerMock",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2792,
+              "id": 2905,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1573:2:15"
+              "src": "462:2:15"
             },
             "returnParameters": {
-              "id": 2795,
+              "id": 2908,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1602:0:15"
+              "src": "491:0:15"
             },
-            "scope": 2810,
-            "src": "1547:119:15",
+            "scope": 2924,
+            "src": "436:119:15",
             "stateMutability": "view",
-            "superFunction": null,
+            "virtual": false,
             "visibility": "public"
           },
           {
+            "baseFunctions": [3531],
             "body": {
-              "id": 2808,
+              "id": 2922,
               "nodeType": "Block",
-              "src": "1800:48:15",
+              "src": "698:48:15",
               "statements": [
                 {
                   "expression": {
-                    "argumentTypes": null,
                     "arguments": [
                       {
-                        "argumentTypes": null,
-                        "id": 2805,
+                        "id": 2919,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2799,
-                        "src": "1833:7:15",
+                        "referencedDeclaration": 2912,
+                        "src": "731:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -888,33 +869,32 @@
                         }
                       ],
                       "expression": {
-                        "argumentTypes": null,
-                        "id": 2802,
+                        "id": 2916,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4291,
-                        "src": "1810:5:15",
+                        "referencedDeclaration": 4294967271,
+                        "src": "708:5:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2810",
+                          "typeIdentifier": "t_super$_OrganizerRoleMock_$2924",
                           "typeString": "contract super OrganizerRoleMock"
                         }
                       },
-                      "id": 2804,
+                      "id": 2918,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_removeOrganizer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3400,
-                      "src": "1810:22:15",
+                      "referencedDeclaration": 3531,
+                      "src": "708:22:15",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 2806,
+                    "id": 2920,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -922,36 +902,43 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1810:31:15",
+                    "src": "708:31:15",
+                    "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2807,
+                  "id": 2921,
                   "nodeType": "ExpressionStatement",
-                  "src": "1810:31:15"
+                  "src": "708:31:15"
                 }
               ]
             },
-            "documentation": null,
-            "id": 2809,
+            "id": 2923,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_removeOrganizer",
             "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 2914,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "689:8:15"
+            },
             "parameters": {
-              "id": 2800,
+              "id": 2913,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2799,
+                  "id": 2912,
+                  "mutability": "mutable",
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2809,
-                  "src": "1774:15:15",
+                  "scope": 2923,
+                  "src": "663:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -959,52 +946,55 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2798,
+                    "id": 2911,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1774:7:15",
+                    "src": "663:7:15",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "value": null,
                   "visibility": "internal"
                 }
               ],
-              "src": "1773:17:15"
+              "src": "662:17:15"
             },
             "returnParameters": {
-              "id": 2801,
+              "id": 2915,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1800:0:15"
+              "src": "698:0:15"
             },
-            "scope": 2810,
-            "src": "1748:100:15",
+            "scope": 2924,
+            "src": "637:109:15",
             "stateMutability": "nonpayable",
-            "superFunction": 3400,
+            "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 2811,
-        "src": "1345:505:15"
+        "scope": 2925,
+        "src": "241:507:15"
       }
     ],
-    "src": "1282:569:15"
+    "src": "170:579:15"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+    "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.20",
-  "updatedAt": "2020-01-30T11:34:10.515Z",
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2021-01-22T04:14:17.110Z",
   "devdoc": {
-    "methods": {}
+    "kind": "dev",
+    "methods": {},
+    "version": 1
   },
   "userdoc": {
-    "methods": {}
+    "kind": "user",
+    "methods": {},
+    "version": 1
   }
 }
